@@ -1,74 +1,83 @@
 {
-  "updated": "2026-10-26T21:26:24+00:00",
-  "week_start": "2026-10-25",
-  "xp": {
-    "total": [
-      {
-        "name": ".:Krustiz:.",
-        "value": 9
-      },
-      {
-        "name": "Icarem",
-        "value": 5
-      },
-      {
-        "name": "sami75.19",
-        "value": 4
-      },
-      {
-        "name": "irysse",
-        "value": 2
-      },
-      {
-        "name": "ZeWired089",
-        "value": 2
-      },
-      {
-        "name": ".Libellule",
-        "value": 1
-      },
-      {
-        "name": "Monsieur-RF",
-        "value": 1
-      },
-      {
-        "name": "Piingouin.",
-        "value": 1
-      }
-    ],
-    "week": []
-  },
-  "pr": {
-    "total": [
-      {
-        "name": "sami75.19",
-        "value": 96
-      },
-      {
-        "name": ".:Krustiz:.",
-        "value": 35
-      },
-      {
-        "name": "Eleanora",
-        "value": 26
-      },
-      {
-        "name": "irysse",
-        "value": 23
-      },
-      {
-        "name": "halos34",
-        "value": 8
-      },
-      {
-        "name": "Piingouin.",
-        "value": 4
-      },
-      {
-        "name": "Icarem",
-        "value": 3
-      }
-    ],
-    "week": []
-  }
+ "updated": "2026-10-26T21:26:58+00:00",
+ "week_start": "2026-10-25",
+ "xp": {
+  "total": [
+   {
+    "name": ".:Krustiz:.",
+    "value": 9
+   },
+   {
+    "name": "Icarem",
+    "value": 5
+   },
+   {
+    "name": "sami75.19",
+    "value": 4
+   },
+   {
+    "name": "irysse",
+    "value": 2
+   },
+   {
+    "name": "ZeWired089",
+    "value": 2
+   },
+   {
+    "name": ".Libellule",
+    "value": 1
+   },
+   {
+    "name": "Monsieur-RF",
+    "value": 1
+   },
+   {
+    "name": "Piingouin.",
+    "value": 1
+   }
+  ],
+  "week": []
+ },
+ "pr": {
+  "total": [
+   {
+    "name": "sami75.19",
+    "value": 101
+   },
+   {
+    "name": ".:Krustiz:.",
+    "value": 35
+   },
+   {
+    "name": "Eleanora",
+    "value": 26
+   },
+   {
+    "name": "irysse",
+    "value": 24
+   },
+   {
+    "name": "halos34",
+    "value": 8
+   },
+   {
+    "name": "Piingouin.",
+    "value": 4
+   },
+   {
+    "name": "Icarem",
+    "value": 3
+   }
+  ],
+  "week": [
+   {
+    "name": "sami75.19",
+    "value": 5
+   },
+   {
+    "name": "irysse",
+    "value": 1
+   }
+  ]
+ }
 }
