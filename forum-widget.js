@@ -20,7 +20,7 @@
     var h = '<div class="pnw-sec"><div class="pnw-lbl">' + label + '</div>';
     rows = (rows || []).filter(function (r) { return r && r.name && Number(r.value) > 0; })
       .sort(function (a, b) { return b.value - a.value; }).slice(0, 3);
-    if (!rows.length) return h + '<div class="pnw-none">Bientôt disponible</div></div>';
+    if (!rows.length) return h + '<div class="pnw-none">En attente de nouveaux points</div></div>';
     var order = [1, 0, 2], dirs = [3, 2, 4], pod = '', names = '';
     order.forEach(function (i) {
       var r = rows[i];
