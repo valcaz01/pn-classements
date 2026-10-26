@@ -1,0 +1,35 @@
+# PN — met à jour classement.json toutes les 15 minutes (GitHub Actions).
+# Dépôt PUBLIC pn-classements (voir LISEZMOI.md).
+# Secret du dépôt (Settings → Secrets and variables → Actions) : WIRED_READ_KEY (clé de LECTURE de l'add-on API Web).
+# Variable du dépôt (même écran, onglet Variables) : VAR_PR, à remplir quand la variable existera en jeu.
+# Données lues par le forum : https://raw.githubusercontent.com/valcaz01/pn-classements/main/classement.json
+name: classements
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: classements
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Lire l'API Web Habbo
+        env:
+          WIRED_ROOM_ID: "46858918"  # salle « Test » (porte xp et l'add-on API Web)
+          WIRED_READ_KEY: ${{ secrets.WIRED_READ_KEY }}
+          VAR_XP: xp
+          VAR_PR: ${{ vars.VAR_PR }}
+        run: python build_classement.py
+      - name: Publier si changement
+        run: |
+          git config user.name "pn-classements"
+          git config user.email "actions@users.noreply.github.com"
+          git add classement.json noms.json
+          git diff --cached --quiet || git commit -m "Classements $(date -u +%FT%TZ)"
+          git push
