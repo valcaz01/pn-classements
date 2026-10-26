@@ -1,4 +1,4 @@
-# PN — met à jour classement.json toutes les 15 minutes (GitHub Actions).
+# PN — met à jour classement.json et son cumul hebdomadaire toutes les 15 minutes.
 # Dépôt PUBLIC pn-classements (voir LISEZMOI.md).
 # Secret du dépôt (Settings → Secrets and variables → Actions) : WIRED_READ_KEY (clé de LECTURE de l'add-on API Web).
 # Variable du dépôt (même écran, onglet Variables) : VAR_PR, à remplir quand la variable existera en jeu.
@@ -30,6 +30,6 @@ jobs:
         run: |
           git config user.name "pn-classements"
           git config user.email "actions@users.noreply.github.com"
-          git add classement.json noms.json
+          git add classement.json noms.json classement-state.json
           git diff --cached --quiet || git commit -m "Classements $(date -u +%FT%TZ)"
           git push

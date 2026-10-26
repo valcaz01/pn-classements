@@ -1,67 +1,74 @@
 {
- "updated": "2026-10-26T19:54:19+00:00",
- "xp": [
-  {
-   "name": ".:Krustiz:.",
-   "value": 9
+  "updated": "2026-10-26T20:54:19+01:00",
+  "xp": {
+    "total": [
+      {
+        "name": ".:Krustiz:.",
+        "value": 9
+      },
+      {
+        "name": "Icarem",
+        "value": 5
+      },
+      {
+        "name": "sami75.19",
+        "value": 4
+      },
+      {
+        "name": "ZeWired089",
+        "value": 2
+      },
+      {
+        "name": "irysse",
+        "value": 1
+      },
+      {
+        "name": ".Libellule",
+        "value": 1
+      },
+      {
+        "name": "Monsieur-RF",
+        "value": 1
+      },
+      {
+        "name": "Piingouin.",
+        "value": 1
+      }
+    ],
+    "week": []
   },
-  {
-   "name": "Icarem",
-   "value": 5
+  "pr": {
+    "total": [
+      {
+        "name": "sami75.19",
+        "value": 90
+      },
+      {
+        "name": ".:Krustiz:.",
+        "value": 36
+      },
+      {
+        "name": "Eleanora",
+        "value": 26
+      },
+      {
+        "name": "irysse",
+        "value": 21
+      },
+      {
+        "name": "Piingouin.",
+        "value": 4
+      },
+      {
+        "name": "Icarem",
+        "value": 3
+      },
+      {
+        "name": "halos34",
+        "value": 3
+      }
+    ],
+    "week": []
   },
-  {
-   "name": "sami75.19",
-   "value": 4
-  },
-  {
-   "name": "ZeWired089",
-   "value": 2
-  },
-  {
-   "name": "irysse",
-   "value": 1
-  },
-  {
-   "name": ".Libellule",
-   "value": 1
-  },
-  {
-   "name": "Monsieur-RF",
-   "value": 1
-  },
-  {
-   "name": "Piingouin.",
-   "value": 1
-  }
- ],
- "pr": [
-  {
-   "name": "sami75.19",
-   "value": 90
-  },
-  {
-   "name": ".:Krustiz:.",
-   "value": 36
-  },
-  {
-   "name": "Eleanora",
-   "value": 26
-  },
-  {
-   "name": "irysse",
-   "value": 21
-  },
-  {
-   "name": "Piingouin.",
-   "value": 4
-  },
-  {
-   "name": "Icarem",
-   "value": 3
-  },
-  {
-   "name": "halos34",
-   "value": 3
-  }
- ]
+  "week_start": "2026-10-26"
 }

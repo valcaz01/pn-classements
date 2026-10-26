@@ -2,7 +2,8 @@
 """PN — classement.json pour la page « Classements » et le widget podium du forum.
 
 Lit les variables utilisateur permanentes de l'appart (add-on « API Web ») et écrit
-classement.json : {"updated": ISO, "xp": [{"name", "value"}], "pr": [...]}.
+classement.json avec les scores totaux et hebdomadaires. Les totaux permanents
+sont échantillonnés toutes les 15 minutes ; leur différence alimente la semaine.
 
 Variables d'environnement :
   HABBO_HOST       hôtel (défaut www.habbo.fr)
@@ -23,7 +24,8 @@ import time
 import urllib.error
 import urllib.parse
 import urllib.request
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
+from zoneinfo import ZoneInfo
 
 HOST = os.environ.get("HABBO_HOST", "www.habbo.fr")
 ROOM = os.environ.get("WIRED_ROOM_ID", "").strip()
@@ -31,6 +33,7 @@ KEY = os.environ.get("WIRED_READ_KEY", "").strip()
 VARS = {"xp": os.environ.get("VAR_XP", "xp").strip(), "pr": (os.environ.get("VAR_PR") or "pts_recrutement").strip()}
 TOP = int(os.environ.get("TOP", "50"))
 OUT = os.environ.get("OUT", "classement.json")
+STATE = os.environ.get("STATE", "classement-state.json")
 PAUSE = 0.6
 
 
@@ -66,24 +69,46 @@ def parse(item):
 
 
 def top_values(var):
-    data = get(f"/variables/user/{urllib.parse.quote(var)}/users",
-               {"order_by": "value", "order_dir": "desc", "page": 1, "size": min(TOP, 100)})
-    time.sleep(PAUSE)
-    items = (data or {}).get("items", [])
-    print(f"[API] variable « {var} » : {len(items)} valeur(s)")
-    rows = [parse(i) for i in items]
+    rows = []
+    page = 1
+    while True:
+        data = get(f"/variables/user/{urllib.parse.quote(var)}/users",
+                   {"order_by": "value", "order_dir": "desc", "page": page, "size": 100})
+        if data is None:
+            raise RuntimeError(f"Variable WIRED « {var} » introuvable ; publication annulée.")
+        items = (data or {}).get("items", [])
+        rows.extend(parse(i) for i in items)
+        if len(items) < 100:
+            break
+        page += 1
+        time.sleep(PAUSE)
+    print(f"[API] variable « {var} » : {len(rows)} valeur(s)")
     return [r for r in rows if r[2] > 0]
+
+
+def read_json(path, fallback):
+    try:
+        with open(path, encoding="utf-8") as f:
+            return json.load(f)
+    except (OSError, ValueError):
+        return fallback
+
+
+def monday_start(now):
+    local_date = now.astimezone(ZoneInfo("Europe/Paris")).date()
+    return (local_date - timedelta(days=local_date.weekday())).isoformat()
 
 
 def main():
     if not ROOM or not KEY:
         sys.exit("WIRED_ROOM_ID et WIRED_READ_KEY sont obligatoires.")
-    try:
-        cache = json.load(open("noms.json", encoding="utf-8"))
-    except (OSError, ValueError):
-        cache = {}
+    cache = read_json("noms.json", {})
+    previous_data = read_json(OUT, {})
+    state = read_json(STATE, {})
 
-    out = {"updated": datetime.now(timezone.utc).isoformat(timespec="seconds"), "xp": [], "pr": []}
+    now = datetime.now(timezone.utc)
+    current_week = monday_start(now)
+    current = {key: {} for key in VARS}
     for key, var in VARS.items():
         if not var:
             continue
@@ -96,19 +121,60 @@ def main():
                 time.sleep(PAUSE)
                 cache[uid] = ((prof or {}).get("user") or {}).get("name") or ""
             if cache[uid]:
-                out[key].append({"name": cache[uid], "value": value})
+                current[key][uid] = {"name": cache[uid], "value": value}
 
-    try:  # date inchangée si les scores n'ont pas bougé : pas de commit inutile
-        old = json.load(open(OUT, encoding="utf-8"))
-        if old.get("xp") == out["xp"] and old.get("pr") == out["pr"]:
-            out["updated"] = old.get("updated", out["updated"])
-    except (OSError, ValueError):
-        pass
+    # Au premier lancement, prendre les scores courants comme point de départ.
+    # Les gains antérieurs à l'activation du suivi ne sont pas reconstituables.
+    previous_totals = state.get("last_totals", {}) if state.get("initialized") else {
+        key: {uid: row["value"] for uid, row in rows.items()}
+        for key, rows in current.items()
+    }
+    if state.get("week_start") == current_week:
+        weekly = state.get("week_values") or {key: {} for key in VARS}
+    else:
+        weekly = {key: {} for key in VARS}
+
+    for key, rows in current.items():
+        before = previous_totals.get(key, {})
+        week_rows = weekly.setdefault(key, {})
+        for uid, row in rows.items():
+            delta = max(0, row["value"] - int(before.get(uid, 0)))
+            if delta:
+                old_week = week_rows.get(uid, {})
+                week_rows[uid] = {
+                    "name": row["name"],
+                    "value": int(old_week.get("value", 0)) + delta,
+                }
+
+    # Une variable absente devient une base à zéro, afin de ne pas recompter
+    # un ancien total si elle est recréée plus tard.
+    last_totals = {key: {uid: 0 for uid in state.get("last_totals", {}).get(key, {})}
+                   for key in VARS}
+    for key, rows in current.items():
+        last_totals[key].update({uid: row["value"] for uid, row in rows.items()})
+
+    out = {"updated": now.isoformat(timespec="seconds"), "week_start": current_week}
+    for key in VARS:
+        total_rows = sorted(current[key].values(), key=lambda r: (-r["value"], r["name"].casefold()))
+        week_rows = sorted(weekly.get(key, {}).values(), key=lambda r: (-r["value"], r["name"].casefold()))
+        out[key] = {
+            "total": total_rows[:TOP],
+            "week": [r for r in week_rows if r["value"] > 0][:TOP],
+        }
+
+    if (previous_data.get("xp") == out.get("xp") and previous_data.get("pr") == out.get("pr")
+            and previous_data.get("week_start") == current_week):
+        out["updated"] = previous_data.get("updated", out["updated"])
+
     with open(OUT, "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=1)
     with open("noms.json", "w", encoding="utf-8") as f:
         json.dump(cache, f, ensure_ascii=False, indent=1)
-    print(f"XP : {len(out['xp'])} joueurs · PR : {len(out['pr'])} joueurs → {OUT}")
+    with open(STATE, "w", encoding="utf-8") as f:
+        json.dump({"initialized": True, "week_start": current_week, "last_totals": last_totals,
+                   "week_values": weekly}, f, ensure_ascii=False, indent=1)
+    print(f"XP : {len(out['xp']['total'])} totaux / {len(out['xp']['week'])} semaine · "
+          f"PR : {len(out['pr']['total'])} totaux / {len(out['pr']['week'])} semaine → {OUT}")
 
 
 if __name__ == "__main__":
