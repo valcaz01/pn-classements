@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T21:26:58+00:00",
+ "updated": "2026-10-26T23:36:53+00:00",
  "week_start": "2026-10-25",
  "xp": {
   "total": [
@@ -42,19 +42,19 @@
   "total": [
    {
     "name": "sami75.19",
-    "value": 101
+    "value": 106
    },
    {
     "name": ".:Krustiz:.",
-    "value": 35
+    "value": 101
+   },
+   {
+    "name": "irysse",
+    "value": 41
    },
    {
     "name": "Eleanora",
     "value": 26
-   },
-   {
-    "name": "irysse",
-    "value": 24
    },
    {
     "name": "halos34",
@@ -71,12 +71,16 @@
   ],
   "week": [
    {
-    "name": "sami75.19",
-    "value": 5
+    "name": ".:Krustiz:.",
+    "value": 66
    },
    {
     "name": "irysse",
-    "value": 1
+    "value": 18
+   },
+   {
+    "name": "sami75.19",
+    "value": 10
    }
   ]
  }
