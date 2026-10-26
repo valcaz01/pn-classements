@@ -121,7 +121,7 @@
   if (demo) {
     data = {
       updated: null,
-      week_start: '2026-10-26',
+      week_start: '2026-10-25',
       xp: { week: DEMO.xp, total: DEMO.xp },
       pr: { week: DEMO.pr, total: DEMO.pr }
     };

@@ -94,9 +94,10 @@ def read_json(path, fallback):
         return fallback
 
 
-def monday_start(now):
+def sunday_start(now):
     local_date = now.astimezone(ZoneInfo("Europe/Paris")).date()
-    return (local_date - timedelta(days=local_date.weekday())).isoformat()
+    days_since_sunday = (local_date.weekday() + 1) % 7
+    return (local_date - timedelta(days=days_since_sunday)).isoformat()
 
 
 def main():
@@ -107,7 +108,7 @@ def main():
     state = read_json(STATE, {})
 
     now = datetime.now(timezone.utc)
-    current_week = monday_start(now)
+    current_week = sunday_start(now)
     current = {key: {} for key in VARS}
     for key, var in VARS.items():
         if not var:
