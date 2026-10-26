@@ -48,6 +48,8 @@ def get(path, params=None):
             if e.code == 429:
                 time.sleep(int(e.headers.get("Retry-After") or 10))
                 continue
+            body = e.read().decode("utf-8", "replace")[:300]
+            print(f"[API] {e.code} sur {path} : {body}", file=sys.stderr)
             if e.code == 404:
                 return None
             raise
@@ -67,6 +69,7 @@ def top_values(var):
                {"order_by": "value", "order_dir": "desc", "page": 1, "size": min(TOP, 100)})
     time.sleep(PAUSE)
     items = (data or {}).get("items", [])
+    print(f"[API] variable « {var} » : {len(items)} valeur(s)" + (f", champs {sorted(items[0])}" if items else ""))
     return [(entity_id(i), int(i["value"])) for i in items if int(i.get("value", 0)) > 0]
 
 
@@ -78,6 +81,9 @@ def main():
     except (OSError, ValueError):
         cache = {}
 
+    listing = get("/variables")  # diagnostic : noms des variables visibles par l'API (pas de valeurs)
+    if listing is not None:
+        print("[API] variables de l'appart :", json.dumps(listing, ensure_ascii=False)[:1500])
     out = {"updated": datetime.now(timezone.utc).isoformat(timespec="seconds"), "xp": [], "pr": []}
     for key, var in VARS.items():
         if not var:
