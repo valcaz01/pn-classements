@@ -10,7 +10,7 @@ Variables d'environnement :
   WIRED_ROOM_ID    id de l'appart qui porte l'add-on (salle Test / QG)
   WIRED_READ_KEY   clé de LECTURE de l'add-on (jamais la clé d'écriture)
   VAR_XP           nom de la variable XP (défaut xp)
-  VAR_PR           nom de la variable points de recrutement (défaut pts_recrutement)
+  VAR_PR           nom de la variable points de recrutement (défaut pts_recrutement_total)
   TOP              nombre de joueurs par classement (défaut 50)
   OUT              fichier de sortie (défaut classement.json)
 
@@ -30,7 +30,7 @@ from zoneinfo import ZoneInfo
 HOST = os.environ.get("HABBO_HOST", "www.habbo.fr")
 ROOM = os.environ.get("WIRED_ROOM_ID", "").strip()
 KEY = os.environ.get("WIRED_READ_KEY", "").strip()
-VARS = {"xp": os.environ.get("VAR_XP", "xp").strip(), "pr": (os.environ.get("VAR_PR") or "pts_recrutement").strip()}
+VARS = {"xp": os.environ.get("VAR_XP", "xp").strip(), "pr": (os.environ.get("VAR_PR") or "pts_recrutement_total").strip()}
 TOP = int(os.environ.get("TOP", "50"))
 OUT = os.environ.get("OUT", "classement.json")
 STATE = os.environ.get("STATE", "classement-state.json")

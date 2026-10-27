@@ -1,7 +1,7 @@
 # PN — met à jour classement.json et son cumul hebdomadaire toutes les 15 minutes.
 # Dépôt PUBLIC pn-classements (voir LISEZMOI.md).
 # Secret du dépôt (Settings → Secrets and variables → Actions) : WIRED_READ_KEY (clé de LECTURE de l'add-on API Web).
-# Variable du dépôt (même écran, onglet Variables) : VAR_PR, à remplir quand la variable existera en jeu.
+# Variable du dépôt (même écran, onglet Variables) : VAR_PR = pts_recrutement_total.
 # Données lues par le forum : https://raw.githubusercontent.com/valcaz01/pn-classements/main/classement.json
 name: classements
 on:
