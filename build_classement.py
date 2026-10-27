@@ -146,6 +146,11 @@ def main():
                     "name": row["name"],
                     "value": int(old_week.get("value", 0)) + delta,
                 }
+            # Une correction manuelle peut abaisser le total en cours de semaine.
+            # Le classement hebdomadaire ne doit alors pas afficher davantage
+            # de points que la variable WIRED actuelle du joueur.
+            if uid in week_rows:
+                week_rows[uid]["value"] = min(int(week_rows[uid]["value"]), row["value"])
 
     # Une variable absente devient une base à zéro, afin de ne pas recompter
     # un ancien total si elle est recréée plus tard.
