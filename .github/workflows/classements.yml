@@ -1,6 +1,8 @@
-# PN — met à jour classement.json et son cumul hebdomadaire toutes les 15 minutes.
+# PN — met à jour classement.json et son cumul hebdomadaire toutes les 15 minutes,
+# et poste les alertes de passage de grade (Cadet, Policier adjoint) dans le salon Discord « Alertes-promotions ».
 # Dépôt PUBLIC pn-classements (voir LISEZMOI.md).
-# Secret du dépôt (Settings → Secrets and variables → Actions) : WIRED_READ_KEY (clé de LECTURE de l'add-on API Web).
+# Secrets du dépôt (Settings → Secrets and variables → Actions) : WIRED_READ_KEY (clé de LECTURE de l'add-on API Web),
+# DISCORD_WEBHOOK (webhook du salon « Alertes-promotions »).
 # Variable du dépôt (même écran, onglet Variables) : VAR_PR = pts_recrutement_total.
 # Données lues par le forum : https://raw.githubusercontent.com/valcaz01/pn-classements/main/classement.json
 name: classements
@@ -8,6 +10,11 @@ on:
   schedule:
     - cron: "*/15 * * * *"
   workflow_dispatch:
+    inputs:
+      test:
+        description: "Envoyer un message de test dans le salon Discord"
+        type: boolean
+        default: false
 permissions:
   contents: write
 concurrency: classements
@@ -26,10 +33,20 @@ jobs:
           VAR_XP: xp
           VAR_PR: ${{ vars.VAR_PR }}
         run: python build_classement.py
+      - name: Alertes de passage de grade (Discord)
+        continue-on-error: true
+        env:
+          WIRED_ROOM_ID: "46858918"
+          WIRED_READ_KEY: ${{ secrets.WIRED_READ_KEY }}
+          VAR_PR: ${{ vars.VAR_PR }}
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+          TEST: ${{ inputs.test && '1' || '' }}
+        run: python alertes_grade.py
       - name: Publier si changement
         run: |
           git config user.name "pn-classements"
           git config user.email "actions@users.noreply.github.com"
           git add classement.json noms.json classement-state.json
+          if [ -f etat_grades.json ]; then git add etat_grades.json; fi
           git diff --cached --quiet || git commit -m "Classements $(date -u +%FT%TZ)"
           git push
