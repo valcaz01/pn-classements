@@ -9,7 +9,7 @@
 name: classements
 on:
   schedule:
-    - cron: "7,22,37,52 * * * *"
+    - cron: "7,22,37,52 * * * *"→ Runs at 7, 22, 37, and 52 minutes past the hour
   workflow_dispatch:
     inputs:
       test:
@@ -50,4 +50,5 @@ jobs:
           git add classement.json noms.json classement-state.json
           if [ -f etat_grades.json ]; then git add etat_grades.json; fi
           git diff --cached --quiet || git commit -m "Classements $(date -u +%FT%TZ)"
+          git pull --rebase --autostash || true   # si quelqu'un a poussé entre-temps : sinon l'état serait perdu (et l'alerte renvoyée)
           git push
