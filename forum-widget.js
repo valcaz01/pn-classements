@@ -25,7 +25,7 @@
     order.forEach(function (i) {
       var r = rows[i];
       if (!r) { pod += '<div></div>'; names += '<div></div>'; return; }
-      var v = Number(r.value).toLocaleString('fr-FR') + ' ' + unit;
+      var v = Number(r.value).toLocaleString('fr-FR') + ' ' + (unit === 'pts' && Number(r.value) === 1 ? 'pt' : unit);
       pod += '<div class="pnw-st s' + (i + 1) + '" title="' + esc(r.name) + ' : ' + v + '">' +
         '<div class="pnw-fig">' +
         '<img src="' + av(r, dirs[i]) + '" style="height:' + crisp(110) + '" alt="Classements ' + av(r, dirs[i]) + '" onerror="this.style.visibility=\'hidden\'"></div>' +
