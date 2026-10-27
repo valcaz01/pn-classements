@@ -9,6 +9,10 @@ Grade lu dans l'humeur Habbo (« [PN] Cadet [XX] », « [PN] Policier adjoint [X
 ancienneté = date où le script voit ce grade pour la première fois dans l'humeur.
 Une alerte par membre et par palier ; état gardé dans etat_grades.json.
 
+Suivi (27/10/2026) : un formateur réagit ✅ sous l'alerte une fois l'action faite (badge accordé, formation proposée).
+À chaque passage, le script relit les réactions de ses alertes via le webhook (aucun bot ni secret en plus)
+et transforme l'alerte en « ✅ … accordé » (vert). Retirer la réaction remet l'alerte « en attente ».
+
 Variables d'environnement : WIRED_ROOM_ID, WIRED_READ_KEY (lecture), DISCORD_WEBHOOK (secret),
 HABBO_HOST (défaut www.habbo.fr), VAR_PR (défaut pts_recrutement), TEST=1 pour poster un message de test.
 """
@@ -36,10 +40,15 @@ NOW = datetime.now(timezone.utc)
 
 PALIERS = {
     "cadet": {"label": "Cadet", "seuil": 200, "jours": 3, "cible": "Policier adjoint",
-              "texte": "peut passer **Policier adjoint**", "couleur": 0x2F8FD4},
+              "texte": "peut passer **Policier adjoint**", "couleur": 0x2F8FD4,
+              "action": "Badge Policier adjoint accordé"},
     "pa": {"label": "Policier adjoint", "seuil": 300, "jours": 3, "cible": "formation Gardien de la paix",
-           "texte": "est éligible à la **formation Gardien de la paix**", "couleur": 0xE3B34A},
+           "texte": "est éligible à la **formation Gardien de la paix**", "couleur": 0xE3B34A,
+           "action": "Formation Gardien de la paix proposée"},
 }
+VALIDE = {"✅", "☑️", "✔️"}     # réactions qui valent « fait »
+VERT = 0x188A68
+SUIVI_JOURS = 30               # réactions relues pendant 30 jours après l'alerte
 RE_GRADE = re.compile(r"\[\s*p\.?\s*n\.?\s*\]\s*(cadet|policier[\s\-]*adjoint)\b")
 
 
@@ -103,15 +112,77 @@ def motto_of(name):
     return None if data is None else (data.get("motto") or "")
 
 
+def hook(path="", **params):
+    """Adresse du webhook (+ /messages/<id>), en gardant un éventuel ?thread_id du secret."""
+    base, _, query = HOOK.partition("?")
+    q = dict(urllib.parse.parse_qsl(query))
+    q.update({k: v for k, v in params.items() if v is not None})
+    return base.rstrip("/") + path + ("?" + urllib.parse.urlencode(q) if q else "")
+
+
 def post(embed):
+    """Poste l'alerte ; renvoie l'identifiant du message (ou None)."""
     if not HOOK:
         print("[Discord] pas de webhook configuré : message non envoyé →", embed.get("title"))
-        return False
-    req(HOOK + ("&" if "?" in HOOK else "?") + "wait=true", {"Content-Type": "application/json"},
-        json.dumps({"username": "Alertes PN", "embeds": [embed], "allowed_mentions": {"parse": []}}).encode(),
-        "POST")
+        return None
+    msg = req(hook(wait="true"), {"Content-Type": "application/json"},
+              json.dumps({"username": "Alertes PN", "embeds": [embed], "allowed_mentions": {"parse": []}}).encode(),
+              "POST") or {}
     time.sleep(1)
-    return True
+    return str(msg.get("id") or "") or "?"
+
+
+def suivi_field(action, fait=None):
+    if fait:
+        return {"name": "Suivi", "value": f"✅ **{action}** · constaté le {fait}", "inline": False}
+    return {"name": "Suivi", "value": f"⬜ En attente · réagis ✅ sous ce message quand c'est fait : **{action}**",
+            "inline": False}
+
+
+def clean_embed(e):
+    out = {k: e[k] for k in ("title", "description", "color", "timestamp") if k in e}
+    out["fields"] = [{k: f[k] for k in ("name", "value", "inline") if k in f} for f in e.get("fields") or []]
+    if (e.get("thumbnail") or {}).get("url"):
+        out["thumbnail"] = {"url": e["thumbnail"]["url"]}
+    if (e.get("footer") or {}).get("text"):
+        out["footer"] = {"text": e["footer"]["text"]}
+    return out
+
+
+def reacted(msg):
+    """Nombre de réactions « fait » sur le message (None si Discord ne renvoie pas les réactions)."""
+    if "reactions" not in msg:
+        return 0
+    return sum(r.get("count", 0) for r in msg.get("reactions") or []
+               if (r.get("emoji") or {}).get("name") in VALIDE)
+
+
+def maj_suivi(mid, palier, couleur, deja):
+    """Relit les réactions d'une alerte et la met à jour si son état change. Renvoie la date « fait » ou None."""
+    msg = req(hook(f"/messages/{mid}"))
+    time.sleep(0.5)
+    if not msg:
+        return "supprimé"
+    n = reacted(msg)
+    fait = deja if (n and deja) else (local(NOW) if n else None)
+    if bool(fait) == bool(deja) and any(f.get("name") == "Suivi" for f in (msg.get("embeds") or [{}])[0].get("fields") or []):
+        return deja
+    e = clean_embed((msg.get("embeds") or [{}])[0])
+    fields = [f for f in e.get("fields", []) if f.get("name") != "Suivi"]
+    fields.append(suivi_field(palier["action"], fait))
+    e["fields"] = fields
+    title = re.sub(r"^\S+\s", "", e.get("title", ""))
+    e["title"] = ("✅ " if fait else "🎖️ ") + title
+    e["color"] = VERT if fait else couleur
+    req(hook(f"/messages/{mid}"), {"Content-Type": "application/json"},
+        json.dumps({"embeds": [e], "allowed_mentions": {"parse": []}}).encode(), "PATCH")
+    time.sleep(1)
+    print(f"[Suivi] message {mid} → {'fait' if fait else 'en attente'}")
+    return fait
+
+
+def local(d):
+    return d.astimezone(timezone(timedelta(hours=1))).strftime("%d/%m à %Hh%M")
 
 
 def iso(d):
@@ -128,6 +199,19 @@ def main():
               "color": 0x0B3A5E, "footer": {"text": "Police Nationale · vérification toutes les 15 minutes"},
               "timestamp": iso(NOW)})
         print("Message de test envoyé.")
+        return
+    if os.environ.get("TEST") == "suivi":
+        try:
+            etat = json.load(open(ETAT, encoding="utf-8"))
+        except (OSError, ValueError):
+            etat = {}
+        p = PALIERS["cadet"]
+        mid = post({"title": "🎖️ Exemple · test du suivi", "color": p["couleur"],
+                    "description": "Message d'essai : réagis ✅ ci-dessous, il passera en vert au prochain passage du script.",
+                    "fields": [suivi_field(p["action"])], "timestamp": iso(NOW)})
+        etat["_test"] = {"message": mid, "palier": "cadet", "poste": iso(NOW), "fait": None}
+        json.dump(etat, open(ETAT, "w", encoding="utf-8"), ensure_ascii=False, indent=1, sort_keys=True)
+        print("Message de test du suivi envoyé :", mid)
         return
     if not ROOM or not KEY:
         sys.exit("WIRED_ROOM_ID et WIRED_READ_KEY sont obligatoires.")
@@ -189,15 +273,46 @@ def main():
                 {"name": "Ancienneté", "value": f"{int(jours)} jours (≥ {p['jours']})", "inline": True},
                 {"name": "Points de recrutement", "value": f"{pts} (≥ {p['seuil']})", "inline": True},
                 {"name": "Humeur", "value": f"`{(e.get('humeur') or '')[:100]}`", "inline": False},
+                suivi_field(p["action"]),
             ],
             "thumbnail": {"url": f"https://{HOST}/habbo-imaging/avatarimage?user={urllib.parse.quote(e['pseudo'])}"
                                  "&direction=2&head_direction=3&headonly=1&size=l"},
             "footer": {"text": f"Grade vu dans l'humeur depuis le {depuis.astimezone(timezone(timedelta(hours=1))).strftime('%d/%m/%Y')}"},
             "timestamp": iso(NOW),
         }
-        if post(embed):
+        mid = post(embed)
+        if mid:
             e.setdefault("alertes", {})[g] = iso(NOW)
+            e.setdefault("messages", {})[g] = mid
             envoyees += 1
+
+    # Suivi : relit les réactions ✅ des alertes récentes et met les messages à jour.
+    suivis = 0
+    if HOOK:
+        for uid, e in etat.items():
+            items = [(g, e.get("messages", {}).get(g), e.get("alertes", {}).get(g)) for g in PALIERS] if uid != "_test" \
+                else [(e.get("palier"), e.get("message"), e.get("poste"))]
+            for g, mid, quand in items:
+                if not mid or mid == "?" or g not in PALIERS or not quand:
+                    continue
+                if NOW - datetime.fromisoformat(quand) > timedelta(days=SUIVI_JOURS):
+                    continue
+                cle = e.setdefault("fait", {}) if uid != "_test" else None
+                deja = cle.get(g) if cle is not None else e.get("fait")
+                try:
+                    res = maj_suivi(mid, PALIERS[g], PALIERS[g]["couleur"], deja)
+                except Exception as exc:  # une alerte illisible ne bloque pas les autres
+                    print(f"[Suivi] message {mid} illisible : {exc}", file=sys.stderr)
+                    continue
+                suivis += 1
+                if res == "supprimé":
+                    (e.setdefault("messages", {}) if cle is not None else e)["message" if cle is None else g] = None
+                    continue
+                if cle is not None:
+                    cle[g] = res
+                else:
+                    e["fait"] = res
+    print(f"[Suivi] {suivis} alerte(s) relue(s)")
 
     with open(ETAT, "w", encoding="utf-8") as f:
         json.dump(etat, f, ensure_ascii=False, indent=1, sort_keys=True)
