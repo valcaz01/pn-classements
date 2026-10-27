@@ -4,17 +4,20 @@
 # Secrets du dépôt (Settings → Secrets and variables → Actions) : WIRED_READ_KEY (clé de LECTURE de l'add-on API Web),
 # DISCORD_WEBHOOK (webhook du salon « Alertes-promotions »).
 # Variable du dépôt (même écran, onglet Variables) : VAR_PR = pts_recrutement_total.
+# Suivi : un formateur réagit ✅ sous une alerte une fois le badge accordé ; le passage suivant la passe en vert.
+# Minutes décalées (7, 22, 37, 52) : GitHub saute beaucoup de passages programmés pile à :00/:15/:30/:45.
 # Données lues par le forum : https://raw.githubusercontent.com/valcaz01/pn-classements/main/classement.json
 name: classements
 on:
   schedule:
-    - cron: "*/15 * * * *"
+    - cron: "7,22,37,52 * * * *"
   workflow_dispatch:
     inputs:
       test:
-        description: "Envoyer un message de test dans le salon Discord"
-        type: boolean
-        default: false
+        description: "Message de test dans le salon Discord"
+        type: choice
+        options: [aucun, connexion, suivi]
+        default: aucun
 permissions:
   contents: write
 concurrency: classements
@@ -40,7 +43,7 @@ jobs:
           WIRED_READ_KEY: ${{ secrets.WIRED_READ_KEY }}
           VAR_PR: ${{ vars.VAR_PR }}
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
-          TEST: ${{ inputs.test && '1' || '' }}
+          TEST: ${{ inputs.test == 'connexion' && '1' || inputs.test == 'suivi' && 'suivi' || '' }}
         run: python alertes_grade.py
       - name: Publier si changement
         run: |
