@@ -9,7 +9,7 @@
 name: classements
 on:
   schedule:
-    - cron: "7,22,37,52 * * * *"→ Runs at 7, 22, 37, and 52 minutes past the hour
+    - cron: "7,22,37,52 * * * *"
   workflow_dispatch:
     inputs:
       test:
