@@ -211,8 +211,7 @@ def main():
                 f"Conditions vérifiées par le bot (3 jours + 200 PR).\n"
                 f"**1.** Remets le badge **Policier adjoint** à **{e['pseudo']}** sur Habbo.\n"
                 f"**2.** Clique sur **Badge attribué** : l'alerte passe en vert avec ton pseudo et tu gagnes **1 XP** en jeu "
-                f"(retiré si tu cliques ensuite sur **Annuler**).\n"
-                f"La demande du sujet « Gestion du badge Policier adjoint » du forum se valide à part.")})
+                f"(retiré si tu cliques ensuite sur **Annuler**).")})
         if post(embed):
             e.setdefault("alertes", {})[g] = iso(NOW)
             envoyees += 1

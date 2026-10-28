@@ -101,8 +101,7 @@ def procedure(pseudo):
         "Conditions vérifiées par le bot (3 jours + 200 PR).\n"
         f"**1.** Remets le badge **Policier adjoint** à **{pseudo}** sur Habbo.\n"
         "**2.** Clique sur **Badge attribué** : l'alerte passe en vert avec ton pseudo et tu gagnes **1 XP** en jeu "
-        "(retiré si tu cliques ensuite sur **Annuler**).\n"
-        "La demande du sujet « Gestion du badge Policier adjoint » du forum se valide à part.")}
+        "(retiré si tu cliques ensuite sur **Annuler**).")}
 
 
 def refresh_habbo():
