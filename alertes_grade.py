@@ -8,6 +8,9 @@ Paliers (décisions de Val, 27/10/2026) :
 Grade lu dans l'humeur Habbo (« [PN] Cadet [XX] », « [PN] Policier adjoint [XX] ») via l'API publique,
 ancienneté = date où le script voit ce grade pour la première fois dans l'humeur.
 Une alerte par membre et par palier ; état gardé dans etat_grades.json.
+Depuis le 28/10/2026, les alertes sont postées par le bot PN · Alertes (serveur Hetzner, serveur/pn_bot.py) :
+l'alerte Cadet → Policier adjoint porte la procédure et un bouton vert « Badge attribué » (Hauts gradés et plus).
+La clé « _pn » de l'embed (membre, palier) est lue puis retirée par le bot avant l'envoi.
 
 Variables d'environnement : WIRED_ROOM_ID, WIRED_READ_KEY (lecture), DISCORD_WEBHOOK (secret),
 HABBO_HOST (défaut www.habbo.fr), VAR_PR (défaut pts_recrutement), TEST=1 pour poster un message de test.
@@ -104,6 +107,7 @@ def motto_of(name):
 
 
 def post(embed):
+    embed.pop("_pn", None)
     if not HOOK:
         print("[Discord] pas de webhook configuré : message non envoyé →", embed.get("title"))
         return False
@@ -194,7 +198,15 @@ def main():
                                  "&direction=2&head_direction=3&headonly=1&size=l"},
             "footer": {"text": f"Grade vu dans l'humeur depuis le {depuis.astimezone(timezone(timedelta(hours=1))).strftime('%d/%m/%Y')}"},
             "timestamp": iso(NOW),
+            "_pn": {"uid": uid, "palier": g, "pseudo": e["pseudo"]},
         }
+        if g == "cadet":
+            embed["fields"].append({"name": "Procédure · Hauts gradés et plus", "inline": False, "value": (
+                f"Conditions vérifiées par le bot (3 jours + 200 PR).\n"
+                f"**1.** Remets le badge **Policier adjoint** à **{e['pseudo']}** sur Habbo.\n"
+                f"**2.** Clique sur **Badge attribué** : l'alerte passe en vert avec ton pseudo, "
+                f"personne ne la traitera deux fois.\n"
+                f"La demande du sujet « Gestion du badge Policier adjoint » du forum se valide à part.")})
         if post(embed):
             e.setdefault("alertes", {})[g] = iso(NOW)
             envoyees += 1
