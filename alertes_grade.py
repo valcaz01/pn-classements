@@ -5,7 +5,8 @@ Paliers (décisions de Val, 27/10/2026) :
   Cadet            → Policier adjoint                     : 3 jours de grade + 200 points de recrutement
   Policier adjoint → éligible formation Gardien de la paix : 3 jours de grade + 300 points de recrutement (total)
 
-Grade lu dans l'humeur Habbo (« [PN] Cadet [XX] », « [PN] Policier adjoint [XX] ») via l'API publique,
+Grade lu dans l'humeur Habbo (« [PN] Cadet », « [PN] Policier adjoint » ; l'acronyme du formateur entre crochets
+a été retiré des humeurs le 28/10/2026, il reste toléré) via l'API publique,
 ancienneté = date où le script voit ce grade pour la première fois dans l'humeur.
 Une alerte par membre et par palier ; état gardé dans etat_grades.json.
 Depuis le 28/10/2026, les alertes sont postées par le bot PN · Alertes (serveur Hetzner, serveur/pn_bot.py) :
@@ -204,8 +205,8 @@ def main():
             embed["fields"].append({"name": "Procédure · Hauts gradés et plus", "inline": False, "value": (
                 f"Conditions vérifiées par le bot (3 jours + 200 PR).\n"
                 f"**1.** Remets le badge **Policier adjoint** à **{e['pseudo']}** sur Habbo.\n"
-                f"**2.** Clique sur **Badge attribué** : l'alerte passe en vert avec ton pseudo, "
-                f"personne ne la traitera deux fois.\n"
+                f"**2.** Clique sur **Badge attribué** : l'alerte passe en vert avec ton pseudo et tu gagnes **1 XP** en jeu "
+                f"(retiré si tu cliques ensuite sur **Annuler**).\n"
                 f"La demande du sujet « Gestion du badge Policier adjoint » du forum se valide à part.")})
         if post(embed):
             e.setdefault("alertes", {})[g] = iso(NOW)
