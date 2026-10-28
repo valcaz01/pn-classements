@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T21:15:21+00:00",
+ "updated": "2026-10-28T21:30:21+00:00",
  "week_start": "2026-10-26",
  "xp": {
   "total": [
@@ -31,14 +31,14 @@
    },
    {
     "name": "irysse",
-    "value": 61
-   },
-   {
-    "name": "Eleanora",
-    "value": 26
+    "value": 64
    },
    {
     "name": "Pantheon_",
+    "value": 35
+   },
+   {
+    "name": "Eleanora",
     "value": 26
    },
    {
@@ -61,11 +61,11 @@
   "week": [
    {
     "name": "irysse",
-    "value": 38
+    "value": 41
    },
    {
     "name": "Pantheon_",
-    "value": 26
+    "value": 35
    },
    {
     "name": "sami75.19",
