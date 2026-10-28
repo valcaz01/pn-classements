@@ -322,9 +322,8 @@ class AnnulerButton(discord.ui.DynamicItem[discord.ui.Button], template=r"pn:ann
             return
         m = re.search(r"<@!?(\d+)>", champ.get("value", ""))
         auteur = m.group(1) if m else None
-        direction = isinstance(interaction.user, discord.Member) and (
-            interaction.user.guild_permissions.administrator
-            or any(norm(r.name) == "direction" for r in interaction.user.roles))
+        direction = isinstance(interaction.user, discord.Member) and any(
+            norm(r.name) == "direction" for r in interaction.user.roles)
         if str(interaction.user.id) != auteur and not direction:
             await interaction.response.send_message(
                 "Seul celui qui a cliqué sur **Badge attribué** (ou la Direction) peut annuler.", ephemeral=True)
