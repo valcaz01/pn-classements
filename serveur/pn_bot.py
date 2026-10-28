@@ -411,12 +411,31 @@ def set_values(var, values):
     echecs, items = [], list(values.items())
     for i in range(0, len(items), 50):
         chunk = items[i:i + 50]
-        res = api(f"/variables/user/{urllib.parse.quote(var)}/batch", method="POST", write=True,
-                  body={"requests": [{"op_id": uid, "method": "PATCH", "path": f"users/{uid}",
-                                      "body": {"value": str(v)}} for uid, v in chunk]})
-        for r in (res or {}).get("results") or []:
-            if int(r.get("status", 0)) >= 300:
-                echecs.append(f"{r.get('op_id')} ({r.get('status')})")
+        try:
+            res = api(f"/variables/user/{urllib.parse.quote(var)}/batch", method="POST", write=True,
+                      body={"requests": [{"op_id": uid, "method": "PATCH", "path": f"users/{uid}",
+                                          "body": {"value": str(v)}} for uid, v in chunk]})
+        except Exception:  # une panne d'un lot ne doit pas effacer le classement archivé
+            echecs.extend(f"{uid} (erreur API)" for uid, _ in chunk)
+            continue
+        results = res.get("results") if isinstance(res, dict) else None
+        if not isinstance(results, list):
+            echecs.extend(f"{uid} (réponse API absente)" for uid, _ in chunk)
+            continue
+        attendus = {uid for uid, _ in chunk}
+        recus = set()
+        for r in results:
+            uid = str(r.get("op_id", "")) if isinstance(r, dict) else ""
+            if uid not in attendus:
+                continue
+            recus.add(uid)
+            try:
+                status = int(r.get("status", 0))
+            except (TypeError, ValueError):
+                status = 0
+            if not 200 <= status < 300:
+                echecs.append(f"{uid} ({status or 'statut absent'})")
+        echecs.extend(f"{uid} (résultat absent)" for uid in attendus - recus)
         time.sleep(1)
     return echecs
 
@@ -660,13 +679,31 @@ class PNBot(discord.Client):
                                   f"`{VAR_SEMAINE}` n'a pas été remise à 0 cette semaine. À faire à la main "
                                   f"(Inspection) ou me le demander.")
             return
-        rows = await asyncio.to_thread(holders, VAR_SEMAINE)
         debut, fin = monday - timedelta(days=7), monday - timedelta(days=1)
-        write_json(REPO / "hebdo" / f"{debut.date().isoformat()}.json",
-                   {"semaine_du": debut.date().isoformat(), "au": fin.date().isoformat(),
-                    "classement": [{"id": u, "pseudo": n, "points": v}
-                                   for u, n, v in sorted(rows, key=lambda r: -r[2]) if v > 0]})
-        echecs = await asyncio.to_thread(set_values, VAR_SEMAINE, {u: 0 for u, _, v in rows if v != 0})
+        archive = REPO / "hebdo" / f"{debut.date().isoformat()}.json"
+        if archive.exists():  # reprise après interruption : ne jamais écraser le classement avant reset
+            snap = read_json(archive, None)
+            if not isinstance(snap, dict) or not isinstance(snap.get("classement"), list):
+                raise RuntimeError(f"Archive hebdomadaire invalide : {archive.name}")
+            rows = await asyncio.to_thread(holders, VAR_SEMAINE)
+            actuels = {u: v for u, _, v in rows}
+            valeurs = {}
+            echecs = []
+            for membre in snap["classement"]:
+                uid, avant = str(membre["id"]), int(membre["points"])
+                actuel = actuels.get(uid, 0)
+                if actuel == avant:
+                    valeurs[uid] = 0
+                elif actuel != 0:  # de nouveaux points ont pu être gagnés après l'interruption
+                    echecs.append(f"{uid} (valeur modifiée : vérification manuelle)")
+        else:
+            rows = await asyncio.to_thread(holders, VAR_SEMAINE)
+            write_json(archive, {"semaine_du": debut.date().isoformat(), "au": fin.date().isoformat(),
+                                 "classement": [{"id": u, "pseudo": n, "points": v}
+                                                for u, n, v in sorted(rows, key=lambda r: -r[2]) if v > 0]})
+            valeurs = {u: 0 for u, _, v in rows if v != 0}
+            echecs = []
+        echecs.extend(await asyncio.to_thread(set_values, VAR_SEMAINE, valeurs))
         state = {"derniere_remise": semaine, "publie": False, "echecs": echecs,
                  "fichier": f"hebdo/{debut.date().isoformat()}.json"}
         write_json(HEBDO_STATE, state)

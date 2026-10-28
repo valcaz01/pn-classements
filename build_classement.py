@@ -94,10 +94,9 @@ def read_json(path, fallback):
         return fallback
 
 
-def sunday_start(now):
+def monday_start(now):
     local_date = now.astimezone(ZoneInfo("Europe/Paris")).date()
-    days_since_sunday = (local_date.weekday() + 1) % 7
-    return (local_date - timedelta(days=days_since_sunday)).isoformat()
+    return (local_date - timedelta(days=local_date.weekday())).isoformat()
 
 
 def main():
@@ -108,7 +107,11 @@ def main():
     state = read_json(STATE, {})
 
     now = datetime.now(timezone.utc)
-    current_week = sunday_start(now)
+    current_week = monday_start(now)
+    # L'ancien suivi utilisait le dimanche. Conserver son cumul lors du déploiement
+    # en cours de semaine, puis adopter définitivement la bascule du lundi.
+    legacy_sunday = (now.astimezone(ZoneInfo("Europe/Paris")).date()
+                     - timedelta(days=(now.astimezone(ZoneInfo("Europe/Paris")).weekday() + 1) % 7)).isoformat()
     current = {key: {} for key in VARS}
     for key, var in VARS.items():
         if not var:
@@ -130,7 +133,10 @@ def main():
         key: {uid: row["value"] for uid, row in rows.items()}
         for key, rows in current.items()
     }
-    if state.get("week_start") == current_week:
+    same_week = state.get("week_start") == current_week
+    migrating = (state.get("calendar") != "monday" and state.get("week_start") == legacy_sunday
+                 and now.astimezone(ZoneInfo("Europe/Paris")).weekday() != 0)
+    if same_week or migrating:
         weekly = state.get("week_values") or {key: {} for key in VARS}
     else:
         weekly = {key: {} for key in VARS}
@@ -177,7 +183,7 @@ def main():
     with open("noms.json", "w", encoding="utf-8") as f:
         json.dump(cache, f, ensure_ascii=False, indent=1)
     with open(STATE, "w", encoding="utf-8") as f:
-        json.dump({"initialized": True, "week_start": current_week, "last_totals": last_totals,
+        json.dump({"initialized": True, "calendar": "monday", "week_start": current_week, "last_totals": last_totals,
                    "week_values": weekly}, f, ensure_ascii=False, indent=1)
     print(f"XP : {len(out['xp']['total'])} totaux / {len(out['xp']['week'])} semaine · "
           f"PR : {len(out['pr']['total'])} totaux / {len(out['pr']['week'])} semaine → {OUT}")
