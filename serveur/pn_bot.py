@@ -87,9 +87,11 @@ def peut_attribuer(member):
 
 
 VAR_XP = (os.environ.get("VAR_XP") or "xp").strip()
+VAR_BADGE_EVENT = (os.environ.get("VAR_BADGE_EVENT") or "xp_badge_discord").strip()
 LIENS = Path(LOCK_FILE).parent / "liens_habbo.json"   # {id Discord: id Habbo} — sur le serveur seulement
 HABBO = {"par_nom": {}, "maj": 0.0}                   # pseudo normalisé -> (id Habbo, pseudo)
 BLEU_CADET = 0x2F8FD4
+XP_LOCK = threading.Lock()
 
 
 def procedure(pseudo):
@@ -130,15 +132,53 @@ def habbo_de(member, saisi=None):
     return None
 
 
-def ajuster_xp(hid, delta):
-    """Ajoute delta à la variable XP du compte Habbo (API Web, clé d'écriture). Renvoie la nouvelle valeur."""
-    path = f"/variables/user/{urllib.parse.quote(VAR_XP)}/users/{hid}"
+def ajuster_variable(hid, variable, delta):
+    """Modifie une variable utilisateur et indique si sa valeur a réellement changé."""
+    path = f"/variables/user/{urllib.parse.quote(variable)}/users/{hid}"
     cur = api(path)
-    valeur = max(0, int((cur or {}).get("value", 0) or 0) + delta)
+    avant = int((cur or {}).get("value", 0) or 0)
+    valeur = max(0, avant + delta)
+    if valeur == avant:
+        return valeur, False
     res = api(path, method="PATCH", write=True, body={"value": str(valeur)})
     if res is None:  # le compte n'avait pas encore la variable : la créer
-        api(path, method="PUT", write=True, body={"value": str(valeur)})
+        res = api(path, method="PUT", write=True, body={"value": str(valeur)})
+    if res is None:
+        raise RuntimeError(f"Variable Habbo « {variable} » introuvable")
+    return valeur, True
+
+
+def signaler_badge(hid, delta):
+    """Fait varier le signal WIRED sans lui attribuer de valeur d'XP."""
+    path = f"/variables/user/{urllib.parse.quote(VAR_BADGE_EVENT)}/users/{hid}"
+    cur = api(path)
+    if cur is None:
+        # La création à zéro ne déclenche aucun message : les piles écoutent
+        # uniquement une hausse ou une baisse, jamais « Créé ».
+        if api(path, method="PUT", write=True, body={"value": "0"}) is None:
+            raise RuntimeError("Signal WIRED du badge impossible à initialiser")
+        avant = 0
+    else:
+        avant = int(cur.get("value", 0) or 0)
+    valeur = avant + delta
+    if api(path, method="PATCH", write=True, body={"value": str(valeur)}) is None:
+        raise RuntimeError("Signal WIRED du badge impossible à modifier")
     return valeur
+
+
+def ajuster_xp_badge(hid, delta):
+    """Crédite l'XP puis émet un événement WIRED propre au bouton Discord."""
+    with XP_LOCK:
+        total, change = ajuster_variable(hid, VAR_XP, delta)
+        if not change:
+            return total, False, False
+        try:
+            signaler_badge(hid, delta)
+            signal = True
+        except Exception:  # l'XP reste crédité même si la notification échoue
+            LOG.exception("Signal WIRED du badge indisponible")
+            signal = False
+        return total, True, signal
 
 
 def set_badge(uid, info):
@@ -195,11 +235,12 @@ async def attribuer(interaction, uid, habbo, deja_repondu=False):
     else:
         await interaction.response.edit_message(embed=discord.Embed.from_dict(e), view=vue)
     try:
-        total = await asyncio.to_thread(ajuster_xp, hid, 1)
+        total, xp_ok, signal_ok = await asyncio.to_thread(ajuster_xp_badge, hid, 1)
         await interaction.followup.send(f"Merci ! **+1 XP** pour **{pseudo}** sur Habbo (total : {total} XP)."
+                                        + (" La notification en jeu est indisponible ; préviens la Direction."
+                                           if not signal_ok else "")
                                         + (" C'est l'essai : clique sur **Annuler** pour le retirer." if apercu else ""),
                                         ephemeral=True)
-        xp_ok = True
     except Exception as exc:  # noqa: BLE001
         LOG.exception("XP non crédité")
         await interaction.followup.send(f"Badge confirmé, mais l'XP n'a pas pu être crédité ({str(exc)[:150]}). "
@@ -302,8 +343,11 @@ class AnnulerButton(discord.ui.DynamicItem[discord.ui.Button], template=r"pn:ann
         retrait = ""
         if info and info.get("xp") and info.get("habbo_id"):
             try:
-                total = await asyncio.to_thread(ajuster_xp, info["habbo_id"], -1)
-                retrait = f" **−1 XP** pour **{info.get('habbo')}** (total : {total} XP)."
+                total, change, signal_ok = await asyncio.to_thread(ajuster_xp_badge, info["habbo_id"], -1)
+                retrait = (f" **−1 XP** pour **{info.get('habbo')}** (total : {total} XP)." if change
+                           else f" XP déjà à 0 pour **{info.get('habbo')}** : aucun point retiré.")
+                if change and not signal_ok:
+                    retrait += " La notification en jeu est indisponible ; préviens la Direction."
             except Exception as exc:  # noqa: BLE001
                 retrait = f" ⚠️ L'XP n'a pas pu être retiré ({str(exc)[:120]}) : préviens la Direction."
         if self.uid != "apercu":
