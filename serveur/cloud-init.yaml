@@ -1,0 +1,52 @@
+#cloud-config
+# PN — installation complète du serveur Hetzner (Ubuntu 24.04), à coller dans « Cloud config » à la création.
+# Remplacer UNIQUEMENT les trois valeurs COLLE_ICI_… ; ne jamais publier ce texte une fois rempli.
+package_update: true
+package_upgrade: true
+packages: [docker.io, docker-compose-v2, git, ufw, unattended-upgrades]
+write_files:
+  - path: /opt/pn/.env
+    permissions: "0600"
+    content: |
+      DISCORD_TOKEN=COLLE_ICI_LE_JETON_DU_BOT
+      WIRED_READ_KEY=COLLE_ICI_LA_CLE_DE_LECTURE
+      WIRED_WRITE_KEY=COLLE_ICI_LA_CLE_D_ECRITURE
+      GUILD_ID=1549897771040112862
+      ALERT_CHANNEL_ID=1564738786921947306
+      HEBDO_CHANNEL_ID=1564938733105447032
+      WIRED_ROOM_ID=46858918
+      VAR_XP=xp
+      VAR_PR=pts_recrutement_total
+      VAR_SEMAINE=pts_recrutement_semaine
+  - path: /etc/systemd/system/pn-maj.service
+    content: |
+      [Unit]
+      Description=PN - mise a jour depuis GitHub
+      After=network-online.target docker.service
+      [Service]
+      Type=oneshot
+      ExecStart=/bin/bash /opt/pn/repo/serveur/maj.sh
+  - path: /etc/systemd/system/pn-maj.timer
+    content: |
+      [Unit]
+      Description=PN - mise a jour toutes les 2 minutes
+      [Timer]
+      OnBootSec=2min
+      OnUnitActiveSec=2min
+      [Install]
+      WantedBy=timers.target
+runcmd:
+  - ufw default deny incoming
+  - ufw default allow outgoing
+  - ufw --force enable
+  - mkdir -p /opt/pn/ssh /opt/pn/lock
+  - ssh-keygen -q -t ed25519 -N "" -C pn-serveur -f /opt/pn/ssh/id_ed25519
+  - ssh-keyscan -t ed25519 github.com > /opt/pn/ssh/known_hosts
+  - git clone https://github.com/valcaz01/pn-classements.git /opt/pn/repo
+  - git -C /opt/pn/repo remote set-url --push origin git@github.com:valcaz01/pn-classements.git
+  - git -C /opt/pn/repo config user.name pn-serveur
+  - git -C /opt/pn/repo config user.email pn-serveur@users.noreply.github.com
+  - systemctl enable --now docker
+  - docker compose -f /opt/pn/repo/serveur/compose.yaml up -d --build
+  - systemctl daemon-reload
+  - systemctl enable --now pn-maj.timer

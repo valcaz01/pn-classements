@@ -1,0 +1,17 @@
+# PN — service du serveur Hetzner. Lancé par cloud-init, relancé par /opt/pn/maj.sh quand serveur/ change.
+services:
+  bot:
+    build: .
+    restart: unless-stopped
+    env_file: /opt/pn/.env
+    environment:
+      REPO_DIR: /data/repo
+      SSH_DIR: /data/ssh
+      GIT_LOCK: /data/lock/git.lock
+    volumes:
+      - /opt/pn/repo:/data/repo
+      - /opt/pn/ssh:/data/ssh:ro
+      - /opt/pn/lock:/data/lock
+    logging:
+      driver: json-file
+      options: {max-size: "5m", max-file: "3"}
