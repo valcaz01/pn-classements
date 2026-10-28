@@ -16,6 +16,9 @@ d'écriture (réécriture d'une valeur identique), état de la publication GitHu
 Alertes Cadet → Policier adjoint (28/10/2026, demande de Val) : procédure dans l'alerte + bouton vert « Badge attribué »,
 cliquable par les rôles Haut gradé, Supervision et Direction (ou administrateurs). Au clic, l'alerte passe en vert
 avec le pseudo de celui qui a attribué le badge ; l'information est gardée dans etat_grades.json (clé « badge »).
+28/10 (11 h 57, demande de Val) : le clic donne 1 XP en jeu (variable xp, API Web) au compte Habbo de celui qui
+clique (pseudo Discord = pseudo Habbo, sinon demandé une fois puis retenu dans /opt/pn/lock/liens_habbo.json) ;
+bouton rouge « Annuler » (celui qui a cliqué, ou la Direction) : alerte remise en attente et XP retiré.
 Aperçu (une seule fois par valeur d'APERCU) dans #Classement-hebdo : podium hebdo avec les chiffres en cours et une
 alerte d'exemple avec son bouton (bouton d'aperçu : rien n'est enregistré).
 Aucun secret n'est jamais affiché ni écrit dans le dépôt.
@@ -46,7 +49,7 @@ import discord
 from discord.ext import tasks
 
 VERSION = "2026-10-28.1"   # diagnostic de mise en service (ne pas changer sans raison : il est re-posté)
-APERCU = "2026-10-28-badge"  # changer cette valeur pour reposter l'aperçu dans #Classement-hebdo
+APERCU = "2026-10-28-xp2"  # changer cette valeur pour reposter l'aperçu dans #Classement-hebdo
 LOG = logging.getLogger("pn")
 PARIS = ZoneInfo("Europe/Paris")
 
@@ -83,13 +86,152 @@ def peut_attribuer(member):
     return any(norm(role.name) in autorises for role in member.roles)
 
 
-def mark_badge(uid, par_id, par_nom, quand):
+VAR_XP = (os.environ.get("VAR_XP") or "xp").strip()
+LIENS = Path(LOCK_FILE).parent / "liens_habbo.json"   # {id Discord: id Habbo} — sur le serveur seulement
+HABBO = {"par_nom": {}, "maj": 0.0}                   # pseudo normalisé -> (id Habbo, pseudo)
+BLEU_CADET = 0x2F8FD4
+
+
+def procedure(pseudo):
+    return {"name": "Procédure · Hauts gradés et plus", "inline": False, "value": (
+        "Conditions vérifiées par le bot (3 jours + 200 PR).\n"
+        f"**1.** Remets le badge **Policier adjoint** à **{pseudo}** sur Habbo.\n"
+        "**2.** Clique sur **Badge attribué** : l'alerte passe en vert avec ton pseudo et tu gagnes **1 XP** en jeu "
+        "(retiré si tu cliques ensuite sur **Annuler**).\n"
+        "La demande du sujet « Gestion du badge Policier adjoint » du forum se valide à part.")}
+
+
+def refresh_habbo():
+    """Annuaire des comptes Habbo connus de la salle (porteurs de matricule et d'XP), pour retrouver un pseudo."""
+    par_nom = {}
+    for var in ("matricule", VAR_XP):
+        try:
+            for hid, name, _ in holders(var):
+                if name:
+                    par_nom[norm(name)] = (hid, name)
+        except Exception:  # noqa: BLE001
+            LOG.exception("annuaire Habbo : %s illisible", var)
+    if par_nom:
+        HABBO["par_nom"], HABBO["maj"] = par_nom, time.time()
+
+
+def habbo_de(member, saisi=None):
+    """(id Habbo, pseudo) du membre Discord : lien mémorisé, pseudo saisi, puis pseudo de serveur / global."""
+    liens = read_json(LIENS, {})
+    if saisi is None and str(member.id) in liens:
+        return tuple(liens[str(member.id)])
+    noms = [saisi] if saisi else [getattr(member, "nick", None), member.display_name, getattr(member, "global_name", None), member.name]
+    for n in noms:
+        if n and norm(n) in HABBO["par_nom"]:
+            trouve = HABBO["par_nom"][norm(n)]
+            liens[str(member.id)] = list(trouve)
+            write_json(LIENS, liens)
+            return trouve
+    return None
+
+
+def ajuster_xp(hid, delta):
+    """Ajoute delta à la variable XP du compte Habbo (API Web, clé d'écriture). Renvoie la nouvelle valeur."""
+    path = f"/variables/user/{urllib.parse.quote(VAR_XP)}/users/{hid}"
+    cur = api(path)
+    valeur = max(0, int((cur or {}).get("value", 0) or 0) + delta)
+    res = api(path, method="PATCH", write=True, body={"value": str(valeur)})
+    if res is None:  # le compte n'avait pas encore la variable : la créer
+        api(path, method="PUT", write=True, body={"value": str(valeur)})
+    return valeur
+
+
+def set_badge(uid, info):
     with ETAT_LOCK:
         path = REPO / "etat_grades.json"
         etat = read_json(path, {})
         if uid in etat:
-            etat[uid].setdefault("badge", {})["cadet"] = {"par": par_nom, "par_id": str(par_id), "le": quand}
+            if info:
+                etat[uid].setdefault("badge", {})["cadet"] = info
+            else:
+                etat[uid].get("badge", {}).pop("cadet", None)
             path.write_text(json.dumps(etat, ensure_ascii=False, indent=1, sort_keys=True), encoding="utf-8")
+
+
+def badge_info(uid):
+    return (read_json(REPO / "etat_grades.json", {}).get(uid) or {}).get("badge", {}).get("cadet")
+
+
+def vue_attribuee(uid, nom):
+    v = discord.ui.View(timeout=None)
+    v.add_item(discord.ui.Button(style=discord.ButtonStyle.secondary, disabled=True, emoji="✅",
+                                 label=f"Badge attribué par {nom}"[:80], custom_id=f"pn:badge-fait:{uid}"))
+    v.add_item(AnnulerButton(uid))
+    return v
+
+
+def vue_attente(uid):
+    v = discord.ui.View(timeout=None)
+    v.add_item(BadgeButton(uid))
+    return v
+
+
+async def attribuer(interaction, uid, habbo, deja_repondu=False):
+    msg = interaction.message
+    e = msg.embeds[0].to_dict() if msg and msg.embeds else {}
+    if any(f.get("name", "").startswith("✅ Badge attribué") for f in e.get("fields", [])):
+        if deja_repondu:
+            await interaction.followup.send("Ce badge a déjà été confirmé.", ephemeral=True)
+        else:
+            await interaction.response.send_message("Ce badge a déjà été confirmé.", ephemeral=True)
+        return
+    hid, pseudo = habbo
+    now = datetime.now(PARIS)
+    apercu = uid == "apercu"
+    e["color"] = VERT
+    e["title"] = "✅ " + re.sub(r"^\S+\s", "", e.get("title", ""))
+    e["fields"] = [f for f in e.get("fields", []) if not f.get("name", "").startswith("Procédure")]
+    e["fields"].append({"name": "✅ Badge attribué", "inline": False,
+                        "value": f"Par {interaction.user.mention} (Habbo : **{discord.utils.escape_markdown(pseudo)}**, "
+                                 f"+1 XP) le {now:%d/%m} à {now:%H}h{now:%M}"})
+    vue = vue_attribuee(uid, interaction.user.display_name)
+    if deja_repondu:
+        await msg.edit(embed=discord.Embed.from_dict(e), view=vue)
+    else:
+        await interaction.response.edit_message(embed=discord.Embed.from_dict(e), view=vue)
+    try:
+        total = await asyncio.to_thread(ajuster_xp, hid, 1)
+        await interaction.followup.send(f"Merci ! **+1 XP** pour **{pseudo}** sur Habbo (total : {total} XP)."
+                                        + (" C'est l'essai : clique sur **Annuler** pour le retirer." if apercu else ""),
+                                        ephemeral=True)
+        xp_ok = True
+    except Exception as exc:  # noqa: BLE001
+        LOG.exception("XP non crédité")
+        await interaction.followup.send(f"Badge confirmé, mais l'XP n'a pas pu être crédité ({str(exc)[:150]}). "
+                                        "Préviens la Direction.", ephemeral=True)
+        xp_ok = False
+    if apercu:
+        return
+    await asyncio.to_thread(set_badge, uid, {"par": interaction.user.display_name, "par_id": str(interaction.user.id),
+                                             "habbo_id": hid, "habbo": pseudo, "xp": xp_ok,
+                                             "le": now.isoformat(timespec="seconds")})
+
+
+class PseudoModal(discord.ui.Modal, title="Ton pseudo Habbo"):
+    pseudo = discord.ui.TextInput(label="Pseudo Habbo (pour te créditer 1 XP)", max_length=40)
+
+    def __init__(self, uid):
+        super().__init__(timeout=300)
+        self.uid = uid
+
+    async def on_submit(self, interaction: discord.Interaction):
+        await interaction.response.defer()
+        saisi = str(self.pseudo.value).strip()
+        trouve = await asyncio.to_thread(habbo_de, interaction.user, saisi)
+        if not trouve:
+            await asyncio.to_thread(refresh_habbo)
+            trouve = await asyncio.to_thread(habbo_de, interaction.user, saisi)
+        if not trouve:
+            await interaction.followup.send(
+                f"Je ne trouve pas **{discord.utils.escape_markdown(saisi)}** parmi les comptes passés au QG. "
+                "Vérifie l'orthographe exacte de ton pseudo Habbo, puis reclique sur **Badge attribué**.", ephemeral=True)
+            return
+        await attribuer(interaction, self.uid, trouve, deja_repondu=True)
 
 
 class BadgeButton(discord.ui.DynamicItem[discord.ui.Button], template=r"pn:badge:(?P<uid>[0-9]+|apercu)"):
@@ -110,25 +252,64 @@ class BadgeButton(discord.ui.DynamicItem[discord.ui.Button], template=r"pn:badge
                 "Seuls les **Hauts gradés**, la **Supervision** et la **Direction** peuvent confirmer l'attribution "
                 "du badge.", ephemeral=True)
             return
+        habbo = habbo_de(interaction.user)
+        if not habbo:  # pseudo Discord différent du pseudo Habbo : on le demande une fois, puis on le retient
+            await interaction.response.send_modal(PseudoModal(self.uid))
+            return
+        await attribuer(interaction, self.uid, habbo)
+
+
+class AnnulerButton(discord.ui.DynamicItem[discord.ui.Button], template=r"pn:annul:(?P<uid>[0-9]+|apercu)"):
+    """Bouton « Annuler » : remet l'alerte en attente et retire l'XP donné à celui qui avait confirmé."""
+
+    def __init__(self, uid: str):
+        super().__init__(discord.ui.Button(style=discord.ButtonStyle.danger, label="Annuler", emoji="↩️",
+                                           custom_id=f"pn:annul:{uid}"))
+        self.uid = uid
+
+    @classmethod
+    async def from_custom_id(cls, interaction, item, match):
+        return cls(match["uid"])
+
+    async def callback(self, interaction: discord.Interaction):
         msg = interaction.message
         e = msg.embeds[0].to_dict() if msg and msg.embeds else {}
-        if any(f.get("name", "").startswith("✅ Badge attribué") for f in e.get("fields", [])):
-            await interaction.response.send_message("Ce badge a déjà été confirmé.", ephemeral=True)
+        champ = next((f for f in e.get("fields", []) if f.get("name", "").startswith("✅ Badge attribué")), None)
+        if not champ:
+            await interaction.response.send_message("Cette alerte est déjà en attente.", ephemeral=True)
             return
-        now = datetime.now(PARIS)
-        quand = f"{now:%d/%m} à {now:%H}h{now:%M}"
-        e["color"] = VERT
-        e["title"] = "✅ " + re.sub(r"^\S+\s", "", e.get("title", ""))
-        e["fields"] = [f for f in e.get("fields", []) if not f.get("name", "").startswith("Procédure")]
-        e["fields"].append({"name": "✅ Badge attribué", "inline": False,
-                            "value": f"Par {interaction.user.mention} le {quand}"})
-        nom = interaction.user.display_name
-        fait = discord.ui.View(timeout=None)
-        fait.add_item(discord.ui.Button(style=discord.ButtonStyle.secondary, disabled=True, emoji="✅",
-                                        label=f"Badge attribué par {nom}"[:80], custom_id=f"pn:badge-fait:{self.uid}"))
-        await interaction.response.edit_message(embed=discord.Embed.from_dict(e), view=fait)
+        m = re.search(r"<@!?(\d+)>", champ.get("value", ""))
+        auteur = m.group(1) if m else None
+        direction = isinstance(interaction.user, discord.Member) and (
+            interaction.user.guild_permissions.administrator
+            or any(norm(r.name) == "direction" for r in interaction.user.roles))
+        if str(interaction.user.id) != auteur and not direction:
+            await interaction.response.send_message(
+                "Seul celui qui a cliqué sur **Badge attribué** (ou la Direction) peut annuler.", ephemeral=True)
+            return
+        pseudo = re.sub(r"^\S+\s", "", e.get("title", "")).split(" peut passer")[0]
+        e["color"] = BLEU_CADET
+        e["title"] = "🎖️ " + re.sub(r"^\S+\s", "", e.get("title", ""))
+        e["fields"] = [f for f in e.get("fields", []) if not f.get("name", "").startswith("✅ Badge attribué")]
+        e["fields"].append(procedure(pseudo))
+        await interaction.response.edit_message(embed=discord.Embed.from_dict(e), view=vue_attente(self.uid))
+        if self.uid == "apercu":  # essai : retrouver le compte Habbo crédité à partir du message
+            mh = re.search(r"Habbo : \*\*(.+?)\*\*", champ.get("value", ""))
+            trouve = HABBO["par_nom"].get(norm(mh.group(1).replace("\\", ""))) if mh else None
+            info = {"xp": bool(trouve), "habbo_id": trouve and trouve[0], "habbo": trouve and trouve[1]}
+        else:
+            info = await asyncio.to_thread(badge_info, self.uid)
+        retrait = ""
+        if info and info.get("xp") and info.get("habbo_id"):
+            try:
+                total = await asyncio.to_thread(ajuster_xp, info["habbo_id"], -1)
+                retrait = f" **−1 XP** pour **{info.get('habbo')}** (total : {total} XP)."
+            except Exception as exc:  # noqa: BLE001
+                retrait = f" ⚠️ L'XP n'a pas pu être retiré ({str(exc)[:120]}) : préviens la Direction."
         if self.uid != "apercu":
-            await asyncio.to_thread(mark_badge, self.uid, interaction.user.id, nom, now.isoformat(timespec="seconds"))
+            await asyncio.to_thread(set_badge, self.uid, None)
+        await interaction.followup.send("Attribution annulée : l'alerte est de nouveau en attente." + retrait,
+                                        ephemeral=True)
 
 
 # ---------------------------------------------------------------- API Web Habbo (variables WIRED)
@@ -295,7 +476,7 @@ class PNBot(discord.Client):
         self.started = False
 
     async def setup_hook(self):
-        self.add_dynamic_items(BadgeButton)
+        self.add_dynamic_items(BadgeButton, AnnulerButton)
         self.tick.start()
 
     async def on_ready(self):
@@ -305,6 +486,7 @@ class PNBot(discord.Client):
             asyncio.create_task(self.demarrage())
 
     async def demarrage(self):
+        await asyncio.to_thread(refresh_habbo)
         await self.diagnostic()
         try:
             await self.apercu()
@@ -355,6 +537,7 @@ class PNBot(discord.Client):
                 LOG.info("classements : %s", r.stdout.strip().splitlines()[-1:] or "")
             except Exception as exc:  # noqa: BLE001
                 await self.report("Classements du forum", str(exc))
+            await asyncio.to_thread(refresh_habbo)  # annuaire des pseudos Habbo pour le bouton « Badge attribué »
             # 2. alertes de promotion (postées par le bot)
             try:
                 await self.alerts()
@@ -466,7 +649,9 @@ class PNBot(discord.Client):
             f"**1. Classement hebdo** — voici le message qui partira lundi {monday:%d/%m} à 00 h 00, "
             "avec les points de cette semaine **à l'heure actuelle** (le podium peut encore changer).\n"
             "**2. Alerte Cadet → Policier adjoint** — exemple de ce que verront les formateurs et les hauts gradés "
-            "dans Alertes-promotions. Le bouton fonctionne ici pour l'essai (réservé aux Hauts gradés et plus)."))
+            "dans Alertes-promotions. **Badge attribué** donne 1 XP en jeu à celui qui clique ; **Annuler** le lui "
+            "retire (seul celui qui a cliqué, ou la Direction, peut annuler).\n"
+            "⚠️ Ici, l'essai est **réel** pour l'XP : après avoir cliqué sur Badge attribué, clique sur Annuler."))
         await ch.send(embed=intro)
         await ch.send(embeds=podium_embeds(rows, monday - timedelta(days=7), monday - timedelta(days=1), monday))
         pseudo = (sorted(rows, key=lambda r: -r[2])[0][1] if rows else "") or "sami75.19"
@@ -478,13 +663,8 @@ class PNBot(discord.Client):
                 {"name": "Grade actuel", "value": "Cadet", "inline": True},
                 {"name": "Ancienneté", "value": "3 jours (≥ 3)", "inline": True},
                 {"name": "Points de recrutement", "value": "214 (≥ 200)", "inline": True},
-                {"name": "Humeur", "value": "`[PN] Cadet [XX]`", "inline": False},
-                {"name": "Procédure · Hauts gradés et plus", "inline": False, "value": (
-                    "Conditions vérifiées par le bot (3 jours + 200 PR).\n"
-                    f"**1.** Remets le badge **Policier adjoint** à **{pseudo}** sur Habbo.\n"
-                    "**2.** Clique sur **Badge attribué** : l'alerte passe en vert avec ton pseudo, "
-                    "personne ne la traitera deux fois.\n"
-                    "La demande du sujet « Gestion du badge Policier adjoint » du forum se valide à part.")},
+                {"name": "Humeur", "value": "`[PN] Cadet`", "inline": False},
+                procedure(pseudo),
             ],
             "thumbnail": {"url": avatar(pseudo, head=True)},
             "footer": {"text": f"Grade vu dans l'humeur depuis le {now - timedelta(days=3):%d/%m/%Y} · APERÇU"},
