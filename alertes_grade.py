@@ -5,8 +5,8 @@ Paliers (décisions de Val, 27/10/2026) :
   Cadet            → Policier adjoint                     : 3 jours de grade + 200 points de recrutement
   Policier adjoint → éligible formation Gardien de la paix : 3 jours de grade + 300 points de recrutement (total)
 
-Grade lu dans l'humeur Habbo (« [PN] Cadet », « [PN] Policier adjoint » ; l'acronyme du formateur entre crochets
-a été retiré des humeurs le 28/10/2026, il reste toléré) via l'API publique,
+Grade lu dans l'humeur Habbo (« [PN] Cadet/Cadette », « [PN] Policier adjoint/Policière adjointe » ;
+casse, accents, tiret, espaces et acronyme du formateur en suffixe tolérés) via l'API publique,
 ancienneté = date où le script voit ce grade pour la première fois dans l'humeur.
 Une alerte par membre et par palier ; état gardé dans etat_grades.json.
 Depuis le 28/10/2026, les alertes sont postées par le bot PN · Alertes (serveur Hetzner, serveur/pn_bot.py) :
@@ -44,7 +44,7 @@ PALIERS = {
     "pa": {"label": "Policier adjoint", "seuil": 300, "jours": 3, "cible": "formation Gardien de la paix",
            "texte": "est éligible à la **formation Gardien de la paix**", "couleur": 0xE3B34A},
 }
-RE_GRADE = re.compile(r"\[\s*p\.?\s*n\.?\s*\]\s*(cadet|policier[\s\-]*adjoint)\b")
+RE_GRADE = re.compile(r"\[\s*p\.?\s*n\.?\s*\]\s*(cadet(?:te)?|policier[\s-]*adjoint|policiere[\s-]*adjointe)\b")
 
 
 def req(url, headers=None, data=None, method=None):
@@ -98,7 +98,7 @@ def grade_from_motto(motto):
     g = RE_GRADE.search(m)
     if not g:
         return None
-    return "cadet" if g.group(1) == "cadet" else "pa"
+    return "cadet" if g.group(1).startswith("cadet") else "pa"
 
 
 def motto_of(name):
