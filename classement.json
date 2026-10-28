@@ -1,8 +1,12 @@
 {
- "updated": "2026-10-28T00:33:50+00:00",
+ "updated": "2026-10-28T13:15:20+00:00",
  "week_start": "2026-10-25",
  "xp": {
   "total": [
+   {
+    "name": "sami75.19",
+    "value": 1
+   },
    {
     "name": "sophi61",
     "value": 1
@@ -12,6 +16,10 @@
    {
     "name": "Icarem",
     "value": 2
+   },
+   {
+    "name": "sami75.19",
+    "value": 1
    },
    {
     "name": "sophi61",
