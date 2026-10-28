@@ -108,12 +108,17 @@ def motto_of(name):
 
 
 def post(embed):
-    embed.pop("_pn", None)
+    meta = embed.pop("_pn", None) or {}
     if not HOOK:
         print("[Discord] pas de webhook configuré : message non envoyé →", embed.get("title"))
         return False
+    role_id = {"cadet": "1552758582141784225", "pa": "1552122047034032221"}.get(meta.get("palier"))
+    payload = {"username": "Alertes PN", "embeds": [embed],
+               "allowed_mentions": {"parse": [], "roles": [role_id] if role_id else []}}
+    if role_id:
+        payload["content"] = f"<@&{role_id}>"
     req(HOOK + ("&" if "?" in HOOK else "?") + "wait=true", {"Content-Type": "application/json"},
-        json.dumps({"username": "Alertes PN", "embeds": [embed], "allowed_mentions": {"parse": []}}).encode(),
+        json.dumps(payload).encode(),
         "POST")
     time.sleep(1)
     return True

@@ -69,7 +69,9 @@ RATTRAPAGE = timedelta(hours=6)
 DATA_FILES = ["classement.json", "noms.json", "classement-state.json", "etat_grades.json", "hebdo-state.json"]
 HEBDO_STATE = REPO / "hebdo-state.json"
 OR, VERT, ROUGE, BLEU = 0xE3B34A, 0x188A68, 0xAF3843, 0x124669
-BADGE_ROLES = [r.strip() for r in os.environ.get("BADGE_ROLES", "Haut gradé,Supervision,Direction").split(",") if r.strip()]
+BADGE_ROLES = ("Haut gradé", "Supervision", "Direction")
+ROLE_HAUT_GRADE_ID = 1552758582141784225
+ROLE_FORMATEUR_ID = 1552122047034032221
 ETAT_LOCK = threading.Lock()   # alertes_grade.main() et les clics « Badge attribué » écrivent etat_grades.json
 
 
@@ -603,7 +605,17 @@ class PNBot(discord.Client):
             if meta.get("palier") == "cadet":
                 view = discord.ui.View(timeout=None)
                 view.add_item(BadgeButton(str(meta["uid"])))
-            await ch.send(embed=discord.Embed.from_dict(embed), view=view)
+            role_id = {"cadet": ROLE_HAUT_GRADE_ID, "pa": ROLE_FORMATEUR_ID}.get(meta.get("palier"))
+            await ch.send(
+                content=f"<@&{role_id}>" if role_id else None,
+                embed=discord.Embed.from_dict(embed),
+                view=view,
+                allowed_mentions=discord.AllowedMentions(
+                    everyone=False, users=False,
+                    roles=[discord.Object(id=role_id)] if role_id else [],
+                    replied_user=False,
+                ),
+            )
 
         def post(embed):
             try:
