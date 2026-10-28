@@ -1,6 +1,7 @@
 {
  "initialized": true,
- "week_start": "2026-10-25",
+ "calendar": "monday",
+ "week_start": "2026-10-26",
  "last_totals": {
   "xp": {
    "21840576": 0,
