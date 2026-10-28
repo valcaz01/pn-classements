@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""PN — service du serveur Hetzner (bot Discord « PN · Vérification Habbo »).
+"""PN — service du serveur Hetzner (bot Discord « PN · Alertes »).
 
 Toutes les 15 minutes (heure pile, :00 :15 :30 :45, heure de Paris) :
   1. classements du forum : lance build_classement.py (classement.json, noms.json, classement-state.json) ;
@@ -13,6 +13,11 @@ Garde : une seule remise par semaine (hebdo-state.json) ; rattrapage jusqu'à 6 
 
 Diagnostic posté dans #Classement-hebdo au premier démarrage d'une version : variables trouvées, test de la clé
 d'écriture (réécriture d'une valeur identique), état de la publication GitHub (+ clé de déploiement à ajouter).
+Alertes Cadet → Policier adjoint (28/10/2026, demande de Val) : procédure dans l'alerte + bouton vert « Badge attribué »,
+cliquable par les rôles Haut gradé, Supervision et Direction (ou administrateurs). Au clic, l'alerte passe en vert
+avec le pseudo de celui qui a attribué le badge ; l'information est gardée dans etat_grades.json (clé « badge »).
+Aperçu (une seule fois par valeur d'APERCU) dans #Classement-hebdo : podium hebdo avec les chiffres en cours et une
+alerte d'exemple avec son bouton (bouton d'aperçu : rien n'est enregistré).
 Aucun secret n'est jamais affiché ni écrit dans le dépôt.
 """
 from __future__ import annotations
@@ -23,9 +28,12 @@ import importlib
 import json
 import logging
 import os
+import re
 import subprocess
 import sys
+import threading
 import time
+import unicodedata
 import traceback
 import urllib.error
 import urllib.parse
@@ -37,7 +45,8 @@ from zoneinfo import ZoneInfo
 import discord
 from discord.ext import tasks
 
-VERSION = "2026-10-28.1"
+VERSION = "2026-10-28.1"   # diagnostic de mise en service (ne pas changer sans raison : il est re-posté)
+APERCU = "2026-10-28-badge"  # changer cette valeur pour reposter l'aperçu dans #Classement-hebdo
 LOG = logging.getLogger("pn")
 PARIS = ZoneInfo("Europe/Paris")
 
@@ -57,6 +66,69 @@ RATTRAPAGE = timedelta(hours=6)
 DATA_FILES = ["classement.json", "noms.json", "classement-state.json", "etat_grades.json", "hebdo-state.json"]
 HEBDO_STATE = REPO / "hebdo-state.json"
 OR, VERT, ROUGE, BLEU = 0xE3B34A, 0x188A68, 0xAF3843, 0x124669
+BADGE_ROLES = [r.strip() for r in os.environ.get("BADGE_ROLES", "Haut gradé,Supervision,Direction").split(",") if r.strip()]
+ETAT_LOCK = threading.Lock()   # alertes_grade.main() et les clics « Badge attribué » écrivent etat_grades.json
+
+
+def norm(text):
+    return unicodedata.normalize("NFKD", text or "").encode("ascii", "ignore").decode().lower().strip()
+
+
+def peut_attribuer(member):
+    if not isinstance(member, discord.Member):
+        return False
+    if member.guild_permissions.administrator:
+        return True
+    autorises = {norm(r) for r in BADGE_ROLES}
+    return any(norm(role.name) in autorises for role in member.roles)
+
+
+def mark_badge(uid, par_id, par_nom, quand):
+    with ETAT_LOCK:
+        path = REPO / "etat_grades.json"
+        etat = read_json(path, {})
+        if uid in etat:
+            etat[uid].setdefault("badge", {})["cadet"] = {"par": par_nom, "par_id": str(par_id), "le": quand}
+            path.write_text(json.dumps(etat, ensure_ascii=False, indent=1, sort_keys=True), encoding="utf-8")
+
+
+class BadgeButton(discord.ui.DynamicItem[discord.ui.Button], template=r"pn:badge:(?P<uid>[0-9]+|apercu)"):
+    """Bouton vert « Badge attribué » sous les alertes Cadet → Policier adjoint (persistant après redémarrage)."""
+
+    def __init__(self, uid: str):
+        super().__init__(discord.ui.Button(style=discord.ButtonStyle.success, label="Badge attribué", emoji="✅",
+                                           custom_id=f"pn:badge:{uid}"))
+        self.uid = uid
+
+    @classmethod
+    async def from_custom_id(cls, interaction, item, match):
+        return cls(match["uid"])
+
+    async def callback(self, interaction: discord.Interaction):
+        if not peut_attribuer(interaction.user):
+            await interaction.response.send_message(
+                "Seuls les **Hauts gradés**, la **Supervision** et la **Direction** peuvent confirmer l'attribution "
+                "du badge.", ephemeral=True)
+            return
+        msg = interaction.message
+        e = msg.embeds[0].to_dict() if msg and msg.embeds else {}
+        if any(f.get("name", "").startswith("✅ Badge attribué") for f in e.get("fields", [])):
+            await interaction.response.send_message("Ce badge a déjà été confirmé.", ephemeral=True)
+            return
+        now = datetime.now(PARIS)
+        quand = f"{now:%d/%m} à {now:%H}h{now:%M}"
+        e["color"] = VERT
+        e["title"] = "✅ " + re.sub(r"^\S+\s", "", e.get("title", ""))
+        e["fields"] = [f for f in e.get("fields", []) if not f.get("name", "").startswith("Procédure")]
+        e["fields"].append({"name": "✅ Badge attribué", "inline": False,
+                            "value": f"Par {interaction.user.mention} le {quand}"})
+        nom = interaction.user.display_name
+        fait = discord.ui.View(timeout=None)
+        fait.add_item(discord.ui.Button(style=discord.ButtonStyle.secondary, disabled=True, emoji="✅",
+                                        label=f"Badge attribué par {nom}"[:80], custom_id=f"pn:badge-fait:{self.uid}"))
+        await interaction.response.edit_message(embed=discord.Embed.from_dict(e), view=fait)
+        if self.uid != "apercu":
+            await asyncio.to_thread(mark_badge, self.uid, interaction.user.id, nom, now.isoformat(timespec="seconds"))
 
 
 # ---------------------------------------------------------------- API Web Habbo (variables WIRED)
@@ -223,13 +295,21 @@ class PNBot(discord.Client):
         self.started = False
 
     async def setup_hook(self):
+        self.add_dynamic_items(BadgeButton)
         self.tick.start()
 
     async def on_ready(self):
         LOG.info("Connecté : %s (version %s)", self.user, VERSION)
         if not self.started:
             self.started = True
-            asyncio.create_task(self.diagnostic())
+            asyncio.create_task(self.demarrage())
+
+    async def demarrage(self):
+        await self.diagnostic()
+        try:
+            await self.apercu()
+        except Exception as exc:  # noqa: BLE001
+            await self.report("Aperçu", f"{exc}\n```{traceback.format_exc()[-800:]}```")
 
     async def channel(self, cid):
         return self.get_channel(cid) or await self.fetch_channel(cid)
@@ -291,7 +371,12 @@ class PNBot(discord.Client):
         ch = await self.channel(ALERT_CHANNEL_ID)
 
         async def send(embed):
-            await ch.send(embed=discord.Embed.from_dict(embed))
+            meta = embed.pop("_pn", None) or {}
+            view = None
+            if meta.get("palier") == "cadet":
+                view = discord.ui.View(timeout=None)
+                view.add_item(BadgeButton(str(meta["uid"])))
+            await ch.send(embed=discord.Embed.from_dict(embed), view=view)
 
         def post(embed):
             try:
@@ -311,7 +396,8 @@ class PNBot(discord.Client):
             mod = importlib.reload(sys.modules["alertes_grade"]) if "alertes_grade" in sys.modules \
                 else importlib.import_module("alertes_grade")
             mod.post = post
-            mod.main()
+            with ETAT_LOCK:
+                mod.main()
 
         await asyncio.to_thread(run)
 
@@ -365,6 +451,49 @@ class PNBot(discord.Client):
         await ch.send(embeds=embeds)
         state["publie"] = True
         write_json(HEBDO_STATE, state)
+
+    # -- aperçu pour la Direction (une fois par valeur d'APERCU)
+    async def apercu(self):
+        state_file = Path(LOCK_FILE).parent / "apercu-version"
+        if state_file.exists() and state_file.read_text().strip() == APERCU:
+            return
+        ch = await self.channel(HEBDO_CHANNEL_ID)
+        now = datetime.now(PARIS)
+        monday = monday_of(now) + timedelta(days=7)
+        rows = await asyncio.to_thread(holders, VAR_SEMAINE)
+        intro = discord.Embed(title="👀 Aperçu des messages du bot", color=BLEU, description=(
+            "Visible de la Direction seulement. **Rien n'est remis à zéro et rien n'est enregistré.**\n\n"
+            f"**1. Classement hebdo** — voici le message qui partira lundi {monday:%d/%m} à 00 h 00, "
+            "avec les points de cette semaine **à l'heure actuelle** (le podium peut encore changer).\n"
+            "**2. Alerte Cadet → Policier adjoint** — exemple de ce que verront les formateurs et les hauts gradés "
+            "dans Alertes-promotions. Le bouton fonctionne ici pour l'essai (réservé aux Hauts gradés et plus)."))
+        await ch.send(embed=intro)
+        await ch.send(embeds=podium_embeds(rows, monday - timedelta(days=7), monday - timedelta(days=1), monday))
+        pseudo = (sorted(rows, key=lambda r: -r[2])[0][1] if rows else "") or "sami75.19"
+        exemple = {
+            "title": f"🎖️ {pseudo} peut passer Policier adjoint",
+            "description": f"**{pseudo}** peut passer **Policier adjoint**.\n*Exemple : ce membre n'est pas réellement concerné.*",
+            "color": 0x2F8FD4,
+            "fields": [
+                {"name": "Grade actuel", "value": "Cadet", "inline": True},
+                {"name": "Ancienneté", "value": "3 jours (≥ 3)", "inline": True},
+                {"name": "Points de recrutement", "value": "214 (≥ 200)", "inline": True},
+                {"name": "Humeur", "value": "`[PN] Cadet [XX]`", "inline": False},
+                {"name": "Procédure · Hauts gradés et plus", "inline": False, "value": (
+                    "Conditions vérifiées par le bot (3 jours + 200 PR).\n"
+                    f"**1.** Remets le badge **Policier adjoint** à **{pseudo}** sur Habbo.\n"
+                    "**2.** Clique sur **Badge attribué** : l'alerte passe en vert avec ton pseudo, "
+                    "personne ne la traitera deux fois.\n"
+                    "La demande du sujet « Gestion du badge Policier adjoint » du forum se valide à part.")},
+            ],
+            "thumbnail": {"url": avatar(pseudo, head=True)},
+            "footer": {"text": f"Grade vu dans l'humeur depuis le {now - timedelta(days=3):%d/%m/%Y} · APERÇU"},
+            "timestamp": now.isoformat(timespec="seconds"),
+        }
+        view = discord.ui.View(timeout=None)
+        view.add_item(BadgeButton("apercu"))
+        await ch.send(embed=discord.Embed.from_dict(exemple), view=view)
+        state_file.write_text(APERCU)
 
     # -- diagnostic de mise en service
     async def diagnostic(self):
