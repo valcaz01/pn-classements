@@ -35,7 +35,7 @@ VAR_PR = (os.environ.get("VAR_PR") or "pts_recrutement").strip()
 VAR_ALL = "matricule"          # tous les visiteurs du QG en ont un : sert à repérer les Cadets dès leur arrivée
 ETAT = "etat_grades.json"
 RECHECK = timedelta(hours=3)   # humeur relue au plus toutes les 3 h par membre
-MAX_CHECKS = 60                # humeurs lues par passage (le workflow tourne toutes les 15 min)
+MAX_CHECKS = 60                # humeurs lues par passage (service toutes les 2 min, cache de 3 h)
 NOW = datetime.now(timezone.utc)
 
 PALIERS = {
@@ -135,7 +135,7 @@ def main():
                              "remplit les conditions pour monter.\n\n"
                              "• Cadet → Policier adjoint : 3 jours + 200 points de recrutement\n"
                              "• Policier adjoint → formation Gardien de la paix : 3 jours + 300 points de recrutement",
-              "color": 0x0B3A5E, "footer": {"text": "Police Nationale · vérification toutes les 15 minutes"},
+              "color": 0x0B3A5E, "footer": {"text": "Police Nationale · vérification toutes les 2 minutes"},
               "timestamp": iso(NOW)})
         print("Message de test envoyé.")
         return

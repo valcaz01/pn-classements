@@ -8,6 +8,7 @@ services:
       REPO_DIR: /data/repo
       SSH_DIR: /data/ssh
       GIT_LOCK: /data/lock/git.lock
+      CYCLE_MINUTES: "2"
     volumes:
       - /opt/pn/repo:/data/repo
       - /opt/pn/ssh:/data/ssh:ro

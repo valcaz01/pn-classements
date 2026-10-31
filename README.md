@@ -1,6 +1,11 @@
 # pn-classements
 Classements XP et points de recrutement du forum P.N (pn-rpg.fr)
 
+Le serveur collecte les données toutes les deux minutes. Le widget et la page
+Classements relisent le fichier publié toutes les deux minutes sans interroger
+directement Habbo. « Actualisé à » indique la dernière collecte réussie, heure
+de Paris ; en cas d'erreur, les dernières valeurs et leur heure sont conservées.
+
 Les totaux viennent des variables permanentes WIRED de la salle configurée. Le
 classement hebdomadaire additionne automatiquement les augmentations observées
 par l'API, du lundi 00 h au dimanche 23 h 59, heure de Paris. La nouvelle

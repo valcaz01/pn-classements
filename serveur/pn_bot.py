@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """PN — service du serveur Hetzner (bot Discord « PN · Alertes »).
 
-Toutes les 15 minutes (heure pile, :00 :15 :30 :45, heure de Paris) :
+Toutes les 2 minutes (minutes paires, heure de Paris) :
   1. classements du forum : lance build_classement.py (classement.json, noms.json, classement-state.json) ;
   2. alertes de promotion : lance alertes_grade.py ; les alertes sont postées par le bot dans #Alertes-promotions
      (une seule par membre et par palier, état dans etat_grades.json) ;
@@ -64,7 +64,7 @@ VAR_SEMAINE = os.environ.get("VAR_SEMAINE", "pts_recrutement_semaine").strip()
 GUILD_ID = int(os.environ.get("GUILD_ID", "0") or 0)
 ALERT_CHANNEL_ID = int(os.environ.get("ALERT_CHANNEL_ID", "0") or 0)
 HEBDO_CHANNEL_ID = int(os.environ.get("HEBDO_CHANNEL_ID", "0") or 0)
-CYCLE_MINUTES = int(os.environ.get("CYCLE_MINUTES", "15"))
+CYCLE_MINUTES = int(os.environ.get("CYCLE_MINUTES", "2"))
 RATTRAPAGE = timedelta(hours=6)
 DATA_FILES = ["classement.json", "noms.json", "classement-state.json", "etat_grades.json", "hebdo-state.json"]
 HEBDO_STATE = REPO / "hebdo-state.json"
@@ -571,7 +571,7 @@ class PNBot(discord.Client):
         except discord.HTTPException:
             LOG.exception("signalement impossible")
 
-    # -- toutes les minutes : cycle de 15 min et remise du lundi
+    # -- toutes les 30 secondes : cycle de 2 min et remise du lundi
     @tasks.loop(seconds=30)
     async def tick(self):
         now = datetime.now(PARIS)

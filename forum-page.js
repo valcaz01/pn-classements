@@ -95,7 +95,7 @@
     var range = currentPeriod === 'week' && data.week_start ? 'Semaine du ' + new Date(data.week_start + 'T12:00:00').toLocaleDateString('fr-FR') : 'Cumul total';
     html += '<div class="pnr-meta"><span>' + range + ' · ' + rows.length + ' agent' + (rows.length > 1 ? 's' : '') + ' classé' + (rows.length > 1 ? 's' : '') +
       (pos >= 0 ? ' · ta place : <b>' + (pos + 1) + '<sup>' + (pos ? 'e' : 'er') + '</sup></b>' : '') + '</span>' +
-      (data.updated ? '<span>Mis à jour le ' + new Date(data.updated).toLocaleString('fr-FR', { dateStyle: 'short', timeStyle: 'short' }) + '</span>' : '') + '</div>';
+      (data.updated ? '<span title="Dernière collecte réussie" style="font-size:11px;color:#647d8d">Actualisé à ' + new Date(data.updated).toLocaleTimeString('fr-FR', { timeZone: 'Europe/Paris', hour: '2-digit', minute: '2-digit' }) + '</span>' : '') + '</div>';
     body.innerHTML = html;
   }
 
@@ -130,8 +130,20 @@
   }
   render();
   if (!DATA_URL) return;
-  fetch(DATA_URL + (DATA_URL.indexOf('?') < 0 ? '?' : '&') + 't=' + Math.floor(Date.now() / 300000), { cache: 'no-store' })
-    .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
-    .then(function (j) { data = j; render(); })
-    .catch(function () { data = null; render(); });
+  var refreshEvery = 120000, loading = false, lastFetch = 0;
+  function refresh() {
+    if (loading || document.hidden) return;
+    loading = true;
+    lastFetch = Date.now();
+    fetch(DATA_URL + (DATA_URL.indexOf('?') < 0 ? '?' : '&') + 't=' + lastFetch, { cache: 'no-store' })
+      .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+      .then(function (j) { data = j; render(); })
+      .catch(function () { /* Conserver les derniers scores et leur heure. */ })
+      .then(function () { loading = false; });
+  }
+  refresh();
+  window.setInterval(refresh, refreshEvery);
+  document.addEventListener('visibilitychange', function () {
+    if (!document.hidden && Date.now() - lastFetch >= refreshEvery) refresh();
+  });
 })();

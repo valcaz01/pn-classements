@@ -87,6 +87,22 @@ class ClassementWeekTests(unittest.TestCase):
         self.assertEqual(before, "2026-03-23")
         self.assertEqual(after, "2026-03-30")
 
+    def test_success_updates_collection_time_without_new_points(self):
+        before = self.run_main(datetime(2026, 11, 1, 12, 0, tzinfo=PARIS))
+        after = self.run_main(datetime(2026, 11, 1, 12, 2, tzinfo=PARIS))
+        self.assertEqual(before["xp"], after["xp"])
+        self.assertEqual(before["pr"], after["pr"])
+        self.assertEqual(after["updated"], "2026-11-01T11:02:00+00:00")
+
+    def test_failed_collection_keeps_last_values_and_timestamp(self):
+        before = self.run_main(datetime(2026, 11, 1, 12, 0, tzinfo=PARIS))
+        def unavailable(var):
+            raise RuntimeError("API indisponible")
+        self.ns["top_values"] = unavailable
+        with self.assertRaises(RuntimeError):
+            self.run_main(datetime(2026, 11, 1, 12, 2, tzinfo=PARIS))
+        self.assertEqual(json.loads(Path("classement.json").read_text(encoding="utf-8")), before)
+
 
 if __name__ == "__main__":
     unittest.main()

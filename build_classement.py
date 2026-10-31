@@ -3,7 +3,7 @@
 
 Lit les variables utilisateur permanentes de l'appart (add-on « API Web ») et écrit
 classement.json avec les scores totaux et hebdomadaires. Les totaux permanents
-sont échantillonnés toutes les 15 minutes ; leur différence alimente la semaine.
+sont échantillonnés toutes les 2 minutes ; leur différence alimente la semaine.
 
 Variables d'environnement :
   HABBO_HOST       hôtel (défaut www.habbo.fr)
@@ -103,7 +103,6 @@ def main():
     if not ROOM or not KEY:
         sys.exit("WIRED_ROOM_ID et WIRED_READ_KEY sont obligatoires.")
     cache = read_json("noms.json", {})
-    previous_data = read_json(OUT, {})
     state = read_json(STATE, {})
 
     now = datetime.now(timezone.utc)
@@ -165,7 +164,10 @@ def main():
     for key, rows in current.items():
         last_totals[key].update({uid: row["value"] for uid, row in rows.items()})
 
-    out = {"updated": now.isoformat(timespec="seconds"), "week_start": current_week}
+    # L'heure correspond à la fin d'une collecte réussie, même sans nouveau point.
+    # Une erreur de lecture interrompt main() avant cette écriture : la dernière
+    # heure et les dernières valeurs valides restent donc publiées sur le forum.
+    out = {"updated": datetime.now(timezone.utc).isoformat(timespec="seconds"), "week_start": current_week}
     for key in VARS:
         total_rows = sorted(current[key].values(), key=lambda r: (-r["value"], r["name"].casefold()))
         week_rows = sorted(weekly.get(key, {}).values(), key=lambda r: (-r["value"], r["name"].casefold()))
@@ -173,10 +175,6 @@ def main():
             "total": total_rows[:TOP],
             "week": [r for r in week_rows if r["value"] > 0][:TOP],
         }
-
-    if (previous_data.get("xp") == out.get("xp") and previous_data.get("pr") == out.get("pr")
-            and previous_data.get("week_start") == current_week):
-        out["updated"] = previous_data.get("updated", out["updated"])
 
     with open(OUT, "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=1)

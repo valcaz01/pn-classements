@@ -11,6 +11,10 @@
   var body = document.getElementById('pnw-body');
   if (!body) return;
   var demo = /[?&]apercu\b/.test(location.search);
+  var stamp = document.createElement('div');
+  stamp.className = 'pnw-updated';
+  stamp.style.cssText = 'margin-top:7px;text-align:center;font:10px Arial,Helvetica,sans-serif;color:#647d8d;display:none';
+  body.parentNode.appendChild(stamp);
 
   function esc(s) { return String(s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
   function av(r, dir) { return 'https://www.habbo.fr/habbo-imaging/avatarimage?' + (r.figure ? 'figure=' + encodeURIComponent(r.figure) : 'user=' + encodeURIComponent(r.name)) + '&direction=' + dir + '&head_direction=' + dir + '&gesture=sml&size=m'; }
@@ -39,6 +43,12 @@
   function render(d) {
     body.innerHTML = section('&#11088; Expérience · semaine', 'XP', d && d.xp && d.xp.week) +
       section('&#127894;&#65039; Recrutement · semaine', 'pts', d && d.pr && d.pr.week);
+    var when = d && d.updated ? new Date(d.updated) : null;
+    if (when && !isNaN(when.getTime())) {
+      stamp.textContent = 'Actualisé à ' + when.toLocaleTimeString('fr-FR', { timeZone: 'Europe/Paris', hour: '2-digit', minute: '2-digit' });
+      stamp.title = 'Dernière collecte réussie : ' + when.toLocaleString('fr-FR', { timeZone: 'Europe/Paris' });
+      stamp.style.display = 'block';
+    }
   }
 
   if (demo) {
@@ -48,8 +58,20 @@
   }
   render(null);
   if (!DATA_URL) return;
-  fetch(DATA_URL + (DATA_URL.indexOf('?') < 0 ? '?' : '&') + 't=' + Math.floor(Date.now() / 300000))
-    .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
-    .then(render)
-    .catch(function () { render(null); });
+  var refreshEvery = 120000, loading = false, lastFetch = 0;
+  function refresh() {
+    if (loading || document.hidden) return;
+    loading = true;
+    lastFetch = Date.now();
+    fetch(DATA_URL + (DATA_URL.indexOf('?') < 0 ? '?' : '&') + 't=' + lastFetch, { cache: 'no-store' })
+      .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+      .then(render)
+      .catch(function () { /* Conserver les derniers scores et leur heure. */ })
+      .then(function () { loading = false; });
+  }
+  refresh();
+  window.setInterval(refresh, refreshEvery);
+  document.addEventListener('visibilitychange', function () {
+    if (!document.hidden && Date.now() - lastFetch >= refreshEvery) refresh();
+  });
 })();
