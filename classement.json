@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-01T17:52:11+00:00",
+ "updated": "2026-11-01T17:54:11+00:00",
  "week_start": "2026-10-26",
  "xp": {
   "total": [
    {
     "name": ".:Krustiz:.",
-    "value": 1
+    "value": 2
    },
    {
     "name": "irysse",
@@ -18,12 +18,12 @@
   ],
   "week": [
    {
-    "name": "Icarem",
+    "name": ".:Krustiz:.",
     "value": 2
    },
    {
-    "name": ".:Krustiz:.",
-    "value": 1
+    "name": "Icarem",
+    "value": 2
    },
    {
     "name": "irysse",
