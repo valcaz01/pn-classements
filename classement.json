@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-01T22:58:11+00:00",
- "week_start": "2026-10-26",
+ "updated": "2026-11-01T23:00:15+00:00",
+ "week_start": "2026-11-02",
  "xp": {
   "total": [
    {
@@ -16,28 +16,7 @@
     "value": 1
    }
   ],
-  "week": [
-   {
-    "name": ".:Krustiz:.",
-    "value": 43
-   },
-   {
-    "name": "Icarem",
-    "value": 2
-   },
-   {
-    "name": "irysse",
-    "value": 2
-   },
-   {
-    "name": "sami75.19",
-    "value": 1
-   },
-   {
-    "name": "sophi61",
-    "value": 1
-   }
-  ]
+  "week": []
  },
  "pr": {
   "total": [
@@ -74,23 +53,6 @@
     "value": 2
    }
   ],
-  "week": [
-   {
-    "name": "irysse",
-    "value": 73
-   },
-   {
-    "name": "Pantheon_",
-    "value": 35
-   },
-   {
-    "name": "sami75.19",
-    "value": 11
-   },
-   {
-    "name": ".:Krustiz:.",
-    "value": 2
-   }
-  ]
+  "week": []
  }
 }
