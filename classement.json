@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-01T23:52:11+00:00",
+ "updated": "2026-11-01T23:54:11+00:00",
  "week_start": "2026-11-02",
  "xp": {
   "total": [
    {
     "name": ".:Krustiz:.",
-    "value": 53
+    "value": 54
    },
    {
     "name": "irysse",
@@ -19,7 +19,7 @@
   "week": [
    {
     "name": ".:Krustiz:.",
-    "value": 10
+    "value": 11
    }
   ]
  },
@@ -31,7 +31,7 @@
    },
    {
     "name": "irysse",
-    "value": 96
+    "value": 98
    },
    {
     "name": "Pantheon_",
@@ -58,6 +58,11 @@
     "value": 2
    }
   ],
-  "week": []
+  "week": [
+   {
+    "name": "irysse",
+    "value": 2
+   }
+  ]
  }
 }
