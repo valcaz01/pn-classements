@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T23:58:11+00:00",
+ "updated": "2026-11-02T00:00:11+00:00",
  "week_start": "2026-11-02",
  "xp": {
   "total": [
@@ -46,22 +46,26 @@
     "value": 8
    },
    {
+    "name": ".:Krustiz:.",
+    "value": 4
+   },
+   {
     "name": "Piingouin.",
     "value": 4
    },
    {
     "name": "Icarem",
     "value": 3
-   },
-   {
-    "name": ".:Krustiz:.",
-    "value": 2
    }
   ],
   "week": [
    {
     "name": "irysse",
     "value": 3
+   },
+   {
+    "name": ".:Krustiz:.",
+    "value": 2
    }
   ]
  }
