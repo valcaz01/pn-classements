@@ -2,6 +2,8 @@
 services:
   bot:
     build: .
+    # Récupère les processus Git détachés pour éviter l'accumulation de zombies.
+    init: true
     restart: unless-stopped
     env_file: /opt/pn/.env
     environment:
