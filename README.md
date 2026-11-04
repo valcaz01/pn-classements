@@ -30,5 +30,9 @@ conserve les dernières valeurs publiées et leur véritable heure de collecte.
 Ces reprises concernent uniquement les échanges Git ; elles ne rejouent aucune
 attribution de points, action sur un badge ou remise à zéro Habbo.
 
+La mise à jour du serveur compare le dossier `serveur/` à la dernière version
+relancée, conservée dans `/opt/pn/lock/deployed-service-tree`. Elle recharge donc
+une correction même si le bot l'a déjà récupérée avant le timer système.
+
 Vérification hors ligne, avec des dépôts Git locaux et des pannes simulées :
 `python -m unittest discover -s tests -v`.
