@@ -68,7 +68,10 @@ class WeeklyResetTests(unittest.TestCase):
         async def report(key, message):
             self.reports.append((key, message))
 
-        self.bot = SimpleNamespace(post_podium=post_podium, report=report)
+        async def publish_data(message):
+            self.publishes.append(message)
+
+        self.bot = SimpleNamespace(post_podium=post_podium, report=report, publish_data=publish_data)
 
     def run_weekly(self, when):
         asyncio.run(self.ns["weekly"](self.bot, when))

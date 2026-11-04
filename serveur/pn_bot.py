@@ -48,6 +48,8 @@ from zoneinfo import ZoneInfo
 import discord
 from discord.ext import tasks
 
+from publication import PUBLICATION_REVISION, PublicationHealth, network_git, public_reason
+
 VERSION = "2026-10-28.1"   # diagnostic de mise en service (ne pas changer sans raison : il est re-posté)
 APERCU = "2026-10-28-xp2"  # changer cette valeur pour reposter l'aperçu dans #Classement-hebdo
 LOG = logging.getLogger("pn")
@@ -454,11 +456,12 @@ def variable_names():
 
 # ---------------------------------------------------------------- Git (publication des fichiers du forum)
 
-def git(*args, check=True):
+def git(*args, check=True, timeout=120):
     env = dict(os.environ, GIT_SSH_COMMAND=(
         f"ssh -i {SSH_DIR / 'id_ed25519'} -o UserKnownHostsFile={SSH_DIR / 'known_hosts'} "
-        "-o StrictHostKeyChecking=accept-new -o BatchMode=yes"))
-    r = subprocess.run(["git", "-C", str(REPO), *args], capture_output=True, text=True, env=env, timeout=120)
+        "-o StrictHostKeyChecking=accept-new -o BatchMode=yes -o IdentitiesOnly=yes "
+        "-o ConnectTimeout=10 -o ConnectionAttempts=1"), GIT_TERMINAL_PROMPT="0")
+    r = subprocess.run(["git", "-C", str(REPO), *args], capture_output=True, text=True, env=env, timeout=timeout)
     if check and r.returncode:
         raise RuntimeError(f"git {args[0]} : {(r.stderr or r.stdout).strip()[:300]}")
     return r
@@ -471,15 +474,18 @@ def publish(message):
         fcntl.flock(lock, fcntl.LOCK_EX)
         present = [f for f in DATA_FILES if (REPO / f).exists()] + (["hebdo"] if (REPO / "hebdo").exists() else [])
         git("add", "--", *present)
-        if git("diff", "--cached", "--quiet", check=False).returncode:
-            git("commit", "-q", "-m", message)
-        git("fetch", "-q", "https://github.com/valcaz01/pn-classements.git", "main")
+        staged = git("diff", "--cached", "--quiet", check=False)
+        if staged.returncode not in (0, 1):
+            raise RuntimeError(f"Lecture des modifications impossible : {staged.stderr[:300]}")
+        if staged.returncode == 1:
+            git("commit", "-q", "-m", f"{message}\n\nPN-Publisher: {PUBLICATION_REVISION}")
+        network_git(git, "fetch", "-q", "https://github.com/valcaz01/pn-classements.git", "main")
         if git("rebase", "-q", "--autostash", "FETCH_HEAD", check=False).returncode:
             git("rebase", "--abort", check=False)
             raise RuntimeError("rebase impossible (conflit) : publication reportée")
         ahead = git("rev-list", "--count", "FETCH_HEAD..HEAD").stdout.strip()
         if ahead != "0":
-            git("push", "-q", "origin", "HEAD:main")
+            network_git(git, "push", "-q", "origin", "HEAD:main")
         return ahead
 
 
@@ -534,6 +540,8 @@ class PNBot(discord.Client):
     def __init__(self):
         super().__init__(intents=discord.Intents(guilds=True), allowed_mentions=discord.AllowedMentions.none())
         self.cycle_lock = asyncio.Lock()
+        self.publication_lock = asyncio.Lock()
+        self.publication_health = PublicationHealth(Path(LOCK_FILE).parent / "publication-health.json")
         self.last_slot = None
         self.last_errors = {}
         self.started = False
@@ -571,6 +579,44 @@ class PNBot(discord.Client):
         except discord.HTTPException:
             LOG.exception("signalement impossible")
 
+    async def publication_notice(self, title, text, color):
+        if not HEBDO_CHANNEL_ID:
+            return False
+        try:
+            ch = await self.channel(HEBDO_CHANNEL_ID)
+            await ch.send(embed=discord.Embed(title=title, description=text, color=color))
+            return True
+        except Exception:  # une panne Discord ne doit pas perdre le suivi de publication
+            LOG.exception("notification de publication impossible")
+            return False
+
+    async def publish_data(self, message):
+        async with self.publication_lock:
+            health = self.publication_health
+            try:
+                ahead = await asyncio.to_thread(publish, message)
+            except Exception as exc:  # noqa: BLE001
+                LOG.exception("Publication GitHub reportée ; données conservées localement")
+                now = time.time()
+                health.failure(now)
+                if health.alert_due(now):
+                    first = datetime.fromtimestamp(health.state["first_failure"], PARIS)
+                    text = (f"La publication des classements reste bloquée depuis **{first:%H h %M}** "
+                            "(heure de Paris).\n" + public_reason(exc) + "\n\n"
+                            "Les relevés restent enregistrés sur le serveur. Le bot continue ses tentatives "
+                            "automatiquement et rattrapera les envois au retour du service.")
+                    if await self.publication_notice("⚠️ Publication des classements interrompue", text, ROUGE):
+                        health.alert_sent(now)
+                return None
+            duration = health.success(time.time())
+            LOG.info("Publication GitHub %s : OK (%s commit(s) en attente avant envoi)", PUBLICATION_REVISION, ahead)
+            if duration is not None:
+                text = ("Les classements sont de nouveau publiés et les envois en attente ont été rattrapés.\n"
+                        f"Durée de l'interruption : **{max(1, round(duration / 60))} min**.")
+                if await self.publication_notice("✅ Publication des classements rétablie", text, VERT):
+                    health.recovery_sent()
+            return ahead
+
     # -- toutes les 30 secondes : cycle de 2 min et remise du lundi
     @tasks.loop(seconds=30)
     async def tick(self):
@@ -607,10 +653,7 @@ class PNBot(discord.Client):
             except Exception as exc:  # noqa: BLE001
                 await self.report("Alertes de promotion", f"{exc}\n```{traceback.format_exc()[-800:]}```")
             # 3. publication GitHub
-            try:
-                await asyncio.to_thread(publish, f"Classements {datetime.now(timezone.utc):%Y-%m-%dT%H:%M:%SZ}")
-            except Exception as exc:  # noqa: BLE001
-                await self.report("Publication GitHub", str(exc))
+            await self.publish_data(f"Classements {datetime.now(timezone.utc):%Y-%m-%dT%H:%M:%SZ}")
 
     async def alerts(self):
         loop = asyncio.get_running_loop()
@@ -708,10 +751,7 @@ class PNBot(discord.Client):
                  "fichier": f"hebdo/{debut.date().isoformat()}.json"}
         write_json(HEBDO_STATE, state)
         await self.post_podium(state, semaine)
-        try:
-            await asyncio.to_thread(publish, f"Classement hebdo {debut:%d/%m}–{fin:%d/%m}")
-        except Exception as exc:  # noqa: BLE001
-            await self.report("Publication GitHub", str(exc))
+        await self.publish_data(f"Classement hebdo {debut:%d/%m}–{fin:%d/%m}")
 
     async def post_podium(self, state, semaine):
         monday = datetime.fromisoformat(semaine).replace(tzinfo=PARIS)
