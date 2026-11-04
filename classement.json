@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T20:52:20+00:00",
+ "updated": "2026-11-04T20:54:20+00:00",
  "week_start": "2026-11-02",
  "xp": {
   "total": [
@@ -9,11 +9,11 @@
    },
    {
     "name": "sami75.19",
-    "value": 5
+    "value": 7
    },
    {
     "name": "irysse",
-    "value": 2
+    "value": 4
    },
    {
     "name": "sophi61",
@@ -27,7 +27,11 @@
    },
    {
     "name": "sami75.19",
-    "value": 5
+    "value": 7
+   },
+   {
+    "name": "irysse",
+    "value": 2
    }
   ]
  },
