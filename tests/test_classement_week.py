@@ -103,6 +103,31 @@ class ClassementWeekTests(unittest.TestCase):
             self.run_main(datetime(2026, 11, 1, 12, 2, tzinfo=PARIS))
         self.assertEqual(json.loads(Path("classement.json").read_text(encoding="utf-8")), before)
 
+    def test_failure_of_second_variable_keeps_all_files_and_catches_up_once(self):
+        self.run_main(datetime(2026, 11, 4, 12, 0, tzinfo=PARIS))
+        files = ("classement.json", "classement-state.json", "noms.json")
+        before = {name: Path(name).read_bytes() for name in files}
+        original = self.ns["top_values"]
+        self.values["xp"] += 2
+        self.values["pts_recrutement_total"] += 3
+
+        def partial_failure(var):
+            if var == "pts_recrutement_total":
+                raise TimeoutError("API timeout")
+            return original(var)
+
+        self.ns["top_values"] = partial_failure
+        with self.assertRaises(TimeoutError):
+            self.run_main(datetime(2026, 11, 4, 12, 2, tzinfo=PARIS))
+        self.assertEqual({name: Path(name).read_bytes() for name in files}, before)
+        self.ns["top_values"] = original
+        after = self.run_main(datetime(2026, 11, 4, 12, 4, tzinfo=PARIS))
+        self.assertEqual(after["xp"]["week"][0]["value"], 2)
+        self.assertEqual(after["pr"]["week"][0]["value"], 3)
+        again = self.run_main(datetime(2026, 11, 4, 12, 6, tzinfo=PARIS))
+        self.assertEqual(again["xp"], after["xp"])
+        self.assertEqual(again["pr"], after["pr"])
+
 
 if __name__ == "__main__":
     unittest.main()

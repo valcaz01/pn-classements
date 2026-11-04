@@ -38,7 +38,6 @@ import threading
 import time
 import unicodedata
 import traceback
-import urllib.error
 import urllib.parse
 import urllib.request
 from datetime import datetime, timedelta, timezone
@@ -49,6 +48,8 @@ import discord
 from discord.ext import tasks
 
 from publication import PUBLICATION_REVISION, PublicationHealth, network_git, public_reason
+from habbo_http import request_json
+from collection import COLLECTION_REVISION, JOBS, REASONS, CollectionHealth, subprocess_failure
 
 VERSION = "2026-10-28.1"   # diagnostic de mise en service (ne pas changer sans raison : il est re-posté)
 APERCU = "2026-10-28-xp2"  # changer cette valeur pour reposter l'aperçu dans #Classement-hebdo
@@ -372,20 +373,7 @@ def api(path, params=None, body=None, method=None, write=False):
         headers["Content-Type"] = "application/json"
         data = json.dumps(body).encode()
     req = urllib.request.Request(url, headers=headers, data=data, method=method)
-    for _ in range(5):
-        try:
-            with urllib.request.urlopen(req, timeout=20) as r:
-                raw = r.read()
-                return json.loads(raw) if raw else {}
-        except urllib.error.HTTPError as e:
-            if e.code == 429:
-                time.sleep(int(e.headers.get("Retry-After") or 10) + 1)
-                continue
-            if e.code == 404:
-                return None
-            raise RuntimeError(f"API Habbo {e.code} sur {path.split('?')[0]} : "
-                               f"{e.read()[:200].decode('utf-8', 'replace')}") from None
-    raise RuntimeError(f"API Habbo : trop de requêtes refusées ({path})")
+    return request_json(req)
 
 
 def holders(var):
@@ -478,7 +466,7 @@ def publish(message):
         if staged.returncode not in (0, 1):
             raise RuntimeError(f"Lecture des modifications impossible : {staged.stderr[:300]}")
         if staged.returncode == 1:
-            git("commit", "-q", "-m", f"{message}\n\nPN-Publisher: {PUBLICATION_REVISION}")
+            git("commit", "-q", "-m", f"{message}\n\nPN-Publisher: {PUBLICATION_REVISION}\nPN-Collector: {COLLECTION_REVISION}")
         network_git(git, "fetch", "-q", "https://github.com/valcaz01/pn-classements.git", "main")
         if git("rebase", "-q", "--autostash", "FETCH_HEAD", check=False).returncode:
             git("rebase", "--abort", check=False)
@@ -542,6 +530,7 @@ class PNBot(discord.Client):
         self.cycle_lock = asyncio.Lock()
         self.publication_lock = asyncio.Lock()
         self.publication_health = PublicationHealth(Path(LOCK_FILE).parent / "publication-health.json")
+        self.collection_health = CollectionHealth(Path(LOCK_FILE).parent / "collection-health.json")
         self.last_slot = None
         self.last_errors = {}
         self.started = False
@@ -587,7 +576,7 @@ class PNBot(discord.Client):
             await ch.send(embed=discord.Embed(title=title, description=text, color=color))
             return True
         except Exception:  # une panne Discord ne doit pas perdre le suivi de publication
-            LOG.exception("notification de publication impossible")
+            LOG.exception("notification de service impossible")
             return False
 
     async def publish_data(self, message):
@@ -617,6 +606,26 @@ class PNBot(discord.Client):
                     health.recovery_sent()
             return ahead
 
+    async def notify_collection_health(self):
+        health, now = self.collection_health, time.time()
+        health.finish_cycle(now)
+        if health.alert_due(now):
+            lines = []
+            for job, row in health.failed_jobs().items():
+                first = datetime.fromtimestamp(row["first_failure"], PARIS)
+                lines.append(f"• **{JOBS[job]}** : en attente depuis {first:%H h %M} (Paris). "
+                             + REASONS.get(row["kind"], REASONS["internal"]))
+            text = ("\n".join(lines) + "\n\nLe forum conserve ses derniers classements valides et leur heure de collecte. "
+                    "Les promotions concernées seront revérifiées automatiquement au retour du service. "
+                    "Les nouvelles tentatives continuent ; aucun point n'est modifié par ces lectures.")
+            if await self.publication_notice("⚠️ Vérifications PN retardées", text, ROUGE):
+                health.alert_sent(now)
+        elif health.state["recovery"] is not None:
+            text = ("Les classements ont de nouveau été collectés et les conditions de promotion vérifiées.\n"
+                    f"Durée de l'interruption : **{max(1, round(health.state['recovery'] / 60))} min**.")
+            if await self.publication_notice("✅ Vérifications PN rétablies", text, VERT):
+                health.recovery_sent()
+
     # -- toutes les 30 secondes : cycle de 2 min et remise du lundi
     @tasks.loop(seconds=30)
     async def tick(self):
@@ -637,21 +646,32 @@ class PNBot(discord.Client):
     async def cycle(self):
         async with self.cycle_lock:
             env = dict(os.environ)
+            health = self.collection_health
             # 1. classements du forum
             try:
                 r = await asyncio.to_thread(subprocess.run, [sys.executable, "build_classement.py"], cwd=REPO,
                                             env=env, capture_output=True, text=True, timeout=600)
                 if r.returncode:
-                    raise RuntimeError((r.stderr or r.stdout).strip()[-800:])
+                    LOG.error("Collecte des classements : %s", (r.stderr or r.stdout).strip())
+                    raise subprocess_failure(r.stderr or r.stdout)
                 LOG.info("classements : %s", r.stdout.strip().splitlines()[-1:] or "")
             except Exception as exc:  # noqa: BLE001
-                await self.report("Classements du forum", str(exc))
-            await asyncio.to_thread(refresh_habbo)  # annuaire des pseudos Habbo pour le bouton « Badge attribué »
+                LOG.exception("Classements reportés ; dernières données conservées")
+                health.record("rankings", exc, time.time())
+            else:
+                health.record("rankings", None, time.time())
             # 2. alertes de promotion (postées par le bot)
             try:
                 await self.alerts()
             except Exception as exc:  # noqa: BLE001
-                await self.report("Alertes de promotion", f"{exc}\n```{traceback.format_exc()[-800:]}```")
+                LOG.exception("Vérification des promotions reportée")
+                health.record("promotions", exc, time.time())
+            else:
+                health.record("promotions", None, time.time())
+            if not health.failed_jobs():
+                # L'annuaire déjà en mémoire reste utilisable pendant une coupure.
+                await asyncio.to_thread(refresh_habbo)
+            await self.notify_collection_health()
             # 3. publication GitHub
             await self.publish_data(f"Classements {datetime.now(timezone.utc):%Y-%m-%dT%H:%M:%SZ}")
 

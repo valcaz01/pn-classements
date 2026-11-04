@@ -21,11 +21,12 @@ import json
 import os
 import sys
 import time
-import urllib.error
 import urllib.parse
 import urllib.request
 from datetime import datetime, timezone, timedelta
 from zoneinfo import ZoneInfo
+
+from serveur.habbo_http import ApiRequestError, FAILURE_MARKER, request_json
 
 HOST = os.environ.get("HABBO_HOST", "www.habbo.fr")
 ROOM = os.environ.get("WIRED_ROOM_ID", "").strip()
@@ -43,20 +44,7 @@ def get(path, params=None):
         url += "?" + urllib.parse.urlencode(params)
     req = urllib.request.Request(url, headers={"X-Wired-Read-Key": KEY, "Accept": "application/json",
                                                "User-Agent": "pn-classements/1.0"})
-    for attempt in range(4):
-        try:
-            with urllib.request.urlopen(req, timeout=20) as r:
-                return json.load(r)
-        except urllib.error.HTTPError as e:
-            if e.code == 429:
-                time.sleep(int(e.headers.get("Retry-After") or 10))
-                continue
-            body = e.read().decode("utf-8", "replace")[:300]
-            print(f"[API] {e.code} sur {path} : {body}", file=sys.stderr)
-            if e.code == 404:
-                return None
-            raise
-    raise RuntimeError(f"Trop de requêtes refusées : {path}")
+    return request_json(req)
 
 
 def parse(item):
@@ -188,4 +176,9 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except ApiRequestError as exc:
+        print(str(exc), file=sys.stderr)
+        print(FAILURE_MARKER + json.dumps(exc.summary()), file=sys.stderr)
+        sys.exit(1)

@@ -15,6 +15,7 @@ from zoneinfo import ZoneInfo
 from serveur.publication import (
     GitPublicationError, PUBLICATION_REVISION, PublicationHealth, network_git, public_reason,
 )
+from serveur.collection import COLLECTION_REVISION
 
 
 SOURCE = Path(__file__).resolve().parents[1] / "serveur" / "pn_bot.py"
@@ -32,6 +33,7 @@ def load_bot_functions():
     nodes.append(next(n for n in bot.body if isinstance(n, ast.AsyncFunctionDef) and n.name == "publish_data"))
     ns = {"asyncio": asyncio, "datetime": datetime, "PARIS": PARIS, "os": os, "Path": Path,
           "subprocess": subprocess, "PUBLICATION_REVISION": PUBLICATION_REVISION,
+          "COLLECTION_REVISION": COLLECTION_REVISION,
           "network_git": network_git, "public_reason": public_reason, "LOG": Mock(),
           "fcntl": SimpleNamespace(flock=lambda *_: None, LOCK_EX=1), "ROUGE": 1, "VERT": 2}
     exec(compile(ast.Module(body=nodes, type_ignores=[]), str(SOURCE), "exec"), ns)

@@ -30,6 +30,26 @@ conserve les dernières valeurs publiées et leur véritable heure de collecte.
 Ces reprises concernent uniquement les échanges Git ; elles ne rejouent aucune
 attribution de points, action sur un badge ou remise à zéro Habbo.
 
+Les lectures Habbo ont aussi leur propre reprise : trois tentatives GET au
+maximum pour un timeout, une coupure réseau, une erreur 500/502/503/504 ou une
+réponse JSON invalide, avec un délai socket de 20 secondes et des pauses de
+2 puis 5 secondes. Un refus 429 respecte `Retry-After` ; si le délai demandé
+dépasse 30 secondes, la lecture est reportée au cycle suivant plutôt que de
+bloquer le bot. Les refus de configuration (401/403) ne sont pas rejoués. Les
+POST/PATCH/PUT, dont l'attribution d'XP et la remise à zéro, ne sont jamais
+rejoués automatiquement après une réponse incertaine.
+
+La santé des classements et des promotions est suivie séparément dans
+`/opt/pn/lock/collection-health.json`. Une seule notification regroupe les
+travaux encore bloqués après dix minutes et au moins trois cycles en échec
+du même travail ; rappel après 24 heures et message de rétablissement quand
+les deux vérifications ont réussi. Un succès des classements ne masque pas
+une panne des promotions. Les traces techniques restent dans les logs.
+Une lecture de classement incomplète conserve les fichiers et l'heure de
+la dernière collecte valide ; la reprise compte les gains depuis ce dernier
+relevé sans les compter deux fois. Les commits du service portent le repère
+`PN-Collector: 2026-11-04.1` pour vérifier le déploiement de cette correction.
+
 La mise à jour du serveur compare le dossier `serveur/` à la dernière version
 relancée, conservée dans `/opt/pn/lock/deployed-service-tree`. Elle recharge donc
 une correction même si le bot l'a déjà récupérée avant le timer système.

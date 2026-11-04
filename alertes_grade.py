@@ -22,10 +22,11 @@ import re
 import sys
 import time
 import unicodedata
-import urllib.error
 import urllib.parse
 import urllib.request
 from datetime import datetime, timedelta, timezone
+
+from serveur.habbo_http import request_json
 
 HOST = os.environ.get("HABBO_HOST", "www.habbo.fr")
 ROOM = os.environ.get("WIRED_ROOM_ID", "").strip()
@@ -51,20 +52,8 @@ def req(url, headers=None, data=None, method=None):
     h = {"Accept": "application/json", "User-Agent": "pn-alertes/1.0"}
     h.update(headers or {})
     r = urllib.request.Request(url, headers=h, data=data, method=method)
-    for _ in range(4):
-        try:
-            with urllib.request.urlopen(r, timeout=20) as resp:
-                body = resp.read()
-                return json.loads(body) if body else None
-        except urllib.error.HTTPError as e:
-            if e.code == 429:
-                time.sleep(int(e.headers.get("Retry-After") or 5) + 1)
-                continue
-            if e.code == 404:
-                return None
-            print(f"[HTTP] {e.code} {url.split('?')[0]} : {e.read()[:200]!r}", file=sys.stderr)
-            raise
-    raise RuntimeError("trop de requêtes refusées")
+    service = "Habbo" if urllib.parse.urlsplit(url).hostname == HOST else "Discord"
+    return request_json(r, service=service)
 
 
 def wired(path, params=None):
