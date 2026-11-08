@@ -1,7 +1,7 @@
 {
  "initialized": true,
  "calendar": "monday",
- "week_start": "2026-11-02",
+ "week_start": "2026-11-09",
  "last_totals": {
   "xp": {
    "21840576": 136,
@@ -26,29 +26,7 @@
   }
  },
  "week_values": {
-  "xp": {
-   "21840576": {
-    "name": ".:Krustiz:.",
-    "value": 93
-   },
-   "2130964": {
-    "name": "sami75.19",
-    "value": 8
-   },
-   "25442902": {
-    "name": "irysse",
-    "value": 5
-   }
-  },
-  "pr": {
-   "25442902": {
-    "name": "irysse",
-    "value": 47
-   },
-   "21840576": {
-    "name": ".:Krustiz:.",
-    "value": 4
-   }
-  }
+  "xp": {},
+  "pr": {}
  }
 }

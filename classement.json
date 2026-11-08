@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-08T22:58:11+00:00",
- "week_start": "2026-11-02",
+ "updated": "2026-11-08T23:00:15+00:00",
+ "week_start": "2026-11-09",
  "xp": {
   "total": [
    {
@@ -20,20 +20,7 @@
     "value": 1
    }
   ],
-  "week": [
-   {
-    "name": ".:Krustiz:.",
-    "value": 93
-   },
-   {
-    "name": "sami75.19",
-    "value": 8
-   },
-   {
-    "name": "irysse",
-    "value": 5
-   }
-  ]
+  "week": []
  },
  "pr": {
   "total": [
@@ -70,15 +57,6 @@
     "value": 3
    }
   ],
-  "week": [
-   {
-    "name": "irysse",
-    "value": 47
-   },
-   {
-    "name": ".:Krustiz:.",
-    "value": 4
-   }
-  ]
+  "week": []
  }
 }
