@@ -1,32 +1,49 @@
 {
- "updated": "2026-11-09T00:24:10+00:00",
+ "updated": "2026-11-09T00:26:11+00:00",
  "week_start": "2026-11-09",
  "xp": {
   "total": [
    {
     "name": ".:Krustiz:.",
-    "value": 136
+    "value": 138
+   },
+   {
+    "name": "irysse",
+    "value": 9
    },
    {
     "name": "sami75.19",
     "value": 8
    },
    {
-    "name": "irysse",
-    "value": 7
+    "name": "Eleanora",
+    "value": 2
    },
    {
     "name": "sophi61",
     "value": 1
    }
   ],
-  "week": []
+  "week": [
+   {
+    "name": ".:Krustiz:.",
+    "value": 2
+   },
+   {
+    "name": "Eleanora",
+    "value": 2
+   },
+   {
+    "name": "irysse",
+    "value": 2
+   }
+  ]
  },
  "pr": {
   "total": [
    {
     "name": "irysse",
-    "value": 143
+    "value": 145
    },
    {
     "name": "sami75.19",
@@ -38,7 +55,7 @@
    },
    {
     "name": "Eleanora",
-    "value": 26
+    "value": 28
    },
    {
     "name": "halos34",
@@ -57,6 +74,15 @@
     "value": 3
    }
   ],
-  "week": []
+  "week": [
+   {
+    "name": "Eleanora",
+    "value": 2
+   },
+   {
+    "name": "irysse",
+    "value": 2
+   }
+  ]
  }
 }
