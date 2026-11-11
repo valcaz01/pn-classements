@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T21:04:10+00:00",
+ "updated": "2026-11-11T21:06:10+00:00",
  "week_start": "2026-11-09",
  "xp": {
   "total": [
@@ -9,11 +9,11 @@
    },
    {
     "name": "sami75.19",
-    "value": 21
+    "value": 22
    },
    {
     "name": "irysse",
-    "value": 16
+    "value": 17
    },
    {
     "name": "Eleanora",
@@ -27,14 +27,14 @@
   "week": [
    {
     "name": "sami75.19",
-    "value": 13
-   },
-   {
-    "name": ".:Krustiz:.",
-    "value": 9
+    "value": 14
    },
    {
     "name": "irysse",
+    "value": 10
+   },
+   {
+    "name": ".:Krustiz:.",
     "value": 9
    },
    {
@@ -47,23 +47,23 @@
   "total": [
    {
     "name": "irysse",
-    "value": 179
+    "value": 181
    },
    {
     "name": "sami75.19",
-    "value": 123
+    "value": 125
    },
    {
     "name": "Pantheon_",
     "value": 35
    },
    {
-    "name": "Eleanora",
+    "name": ".:Krustiz:.",
     "value": 34
    },
    {
-    "name": ".:Krustiz:.",
-    "value": 32
+    "name": "Eleanora",
+    "value": 34
    },
    {
     "name": "halos34",
@@ -81,15 +81,15 @@
   "week": [
    {
     "name": "irysse",
-    "value": 36
+    "value": 38
    },
    {
     "name": ".:Krustiz:.",
-    "value": 28
+    "value": 30
    },
    {
     "name": "sami75.19",
-    "value": 16
+    "value": 18
    },
    {
     "name": "Eleanora",
