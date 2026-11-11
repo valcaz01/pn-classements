@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-11T20:36:11+00:00",
+ "updated": "2026-11-11T20:38:11+00:00",
  "week_start": "2026-11-09",
  "xp": {
   "total": [
    {
     "name": ".:Krustiz:.",
-    "value": 143
+    "value": 144
    },
    {
     "name": "sami75.19",
@@ -27,7 +27,7 @@
   "week": [
    {
     "name": ".:Krustiz:.",
-    "value": 7
+    "value": 8
    },
    {
     "name": "irysse",
@@ -47,11 +47,11 @@
   "total": [
    {
     "name": "irysse",
-    "value": 163
+    "value": 165
    },
    {
     "name": "sami75.19",
-    "value": 111
+    "value": 113
    },
    {
     "name": "Pantheon_",
@@ -81,7 +81,7 @@
   "week": [
    {
     "name": "irysse",
-    "value": 20
+    "value": 22
    },
    {
     "name": ".:Krustiz:.",
@@ -93,7 +93,7 @@
    },
    {
     "name": "sami75.19",
-    "value": 4
+    "value": 6
    }
   ]
  }
