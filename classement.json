@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T11:54:10+00:00",
+ "updated": "2026-11-11T11:56:11+00:00",
  "week_start": "2026-11-09",
  "xp": {
   "total": [
@@ -58,12 +58,12 @@
     "value": 34
    },
    {
-    "name": "halos34",
+    "name": ".:Krustiz:.",
     "value": 8
    },
    {
-    "name": ".:Krustiz:.",
-    "value": 6
+    "name": "halos34",
+    "value": 8
    },
    {
     "name": "Piingouin.",
@@ -82,6 +82,10 @@
    {
     "name": "Eleanora",
     "value": 8
+   },
+   {
+    "name": ".:Krustiz:.",
+    "value": 2
    }
   ]
  }
