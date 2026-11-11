@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T20:40:11+00:00",
+ "updated": "2026-11-11T20:42:11+00:00",
  "week_start": "2026-11-09",
  "xp": {
   "total": [
@@ -8,12 +8,12 @@
     "value": 144
    },
    {
-    "name": "sami75.19",
-    "value": 14
+    "name": "irysse",
+    "value": 15
    },
    {
-    "name": "irysse",
-    "value": 13
+    "name": "sami75.19",
+    "value": 14
    },
    {
     "name": "Eleanora",
@@ -31,7 +31,7 @@
    },
    {
     "name": "irysse",
-    "value": 6
+    "value": 8
    },
    {
     "name": "sami75.19",
@@ -47,11 +47,11 @@
   "total": [
    {
     "name": "irysse",
-    "value": 167
+    "value": 169
    },
    {
     "name": "sami75.19",
-    "value": 115
+    "value": 116
    },
    {
     "name": "Pantheon_",
@@ -63,7 +63,7 @@
    },
    {
     "name": ".:Krustiz:.",
-    "value": 25
+    "value": 27
    },
    {
     "name": "halos34",
@@ -81,18 +81,18 @@
   "week": [
    {
     "name": "irysse",
-    "value": 24
+    "value": 26
    },
    {
     "name": ".:Krustiz:.",
-    "value": 21
-   },
-   {
-    "name": "Eleanora",
-    "value": 8
+    "value": 23
    },
    {
     "name": "sami75.19",
+    "value": 9
+   },
+   {
+    "name": "Eleanora",
     "value": 8
    }
   ]
