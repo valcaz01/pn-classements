@@ -1,18 +1,18 @@
 {
- "updated": "2026-11-11T20:32:10+00:00",
+ "updated": "2026-11-11T20:34:11+00:00",
  "week_start": "2026-11-09",
  "xp": {
   "total": [
    {
     "name": ".:Krustiz:.",
-    "value": 142
-   },
-   {
-    "name": "irysse",
-    "value": 12
+    "value": 143
    },
    {
     "name": "sami75.19",
+    "value": 13
+   },
+   {
+    "name": "irysse",
     "value": 12
    },
    {
@@ -27,7 +27,7 @@
   "week": [
    {
     "name": ".:Krustiz:.",
-    "value": 6
+    "value": 7
    },
    {
     "name": "irysse",
@@ -35,7 +35,7 @@
    },
    {
     "name": "sami75.19",
-    "value": 4
+    "value": 5
    },
    {
     "name": "Eleanora",
