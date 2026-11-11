@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T20:14:11+00:00",
+ "updated": "2026-11-11T20:16:10+00:00",
  "week_start": "2026-11-09",
  "xp": {
   "total": [
@@ -47,7 +47,7 @@
    },
    {
     "name": "sami75.19",
-    "value": 107
+    "value": 109
    },
    {
     "name": "Pantheon_",
@@ -86,6 +86,10 @@
    {
     "name": "Eleanora",
     "value": 8
+   },
+   {
+    "name": "sami75.19",
+    "value": 2
    }
   ]
  }
