@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T22:12:11+00:00",
+ "updated": "2026-11-14T22:14:10+00:00",
  "week_start": "2026-11-09",
  "xp": {
   "total": [
@@ -32,15 +32,15 @@
     "value": 4
    },
    {
+    "name": "andrew16a",
+    "value": 3
+   },
+   {
     "name": "Mr.Dino",
     "value": 3
    },
    {
     "name": ".Dylan.",
-    "value": 2
-   },
-   {
-    "name": "andrew16a",
     "value": 2
    },
    {
@@ -94,6 +94,10 @@
     "value": 4
    },
    {
+    "name": "andrew16a",
+    "value": 3
+   },
+   {
     "name": "Mr.Dino",
     "value": 3
    },
@@ -103,10 +107,6 @@
    },
    {
     "name": ".Dylan.",
-    "value": 2
-   },
-   {
-    "name": "andrew16a",
     "value": 2
    },
    {
