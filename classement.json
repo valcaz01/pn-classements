@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T19:18:10+00:00",
+ "updated": "2026-11-14T19:20:10+00:00",
  "week_start": "2026-11-09",
  "xp": {
   "total": [
@@ -16,20 +16,20 @@
     "value": 22
    },
    {
+    "name": "sophi61",
+    "value": 4
+   },
+   {
     "name": "BiBiCHarBo",
     "value": 3
    },
    {
+    "name": "andrew16a",
+    "value": 2
+   },
+   {
     "name": "Eleanora",
     "value": 2
-   },
-   {
-    "name": "sophi61",
-    "value": 2
-   },
-   {
-    "name": "andrew16a",
-    "value": 1
    },
    {
     "name": "Icarem",
@@ -62,12 +62,16 @@
     "value": 3
    },
    {
-    "name": "Eleanora",
-    "value": 2
+    "name": "sophi61",
+    "value": 3
    },
    {
     "name": "andrew16a",
-    "value": 1
+    "value": 2
+   },
+   {
+    "name": "Eleanora",
+    "value": 2
    },
    {
     "name": "Icarem",
@@ -75,10 +79,6 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 1
-   },
-   {
-    "name": "sophi61",
     "value": 1
    },
    {
@@ -115,7 +115,7 @@
    },
    {
     "name": "BiBiCHarBo",
-    "value": 10
+    "value": 11
    },
    {
     "name": "halos34",
@@ -161,7 +161,7 @@
    },
    {
     "name": "BiBiCHarBo",
-    "value": 10
+    "value": 11
    },
    {
     "name": "Eleanora",
