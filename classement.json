@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-14T18:34:11+00:00",
+ "updated": "2026-11-14T18:36:11+00:00",
  "week_start": "2026-11-09",
  "xp": {
   "total": [
    {
     "name": ".:Krustiz:.",
-    "value": 154
+    "value": 155
    },
    {
     "name": "sami75.19",
@@ -18,6 +18,10 @@
    {
     "name": "Eleanora",
     "value": 2
+   },
+   {
+    "name": "andrew16a",
+    "value": 1
    },
    {
     "name": "BiBiCHarBo",
@@ -35,7 +39,7 @@
   "week": [
    {
     "name": ".:Krustiz:.",
-    "value": 18
+    "value": 19
    },
    {
     "name": "sami75.19",
@@ -48,6 +52,10 @@
    {
     "name": "Eleanora",
     "value": 2
+   },
+   {
+    "name": "andrew16a",
+    "value": 1
    },
    {
     "name": "BiBiCHarBo",
