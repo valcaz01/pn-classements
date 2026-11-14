@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T22:08:10+00:00",
+ "updated": "2026-11-14T22:10:11+00:00",
  "week_start": "2026-11-09",
  "xp": {
   "total": [
@@ -50,6 +50,10 @@
    {
     "name": "guest77145",
     "value": 2
+   },
+   {
+    "name": "alexandre-780",
+    "value": 1
    },
    {
     "name": "Icarem",
@@ -112,6 +116,10 @@
    {
     "name": "guest77145",
     "value": 2
+   },
+   {
+    "name": "alexandre-780",
+    "value": 1
    },
    {
     "name": "Icarem",
