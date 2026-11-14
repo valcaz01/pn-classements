@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T19:58:10+00:00",
+ "updated": "2026-11-14T20:00:10+00:00",
  "week_start": "2026-11-09",
  "xp": {
   "total": [
@@ -28,15 +28,15 @@
     "value": 4
    },
    {
+    "name": "halos34",
+    "value": 3
+   },
+   {
     "name": "andrew16a",
     "value": 2
    },
    {
     "name": "Eleanora",
-    "value": 2
-   },
-   {
-    "name": "halos34",
     "value": 2
    },
    {
@@ -78,6 +78,10 @@
     "value": 4
    },
    {
+    "name": "halos34",
+    "value": 3
+   },
+   {
     "name": "sophi61",
     "value": 3
    },
@@ -87,10 +91,6 @@
    },
    {
     "name": "Eleanora",
-    "value": 2
-   },
-   {
-    "name": "halos34",
     "value": 2
    },
    {
