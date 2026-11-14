@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T22:50:10+00:00",
+ "updated": "2026-11-14T22:52:11+00:00",
  "week_start": "2026-11-09",
  "xp": {
   "total": [
@@ -17,7 +17,7 @@
    },
    {
     "name": "BiBiCHarBo",
-    "value": 6
+    "value": 7
    },
    {
     "name": "halos34",
@@ -61,6 +61,10 @@
    },
    {
     "name": "Monsieur-RF",
+    "value": 1
+   },
+   {
+    "name": "NnMoiJsuisCoach",
     "value": 1
    },
    {
@@ -83,7 +87,7 @@
    },
    {
     "name": "BiBiCHarBo",
-    "value": 6
+    "value": 7
    },
    {
     "name": "halos34",
@@ -127,6 +131,10 @@
    },
    {
     "name": "Monsieur-RF",
+    "value": 1
+   },
+   {
+    "name": "NnMoiJsuisCoach",
     "value": 1
    },
    {
