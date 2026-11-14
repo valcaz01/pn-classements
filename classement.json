@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T19:34:10+00:00",
+ "updated": "2026-11-14T19:36:10+00:00",
  "week_start": "2026-11-09",
  "xp": {
   "total": [
@@ -32,11 +32,19 @@
     "value": 2
    },
    {
+    "name": "halos34",
+    "value": 1
+   },
+   {
     "name": "Icarem",
     "value": 1
    },
    {
     "name": "Monsieur-RF",
+    "value": 1
+   },
+   {
+    "name": "Shizuku",
     "value": 1
    },
    {
@@ -74,11 +82,19 @@
     "value": 2
    },
    {
+    "name": "halos34",
+    "value": 1
+   },
+   {
     "name": "Icarem",
     "value": 1
    },
    {
     "name": "Monsieur-RF",
+    "value": 1
+   },
+   {
+    "name": "Shizuku",
     "value": 1
    },
    {
