@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-14T20:00:10+00:00",
+ "updated": "2026-11-14T20:02:11+00:00",
  "week_start": "2026-11-09",
  "xp": {
   "total": [
    {
     "name": ".:Krustiz:.",
-    "value": 155
+    "value": 156
    },
    {
     "name": "sami75.19",
@@ -20,16 +20,16 @@
     "value": 5
    },
    {
+    "name": "halos34",
+    "value": 4
+   },
+   {
     "name": "Shizuku",
     "value": 4
    },
    {
     "name": "sophi61",
     "value": 4
-   },
-   {
-    "name": "halos34",
-    "value": 3
    },
    {
     "name": "andrew16a",
@@ -59,7 +59,7 @@
   "week": [
    {
     "name": ".:Krustiz:.",
-    "value": 19
+    "value": 20
    },
    {
     "name": "sami75.19",
@@ -74,12 +74,12 @@
     "value": 5
    },
    {
-    "name": "Shizuku",
+    "name": "halos34",
     "value": 4
    },
    {
-    "name": "halos34",
-    "value": 3
+    "name": "Shizuku",
+    "value": 4
    },
    {
     "name": "sophi61",
