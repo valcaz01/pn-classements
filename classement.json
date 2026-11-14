@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T19:14:10+00:00",
+ "updated": "2026-11-14T19:16:10+00:00",
  "week_start": "2026-11-09",
  "xp": {
   "total": [
@@ -29,6 +29,10 @@
    },
    {
     "name": "Icarem",
+    "value": 1
+   },
+   {
+    "name": "Monsieur-RF",
     "value": 1
    },
    {
@@ -70,6 +74,10 @@
     "value": 1
    },
    {
+    "name": "Monsieur-RF",
+    "value": 1
+   },
+   {
     "name": "toutoune-09",
     "value": 1
    }
@@ -99,15 +107,19 @@
    },
    {
     "name": "andrew16a",
-    "value": 13
+    "value": 15
    },
    {
     "name": "BiBiCHarBo",
-    "value": 9
+    "value": 10
    },
    {
     "name": "halos34",
     "value": 8
+   },
+   {
+    "name": "Freminet",
+    "value": 4
    },
    {
     "name": "Piingouin.",
@@ -120,10 +132,6 @@
    {
     "name": "Icarem",
     "value": 3
-   },
-   {
-    "name": "Freminet",
-    "value": 2
    },
    {
     "name": "sophi61",
@@ -145,23 +153,23 @@
    },
    {
     "name": "andrew16a",
-    "value": 13
+    "value": 15
    },
    {
     "name": "BiBiCHarBo",
-    "value": 9
+    "value": 10
    },
    {
     "name": "Eleanora",
     "value": 8
    },
    {
-    "name": "toutoune-09",
+    "name": "Freminet",
     "value": 4
    },
    {
-    "name": "Freminet",
-    "value": 2
+    "name": "toutoune-09",
+    "value": 4
    },
    {
     "name": "sophi61",
