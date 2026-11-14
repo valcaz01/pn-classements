@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T20:06:10+00:00",
+ "updated": "2026-11-14T20:08:11+00:00",
  "week_start": "2026-11-09",
  "xp": {
   "total": [
@@ -138,12 +138,12 @@
     "value": 16
    },
    {
-    "name": "BiBiCHarBo",
-    "value": 11
+    "name": "halos34",
+    "value": 12
    },
    {
-    "name": "halos34",
-    "value": 10
+    "name": "BiBiCHarBo",
+    "value": 11
    },
    {
     "name": "toutoune-09",
@@ -205,7 +205,7 @@
    },
    {
     "name": "halos34",
-    "value": 2
+    "value": 4
    }
   ]
  }
