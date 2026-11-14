@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T19:02:10+00:00",
+ "updated": "2026-11-14T19:04:10+00:00",
  "week_start": "2026-11-09",
  "xp": {
   "total": [
@@ -34,6 +34,10 @@
    {
     "name": "sophi61",
     "value": 1
+   },
+   {
+    "name": "toutoune-09",
+    "value": 1
    }
   ],
   "week": [
@@ -63,6 +67,10 @@
    },
    {
     "name": "Icarem",
+    "value": 1
+   },
+   {
+    "name": "toutoune-09",
     "value": 1
    }
   ]
@@ -94,16 +102,20 @@
     "value": 8
    },
    {
+    "name": "andrew16a",
+    "value": 4
+   },
+   {
     "name": "Piingouin.",
     "value": 4
    },
    {
-    "name": "andrew16a",
+    "name": "Icarem",
     "value": 3
    },
    {
-    "name": "Icarem",
-    "value": 3
+    "name": "BiBiCHarBo",
+    "value": 2
    },
    {
     "name": "toutoune-09",
@@ -129,7 +141,11 @@
    },
    {
     "name": "andrew16a",
-    "value": 3
+    "value": 4
+   },
+   {
+    "name": "BiBiCHarBo",
+    "value": 2
    },
    {
     "name": "toutoune-09",
