@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T19:36:10+00:00",
+ "updated": "2026-11-14T19:38:10+00:00",
  "week_start": "2026-11-09",
  "xp": {
   "total": [
@@ -32,6 +32,10 @@
     "value": 2
    },
    {
+    "name": "Shizuku",
+    "value": 2
+   },
+   {
     "name": "halos34",
     "value": 1
    },
@@ -41,10 +45,6 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 1
-   },
-   {
-    "name": "Shizuku",
     "value": 1
    },
    {
@@ -82,6 +82,10 @@
     "value": 2
    },
    {
+    "name": "Shizuku",
+    "value": 2
+   },
+   {
     "name": "halos34",
     "value": 1
    },
@@ -91,10 +95,6 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 1
-   },
-   {
-    "name": "Shizuku",
     "value": 1
    },
    {
@@ -146,11 +146,11 @@
     "value": 5
    },
    {
-    "name": "Piingouin.",
-    "value": 4
+    "name": "toutoune-09",
+    "value": 5
    },
    {
-    "name": "toutoune-09",
+    "name": "Piingouin.",
     "value": 4
    },
    {
@@ -193,7 +193,7 @@
    },
    {
     "name": "toutoune-09",
-    "value": 4
+    "value": 5
    }
   ]
  }
