@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T19:00:10+00:00",
+ "updated": "2026-11-14T19:02:10+00:00",
  "week_start": "2026-11-09",
  "xp": {
   "total": [
@@ -104,6 +104,10 @@
    {
     "name": "Icarem",
     "value": 3
+   },
+   {
+    "name": "toutoune-09",
+    "value": 1
    }
   ],
   "week": [
@@ -126,6 +130,10 @@
    {
     "name": "andrew16a",
     "value": 3
+   },
+   {
+    "name": "toutoune-09",
+    "value": 1
    }
   ]
  }
