@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T21:32:11+00:00",
+ "updated": "2026-11-14T21:34:11+00:00",
  "week_start": "2026-11-09",
  "xp": {
   "total": [
@@ -17,7 +17,7 @@
    },
    {
     "name": "BiBiCHarBo",
-    "value": 5
+    "value": 6
    },
    {
     "name": "halos34",
@@ -32,15 +32,15 @@
     "value": 4
    },
    {
+    "name": "Mr.Dino",
+    "value": 3
+   },
+   {
     "name": "andrew16a",
     "value": 2
    },
    {
     "name": "Eleanora",
-    "value": 2
-   },
-   {
-    "name": "Mr.Dino",
     "value": 2
    },
    {
@@ -79,7 +79,7 @@
    },
    {
     "name": "BiBiCHarBo",
-    "value": 5
+    "value": 6
    },
    {
     "name": "halos34",
@@ -88,6 +88,10 @@
    {
     "name": "Shizuku",
     "value": 4
+   },
+   {
+    "name": "Mr.Dino",
+    "value": 3
    },
    {
     "name": "sophi61",
@@ -99,10 +103,6 @@
    },
    {
     "name": "Eleanora",
-    "value": 2
-   },
-   {
-    "name": "Mr.Dino",
     "value": 2
    },
    {
