@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T22:20:10+00:00",
+ "updated": "2026-11-14T22:22:10+00:00",
  "week_start": "2026-11-09",
  "xp": {
   "total": [
@@ -171,7 +171,7 @@
    },
    {
     "name": "Shizuku",
-    "value": 8
+    "value": 9
    },
    {
     "name": "toutoune-09",
@@ -220,11 +220,11 @@
     "value": 11
    },
    {
-    "name": "Eleanora",
-    "value": 8
+    "name": "Shizuku",
+    "value": 9
    },
    {
-    "name": "Shizuku",
+    "name": "Eleanora",
     "value": 8
    },
    {
