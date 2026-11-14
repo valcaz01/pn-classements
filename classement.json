@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T18:32:10+00:00",
+ "updated": "2026-11-14T18:34:11+00:00",
  "week_start": "2026-11-09",
  "xp": {
   "total": [
@@ -18,6 +18,14 @@
    {
     "name": "Eleanora",
     "value": 2
+   },
+   {
+    "name": "BiBiCHarBo",
+    "value": 1
+   },
+   {
+    "name": "Icarem",
+    "value": 1
    },
    {
     "name": "sophi61",
@@ -40,6 +48,14 @@
    {
     "name": "Eleanora",
     "value": 2
+   },
+   {
+    "name": "BiBiCHarBo",
+    "value": 1
+   },
+   {
+    "name": "Icarem",
+    "value": 1
    }
   ]
  },
