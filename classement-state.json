@@ -1,7 +1,7 @@
 {
  "initialized": true,
  "calendar": "monday",
- "week_start": "2026-11-09",
+ "week_start": "2026-11-16",
  "last_totals": {
   "xp": {
    "21840576": 158,
@@ -33,138 +33,25 @@
    "21049155": 56,
    "24092980": 4,
    "23988287": 42,
-   "24917362": 82,
+   "24917362": 84,
    "24092801": 16,
    "24907041": 8,
-   "23694357": 116,
+   "23694357": 118,
    "24136170": 5,
    "19930501": 5,
    "17378365": 29
   }
  },
  "week_values": {
-  "xp": {
-   "21840576": {
-    "name": ".:Krustiz:.",
-    "value": 22
-   },
-   "25442902": {
-    "name": "irysse",
-    "value": 17
-   },
-   "25725060": {
-    "name": "Eleanora",
-    "value": 2
-   },
-   "2130964": {
-    "name": "sami75.19",
-    "value": 20
-   },
-   "23988287": {
-    "name": "Icarem",
-    "value": 2
-   },
-   "23694357": {
-    "name": "BiBiCHarBo",
-    "value": 10
-   },
-   "24092801": {
-    "name": "andrew16a",
-    "value": 3
-   },
-   "24907041": {
-    "name": "toutoune-09",
-    "value": 1
-   },
-   "25181624": {
-    "name": "Monsieur-RF",
-    "value": 1
-   },
-   "19930501": {
-    "name": "sophi61",
-    "value": 3
-   },
-   "21049155": {
-    "name": "halos34",
-    "value": 4
-   },
-   "17378365": {
-    "name": "Shizuku",
-    "value": 5
-   },
-   "24102805": {
-    "name": "guest77145",
-    "value": 2
-   },
-   "25768408": {
-    "name": "Mr.Dino",
-    "value": 3
-   },
-   "24057271": {
-    "name": ".Dylan.",
-    "value": 2
-   },
-   "25305814": {
-    "name": "alexandre-780",
-    "value": 1
-   },
-   "25927693": {
-    "name": "NnMoiJsuisCoach",
-    "value": 1
-   }
-  },
+  "xp": {},
   "pr": {
-   "25442902": {
-    "name": "irysse",
-    "value": 49
-   },
-   "25725060": {
-    "name": "Eleanora",
-    "value": 8
-   },
-   "21840576": {
-    "name": ".:Krustiz:.",
-    "value": 35
-   },
-   "2130964": {
-    "name": "sami75.19",
-    "value": 27
-   },
-   "24092801": {
-    "name": "andrew16a",
-    "value": 16
-   },
-   "24907041": {
-    "name": "toutoune-09",
-    "value": 8
-   },
    "23694357": {
     "name": "BiBiCHarBo",
-    "value": 116
-   },
-   "24136170": {
-    "name": "Freminet",
-    "value": 5
-   },
-   "19930501": {
-    "name": "sophi61",
-    "value": 5
-   },
-   "21049155": {
-    "name": "halos34",
-    "value": 51
-   },
-   "17378365": {
-    "name": "Shizuku",
-    "value": 29
-   },
-   "23988287": {
-    "name": "Icarem",
-    "value": 39
+    "value": 2
    },
    "24917362": {
     "name": "Pantheon_",
-    "value": 47
+    "value": 2
    }
   }
  }
