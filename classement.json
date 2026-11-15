@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T22:38:11+00:00",
+ "updated": "2026-11-15T22:40:11+00:00",
  "week_start": "2026-11-09",
  "xp": {
   "total": [
@@ -155,11 +155,11 @@
    },
    {
     "name": "BiBiCHarBo",
-    "value": 99
+    "value": 101
    },
    {
     "name": "Pantheon_",
-    "value": 62
+    "value": 64
    },
    {
     "name": "halos34",
@@ -205,7 +205,7 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 99
+    "value": 101
    },
    {
     "name": "halos34",
@@ -220,16 +220,16 @@
     "value": 35
    },
    {
+    "name": "Pantheon_",
+    "value": 29
+   },
+   {
     "name": "Shizuku",
     "value": 29
    },
    {
     "name": "Icarem",
     "value": 28
-   },
-   {
-    "name": "Pantheon_",
-    "value": 27
    },
    {
     "name": "sami75.19",
