@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T19:44:10+00:00",
+ "updated": "2026-11-16T19:46:11+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -28,15 +28,15 @@
     "value": 4
    },
    {
+    "name": "Mr.Dino",
+    "value": 4
+   },
+   {
     "name": "sophi61",
     "value": 4
    },
    {
     "name": "andrew16a",
-    "value": 3
-   },
-   {
-    "name": "Mr.Dino",
     "value": 3
    },
    {
@@ -68,7 +68,12 @@
     "value": 1
    }
   ],
-  "week": []
+  "week": [
+   {
+    "name": "Mr.Dino",
+    "value": 1
+   }
+  ]
  },
  "pr": {
   "total": [
