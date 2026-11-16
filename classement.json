@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T11:08:10+00:00",
+ "updated": "2026-11-16T11:10:11+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -97,16 +97,16 @@
     "value": 56
    },
    {
+    "name": ".:Krustiz:.",
+    "value": 34
+   },
+   {
     "name": "Eleanora",
     "value": 34
    },
    {
     "name": "Shizuku",
     "value": 34
-   },
-   {
-    "name": ".:Krustiz:.",
-    "value": 33
    },
    {
     "name": "andrew16a",
@@ -149,6 +149,10 @@
    {
     "name": "Shizuku",
     "value": 5
+   },
+   {
+    "name": ".:Krustiz:.",
+    "value": 1
    }
   ]
  }
