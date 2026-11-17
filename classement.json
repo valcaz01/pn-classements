@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-17T21:54:14+00:00",
+ "updated": "2026-11-17T21:56:14+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 6
+    "value": 7
    },
    {
     "name": "Mr.Dino",
@@ -79,7 +79,7 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 6
+    "value": 7
    },
    {
     "name": "Mr.Dino",
@@ -155,11 +155,11 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 89
+    "value": 90
    },
    {
     "name": "flo578",
-    "value": 61
+    "value": 63
    },
    {
     "name": "Weavem",
@@ -171,11 +171,11 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 41
+    "value": 43
    },
    {
     "name": "Lovepanda",
-    "value": 37
+    "value": 39
    },
    {
     "name": "Mr.Dino",
@@ -183,7 +183,7 @@
    },
    {
     "name": "sami75.19",
-    "value": 31
+    "value": 32
    },
    {
     "name": "Lewddon",
@@ -222,6 +222,10 @@
     "value": 9
    },
    {
+    "name": "fym",
+    "value": 8
+   },
+   {
     "name": "pititchatoncute",
     "value": 8
    },
@@ -234,12 +238,12 @@
     "value": 7
    },
    {
-    "name": "fym",
+    "name": "Sciel",
     "value": 6
    },
    {
-    "name": "Sciel",
-    "value": 4
+    "name": "-Tsukiri-",
+    "value": 2
    },
    {
     "name": "Piingouin.",
@@ -253,11 +257,11 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 89
+    "value": 90
    },
    {
     "name": "flo578",
-    "value": 61
+    "value": 63
    },
    {
     "name": "Weavem",
@@ -269,11 +273,11 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 41
+    "value": 43
    },
    {
     "name": "Lovepanda",
-    "value": 37
+    "value": 39
    },
    {
     "name": "Mr.Dino",
@@ -281,7 +285,7 @@
    },
    {
     "name": "sami75.19",
-    "value": 31
+    "value": 32
    },
    {
     "name": "Lewddon",
@@ -320,6 +324,10 @@
     "value": 9
    },
    {
+    "name": "fym",
+    "value": 8
+   },
+   {
     "name": "pititchatoncute",
     "value": 8
    },
@@ -332,12 +340,12 @@
     "value": 7
    },
    {
-    "name": "fym",
+    "name": "Sciel",
     "value": 6
    },
    {
-    "name": "Sciel",
-    "value": 4
+    "name": "-Tsukiri-",
+    "value": 2
    },
    {
     "name": "Piingouin.",
