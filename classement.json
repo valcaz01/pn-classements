@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T22:06:14+00:00",
+ "updated": "2026-11-17T22:08:14+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -52,6 +52,10 @@
     "value": 2
    },
    {
+    "name": ".:Krustiz:.",
+    "value": 1
+   },
+   {
     "name": "andrew16a",
     "value": 1
    },
@@ -126,6 +130,10 @@
     "value": 2
    },
    {
+    "name": ".:Krustiz:.",
+    "value": 1
+   },
+   {
     "name": "andrew16a",
     "value": 1
    },
@@ -155,7 +163,7 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 99
+    "value": 100
    },
    {
     "name": "flo578",
@@ -167,7 +175,7 @@
    },
    {
     "name": "Lovepanda",
-    "value": 49
+    "value": 50
    },
    {
     "name": "Pantheon_",
@@ -194,6 +202,10 @@
     "value": 25
    },
    {
+    "name": "fym",
+    "value": 20
+   },
+   {
     "name": "guest77145",
     "value": 20
    },
@@ -202,20 +214,20 @@
     "value": 19
    },
    {
-    "name": "fym",
-    "value": 18
-   },
-   {
     "name": "toussainthanae",
     "value": 17
    },
    {
     "name": "andrew16a",
-    "value": 12
+    "value": 14
    },
    {
     "name": "Sciel",
-    "value": 12
+    "value": 13
+   },
+   {
+    "name": "Shizuku",
+    "value": 13
    },
    {
     "name": "alexandre-780",
@@ -223,10 +235,6 @@
    },
    {
     "name": "irysse",
-    "value": 11
-   },
-   {
-    "name": "Shizuku",
     "value": 11
    },
    {
@@ -257,7 +265,7 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 99
+    "value": 100
    },
    {
     "name": "flo578",
@@ -269,7 +277,7 @@
    },
    {
     "name": "Lovepanda",
-    "value": 49
+    "value": 50
    },
    {
     "name": "Pantheon_",
@@ -296,6 +304,10 @@
     "value": 25
    },
    {
+    "name": "fym",
+    "value": 20
+   },
+   {
     "name": "guest77145",
     "value": 20
    },
@@ -304,20 +316,20 @@
     "value": 19
    },
    {
-    "name": "fym",
-    "value": 18
-   },
-   {
     "name": "toussainthanae",
     "value": 17
    },
    {
     "name": "andrew16a",
-    "value": 12
+    "value": 14
    },
    {
     "name": "Sciel",
-    "value": 12
+    "value": 13
+   },
+   {
+    "name": "Shizuku",
+    "value": 13
    },
    {
     "name": "alexandre-780",
@@ -325,10 +337,6 @@
    },
    {
     "name": "irysse",
-    "value": 11
-   },
-   {
-    "name": "Shizuku",
     "value": 11
    },
    {
