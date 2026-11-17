@@ -119,13 +119,21 @@
   "pseudo": "Ov3rt",
   "verifie": "2026-11-17T20:04:11+00:00"
  },
+ "16767926": {
+  "alertes": {},
+  "depuis": null,
+  "grade": null,
+  "humeur": "",
+  "pseudo": "Inpansable",
+  "verifie": "2026-11-17T23:02:14+00:00"
+ },
  "16799154": {
   "alertes": {},
   "depuis": null,
   "grade": null,
   "humeur": "[R.F] Soldat #ExTHG #ALSH |",
   "pseudo": "Lunatic...",
-  "verifie": "2026-11-17T20:02:11+00:00"
+  "verifie": "2026-11-17T23:02:14+00:00"
  },
  "17344239": {
   "alertes": {},
@@ -181,7 +189,7 @@
   "grade": null,
   "humeur": "[R.F] Soldat",
   "pseudo": "Dragonforevor",
-  "verifie": "2026-11-17T20:02:11+00:00"
+  "verifie": "2026-11-17T23:02:14+00:00"
  },
  "19656547": {
   "alertes": {},
@@ -293,7 +301,7 @@
   "grade": null,
   "humeur": "gta 6 finito habbo",
   "pseudo": "Galactose",
-  "verifie": "2026-11-17T20:02:11+00:00"
+  "verifie": "2026-11-17T23:02:14+00:00"
  },
  "21716893": {
   "alertes": {},
@@ -333,7 +341,7 @@
   "grade": null,
   "humeur": "[R.F] Colonel",
   "pseudo": "dorifore1",
-  "verifie": "2026-11-17T20:02:11+00:00"
+  "verifie": "2026-11-17T23:02:14+00:00"
  },
  "22783723": {
   "alertes": {},
@@ -707,9 +715,9 @@
   "alertes": {},
   "depuis": null,
   "grade": null,
-  "humeur": "la théorie du spectre inversé ?",
+  "humeur": "[PN] Recrue",
   "pseudo": "pevanq640",
-  "verifie": "2026-11-17T20:02:11+00:00"
+  "verifie": "2026-11-17T23:02:14+00:00"
  },
  "24535398": {
   "alertes": {},
@@ -741,7 +749,7 @@
   "grade": null,
   "humeur": "[C.I.A.] Formatrice [0]",
   "pseudo": "Oceane_0105",
-  "verifie": "2026-11-17T20:02:11+00:00"
+  "verifie": "2026-11-17T23:02:14+00:00"
  },
  "24613984": {
   "alertes": {},
@@ -829,7 +837,7 @@
   "grade": null,
   "humeur": "[R.F] Capitaine [Saph]",
   "pseudo": "Kestrel",
-  "verifie": "2026-11-17T20:02:11+00:00"
+  "verifie": "2026-11-17T23:02:14+00:00"
  },
  "24907041": {
   "alertes": {},
@@ -1005,7 +1013,7 @@
   "grade": null,
   "humeur": "[F.B.I] Guide Confirmé #WinterArc",
   "pseudo": "Mathematiquemnt",
-  "verifie": "2026-11-17T20:02:11+00:00"
+  "verifie": "2026-11-17T23:02:14+00:00"
  },
  "25269929": {
   "alertes": {},
@@ -1317,7 +1325,7 @@
   "grade": null,
   "humeur": "[R.F] Responsable des notations CM [I]",
   "pseudo": "Feelz",
-  "verifie": "2026-11-17T20:02:11+00:00"
+  "verifie": "2026-11-17T23:02:14+00:00"
  },
  "25756376": {
   "alertes": {},
@@ -1365,7 +1373,7 @@
   "grade": null,
   "humeur": "[R.F] Colonel #NU #TIC",
   "pseudo": "Black-_Quarritz",
-  "verifie": "2026-11-17T20:02:11+00:00"
+  "verifie": "2026-11-17T23:02:14+00:00"
  },
  "25772459": {
   "alertes": {},
@@ -1405,7 +1413,7 @@
   "grade": null,
   "humeur": "[C.I.A] Inspecteur [48]",
   "pseudo": "Taka.",
-  "verifie": "2026-11-17T20:02:11+00:00"
+  "verifie": "2026-11-17T23:02:14+00:00"
  },
  "25848359": {
   "alertes": {},
@@ -1449,11 +1457,11 @@
  },
  "25865056": {
   "alertes": {},
-  "depuis": null,
-  "grade": null,
-  "humeur": "Accepte le ou non, c'est ainsi.",
+  "depuis": "2026-11-17T23:02:14+00:00",
+  "grade": "cadet",
+  "humeur": "[PN] Cadet",
   "pseudo": "Weavem",
-  "verifie": "2026-11-17T20:02:11+00:00"
+  "verifie": "2026-11-17T23:02:14+00:00"
  },
  "25865454": {
   "alertes": {},
@@ -1493,7 +1501,7 @@
   "grade": null,
   "humeur": "[R.F] Chef d'escadron supérieur [Ant']",
   "pseudo": "Clintonn",
-  "verifie": "2026-11-17T20:02:11+00:00"
+  "verifie": "2026-11-17T23:02:14+00:00"
  },
  "25894972": {
   "alertes": {},
@@ -1533,7 +1541,7 @@
   "grade": null,
   "humeur": "[C.I.A.] Dir. R&D Adj",
   "pseudo": "Astalue",
-  "verifie": "2026-11-17T20:02:11+00:00"
+  "verifie": "2026-11-17T23:02:14+00:00"
  },
  "25910983": {
   "alertes": {},
@@ -1595,9 +1603,9 @@
   "alertes": {},
   "depuis": null,
   "grade": null,
-  "humeur": "[R.F] VIP #crikey",
+  "humeur": "[PN] Recrue",
   "pseudo": "Non-Non",
-  "verifie": "2026-11-17T20:02:11+00:00"
+  "verifie": "2026-11-17T23:02:14+00:00"
  },
  "25936070": {
   "alertes": {},
@@ -1685,7 +1693,7 @@
   "grade": null,
   "humeur": "[R.F] Capitaine [Matt'] #QGNU",
   "pseudo": "Kevin89",
-  "verifie": "2026-11-17T20:02:11+00:00"
+  "verifie": "2026-11-17T23:02:14+00:00"
  },
  "25962937": {
   "alertes": {},
@@ -1789,7 +1797,7 @@
   "grade": null,
   "humeur": "",
   "pseudo": "FuertaperNoi",
-  "verifie": "2026-11-17T20:02:11+00:00"
+  "verifie": "2026-11-17T23:02:14+00:00"
  },
  "25985098": {
   "alertes": {},
@@ -1957,7 +1965,7 @@
   "grade": null,
   "humeur": "[R.F] Adjudant [Antoine]",
   "pseudo": ".Le.FBI.COOL",
-  "verifie": "2026-11-17T20:02:11+00:00"
+  "verifie": "2026-11-17T23:02:14+00:00"
  },
  "26016360": {
   "alertes": {},
@@ -2159,6 +2167,14 @@
   "pseudo": "Cracotte19",
   "verifie": "2026-11-17T20:24:13+00:00"
  },
+ "26042036": {
+  "alertes": {},
+  "depuis": null,
+  "grade": null,
+  "humeur": "En toute simplicité",
+  "pseudo": "Simplicite?",
+  "verifie": "2026-11-17T23:02:14+00:00"
+ },
  "26042149": {
   "alertes": {},
   "depuis": null,
@@ -2333,7 +2349,7 @@
   "grade": null,
   "humeur": "\r",
   "pseudo": "xMarvine",
-  "verifie": "2026-11-17T20:02:11+00:00"
+  "verifie": "2026-11-17T23:02:14+00:00"
  },
  "863034": {
   "alertes": {},
