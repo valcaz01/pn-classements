@@ -1,11 +1,15 @@
 {
- "updated": "2026-11-17T20:02:11+00:00",
+ "updated": "2026-11-17T20:04:11+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 2
+    "value": 3
+   },
+   {
+    "name": "guest77145",
+    "value": 1
    },
    {
     "name": "sami75.19",
@@ -19,7 +23,11 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 2
+    "value": 3
+   },
+   {
+    "name": "guest77145",
+    "value": 1
    },
    {
     "name": "Icarem",
@@ -43,31 +51,39 @@
   "total": [
    {
     "name": "flo578",
-    "value": 5
+    "value": 7
    },
    {
     "name": "halos34",
-    "value": 5
-   },
-   {
-    "name": "Icarem",
-    "value": 5
+    "value": 7
    },
    {
     "name": "Mr.Dino",
-    "value": 5
+    "value": 7
+   },
+   {
+    "name": "Icarem",
+    "value": 6
    },
    {
     "name": "guest77145",
-    "value": 3
+    "value": 4
    },
    {
     "name": "Pantheon_",
-    "value": 2
+    "value": 4
    },
    {
     "name": "sami75.19",
-    "value": 2
+    "value": 4
+   },
+   {
+    "name": "BiBiCHarBo",
+    "value": 1
+   },
+   {
+    "name": "Freminet",
+    "value": 1
    }
   ],
   "week": [
@@ -76,24 +92,20 @@
     "value": 727
    },
    {
-    "name": "BiBiCHarBo",
-    "value": 120
-   },
-   {
     "name": "flo578",
-    "value": 5
+    "value": 7
    },
    {
     "name": "halos34",
-    "value": 5
-   },
-   {
-    "name": "Icarem",
-    "value": 5
+    "value": 7
    },
    {
     "name": "Mr.Dino",
-    "value": 5
+    "value": 7
+   },
+   {
+    "name": "Icarem",
+    "value": 6
    },
    {
     "name": "Shizuku",
@@ -101,18 +113,26 @@
    },
    {
     "name": "guest77145",
-    "value": 3
+    "value": 4
    },
    {
     "name": "Pantheon_",
-    "value": 2
+    "value": 4
    },
    {
     "name": "sami75.19",
-    "value": 2
+    "value": 4
    },
    {
     "name": ".:Krustiz:.",
+    "value": 1
+   },
+   {
+    "name": "BiBiCHarBo",
+    "value": 1
+   },
+   {
+    "name": "Freminet",
     "value": 1
    }
   ]
