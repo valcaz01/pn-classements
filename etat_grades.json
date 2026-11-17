@@ -553,11 +553,11 @@
  },
  "23995645": {
   "alertes": {},
-  "depuis": null,
-  "grade": null,
-  "humeur": "",
+  "depuis": "2026-11-17T23:42:14+00:00",
+  "grade": "cadet",
+  "humeur": "[PN] Cadet",
   "pseudo": "Lewddon",
-  "verifie": "2026-11-17T20:42:12+00:00"
+  "verifie": "2026-11-17T23:42:14+00:00"
  },
  "24002567": {
   "alertes": {},
@@ -798,6 +798,14 @@
   "humeur": "",
   "pseudo": "Naito16",
   "verifie": "2026-11-17T22:02:14+00:00"
+ },
+ "24617493": {
+  "alertes": {},
+  "depuis": null,
+  "grade": null,
+  "humeur": "Redford-Family : Lord » RRMC : Préz",
+  "pseudo": "SlayerJack",
+  "verifie": "2026-11-17T23:42:14+00:00"
  },
  "24621495": {
   "alertes": {},
@@ -2006,6 +2014,14 @@
   "humeur": "[C.I.A.] Haut-Gradé",
   "pseudo": "Axeis",
   "verifie": "2026-11-17T23:08:14+00:00"
+ },
+ "25997629": {
+  "alertes": {},
+  "depuis": null,
+  "grade": null,
+  "humeur": "Recrue du F.B.I",
+  "pseudo": "Bast67200",
+  "verifie": "2026-11-17T23:42:14+00:00"
  },
  "26000888": {
   "alertes": {},
