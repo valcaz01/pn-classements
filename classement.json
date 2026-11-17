@@ -1,19 +1,11 @@
 {
- "updated": "2026-11-17T13:46:11+00:00",
+ "updated": "2026-11-17T13:48:11+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
    {
     "name": ".:Krustiz:.",
     "value": 152
-   },
-   {
-    "name": "sami75.19",
-    "value": 28
-   },
-   {
-    "name": "irysse",
-    "value": 24
    }
   ],
   "week": [
@@ -29,14 +21,6 @@
  },
  "pr": {
   "total": [
-   {
-    "name": "irysse",
-    "value": 919
-   },
-   {
-    "name": "sami75.19",
-    "value": 134
-   },
    {
     "name": ".:Krustiz:.",
     "value": 34
