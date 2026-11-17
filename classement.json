@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T20:48:13+00:00",
+ "updated": "2026-11-17T20:50:12+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -115,7 +115,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 26
+    "value": 28
    },
    {
     "name": "halos34",
@@ -123,7 +123,7 @@
    },
    {
     "name": "sami75.19",
-    "value": 23
+    "value": 24
    },
    {
     "name": "guest77145",
@@ -135,11 +135,11 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 15
+    "value": 16
    },
    {
     "name": "Weavem",
-    "value": 14
+    "value": 16
    },
    {
     "name": "andrew16a",
@@ -172,6 +172,10 @@
    {
     "name": "Piingouin.",
     "value": 2
+   },
+   {
+    "name": "fym",
+    "value": 1
    }
   ],
   "week": [
@@ -185,7 +189,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 26
+    "value": 28
    },
    {
     "name": "halos34",
@@ -193,7 +197,7 @@
    },
    {
     "name": "sami75.19",
-    "value": 23
+    "value": 24
    },
    {
     "name": "guest77145",
@@ -205,11 +209,11 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 15
+    "value": 16
    },
    {
     "name": "Weavem",
-    "value": 14
+    "value": 16
    },
    {
     "name": "andrew16a",
@@ -249,6 +253,10 @@
    },
    {
     "name": ".:Krustiz:.",
+    "value": 1
+   },
+   {
+    "name": "fym",
     "value": 1
    }
   ]
