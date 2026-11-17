@@ -1,15 +1,15 @@
 {
- "updated": "2026-11-17T20:06:11+00:00",
+ "updated": "2026-11-17T20:08:11+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 3
+    "value": 4
    },
    {
     "name": "guest77145",
-    "value": 1
+    "value": 2
    },
    {
     "name": "sami75.19",
@@ -23,11 +23,11 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 3
+    "value": 4
    },
    {
     "name": "guest77145",
-    "value": 1
+    "value": 2
    },
    {
     "name": "Icarem",
@@ -51,27 +51,31 @@
   "total": [
    {
     "name": "halos34",
-    "value": 9
+    "value": 11
    },
    {
     "name": "flo578",
-    "value": 8
+    "value": 10
    },
    {
     "name": "Mr.Dino",
     "value": 8
    },
    {
-    "name": "Icarem",
-    "value": 6
-   },
-   {
     "name": "Pantheon_",
-    "value": 6
+    "value": 8
    },
    {
     "name": "sami75.19",
-    "value": 6
+    "value": 8
+   },
+   {
+    "name": "Icarem",
+    "value": 7
+   },
+   {
+    "name": "Freminet",
+    "value": 5
    },
    {
     "name": "guest77145",
@@ -79,11 +83,7 @@
    },
    {
     "name": "BiBiCHarBo",
-    "value": 3
-   },
-   {
-    "name": "Freminet",
-    "value": 3
+    "value": 4
    }
   ],
   "week": [
@@ -93,27 +93,31 @@
    },
    {
     "name": "halos34",
-    "value": 9
+    "value": 11
    },
    {
     "name": "flo578",
-    "value": 8
+    "value": 10
    },
    {
     "name": "Mr.Dino",
     "value": 8
    },
    {
-    "name": "Icarem",
-    "value": 6
-   },
-   {
     "name": "Pantheon_",
-    "value": 6
+    "value": 8
    },
    {
     "name": "sami75.19",
-    "value": 6
+    "value": 8
+   },
+   {
+    "name": "Icarem",
+    "value": 7
+   },
+   {
+    "name": "Freminet",
+    "value": 5
    },
    {
     "name": "guest77145",
@@ -125,11 +129,7 @@
    },
    {
     "name": "BiBiCHarBo",
-    "value": 3
-   },
-   {
-    "name": "Freminet",
-    "value": 3
+    "value": 4
    },
    {
     "name": ".:Krustiz:.",
