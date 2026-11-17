@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T20:20:12+00:00",
+ "updated": "2026-11-17T20:22:12+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -63,19 +63,19 @@
   "total": [
    {
     "name": "flo578",
-    "value": 22
+    "value": 24
    },
    {
     "name": "halos34",
-    "value": 19
+    "value": 21
    },
    {
     "name": "BiBiCHarBo",
-    "value": 16
+    "value": 18
    },
    {
     "name": "sami75.19",
-    "value": 16
+    "value": 17
    },
    {
     "name": "Mr.Dino",
@@ -91,41 +91,41 @@
    },
    {
     "name": "Icarem",
-    "value": 9
+    "value": 10
+   },
+   {
+    "name": "alexandre-780",
+    "value": 8
    },
    {
     "name": "Freminet",
     "value": 7
    },
    {
-    "name": "alexandre-780",
-    "value": 6
-   },
-   {
     "name": "irysse",
-    "value": 2
+    "value": 4
    },
    {
     "name": "Weavem",
-    "value": 2
+    "value": 4
    }
   ],
   "week": [
    {
     "name": "flo578",
-    "value": 22
+    "value": 24
    },
    {
     "name": "halos34",
-    "value": 19
+    "value": 21
    },
    {
     "name": "BiBiCHarBo",
-    "value": 16
+    "value": 18
    },
    {
     "name": "sami75.19",
-    "value": 16
+    "value": 17
    },
    {
     "name": "Mr.Dino",
@@ -141,15 +141,15 @@
    },
    {
     "name": "Icarem",
-    "value": 9
+    "value": 10
+   },
+   {
+    "name": "alexandre-780",
+    "value": 8
    },
    {
     "name": "Freminet",
     "value": 7
-   },
-   {
-    "name": "alexandre-780",
-    "value": 6
    },
    {
     "name": "Shizuku",
@@ -157,11 +157,11 @@
    },
    {
     "name": "irysse",
-    "value": 2
+    "value": 4
    },
    {
     "name": "Weavem",
-    "value": 2
+    "value": 4
    },
    {
     "name": ".:Krustiz:.",
