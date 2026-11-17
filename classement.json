@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T20:32:12+00:00",
+ "updated": "2026-11-17T20:34:12+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -16,6 +16,10 @@
     "value": 2
    },
    {
+    "name": "halos34",
+    "value": 2
+   },
+   {
     "name": "Icarem",
     "value": 2
    },
@@ -28,7 +32,7 @@
     "value": 2
    },
    {
-    "name": "halos34",
+    "name": "flo578",
     "value": 1
    },
    {
@@ -50,6 +54,10 @@
     "value": 2
    },
    {
+    "name": "halos34",
+    "value": 2
+   },
+   {
     "name": "Icarem",
     "value": 2
    },
@@ -62,7 +70,7 @@
     "value": 2
    },
    {
-    "name": "halos34",
+    "name": "flo578",
     "value": 1
    },
    {
@@ -75,7 +83,7 @@
   "total": [
    {
     "name": "flo578",
-    "value": 34
+    "value": 35
    },
    {
     "name": "BiBiCHarBo",
@@ -91,11 +99,11 @@
    },
    {
     "name": "Pantheon_",
-    "value": 18
+    "value": 19
    },
    {
     "name": "guest77145",
-    "value": 15
+    "value": 17
    },
    {
     "name": "Mr.Dino",
@@ -111,7 +119,7 @@
    },
    {
     "name": "Weavem",
-    "value": 9
+    "value": 11
    },
    {
     "name": "Freminet",
@@ -123,17 +131,25 @@
    },
    {
     "name": "Lovepanda",
-    "value": 4
+    "value": 6
    },
    {
     "name": "andrew16a",
+    "value": 4
+   },
+   {
+    "name": "Alejandro721",
+    "value": 2
+   },
+   {
+    "name": "Sciel",
     "value": 2
    }
   ],
   "week": [
    {
     "name": "flo578",
-    "value": 34
+    "value": 35
    },
    {
     "name": "BiBiCHarBo",
@@ -149,11 +165,11 @@
    },
    {
     "name": "Pantheon_",
-    "value": 18
+    "value": 19
    },
    {
     "name": "guest77145",
-    "value": 15
+    "value": 17
    },
    {
     "name": "Mr.Dino",
@@ -169,7 +185,7 @@
    },
    {
     "name": "Weavem",
-    "value": 9
+    "value": 11
    },
    {
     "name": "Freminet",
@@ -180,15 +196,23 @@
     "value": 7
    },
    {
+    "name": "Lovepanda",
+    "value": 6
+   },
+   {
     "name": "Shizuku",
     "value": 5
    },
    {
-    "name": "Lovepanda",
+    "name": "andrew16a",
     "value": 4
    },
    {
-    "name": "andrew16a",
+    "name": "Alejandro721",
+    "value": 2
+   },
+   {
+    "name": "Sciel",
     "value": 2
    },
    {
