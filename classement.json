@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T20:50:12+00:00",
+ "updated": "2026-11-17T20:52:12+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -36,11 +36,11 @@
     "value": 2
    },
    {
-    "name": "andrew16a",
-    "value": 1
+    "name": "pevanq640",
+    "value": 2
    },
    {
-    "name": "pevanq640",
+    "name": "andrew16a",
     "value": 1
    },
    {
@@ -86,11 +86,11 @@
     "value": 2
    },
    {
-    "name": "andrew16a",
-    "value": 1
+    "name": "pevanq640",
+    "value": 2
    },
    {
-    "name": "pevanq640",
+    "name": "andrew16a",
     "value": 1
    },
    {
@@ -107,7 +107,7 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 37
+    "value": 39
    },
    {
     "name": "flo578",
@@ -115,7 +115,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 28
+    "value": 30
    },
    {
     "name": "halos34",
@@ -124,6 +124,10 @@
    {
     "name": "sami75.19",
     "value": 24
+   },
+   {
+    "name": "Weavem",
+    "value": 18
    },
    {
     "name": "guest77145",
@@ -135,11 +139,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 16
-   },
-   {
-    "name": "Weavem",
-    "value": 16
+    "value": 17
    },
    {
     "name": "andrew16a",
@@ -170,18 +170,22 @@
     "value": 4
    },
    {
+    "name": "fym",
+    "value": 2
+   },
+   {
     "name": "Piingouin.",
     "value": 2
    },
    {
-    "name": "fym",
+    "name": "Lewddon",
     "value": 1
    }
   ],
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 37
+    "value": 39
    },
    {
     "name": "flo578",
@@ -189,7 +193,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 28
+    "value": 30
    },
    {
     "name": "halos34",
@@ -198,6 +202,10 @@
    {
     "name": "sami75.19",
     "value": 24
+   },
+   {
+    "name": "Weavem",
+    "value": 18
    },
    {
     "name": "guest77145",
@@ -209,11 +217,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 16
-   },
-   {
-    "name": "Weavem",
-    "value": 16
+    "value": 17
    },
    {
     "name": "andrew16a",
@@ -248,6 +252,10 @@
     "value": 4
    },
    {
+    "name": "fym",
+    "value": 2
+   },
+   {
     "name": "Piingouin.",
     "value": 2
    },
@@ -256,7 +264,7 @@
     "value": 1
    },
    {
-    "name": "fym",
+    "name": "Lewddon",
     "value": 1
    }
   ]
