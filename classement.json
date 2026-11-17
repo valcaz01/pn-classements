@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T19:56:10+00:00",
+ "updated": "2026-11-17T19:58:10+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [],
@@ -15,7 +15,28 @@
   ]
  },
  "pr": {
-  "total": [],
+  "total": [
+   {
+    "name": "guest77145",
+    "value": 2
+   },
+   {
+    "name": "flo578",
+    "value": 1
+   },
+   {
+    "name": "halos34",
+    "value": 1
+   },
+   {
+    "name": "Icarem",
+    "value": 1
+   },
+   {
+    "name": "Mr.Dino",
+    "value": 1
+   }
+  ],
   "week": [
    {
     "name": "irysse",
@@ -30,19 +51,31 @@
     "value": 45
    },
    {
-    "name": "Icarem",
-    "value": 17
-   },
-   {
-    "name": "Mr.Dino",
-    "value": 12
-   },
-   {
     "name": "Shizuku",
     "value": 5
    },
    {
+    "name": "guest77145",
+    "value": 2
+   },
+   {
     "name": ".:Krustiz:.",
+    "value": 1
+   },
+   {
+    "name": "flo578",
+    "value": 1
+   },
+   {
+    "name": "halos34",
+    "value": 1
+   },
+   {
+    "name": "Icarem",
+    "value": 1
+   },
+   {
+    "name": "Mr.Dino",
     "value": 1
    }
   ]
