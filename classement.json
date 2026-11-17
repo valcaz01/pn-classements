@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T21:48:14+00:00",
+ "updated": "2026-11-17T21:50:14+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -32,6 +32,10 @@
     "value": 2
    },
    {
+    "name": "fym",
+    "value": 2
+   },
+   {
     "name": "guest77145",
     "value": 2
    },
@@ -49,10 +53,6 @@
    },
    {
     "name": "andrew16a",
-    "value": 1
-   },
-   {
-    "name": "fym",
     "value": 1
    },
    {
@@ -106,6 +106,10 @@
     "value": 2
    },
    {
+    "name": "fym",
+    "value": 2
+   },
+   {
     "name": "guest77145",
     "value": 2
    },
@@ -123,10 +127,6 @@
    },
    {
     "name": "andrew16a",
-    "value": 1
-   },
-   {
-    "name": "fym",
     "value": 1
    },
    {
@@ -155,26 +155,26 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 86
+    "value": 88
+   },
+   {
+    "name": "flo578",
+    "value": 57
    },
    {
     "name": "Weavem",
     "value": 57
    },
    {
-    "name": "flo578",
-    "value": 55
-   },
-   {
     "name": "Pantheon_",
     "value": 49
    },
    {
-    "name": "Lovepanda",
-    "value": 35
+    "name": "Monsieur-RF",
+    "value": 37
    },
    {
-    "name": "Monsieur-RF",
+    "name": "Lovepanda",
     "value": 35
    },
    {
@@ -186,11 +186,11 @@
     "value": 29
    },
    {
-    "name": "halos34",
-    "value": 25
+    "name": "sami75.19",
+    "value": 27
    },
    {
-    "name": "sami75.19",
+    "name": "halos34",
     "value": 25
    },
    {
@@ -253,26 +253,26 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 86
+    "value": 88
+   },
+   {
+    "name": "flo578",
+    "value": 57
    },
    {
     "name": "Weavem",
     "value": 57
    },
    {
-    "name": "flo578",
-    "value": 55
-   },
-   {
     "name": "Pantheon_",
     "value": 49
    },
    {
-    "name": "Lovepanda",
-    "value": 35
+    "name": "Monsieur-RF",
+    "value": 37
    },
    {
-    "name": "Monsieur-RF",
+    "name": "Lovepanda",
     "value": 35
    },
    {
@@ -284,11 +284,11 @@
     "value": 29
    },
    {
-    "name": "halos34",
-    "value": 25
+    "name": "sami75.19",
+    "value": 27
    },
    {
-    "name": "sami75.19",
+    "name": "halos34",
     "value": 25
    },
    {
