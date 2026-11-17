@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T20:14:11+00:00",
+ "updated": "2026-11-17T20:16:11+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -13,6 +13,14 @@
    },
    {
     "name": "sami75.19",
+    "value": 2
+   },
+   {
+    "name": "halos34",
+    "value": 1
+   },
+   {
+    "name": "Icarem",
     "value": 1
    },
    {
@@ -30,15 +38,19 @@
     "value": 2
    },
    {
+    "name": "sami75.19",
+    "value": 2
+   },
+   {
+    "name": "halos34",
+    "value": 1
+   },
+   {
     "name": "Icarem",
     "value": 1
    },
    {
     "name": "Mr.Dino",
-    "value": 1
-   },
-   {
-    "name": "sami75.19",
     "value": 1
    },
    {
@@ -51,7 +63,7 @@
   "total": [
    {
     "name": "flo578",
-    "value": 16
+    "value": 18
    },
    {
     "name": "halos34",
@@ -59,19 +71,23 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 14
+    "value": 15
    },
    {
     "name": "Pantheon_",
-    "value": 11
-   },
-   {
-    "name": "sami75.19",
-    "value": 11
+    "value": 13
    },
    {
     "name": "BiBiCHarBo",
-    "value": 10
+    "value": 12
+   },
+   {
+    "name": "sami75.19",
+    "value": 12
+   },
+   {
+    "name": "guest77145",
+    "value": 9
    },
    {
     "name": "Icarem",
@@ -82,8 +98,8 @@
     "value": 7
    },
    {
-    "name": "guest77145",
-    "value": 7
+    "name": "alexandre-780",
+    "value": 2
    }
   ],
   "week": [
@@ -93,7 +109,7 @@
    },
    {
     "name": "flo578",
-    "value": 16
+    "value": 18
    },
    {
     "name": "halos34",
@@ -101,19 +117,23 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 14
+    "value": 15
    },
    {
     "name": "Pantheon_",
-    "value": 11
-   },
-   {
-    "name": "sami75.19",
-    "value": 11
+    "value": 13
    },
    {
     "name": "BiBiCHarBo",
-    "value": 10
+    "value": 12
+   },
+   {
+    "name": "sami75.19",
+    "value": 12
+   },
+   {
+    "name": "guest77145",
+    "value": 9
    },
    {
     "name": "Icarem",
@@ -124,12 +144,12 @@
     "value": 7
    },
    {
-    "name": "guest77145",
-    "value": 7
-   },
-   {
     "name": "Shizuku",
     "value": 5
+   },
+   {
+    "name": "alexandre-780",
+    "value": 2
    },
    {
     "name": ".:Krustiz:.",
