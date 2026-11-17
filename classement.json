@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T21:44:15+00:00",
+ "updated": "2026-11-17T21:46:14+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -14,6 +14,10 @@
    {
     "name": "Piingouin.",
     "value": 4
+   },
+   {
+    "name": "Icarem",
+    "value": 3
    },
    {
     "name": "sami75.19",
@@ -33,10 +37,6 @@
    },
    {
     "name": "halos34",
-    "value": 2
-   },
-   {
-    "name": "Icarem",
     "value": 2
    },
    {
@@ -90,6 +90,10 @@
     "value": 4
    },
    {
+    "name": "Icarem",
+    "value": 3
+   },
+   {
     "name": "sami75.19",
     "value": 3
    },
@@ -107,10 +111,6 @@
    },
    {
     "name": "halos34",
-    "value": 2
-   },
-   {
-    "name": "Icarem",
     "value": 2
    },
    {
@@ -155,7 +155,7 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 82
+    "value": 84
    },
    {
     "name": "Weavem",
@@ -163,7 +163,7 @@
    },
    {
     "name": "flo578",
-    "value": 52
+    "value": 53
    },
    {
     "name": "Pantheon_",
@@ -174,12 +174,12 @@
     "value": 35
    },
    {
-    "name": "Mr.Dino",
-    "value": 32
+    "name": "Monsieur-RF",
+    "value": 33
    },
    {
-    "name": "Monsieur-RF",
-    "value": 31
+    "name": "Mr.Dino",
+    "value": 32
    },
    {
     "name": "Lewddon",
@@ -253,7 +253,7 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 82
+    "value": 84
    },
    {
     "name": "Weavem",
@@ -261,7 +261,7 @@
    },
    {
     "name": "flo578",
-    "value": 52
+    "value": 53
    },
    {
     "name": "Pantheon_",
@@ -272,12 +272,12 @@
     "value": 35
    },
    {
-    "name": "Mr.Dino",
-    "value": 32
+    "name": "Monsieur-RF",
+    "value": 33
    },
    {
-    "name": "Monsieur-RF",
-    "value": 31
+    "name": "Mr.Dino",
+    "value": 32
    },
    {
     "name": "Lewddon",
