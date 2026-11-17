@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T21:12:12+00:00",
+ "updated": "2026-11-17T21:14:13+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -123,7 +123,7 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 55
+    "value": 56
    },
    {
     "name": "flo578",
@@ -135,11 +135,11 @@
    },
    {
     "name": "Weavem",
-    "value": 33
+    "value": 35
    },
    {
     "name": "Mr.Dino",
-    "value": 27
+    "value": 29
    },
    {
     "name": "halos34",
@@ -150,11 +150,11 @@
     "value": 24
    },
    {
-    "name": "guest77145",
-    "value": 20
+    "name": "Lovepanda",
+    "value": 22
    },
    {
-    "name": "Lovepanda",
+    "name": "guest77145",
     "value": 20
    },
    {
@@ -170,11 +170,11 @@
     "value": 11
    },
    {
-    "name": "Alejandro721",
-    "value": 9
+    "name": "irysse",
+    "value": 11
    },
    {
-    "name": "irysse",
+    "name": "Alejandro721",
     "value": 9
    },
    {
@@ -190,26 +190,26 @@
     "value": 4
    },
    {
+    "name": "Monsieur-RF",
+    "value": 4
+   },
+   {
     "name": "Sciel",
     "value": 4
    },
    {
-    "name": "Monsieur-RF",
-    "value": 2
+    "name": "Pporappippam",
+    "value": 3
    },
    {
     "name": "Piingouin.",
     "value": 2
-   },
-   {
-    "name": "Pporappippam",
-    "value": 1
    }
   ],
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 55
+    "value": 56
    },
    {
     "name": "flo578",
@@ -221,11 +221,11 @@
    },
    {
     "name": "Weavem",
-    "value": 33
+    "value": 35
    },
    {
     "name": "Mr.Dino",
-    "value": 27
+    "value": 29
    },
    {
     "name": "halos34",
@@ -236,11 +236,11 @@
     "value": 24
    },
    {
-    "name": "guest77145",
-    "value": 20
+    "name": "Lovepanda",
+    "value": 22
    },
    {
-    "name": "Lovepanda",
+    "name": "guest77145",
     "value": 20
    },
    {
@@ -256,11 +256,11 @@
     "value": 11
    },
    {
-    "name": "Alejandro721",
-    "value": 9
+    "name": "irysse",
+    "value": 11
    },
    {
-    "name": "irysse",
+    "name": "Alejandro721",
     "value": 9
    },
    {
@@ -280,12 +280,16 @@
     "value": 4
    },
    {
+    "name": "Monsieur-RF",
+    "value": 4
+   },
+   {
     "name": "Sciel",
     "value": 4
    },
    {
-    "name": "Monsieur-RF",
-    "value": 2
+    "name": "Pporappippam",
+    "value": 3
    },
    {
     "name": "Piingouin.",
@@ -293,10 +297,6 @@
    },
    {
     "name": ".:Krustiz:.",
-    "value": 1
-   },
-   {
-    "name": "Pporappippam",
     "value": 1
    }
   ]
