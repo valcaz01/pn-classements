@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T20:26:12+00:00",
+ "updated": "2026-11-17T20:28:12+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -16,6 +16,14 @@
     "value": 2
    },
    {
+    "name": "Mr.Dino",
+    "value": 2
+   },
+   {
+    "name": "Piingouin.",
+    "value": 2
+   },
+   {
     "name": "sami75.19",
     "value": 2
    },
@@ -42,15 +50,19 @@
     "value": 2
    },
    {
+    "name": "Mr.Dino",
+    "value": 2
+   },
+   {
+    "name": "Piingouin.",
+    "value": 2
+   },
+   {
     "name": "sami75.19",
     "value": 2
    },
    {
     "name": "halos34",
-    "value": 1
-   },
-   {
-    "name": "Mr.Dino",
     "value": 1
    },
    {
@@ -63,19 +75,19 @@
   "total": [
    {
     "name": "flo578",
-    "value": 28
-   },
-   {
-    "name": "halos34",
-    "value": 23
+    "value": 30
    },
    {
     "name": "BiBiCHarBo",
-    "value": 22
+    "value": 24
+   },
+   {
+    "name": "halos34",
+    "value": 24
    },
    {
     "name": "sami75.19",
-    "value": 20
+    "value": 22
    },
    {
     "name": "Mr.Dino",
@@ -83,7 +95,11 @@
    },
    {
     "name": "Pantheon_",
-    "value": 13
+    "value": 14
+   },
+   {
+    "name": "guest77145",
+    "value": 12
    },
    {
     "name": "Icarem",
@@ -92,10 +108,6 @@
    {
     "name": "alexandre-780",
     "value": 11
-   },
-   {
-    "name": "guest77145",
-    "value": 10
    },
    {
     "name": "Freminet",
@@ -108,24 +120,28 @@
    {
     "name": "Weavem",
     "value": 5
+   },
+   {
+    "name": "Lovepanda",
+    "value": 1
    }
   ],
   "week": [
    {
     "name": "flo578",
-    "value": 28
-   },
-   {
-    "name": "halos34",
-    "value": 23
+    "value": 30
    },
    {
     "name": "BiBiCHarBo",
-    "value": 22
+    "value": 24
+   },
+   {
+    "name": "halos34",
+    "value": 24
    },
    {
     "name": "sami75.19",
-    "value": 20
+    "value": 22
    },
    {
     "name": "Mr.Dino",
@@ -133,7 +149,11 @@
    },
    {
     "name": "Pantheon_",
-    "value": 13
+    "value": 14
+   },
+   {
+    "name": "guest77145",
+    "value": 12
    },
    {
     "name": "Icarem",
@@ -142,10 +162,6 @@
    {
     "name": "alexandre-780",
     "value": 11
-   },
-   {
-    "name": "guest77145",
-    "value": 10
    },
    {
     "name": "Freminet",
@@ -165,6 +181,10 @@
    },
    {
     "name": ".:Krustiz:.",
+    "value": 1
+   },
+   {
+    "name": "Lovepanda",
     "value": 1
    }
   ]
