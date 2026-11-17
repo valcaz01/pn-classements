@@ -1,15 +1,19 @@
 {
- "updated": "2026-11-17T20:36:12+00:00",
+ "updated": "2026-11-17T20:38:13+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 4
+    "value": 5
    },
    {
     "name": "Piingouin.",
-    "value": 3
+    "value": 4
+   },
+   {
+    "name": "flo578",
+    "value": 2
    },
    {
     "name": "guest77145",
@@ -30,10 +34,6 @@
    {
     "name": "sami75.19",
     "value": 2
-   },
-   {
-    "name": "flo578",
-    "value": 1
    },
    {
     "name": "Shizuku",
@@ -43,11 +43,15 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 4
+    "value": 5
    },
    {
     "name": "Piingouin.",
-    "value": 3
+    "value": 4
+   },
+   {
+    "name": "flo578",
+    "value": 2
    },
    {
     "name": "guest77145",
@@ -68,10 +72,6 @@
    {
     "name": "sami75.19",
     "value": 2
-   },
-   {
-    "name": "flo578",
-    "value": 1
    },
    {
     "name": "Shizuku",
@@ -123,6 +123,10 @@
    },
    {
     "name": "Lovepanda",
+    "value": 10
+   },
+   {
+    "name": "andrew16a",
     "value": 8
    },
    {
@@ -134,16 +138,12 @@
     "value": 7
    },
    {
-    "name": "andrew16a",
-    "value": 6
-   },
-   {
     "name": "Alejandro721",
-    "value": 3
+    "value": 5
    },
    {
     "name": "Sciel",
-    "value": 3
+    "value": 4
    }
   ],
   "week": [
@@ -189,6 +189,10 @@
    },
    {
     "name": "Lovepanda",
+    "value": 10
+   },
+   {
+    "name": "andrew16a",
     "value": 8
    },
    {
@@ -200,20 +204,16 @@
     "value": 7
    },
    {
-    "name": "andrew16a",
-    "value": 6
+    "name": "Alejandro721",
+    "value": 5
    },
    {
     "name": "Shizuku",
     "value": 5
    },
    {
-    "name": "Alejandro721",
-    "value": 3
-   },
-   {
     "name": "Sciel",
-    "value": 3
+    "value": 4
    },
    {
     "name": ".:Krustiz:.",
