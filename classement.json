@@ -1,15 +1,32 @@
 {
- "updated": "2026-11-17T19:58:10+00:00",
+ "updated": "2026-11-17T20:00:10+00:00",
  "week_start": "2026-11-16",
  "xp": {
-  "total": [],
+  "total": [
+   {
+    "name": "BiBiCHarBo",
+    "value": 2
+   },
+   {
+    "name": "sami75.19",
+    "value": 1
+   }
+  ],
   "week": [
+   {
+    "name": "BiBiCHarBo",
+    "value": 2
+   },
    {
     "name": "Icarem",
     "value": 1
    },
    {
     "name": "Mr.Dino",
+    "value": 1
+   },
+   {
+    "name": "sami75.19",
     "value": 1
    }
   ]
@@ -17,24 +34,24 @@
  "pr": {
   "total": [
    {
-    "name": "guest77145",
-    "value": 2
-   },
-   {
     "name": "flo578",
-    "value": 1
+    "value": 3
    },
    {
     "name": "halos34",
-    "value": 1
+    "value": 3
    },
    {
     "name": "Icarem",
-    "value": 1
+    "value": 3
    },
    {
     "name": "Mr.Dino",
-    "value": 1
+    "value": 3
+   },
+   {
+    "name": "guest77145",
+    "value": 2
    }
   ],
   "week": [
@@ -55,27 +72,27 @@
     "value": 5
    },
    {
+    "name": "flo578",
+    "value": 3
+   },
+   {
+    "name": "halos34",
+    "value": 3
+   },
+   {
+    "name": "Icarem",
+    "value": 3
+   },
+   {
+    "name": "Mr.Dino",
+    "value": 3
+   },
+   {
     "name": "guest77145",
     "value": 2
    },
    {
     "name": ".:Krustiz:.",
-    "value": 1
-   },
-   {
-    "name": "flo578",
-    "value": 1
-   },
-   {
-    "name": "halos34",
-    "value": 1
-   },
-   {
-    "name": "Icarem",
-    "value": 1
-   },
-   {
-    "name": "Mr.Dino",
     "value": 1
    }
   ]
