@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T20:38:13+00:00",
+ "updated": "2026-11-17T20:40:12+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -10,6 +10,10 @@
    {
     "name": "Piingouin.",
     "value": 4
+   },
+   {
+    "name": "sami75.19",
+    "value": 3
    },
    {
     "name": "flo578",
@@ -32,8 +36,8 @@
     "value": 2
    },
    {
-    "name": "sami75.19",
-    "value": 2
+    "name": "andrew16a",
+    "value": 1
    },
    {
     "name": "Shizuku",
@@ -50,6 +54,10 @@
     "value": 4
    },
    {
+    "name": "sami75.19",
+    "value": 3
+   },
+   {
     "name": "flo578",
     "value": 2
    },
@@ -70,8 +78,8 @@
     "value": 2
    },
    {
-    "name": "sami75.19",
-    "value": 2
+    "name": "andrew16a",
+    "value": 1
    },
    {
     "name": "Shizuku",
@@ -87,11 +95,11 @@
    },
    {
     "name": "BiBiCHarBo",
-    "value": 27
+    "value": 29
    },
    {
     "name": "halos34",
-    "value": 24
+    "value": 25
    },
    {
     "name": "sami75.19",
@@ -99,7 +107,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 21
+    "value": 22
    },
    {
     "name": "guest77145",
@@ -130,6 +138,10 @@
     "value": 8
    },
    {
+    "name": "Alejandro721",
+    "value": 7
+   },
+   {
     "name": "Freminet",
     "value": 7
    },
@@ -138,12 +150,12 @@
     "value": 7
    },
    {
-    "name": "Alejandro721",
-    "value": 5
-   },
-   {
     "name": "Sciel",
     "value": 4
+   },
+   {
+    "name": "Piingouin.",
+    "value": 1
    }
   ],
   "week": [
@@ -153,11 +165,11 @@
    },
    {
     "name": "BiBiCHarBo",
-    "value": 27
+    "value": 29
    },
    {
     "name": "halos34",
-    "value": 24
+    "value": 25
    },
    {
     "name": "sami75.19",
@@ -165,7 +177,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 21
+    "value": 22
    },
    {
     "name": "guest77145",
@@ -196,16 +208,16 @@
     "value": 8
    },
    {
+    "name": "Alejandro721",
+    "value": 7
+   },
+   {
     "name": "Freminet",
     "value": 7
    },
    {
     "name": "irysse",
     "value": 7
-   },
-   {
-    "name": "Alejandro721",
-    "value": 5
    },
    {
     "name": "Shizuku",
@@ -217,6 +229,10 @@
    },
    {
     "name": ".:Krustiz:.",
+    "value": 1
+   },
+   {
+    "name": "Piingouin.",
     "value": 1
    }
   ]
