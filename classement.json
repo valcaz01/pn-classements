@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T20:34:12+00:00",
+ "updated": "2026-11-17T20:36:12+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -87,7 +87,7 @@
    },
    {
     "name": "BiBiCHarBo",
-    "value": 25
+    "value": 27
    },
    {
     "name": "halos34",
@@ -99,7 +99,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 19
+    "value": 21
    },
    {
     "name": "guest77145",
@@ -114,12 +114,16 @@
     "value": 12
    },
    {
+    "name": "Weavem",
+    "value": 12
+   },
+   {
     "name": "alexandre-780",
     "value": 11
    },
    {
-    "name": "Weavem",
-    "value": 11
+    "name": "Lovepanda",
+    "value": 8
    },
    {
     "name": "Freminet",
@@ -130,20 +134,16 @@
     "value": 7
    },
    {
-    "name": "Lovepanda",
+    "name": "andrew16a",
     "value": 6
    },
    {
-    "name": "andrew16a",
-    "value": 4
-   },
-   {
     "name": "Alejandro721",
-    "value": 2
+    "value": 3
    },
    {
     "name": "Sciel",
-    "value": 2
+    "value": 3
    }
   ],
   "week": [
@@ -153,7 +153,7 @@
    },
    {
     "name": "BiBiCHarBo",
-    "value": 25
+    "value": 27
    },
    {
     "name": "halos34",
@@ -165,7 +165,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 19
+    "value": 21
    },
    {
     "name": "guest77145",
@@ -180,12 +180,16 @@
     "value": 12
    },
    {
+    "name": "Weavem",
+    "value": 12
+   },
+   {
     "name": "alexandre-780",
     "value": 11
    },
    {
-    "name": "Weavem",
-    "value": 11
+    "name": "Lovepanda",
+    "value": 8
    },
    {
     "name": "Freminet",
@@ -196,7 +200,7 @@
     "value": 7
    },
    {
-    "name": "Lovepanda",
+    "name": "andrew16a",
     "value": 6
    },
    {
@@ -204,16 +208,12 @@
     "value": 5
    },
    {
-    "name": "andrew16a",
-    "value": 4
-   },
-   {
     "name": "Alejandro721",
-    "value": 2
+    "value": 3
    },
    {
     "name": "Sciel",
-    "value": 2
+    "value": 3
    },
    {
     "name": ".:Krustiz:.",
