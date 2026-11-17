@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T21:06:12+00:00",
+ "updated": "2026-11-17T21:08:13+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -54,6 +54,10 @@
    {
     "name": "Shizuku",
     "value": 1
+   },
+   {
+    "name": "Weavem",
+    "value": 1
    }
   ],
   "week": [
@@ -108,6 +112,10 @@
    {
     "name": "Shizuku",
     "value": 1
+   },
+   {
+    "name": "Weavem",
+    "value": 1
    }
   ]
  },
@@ -115,11 +123,11 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 50
+    "value": 51
    },
    {
     "name": "flo578",
-    "value": 47
+    "value": 48
    },
    {
     "name": "Pantheon_",
@@ -134,12 +142,12 @@
     "value": 25
    },
    {
-    "name": "sami75.19",
+    "name": "Mr.Dino",
     "value": 24
    },
    {
-    "name": "Mr.Dino",
-    "value": 22
+    "name": "sami75.19",
+    "value": 24
    },
    {
     "name": "guest77145",
@@ -193,11 +201,11 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 50
+    "value": 51
    },
    {
     "name": "flo578",
-    "value": 47
+    "value": 48
    },
    {
     "name": "Pantheon_",
@@ -212,12 +220,12 @@
     "value": 25
    },
    {
-    "name": "sami75.19",
+    "name": "Mr.Dino",
     "value": 24
    },
    {
-    "name": "Mr.Dino",
-    "value": 22
+    "name": "sami75.19",
+    "value": 24
    },
    {
     "name": "guest77145",
