@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T20:44:12+00:00",
+ "updated": "2026-11-17T20:46:12+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -10,6 +10,10 @@
    {
     "name": "Piingouin.",
     "value": 4
+   },
+   {
+    "name": "Mr.Dino",
+    "value": 3
    },
    {
     "name": "sami75.19",
@@ -29,10 +33,6 @@
    },
    {
     "name": "Icarem",
-    "value": 2
-   },
-   {
-    "name": "Mr.Dino",
     "value": 2
    },
    {
@@ -58,6 +58,10 @@
     "value": 4
    },
    {
+    "name": "Mr.Dino",
+    "value": 3
+   },
+   {
     "name": "sami75.19",
     "value": 3
    },
@@ -78,10 +82,6 @@
     "value": 2
    },
    {
-    "name": "Mr.Dino",
-    "value": 2
-   },
-   {
     "name": "andrew16a",
     "value": 1
    },
@@ -98,12 +98,12 @@
  "pr": {
   "total": [
    {
-    "name": "flo578",
+    "name": "BiBiCHarBo",
     "value": 35
    },
    {
-    "name": "BiBiCHarBo",
-    "value": 33
+    "name": "flo578",
+    "value": 35
    },
    {
     "name": "halos34",
@@ -111,7 +111,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 23
+    "value": 24
    },
    {
     "name": "sami75.19",
@@ -122,12 +122,16 @@
     "value": 17
    },
    {
+    "name": "Lovepanda",
+    "value": 15
+   },
+   {
     "name": "Mr.Dino",
     "value": 15
    },
    {
-    "name": "Lovepanda",
-    "value": 13
+    "name": "andrew16a",
+    "value": 12
    },
    {
     "name": "Icarem",
@@ -139,10 +143,6 @@
    },
    {
     "name": "alexandre-780",
-    "value": 11
-   },
-   {
-    "name": "andrew16a",
     "value": 11
    },
    {
@@ -168,12 +168,12 @@
   ],
   "week": [
    {
-    "name": "flo578",
+    "name": "BiBiCHarBo",
     "value": 35
    },
    {
-    "name": "BiBiCHarBo",
-    "value": 33
+    "name": "flo578",
+    "value": 35
    },
    {
     "name": "halos34",
@@ -181,7 +181,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 23
+    "value": 24
    },
    {
     "name": "sami75.19",
@@ -192,12 +192,16 @@
     "value": 17
    },
    {
+    "name": "Lovepanda",
+    "value": 15
+   },
+   {
     "name": "Mr.Dino",
     "value": 15
    },
    {
-    "name": "Lovepanda",
-    "value": 13
+    "name": "andrew16a",
+    "value": 12
    },
    {
     "name": "Icarem",
@@ -209,10 +213,6 @@
    },
    {
     "name": "alexandre-780",
-    "value": 11
-   },
-   {
-    "name": "andrew16a",
     "value": 11
    },
    {
