@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T21:26:14+00:00",
+ "updated": "2026-11-17T21:28:14+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -147,7 +147,7 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 64
+    "value": 66
    },
    {
     "name": "flo578",
@@ -155,11 +155,11 @@
    },
    {
     "name": "Weavem",
-    "value": 47
+    "value": 49
    },
    {
     "name": "Pantheon_",
-    "value": 43
+    "value": 45
    },
    {
     "name": "Mr.Dino",
@@ -167,7 +167,7 @@
    },
    {
     "name": "Lovepanda",
-    "value": 26
+    "value": 28
    },
    {
     "name": "halos34",
@@ -187,11 +187,11 @@
    },
    {
     "name": "Lewddon",
-    "value": 16
+    "value": 18
    },
    {
     "name": "Monsieur-RF",
-    "value": 15
+    "value": 17
    },
    {
     "name": "andrew16a",
@@ -214,12 +214,12 @@
     "value": 8
    },
    {
-    "name": "Freminet",
-    "value": 7
+    "name": "toussainthanae",
+    "value": 8
    },
    {
-    "name": "toussainthanae",
-    "value": 6
+    "name": "Freminet",
+    "value": 7
    },
    {
     "name": "fym",
@@ -232,12 +232,16 @@
    {
     "name": "Piingouin.",
     "value": 2
+   },
+   {
+    "name": "pititchatoncute",
+    "value": 1
    }
   ],
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 64
+    "value": 66
    },
    {
     "name": "flo578",
@@ -245,11 +249,11 @@
    },
    {
     "name": "Weavem",
-    "value": 47
+    "value": 49
    },
    {
     "name": "Pantheon_",
-    "value": 43
+    "value": 45
    },
    {
     "name": "Mr.Dino",
@@ -257,7 +261,7 @@
    },
    {
     "name": "Lovepanda",
-    "value": 26
+    "value": 28
    },
    {
     "name": "halos34",
@@ -277,11 +281,11 @@
    },
    {
     "name": "Lewddon",
-    "value": 16
+    "value": 18
    },
    {
     "name": "Monsieur-RF",
-    "value": 15
+    "value": 17
    },
    {
     "name": "andrew16a",
@@ -304,12 +308,12 @@
     "value": 8
    },
    {
-    "name": "Freminet",
-    "value": 7
+    "name": "toussainthanae",
+    "value": 8
    },
    {
-    "name": "toussainthanae",
-    "value": 6
+    "name": "Freminet",
+    "value": 7
    },
    {
     "name": "Shizuku",
@@ -329,6 +333,10 @@
    },
    {
     "name": ".:Krustiz:.",
+    "value": 1
+   },
+   {
+    "name": "pititchatoncute",
     "value": 1
    }
   ]
