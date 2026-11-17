@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T21:40:14+00:00",
+ "updated": "2026-11-17T21:42:14+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -147,7 +147,7 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 78
+    "value": 80
    },
    {
     "name": "Weavem",
@@ -155,7 +155,7 @@
    },
    {
     "name": "flo578",
-    "value": 49
+    "value": 51
    },
    {
     "name": "Pantheon_",
@@ -175,7 +175,7 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 27
+    "value": 29
    },
    {
     "name": "halos34",
@@ -236,12 +236,16 @@
    {
     "name": "Piingouin.",
     "value": 2
+   },
+   {
+    "name": "Shizuku",
+    "value": 1
    }
   ],
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 78
+    "value": 80
    },
    {
     "name": "Weavem",
@@ -249,7 +253,7 @@
    },
    {
     "name": "flo578",
-    "value": 49
+    "value": 51
    },
    {
     "name": "Pantheon_",
@@ -269,7 +273,7 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 27
+    "value": 29
    },
    {
     "name": "halos34",
@@ -318,10 +322,6 @@
    {
     "name": "Freminet",
     "value": 7
-   },
-   {
-    "name": "Shizuku",
-    "value": 5
    },
    {
     "name": "fym",
@@ -337,6 +337,10 @@
    },
    {
     "name": ".:Krustiz:.",
+    "value": 1
+   },
+   {
+    "name": "Shizuku",
     "value": 1
    }
   ]
