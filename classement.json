@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T20:04:11+00:00",
+ "updated": "2026-11-17T20:06:11+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -50,40 +50,40 @@
  "pr": {
   "total": [
    {
-    "name": "flo578",
-    "value": 7
+    "name": "halos34",
+    "value": 9
    },
    {
-    "name": "halos34",
-    "value": 7
+    "name": "flo578",
+    "value": 8
    },
    {
     "name": "Mr.Dino",
-    "value": 7
+    "value": 8
    },
    {
     "name": "Icarem",
     "value": 6
    },
    {
-    "name": "guest77145",
-    "value": 4
-   },
-   {
     "name": "Pantheon_",
-    "value": 4
+    "value": 6
    },
    {
     "name": "sami75.19",
-    "value": 4
+    "value": 6
+   },
+   {
+    "name": "guest77145",
+    "value": 5
    },
    {
     "name": "BiBiCHarBo",
-    "value": 1
+    "value": 3
    },
    {
     "name": "Freminet",
-    "value": 1
+    "value": 3
    }
   ],
   "week": [
@@ -92,47 +92,47 @@
     "value": 727
    },
    {
-    "name": "flo578",
-    "value": 7
+    "name": "halos34",
+    "value": 9
    },
    {
-    "name": "halos34",
-    "value": 7
+    "name": "flo578",
+    "value": 8
    },
    {
     "name": "Mr.Dino",
-    "value": 7
+    "value": 8
    },
    {
     "name": "Icarem",
     "value": 6
    },
    {
+    "name": "Pantheon_",
+    "value": 6
+   },
+   {
+    "name": "sami75.19",
+    "value": 6
+   },
+   {
+    "name": "guest77145",
+    "value": 5
+   },
+   {
     "name": "Shizuku",
     "value": 5
    },
    {
-    "name": "guest77145",
-    "value": 4
-   },
-   {
-    "name": "Pantheon_",
-    "value": 4
-   },
-   {
-    "name": "sami75.19",
-    "value": 4
-   },
-   {
-    "name": ".:Krustiz:.",
-    "value": 1
-   },
-   {
     "name": "BiBiCHarBo",
-    "value": 1
+    "value": 3
    },
    {
     "name": "Freminet",
+    "value": 3
+   },
+   {
+    "name": ".:Krustiz:.",
     "value": 1
    }
   ]
