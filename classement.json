@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T22:18:14+00:00",
+ "updated": "2026-11-17T22:20:14+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -163,7 +163,7 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 106
+    "value": 108
    },
    {
     "name": "flo578",
@@ -175,11 +175,11 @@
    },
    {
     "name": "Lovepanda",
-    "value": 53
+    "value": 55
    },
    {
     "name": "Pantheon_",
-    "value": 49
+    "value": 51
    },
    {
     "name": "Monsieur-RF",
@@ -190,6 +190,10 @@
     "value": 39
    },
    {
+    "name": "fym",
+    "value": 32
+   },
+   {
     "name": "Mr.Dino",
     "value": 32
    },
@@ -198,16 +202,12 @@
     "value": 32
    },
    {
-    "name": "fym",
-    "value": 30
-   },
-   {
     "name": "halos34",
     "value": 25
    },
    {
     "name": "andrew16a",
-    "value": 22
+    "value": 24
    },
    {
     "name": "Sciel",
@@ -218,12 +218,12 @@
     "value": 20
    },
    {
-    "name": "Icarem",
-    "value": 19
+    "name": "Shizuku",
+    "value": 20
    },
    {
-    "name": "Shizuku",
-    "value": 18
+    "name": "Icarem",
+    "value": 19
    },
    {
     "name": "toussainthanae",
@@ -265,7 +265,7 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 106
+    "value": 108
    },
    {
     "name": "flo578",
@@ -277,11 +277,11 @@
    },
    {
     "name": "Lovepanda",
-    "value": 53
+    "value": 55
    },
    {
     "name": "Pantheon_",
-    "value": 49
+    "value": 51
    },
    {
     "name": "Monsieur-RF",
@@ -292,6 +292,10 @@
     "value": 39
    },
    {
+    "name": "fym",
+    "value": 32
+   },
+   {
     "name": "Mr.Dino",
     "value": 32
    },
@@ -300,16 +304,12 @@
     "value": 32
    },
    {
-    "name": "fym",
-    "value": 30
-   },
-   {
     "name": "halos34",
     "value": 25
    },
    {
     "name": "andrew16a",
-    "value": 22
+    "value": 24
    },
    {
     "name": "Sciel",
@@ -320,12 +320,12 @@
     "value": 20
    },
    {
-    "name": "Icarem",
-    "value": 19
+    "name": "Shizuku",
+    "value": 20
    },
    {
-    "name": "Shizuku",
-    "value": 18
+    "name": "Icarem",
+    "value": 19
    },
    {
     "name": "toussainthanae",
