@@ -1,13 +1,8 @@
 {
- "updated": "2026-11-17T13:48:11+00:00",
+ "updated": "2026-11-17T13:50:10+00:00",
  "week_start": "2026-11-16",
  "xp": {
-  "total": [
-   {
-    "name": ".:Krustiz:.",
-    "value": 152
-   }
-  ],
+  "total": [],
   "week": [
    {
     "name": "Icarem",
@@ -20,12 +15,7 @@
   ]
  },
  "pr": {
-  "total": [
-   {
-    "name": ".:Krustiz:.",
-    "value": 34
-   }
-  ],
+  "total": [],
   "week": [
    {
     "name": "irysse",
