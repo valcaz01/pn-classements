@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T20:56:12+00:00",
+ "updated": "2026-11-17T20:58:12+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -8,15 +8,19 @@
     "value": 5
    },
    {
+    "name": "Mr.Dino",
+    "value": 4
+   },
+   {
     "name": "Piingouin.",
     "value": 4
    },
    {
-    "name": "Mr.Dino",
+    "name": "sami75.19",
     "value": 3
    },
    {
-    "name": "sami75.19",
+    "name": "Sciel",
     "value": 3
    },
    {
@@ -37,10 +41,6 @@
    },
    {
     "name": "pevanq640",
-    "value": 2
-   },
-   {
-    "name": "Sciel",
     "value": 2
    },
    {
@@ -62,15 +62,19 @@
     "value": 5
    },
    {
+    "name": "Mr.Dino",
+    "value": 4
+   },
+   {
     "name": "Piingouin.",
     "value": 4
    },
    {
-    "name": "Mr.Dino",
+    "name": "sami75.19",
     "value": 3
    },
    {
-    "name": "sami75.19",
+    "name": "Sciel",
     "value": 3
    },
    {
@@ -94,10 +98,6 @@
     "value": 2
    },
    {
-    "name": "Sciel",
-    "value": 2
-   },
-   {
     "name": "andrew16a",
     "value": 1
    },
@@ -115,15 +115,15 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 42
+    "value": 44
    },
    {
     "name": "flo578",
-    "value": 39
+    "value": 40
    },
    {
     "name": "Pantheon_",
-    "value": 34
+    "value": 35
    },
    {
     "name": "halos34",
@@ -135,7 +135,11 @@
    },
    {
     "name": "Weavem",
-    "value": 22
+    "value": 23
+   },
+   {
+    "name": "Mr.Dino",
+    "value": 18
    },
    {
     "name": "guest77145",
@@ -143,10 +147,6 @@
    },
    {
     "name": "Lovepanda",
-    "value": 17
-   },
-   {
-    "name": "Mr.Dino",
     "value": 17
    },
    {
@@ -193,15 +193,15 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 42
+    "value": 44
    },
    {
     "name": "flo578",
-    "value": 39
+    "value": 40
    },
    {
     "name": "Pantheon_",
-    "value": 34
+    "value": 35
    },
    {
     "name": "halos34",
@@ -213,7 +213,11 @@
    },
    {
     "name": "Weavem",
-    "value": 22
+    "value": 23
+   },
+   {
+    "name": "Mr.Dino",
+    "value": 18
    },
    {
     "name": "guest77145",
@@ -221,10 +225,6 @@
    },
    {
     "name": "Lovepanda",
-    "value": 17
-   },
-   {
-    "name": "Mr.Dino",
     "value": 17
    },
    {
