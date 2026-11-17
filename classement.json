@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T21:10:13+00:00",
+ "updated": "2026-11-17T21:12:12+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -123,7 +123,7 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 53
+    "value": 55
    },
    {
     "name": "flo578",
@@ -135,14 +135,14 @@
    },
    {
     "name": "Weavem",
-    "value": 31
-   },
-   {
-    "name": "halos34",
-    "value": 25
+    "value": 33
    },
    {
     "name": "Mr.Dino",
+    "value": 27
+   },
+   {
+    "name": "halos34",
     "value": 25
    },
    {
@@ -154,12 +154,12 @@
     "value": 20
    },
    {
-    "name": "Icarem",
-    "value": 19
+    "name": "Lovepanda",
+    "value": 20
    },
    {
-    "name": "Lovepanda",
-    "value": 18
+    "name": "Icarem",
+    "value": 19
    },
    {
     "name": "andrew16a",
@@ -175,7 +175,7 @@
    },
    {
     "name": "irysse",
-    "value": 8
+    "value": 9
    },
    {
     "name": "Freminet",
@@ -194,14 +194,22 @@
     "value": 4
    },
    {
+    "name": "Monsieur-RF",
+    "value": 2
+   },
+   {
     "name": "Piingouin.",
     "value": 2
+   },
+   {
+    "name": "Pporappippam",
+    "value": 1
    }
   ],
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 53
+    "value": 55
    },
    {
     "name": "flo578",
@@ -213,14 +221,14 @@
    },
    {
     "name": "Weavem",
-    "value": 31
-   },
-   {
-    "name": "halos34",
-    "value": 25
+    "value": 33
    },
    {
     "name": "Mr.Dino",
+    "value": 27
+   },
+   {
+    "name": "halos34",
     "value": 25
    },
    {
@@ -232,12 +240,12 @@
     "value": 20
    },
    {
-    "name": "Icarem",
-    "value": 19
+    "name": "Lovepanda",
+    "value": 20
    },
    {
-    "name": "Lovepanda",
-    "value": 18
+    "name": "Icarem",
+    "value": 19
    },
    {
     "name": "andrew16a",
@@ -253,7 +261,7 @@
    },
    {
     "name": "irysse",
-    "value": 8
+    "value": 9
    },
    {
     "name": "Freminet",
@@ -276,11 +284,19 @@
     "value": 4
    },
    {
+    "name": "Monsieur-RF",
+    "value": 2
+   },
+   {
     "name": "Piingouin.",
     "value": 2
    },
    {
     "name": ".:Krustiz:.",
+    "value": 1
+   },
+   {
+    "name": "Pporappippam",
     "value": 1
    }
   ]
