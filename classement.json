@@ -1,11 +1,15 @@
 {
- "updated": "2026-11-17T20:30:12+00:00",
+ "updated": "2026-11-17T20:32:12+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
    {
     "name": "BiBiCHarBo",
     "value": 4
+   },
+   {
+    "name": "Piingouin.",
+    "value": 3
    },
    {
     "name": "guest77145",
@@ -17,10 +21,6 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 2
-   },
-   {
-    "name": "Piingouin.",
     "value": 2
    },
    {
@@ -42,6 +42,10 @@
     "value": 4
    },
    {
+    "name": "Piingouin.",
+    "value": 3
+   },
+   {
     "name": "guest77145",
     "value": 2
    },
@@ -51,10 +55,6 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 2
-   },
-   {
-    "name": "Piingouin.",
     "value": 2
    },
    {
@@ -75,7 +75,7 @@
   "total": [
    {
     "name": "flo578",
-    "value": 32
+    "value": 34
    },
    {
     "name": "BiBiCHarBo",
@@ -91,15 +91,15 @@
    },
    {
     "name": "Pantheon_",
-    "value": 16
+    "value": 18
+   },
+   {
+    "name": "guest77145",
+    "value": 15
    },
    {
     "name": "Mr.Dino",
     "value": 15
-   },
-   {
-    "name": "guest77145",
-    "value": 14
    },
    {
     "name": "Icarem",
@@ -110,6 +110,10 @@
     "value": 11
    },
    {
+    "name": "Weavem",
+    "value": 9
+   },
+   {
     "name": "Freminet",
     "value": 7
    },
@@ -118,18 +122,18 @@
     "value": 7
    },
    {
-    "name": "Weavem",
-    "value": 7
+    "name": "Lovepanda",
+    "value": 4
    },
    {
-    "name": "Lovepanda",
+    "name": "andrew16a",
     "value": 2
    }
   ],
   "week": [
    {
     "name": "flo578",
-    "value": 32
+    "value": 34
    },
    {
     "name": "BiBiCHarBo",
@@ -145,15 +149,15 @@
    },
    {
     "name": "Pantheon_",
-    "value": 16
+    "value": 18
+   },
+   {
+    "name": "guest77145",
+    "value": 15
    },
    {
     "name": "Mr.Dino",
     "value": 15
-   },
-   {
-    "name": "guest77145",
-    "value": 14
    },
    {
     "name": "Icarem",
@@ -164,15 +168,15 @@
     "value": 11
    },
    {
+    "name": "Weavem",
+    "value": 9
+   },
+   {
     "name": "Freminet",
     "value": 7
    },
    {
     "name": "irysse",
-    "value": 7
-   },
-   {
-    "name": "Weavem",
     "value": 7
    },
    {
@@ -181,6 +185,10 @@
    },
    {
     "name": "Lovepanda",
+    "value": 4
+   },
+   {
+    "name": "andrew16a",
     "value": 2
    },
    {
