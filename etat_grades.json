@@ -549,7 +549,7 @@
   "grade": null,
   "humeur": "[PN] Brigadier [Formation]",
   "pseudo": "Freminet",
-  "verifie": "2026-11-17T19:14:10+00:00"
+  "verifie": "2026-11-17T22:14:14+00:00"
  },
  "24148981": {
   "alertes": {},
@@ -895,6 +895,14 @@
   "pseudo": "Tropicks",
   "verifie": "2026-11-17T20:10:11+00:00"
  },
+ "25132880": {
+  "alertes": {},
+  "depuis": null,
+  "grade": null,
+  "humeur": "a prendre",
+  "pseudo": "OnlyOneGuest",
+  "verifie": "2026-11-17T22:14:14+00:00"
+ },
  "25142734": {
   "alertes": {},
   "depuis": null,
@@ -971,9 +979,9 @@
   "alertes": {},
   "depuis": null,
   "grade": null,
-  "humeur": "Ya rien a voir ici.",
+  "humeur": "[P.N] Brigadier [Formation]",
   "pseudo": "alexandre-780",
-  "verifie": "2026-11-17T19:14:10+00:00"
+  "verifie": "2026-11-17T22:14:14+00:00"
  },
  "25324921": {
   "alertes": {},
