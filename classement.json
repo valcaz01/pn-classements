@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T21:56:14+00:00",
+ "updated": "2026-11-17T21:58:14+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -155,11 +155,11 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 90
+    "value": 92
    },
    {
     "name": "flo578",
-    "value": 63
+    "value": 65
    },
    {
     "name": "Weavem",
@@ -171,11 +171,11 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 43
+    "value": 45
    },
    {
     "name": "Lovepanda",
-    "value": 39
+    "value": 41
    },
    {
     "name": "Mr.Dino",
@@ -218,12 +218,12 @@
     "value": 11
    },
    {
-    "name": "Alejandro721",
-    "value": 9
+    "name": "fym",
+    "value": 10
    },
    {
-    "name": "fym",
-    "value": 8
+    "name": "Alejandro721",
+    "value": 9
    },
    {
     "name": "pititchatoncute",
@@ -234,34 +234,34 @@
     "value": 8
    },
    {
+    "name": "Sciel",
+    "value": 8
+   },
+   {
     "name": "Freminet",
     "value": 7
    },
    {
-    "name": "Sciel",
-    "value": 6
+    "name": "-Tsukiri-",
+    "value": 4
    },
    {
-    "name": "-Tsukiri-",
-    "value": 2
+    "name": "Shizuku",
+    "value": 3
    },
    {
     "name": "Piingouin.",
     "value": 2
-   },
-   {
-    "name": "Shizuku",
-    "value": 1
    }
   ],
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 90
+    "value": 92
    },
    {
     "name": "flo578",
-    "value": 63
+    "value": 65
    },
    {
     "name": "Weavem",
@@ -273,11 +273,11 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 43
+    "value": 45
    },
    {
     "name": "Lovepanda",
-    "value": 39
+    "value": 41
    },
    {
     "name": "Mr.Dino",
@@ -320,12 +320,12 @@
     "value": 11
    },
    {
-    "name": "Alejandro721",
-    "value": 9
+    "name": "fym",
+    "value": 10
    },
    {
-    "name": "fym",
-    "value": 8
+    "name": "Alejandro721",
+    "value": 9
    },
    {
     "name": "pititchatoncute",
@@ -336,16 +336,20 @@
     "value": 8
    },
    {
+    "name": "Sciel",
+    "value": 8
+   },
+   {
     "name": "Freminet",
     "value": 7
    },
    {
-    "name": "Sciel",
-    "value": 6
+    "name": "-Tsukiri-",
+    "value": 4
    },
    {
-    "name": "-Tsukiri-",
-    "value": 2
+    "name": "Shizuku",
+    "value": 3
    },
    {
     "name": "Piingouin.",
@@ -353,10 +357,6 @@
    },
    {
     "name": ".:Krustiz:.",
-    "value": 1
-   },
-   {
-    "name": "Shizuku",
     "value": 1
    }
   ]
