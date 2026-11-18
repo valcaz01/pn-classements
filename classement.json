@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T20:50:19+00:00",
+ "updated": "2026-11-18T20:52:18+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -52,6 +52,10 @@
     "value": 4
    },
    {
+    "name": "flo578",
+    "value": 4
+   },
+   {
     "name": "Non-Non",
     "value": 4
    },
@@ -65,10 +69,6 @@
    },
    {
     "name": "andrew16a",
-    "value": 3
-   },
-   {
-    "name": "flo578",
     "value": 3
    },
    {
@@ -158,6 +158,10 @@
     "value": 4
    },
    {
+    "name": "flo578",
+    "value": 4
+   },
+   {
     "name": "Non-Non",
     "value": 4
    },
@@ -171,10 +175,6 @@
    },
    {
     "name": "andrew16a",
-    "value": 3
-   },
-   {
-    "name": "flo578",
     "value": 3
    },
    {
@@ -219,11 +219,11 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 558
+    "value": 559
    },
    {
     "name": "fym",
-    "value": 451
+    "value": 453
    },
    {
     "name": "Pantheon_",
@@ -231,7 +231,7 @@
    },
    {
     "name": "Shizuku",
-    "value": 189
+    "value": 190
    },
    {
     "name": "Lovepanda",
@@ -239,7 +239,7 @@
    },
    {
     "name": "marinadrk",
-    "value": 128
+    "value": 130
    },
    {
     "name": "Icarem",
@@ -247,7 +247,7 @@
    },
    {
     "name": "Lewddon",
-    "value": 93
+    "value": 94
    },
    {
     "name": "Weavem",
@@ -259,19 +259,19 @@
    },
    {
     "name": "flo578",
-    "value": 81
+    "value": 82
    },
    {
     "name": "-Tsukiri-",
     "value": 72
    },
    {
-    "name": "Non-Non",
+    "name": "habbo22t",
     "value": 72
    },
    {
-    "name": "habbo22t",
-    "value": 70
+    "name": "Non-Non",
+    "value": 72
    },
    {
     "name": ".:Krustiz:.",
@@ -343,7 +343,7 @@
    },
    {
     "name": "charlie-XCX123",
-    "value": 8
+    "value": 9
    },
    {
     "name": "Imondi",
@@ -363,7 +363,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 2
+    "value": 4
    },
    {
     "name": "Piingouin.",
@@ -373,11 +373,11 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 558
+    "value": 559
    },
    {
     "name": "fym",
-    "value": 451
+    "value": 453
    },
    {
     "name": "Pantheon_",
@@ -385,7 +385,7 @@
    },
    {
     "name": "Shizuku",
-    "value": 189
+    "value": 190
    },
    {
     "name": "Lovepanda",
@@ -393,7 +393,7 @@
    },
    {
     "name": "marinadrk",
-    "value": 128
+    "value": 130
    },
    {
     "name": "Icarem",
@@ -401,7 +401,7 @@
    },
    {
     "name": "Lewddon",
-    "value": 93
+    "value": 94
    },
    {
     "name": "Weavem",
@@ -413,19 +413,19 @@
    },
    {
     "name": "flo578",
-    "value": 81
+    "value": 82
    },
    {
     "name": "-Tsukiri-",
     "value": 72
    },
    {
-    "name": "Non-Non",
+    "name": "habbo22t",
     "value": 72
    },
    {
-    "name": "habbo22t",
-    "value": 70
+    "name": "Non-Non",
+    "value": 72
    },
    {
     "name": ".:Krustiz:.",
@@ -497,7 +497,7 @@
    },
    {
     "name": "charlie-XCX123",
-    "value": 8
+    "value": 9
    },
    {
     "name": "Imondi",
@@ -517,7 +517,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 2
+    "value": 4
    },
    {
     "name": "Piingouin.",
