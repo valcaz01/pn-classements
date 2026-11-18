@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T20:28:18+00:00",
+ "updated": "2026-11-18T20:30:18+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -203,7 +203,7 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 541
+    "value": 542
    },
    {
     "name": "fym",
@@ -223,11 +223,11 @@
    },
    {
     "name": "marinadrk",
-    "value": 107
+    "value": 109
    },
    {
     "name": "Icarem",
-    "value": 98
+    "value": 100
    },
    {
     "name": "Lewddon",
@@ -243,7 +243,7 @@
    },
    {
     "name": "Weavem",
-    "value": 74
+    "value": 76
    },
    {
     "name": "-Tsukiri-",
@@ -251,7 +251,7 @@
    },
    {
     "name": "Non-Non",
-    "value": 69
+    "value": 71
    },
    {
     "name": ".:Krustiz:.",
@@ -263,15 +263,15 @@
    },
    {
     "name": "habbo22t",
-    "value": 51
+    "value": 53
+   },
+   {
+    "name": "Pporappippam",
+    "value": 48
    },
    {
     "name": "Mr.Dino",
     "value": 47
-   },
-   {
-    "name": "Pporappippam",
-    "value": 46
    },
    {
     "name": "Monsieur-RF",
@@ -322,12 +322,12 @@
     "value": 9
    },
    {
-    "name": "Imondi",
-    "value": 8
+    "name": "Astreu",
+    "value": 9
    },
    {
-    "name": "Astreu",
-    "value": 7
+    "name": "Imondi",
+    "value": 8
    },
    {
     "name": "Freminet",
@@ -353,7 +353,7 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 541
+    "value": 542
    },
    {
     "name": "fym",
@@ -373,11 +373,11 @@
    },
    {
     "name": "marinadrk",
-    "value": 107
+    "value": 109
    },
    {
     "name": "Icarem",
-    "value": 98
+    "value": 100
    },
    {
     "name": "Lewddon",
@@ -393,7 +393,7 @@
    },
    {
     "name": "Weavem",
-    "value": 74
+    "value": 76
    },
    {
     "name": "-Tsukiri-",
@@ -401,7 +401,7 @@
    },
    {
     "name": "Non-Non",
-    "value": 69
+    "value": 71
    },
    {
     "name": ".:Krustiz:.",
@@ -413,15 +413,15 @@
    },
    {
     "name": "habbo22t",
-    "value": 51
+    "value": 53
+   },
+   {
+    "name": "Pporappippam",
+    "value": 48
    },
    {
     "name": "Mr.Dino",
     "value": 47
-   },
-   {
-    "name": "Pporappippam",
-    "value": 46
    },
    {
     "name": "Monsieur-RF",
@@ -472,12 +472,12 @@
     "value": 9
    },
    {
-    "name": "Imondi",
-    "value": 8
+    "name": "Astreu",
+    "value": 9
    },
    {
-    "name": "Astreu",
-    "value": 7
+    "name": "Imondi",
+    "value": 8
    },
    {
     "name": "Freminet",
