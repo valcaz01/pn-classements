@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T20:02:18+00:00",
+ "updated": "2026-11-18T20:04:19+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -195,11 +195,11 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 518
+    "value": 520
    },
    {
     "name": "fym",
-    "value": 420
+    "value": 422
    },
    {
     "name": "Pantheon_",
@@ -218,16 +218,16 @@
     "value": 95
    },
    {
-    "name": "halos34",
-    "value": 83
-   },
-   {
     "name": "Lewddon",
-    "value": 82
+    "value": 84
    },
    {
     "name": "marinadrk",
-    "value": 82
+    "value": 84
+   },
+   {
+    "name": "halos34",
+    "value": 83
    },
    {
     "name": "flo578",
@@ -251,7 +251,7 @@
    },
    {
     "name": "Non-Non",
-    "value": 49
+    "value": 51
    },
    {
     "name": "Mr.Dino",
@@ -318,26 +318,30 @@
     "value": 7
    },
    {
+    "name": "KC-73100",
+    "value": 7
+   },
+   {
     "name": "Mixte",
     "value": 7
    },
    {
-    "name": "KC-73100",
-    "value": 5
+    "name": "Piingouin.",
+    "value": 2
    },
    {
-    "name": "Piingouin.",
+    "name": "Rock_2000",
     "value": 2
    }
   ],
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 518
+    "value": 520
    },
    {
     "name": "fym",
-    "value": 420
+    "value": 422
    },
    {
     "name": "Pantheon_",
@@ -356,16 +360,16 @@
     "value": 95
    },
    {
-    "name": "halos34",
-    "value": 83
-   },
-   {
     "name": "Lewddon",
-    "value": 82
+    "value": 84
    },
    {
     "name": "marinadrk",
-    "value": 82
+    "value": 84
+   },
+   {
+    "name": "halos34",
+    "value": 83
    },
    {
     "name": "flo578",
@@ -389,7 +393,7 @@
    },
    {
     "name": "Non-Non",
-    "value": 49
+    "value": 51
    },
    {
     "name": "Mr.Dino",
@@ -456,15 +460,19 @@
     "value": 7
    },
    {
+    "name": "KC-73100",
+    "value": 7
+   },
+   {
     "name": "Mixte",
     "value": 7
    },
    {
-    "name": "KC-73100",
-    "value": 5
+    "name": "Piingouin.",
+    "value": 2
    },
    {
-    "name": "Piingouin.",
+    "name": "Rock_2000",
     "value": 2
    }
   ]
