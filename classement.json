@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T20:52:18+00:00",
+ "updated": "2026-11-18T20:54:19+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -17,7 +17,7 @@
    },
    {
     "name": "halos34",
-    "value": 8
+    "value": 9
    },
    {
     "name": "Shizuku",
@@ -30,6 +30,10 @@
    {
     "name": "sami75.19",
     "value": 6
+   },
+   {
+    "name": "flo578",
+    "value": 5
    },
    {
     "name": "guest77145",
@@ -49,10 +53,6 @@
    },
    {
     "name": ".:Krustiz:.",
-    "value": 4
-   },
-   {
-    "name": "flo578",
     "value": 4
    },
    {
@@ -123,7 +123,7 @@
    },
    {
     "name": "halos34",
-    "value": 8
+    "value": 9
    },
    {
     "name": "Shizuku",
@@ -136,6 +136,10 @@
    {
     "name": "sami75.19",
     "value": 6
+   },
+   {
+    "name": "flo578",
+    "value": 5
    },
    {
     "name": "guest77145",
@@ -155,10 +159,6 @@
    },
    {
     "name": ".:Krustiz:.",
-    "value": 4
-   },
-   {
-    "name": "flo578",
     "value": 4
    },
    {
@@ -219,11 +219,11 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 559
+    "value": 561
    },
    {
     "name": "fym",
-    "value": 453
+    "value": 455
    },
    {
     "name": "Pantheon_",
@@ -231,15 +231,15 @@
    },
    {
     "name": "Shizuku",
-    "value": 190
+    "value": 191
    },
    {
     "name": "Lovepanda",
-    "value": 159
+    "value": 160
    },
    {
     "name": "marinadrk",
-    "value": 130
+    "value": 132
    },
    {
     "name": "Icarem",
@@ -247,7 +247,7 @@
    },
    {
     "name": "Lewddon",
-    "value": 94
+    "value": 96
    },
    {
     "name": "Weavem",
@@ -262,11 +262,11 @@
     "value": 82
    },
    {
-    "name": "-Tsukiri-",
-    "value": 72
+    "name": "habbo22t",
+    "value": 74
    },
    {
-    "name": "habbo22t",
+    "name": "-Tsukiri-",
     "value": 72
    },
    {
@@ -373,11 +373,11 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 559
+    "value": 561
    },
    {
     "name": "fym",
-    "value": 453
+    "value": 455
    },
    {
     "name": "Pantheon_",
@@ -385,15 +385,15 @@
    },
    {
     "name": "Shizuku",
-    "value": 190
+    "value": 191
    },
    {
     "name": "Lovepanda",
-    "value": 159
+    "value": 160
    },
    {
     "name": "marinadrk",
-    "value": 130
+    "value": 132
    },
    {
     "name": "Icarem",
@@ -401,7 +401,7 @@
    },
    {
     "name": "Lewddon",
-    "value": 94
+    "value": 96
    },
    {
     "name": "Weavem",
@@ -416,11 +416,11 @@
     "value": 82
    },
    {
-    "name": "-Tsukiri-",
-    "value": 72
+    "name": "habbo22t",
+    "value": 74
    },
    {
-    "name": "habbo22t",
+    "name": "-Tsukiri-",
     "value": 72
    },
    {
