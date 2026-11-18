@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T18:12:17+00:00",
+ "updated": "2026-11-18T18:14:19+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -195,11 +195,11 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 486
+    "value": 488
    },
    {
     "name": "fym",
-    "value": 334
+    "value": 336
    },
    {
     "name": "Pantheon_",
@@ -214,12 +214,12 @@
     "value": 157
    },
    {
-    "name": "halos34",
-    "value": 83
+    "name": "Icarem",
+    "value": 84
    },
    {
-    "name": "Icarem",
-    "value": 82
+    "name": "halos34",
+    "value": 83
    },
    {
     "name": "flo578",
@@ -250,16 +250,16 @@
     "value": 45
    },
    {
+    "name": "Mr.Dino",
+    "value": 44
+   },
+   {
     "name": "Pporappippam",
     "value": 44
    },
    {
     "name": "andrew16a",
     "value": 43
-   },
-   {
-    "name": "Mr.Dino",
-    "value": 42
    },
    {
     "name": "alexandre-780",
@@ -271,7 +271,7 @@
    },
    {
     "name": "marinadrk",
-    "value": 24
+    "value": 26
    },
    {
     "name": "irysse",
@@ -309,11 +309,11 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 486
+    "value": 488
    },
    {
     "name": "fym",
-    "value": 334
+    "value": 336
    },
    {
     "name": "Pantheon_",
@@ -328,12 +328,12 @@
     "value": 157
    },
    {
-    "name": "halos34",
-    "value": 83
+    "name": "Icarem",
+    "value": 84
    },
    {
-    "name": "Icarem",
-    "value": 82
+    "name": "halos34",
+    "value": 83
    },
    {
     "name": "flo578",
@@ -364,16 +364,16 @@
     "value": 45
    },
    {
+    "name": "Mr.Dino",
+    "value": 44
+   },
+   {
     "name": "Pporappippam",
     "value": 44
    },
    {
     "name": "andrew16a",
     "value": 43
-   },
-   {
-    "name": "Mr.Dino",
-    "value": 42
    },
    {
     "name": "alexandre-780",
@@ -385,7 +385,7 @@
    },
    {
     "name": "marinadrk",
-    "value": 24
+    "value": 26
    },
    {
     "name": "irysse",
