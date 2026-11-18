@@ -365,7 +365,7 @@
   "grade": null,
   "humeur": "",
   "pseudo": "Nuziak.",
-  "verifie": "2026-11-18T17:36:23+00:00"
+  "verifie": "2026-11-18T20:38:19+00:00"
  },
  "19656547": {
   "alertes": {},
@@ -509,7 +509,7 @@
   "grade": null,
   "humeur": "",
   "pseudo": "Scobar",
-  "verifie": "2026-11-18T17:38:19+00:00"
+  "verifie": "2026-11-18T20:38:19+00:00"
  },
  "21650059": {
   "alertes": {},
@@ -853,7 +853,7 @@
   "grade": null,
   "humeur": "Sasageyo",
   "pseudo": "J-F19",
-  "verifie": "2026-11-18T17:36:23+00:00"
+  "verifie": "2026-11-18T20:38:19+00:00"
  },
  "23988287": {
   "alertes": {},
@@ -1285,7 +1285,7 @@
   "grade": null,
   "humeur": "F.B.I » Analyste Confirmé #résilience",
   "pseudo": "Aeiko",
-  "verifie": "2026-11-18T17:38:19+00:00"
+  "verifie": "2026-11-18T20:38:19+00:00"
  },
  "24683784": {
   "alertes": {},
@@ -1325,7 +1325,7 @@
   "grade": "cadet",
   "humeur": "[PN] Cadet",
   "pseudo": "fym",
-  "verifie": "2026-11-18T17:38:19+00:00"
+  "verifie": "2026-11-18T20:38:19+00:00"
  },
  "24760638": {
   "alertes": {},
@@ -1429,7 +1429,7 @@
   "grade": null,
   "humeur": "Beegy pour les servir",
   "pseudo": "Guihan",
-  "verifie": "2026-11-18T17:36:23+00:00"
+  "verifie": "2026-11-18T20:38:19+00:00"
  },
  "24940767": {
   "alertes": {},
@@ -1453,7 +1453,7 @@
   "grade": null,
   "humeur": "dancin' in the dark",
   "pseudo": "Daenerys,",
-  "verifie": "2026-11-18T17:38:19+00:00"
+  "verifie": "2026-11-18T20:38:19+00:00"
  },
  "24949782": {
   "alertes": {},
@@ -1501,7 +1501,7 @@
   "grade": null,
   "humeur": "mon blaze, ta passion",
   "pseudo": "Freyga,",
-  "verifie": "2026-11-18T17:36:23+00:00"
+  "verifie": "2026-11-18T20:38:19+00:00"
  },
  "25102444": {
   "alertes": {},
@@ -1605,7 +1605,7 @@
   "grade": null,
   "humeur": ".",
   "pseudo": "Demba9380",
-  "verifie": "2026-11-18T17:36:23+00:00"
+  "verifie": "2026-11-18T20:38:19+00:00"
  },
  "25250898": {
   "alertes": {},
@@ -2311,13 +2311,21 @@
   "pseudo": "Proxymore",
   "verifie": "2026-11-18T18:32:18+00:00"
  },
+ "25846659": {
+  "alertes": {},
+  "depuis": null,
+  "grade": null,
+  "humeur": "",
+  "pseudo": "Stephanoise42.",
+  "verifie": "2026-11-18T20:38:19+00:00"
+ },
  "25847494": {
   "alertes": {},
   "depuis": null,
   "grade": null,
   "humeur": "444 |",
   "pseudo": "_TCHII",
-  "verifie": "2026-11-18T17:38:19+00:00"
+  "verifie": "2026-11-18T20:38:19+00:00"
  },
  "25848359": {
   "alertes": {},
@@ -2493,7 +2501,7 @@
   "grade": null,
   "humeur": "[C.I.A.] Haut-Gradé [148] #MissCIA2027",
   "pseudo": "Iness21",
-  "verifie": "2026-11-18T17:38:19+00:00"
+  "verifie": "2026-11-18T20:38:19+00:00"
  },
  "25899029": {
   "alertes": {},
@@ -2709,7 +2717,7 @@
   "grade": null,
   "humeur": "1998.",
   "pseudo": "anaelle_",
-  "verifie": "2026-11-18T17:36:23+00:00"
+  "verifie": "2026-11-18T20:38:19+00:00"
  },
  "25949295": {
   "alertes": {},
@@ -3181,7 +3189,7 @@
   "grade": null,
   "humeur": "[C.I.A.] Formateur [32]",
   "pseudo": "GhOst._",
-  "verifie": "2026-11-18T17:38:19+00:00"
+  "verifie": "2026-11-18T20:38:19+00:00"
  },
  "26009530": {
   "alertes": {},
@@ -3461,7 +3469,7 @@
   "grade": null,
   "humeur": "",
   "pseudo": "Geogeopdu87",
-  "verifie": "2026-11-18T17:36:23+00:00"
+  "verifie": "2026-11-18T20:38:19+00:00"
  },
  "26033997": {
   "alertes": {},
@@ -3621,7 +3629,7 @@
   "grade": null,
   "humeur": "",
   "pseudo": "Guincho",
-  "verifie": "2026-11-18T17:36:23+00:00"
+  "verifie": "2026-11-18T20:38:19+00:00"
  },
  "26041743": {
   "alertes": {},

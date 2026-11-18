@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T20:36:18+00:00",
+ "updated": "2026-11-18T20:38:19+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -203,7 +203,7 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 548
+    "value": 550
    },
    {
     "name": "fym",
@@ -211,7 +211,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 263
+    "value": 265
    },
    {
     "name": "Shizuku",
@@ -223,7 +223,7 @@
    },
    {
     "name": "marinadrk",
-    "value": 115
+    "value": 117
    },
    {
     "name": "Icarem",
@@ -234,12 +234,12 @@
     "value": 91
    },
    {
-    "name": "halos34",
-    "value": 83
+    "name": "Weavem",
+    "value": 84
    },
    {
-    "name": "Weavem",
-    "value": 82
+    "name": "halos34",
+    "value": 83
    },
    {
     "name": "flo578",
@@ -255,7 +255,7 @@
    },
    {
     "name": "habbo22t",
-    "value": 59
+    "value": 61
    },
    {
     "name": ".:Krustiz:.",
@@ -343,7 +343,7 @@
    },
    {
     "name": "charlie-XCX123",
-    "value": 3
+    "value": 5
    },
    {
     "name": "Piingouin.",
@@ -357,7 +357,7 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 548
+    "value": 550
    },
    {
     "name": "fym",
@@ -365,7 +365,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 263
+    "value": 265
    },
    {
     "name": "Shizuku",
@@ -377,7 +377,7 @@
    },
    {
     "name": "marinadrk",
-    "value": 115
+    "value": 117
    },
    {
     "name": "Icarem",
@@ -388,12 +388,12 @@
     "value": 91
    },
    {
-    "name": "halos34",
-    "value": 83
+    "name": "Weavem",
+    "value": 84
    },
    {
-    "name": "Weavem",
-    "value": 82
+    "name": "halos34",
+    "value": 83
    },
    {
     "name": "flo578",
@@ -409,7 +409,7 @@
    },
    {
     "name": "habbo22t",
-    "value": 59
+    "value": 61
    },
    {
     "name": ".:Krustiz:.",
@@ -497,7 +497,7 @@
    },
    {
     "name": "charlie-XCX123",
-    "value": 3
+    "value": 5
    },
    {
     "name": "Piingouin.",
