@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T20:26:18+00:00",
+ "updated": "2026-11-18T20:28:18+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -203,7 +203,7 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 540
+    "value": 541
    },
    {
     "name": "fym",
@@ -223,11 +223,11 @@
    },
    {
     "name": "marinadrk",
-    "value": 105
+    "value": 107
    },
    {
     "name": "Icarem",
-    "value": 96
+    "value": 98
    },
    {
     "name": "Lewddon",
@@ -242,16 +242,16 @@
     "value": 79
    },
    {
+    "name": "Weavem",
+    "value": 74
+   },
+   {
     "name": "-Tsukiri-",
     "value": 72
    },
    {
-    "name": "Weavem",
-    "value": 72
-   },
-   {
     "name": "Non-Non",
-    "value": 68
+    "value": 69
    },
    {
     "name": ".:Krustiz:.",
@@ -263,19 +263,19 @@
    },
    {
     "name": "habbo22t",
-    "value": 49
+    "value": 51
    },
    {
     "name": "Mr.Dino",
     "value": 47
    },
    {
-    "name": "Monsieur-RF",
-    "value": 45
+    "name": "Pporappippam",
+    "value": 46
    },
    {
-    "name": "Pporappippam",
-    "value": 44
+    "name": "Monsieur-RF",
+    "value": 45
    },
    {
     "name": "andrew16a",
@@ -326,6 +326,10 @@
     "value": 8
    },
    {
+    "name": "Astreu",
+    "value": 7
+   },
+   {
     "name": "Freminet",
     "value": 7
    },
@@ -336,10 +340,6 @@
    {
     "name": "Mixte",
     "value": 7
-   },
-   {
-    "name": "Astreu",
-    "value": 6
    },
    {
     "name": "Piingouin.",
@@ -353,7 +353,7 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 540
+    "value": 541
    },
    {
     "name": "fym",
@@ -373,11 +373,11 @@
    },
    {
     "name": "marinadrk",
-    "value": 105
+    "value": 107
    },
    {
     "name": "Icarem",
-    "value": 96
+    "value": 98
    },
    {
     "name": "Lewddon",
@@ -392,16 +392,16 @@
     "value": 79
    },
    {
+    "name": "Weavem",
+    "value": 74
+   },
+   {
     "name": "-Tsukiri-",
     "value": 72
    },
    {
-    "name": "Weavem",
-    "value": 72
-   },
-   {
     "name": "Non-Non",
-    "value": 68
+    "value": 69
    },
    {
     "name": ".:Krustiz:.",
@@ -413,19 +413,19 @@
    },
    {
     "name": "habbo22t",
-    "value": 49
+    "value": 51
    },
    {
     "name": "Mr.Dino",
     "value": 47
    },
    {
-    "name": "Monsieur-RF",
-    "value": 45
+    "name": "Pporappippam",
+    "value": 46
    },
    {
-    "name": "Pporappippam",
-    "value": 44
+    "name": "Monsieur-RF",
+    "value": 45
    },
    {
     "name": "andrew16a",
@@ -476,6 +476,10 @@
     "value": 8
    },
    {
+    "name": "Astreu",
+    "value": 7
+   },
+   {
     "name": "Freminet",
     "value": 7
    },
@@ -486,10 +490,6 @@
    {
     "name": "Mixte",
     "value": 7
-   },
-   {
-    "name": "Astreu",
-    "value": 6
    },
    {
     "name": "Piingouin.",
