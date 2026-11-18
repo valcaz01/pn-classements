@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T19:54:18+00:00",
+ "updated": "2026-11-18T19:56:18+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -195,11 +195,11 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 511
+    "value": 513
    },
    {
     "name": "fym",
-    "value": 412
+    "value": 414
    },
    {
     "name": "Pantheon_",
@@ -227,11 +227,11 @@
    },
    {
     "name": "Lewddon",
-    "value": 77
+    "value": 79
    },
    {
     "name": "marinadrk",
-    "value": 74
+    "value": 76
    },
    {
     "name": "-Tsukiri-",
@@ -258,6 +258,10 @@
     "value": 46
    },
    {
+    "name": "habbo22t",
+    "value": 45
+   },
+   {
     "name": "Monsieur-RF",
     "value": 45
    },
@@ -267,10 +271,6 @@
    },
    {
     "name": "andrew16a",
-    "value": 43
-   },
-   {
-    "name": "habbo22t",
     "value": 43
    },
    {
@@ -302,6 +302,10 @@
     "value": 9
    },
    {
+    "name": "Imondi",
+    "value": 8
+   },
+   {
     "name": "Freminet",
     "value": 7
    },
@@ -310,16 +314,12 @@
     "value": 7
    },
    {
-    "name": "Imondi",
+    "name": "-Oiseau",
     "value": 6
    },
    {
-    "name": "-Oiseau",
-    "value": 5
-   },
-   {
     "name": "YzEnRodeo",
-    "value": 4
+    "value": 6
    },
    {
     "name": "Piingouin.",
@@ -329,11 +329,11 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 511
+    "value": 513
    },
    {
     "name": "fym",
-    "value": 412
+    "value": 414
    },
    {
     "name": "Pantheon_",
@@ -361,11 +361,11 @@
    },
    {
     "name": "Lewddon",
-    "value": 77
+    "value": 79
    },
    {
     "name": "marinadrk",
-    "value": 74
+    "value": 76
    },
    {
     "name": "-Tsukiri-",
@@ -392,6 +392,10 @@
     "value": 46
    },
    {
+    "name": "habbo22t",
+    "value": 45
+   },
+   {
     "name": "Monsieur-RF",
     "value": 45
    },
@@ -401,10 +405,6 @@
    },
    {
     "name": "andrew16a",
-    "value": 43
-   },
-   {
-    "name": "habbo22t",
     "value": 43
    },
    {
@@ -436,6 +436,10 @@
     "value": 9
    },
    {
+    "name": "Imondi",
+    "value": 8
+   },
+   {
     "name": "Freminet",
     "value": 7
    },
@@ -444,16 +448,12 @@
     "value": 7
    },
    {
-    "name": "Imondi",
+    "name": "-Oiseau",
     "value": 6
    },
    {
-    "name": "-Oiseau",
-    "value": 5
-   },
-   {
     "name": "YzEnRodeo",
-    "value": 4
+    "value": 6
    },
    {
     "name": "Piingouin.",
