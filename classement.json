@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T04:48:16+00:00",
+ "updated": "2026-11-18T04:50:17+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -230,15 +230,15 @@
     "value": 32
    },
    {
+    "name": "Icarem",
+    "value": 22
+   },
+   {
     "name": "Sciel",
     "value": 22
    },
    {
     "name": "guest77145",
-    "value": 20
-   },
-   {
-    "name": "Icarem",
     "value": 20
    },
    {
@@ -340,15 +340,15 @@
     "value": 32
    },
    {
+    "name": "Icarem",
+    "value": 22
+   },
+   {
     "name": "Sciel",
     "value": 22
    },
    {
     "name": "guest77145",
-    "value": 20
-   },
-   {
-    "name": "Icarem",
     "value": 20
    },
    {
