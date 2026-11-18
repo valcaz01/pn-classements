@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-18T17:20:18+00:00",
+ "updated": "2026-11-18T17:22:18+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 15
+    "value": 16
    },
    {
     "name": "Icarem",
@@ -29,6 +29,14 @@
    },
    {
     "name": "halos34",
+    "value": 5
+   },
+   {
+    "name": ".:Krustiz:.",
+    "value": 4
+   },
+   {
+    "name": "irysse",
     "value": 4
    },
    {
@@ -38,10 +46,6 @@
    {
     "name": "Piingouin.",
     "value": 4
-   },
-   {
-    "name": ".:Krustiz:.",
-    "value": 3
    },
    {
     "name": "alexandre-780",
@@ -57,10 +61,6 @@
    },
    {
     "name": "guest77145",
-    "value": 3
-   },
-   {
-    "name": "irysse",
     "value": 3
    },
    {
@@ -99,7 +99,7 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 15
+    "value": 16
    },
    {
     "name": "Icarem",
@@ -123,6 +123,14 @@
    },
    {
     "name": "halos34",
+    "value": 5
+   },
+   {
+    "name": ".:Krustiz:.",
+    "value": 4
+   },
+   {
+    "name": "irysse",
     "value": 4
    },
    {
@@ -132,10 +140,6 @@
    {
     "name": "Piingouin.",
     "value": 4
-   },
-   {
-    "name": ".:Krustiz:.",
-    "value": 3
    },
    {
     "name": "alexandre-780",
@@ -151,10 +155,6 @@
    },
    {
     "name": "guest77145",
-    "value": 3
-   },
-   {
-    "name": "irysse",
     "value": 3
    },
    {
@@ -195,11 +195,11 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 436
+    "value": 437
    },
    {
     "name": "fym",
-    "value": 286
+    "value": 288
    },
    {
     "name": "Pantheon_",
@@ -211,7 +211,7 @@
    },
    {
     "name": "Lovepanda",
-    "value": 112
+    "value": 114
    },
    {
     "name": "flo578",
@@ -263,7 +263,7 @@
    },
    {
     "name": "alexandre-780",
-    "value": 24
+    "value": 26
    },
    {
     "name": "irysse",
@@ -286,11 +286,11 @@
     "value": 13
    },
    {
-    "name": "Alejandro721",
-    "value": 9
+    "name": "Pporappippam",
+    "value": 11
    },
    {
-    "name": "Pporappippam",
+    "name": "Alejandro721",
     "value": 9
    },
    {
@@ -309,11 +309,11 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 436
+    "value": 437
    },
    {
     "name": "fym",
-    "value": 286
+    "value": 288
    },
    {
     "name": "Pantheon_",
@@ -325,7 +325,7 @@
    },
    {
     "name": "Lovepanda",
-    "value": 112
+    "value": 114
    },
    {
     "name": "flo578",
@@ -377,7 +377,7 @@
    },
    {
     "name": "alexandre-780",
-    "value": 24
+    "value": 26
    },
    {
     "name": "irysse",
@@ -400,11 +400,11 @@
     "value": 13
    },
    {
-    "name": "Alejandro721",
-    "value": 9
+    "name": "Pporappippam",
+    "value": 11
    },
    {
-    "name": "Pporappippam",
+    "name": "Alejandro721",
     "value": 9
    },
    {
