@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T17:32:17+00:00",
+ "updated": "2026-11-18T17:34:17+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -195,11 +195,11 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 447
+    "value": 449
    },
    {
     "name": "fym",
-    "value": 297
+    "value": 299
    },
    {
     "name": "Pantheon_",
@@ -211,7 +211,7 @@
    },
    {
     "name": "Lovepanda",
-    "value": 121
+    "value": 123
    },
    {
     "name": "flo578",
@@ -266,16 +266,16 @@
     "value": 29
    },
    {
+    "name": "Pporappippam",
+    "value": 23
+   },
+   {
     "name": "irysse",
     "value": 22
    },
    {
     "name": "Sciel",
     "value": 22
-   },
-   {
-    "name": "Pporappippam",
-    "value": 21
    },
    {
     "name": "toussainthanae",
@@ -309,11 +309,11 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 447
+    "value": 449
    },
    {
     "name": "fym",
-    "value": 297
+    "value": 299
    },
    {
     "name": "Pantheon_",
@@ -325,7 +325,7 @@
    },
    {
     "name": "Lovepanda",
-    "value": 121
+    "value": 123
    },
    {
     "name": "flo578",
@@ -380,16 +380,16 @@
     "value": 29
    },
    {
+    "name": "Pporappippam",
+    "value": 23
+   },
+   {
     "name": "irysse",
     "value": 22
    },
    {
     "name": "Sciel",
     "value": 22
-   },
-   {
-    "name": "Pporappippam",
-    "value": 21
    },
    {
     "name": "toussainthanae",
