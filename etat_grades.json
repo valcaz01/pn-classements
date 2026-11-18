@@ -133,7 +133,7 @@
   "grade": null,
   "humeur": "[PN] Capitaine [Formation]",
   "pseudo": "flo578",
-  "verifie": "2026-11-17T22:56:14+00:00"
+  "verifie": "2026-11-18T01:56:16+00:00"
  },
  "16127110": {
   "alertes": {},
@@ -1414,6 +1414,14 @@
   "humeur": "[R.F] Infirmier expérimenté II [Imp]",
   "pseudo": "BigAlba",
   "verifie": "2026-11-17T23:32:15+00:00"
+ },
+ "25655370": {
+  "alertes": {},
+  "depuis": null,
+  "grade": null,
+  "humeur": "SOY",
+  "pseudo": "Hedge",
+  "verifie": "2026-11-18T01:56:16+00:00"
  },
  "25666777": {
   "alertes": {},
