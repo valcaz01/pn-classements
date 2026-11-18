@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T20:44:18+00:00",
+ "updated": "2026-11-18T20:46:18+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -16,12 +16,12 @@
     "value": 10
    },
    {
-    "name": "Shizuku",
+    "name": "halos34",
     "value": 8
    },
    {
-    "name": "halos34",
-    "value": 6
+    "name": "Shizuku",
+    "value": 8
    },
    {
     "name": "Lovepanda",
@@ -89,6 +89,10 @@
    },
    {
     "name": "-Tsukiri-",
+    "value": 1
+   },
+   {
+    "name": "charlie-XCX123",
     "value": 1
    },
    {
@@ -118,12 +122,12 @@
     "value": 10
    },
    {
-    "name": "Shizuku",
+    "name": "halos34",
     "value": 8
    },
    {
-    "name": "halos34",
-    "value": 6
+    "name": "Shizuku",
+    "value": 8
    },
    {
     "name": "Lovepanda",
@@ -194,6 +198,10 @@
     "value": 1
    },
    {
+    "name": "charlie-XCX123",
+    "value": 1
+   },
+   {
     "name": "OnlyOneGuest",
     "value": 1
    },
@@ -211,11 +219,11 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 554
+    "value": 556
    },
    {
     "name": "fym",
-    "value": 445
+    "value": 447
    },
    {
     "name": "Pantheon_",
@@ -227,11 +235,11 @@
    },
    {
     "name": "Lovepanda",
-    "value": 158
+    "value": 159
    },
    {
     "name": "marinadrk",
-    "value": 123
+    "value": 125
    },
    {
     "name": "Icarem",
@@ -263,7 +271,7 @@
    },
    {
     "name": "habbo22t",
-    "value": 64
+    "value": 66
    },
    {
     "name": ".:Krustiz:.",
@@ -314,16 +322,16 @@
     "value": 17
    },
    {
+    "name": "Astreu",
+    "value": 13
+   },
+   {
     "name": "-Oiseau",
     "value": 12
    },
    {
     "name": "YzEnRodeo",
     "value": 12
-   },
-   {
-    "name": "Astreu",
-    "value": 11
    },
    {
     "name": "Rock_2000",
@@ -365,11 +373,11 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 554
+    "value": 556
    },
    {
     "name": "fym",
-    "value": 445
+    "value": 447
    },
    {
     "name": "Pantheon_",
@@ -381,11 +389,11 @@
    },
    {
     "name": "Lovepanda",
-    "value": 158
+    "value": 159
    },
    {
     "name": "marinadrk",
-    "value": 123
+    "value": 125
    },
    {
     "name": "Icarem",
@@ -417,7 +425,7 @@
    },
    {
     "name": "habbo22t",
-    "value": 64
+    "value": 66
    },
    {
     "name": ".:Krustiz:.",
@@ -468,16 +476,16 @@
     "value": 17
    },
    {
+    "name": "Astreu",
+    "value": 13
+   },
+   {
     "name": "-Oiseau",
     "value": 12
    },
    {
     "name": "YzEnRodeo",
     "value": 12
-   },
-   {
-    "name": "Astreu",
-    "value": 11
    },
    {
     "name": "Rock_2000",
