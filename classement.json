@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T17:22:18+00:00",
+ "updated": "2026-11-18T17:24:18+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -20,6 +20,10 @@
     "value": 7
    },
    {
+    "name": "halos34",
+    "value": 6
+   },
+   {
     "name": "Lovepanda",
     "value": 6
    },
@@ -28,15 +32,11 @@
     "value": 6
    },
    {
-    "name": "halos34",
+    "name": "irysse",
     "value": 5
    },
    {
     "name": ".:Krustiz:.",
-    "value": 4
-   },
-   {
-    "name": "irysse",
     "value": 4
    },
    {
@@ -114,6 +114,10 @@
     "value": 7
    },
    {
+    "name": "halos34",
+    "value": 6
+   },
+   {
     "name": "Lovepanda",
     "value": 6
    },
@@ -122,15 +126,11 @@
     "value": 6
    },
    {
-    "name": "halos34",
+    "name": "irysse",
     "value": 5
    },
    {
     "name": ".:Krustiz:.",
-    "value": 4
-   },
-   {
-    "name": "irysse",
     "value": 4
    },
    {
@@ -195,11 +195,11 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 437
+    "value": 439
    },
    {
     "name": "fym",
-    "value": 288
+    "value": 290
    },
    {
     "name": "Pantheon_",
@@ -211,7 +211,7 @@
    },
    {
     "name": "Lovepanda",
-    "value": 114
+    "value": 116
    },
    {
     "name": "flo578",
@@ -263,7 +263,7 @@
    },
    {
     "name": "alexandre-780",
-    "value": 26
+    "value": 28
    },
    {
     "name": "irysse",
@@ -287,7 +287,7 @@
    },
    {
     "name": "Pporappippam",
-    "value": 11
+    "value": 13
    },
    {
     "name": "Alejandro721",
@@ -309,11 +309,11 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 437
+    "value": 439
    },
    {
     "name": "fym",
-    "value": 288
+    "value": 290
    },
    {
     "name": "Pantheon_",
@@ -325,7 +325,7 @@
    },
    {
     "name": "Lovepanda",
-    "value": 114
+    "value": 116
    },
    {
     "name": "flo578",
@@ -377,7 +377,7 @@
    },
    {
     "name": "alexandre-780",
-    "value": 26
+    "value": 28
    },
    {
     "name": "irysse",
@@ -401,7 +401,7 @@
    },
    {
     "name": "Pporappippam",
-    "value": 11
+    "value": 13
    },
    {
     "name": "Alejandro721",
