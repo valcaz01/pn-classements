@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T19:04:18+00:00",
+ "updated": "2026-11-18T19:06:18+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -215,7 +215,7 @@
    },
    {
     "name": "Icarem",
-    "value": 91
+    "value": 93
    },
    {
     "name": "halos34",
@@ -278,12 +278,12 @@
     "value": 22
    },
    {
-    "name": "Sciel",
+    "name": "Non-Non",
     "value": 22
    },
    {
-    "name": "Non-Non",
-    "value": 20
+    "name": "Sciel",
+    "value": 22
    },
    {
     "name": "toussainthanae",
@@ -329,7 +329,7 @@
    },
    {
     "name": "Icarem",
-    "value": 91
+    "value": 93
    },
    {
     "name": "halos34",
@@ -392,12 +392,12 @@
     "value": 22
    },
    {
-    "name": "Sciel",
+    "name": "Non-Non",
     "value": 22
    },
    {
-    "name": "Non-Non",
-    "value": 20
+    "name": "Sciel",
+    "value": 22
    },
    {
     "name": "toussainthanae",
