@@ -251,9 +251,9 @@
   "alertes": {},
   "depuis": null,
   "grade": null,
-  "humeur": "",
+  "humeur": "[PN] Recrue",
   "pseudo": "KC-73100",
-  "verifie": "2026-11-18T19:28:18+00:00"
+  "verifie": "2026-11-18T22:28:20+00:00"
  },
  "16799154": {
   "alertes": {},
@@ -3609,11 +3609,11 @@
  },
  "26030228": {
   "alertes": {},
-  "depuis": null,
-  "grade": null,
-  "humeur": "Ding-dong.",
+  "depuis": "2026-11-18T22:28:20+00:00",
+  "grade": "cadet",
+  "humeur": "[PN] Cadet",
   "pseudo": "-Oiseau",
-  "verifie": "2026-11-18T19:28:18+00:00"
+  "verifie": "2026-11-18T22:28:20+00:00"
  },
  "26031611": {
   "alertes": {},
@@ -3973,7 +3973,7 @@
   "grade": null,
   "humeur": "Je suis nouvelle :)",
   "pseudo": "louise.26",
-  "verifie": "2026-11-18T19:28:18+00:00"
+  "verifie": "2026-11-18T22:28:20+00:00"
  },
  "26042367": {
   "alertes": {},
