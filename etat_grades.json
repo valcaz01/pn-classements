@@ -429,7 +429,7 @@
   "grade": null,
   "humeur": "",
   "pseudo": "peksy",
-  "verifie": "2026-11-17T21:06:12+00:00"
+  "verifie": "2026-11-18T00:06:16+00:00"
  },
  "23386558": {
   "alertes": {},
@@ -1502,6 +1502,14 @@
   "humeur": "[PN] Recrue",
   "pseudo": "Lovepanda",
   "verifie": "2026-11-17T23:04:14+00:00"
+ },
+ "25783505": {
+  "alertes": {},
+  "depuis": null,
+  "grade": null,
+  "humeur": "[F.B.I] Analyste Expert",
+  "pseudo": "Gueks",
+  "verifie": "2026-11-18T00:06:16+00:00"
  },
  "25784766": {
   "alertes": {},
