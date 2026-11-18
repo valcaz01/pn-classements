@@ -1425,11 +1425,11 @@
  },
  "24897142": {
   "alertes": {},
-  "depuis": null,
-  "grade": null,
-  "humeur": "",
+  "depuis": "2026-11-18T22:18:20+00:00",
+  "grade": "cadet",
+  "humeur": "[PN] Cadette",
   "pseudo": "Astreu",
-  "verifie": "2026-11-18T19:18:18+00:00"
+  "verifie": "2026-11-18T22:18:20+00:00"
  },
  "24897575": {
   "alertes": {},
@@ -3005,7 +3005,7 @@
   "grade": null,
   "humeur": "[F.B.I] Analyste Qualifié",
   "pseudo": "FDJ-Rebanned",
-  "verifie": "2026-11-18T19:18:18+00:00"
+  "verifie": "2026-11-18T22:18:20+00:00"
  },
  "25973213": {
   "alertes": {},
