@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T21:10:18+00:00",
+ "updated": "2026-11-18T21:12:18+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -80,15 +80,15 @@
     "value": 3
    },
    {
+    "name": "Weavem",
+    "value": 3
+   },
+   {
     "name": "-Oiseau",
     "value": 2
    },
    {
     "name": "Proxymore",
-    "value": 2
-   },
-   {
-    "name": "Weavem",
     "value": 2
    },
    {
@@ -190,15 +190,15 @@
     "value": 3
    },
    {
+    "name": "Weavem",
+    "value": 3
+   },
+   {
     "name": "-Oiseau",
     "value": 2
    },
    {
     "name": "Proxymore",
-    "value": 2
-   },
-   {
-    "name": "Weavem",
     "value": 2
    },
    {
@@ -227,7 +227,7 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 573
+    "value": 575
    },
    {
     "name": "fym",
@@ -239,7 +239,7 @@
    },
    {
     "name": "Shizuku",
-    "value": 203
+    "value": 205
    },
    {
     "name": "Lovepanda",
@@ -251,7 +251,7 @@
    },
    {
     "name": "Lewddon",
-    "value": 111
+    "value": 112
    },
    {
     "name": "Icarem",
@@ -263,7 +263,7 @@
    },
    {
     "name": "halos34",
-    "value": 96
+    "value": 98
    },
    {
     "name": "flo578",
@@ -335,7 +335,7 @@
    },
    {
     "name": "charlie-XCX123",
-    "value": 13
+    "value": 14
    },
    {
     "name": "-Oiseau",
@@ -376,12 +376,16 @@
    {
     "name": "Piingouin.",
     "value": 2
+   },
+   {
+    "name": "Kaykay3208",
+    "value": 1
    }
   ],
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 573
+    "value": 575
    },
    {
     "name": "fym",
@@ -393,7 +397,7 @@
    },
    {
     "name": "Shizuku",
-    "value": 203
+    "value": 205
    },
    {
     "name": "Lovepanda",
@@ -405,7 +409,7 @@
    },
    {
     "name": "Lewddon",
-    "value": 111
+    "value": 112
    },
    {
     "name": "Icarem",
@@ -417,7 +421,7 @@
    },
    {
     "name": "halos34",
-    "value": 96
+    "value": 98
    },
    {
     "name": "flo578",
@@ -489,7 +493,7 @@
    },
    {
     "name": "charlie-XCX123",
-    "value": 13
+    "value": 14
    },
    {
     "name": "-Oiseau",
@@ -530,6 +534,10 @@
    {
     "name": "Piingouin.",
     "value": 2
+   },
+   {
+    "name": "Kaykay3208",
+    "value": 1
    }
   ]
  }
