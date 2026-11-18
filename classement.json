@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T11:18:16+00:00",
+ "updated": "2026-11-18T11:20:16+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -20,6 +20,10 @@
     "value": 5
    },
    {
+    "name": "Shizuku",
+    "value": 5
+   },
+   {
     "name": "halos34",
     "value": 4
    },
@@ -29,10 +33,6 @@
    },
    {
     "name": "Piingouin.",
-    "value": 4
-   },
-   {
-    "name": "Shizuku",
     "value": 4
    },
    {
@@ -110,6 +110,10 @@
     "value": 5
    },
    {
+    "name": "Shizuku",
+    "value": 5
+   },
+   {
     "name": "halos34",
     "value": 4
    },
@@ -119,10 +123,6 @@
    },
    {
     "name": "Piingouin.",
-    "value": 4
-   },
-   {
-    "name": "Shizuku",
     "value": 4
    },
    {
@@ -214,12 +214,12 @@
     "value": 66
    },
    {
-    "name": "Weavem",
+    "name": "Icarem",
     "value": 57
    },
    {
-    "name": "Icarem",
-    "value": 56
+    "name": "Weavem",
+    "value": 57
    },
    {
     "name": "-Tsukiri-",
@@ -328,12 +328,12 @@
     "value": 66
    },
    {
-    "name": "Weavem",
+    "name": "Icarem",
     "value": 57
    },
    {
-    "name": "Icarem",
-    "value": 56
+    "name": "Weavem",
+    "value": 57
    },
    {
     "name": "-Tsukiri-",
