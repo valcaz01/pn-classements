@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-18T16:50:18+00:00",
+ "updated": "2026-11-18T16:52:18+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 14
+    "value": 15
    },
    {
     "name": "Icarem",
@@ -38,6 +38,10 @@
    {
     "name": "Piingouin.",
     "value": 4
+   },
+   {
+    "name": ".:Krustiz:.",
+    "value": 3
    },
    {
     "name": "alexandre-780",
@@ -74,10 +78,6 @@
    {
     "name": "Sciel",
     "value": 3
-   },
-   {
-    "name": ".:Krustiz:.",
-    "value": 2
    },
    {
     "name": "-Tsukiri-",
@@ -99,7 +99,7 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 14
+    "value": 15
    },
    {
     "name": "Icarem",
@@ -132,6 +132,10 @@
    {
     "name": "Piingouin.",
     "value": 4
+   },
+   {
+    "name": ".:Krustiz:.",
+    "value": 3
    },
    {
     "name": "alexandre-780",
@@ -168,10 +172,6 @@
    {
     "name": "Sciel",
     "value": 3
-   },
-   {
-    "name": ".:Krustiz:.",
-    "value": 2
    },
    {
     "name": "-Tsukiri-",
@@ -195,11 +195,11 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 431
+    "value": 432
    },
    {
     "name": "fym",
-    "value": 272
+    "value": 274
    },
    {
     "name": "Pantheon_",
@@ -309,11 +309,11 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 431
+    "value": 432
    },
    {
     "name": "fym",
-    "value": 272
+    "value": 274
    },
    {
     "name": "Pantheon_",
