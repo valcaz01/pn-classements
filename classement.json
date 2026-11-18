@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-18T15:22:17+00:00",
+ "updated": "2026-11-18T15:24:17+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 11
+    "value": 13
    },
    {
     "name": "Icarem",
@@ -22,6 +22,10 @@
    {
     "name": "sami75.19",
     "value": 6
+   },
+   {
+    "name": "Lovepanda",
+    "value": 5
    },
    {
     "name": "halos34",
@@ -57,10 +61,6 @@
    },
    {
     "name": "Lewddon",
-    "value": 3
-   },
-   {
-    "name": "Lovepanda",
     "value": 3
    },
    {
@@ -99,7 +99,7 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 11
+    "value": 13
    },
    {
     "name": "Icarem",
@@ -116,6 +116,10 @@
    {
     "name": "sami75.19",
     "value": 6
+   },
+   {
+    "name": "Lovepanda",
+    "value": 5
    },
    {
     "name": "halos34",
@@ -151,10 +155,6 @@
    },
    {
     "name": "Lewddon",
-    "value": 3
-   },
-   {
-    "name": "Lovepanda",
     "value": 3
    },
    {
@@ -203,11 +203,11 @@
    },
    {
     "name": "Pantheon_",
-    "value": 155
+    "value": 157
    },
    {
     "name": "Shizuku",
-    "value": 153
+    "value": 155
    },
    {
     "name": "flo578",
@@ -266,12 +266,12 @@
     "value": 21
    },
    {
-    "name": "toussainthanae",
-    "value": 17
+    "name": ".:Krustiz:.",
+    "value": 18
    },
    {
-    "name": ".:Krustiz:.",
-    "value": 16
+    "name": "toussainthanae",
+    "value": 17
    },
    {
     "name": "irysse",
@@ -317,11 +317,11 @@
    },
    {
     "name": "Pantheon_",
-    "value": 155
+    "value": 157
    },
    {
     "name": "Shizuku",
-    "value": 153
+    "value": 155
    },
    {
     "name": "flo578",
@@ -380,12 +380,12 @@
     "value": 21
    },
    {
-    "name": "toussainthanae",
-    "value": 17
+    "name": ".:Krustiz:.",
+    "value": 18
    },
    {
-    "name": ".:Krustiz:.",
-    "value": 16
+    "name": "toussainthanae",
+    "value": 17
    },
    {
     "name": "irysse",
