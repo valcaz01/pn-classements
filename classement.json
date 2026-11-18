@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T20:04:19+00:00",
+ "updated": "2026-11-18T20:06:19+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -195,11 +195,11 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 520
+    "value": 522
    },
    {
     "name": "fym",
-    "value": 422
+    "value": 424
    },
    {
     "name": "Pantheon_",
@@ -218,12 +218,12 @@
     "value": 95
    },
    {
-    "name": "Lewddon",
-    "value": 84
+    "name": "marinadrk",
+    "value": 86
    },
    {
-    "name": "marinadrk",
-    "value": 84
+    "name": "Lewddon",
+    "value": 85
    },
    {
     "name": "halos34",
@@ -251,7 +251,7 @@
    },
    {
     "name": "Non-Non",
-    "value": 51
+    "value": 53
    },
    {
     "name": "Mr.Dino",
@@ -326,22 +326,22 @@
     "value": 7
    },
    {
-    "name": "Piingouin.",
-    "value": 2
+    "name": "Rock_2000",
+    "value": 3
    },
    {
-    "name": "Rock_2000",
+    "name": "Piingouin.",
     "value": 2
    }
   ],
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 520
+    "value": 522
    },
    {
     "name": "fym",
-    "value": 422
+    "value": 424
    },
    {
     "name": "Pantheon_",
@@ -360,12 +360,12 @@
     "value": 95
    },
    {
-    "name": "Lewddon",
-    "value": 84
+    "name": "marinadrk",
+    "value": 86
    },
    {
-    "name": "marinadrk",
-    "value": 84
+    "name": "Lewddon",
+    "value": 85
    },
    {
     "name": "halos34",
@@ -393,7 +393,7 @@
    },
    {
     "name": "Non-Non",
-    "value": 51
+    "value": 53
    },
    {
     "name": "Mr.Dino",
@@ -468,11 +468,11 @@
     "value": 7
    },
    {
-    "name": "Piingouin.",
-    "value": 2
+    "name": "Rock_2000",
+    "value": 3
    },
    {
-    "name": "Rock_2000",
+    "name": "Piingouin.",
     "value": 2
    }
   ]
