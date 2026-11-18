@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T08:28:16+00:00",
+ "updated": "2026-11-18T08:30:17+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -56,6 +56,10 @@
     "value": 3
    },
    {
+    "name": "Non-Non",
+    "value": 3
+   },
+   {
     "name": "Sciel",
     "value": 3
    },
@@ -69,10 +73,6 @@
    },
    {
     "name": ".:Krustiz:.",
-    "value": 1
-   },
-   {
-    "name": "Non-Non",
     "value": 1
    },
    {
@@ -142,6 +142,10 @@
     "value": 3
    },
    {
+    "name": "Non-Non",
+    "value": 3
+   },
+   {
     "name": "Sciel",
     "value": 3
    },
@@ -155,10 +159,6 @@
    },
    {
     "name": ".:Krustiz:.",
-    "value": 1
-   },
-   {
-    "name": "Non-Non",
     "value": 1
    },
    {
@@ -191,7 +191,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 82
+    "value": 84
    },
    {
     "name": "flo578",
@@ -231,7 +231,7 @@
    },
    {
     "name": "-Tsukiri-",
-    "value": 33
+    "value": 35
    },
    {
     "name": "Mr.Dino",
@@ -301,7 +301,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 82
+    "value": 84
    },
    {
     "name": "flo578",
@@ -341,7 +341,7 @@
    },
    {
     "name": "-Tsukiri-",
-    "value": 33
+    "value": 35
    },
    {
     "name": "Mr.Dino",
