@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T19:20:17+00:00",
+ "updated": "2026-11-18T19:22:17+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -199,11 +199,11 @@
    },
    {
     "name": "fym",
-    "value": 381
+    "value": 383
    },
    {
     "name": "Pantheon_",
-    "value": 245
+    "value": 246
    },
    {
     "name": "Shizuku",
@@ -271,7 +271,7 @@
    },
    {
     "name": "Non-Non",
-    "value": 36
+    "value": 38
    },
    {
     "name": "guest77145",
@@ -291,11 +291,11 @@
    },
    {
     "name": "habbo22t",
-    "value": 13
+    "value": 15
    },
    {
     "name": "pititchatoncute",
-    "value": 12
+    "value": 14
    },
    {
     "name": "Alejandro721",
@@ -306,12 +306,12 @@
     "value": 7
    },
    {
-    "name": "Piingouin.",
-    "value": 2
+    "name": "Mixte",
+    "value": 3
    },
    {
-    "name": "Mixte",
-    "value": 1
+    "name": "Piingouin.",
+    "value": 2
    }
   ],
   "week": [
@@ -321,11 +321,11 @@
    },
    {
     "name": "fym",
-    "value": 381
+    "value": 383
    },
    {
     "name": "Pantheon_",
-    "value": 245
+    "value": 246
    },
    {
     "name": "Shizuku",
@@ -393,7 +393,7 @@
    },
    {
     "name": "Non-Non",
-    "value": 36
+    "value": 38
    },
    {
     "name": "guest77145",
@@ -413,11 +413,11 @@
    },
    {
     "name": "habbo22t",
-    "value": 13
+    "value": 15
    },
    {
     "name": "pititchatoncute",
-    "value": 12
+    "value": 14
    },
    {
     "name": "Alejandro721",
@@ -428,12 +428,12 @@
     "value": 7
    },
    {
-    "name": "Piingouin.",
-    "value": 2
+    "name": "Mixte",
+    "value": 3
    },
    {
-    "name": "Mixte",
-    "value": 1
+    "name": "Piingouin.",
+    "value": 2
    }
   ]
  }
