@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T21:04:18+00:00",
+ "updated": "2026-11-18T21:06:17+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -219,7 +219,7 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 567
+    "value": 569
    },
    {
     "name": "fym",
@@ -231,19 +231,19 @@
    },
    {
     "name": "Shizuku",
-    "value": 198
+    "value": 199
    },
    {
     "name": "Lovepanda",
-    "value": 169
+    "value": 170
    },
    {
     "name": "marinadrk",
-    "value": 142
+    "value": 144
    },
    {
     "name": "Lewddon",
-    "value": 105
+    "value": 107
    },
    {
     "name": "Icarem",
@@ -251,11 +251,11 @@
    },
    {
     "name": "Weavem",
-    "value": 96
+    "value": 98
    },
    {
     "name": "halos34",
-    "value": 91
+    "value": 93
    },
    {
     "name": "flo578",
@@ -338,11 +338,15 @@
     "value": 11
    },
    {
+    "name": "charlie-XCX123",
+    "value": 10
+   },
+   {
     "name": "Alejandro721",
     "value": 9
    },
    {
-    "name": "charlie-XCX123",
+    "name": "habbo-160-3",
     "value": 9
    },
    {
@@ -351,10 +355,6 @@
    },
    {
     "name": "Freminet",
-    "value": 7
-   },
-   {
-    "name": "habbo-160-3",
     "value": 7
    },
    {
@@ -373,7 +373,7 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 567
+    "value": 569
    },
    {
     "name": "fym",
@@ -385,19 +385,19 @@
    },
    {
     "name": "Shizuku",
-    "value": 198
+    "value": 199
    },
    {
     "name": "Lovepanda",
-    "value": 169
+    "value": 170
    },
    {
     "name": "marinadrk",
-    "value": 142
+    "value": 144
    },
    {
     "name": "Lewddon",
-    "value": 105
+    "value": 107
    },
    {
     "name": "Icarem",
@@ -405,11 +405,11 @@
    },
    {
     "name": "Weavem",
-    "value": 96
+    "value": 98
    },
    {
     "name": "halos34",
-    "value": 91
+    "value": 93
    },
    {
     "name": "flo578",
@@ -492,11 +492,15 @@
     "value": 11
    },
    {
+    "name": "charlie-XCX123",
+    "value": 10
+   },
+   {
     "name": "Alejandro721",
     "value": 9
    },
    {
-    "name": "charlie-XCX123",
+    "name": "habbo-160-3",
     "value": 9
    },
    {
@@ -505,10 +509,6 @@
    },
    {
     "name": "Freminet",
-    "value": 7
-   },
-   {
-    "name": "habbo-160-3",
     "value": 7
    },
    {
