@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T11:16:16+00:00",
+ "updated": "2026-11-18T11:18:16+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -16,6 +16,10 @@
     "value": 6
    },
    {
+    "name": "sami75.19",
+    "value": 5
+   },
+   {
     "name": "halos34",
     "value": 4
    },
@@ -25,10 +29,6 @@
    },
    {
     "name": "Piingouin.",
-    "value": 4
-   },
-   {
-    "name": "sami75.19",
     "value": 4
    },
    {
@@ -106,6 +106,10 @@
     "value": 6
    },
    {
+    "name": "sami75.19",
+    "value": 5
+   },
+   {
     "name": "halos34",
     "value": 4
    },
@@ -115,10 +119,6 @@
    },
    {
     "name": "Piingouin.",
-    "value": 4
-   },
-   {
-    "name": "sami75.19",
     "value": 4
    },
    {
@@ -219,7 +219,7 @@
    },
    {
     "name": "Icarem",
-    "value": 55
+    "value": 56
    },
    {
     "name": "-Tsukiri-",
@@ -333,7 +333,7 @@
    },
    {
     "name": "Icarem",
-    "value": 55
+    "value": 56
    },
    {
     "name": "-Tsukiri-",
