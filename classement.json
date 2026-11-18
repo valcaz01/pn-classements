@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T17:16:18+00:00",
+ "updated": "2026-11-18T17:18:18+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -199,7 +199,7 @@
    },
    {
     "name": "fym",
-    "value": 282
+    "value": 284
    },
    {
     "name": "Pantheon_",
@@ -262,16 +262,16 @@
     "value": 29
    },
    {
+    "name": "alexandre-780",
+    "value": 22
+   },
+   {
     "name": "irysse",
     "value": 22
    },
    {
     "name": "Sciel",
     "value": 22
-   },
-   {
-    "name": "alexandre-780",
-    "value": 21
    },
    {
     "name": "toussainthanae",
@@ -313,7 +313,7 @@
    },
    {
     "name": "fym",
-    "value": 282
+    "value": 284
    },
    {
     "name": "Pantheon_",
@@ -376,16 +376,16 @@
     "value": 29
    },
    {
+    "name": "alexandre-780",
+    "value": 22
+   },
+   {
     "name": "irysse",
     "value": 22
    },
    {
     "name": "Sciel",
     "value": 22
-   },
-   {
-    "name": "alexandre-780",
-    "value": 21
    },
    {
     "name": "toussainthanae",
