@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T22:08:20+00:00",
+ "updated": "2026-11-18T22:10:19+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -60,6 +60,10 @@
     "value": 5
    },
    {
+    "name": "charlie-XCX123",
+    "value": 4
+   },
+   {
     "name": "Non-Non",
     "value": 4
    },
@@ -69,10 +73,6 @@
    },
    {
     "name": "alexandre-780",
-    "value": 3
-   },
-   {
-    "name": "charlie-XCX123",
     "value": 3
    },
    {
@@ -174,6 +174,10 @@
     "value": 5
    },
    {
+    "name": "charlie-XCX123",
+    "value": 4
+   },
+   {
     "name": "Non-Non",
     "value": 4
    },
@@ -183,10 +187,6 @@
    },
    {
     "name": "alexandre-780",
-    "value": 3
-   },
-   {
-    "name": "charlie-XCX123",
     "value": 3
    },
    {
@@ -235,11 +235,11 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 619
+    "value": 621
    },
    {
     "name": "fym",
-    "value": 462
+    "value": 464
    },
    {
     "name": "Pantheon_",
@@ -263,7 +263,7 @@
    },
    {
     "name": "halos34",
-    "value": 108
+    "value": 110
    },
    {
     "name": "Icarem",
@@ -286,12 +286,12 @@
     "value": 72
    },
    {
-    "name": "Non-Non",
+    "name": "andrew16a",
     "value": 72
    },
    {
-    "name": "andrew16a",
-    "value": 70
+    "name": "Non-Non",
+    "value": 72
    },
    {
     "name": ".:Krustiz:.",
@@ -393,11 +393,11 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 619
+    "value": 621
    },
    {
     "name": "fym",
-    "value": 462
+    "value": 464
    },
    {
     "name": "Pantheon_",
@@ -421,7 +421,7 @@
    },
    {
     "name": "halos34",
-    "value": 108
+    "value": 110
    },
    {
     "name": "Icarem",
@@ -444,12 +444,12 @@
     "value": 72
    },
    {
-    "name": "Non-Non",
+    "name": "andrew16a",
     "value": 72
    },
    {
-    "name": "andrew16a",
-    "value": 70
+    "name": "Non-Non",
+    "value": 72
    },
    {
     "name": ".:Krustiz:.",
