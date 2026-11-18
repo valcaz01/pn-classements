@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T19:18:18+00:00",
+ "updated": "2026-11-18T19:20:17+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -199,11 +199,11 @@
    },
    {
     "name": "fym",
-    "value": 379
+    "value": 381
    },
    {
     "name": "Pantheon_",
-    "value": 244
+    "value": 245
    },
    {
     "name": "Shizuku",
@@ -231,7 +231,7 @@
    },
    {
     "name": "Weavem",
-    "value": 66
+    "value": 68
    },
    {
     "name": "marinadrk",
@@ -271,7 +271,7 @@
    },
    {
     "name": "Non-Non",
-    "value": 34
+    "value": 36
    },
    {
     "name": "guest77145",
@@ -291,11 +291,11 @@
    },
    {
     "name": "habbo22t",
-    "value": 11
+    "value": 13
    },
    {
     "name": "pititchatoncute",
-    "value": 10
+    "value": 12
    },
    {
     "name": "Alejandro721",
@@ -308,6 +308,10 @@
    {
     "name": "Piingouin.",
     "value": 2
+   },
+   {
+    "name": "Mixte",
+    "value": 1
    }
   ],
   "week": [
@@ -317,11 +321,11 @@
    },
    {
     "name": "fym",
-    "value": 379
+    "value": 381
    },
    {
     "name": "Pantheon_",
-    "value": 244
+    "value": 245
    },
    {
     "name": "Shizuku",
@@ -349,7 +353,7 @@
    },
    {
     "name": "Weavem",
-    "value": 66
+    "value": 68
    },
    {
     "name": "marinadrk",
@@ -389,7 +393,7 @@
    },
    {
     "name": "Non-Non",
-    "value": 34
+    "value": 36
    },
    {
     "name": "guest77145",
@@ -409,11 +413,11 @@
    },
    {
     "name": "habbo22t",
-    "value": 11
+    "value": 13
    },
    {
     "name": "pititchatoncute",
-    "value": 10
+    "value": 12
    },
    {
     "name": "Alejandro721",
@@ -426,6 +430,10 @@
    {
     "name": "Piingouin.",
     "value": 2
+   },
+   {
+    "name": "Mixte",
+    "value": 1
    }
   ]
  }
