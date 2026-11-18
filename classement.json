@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T21:12:18+00:00",
+ "updated": "2026-11-18T21:14:17+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -227,7 +227,7 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 575
+    "value": 577
    },
    {
     "name": "fym",
@@ -239,7 +239,7 @@
    },
    {
     "name": "Shizuku",
-    "value": 205
+    "value": 207
    },
    {
     "name": "Lovepanda",
@@ -251,7 +251,7 @@
    },
    {
     "name": "Lewddon",
-    "value": 112
+    "value": 114
    },
    {
     "name": "Icarem",
@@ -259,11 +259,11 @@
    },
    {
     "name": "Weavem",
-    "value": 100
+    "value": 102
    },
    {
     "name": "halos34",
-    "value": 98
+    "value": 99
    },
    {
     "name": "flo578",
@@ -335,7 +335,7 @@
    },
    {
     "name": "charlie-XCX123",
-    "value": 14
+    "value": 16
    },
    {
     "name": "-Oiseau",
@@ -374,18 +374,18 @@
     "value": 7
    },
    {
-    "name": "Piingouin.",
+    "name": "Kaykay3208",
     "value": 2
    },
    {
-    "name": "Kaykay3208",
-    "value": 1
+    "name": "Piingouin.",
+    "value": 2
    }
   ],
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 575
+    "value": 577
    },
    {
     "name": "fym",
@@ -397,7 +397,7 @@
    },
    {
     "name": "Shizuku",
-    "value": 205
+    "value": 207
    },
    {
     "name": "Lovepanda",
@@ -409,7 +409,7 @@
    },
    {
     "name": "Lewddon",
-    "value": 112
+    "value": 114
    },
    {
     "name": "Icarem",
@@ -417,11 +417,11 @@
    },
    {
     "name": "Weavem",
-    "value": 100
+    "value": 102
    },
    {
     "name": "halos34",
-    "value": 98
+    "value": 99
    },
    {
     "name": "flo578",
@@ -493,7 +493,7 @@
    },
    {
     "name": "charlie-XCX123",
-    "value": 14
+    "value": 16
    },
    {
     "name": "-Oiseau",
@@ -532,12 +532,12 @@
     "value": 7
    },
    {
-    "name": "Piingouin.",
+    "name": "Kaykay3208",
     "value": 2
    },
    {
-    "name": "Kaykay3208",
-    "value": 1
+    "name": "Piingouin.",
+    "value": 2
    }
   ]
  }
