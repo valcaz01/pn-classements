@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T19:06:18+00:00",
+ "updated": "2026-11-18T19:08:18+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -199,11 +199,11 @@
    },
    {
     "name": "fym",
-    "value": 369
+    "value": 370
    },
    {
     "name": "Pantheon_",
-    "value": 236
+    "value": 238
    },
    {
     "name": "Shizuku",
@@ -215,7 +215,7 @@
    },
    {
     "name": "Icarem",
-    "value": 93
+    "value": 95
    },
    {
     "name": "halos34",
@@ -274,11 +274,11 @@
     "value": 29
    },
    {
-    "name": "irysse",
-    "value": 22
+    "name": "Non-Non",
+    "value": 24
    },
    {
-    "name": "Non-Non",
+    "name": "irysse",
     "value": 22
    },
    {
@@ -300,6 +300,10 @@
    {
     "name": "Freminet",
     "value": 7
+   },
+   {
+    "name": "habbo22t",
+    "value": 2
    },
    {
     "name": "Piingouin.",
@@ -313,11 +317,11 @@
    },
    {
     "name": "fym",
-    "value": 369
+    "value": 370
    },
    {
     "name": "Pantheon_",
-    "value": 236
+    "value": 238
    },
    {
     "name": "Shizuku",
@@ -329,7 +333,7 @@
    },
    {
     "name": "Icarem",
-    "value": 93
+    "value": 95
    },
    {
     "name": "halos34",
@@ -388,11 +392,11 @@
     "value": 29
    },
    {
-    "name": "irysse",
-    "value": 22
+    "name": "Non-Non",
+    "value": 24
    },
    {
-    "name": "Non-Non",
+    "name": "irysse",
     "value": 22
    },
    {
@@ -414,6 +418,10 @@
    {
     "name": "Freminet",
     "value": 7
+   },
+   {
+    "name": "habbo22t",
+    "value": 2
    },
    {
     "name": "Piingouin.",
