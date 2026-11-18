@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T19:58:18+00:00",
+ "updated": "2026-11-18T20:00:18+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -36,6 +36,10 @@
     "value": 5
    },
    {
+    "name": "Lewddon",
+    "value": 5
+   },
+   {
     "name": ".:Krustiz:.",
     "value": 4
    },
@@ -65,10 +69,6 @@
    },
    {
     "name": "guest77145",
-    "value": 3
-   },
-   {
-    "name": "Lewddon",
     "value": 3
    },
    {
@@ -130,6 +130,10 @@
     "value": 5
    },
    {
+    "name": "Lewddon",
+    "value": 5
+   },
+   {
     "name": ".:Krustiz:.",
     "value": 4
    },
@@ -159,10 +163,6 @@
    },
    {
     "name": "guest77145",
-    "value": 3
-   },
-   {
-    "name": "Lewddon",
     "value": 3
    },
    {
@@ -195,11 +195,11 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 515
+    "value": 516
    },
    {
     "name": "fym",
-    "value": 416
+    "value": 418
    },
    {
     "name": "Pantheon_",
@@ -226,12 +226,12 @@
     "value": 80
    },
    {
-    "name": "flo578",
-    "value": 79
+    "name": "marinadrk",
+    "value": 80
    },
    {
-    "name": "marinadrk",
-    "value": 78
+    "name": "flo578",
+    "value": 79
    },
    {
     "name": "-Tsukiri-",
@@ -255,7 +255,7 @@
    },
    {
     "name": "Non-Non",
-    "value": 46
+    "value": 47
    },
    {
     "name": "habbo22t",
@@ -298,6 +298,10 @@
     "value": 17
    },
    {
+    "name": "YzEnRodeo",
+    "value": 10
+   },
+   {
     "name": "Alejandro721",
     "value": 9
    },
@@ -310,10 +314,6 @@
     "value": 8
    },
    {
-    "name": "YzEnRodeo",
-    "value": 8
-   },
-   {
     "name": "Freminet",
     "value": 7
    },
@@ -322,22 +322,22 @@
     "value": 7
    },
    {
-    "name": "Piingouin.",
-    "value": 2
+    "name": "KC-73100",
+    "value": 3
    },
    {
-    "name": "KC-73100",
-    "value": 1
+    "name": "Piingouin.",
+    "value": 2
    }
   ],
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 515
+    "value": 516
    },
    {
     "name": "fym",
-    "value": 416
+    "value": 418
    },
    {
     "name": "Pantheon_",
@@ -364,12 +364,12 @@
     "value": 80
    },
    {
-    "name": "flo578",
-    "value": 79
+    "name": "marinadrk",
+    "value": 80
    },
    {
-    "name": "marinadrk",
-    "value": 78
+    "name": "flo578",
+    "value": 79
    },
    {
     "name": "-Tsukiri-",
@@ -393,7 +393,7 @@
    },
    {
     "name": "Non-Non",
-    "value": 46
+    "value": 47
    },
    {
     "name": "habbo22t",
@@ -436,6 +436,10 @@
     "value": 17
    },
    {
+    "name": "YzEnRodeo",
+    "value": 10
+   },
+   {
     "name": "Alejandro721",
     "value": 9
    },
@@ -448,10 +452,6 @@
     "value": 8
    },
    {
-    "name": "YzEnRodeo",
-    "value": 8
-   },
-   {
     "name": "Freminet",
     "value": 7
    },
@@ -460,12 +460,12 @@
     "value": 7
    },
    {
-    "name": "Piingouin.",
-    "value": 2
+    "name": "KC-73100",
+    "value": 3
    },
    {
-    "name": "KC-73100",
-    "value": 1
+    "name": "Piingouin.",
+    "value": 2
    }
   ]
  }
