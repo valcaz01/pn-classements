@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T21:08:18+00:00",
+ "updated": "2026-11-18T21:10:18+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -25,7 +25,7 @@
    },
    {
     "name": "Lovepanda",
-    "value": 6
+    "value": 7
    },
    {
     "name": "sami75.19",
@@ -97,6 +97,10 @@
    },
    {
     "name": "charlie-XCX123",
+    "value": 1
+   },
+   {
+    "name": "Kaykay3208",
     "value": 1
    },
    {
@@ -131,7 +135,7 @@
    },
    {
     "name": "Lovepanda",
-    "value": 6
+    "value": 7
    },
    {
     "name": "sami75.19",
@@ -206,6 +210,10 @@
     "value": 1
    },
    {
+    "name": "Kaykay3208",
+    "value": 1
+   },
+   {
     "name": "OnlyOneGuest",
     "value": 1
    },
@@ -219,7 +227,7 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 571
+    "value": 573
    },
    {
     "name": "fym",
@@ -231,7 +239,7 @@
    },
    {
     "name": "Shizuku",
-    "value": 201
+    "value": 203
    },
    {
     "name": "Lovepanda",
@@ -243,7 +251,7 @@
    },
    {
     "name": "Lewddon",
-    "value": 109
+    "value": 111
    },
    {
     "name": "Icarem",
@@ -255,7 +263,7 @@
    },
    {
     "name": "halos34",
-    "value": 94
+    "value": 96
    },
    {
     "name": "flo578",
@@ -326,20 +334,20 @@
     "value": 17
    },
    {
+    "name": "charlie-XCX123",
+    "value": 13
+   },
+   {
     "name": "-Oiseau",
     "value": 12
    },
    {
-    "name": "charlie-XCX123",
+    "name": "habbo-160-3",
     "value": 12
    },
    {
     "name": "YzEnRodeo",
     "value": 12
-   },
-   {
-    "name": "habbo-160-3",
-    "value": 11
    },
    {
     "name": "Rock_2000",
@@ -373,7 +381,7 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 571
+    "value": 573
    },
    {
     "name": "fym",
@@ -385,7 +393,7 @@
    },
    {
     "name": "Shizuku",
-    "value": 201
+    "value": 203
    },
    {
     "name": "Lovepanda",
@@ -397,7 +405,7 @@
    },
    {
     "name": "Lewddon",
-    "value": 109
+    "value": 111
    },
    {
     "name": "Icarem",
@@ -409,7 +417,7 @@
    },
    {
     "name": "halos34",
-    "value": 94
+    "value": 96
    },
    {
     "name": "flo578",
@@ -480,20 +488,20 @@
     "value": 17
    },
    {
+    "name": "charlie-XCX123",
+    "value": 13
+   },
+   {
     "name": "-Oiseau",
     "value": 12
    },
    {
-    "name": "charlie-XCX123",
+    "name": "habbo-160-3",
     "value": 12
    },
    {
     "name": "YzEnRodeo",
     "value": 12
-   },
-   {
-    "name": "habbo-160-3",
-    "value": 11
    },
    {
     "name": "Rock_2000",
