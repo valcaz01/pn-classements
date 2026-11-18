@@ -173,7 +173,7 @@
   "grade": null,
   "humeur": "[R.F] Générale",
   "pseudo": "starlight22",
-  "verifie": "2026-11-18T20:30:18+00:00"
+  "verifie": "2026-11-18T23:30:19+00:00"
  },
  "15015810": {
   "alertes": {},
@@ -535,6 +535,14 @@
   "pseudo": "F2o",
   "verifie": "2026-11-18T21:38:18+00:00"
  },
+ "21465661": {
+  "alertes": {},
+  "depuis": null,
+  "grade": null,
+  "humeur": "[C.I.A.] Référent",
+  "pseudo": "SMPSHomer",
+  "verifie": "2026-11-18T23:30:19+00:00"
+ },
  "21543617": {
   "alertes": {},
   "depuis": null,
@@ -579,9 +587,9 @@
   "alertes": {},
   "depuis": null,
   "grade": null,
-  "humeur": "F.B.I » V.I.P",
+  "humeur": "",
   "pseudo": "Bagley",
-  "verifie": "2026-11-18T20:30:18+00:00"
+  "verifie": "2026-11-18T23:30:19+00:00"
  },
  "22057754": {
   "alertes": {},
@@ -1197,7 +1205,7 @@
   "grade": null,
   "humeur": "[R.F] Journaliste",
   "pseudo": "momoboxings",
-  "verifie": "2026-11-18T20:30:18+00:00"
+  "verifie": "2026-11-18T23:30:19+00:00"
  },
  "24464313": {
   "alertes": {},
