@@ -527,7 +527,8 @@ def podium_embeds(rows, debut, fin, remise):
 
 class PNBot(discord.Client):
     def __init__(self):
-        super().__init__(intents=discord.Intents(guilds=True), allowed_mentions=discord.AllowedMentions.none())
+        super().__init__(intents=discord.Intents(guilds=True, guild_messages=True),
+                         allowed_mentions=discord.AllowedMentions.none())
         self.cycle_lock = asyncio.Lock()
         self.publication_lock = asyncio.Lock()
         self.publication_health = PublicationHealth(Path(LOCK_FILE).parent / "publication-health.json")
@@ -547,6 +548,9 @@ class PNBot(discord.Client):
         if not self.started:
             self.started = True
             asyncio.create_task(self.demarrage())
+
+    async def on_message(self, message):
+        self.direction_board.schedule_visibility(message)
 
     async def demarrage(self):
         await asyncio.to_thread(refresh_habbo)

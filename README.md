@@ -25,19 +25,30 @@ le rétablissement une fois les envois rattrapés. Ce suivi est conservé hors d
 dépôt dans `/opt/pn/lock/publication-health.json`, y compris après un redémarrage.
 Les erreurs techniques complètes restent dans les logs du serveur.
 
-Le salon privé `to-do-list` de la Direction affiche directement toutes les tâches
-ouvertes de tous ses membres. Le tableau se prolonge dans des messages
-supplémentaires si nécessaire ; les boutons ne sont pas nécessaires pour lire
-les tâches. L’attribution mentionne immédiatement le responsable dans le salon.
-La création propose quatre priorités : Basse, Normale (par défaut), Haute et
-Urgente. Le tableau et les listes affichent les priorités les plus élevées en
-premier. Tous les membres de la Direction peuvent annuler une tâche, même
+Le salon privé `to-do-list` de la Direction affiche une carte par tâche ouverte.
+Le tableau indique combien de tâches restent à faire et combien sont en cours.
+Chaque carte indique le responsable, l’état et la priorité. Le tableau se
+prolonge dans des messages supplémentaires lorsque huit cartes sont affichées.
+
+« Ajouter une tâche » ouvre une liste privée de responsables ayant le rôle
+Direction et accès au salon. « Rechercher par pseudo » permet aussi de retrouver
+un collègue qui vient de recevoir le rôle, même s’il n’a encore pris part
+à aucune tâche. Le choix du responsable ouvre le formulaire avec le titre
+et les quatre priorités Basse, Normale (par défaut), Haute et Urgente.
+L’attribution mentionne immédiatement le responsable dans le fil de notifications.
+Les priorités les plus élevées apparaissent en premier.
+Tous les membres de la Direction peuvent annuler une tâche, même
 attribuée à un collègue. Le bouton « Historique » conserve les tâches terminées
 et annulées, avec leur responsable, leur priorité, la date et l’auteur de la
 clôture, dans la base persistante privée du bot.
 Les tâches restent affichées jusqu’à leur clôture. Un rappel mentionne chaque
 responsable une fois par jour à partir de 18 h, heure de Paris, pour ses tâches
-ouvertes depuis au moins 24 heures. Les réponses à « Mes tâches » restent privées.
+ouvertes depuis au moins 24 heures. Les mentions et les rappels arrivent dans
+le fil « 🔔 Notifications des tâches » rattaché au tableau épinglé.
+Les anciens avis du bot y sont transférés silencieusement. Après un échange
+dans le salon, le tableau réapparaît en bas, avec ses boutons. Le lien de
+l’épingle reste permanent. Les confirmations privées disparaissent après dix
+secondes et les listes privées se ferment automatiquement.
 
 GitHub reste la source lue par le forum : pendant son indisponibilité, le forum
 conserve les dernières valeurs publiées et leur véritable heure de collecte.

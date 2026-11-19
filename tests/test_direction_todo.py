@@ -10,7 +10,7 @@ from unittest.mock import AsyncMock, MagicMock, patch
 import discord
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "serveur"))
-from direction_todo import AddTask, DirectionBoard, PANEL_TITLE, PARIS, TaskList, TaskStore
+from direction_todo import AddTask, AssigneePicker, DirectionBoard, PANEL_TITLE, PARIS, THREAD_NAME, TaskList, TaskStore
 
 
 async def messages(items):
@@ -28,6 +28,7 @@ class DirectionTests(unittest.IsolatedAsyncioTestCase):
         self.addCleanup(self.board.store.db.close)
         self.board.channel_id, self.board.role_id = 200, 42
         self.board.client.user.id = 123
+        self.board.client.intents = discord.Intents(guilds=True)
         self.channel = MagicMock()
         self.channel.permissions_for.return_value.view_channel = True
         self.channel.send = AsyncMock()
@@ -38,6 +39,7 @@ class DirectionTests(unittest.IsolatedAsyncioTestCase):
         member = MagicMock(spec=discord.Member)
         member.id, member.guild.owner_id, member.bot = user_id, 1, False
         member.roles = [SimpleNamespace(id=role)]
+        member.display_name, member.name, member.global_name = f"Membre {user_id}", f"compte{user_id}", None
         member.guild_permissions.administrator = False
         member.mention = f"<@{user_id}>"
         return member
@@ -46,12 +48,13 @@ class DirectionTests(unittest.IsolatedAsyncioTestCase):
         posted = {}
         def components(view):
             return [SimpleNamespace(to_dict=lambda data=data: data) for data in view.to_components()] if view else []
-        async def send(*args, embed, view=None, **kwargs):
+        async def send(*args, embed=None, embeds=None, view=None, **kwargs):
             message = SimpleNamespace(id=1000 + self.channel.send.await_count, author=self.board.client.user,
-                embeds=[embed], components=components(view), pinned=False,
+                embeds=embeds if embeds is not None else [embed], components=components(view), pinned=False,
+                type=discord.MessageType.default, attachments=[], reactions=[], raw_mentions=[], channel=self.channel,
                 jump_url=f"https://discord.com/channels/100/200/{1000 + self.channel.send.await_count}")
             async def edit(**changes):
-                message.embeds = [changes["embed"]]
+                message.embeds = changes["embeds"]
                 message.components = components(changes["view"])
             async def delete():
                 del posted[message.id]
@@ -70,13 +73,12 @@ class DirectionTests(unittest.IsolatedAsyncioTestCase):
         return posted
 
     async def submit(self, initiator, assignee, priority=None):
-        modal = AddTask(self.board)
+        modal = AddTask(self.board, assignee)
         response = SimpleNamespace(defer=AsyncMock(), send_message=AsyncMock())
         interaction = SimpleNamespace(id=1101, guild_id=100, channel_id=200, channel=self.channel,
             guild=SimpleNamespace(fetch_member=AsyncMock(return_value=assignee)), user=initiator,
             response=response, edit_original_response=AsyncMock())
-        fields = [{"type":18, "component":{"type":4, "custom_id":modal.task.custom_id, "value":"Relire la notice"}},
-                  {"type":18, "component":{"type":5, "custom_id":modal.person.custom_id, "values":[str(assignee.id)]}}]
+        fields = [{"type":18, "component":{"type":4, "custom_id":modal.task.custom_id, "value":"Relire la notice"}}]
         if priority is not None:
             fields.append({"type":18, "component":{"type":3, "custom_id":modal.priority.custom_id, "values":[str(priority)]}})
         modal._refresh(interaction, fields, {})
@@ -92,10 +94,10 @@ class DirectionTests(unittest.IsolatedAsyncioTestCase):
         rows, count, _ = self.board.store.page(bob.id)
         self.assertEqual((count, rows[0]["creator"], rows[0]["title"]), (1, alice.id, "Relire la notice"))
         self.assertEqual(rows[0]["priority"], 1)
-        self.assertIn("Relire la notice", TaskList(self.board, bob.id, True).embed.description)
+        self.assertIn("Relire la notice", TaskList(self.board, bob.id, True).embeds[1].description)
         self.assertFalse(self.board.store.start(rows[0]["id"], alice.id, self.now))
         self.assertTrue(self.board.store.start(rows[0]["id"], bob.id, self.now))
-        self.assertIn("En cours", TaskList(self.board, bob.id, True).embed.description)
+        self.assertEqual(TaskList(self.board, bob.id, True).embeds[1].fields[1].value, "En cours")
         self.assertFalse(self.board.store.finish(rows[0]["id"], 999, self.now))
         self.assertTrue(self.board.store.finish(rows[0]["id"], bob.id, self.now))
         self.assertFalse(self.board.store.finish(rows[0]["id"], alice.id, self.now))
@@ -106,6 +108,72 @@ class DirectionTests(unittest.IsolatedAsyncioTestCase):
         rejected.response.send_message.assert_awaited_once()
         await self.submit(alice, guest)
         self.assertEqual(self.board.store.page()[1], 0)
+
+    async def test_add_button_and_name_search_show_only_eligible_directors(self):
+        alice, bob, newcomer = self.member(10), self.member(20), self.member(30)
+        bob.display_name = "Alex"
+        applicant, bot, hidden, owner = self.member(40, 3), self.member(50), self.member(60), self.member(1, 3)
+        bot.bot = True
+        self.channel.permissions_for.side_effect = lambda m: SimpleNamespace(view_channel=m.id != hidden.id)
+        guild = MagicMock()
+        guild.owner_id = owner.id
+        guild.get_role.return_value.members = []
+        self.channel.category.text_channels = []
+        self.board.store.add(4, "Notice", alice.id, bob.id, self.now)
+        guild.query_members = AsyncMock(return_value=[alice, bob, owner])
+        interaction = SimpleNamespace(guild_id=100, channel_id=200, guild=guild, channel=self.channel, user=alice,
+            response=SimpleNamespace(defer=AsyncMock(), send_modal=AsyncMock(), send_message=AsyncMock()),
+            edit_original_response=AsyncMock())
+        await self.board.buttons.add.callback(interaction)
+        guild.query_members.assert_awaited_once_with(user_ids=[1, 10, 20], limit=100, cache=False)
+        picker = interaction.edit_original_response.await_args.kwargs["view"]
+        menu = next(item for item in picker.children if isinstance(item, discord.ui.Select))
+        self.assertEqual([(o.label, o.description) for o in menu.options],
+                         [("Alex", "@compte20"), ("Membre 10", "@compte10")])
+        self.assertFalse(any(isinstance(item, discord.ui.UserSelect) for item in picker.children))
+        self.assertTrue(await picker.interaction_check(interaction))
+        menu._values = ["20"]
+        await menu.callback(interaction)
+        form = interaction.response.send_modal.await_args.args[0]
+        self.assertIsInstance(form, AddTask)
+        self.assertEqual(form.assignee_id, bob.id)
+        self.assertEqual([o.label for o in form.priority.options], ["Basse", "Normale", "Haute", "Urgente"])
+        self.assertTrue(form.priority.options[1].default)
+
+        await picker.search.callback(interaction)
+        search = interaction.response.send_modal.await_args.args[0]
+        field = search.name_prefix.component
+        search._refresh(interaction, [{"type":18, "component":{"type":4, "custom_id":field.custom_id,
+                                                               "value":"Membre"}}], {})
+        guild.query_members.return_value = [newcomer, applicant, bot, hidden, owner]
+        await search.on_submit(interaction)
+        guild.query_members.assert_awaited_with(query="Membre", limit=100, cache=False)
+        results = interaction.edit_original_response.await_args.kwargs["view"]
+        options = next(item for item in results.children if isinstance(item, discord.ui.Select)).options
+        self.assertEqual([option.value for option in options], [str(newcomer.id)])
+        # Le rôle peut changer après la sélection et avant l’envoi du formulaire.
+        bob.roles = []
+        denied = await self.submit(alice, bob)
+        self.assertIn("autre responsable", denied.edit_original_response.await_args.kwargs["content"])
+        self.assertEqual(self.board.store.page()[1], 1)
+
+    async def test_member_picker_reaches_the_last_member_and_empty_search_can_retry(self):
+        people = [self.member(i) for i in range(1, 29)]
+        first = AssigneePicker(self.board, 1, people)
+        self.assertTrue(first.previous.disabled)
+        response = SimpleNamespace(edit_message=AsyncMock())
+        await first.next_page.callback(SimpleNamespace(response=response))
+        last = response.edit_message.await_args.kwargs["view"]
+        self.assertTrue(last.next_page.disabled)
+        self.assertEqual([o.value for s in last.children if isinstance(s, discord.ui.Select) for o in s.options],
+                         ["26", "27", "28"])
+        interaction = SimpleNamespace(response=SimpleNamespace(defer=AsyncMock()), user=people[0],
+                                      edit_original_response=AsyncMock())
+        with patch.object(self.board, "assignees", AsyncMock(return_value=[])):
+            await self.board.show_assignees(interaction, "absent")
+        reply = interaction.edit_original_response.await_args.kwargs
+        self.assertIn("Aucun membre de la Direction", reply["content"])
+        self.assertEqual([item.label for item in reply["view"].children], ["Rechercher par pseudo"])
 
     async def test_channel_created_private_and_existing_public_channel_refused(self):
         guild = MagicMock(spec=discord.Guild)
@@ -159,10 +227,9 @@ class DirectionTests(unittest.IsolatedAsyncioTestCase):
         self.assertEqual([r["priority"] for r in self.board.store.open_tasks()], [3, 2, 1, 0])
         self.assertEqual([r["priority"] for r in self.board.store.page(bob.id)[0]], [3, 2, 1, 0])
         view = TaskList(self.board, bob.id, True)
-        self.assertIn("🔴 Urgente", view.embed.description)
-        self.assertIn("🟠 Haute", view.embed.description)
-        self.assertIn("🔵 Normale", view.embed.description)
-        self.assertIn("⚪ Basse", view.embed.description)
+        self.assertEqual([card.footer.text.split("  ·  ")[0] for card in view.embeds[1:]],
+                         ["🔴 Priorité urgente", "🟠 Priorité haute", "🔵 Priorité normale", "⚪ Priorité basse"])
+        self.assertEqual(len({card.color.value for card in view.embeds[1:]}), 4)
         self.board.store.db.close()
         self.board.store = TaskStore(self.path)
         self.addCleanup(self.board.store.db.close)
@@ -213,9 +280,11 @@ class DirectionTests(unittest.IsolatedAsyncioTestCase):
         self.assertFalse(self.board.store.finish(task_id, bob.id, self.now))
         self.assertFalse(self.board.store.cancel(task_id, charlie.id, self.now))
         history = TaskList(self.board, alice.id, False, history=True)
-        self.assertIn("Annulée par <@30>", history.embed.description)
-        self.assertIn("Responsable : <@20>", history.embed.description)
-        self.assertIn("(Paris)", history.embed.description)
+        fields = {f.name: f.value for f in history.embeds[1].fields}
+        self.assertEqual(fields["État"], "Annulée")
+        self.assertEqual(fields["Responsable"], "<@20>")
+        self.assertIn("<@30>", fields["Clôture"])
+        self.assertIn("(Paris)", fields["Clôture"])
         self.assertFalse(history.children)
         guest = self.member(40, role=3)
         interaction.user = guest
@@ -234,7 +303,8 @@ class DirectionTests(unittest.IsolatedAsyncioTestCase):
         view = TaskList(self.board, 10, False, history=True)
         self.assertTrue(view.previous.disabled)
         self.assertFalse(view.next_page.disabled)
-        self.assertIn("Terminée par <@20>", view.embed.description)
+        self.assertEqual(view.embeds[1].fields[1].value, "Terminée")
+        self.assertIn("<@20>", view.embeds[1].fields[2].value)
         self.assertEqual([button.label for button in view.children], ["Précédent", "Suivant"])
 
     async def test_shared_board_shows_every_assignee_and_task_without_clicking(self):
@@ -242,14 +312,14 @@ class DirectionTests(unittest.IsolatedAsyncioTestCase):
         task_ids = [self.board.store.add(i, "_*" * 70, 10, 20 if i % 2 else 30, self.now) for i in range(17)]
         panel = await self.board.panel(self.channel)
         self.assertEqual(len(posted), 3)
-        text = "\n".join(m.embeds[0].description for m in posted.values())
-        for task_id in task_ids:
-            self.assertEqual(text.count(f"**#{task_id}**"), 1)
-        self.assertIn("<@20>", text)
-        self.assertIn("<@30>", text)
+        cards = [card for message in posted.values() for card in message.embeds[1:]]
+        self.assertEqual([int(card.footer.text.rsplit("#", 1)[1]) for card in cards], task_ids)
+        self.assertEqual({card.fields[0].value for card in cards}, {"<@20>", "<@30>"})
+        self.assertIn("\\_\\*", cards[0].description)
         for message in posted.values():
-            self.assertLessEqual(len(message.embeds[0].description), 4096)
-            self.assertLessEqual(len(message.embeds[0]), 6000)
+            self.assertLessEqual(len(message.embeds), 10)
+            self.assertLessEqual(sum(map(len, message.embeds)), 6000)
+            self.assertTrue(all(len(e.description) <= 4096 for e in message.embeds))
         restarted = DirectionBoard(self.board.client, 100, 101, self.path)
         restarted.store = self.board.store
         await restarted.panel(self.channel)
@@ -258,11 +328,7 @@ class DirectionTests(unittest.IsolatedAsyncioTestCase):
             self.board.store.finish(task_id, 10, self.now)
         await restarted.panel(self.channel)
         self.assertEqual(list(posted), [panel.id])
-        text = posted[panel.id].embeds[0].description
-        for task_id in task_ids[:9]:
-            self.assertNotIn(f"**#{task_id}**", text)
-        for task_id in task_ids[9:]:
-            self.assertIn(f"**#{task_id}**", text)
+        self.assertEqual([int(e.footer.text.rsplit("#", 1)[1]) for e in posted[panel.id].embeds[1:]], task_ids[9:])
 
     async def test_shared_board_recovers_after_send_before_saving_message_id(self):
         posted = self.posted_messages()
@@ -284,6 +350,105 @@ class DirectionTests(unittest.IsolatedAsyncioTestCase):
         await self.board.panel(self.channel)
         self.assertEqual(len(posted), 2)
         self.assertEqual(self.channel.send.await_count, 3)
+
+    async def test_pinned_legacy_board_is_updated_in_place_with_cards_and_global_counts(self):
+        posted = self.posted_messages()
+        old = await self.channel.send(embed=discord.Embed(title=PANEL_TITLE, description="Ancien tableau"),
+                                      view=self.board.buttons)
+        old.pinned = True
+        self.board.store.remember("panel", old.id)
+        normal = self.board.store.add(1, "Relire le règlement", 10, 20, self.now)
+        self.board.store.add(2, "Préparer la réunion", 10, 30, self.now, priority=2)
+        self.board.store.start(normal, 20, self.now)
+        await self.board.panel(self.channel)
+        self.assertEqual(list(posted), [old.id])
+        self.assertTrue(old.pinned)
+        self.assertEqual(old.embeds[0].description, "**1** à faire　·　**1** en cours")
+        self.assertEqual([e.description for e in old.embeds[1:]], ["**Préparer la réunion**", "**Relire le règlement**"])
+        self.assertEqual([f.value for f in old.embeds[1].fields], ["<@30>", "À faire"])
+        self.assertEqual([f.value for f in old.embeds[2].fields], ["<@20>", "En cours"])
+        await self.board.panel(self.channel)
+        old.edit.assert_awaited_once()
+
+    async def test_latest_board_follows_public_messages_without_removing_discussion_or_changing_the_pin(self):
+        posted = self.posted_messages()
+        original = await self.board.panel(self.channel)
+        await self.board.keep_visible(self.channel, original)
+        self.assertEqual(list(posted), [original.id])
+        chat = await self.channel.send(embed=discord.Embed(description="Message du collègue"))
+        chat.author = self.member(30)
+        await self.board.keep_visible(self.channel, original)
+        visible = posted[int(self.board.store.setting("visible"))]
+        self.assertGreater(visible.id, chat.id)
+        self.assertFalse(visible.pinned)
+        self.assertTrue(visible.components)
+        self.board.store.add(2, "Une tâche", 10, 20, self.now)
+        await self.board.keep_visible(self.channel, original)
+        self.assertEqual(visible.embeds[1].description, "**Une tâche**")
+        chat2 = await self.channel.send(embed=discord.Embed(description="Deuxième message"))
+        chat2.author = self.member(30)
+        remember = self.board.store.remember
+        def fail_save(name, value):
+            if name == "visible":
+                raise OSError("Interruption")
+            remember(name, value)
+        with patch.object(self.board.store, "remember", side_effect=fail_save):
+            with self.assertRaises(OSError):
+                await self.board.keep_visible(self.channel, original)
+        await self.board.keep_visible(self.channel, original)
+        newest = int(self.board.store.setting("visible"))
+        self.assertEqual(set(posted), {original.id, chat.id, chat2.id, newest})
+        self.assertGreater(newest, chat2.id)
+        self.assertEqual(self.board.store.setting("panel"), str(original.id))
+        self.assertTrue(original.pinned)
+
+    async def test_thread_is_attached_to_the_pin_and_receives_assignments_and_reminders(self):
+        panel = SimpleNamespace(thread=None, channel=self.channel)
+        thread = SimpleNamespace(id=500, parent_id=self.channel.id, type=discord.ChannelType.public_thread)
+        panel.fetch_thread = AsyncMock(side_effect=discord.NotFound(SimpleNamespace(status=404, reason=""), ""))
+        panel.create_thread = AsyncMock(return_value=thread)
+        self.assertIs(await self.board.notification_thread(panel), thread)
+        self.assertEqual(panel.create_thread.await_args.kwargs["name"], THREAD_NAME)
+        panel.thread = thread
+        self.board.channel = AsyncMock(return_value=self.channel)
+        self.board.panel = AsyncMock(return_value=panel)
+        self.board.keep_visible = AsyncMock()
+        self.board.archive_public_notices = AsyncMock()
+        self.board.notify_assignments, self.board.remind = AsyncMock(), AsyncMock()
+        await self.board.refresh()
+        self.board.notify_assignments.assert_awaited_once_with(thread, panel)
+        self.assertIs(self.board.remind.await_args.args[0], thread)
+        self.assertEqual(self.board.store.setting("notification_thread"), "500")
+        self.board.keep_visible.assert_awaited_once_with(self.channel, panel)
+        panel.create_thread.assert_awaited_once()
+
+    async def test_public_notice_archived_silently_before_removal_and_recovered_after_interruption(self):
+        notice = MagicMock()
+        notice.id, notice.author, notice.content = 8, self.board.client.user, "<@20>, une tâche t’a été attribuée."
+        notice.embeds = [discord.Embed(title="Nouvelle tâche #1")]
+        notice.raw_mentions, notice.pinned, notice.attachments, notice.reactions = [20], False, [], []
+        notice.delete = AsyncMock(side_effect=[OSError("Interrompu"), None])
+        ref = SimpleNamespace(type=discord.MessageReferenceType.forward, message_id=notice.id)
+        notice.to_reference.return_value = ref
+        archived = SimpleNamespace(id=90, reference=ref, author=self.board.client.user,
+            message_snapshots=[SimpleNamespace(content=notice.content, embeds=notice.embeds)])
+        chat = MagicMock(author=self.member(30), delete=AsyncMock())
+        thread = MagicMock(id=70)
+        thread.send = AsyncMock(return_value=archived)
+        thread.history.side_effect = [messages([]), messages([archived])]
+        self.channel.history.side_effect = lambda **kw: messages([chat, notice])
+        with self.assertRaises(OSError):
+            await self.board.archive_public_notices(self.channel, thread, SimpleNamespace(id=1))
+        await self.board.archive_public_notices(self.channel, thread, SimpleNamespace(id=1))
+        await self.board.archive_public_notices(self.channel, thread, SimpleNamespace(id=1))
+        thread.send.assert_awaited_once()
+        sent = thread.send.await_args.kwargs
+        self.assertEqual(sent["reference"], ref)
+        self.assertTrue(sent["silent"])
+        self.assertEqual(sent["allowed_mentions"].to_dict(), {"parse": []})
+        chat.delete.assert_not_awaited()
+        self.assertEqual(notice.delete.await_count, 2)
+        self.assertEqual(self.board.store.setting("assigned_1"), "90")
 
     async def test_assignment_mentions_only_assignee_once_and_recovers_after_send(self):
         self.posted_messages()
