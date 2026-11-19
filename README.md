@@ -25,6 +25,20 @@ le rétablissement une fois les envois rattrapés. Ce suivi est conservé hors d
 dépôt dans `/opt/pn/lock/publication-health.json`, y compris après un redémarrage.
 Les erreurs techniques complètes restent dans les logs du serveur.
 
+Le salon privé `to-do-list` de la Direction affiche directement toutes les tâches
+ouvertes de tous ses membres. Le tableau se prolonge dans des messages
+supplémentaires si nécessaire ; les boutons ne sont pas nécessaires pour lire
+les tâches. L’attribution mentionne immédiatement le responsable dans le salon.
+La création propose quatre priorités : Basse, Normale (par défaut), Haute et
+Urgente. Le tableau et les listes affichent les priorités les plus élevées en
+premier. Tous les membres de la Direction peuvent annuler une tâche, même
+attribuée à un collègue. Le bouton « Historique » conserve les tâches terminées
+et annulées, avec leur responsable, leur priorité, la date et l’auteur de la
+clôture, dans la base persistante privée du bot.
+Les tâches restent affichées jusqu’à leur clôture. Un rappel mentionne chaque
+responsable une fois par jour à partir de 18 h, heure de Paris, pour ses tâches
+ouvertes depuis au moins 24 heures. Les réponses à « Mes tâches » restent privées.
+
 GitHub reste la source lue par le forum : pendant son indisponibilité, le forum
 conserve les dernières valeurs publiées et leur véritable heure de collecte.
 Ces reprises concernent uniquement les échanges Git ; elles ne rejouent aucune
