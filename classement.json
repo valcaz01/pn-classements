@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T13:22:32+00:00",
+ "updated": "2026-11-19T13:24:31+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -374,6 +374,10 @@
     "value": 18
    },
    {
+    "name": "Fleabag",
+    "value": 17
+   },
+   {
     "name": "gotica",
     "value": 17
    },
@@ -384,10 +388,6 @@
    {
     "name": "toussainthanae",
     "value": 17
-   },
-   {
-    "name": "Fleabag",
-    "value": 15
    },
    {
     "name": "-Oiseau",
@@ -432,6 +432,10 @@
    {
     "name": "Sooso",
     "value": 4
+   },
+   {
+    "name": "Dragonforevor",
+    "value": 2
    },
    {
     "name": "habbo7-3-87",
@@ -560,6 +564,10 @@
     "value": 18
    },
    {
+    "name": "Fleabag",
+    "value": 17
+   },
+   {
     "name": "gotica",
     "value": 17
    },
@@ -570,10 +578,6 @@
    {
     "name": "toussainthanae",
     "value": 17
-   },
-   {
-    "name": "Fleabag",
-    "value": 15
    },
    {
     "name": "-Oiseau",
@@ -618,6 +622,10 @@
    {
     "name": "Sooso",
     "value": 4
+   },
+   {
+    "name": "Dragonforevor",
+    "value": 2
    },
    {
     "name": "habbo7-3-87",
