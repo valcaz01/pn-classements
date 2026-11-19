@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T14:26:33+00:00",
+ "updated": "2026-11-19T14:28:33+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -259,7 +259,7 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 672
+    "value": 674
    },
    {
     "name": "fym",
@@ -275,7 +275,7 @@
    },
    {
     "name": "charlie-XCX123",
-    "value": 209
+    "value": 210
    },
    {
     "name": "marinadrk",
@@ -339,7 +339,7 @@
    },
    {
     "name": "Fleabag",
-    "value": 63
+    "value": 64
    },
    {
     "name": ".:Krustiz:.",
@@ -374,12 +374,12 @@
     "value": 32
    },
    {
-    "name": "Sciel",
-    "value": 22
+    "name": "YzEnRodeo",
+    "value": 23
    },
    {
-    "name": "YzEnRodeo",
-    "value": 21
+    "name": "Sciel",
+    "value": 22
    },
    {
     "name": "pohabbooq05-1",
@@ -394,11 +394,15 @@
     "value": 17
    },
    {
+    "name": ".Libellule",
+    "value": 14
+   },
+   {
     "name": "-Oiseau",
     "value": 12
    },
    {
-    "name": ".Libellule",
+    "name": "BOuclette.13",
     "value": 12
    },
    {
@@ -412,10 +416,6 @@
    {
     "name": "Rock_2000",
     "value": 11
-   },
-   {
-    "name": "BOuclette.13",
-    "value": 10
    },
    {
     "name": "Alejandro721",
@@ -457,7 +457,7 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 672
+    "value": 674
    },
    {
     "name": "fym",
@@ -473,7 +473,7 @@
    },
    {
     "name": "charlie-XCX123",
-    "value": 209
+    "value": 210
    },
    {
     "name": "marinadrk",
@@ -537,7 +537,7 @@
    },
    {
     "name": "Fleabag",
-    "value": 63
+    "value": 64
    },
    {
     "name": ".:Krustiz:.",
@@ -572,12 +572,12 @@
     "value": 32
    },
    {
-    "name": "Sciel",
-    "value": 22
+    "name": "YzEnRodeo",
+    "value": 23
    },
    {
-    "name": "YzEnRodeo",
-    "value": 21
+    "name": "Sciel",
+    "value": 22
    },
    {
     "name": "pohabbooq05-1",
@@ -592,11 +592,15 @@
     "value": 17
    },
    {
+    "name": ".Libellule",
+    "value": 14
+   },
+   {
     "name": "-Oiseau",
     "value": 12
    },
    {
-    "name": ".Libellule",
+    "name": "BOuclette.13",
     "value": 12
    },
    {
@@ -610,10 +614,6 @@
    {
     "name": "Rock_2000",
     "value": 11
-   },
-   {
-    "name": "BOuclette.13",
-    "value": 10
    },
    {
     "name": "Alejandro721",
