@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T20:44:33+00:00",
+ "updated": "2026-11-19T20:46:32+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 23
+    "value": 24
    },
    {
     "name": "fym",
@@ -40,6 +40,10 @@
     "value": 9
    },
    {
+    "name": ".:Krustiz:.",
+    "value": 8
+   },
+   {
     "name": "charlie-XCX123",
     "value": 8
    },
@@ -54,10 +58,6 @@
    {
     "name": "sami75.19",
     "value": 8
-   },
-   {
-    "name": ".:Krustiz:.",
-    "value": 7
    },
    {
     "name": "Astreu",
@@ -163,7 +163,7 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 23
+    "value": 24
    },
    {
     "name": "fym",
@@ -198,6 +198,10 @@
     "value": 9
    },
    {
+    "name": ".:Krustiz:.",
+    "value": 8
+   },
+   {
     "name": "charlie-XCX123",
     "value": 8
    },
@@ -212,10 +216,6 @@
    {
     "name": "sami75.19",
     "value": 8
-   },
-   {
-    "name": ".:Krustiz:.",
-    "value": 7
    },
    {
     "name": "Astreu",
@@ -339,7 +339,7 @@
    },
    {
     "name": "Shizuku",
-    "value": 296
+    "value": 298
    },
    {
     "name": "Fleabag",
@@ -434,12 +434,12 @@
     "value": 49
    },
    {
-    "name": "Mr.Dino",
-    "value": 48
+    "name": "Proxymore",
+    "value": 49
    },
    {
-    "name": "Proxymore",
-    "value": 47
+    "name": "Mr.Dino",
+    "value": 48
    },
    {
     "name": "guest77145",
@@ -541,7 +541,7 @@
    },
    {
     "name": "Shizuku",
-    "value": 296
+    "value": 298
    },
    {
     "name": "Fleabag",
@@ -636,12 +636,12 @@
     "value": 49
    },
    {
-    "name": "Mr.Dino",
-    "value": 48
+    "name": "Proxymore",
+    "value": 49
    },
    {
-    "name": "Proxymore",
-    "value": 47
+    "name": "Mr.Dino",
+    "value": 48
    },
    {
     "name": "guest77145",
