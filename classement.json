@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T13:42:32+00:00",
+ "updated": "2026-11-19T13:44:34+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -68,6 +68,10 @@
     "value": 5
    },
    {
+    "name": "pevanq640",
+    "value": 5
+   },
+   {
     "name": "Piingouin.",
     "value": 4
    },
@@ -77,10 +81,6 @@
    },
    {
     "name": "alexandre-780",
-    "value": 3
-   },
-   {
-    "name": "pevanq640",
     "value": 3
    },
    {
@@ -194,6 +194,10 @@
     "value": 5
    },
    {
+    "name": "pevanq640",
+    "value": 5
+   },
+   {
     "name": "Piingouin.",
     "value": 4
    },
@@ -203,10 +207,6 @@
    },
    {
     "name": "alexandre-780",
-    "value": 3
-   },
-   {
-    "name": "pevanq640",
     "value": 3
    },
    {
@@ -275,7 +275,7 @@
    },
    {
     "name": "charlie-XCX123",
-    "value": 196
+    "value": 197
    },
    {
     "name": "marinadrk",
@@ -363,7 +363,7 @@
    },
    {
     "name": "Fleabag",
-    "value": 35
+    "value": 37
    },
    {
     "name": "Postillon",
@@ -371,7 +371,7 @@
    },
    {
     "name": "gotica",
-    "value": 28
+    "value": 30
    },
    {
     "name": "Sciel",
@@ -444,6 +444,10 @@
    {
     "name": "Piingouin.",
     "value": 2
+   },
+   {
+    "name": "BOuclette.13",
+    "value": 1
    }
   ],
   "week": [
@@ -465,7 +469,7 @@
    },
    {
     "name": "charlie-XCX123",
-    "value": 196
+    "value": 197
    },
    {
     "name": "marinadrk",
@@ -553,7 +557,7 @@
    },
    {
     "name": "Fleabag",
-    "value": 35
+    "value": 37
    },
    {
     "name": "Postillon",
@@ -561,7 +565,7 @@
    },
    {
     "name": "gotica",
-    "value": 28
+    "value": 30
    },
    {
     "name": "Sciel",
@@ -634,6 +638,10 @@
    {
     "name": "Piingouin.",
     "value": 2
+   },
+   {
+    "name": "BOuclette.13",
+    "value": 1
    }
   ]
  }
