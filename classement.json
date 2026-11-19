@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T14:06:33+00:00",
+ "updated": "2026-11-19T14:08:33+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -267,7 +267,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 290
+    "value": 292
    },
    {
     "name": "Shizuku",
@@ -346,12 +346,12 @@
     "value": 52
    },
    {
-    "name": "Mr.Dino",
+    "name": "Fleabag",
     "value": 48
    },
    {
-    "name": "Fleabag",
-    "value": 46
+    "name": "Mr.Dino",
+    "value": 48
    },
    {
     "name": "gotica",
@@ -465,7 +465,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 290
+    "value": 292
    },
    {
     "name": "Shizuku",
@@ -544,12 +544,12 @@
     "value": 52
    },
    {
-    "name": "Mr.Dino",
+    "name": "Fleabag",
     "value": 48
    },
    {
-    "name": "Fleabag",
-    "value": 46
+    "name": "Mr.Dino",
+    "value": 48
    },
    {
     "name": "gotica",
