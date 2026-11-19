@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T18:48:33+00:00",
+ "updated": "2026-11-19T18:50:33+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -319,7 +319,7 @@
    },
    {
     "name": "fym",
-    "value": 656
+    "value": 658
    },
    {
     "name": "Pantheon_",
@@ -351,7 +351,7 @@
    },
    {
     "name": "Astreu",
-    "value": 213
+    "value": 215
    },
    {
     "name": "halos34",
@@ -367,7 +367,7 @@
    },
    {
     "name": "Icarem",
-    "value": 145
+    "value": 147
    },
    {
     "name": "andrew16a",
@@ -375,7 +375,7 @@
    },
    {
     "name": "habbo22t",
-    "value": 127
+    "value": 129
    },
    {
     "name": "-Tsukiri-",
@@ -387,11 +387,11 @@
    },
    {
     "name": "gotica",
-    "value": 98
+    "value": 100
    },
    {
     "name": "Monsieur-RF",
-    "value": 92
+    "value": 94
    },
    {
     "name": "flo578",
@@ -510,8 +510,8 @@
     "value": 7
    },
    {
-    "name": ":MarineLe-Pen:",
-    "value": 5
+    "name": "Piingouin.",
+    "value": 6
    }
   ],
   "week": [
@@ -521,7 +521,7 @@
    },
    {
     "name": "fym",
-    "value": 656
+    "value": 658
    },
    {
     "name": "Pantheon_",
@@ -553,7 +553,7 @@
    },
    {
     "name": "Astreu",
-    "value": 213
+    "value": 215
    },
    {
     "name": "halos34",
@@ -569,7 +569,7 @@
    },
    {
     "name": "Icarem",
-    "value": 145
+    "value": 147
    },
    {
     "name": "andrew16a",
@@ -577,7 +577,7 @@
    },
    {
     "name": "habbo22t",
-    "value": 127
+    "value": 129
    },
    {
     "name": "-Tsukiri-",
@@ -589,11 +589,11 @@
    },
    {
     "name": "gotica",
-    "value": 98
+    "value": 100
    },
    {
     "name": "Monsieur-RF",
-    "value": 92
+    "value": 94
    },
    {
     "name": "flo578",
@@ -712,8 +712,8 @@
     "value": 7
    },
    {
-    "name": ":MarineLe-Pen:",
-    "value": 5
+    "name": "Piingouin.",
+    "value": 6
    }
   ]
  }
