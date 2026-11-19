@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T19:16:33+00:00",
+ "updated": "2026-11-19T19:18:34+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -140,6 +140,10 @@
     "value": 1
    },
    {
+    "name": "habbo22t",
+    "value": 1
+   },
+   {
     "name": "HK83000",
     "value": 1
    },
@@ -294,6 +298,10 @@
     "value": 1
    },
    {
+    "name": "habbo22t",
+    "value": 1
+   },
+   {
     "name": "HK83000",
     "value": 1
    },
@@ -327,7 +335,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 293
+    "value": 295
    },
    {
     "name": "Shizuku",
@@ -382,11 +390,11 @@
     "value": 116
    },
    {
-    "name": "gotica",
-    "value": 110
+    "name": "Monsieur-RF",
+    "value": 112
    },
    {
-    "name": "Monsieur-RF",
+    "name": "gotica",
     "value": 110
    },
    {
@@ -403,7 +411,7 @@
    },
    {
     "name": ".:Krustiz:.",
-    "value": 70
+    "value": 71
    },
    {
     "name": "irysse",
@@ -446,16 +454,16 @@
     "value": 35
    },
    {
+    "name": "Piingouin.",
+    "value": 32
+   },
+   {
     "name": "Postillon",
     "value": 32
    },
    {
     "name": "ladypink.",
     "value": 30
-   },
-   {
-    "name": "Piingouin.",
-    "value": 29
    },
    {
     "name": "-Oiseau",
@@ -529,7 +537,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 293
+    "value": 295
    },
    {
     "name": "Shizuku",
@@ -584,11 +592,11 @@
     "value": 116
    },
    {
-    "name": "gotica",
-    "value": 110
+    "name": "Monsieur-RF",
+    "value": 112
    },
    {
-    "name": "Monsieur-RF",
+    "name": "gotica",
     "value": 110
    },
    {
@@ -605,7 +613,7 @@
    },
    {
     "name": ".:Krustiz:.",
-    "value": 70
+    "value": 71
    },
    {
     "name": "irysse",
@@ -648,16 +656,16 @@
     "value": 35
    },
    {
+    "name": "Piingouin.",
+    "value": 32
+   },
+   {
     "name": "Postillon",
     "value": 32
    },
    {
     "name": "ladypink.",
     "value": 30
-   },
-   {
-    "name": "Piingouin.",
-    "value": 29
    },
    {
     "name": "-Oiseau",
