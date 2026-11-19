@@ -2861,7 +2861,7 @@
   "grade": null,
   "humeur": "[F.B.I] Agent-Élite      Benny ƒ",
   "pseudo": "Epine",
-  "verifie": "2026-11-19T06:12:19+00:00"
+  "verifie": "2026-11-19T09:12:20+00:00"
  },
  "25894972": {
   "alertes": {},
@@ -3445,7 +3445,7 @@
   "grade": null,
   "humeur": "# Ancienne Légende ´",
   "pseudo": "-Kartal",
-  "verifie": "2026-11-19T06:12:19+00:00"
+  "verifie": "2026-11-19T09:12:20+00:00"
  },
  "25991288": {
   "alertes": {},
@@ -4039,6 +4039,14 @@
   "pseudo": "JoePesci10",
   "verifie": "2026-11-19T06:44:20+00:00"
  },
+ "26036368": {
+  "alertes": {},
+  "depuis": null,
+  "grade": null,
+  "humeur": "",
+  "pseudo": "Postillon",
+  "verifie": "2026-11-19T09:12:20+00:00"
+ },
  "26037146": {
   "alertes": {},
   "depuis": null,
@@ -4445,7 +4453,7 @@
   "grade": null,
   "humeur": "",
   "pseudo": "benjodu13",
-  "verifie": "2026-11-19T06:12:19+00:00"
+  "verifie": "2026-11-19T09:12:20+00:00"
  },
  "4272673": {
   "alertes": {},
