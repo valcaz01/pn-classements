@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T03:44:20+00:00",
+ "updated": "2026-11-19T03:46:20+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -247,7 +247,7 @@
    },
    {
     "name": "fym",
-    "value": 513
+    "value": 515
    },
    {
     "name": "Shizuku",
@@ -362,16 +362,16 @@
     "value": 12
    },
    {
+    "name": "gotica",
+    "value": 12
+   },
+   {
     "name": "Kaykay3208",
     "value": 12
    },
    {
     "name": "YzEnRodeo",
     "value": 12
-   },
-   {
-    "name": "gotica",
-    "value": 11
    },
    {
     "name": "Robotor",
@@ -417,7 +417,7 @@
    },
    {
     "name": "fym",
-    "value": 513
+    "value": 515
    },
    {
     "name": "Shizuku",
@@ -532,16 +532,16 @@
     "value": 12
    },
    {
+    "name": "gotica",
+    "value": 12
+   },
+   {
     "name": "Kaykay3208",
     "value": 12
    },
    {
     "name": "YzEnRodeo",
     "value": 12
-   },
-   {
-    "name": "gotica",
-    "value": 11
    },
    {
     "name": "Robotor",
