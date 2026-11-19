@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T21:32:34+00:00",
+ "updated": "2026-11-19T21:34:35+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -12,6 +12,10 @@
     "value": 19
    },
    {
+    "name": ".:Krustiz:.",
+    "value": 15
+   },
+   {
     "name": "halos34",
     "value": 15
    },
@@ -20,16 +24,16 @@
     "value": 15
    },
    {
-    "name": ".:Krustiz:.",
-    "value": 14
-   },
-   {
     "name": "Icarem",
     "value": 14
    },
    {
     "name": ".Libellule",
     "value": 11
+   },
+   {
+    "name": "irysse",
+    "value": 10
    },
    {
     "name": "Lovepanda",
@@ -49,10 +53,6 @@
    },
    {
     "name": "flo578",
-    "value": 9
-   },
-   {
-    "name": "irysse",
     "value": 9
    },
    {
@@ -170,6 +170,10 @@
     "value": 19
    },
    {
+    "name": ".:Krustiz:.",
+    "value": 15
+   },
+   {
     "name": "halos34",
     "value": 15
    },
@@ -178,16 +182,16 @@
     "value": 15
    },
    {
-    "name": ".:Krustiz:.",
-    "value": 14
-   },
-   {
     "name": "Icarem",
     "value": 14
    },
    {
     "name": ".Libellule",
     "value": 11
+   },
+   {
+    "name": "irysse",
+    "value": 10
    },
    {
     "name": "Lovepanda",
@@ -207,10 +211,6 @@
    },
    {
     "name": "flo578",
-    "value": 9
-   },
-   {
-    "name": "irysse",
     "value": 9
    },
    {
@@ -335,7 +335,7 @@
    },
    {
     "name": "Shizuku",
-    "value": 333
+    "value": 335
    },
    {
     "name": "habbo-160-3",
@@ -379,7 +379,7 @@
    },
    {
     "name": "halos34",
-    "value": 171
+    "value": 172
    },
    {
     "name": "Lewddon",
@@ -395,7 +395,7 @@
    },
    {
     "name": "flo578",
-    "value": 117
+    "value": 118
    },
    {
     "name": "gotica",
@@ -537,7 +537,7 @@
    },
    {
     "name": "Shizuku",
-    "value": 333
+    "value": 335
    },
    {
     "name": "habbo-160-3",
@@ -581,7 +581,7 @@
    },
    {
     "name": "halos34",
-    "value": 171
+    "value": 172
    },
    {
     "name": "Lewddon",
@@ -597,7 +597,7 @@
    },
    {
     "name": "flo578",
-    "value": 117
+    "value": 118
    },
    {
     "name": "gotica",
