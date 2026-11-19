@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T10:46:20+00:00",
+ "updated": "2026-11-19T10:48:19+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -355,7 +355,7 @@
    },
    {
     "name": "Postillon",
-    "value": 26
+    "value": 27
    },
    {
     "name": "Sciel",
@@ -414,15 +414,15 @@
     "value": 7
    },
    {
+    "name": "pohabbooq05-1",
+    "value": 4
+   },
+   {
     "name": "habbo7-3-87",
     "value": 2
    },
    {
     "name": "Piingouin.",
-    "value": 2
-   },
-   {
-    "name": "pohabbooq05-1",
     "value": 2
    }
   ],
@@ -533,7 +533,7 @@
    },
    {
     "name": "Postillon",
-    "value": 26
+    "value": 27
    },
    {
     "name": "Sciel",
@@ -592,15 +592,15 @@
     "value": 7
    },
    {
+    "name": "pohabbooq05-1",
+    "value": 4
+   },
+   {
     "name": "habbo7-3-87",
     "value": 2
    },
    {
     "name": "Piingouin.",
-    "value": 2
-   },
-   {
-    "name": "pohabbooq05-1",
     "value": 2
    }
   ]
