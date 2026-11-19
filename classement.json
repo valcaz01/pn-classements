@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T16:10:33+00:00",
+ "updated": "2026-11-19T16:12:32+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -331,11 +331,11 @@
    },
    {
     "name": "Fleabag",
-    "value": 152
+    "value": 154
    },
    {
     "name": "habbo-160-3",
-    "value": 152
+    "value": 154
    },
    {
     "name": "andrew16a",
@@ -378,12 +378,12 @@
     "value": 65
    },
    {
-    "name": "irysse",
-    "value": 61
+    "name": ".Libellule",
+    "value": 62
    },
    {
-    "name": ".Libellule",
-    "value": 60
+    "name": "irysse",
+    "value": 61
    },
    {
     "name": "Pporappippam",
@@ -438,6 +438,10 @@
     "value": 12
    },
    {
+    "name": "Imondi",
+    "value": 12
+   },
+   {
     "name": "Kaykay3208",
     "value": 12
    },
@@ -448,10 +452,6 @@
    {
     "name": "Rock_2000",
     "value": 11
-   },
-   {
-    "name": "Imondi",
-    "value": 10
    },
    {
     "name": "Alejandro721",
@@ -529,11 +529,11 @@
    },
    {
     "name": "Fleabag",
-    "value": 152
+    "value": 154
    },
    {
     "name": "habbo-160-3",
-    "value": 152
+    "value": 154
    },
    {
     "name": "andrew16a",
@@ -576,12 +576,12 @@
     "value": 65
    },
    {
-    "name": "irysse",
-    "value": 61
+    "name": ".Libellule",
+    "value": 62
    },
    {
-    "name": ".Libellule",
-    "value": 60
+    "name": "irysse",
+    "value": 61
    },
    {
     "name": "Pporappippam",
@@ -636,6 +636,10 @@
     "value": 12
    },
    {
+    "name": "Imondi",
+    "value": 12
+   },
+   {
     "name": "Kaykay3208",
     "value": 12
    },
@@ -646,10 +650,6 @@
    {
     "name": "Rock_2000",
     "value": 11
-   },
-   {
-    "name": "Imondi",
-    "value": 10
    },
    {
     "name": "Alejandro721",
