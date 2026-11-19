@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T15:22:32+00:00",
+ "updated": "2026-11-19T15:24:33+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -104,6 +104,10 @@
     "value": 2
    },
    {
+    "name": "Pantheon_",
+    "value": 2
+   },
+   {
     "name": "Proxymore",
     "value": 2
    },
@@ -129,10 +133,6 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 1
-   },
-   {
-    "name": "Pantheon_",
     "value": 1
    },
    {
@@ -242,6 +242,10 @@
     "value": 2
    },
    {
+    "name": "Pantheon_",
+    "value": 2
+   },
+   {
     "name": "Proxymore",
     "value": 2
    },
@@ -270,10 +274,6 @@
     "value": 1
    },
    {
-    "name": "Pantheon_",
-    "value": 1
-   },
-   {
     "name": "toussainthanae",
     "value": 1
    }
@@ -283,34 +283,34 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 719
+    "value": 721
    },
    {
     "name": "fym",
-    "value": 556
+    "value": 558
    },
    {
     "name": "Pantheon_",
-    "value": 350
+    "value": 351
    },
    {
     "name": "Shizuku",
     "value": 281
    },
    {
+    "name": "marinadrk",
+    "value": 215
+   },
+   {
     "name": "charlie-XCX123",
     "value": 213
    },
    {
-    "name": "marinadrk",
-    "value": 213
+    "name": "Lovepanda",
+    "value": 179
    },
    {
     "name": "Astreu",
-    "value": 178
-   },
-   {
-    "name": "Lovepanda",
     "value": 178
    },
    {
@@ -331,7 +331,7 @@
    },
    {
     "name": "Fleabag",
-    "value": 107
+    "value": 109
    },
    {
     "name": "Non-Non",
@@ -390,12 +390,12 @@
     "value": 45
    },
    {
-    "name": "alexandre-780",
+    "name": ".Libellule",
     "value": 41
    },
    {
-    "name": ".Libellule",
-    "value": 39
+    "name": "alexandre-780",
+    "value": 41
    },
    {
     "name": "BOuclette.13",
@@ -481,34 +481,34 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 719
+    "value": 721
    },
    {
     "name": "fym",
-    "value": 556
+    "value": 558
    },
    {
     "name": "Pantheon_",
-    "value": 350
+    "value": 351
    },
    {
     "name": "Shizuku",
     "value": 281
    },
    {
+    "name": "marinadrk",
+    "value": 215
+   },
+   {
     "name": "charlie-XCX123",
     "value": 213
    },
    {
-    "name": "marinadrk",
-    "value": 213
+    "name": "Lovepanda",
+    "value": 179
    },
    {
     "name": "Astreu",
-    "value": 178
-   },
-   {
-    "name": "Lovepanda",
     "value": 178
    },
    {
@@ -529,7 +529,7 @@
    },
    {
     "name": "Fleabag",
-    "value": 107
+    "value": 109
    },
    {
     "name": "Non-Non",
@@ -588,12 +588,12 @@
     "value": 45
    },
    {
-    "name": "alexandre-780",
+    "name": ".Libellule",
     "value": 41
    },
    {
-    "name": ".Libellule",
-    "value": 39
+    "name": "alexandre-780",
+    "value": 41
    },
    {
     "name": "BOuclette.13",
