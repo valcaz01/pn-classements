@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T20:48:33+00:00",
+ "updated": "2026-11-19T20:50:33+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -28,16 +28,16 @@
     "value": 11
    },
    {
+    "name": ".:Krustiz:.",
+    "value": 10
+   },
+   {
     "name": "Lovepanda",
     "value": 10
    },
    {
     "name": "Proxymore",
     "value": 10
-   },
-   {
-    "name": ".:Krustiz:.",
-    "value": 9
    },
    {
     "name": "andrew16a",
@@ -64,16 +64,16 @@
     "value": 7
    },
    {
+    "name": "flo578",
+    "value": 7
+   },
+   {
     "name": "irysse",
     "value": 7
    },
    {
     "name": "Non-Non",
     "value": 7
-   },
-   {
-    "name": "flo578",
-    "value": 6
    },
    {
     "name": "Pantheon_",
@@ -186,16 +186,16 @@
     "value": 11
    },
    {
+    "name": ".:Krustiz:.",
+    "value": 10
+   },
+   {
     "name": "Lovepanda",
     "value": 10
    },
    {
     "name": "Proxymore",
     "value": 10
-   },
-   {
-    "name": ".:Krustiz:.",
-    "value": 9
    },
    {
     "name": "andrew16a",
@@ -222,16 +222,16 @@
     "value": 7
    },
    {
+    "name": "flo578",
+    "value": 7
+   },
+   {
     "name": "irysse",
     "value": 7
    },
    {
     "name": "Non-Non",
     "value": 7
-   },
-   {
-    "name": "flo578",
-    "value": 6
    },
    {
     "name": "Pantheon_",
@@ -339,7 +339,7 @@
    },
    {
     "name": "Shizuku",
-    "value": 300
+    "value": 302
    },
    {
     "name": "Fleabag",
@@ -347,7 +347,7 @@
    },
    {
     "name": "Lovepanda",
-    "value": 265
+    "value": 266
    },
    {
     "name": "Astreu",
@@ -367,7 +367,7 @@
    },
    {
     "name": "Non-Non",
-    "value": 176
+    "value": 177
    },
    {
     "name": "-Tsukiri-",
@@ -422,12 +422,12 @@
     "value": 65
    },
    {
-    "name": "Pporappippam",
-    "value": 52
+    "name": "Proxymore",
+    "value": 53
    },
    {
-    "name": "Proxymore",
-    "value": 51
+    "name": "Pporappippam",
+    "value": 52
    },
    {
     "name": "BOuclette.13",
@@ -541,7 +541,7 @@
    },
    {
     "name": "Shizuku",
-    "value": 300
+    "value": 302
    },
    {
     "name": "Fleabag",
@@ -549,7 +549,7 @@
    },
    {
     "name": "Lovepanda",
-    "value": 265
+    "value": 266
    },
    {
     "name": "Astreu",
@@ -569,7 +569,7 @@
    },
    {
     "name": "Non-Non",
-    "value": 176
+    "value": 177
    },
    {
     "name": "-Tsukiri-",
@@ -624,12 +624,12 @@
     "value": 65
    },
    {
-    "name": "Pporappippam",
-    "value": 52
+    "name": "Proxymore",
+    "value": 53
    },
    {
-    "name": "Proxymore",
-    "value": 51
+    "name": "Pporappippam",
+    "value": 52
    },
    {
     "name": "BOuclette.13",
