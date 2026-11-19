@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T13:18:31+00:00",
+ "updated": "2026-11-19T13:20:31+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -315,7 +315,7 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 76
+    "value": 77
    },
    {
     "name": "habbo22t",
@@ -378,6 +378,10 @@
     "value": 17
    },
    {
+    "name": "Fleabag",
+    "value": 13
+   },
+   {
     "name": "-Oiseau",
     "value": 12
    },
@@ -388,10 +392,6 @@
    {
     "name": "YzEnRodeo",
     "value": 12
-   },
-   {
-    "name": "Fleabag",
-    "value": 11
    },
    {
     "name": "Robotor",
@@ -422,15 +422,15 @@
     "value": 7
    },
    {
+    "name": "Sooso",
+    "value": 4
+   },
+   {
     "name": "habbo7-3-87",
     "value": 2
    },
    {
     "name": "Piingouin.",
-    "value": 2
-   },
-   {
-    "name": "Sooso",
     "value": 2
    }
   ],
@@ -501,7 +501,7 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 76
+    "value": 77
    },
    {
     "name": "habbo22t",
@@ -564,6 +564,10 @@
     "value": 17
    },
    {
+    "name": "Fleabag",
+    "value": 13
+   },
+   {
     "name": "-Oiseau",
     "value": 12
    },
@@ -574,10 +578,6 @@
    {
     "name": "YzEnRodeo",
     "value": 12
-   },
-   {
-    "name": "Fleabag",
-    "value": 11
    },
    {
     "name": "Robotor",
@@ -608,15 +608,15 @@
     "value": 7
    },
    {
+    "name": "Sooso",
+    "value": 4
+   },
+   {
     "name": "habbo7-3-87",
     "value": 2
    },
    {
     "name": "Piingouin.",
-    "value": 2
-   },
-   {
-    "name": "Sooso",
     "value": 2
    }
   ]
