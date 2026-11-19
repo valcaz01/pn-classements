@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T14:10:33+00:00",
+ "updated": "2026-11-19T14:12:33+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 20
+    "value": 21
    },
    {
     "name": "fym",
@@ -131,7 +131,7 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 20
+    "value": 21
    },
    {
     "name": "fym",
@@ -267,7 +267,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 293
+    "value": 295
    },
    {
     "name": "Shizuku",
@@ -279,7 +279,7 @@
    },
    {
     "name": "marinadrk",
-    "value": 196
+    "value": 197
    },
    {
     "name": "Astreu",
@@ -347,7 +347,7 @@
    },
    {
     "name": "Fleabag",
-    "value": 50
+    "value": 51
    },
    {
     "name": "Mr.Dino",
@@ -465,7 +465,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 293
+    "value": 295
    },
    {
     "name": "Shizuku",
@@ -477,7 +477,7 @@
    },
    {
     "name": "marinadrk",
-    "value": 196
+    "value": 197
    },
    {
     "name": "Astreu",
@@ -545,7 +545,7 @@
    },
    {
     "name": "Fleabag",
-    "value": 50
+    "value": 51
    },
    {
     "name": "Mr.Dino",
