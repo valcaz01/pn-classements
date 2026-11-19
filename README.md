@@ -28,7 +28,7 @@ Les erreurs techniques complètes restent dans les logs du serveur.
 Le salon privé `to-do-list` de la Direction affiche une carte par tâche ouverte.
 Le tableau indique combien de tâches restent à faire et combien sont en cours.
 Chaque carte indique le responsable, l’état et la priorité. Le tableau se
-prolonge dans des messages supplémentaires lorsque huit cartes sont affichées.
+prolonge dans des messages supplémentaires au-delà de huit cartes.
 
 « Ajouter une tâche » ouvre une liste privée de responsables ayant le rôle
 Direction et accès au salon. « Rechercher par pseudo » permet aussi de retrouver
@@ -46,8 +46,8 @@ responsable une fois par jour à partir de 18 h, heure de Paris, pour ses tâche
 ouvertes depuis au moins 24 heures. Les mentions et les rappels arrivent dans
 le fil « 🔔 Notifications des tâches » rattaché au tableau épinglé.
 Les anciens avis du bot y sont transférés silencieusement. Après un échange
-dans le salon, le tableau réapparaît en bas, avec ses boutons. Le lien de
-l’épingle reste permanent. Les confirmations privées disparaissent après dix
+dans le salon, le tableau réapparaît en bas, avec ses boutons. L’épingle
+renvoie alors vers les cartes et garde son adresse permanente. Les confirmations privées disparaissent après dix
 secondes et les listes privées se ferment automatiquement.
 
 GitHub reste la source lue par le forum : pendant son indisponibilité, le forum

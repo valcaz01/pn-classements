@@ -154,17 +154,21 @@ def list_embeds(rows, total, page, title, archived=False):
     for row in rows:
         label = discord.utils.escape_markdown(discord.utils.escape_mentions(row["title"]))
         priority, emoji = PRIORITIES[row["priority"]]
-        card = discord.Embed(description=f"**{label}**", color=PRIORITY_COLORS[row["priority"]])
+        card = discord.Embed(color=PRIORITY_COLORS[row["priority"]])
+        if len(label.encode("utf-16-le")) <= 512:  # Un titre Discord accepte 256 unités UTF-16.
+            card.title = label
+        else:
+            card.description = f"**{label}**"
         card.add_field(name="Responsable", value=f'<@{row["assignee"]}>')
         state = "En cours" if row["started"] is not None else "À faire"
         if archived:
             closed = "completed" if row["completed"] is not None else "cancelled"
             state = "Terminée" if closed == "completed" else "Annulée"
-        card.add_field(name="État", value=state)
+        card.add_field(name="Avancement", value=state)
         if archived:
             stamp = datetime.fromtimestamp(row[closed], PARIS).strftime("%d/%m/%Y à %H:%M")
             card.add_field(name="Clôture", value=f'<@{row[closed + "_by"]}> · {stamp} (Paris)', inline=False)
-        card.set_footer(text=f'{emoji} Priorité {priority.lower()}  ·  #{row["id"]}')
+        card.set_footer(text=f'{emoji} Priorité {priority.lower()}  ·  Tâche #{row["id"]}')
         embeds.append(card)
     return embeds
 
@@ -217,13 +221,19 @@ class MemberSearch(discord.ui.Modal, title="Rechercher dans la Direction"):
     name_prefix = discord.ui.Label(text="Début du pseudo ou du surnom",
                                    component=discord.ui.TextInput(max_length=32))
 
-    def __init__(self, board):
+    def __init__(self, board, previous_reply):
         super().__init__(timeout=600)
         self.board = board
+        self.previous_reply = previous_reply
 
     async def on_submit(self, interaction):
         if await self.board.authorize(interaction):
             await self.board.show_assignees(interaction, self.name_prefix.component.value.strip().lstrip("@"))
+            if self.previous_reply is not None:
+                try:
+                    await self.previous_reply.delete()
+                except discord.HTTPException:
+                    pass
 
 
 class AssigneePicker(discord.ui.View):
@@ -277,7 +287,7 @@ class AssigneePicker(discord.ui.View):
 
     @discord.ui.button(label="Rechercher par pseudo", emoji="🔎", row=1)
     async def search(self, interaction, button):
-        await interaction.response.send_modal(MemberSearch(self.board))
+        await interaction.response.send_modal(MemberSearch(self.board, self.reply))
 
 
 class TaskList(discord.ui.View):
@@ -526,9 +536,22 @@ class DirectionBoard:
             self.store.remember(setting, message.id)
         return message
 
-    async def panel(self, channel, *, after_id=None):
+    async def discard_page(self, channel, key, title):
+        saved = self.store.setting(key)
+        if saved:
+            try:
+                message = await channel.fetch_message(int(saved))
+                if (message.author.id != self.client.user.id or not message.embeds
+                        or message.embeds[0].title != title):
+                    raise RuntimeError("Le message enregistré ne correspond pas à la page du tableau.")
+                await message.delete()
+            except discord.NotFound:
+                pass
+            self.store.remember(key, "")
+
+    async def panel(self, channel, *, after_id=None, link_to=None):
         prefix, heading = ("panel", PANEL_TITLE) if after_id is None else ("visible", VISIBLE_TITLE)
-        rows = self.store.open_tasks()
+        rows = [] if link_to else self.store.open_tasks()
         total = len(rows)
         started = sum(row["started"] is not None for row in rows)
         count = max(1, (total + PAGE_SIZE - 1) // PAGE_SIZE)
@@ -538,7 +561,10 @@ class DirectionBoard:
         for page in range(count):
             title = heading if page == 0 else f"{heading} · suite {page + 1}"
             embeds = list_embeds(rows[page * PAGE_SIZE:(page + 1) * PAGE_SIZE], total, page, title)
-            if total:
+            if link_to:
+                destination = f"https://discord.com/channels/{self.guild_id}/{channel.id}/{link_to}"
+                embeds[0].description = f"[Ouvrir le tableau à jour ↗]({destination})"
+            elif total:
                 embeds[0].description = f"**{total - started}** à faire　·　**{started}** en cours"
             else:
                 embeds[0].description = "Aucune tâche en attente. Utilise **Ajouter une tâche** pour en attribuer une."
@@ -548,22 +574,11 @@ class DirectionBoard:
             if page + 1 > previous_count:
                 self.store.remember(count_key, page + 1)
             part = await self.panel_message(channel, embeds, prefix if page == 0 else f"{prefix}_{page + 1}",
-                                            self.buttons if page == 0 else None, after_id)
+                                            self.buttons if page == 0 and not link_to else None, after_id)
             if page == 0:
                 message = part
         for page in range(count, previous_count):
-            setting = f"{prefix}_{page + 1}"
-            saved = self.store.setting(setting)
-            if saved:
-                try:
-                    extra = await channel.fetch_message(int(saved))
-                    if extra.author.id != self.client.user.id or not any(
-                            e.title == f"{heading} · suite {page + 1}" for e in extra.embeds):
-                        raise RuntimeError("Le message supplémentaire ne correspond pas au tableau.")
-                    await extra.delete()
-                except discord.NotFound:
-                    pass
-                self.store.remember(setting, "")
+            await self.discard_page(channel, f"{prefix}_{page + 1}", f"{heading} · suite {page + 1}")
         self.store.remember(count_key, count)
         if after_id is None and not message.pinned and channel.permissions_for(channel.guild.me).pin_messages:
             try:
@@ -573,22 +588,26 @@ class DirectionBoard:
         return message
 
     async def keep_visible(self, channel, panel):
-        # L’épingle garde son URL. Une seule copie suit les échanges au bas du salon.
-        saved = self.store.setting("visible_after")
-        boundary = max(int(saved or 0), panel.id)
-        async for recent in channel.history(after=discord.Object(id=boundary), limit=None, oldest_first=False):
-            if recent.id <= boundary or recent.type not in (discord.MessageType.default, discord.MessageType.reply):
+        # Le lien de l’épingle reste permanent, même quand les cartes suivent une discussion.
+        previous = self.store.setting("visible")
+        async for recent in channel.history(after=panel, limit=None, oldest_first=False):
+            if recent.id <= panel.id or recent.type not in (discord.MessageType.default, discord.MessageType.reply):
                 continue
             if recent.author.id == self.client.user.id and recent.embeds:
                 title = recent.embeds[0].title or ""
                 if any(title == root or title.startswith(root + " · suite ") for root in (PANEL_TITLE, VISIBLE_TITLE)):
                     continue
-            boundary = recent.id
-            break
-        if boundary > panel.id:
-            await self.panel(channel, after_id=boundary)
-            if saved != str(boundary):
-                self.store.remember("visible_after", boundary)
+            visible = await self.panel(channel, after_id=recent.id)
+            if previous != str(visible.id):
+                await self.panel(channel, link_to=visible.id)
+            return
+        if previous:
+            await self.panel(channel)
+            count = int(self.store.setting("visible_count") or 1)
+            for page in range(count, 1, -1):
+                await self.discard_page(channel, f"visible_{page}", f"{VISIBLE_TITLE} · suite {page}")
+            await self.discard_page(channel, "visible", VISIBLE_TITLE)
+            self.store.remember("visible_count", 0)
 
     async def notification_thread(self, panel):
         thread = panel.thread
@@ -621,14 +640,16 @@ class DirectionBoard:
             copies = {}
             async for copy in thread.history(limit=None):
                 if (copy.author.id == self.client.user.id and copy.reference and
-                        copy.reference.type == discord.MessageReferenceType.forward and copy.message_snapshots):
+                        copy.reference.type == discord.MessageReferenceType.forward and copy.flags.forwarded):
                     copies[copy.reference.message_id] = copy
             for msg in notices:
                 copy = copies.get(msg.id)
                 if copy is None:
                     copy = await thread.send(reference=msg.to_reference(type=discord.MessageReferenceType.forward),
                                              silent=True, allowed_mentions=discord.AllowedMentions.none())
-                if not any(s.content == msg.content and s.embeds == msg.embeds for s in copy.message_snapshots):
+                # Discord atteste la copie immuable par le drapeau et la référence au message source.
+                if not (copy.flags.forwarded and copy.reference and copy.reference.message_id == msg.id
+                        and copy.reference.type == discord.MessageReferenceType.forward):
                     raise RuntimeError("Discord n’a pas confirmé la copie de l’avis dans le fil.")
                 title = msg.embeds[0].title
                 if title.startswith("Nouvelle tâche #"):
@@ -724,12 +745,12 @@ class DirectionBoard:
             if self.store is None:
                 self.store = TaskStore(self.path)
             channel = await self.channel()
-            message = await self.panel(channel)
+            message = await self.panel(channel, link_to=self.store.setting("visible"))
             try:
                 thread = await self.notification_thread(message)
                 if self.store.setting("notification_thread") != str(thread.id):
                     self.store.remember("notification_thread", thread.id)
-                    message = await self.panel(channel)
+                    message = await self.panel(channel, link_to=self.store.setting("visible"))
                 try:
                     await self.archive_public_notices(channel, thread, message)
                 except (discord.HTTPException, RuntimeError):

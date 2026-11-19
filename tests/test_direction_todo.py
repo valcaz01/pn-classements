@@ -94,7 +94,7 @@ class DirectionTests(unittest.IsolatedAsyncioTestCase):
         rows, count, _ = self.board.store.page(bob.id)
         self.assertEqual((count, rows[0]["creator"], rows[0]["title"]), (1, alice.id, "Relire la notice"))
         self.assertEqual(rows[0]["priority"], 1)
-        self.assertIn("Relire la notice", TaskList(self.board, bob.id, True).embeds[1].description)
+        self.assertEqual(TaskList(self.board, bob.id, True).embeds[1].title, "Relire la notice")
         self.assertFalse(self.board.store.start(rows[0]["id"], alice.id, self.now))
         self.assertTrue(self.board.store.start(rows[0]["id"], bob.id, self.now))
         self.assertEqual(TaskList(self.board, bob.id, True).embeds[1].fields[1].value, "En cours")
@@ -281,7 +281,7 @@ class DirectionTests(unittest.IsolatedAsyncioTestCase):
         self.assertFalse(self.board.store.cancel(task_id, charlie.id, self.now))
         history = TaskList(self.board, alice.id, False, history=True)
         fields = {f.name: f.value for f in history.embeds[1].fields}
-        self.assertEqual(fields["État"], "Annulée")
+        self.assertEqual(fields["Avancement"], "Annulée")
         self.assertEqual(fields["Responsable"], "<@20>")
         self.assertIn("<@30>", fields["Clôture"])
         self.assertIn("(Paris)", fields["Clôture"])
@@ -364,7 +364,7 @@ class DirectionTests(unittest.IsolatedAsyncioTestCase):
         self.assertEqual(list(posted), [old.id])
         self.assertTrue(old.pinned)
         self.assertEqual(old.embeds[0].description, "**1** à faire　·　**1** en cours")
-        self.assertEqual([e.description for e in old.embeds[1:]], ["**Préparer la réunion**", "**Relire le règlement**"])
+        self.assertEqual([e.title for e in old.embeds[1:]], ["Préparer la réunion", "Relire le règlement"])
         self.assertEqual([f.value for f in old.embeds[1].fields], ["<@30>", "À faire"])
         self.assertEqual([f.value for f in old.embeds[2].fields], ["<@20>", "En cours"])
         await self.board.panel(self.channel)
@@ -382,9 +382,12 @@ class DirectionTests(unittest.IsolatedAsyncioTestCase):
         self.assertGreater(visible.id, chat.id)
         self.assertFalse(visible.pinned)
         self.assertTrue(visible.components)
+        self.assertFalse(original.components)
+        self.assertIn("Ouvrir le tableau à jour", original.embeds[0].description)
+        self.assertIn(str(visible.id), original.embeds[0].description)
         self.board.store.add(2, "Une tâche", 10, 20, self.now)
         await self.board.keep_visible(self.channel, original)
-        self.assertEqual(visible.embeds[1].description, "**Une tâche**")
+        self.assertEqual(visible.embeds[1].title, "Une tâche")
         chat2 = await self.channel.send(embed=discord.Embed(description="Deuxième message"))
         chat2.author = self.member(30)
         remember = self.board.store.remember
@@ -401,6 +404,12 @@ class DirectionTests(unittest.IsolatedAsyncioTestCase):
         self.assertGreater(newest, chat2.id)
         self.assertEqual(self.board.store.setting("panel"), str(original.id))
         self.assertTrue(original.pinned)
+        # Si la discussion n’est plus là, une seule vue complète reste dans le salon.
+        del posted[chat.id], posted[chat2.id]
+        await self.board.keep_visible(self.channel, original)
+        self.assertEqual(list(posted), [original.id])
+        self.assertTrue(original.components)
+        self.assertEqual(original.embeds[1].title, "Une tâche")
 
     async def test_thread_is_attached_to_the_pin_and_receives_assignments_and_reminders(self):
         panel = SimpleNamespace(thread=None, channel=self.channel)
@@ -430,7 +439,7 @@ class DirectionTests(unittest.IsolatedAsyncioTestCase):
         notice.delete = AsyncMock(side_effect=[OSError("Interrompu"), None])
         ref = SimpleNamespace(type=discord.MessageReferenceType.forward, message_id=notice.id)
         notice.to_reference.return_value = ref
-        archived = SimpleNamespace(id=90, reference=ref, author=self.board.client.user,
+        archived = SimpleNamespace(id=90, reference=ref, author=self.board.client.user, flags=SimpleNamespace(forwarded=True),
             message_snapshots=[SimpleNamespace(content=notice.content, embeds=notice.embeds)])
         chat = MagicMock(author=self.member(30), delete=AsyncMock())
         thread = MagicMock(id=70)
