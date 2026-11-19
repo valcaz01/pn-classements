@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T12:50:31+00:00",
+ "updated": "2026-11-19T12:52:31+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -44,6 +44,10 @@
     "value": 6
    },
    {
+    "name": "Non-Non",
+    "value": 6
+   },
+   {
     "name": ".:Krustiz:.",
     "value": 5
    },
@@ -62,10 +66,6 @@
    {
     "name": "Mr.Dino",
     "value": 5
-   },
-   {
-    "name": "Non-Non",
-    "value": 4
    },
    {
     "name": "Piingouin.",
@@ -166,6 +166,10 @@
     "value": 6
    },
    {
+    "name": "Non-Non",
+    "value": 6
+   },
+   {
     "name": ".:Krustiz:.",
     "value": 5
    },
@@ -184,10 +188,6 @@
    {
     "name": "Mr.Dino",
     "value": 5
-   },
-   {
-    "name": "Non-Non",
-    "value": 4
    },
    {
     "name": "Piingouin.",
@@ -307,7 +307,7 @@
    },
    {
     "name": "Non-Non",
-    "value": 93
+    "value": 94
    },
    {
     "name": "flo578",
@@ -331,7 +331,7 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 52
+    "value": 54
    },
    {
     "name": "Pporappippam",
@@ -362,15 +362,15 @@
     "value": 22
    },
    {
+    "name": "pohabbooq05-1",
+    "value": 18
+   },
+   {
     "name": "gotica",
     "value": 17
    },
    {
     "name": "pititchatoncute",
-    "value": 17
-   },
-   {
-    "name": "pohabbooq05-1",
     "value": 17
    },
    {
@@ -485,7 +485,7 @@
    },
    {
     "name": "Non-Non",
-    "value": 93
+    "value": 94
    },
    {
     "name": "flo578",
@@ -509,7 +509,7 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 52
+    "value": 54
    },
    {
     "name": "Pporappippam",
@@ -540,15 +540,15 @@
     "value": 22
    },
    {
+    "name": "pohabbooq05-1",
+    "value": 18
+   },
+   {
     "name": "gotica",
     "value": 17
    },
    {
     "name": "pititchatoncute",
-    "value": 17
-   },
-   {
-    "name": "pohabbooq05-1",
     "value": 17
    },
    {
