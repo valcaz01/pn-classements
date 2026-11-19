@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T14:44:32+00:00",
+ "updated": "2026-11-19T14:46:33+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -267,7 +267,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 321
+    "value": 323
    },
    {
     "name": "Shizuku",
@@ -323,7 +323,7 @@
    },
    {
     "name": "Fleabag",
-    "value": 79
+    "value": 81
    },
    {
     "name": "Monsieur-RF",
@@ -351,7 +351,7 @@
    },
    {
     "name": "irysse",
-    "value": 49
+    "value": 51
    },
    {
     "name": "Mr.Dino",
@@ -374,16 +374,20 @@
     "value": 35
    },
    {
+    "name": ".Libellule",
+    "value": 32
+   },
+   {
     "name": "Postillon",
     "value": 32
    },
    {
-    "name": ".Libellule",
-    "value": 30
-   },
-   {
     "name": "Sciel",
     "value": 22
+   },
+   {
+    "name": "BOuclette.13",
+    "value": 18
    },
    {
     "name": "pohabbooq05-1",
@@ -396,10 +400,6 @@
    {
     "name": "toussainthanae",
     "value": 17
-   },
-   {
-    "name": "BOuclette.13",
-    "value": 16
    },
    {
     "name": "-Oiseau",
@@ -465,7 +465,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 321
+    "value": 323
    },
    {
     "name": "Shizuku",
@@ -521,7 +521,7 @@
    },
    {
     "name": "Fleabag",
-    "value": 79
+    "value": 81
    },
    {
     "name": "Monsieur-RF",
@@ -549,7 +549,7 @@
    },
    {
     "name": "irysse",
-    "value": 49
+    "value": 51
    },
    {
     "name": "Mr.Dino",
@@ -572,16 +572,20 @@
     "value": 35
    },
    {
+    "name": ".Libellule",
+    "value": 32
+   },
+   {
     "name": "Postillon",
     "value": 32
    },
    {
-    "name": ".Libellule",
-    "value": 30
-   },
-   {
     "name": "Sciel",
     "value": 22
+   },
+   {
+    "name": "BOuclette.13",
+    "value": 18
    },
    {
     "name": "pohabbooq05-1",
@@ -594,10 +598,6 @@
    {
     "name": "toussainthanae",
     "value": 17
-   },
-   {
-    "name": "BOuclette.13",
-    "value": 16
    },
    {
     "name": "-Oiseau",
