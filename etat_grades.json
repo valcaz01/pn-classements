@@ -1003,9 +1003,9 @@
   "alertes": {},
   "depuis": null,
   "grade": null,
-  "humeur": "[C.I.A.] Agent-mescouill",
+  "humeur": "",
   "pseudo": "Mi,hermano",
-  "verifie": "2026-11-19T10:34:26+00:00"
+  "verifie": "2026-11-19T13:34:32+00:00"
  },
  "23966068": {
   "alertes": {},
@@ -1062,6 +1062,14 @@
   "humeur": "» I was meant to be beautiful »",
   "pseudo": "Kuz",
   "verifie": "2026-11-19T13:20:31+00:00"
+ },
+ "24029290": {
+  "alertes": {},
+  "depuis": null,
+  "grade": null,
+  "humeur": "810",
+  "pseudo": "mayliss_",
+  "verifie": "2026-11-19T13:34:32+00:00"
  },
  "24056302": {
   "alertes": {},
@@ -1941,7 +1949,7 @@
   "grade": null,
   "humeur": "",
   "pseudo": "mutarde",
-  "verifie": "2026-11-19T10:34:26+00:00"
+  "verifie": "2026-11-19T13:34:32+00:00"
  },
  "25297976": {
   "alertes": {},
@@ -2309,7 +2317,7 @@
   "grade": null,
   "humeur": "",
   "pseudo": "leilabastien34",
-  "verifie": "2026-11-19T10:34:26+00:00"
+  "verifie": "2026-11-19T13:34:32+00:00"
  },
  "25643748": {
   "alertes": {},
@@ -3357,7 +3365,7 @@
   "grade": null,
   "humeur": "",
   "pseudo": "Ibiscus",
-  "verifie": "2026-11-19T10:34:26+00:00"
+  "verifie": "2026-11-19T13:34:32+00:00"
  },
  "25964250": {
   "alertes": {},
@@ -4423,6 +4431,14 @@
   "pseudo": "Simplicite?",
   "verifie": "2026-11-19T11:04:20+00:00"
  },
+ "26042080": {
+  "alertes": {},
+  "depuis": null,
+  "grade": null,
+  "humeur": "Just a little trouble",
+  "pseudo": "NEMESIS!",
+  "verifie": "2026-11-19T13:34:32+00:00"
+ },
  "26042149": {
   "alertes": {},
   "depuis": null,
@@ -4557,7 +4573,7 @@
   "grade": null,
   "humeur": "",
   "pseudo": "HumbleGuy",
-  "verifie": "2026-11-19T10:34:26+00:00"
+  "verifie": "2026-11-19T13:34:32+00:00"
  },
  "26042425": {
   "alertes": {},
