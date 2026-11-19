@@ -61,7 +61,7 @@
   "grade": null,
   "humeur": "Misère..",
   "pseudo": "Instable,",
-  "verifie": "2026-11-19T07:20:20+00:00"
+  "verifie": "2026-11-19T10:20:26+00:00"
  },
  "11609224": {
   "alertes": {},
@@ -285,7 +285,7 @@
   "grade": null,
   "humeur": "Blodwyn Hipworth Winchester",
   "pseudo": "Drayne.",
-  "verifie": "2026-11-19T07:20:20+00:00"
+  "verifie": "2026-11-19T10:20:26+00:00"
  },
  "16767926": {
   "alertes": {},
@@ -693,7 +693,7 @@
   "grade": null,
   "humeur": "Lorn",
   "pseudo": "-Nespresso..",
-  "verifie": "2026-11-19T07:20:20+00:00"
+  "verifie": "2026-11-19T10:20:26+00:00"
  },
  "22783723": {
   "alertes": {},
@@ -1029,7 +1029,7 @@
   "grade": null,
   "humeur": "» I was meant to be beautiful »",
   "pseudo": "Kuz",
-  "verifie": "2026-11-19T07:20:20+00:00"
+  "verifie": "2026-11-19T10:20:26+00:00"
  },
  "24056302": {
   "alertes": {},
@@ -1141,7 +1141,7 @@
   "grade": null,
   "humeur": "[PN] Brigadier [Formation]",
   "pseudo": "Freminet",
-  "verifie": "2026-11-19T07:20:20+00:00"
+  "verifie": "2026-11-19T10:20:26+00:00"
  },
  "24148981": {
   "alertes": {},
@@ -1213,7 +1213,7 @@
   "grade": null,
   "humeur": "",
   "pseudo": "swtarth",
-  "verifie": "2026-11-19T07:20:20+00:00"
+  "verifie": "2026-11-19T10:20:26+00:00"
  },
  "24338506": {
   "alertes": {},
@@ -1581,7 +1581,7 @@
   "grade": "cadet",
   "humeur": "[PN] Cadet #AssistanteD'irysse",
   "pseudo": "Astreu",
-  "verifie": "2026-11-19T07:20:20+00:00"
+  "verifie": "2026-11-19T10:20:26+00:00"
  },
  "24897575": {
   "alertes": {},
@@ -1757,7 +1757,7 @@
   "grade": null,
   "humeur": "VIP",
   "pseudo": "OnlyOneGuest",
-  "verifie": "2026-11-19T07:20:20+00:00"
+  "verifie": "2026-11-19T10:20:26+00:00"
  },
  "25142734": {
   "alertes": {},
@@ -1925,7 +1925,7 @@
   "grade": null,
   "humeur": "[PN] Brigadier [Formation]",
   "pseudo": "alexandre-780",
-  "verifie": "2026-11-19T07:20:20+00:00"
+  "verifie": "2026-11-19T10:20:26+00:00"
  },
  "25324921": {
   "alertes": {},
@@ -2021,7 +2021,7 @@
   "grade": null,
   "humeur": "La Stidda : Padrino.",
   "pseudo": "Tony-Barzini",
-  "verifie": "2026-11-19T07:20:20+00:00"
+  "verifie": "2026-11-19T10:20:26+00:00"
  },
  "25454235": {
   "alertes": {},
@@ -2093,7 +2093,7 @@
   "grade": null,
   "humeur": "Guizmo - History X z",
   "pseudo": "OutLawz",
-  "verifie": "2026-11-19T07:20:20+00:00"
+  "verifie": "2026-11-19T10:20:26+00:00"
  },
  "25511614": {
   "alertes": {},
@@ -2374,6 +2374,14 @@
   "humeur": "",
   "pseudo": "Haeven",
   "verifie": "2026-11-19T08:52:20+00:00"
+ },
+ "25719754": {
+  "alertes": {},
+  "depuis": null,
+  "grade": null,
+  "humeur": "[C.I.A.] Sous-Directrice [SD] [4]",
+  "pseudo": "siyana",
+  "verifie": "2026-11-19T10:20:26+00:00"
  },
  "25724621": {
   "alertes": {},
@@ -2821,7 +2829,7 @@
   "grade": null,
   "humeur": "[PN] Recrue",
   "pseudo": "habbo22t",
-  "verifie": "2026-11-19T07:20:20+00:00"
+  "verifie": "2026-11-19T10:20:26+00:00"
  },
  "25883189": {
   "alertes": {},
@@ -2965,7 +2973,7 @@
   "grade": null,
   "humeur": "Sold out",
   "pseudo": "Variateur",
-  "verifie": "2026-11-19T07:20:20+00:00"
+  "verifie": "2026-11-19T10:20:26+00:00"
  },
  "25910983": {
   "alertes": {},
@@ -3037,7 +3045,7 @@
   "grade": null,
   "humeur": "",
   "pseudo": "Chahyy96",
-  "verifie": "2026-11-19T07:20:20+00:00"
+  "verifie": "2026-11-19T10:20:26+00:00"
  },
  "25928997": {
   "alertes": {},
@@ -3325,7 +3333,7 @@
   "grade": null,
   "humeur": "[F.B.I] Analyste Qualifié",
   "pseudo": "FDJ-Rebanned",
-  "verifie": "2026-11-19T07:20:20+00:00"
+  "verifie": "2026-11-19T10:20:26+00:00"
  },
  "25973213": {
   "alertes": {},
@@ -3453,7 +3461,7 @@
   "grade": null,
   "humeur": "[PN] Recrue",
   "pseudo": "gotica",
-  "verifie": "2026-11-19T07:20:20+00:00"
+  "verifie": "2026-11-19T10:20:26+00:00"
  },
  "25990370": {
   "alertes": {},
@@ -3783,6 +3791,14 @@
   "pseudo": "Kevin-P",
   "verifie": "2026-11-19T07:50:20+00:00"
  },
+ "26017514": {
+  "alertes": {},
+  "depuis": null,
+  "grade": null,
+  "humeur": "43 MARROKI",
+  "pseudo": "Ivarle1",
+  "verifie": "2026-11-19T10:20:26+00:00"
+ },
  "26017774": {
   "alertes": {},
   "depuis": null,
@@ -3829,7 +3845,7 @@
   "grade": null,
   "humeur": "[A] Soon",
   "pseudo": "NoxYe.",
-  "verifie": "2026-11-19T07:20:20+00:00"
+  "verifie": "2026-11-19T10:20:26+00:00"
  },
  "26020463": {
   "alertes": {},
@@ -3901,7 +3917,7 @@
   "grade": null,
   "humeur": "[PN] Recrue",
   "pseudo": "marinadrk",
-  "verifie": "2026-11-19T07:20:20+00:00"
+  "verifie": "2026-11-19T10:20:26+00:00"
  },
  "26025948": {
   "alertes": {},
@@ -4557,7 +4573,7 @@
   "grade": null,
   "humeur": "",
   "pseudo": "CocosJameshihi",
-  "verifie": "2026-11-19T07:20:20+00:00"
+  "verifie": "2026-11-19T10:20:26+00:00"
  },
  "6042300": {
   "alertes": {},
