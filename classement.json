@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T20:14:32+00:00",
+ "updated": "2026-11-19T20:16:32+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -16,11 +16,11 @@
     "value": 14
    },
    {
-    "name": "halos34",
-    "value": 12
+    "name": "Shizuku",
+    "value": 14
    },
    {
-    "name": "Shizuku",
+    "name": "halos34",
     "value": 12
    },
    {
@@ -104,6 +104,10 @@
     "value": 3
    },
    {
+    "name": "habbo22t",
+    "value": 3
+   },
+   {
     "name": "Pierre.Langlet",
     "value": 3
    },
@@ -138,10 +142,6 @@
    {
     "name": "OnlyOneGuest",
     "value": 2
-   },
-   {
-    "name": "habbo22t",
-    "value": 1
    },
    {
     "name": "HK83000",
@@ -174,11 +174,11 @@
     "value": 14
    },
    {
-    "name": "halos34",
-    "value": 12
+    "name": "Shizuku",
+    "value": 14
    },
    {
-    "name": "Shizuku",
+    "name": "halos34",
     "value": 12
    },
    {
@@ -262,6 +262,10 @@
     "value": 3
    },
    {
+    "name": "habbo22t",
+    "value": 3
+   },
+   {
     "name": "Pierre.Langlet",
     "value": 3
    },
@@ -296,10 +300,6 @@
    {
     "name": "OnlyOneGuest",
     "value": 2
-   },
-   {
-    "name": "habbo22t",
-    "value": 1
    },
    {
     "name": "HK83000",
@@ -343,7 +343,7 @@
    },
    {
     "name": "Fleabag",
-    "value": 276
+    "value": 278
    },
    {
     "name": "Lovepanda",
@@ -351,7 +351,7 @@
    },
    {
     "name": "Astreu",
-    "value": 234
+    "value": 235
    },
    {
     "name": "charlie-XCX123",
@@ -371,7 +371,7 @@
    },
    {
     "name": "-Tsukiri-",
-    "value": 164
+    "value": 166
    },
    {
     "name": "halos34",
@@ -383,7 +383,7 @@
    },
    {
     "name": "Icarem",
-    "value": 156
+    "value": 158
    },
    {
     "name": "andrew16a",
@@ -545,7 +545,7 @@
    },
    {
     "name": "Fleabag",
-    "value": 276
+    "value": 278
    },
    {
     "name": "Lovepanda",
@@ -553,7 +553,7 @@
    },
    {
     "name": "Astreu",
-    "value": 234
+    "value": 235
    },
    {
     "name": "charlie-XCX123",
@@ -573,7 +573,7 @@
    },
    {
     "name": "-Tsukiri-",
-    "value": 164
+    "value": 166
    },
    {
     "name": "halos34",
@@ -585,7 +585,7 @@
    },
    {
     "name": "Icarem",
-    "value": 156
+    "value": 158
    },
    {
     "name": "andrew16a",
