@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T17:52:32+00:00",
+ "updated": "2026-11-19T17:54:32+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -323,15 +323,15 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 253
+    "value": 255
    },
    {
     "name": "Fleabag",
-    "value": 250
+    "value": 252
    },
    {
     "name": "Lovepanda",
-    "value": 239
+    "value": 241
    },
    {
     "name": "marinadrk",
@@ -339,7 +339,7 @@
    },
    {
     "name": "charlie-XCX123",
-    "value": 221
+    "value": 222
    },
    {
     "name": "Astreu",
@@ -358,11 +358,11 @@
     "value": 143
    },
    {
-    "name": "Icarem",
-    "value": 134
+    "name": "Non-Non",
+    "value": 135
    },
    {
-    "name": "Non-Non",
+    "name": "Icarem",
     "value": 134
    },
    {
@@ -407,7 +407,7 @@
    },
    {
     "name": "gotica",
-    "value": 48
+    "value": 50
    },
    {
     "name": "Mr.Dino",
@@ -454,6 +454,10 @@
     "value": 17
    },
    {
+    "name": "Proxymore",
+    "value": 17
+   },
+   {
     "name": "toussainthanae",
     "value": 17
    },
@@ -463,10 +467,6 @@
    },
    {
     "name": "Imondi",
-    "value": 16
-   },
-   {
-    "name": "Proxymore",
     "value": 16
    },
    {
@@ -525,15 +525,15 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 253
+    "value": 255
    },
    {
     "name": "Fleabag",
-    "value": 250
+    "value": 252
    },
    {
     "name": "Lovepanda",
-    "value": 239
+    "value": 241
    },
    {
     "name": "marinadrk",
@@ -541,7 +541,7 @@
    },
    {
     "name": "charlie-XCX123",
-    "value": 221
+    "value": 222
    },
    {
     "name": "Astreu",
@@ -560,11 +560,11 @@
     "value": 143
    },
    {
-    "name": "Icarem",
-    "value": 134
+    "name": "Non-Non",
+    "value": 135
    },
    {
-    "name": "Non-Non",
+    "name": "Icarem",
     "value": 134
    },
    {
@@ -609,7 +609,7 @@
    },
    {
     "name": "gotica",
-    "value": 48
+    "value": 50
    },
    {
     "name": "Mr.Dino",
@@ -656,6 +656,10 @@
     "value": 17
    },
    {
+    "name": "Proxymore",
+    "value": 17
+   },
+   {
     "name": "toussainthanae",
     "value": 17
    },
@@ -665,10 +669,6 @@
    },
    {
     "name": "Imondi",
-    "value": 16
-   },
-   {
-    "name": "Proxymore",
     "value": 16
    },
    {
