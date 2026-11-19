@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T20:38:33+00:00",
+ "updated": "2026-11-19T20:40:33+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -338,11 +338,11 @@
     "value": 311
    },
    {
-    "name": "Fleabag",
-    "value": 291
+    "name": "Shizuku",
+    "value": 292
    },
    {
-    "name": "Shizuku",
+    "name": "Fleabag",
     "value": 291
    },
    {
@@ -540,11 +540,11 @@
     "value": 311
    },
    {
-    "name": "Fleabag",
-    "value": 291
+    "name": "Shizuku",
+    "value": 292
    },
    {
-    "name": "Shizuku",
+    "name": "Fleabag",
     "value": 291
    },
    {
