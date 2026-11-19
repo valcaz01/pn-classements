@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T19:52:33+00:00",
+ "updated": "2026-11-19T19:54:33+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -20,11 +20,11 @@
     "value": 12
    },
    {
-    "name": ".Libellule",
-    "value": 11
+    "name": "Shizuku",
+    "value": 12
    },
    {
-    "name": "Shizuku",
+    "name": ".Libellule",
     "value": 11
    },
    {
@@ -124,6 +124,10 @@
     "value": 2
    },
    {
+    "name": "Fleabag",
+    "value": 2
+   },
+   {
     "name": "ladypink.",
     "value": 2
    },
@@ -134,10 +138,6 @@
    {
     "name": "OnlyOneGuest",
     "value": 2
-   },
-   {
-    "name": "Fleabag",
-    "value": 1
    },
    {
     "name": "habbo22t",
@@ -178,11 +178,11 @@
     "value": 12
    },
    {
-    "name": ".Libellule",
-    "value": 11
+    "name": "Shizuku",
+    "value": 12
    },
    {
-    "name": "Shizuku",
+    "name": ".Libellule",
     "value": 11
    },
    {
@@ -282,6 +282,10 @@
     "value": 2
    },
    {
+    "name": "Fleabag",
+    "value": 2
+   },
+   {
     "name": "ladypink.",
     "value": 2
    },
@@ -292,10 +296,6 @@
    {
     "name": "OnlyOneGuest",
     "value": 2
-   },
-   {
-    "name": "Fleabag",
-    "value": 1
    },
    {
     "name": "habbo22t",
@@ -323,7 +323,7 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 775
+    "value": 777
    },
    {
     "name": "fym",
@@ -359,11 +359,11 @@
    },
    {
     "name": "Astreu",
-    "value": 218
+    "value": 220
    },
    {
     "name": "habbo22t",
-    "value": 175
+    "value": 177
    },
    {
     "name": "Non-Non",
@@ -383,7 +383,7 @@
    },
    {
     "name": "-Tsukiri-",
-    "value": 149
+    "value": 151
    },
    {
     "name": "andrew16a",
@@ -525,7 +525,7 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 775
+    "value": 777
    },
    {
     "name": "fym",
@@ -561,11 +561,11 @@
    },
    {
     "name": "Astreu",
-    "value": 218
+    "value": 220
    },
    {
     "name": "habbo22t",
-    "value": 175
+    "value": 177
    },
    {
     "name": "Non-Non",
@@ -585,7 +585,7 @@
    },
    {
     "name": "-Tsukiri-",
-    "value": 149
+    "value": 151
    },
    {
     "name": "andrew16a",
