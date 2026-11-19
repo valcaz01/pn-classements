@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T17:02:32+00:00",
+ "updated": "2026-11-19T17:04:33+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -44,15 +44,15 @@
     "value": 7
    },
    {
+    "name": "Non-Non",
+    "value": 7
+   },
+   {
     "name": ".Libellule",
     "value": 6
    },
    {
     "name": "irysse",
-    "value": 6
-   },
-   {
-    "name": "Non-Non",
     "value": 6
    },
    {
@@ -186,15 +186,15 @@
     "value": 7
    },
    {
+    "name": "Non-Non",
+    "value": 7
+   },
+   {
     "name": ".Libellule",
     "value": 6
    },
    {
     "name": "irysse",
-    "value": 6
-   },
-   {
-    "name": "Non-Non",
     "value": 6
    },
    {
@@ -295,7 +295,7 @@
    },
    {
     "name": "fym",
-    "value": 607
+    "value": 609
    },
    {
     "name": "Pantheon_",
@@ -319,11 +319,11 @@
    },
    {
     "name": "Fleabag",
-    "value": 203
+    "value": 205
    },
    {
     "name": "habbo-160-3",
-    "value": 203
+    "value": 205
    },
    {
     "name": "Astreu",
@@ -347,7 +347,7 @@
    },
    {
     "name": "Icarem",
-    "value": 104
+    "value": 105
    },
    {
     "name": "habbo22t",
@@ -458,6 +458,10 @@
     "value": 9
    },
    {
+    "name": "Pierre.Langlet",
+    "value": 9
+   },
+   {
     "name": "Freminet",
     "value": 7
    },
@@ -470,10 +474,6 @@
     "value": 7
    },
    {
-    "name": "Pierre.Langlet",
-    "value": 7
-   },
-   {
     "name": "Dragonforevor",
     "value": 5
    },
@@ -482,11 +482,11 @@
     "value": 4
    },
    {
-    "name": "habbo7-3-87",
-    "value": 2
+    "name": "Proxymore",
+    "value": 3
    },
    {
-    "name": "Piingouin.",
+    "name": "habbo7-3-87",
     "value": 2
    }
   ],
@@ -497,7 +497,7 @@
    },
    {
     "name": "fym",
-    "value": 607
+    "value": 609
    },
    {
     "name": "Pantheon_",
@@ -521,11 +521,11 @@
    },
    {
     "name": "Fleabag",
-    "value": 203
+    "value": 205
    },
    {
     "name": "habbo-160-3",
-    "value": 203
+    "value": 205
    },
    {
     "name": "Astreu",
@@ -549,7 +549,7 @@
    },
    {
     "name": "Icarem",
-    "value": 104
+    "value": 105
    },
    {
     "name": "habbo22t",
@@ -660,6 +660,10 @@
     "value": 9
    },
    {
+    "name": "Pierre.Langlet",
+    "value": 9
+   },
+   {
     "name": "Freminet",
     "value": 7
    },
@@ -672,10 +676,6 @@
     "value": 7
    },
    {
-    "name": "Pierre.Langlet",
-    "value": 7
-   },
-   {
     "name": "Dragonforevor",
     "value": 5
    },
@@ -684,11 +684,11 @@
     "value": 4
    },
    {
-    "name": "habbo7-3-87",
-    "value": 2
+    "name": "Proxymore",
+    "value": 3
    },
    {
-    "name": "Piingouin.",
+    "name": "habbo7-3-87",
     "value": 2
    }
   ]
