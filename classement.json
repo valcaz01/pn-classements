@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T18:52:33+00:00",
+ "updated": "2026-11-19T18:54:32+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -367,7 +367,7 @@
    },
    {
     "name": "Icarem",
-    "value": 146
+    "value": 148
    },
    {
     "name": "andrew16a",
@@ -375,23 +375,23 @@
    },
    {
     "name": "habbo22t",
-    "value": 131
+    "value": 133
    },
    {
     "name": "-Tsukiri-",
     "value": 116
    },
    {
+    "name": "gotica",
+    "value": 103
+   },
+   {
     "name": "Weavem",
     "value": 102
    },
    {
-    "name": "gotica",
-    "value": 101
-   },
-   {
     "name": "Monsieur-RF",
-    "value": 95
+    "value": 96
    },
    {
     "name": "flo578",
@@ -406,12 +406,12 @@
     "value": 67
    },
    {
-    "name": "sami75.19",
-    "value": 65
+    "name": "irysse",
+    "value": 66
    },
    {
-    "name": "irysse",
-    "value": 64
+    "name": "sami75.19",
+    "value": 65
    },
    {
     "name": "Pporappippam",
@@ -498,6 +498,10 @@
     "value": 9
    },
    {
+    "name": "Piingouin.",
+    "value": 9
+   },
+   {
     "name": "Freminet",
     "value": 7
    },
@@ -507,10 +511,6 @@
    },
    {
     "name": "Mixte",
-    "value": 7
-   },
-   {
-    "name": "Piingouin.",
     "value": 7
    }
   ],
@@ -569,7 +569,7 @@
    },
    {
     "name": "Icarem",
-    "value": 146
+    "value": 148
    },
    {
     "name": "andrew16a",
@@ -577,23 +577,23 @@
    },
    {
     "name": "habbo22t",
-    "value": 131
+    "value": 133
    },
    {
     "name": "-Tsukiri-",
     "value": 116
    },
    {
+    "name": "gotica",
+    "value": 103
+   },
+   {
     "name": "Weavem",
     "value": 102
    },
    {
-    "name": "gotica",
-    "value": 101
-   },
-   {
     "name": "Monsieur-RF",
-    "value": 95
+    "value": 96
    },
    {
     "name": "flo578",
@@ -608,12 +608,12 @@
     "value": 67
    },
    {
-    "name": "sami75.19",
-    "value": 65
+    "name": "irysse",
+    "value": 66
    },
    {
-    "name": "irysse",
-    "value": 64
+    "name": "sami75.19",
+    "value": 65
    },
    {
     "name": "Pporappippam",
@@ -700,6 +700,10 @@
     "value": 9
    },
    {
+    "name": "Piingouin.",
+    "value": 9
+   },
+   {
     "name": "Freminet",
     "value": 7
    },
@@ -709,10 +713,6 @@
    },
    {
     "name": "Mixte",
-    "value": 7
-   },
-   {
-    "name": "Piingouin.",
     "value": 7
    }
   ]
