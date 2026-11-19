@@ -205,7 +205,7 @@
   "grade": null,
   "humeur": "[R.F] Générale",
   "pseudo": "starlight22",
-  "verifie": "2026-11-19T05:32:20+00:00"
+  "verifie": "2026-11-19T08:32:20+00:00"
  },
  "15015810": {
   "alertes": {},
@@ -581,7 +581,7 @@
   "grade": null,
   "humeur": "[C.I.A.] Référent",
   "pseudo": "SMPSHomer",
-  "verifie": "2026-11-19T05:32:20+00:00"
+  "verifie": "2026-11-19T08:32:20+00:00"
  },
  "21543617": {
   "alertes": {},
@@ -629,7 +629,7 @@
   "grade": null,
   "humeur": "",
   "pseudo": "Bagley",
-  "verifie": "2026-11-19T05:32:20+00:00"
+  "verifie": "2026-11-19T08:32:20+00:00"
  },
  "22057754": {
   "alertes": {},
@@ -1277,7 +1277,7 @@
   "grade": null,
   "humeur": "[R.F] Journaliste",
   "pseudo": "momoboxings",
-  "verifie": "2026-11-19T05:32:20+00:00"
+  "verifie": "2026-11-19T08:32:20+00:00"
  },
  "24464313": {
   "alertes": {},
@@ -2366,6 +2366,14 @@
   "humeur": "",
   "pseudo": "Haeven",
   "verifie": "2026-11-19T05:52:19+00:00"
+ },
+ "25724621": {
+  "alertes": {},
+  "depuis": null,
+  "grade": null,
+  "humeur": "",
+  "pseudo": "coco2105",
+  "verifie": "2026-11-19T08:32:20+00:00"
  },
  "25725060": {
   "alertes": {},
