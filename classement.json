@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T20:50:33+00:00",
+ "updated": "2026-11-19T20:52:33+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 25
+    "value": 26
    },
    {
     "name": "fym",
@@ -24,12 +24,12 @@
     "value": 12
    },
    {
-    "name": ".Libellule",
+    "name": ".:Krustiz:.",
     "value": 11
    },
    {
-    "name": ".:Krustiz:.",
-    "value": 10
+    "name": ".Libellule",
+    "value": 11
    },
    {
     "name": "Lovepanda",
@@ -163,7 +163,7 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 25
+    "value": 26
    },
    {
     "name": "fym",
@@ -182,12 +182,12 @@
     "value": 12
    },
    {
-    "name": ".Libellule",
+    "name": ".:Krustiz:.",
     "value": 11
    },
    {
-    "name": ".:Krustiz:.",
-    "value": 10
+    "name": ".Libellule",
+    "value": 11
    },
    {
     "name": "Lovepanda",
@@ -339,7 +339,7 @@
    },
    {
     "name": "Shizuku",
-    "value": 302
+    "value": 303
    },
    {
     "name": "Fleabag",
@@ -347,7 +347,7 @@
    },
    {
     "name": "Lovepanda",
-    "value": 266
+    "value": 268
    },
    {
     "name": "Astreu",
@@ -367,7 +367,7 @@
    },
    {
     "name": "Non-Non",
-    "value": 177
+    "value": 179
    },
    {
     "name": "-Tsukiri-",
@@ -403,7 +403,7 @@
    },
    {
     "name": "flo578",
-    "value": 82
+    "value": 83
    },
    {
     "name": ".Libellule",
@@ -423,7 +423,7 @@
    },
    {
     "name": "Proxymore",
-    "value": 53
+    "value": 55
    },
    {
     "name": "Pporappippam",
@@ -541,7 +541,7 @@
    },
    {
     "name": "Shizuku",
-    "value": 302
+    "value": 303
    },
    {
     "name": "Fleabag",
@@ -549,7 +549,7 @@
    },
    {
     "name": "Lovepanda",
-    "value": 266
+    "value": 268
    },
    {
     "name": "Astreu",
@@ -569,7 +569,7 @@
    },
    {
     "name": "Non-Non",
-    "value": 177
+    "value": 179
    },
    {
     "name": "-Tsukiri-",
@@ -605,7 +605,7 @@
    },
    {
     "name": "flo578",
-    "value": 82
+    "value": 83
    },
    {
     "name": ".Libellule",
@@ -625,7 +625,7 @@
    },
    {
     "name": "Proxymore",
-    "value": 53
+    "value": 55
    },
    {
     "name": "Pporappippam",
