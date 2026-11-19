@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T10:07:56+00:00",
+ "updated": "2026-11-19T10:08:57+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -398,6 +398,10 @@
     "value": 8
    },
    {
+    "name": "Postillon",
+    "value": 8
+   },
+   {
     "name": "Freminet",
     "value": 7
    },
@@ -407,10 +411,6 @@
    },
    {
     "name": "Mixte",
-    "value": 7
-   },
-   {
-    "name": "Postillon",
     "value": 7
    },
    {
@@ -572,6 +572,10 @@
     "value": 8
    },
    {
+    "name": "Postillon",
+    "value": 8
+   },
+   {
     "name": "Freminet",
     "value": 7
    },
@@ -581,10 +585,6 @@
    },
    {
     "name": "Mixte",
-    "value": 7
-   },
-   {
-    "name": "Postillon",
     "value": 7
    },
    {
