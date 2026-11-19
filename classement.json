@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T13:16:31+00:00",
+ "updated": "2026-11-19T13:18:31+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -314,12 +314,12 @@
     "value": 82
    },
    {
-    "name": "habbo22t",
-    "value": 75
+    "name": "Monsieur-RF",
+    "value": 76
    },
    {
-    "name": "Monsieur-RF",
-    "value": 74
+    "name": "habbo22t",
+    "value": 75
    },
    {
     "name": "-Tsukiri-",
@@ -390,6 +390,10 @@
     "value": 12
    },
    {
+    "name": "Fleabag",
+    "value": 11
+   },
+   {
     "name": "Robotor",
     "value": 11
    },
@@ -399,10 +403,6 @@
    },
    {
     "name": "Alejandro721",
-    "value": 9
-   },
-   {
-    "name": "Fleabag",
     "value": 9
    },
    {
@@ -431,7 +431,7 @@
    },
    {
     "name": "Sooso",
-    "value": 1
+    "value": 2
    }
   ],
   "week": [
@@ -500,12 +500,12 @@
     "value": 82
    },
    {
-    "name": "habbo22t",
-    "value": 75
+    "name": "Monsieur-RF",
+    "value": 76
    },
    {
-    "name": "Monsieur-RF",
-    "value": 74
+    "name": "habbo22t",
+    "value": 75
    },
    {
     "name": "-Tsukiri-",
@@ -576,6 +576,10 @@
     "value": 12
    },
    {
+    "name": "Fleabag",
+    "value": 11
+   },
+   {
     "name": "Robotor",
     "value": 11
    },
@@ -585,10 +589,6 @@
    },
    {
     "name": "Alejandro721",
-    "value": 9
-   },
-   {
-    "name": "Fleabag",
     "value": 9
    },
    {
@@ -617,7 +617,7 @@
    },
    {
     "name": "Sooso",
-    "value": 1
+    "value": 2
    }
   ]
  }
