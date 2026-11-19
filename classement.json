@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T17:54:32+00:00",
+ "updated": "2026-11-19T17:56:32+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -13,11 +13,15 @@
    },
    {
     "name": "Icarem",
-    "value": 13
+    "value": 14
    },
    {
     "name": "halos34",
     "value": 12
+   },
+   {
+    "name": ".Libellule",
+    "value": 10
    },
    {
     "name": "Lovepanda",
@@ -30,10 +34,6 @@
    {
     "name": "andrew16a",
     "value": 9
-   },
-   {
-    "name": ".Libellule",
-    "value": 8
    },
    {
     "name": "charlie-XCX123",
@@ -64,12 +64,12 @@
     "value": 6
    },
    {
-    "name": "pevanq640",
+    "name": "Astreu",
     "value": 6
    },
    {
-    "name": "Astreu",
-    "value": 5
+    "name": "pevanq640",
+    "value": 6
    },
    {
     "name": "flo578",
@@ -121,6 +121,10 @@
    },
    {
     "name": "BakeryJuice",
+    "value": 2
+   },
+   {
+    "name": "ladypink.",
     "value": 2
    },
    {
@@ -163,11 +167,15 @@
    },
    {
     "name": "Icarem",
-    "value": 13
+    "value": 14
    },
    {
     "name": "halos34",
     "value": 12
+   },
+   {
+    "name": ".Libellule",
+    "value": 10
    },
    {
     "name": "Lovepanda",
@@ -180,10 +188,6 @@
    {
     "name": "andrew16a",
     "value": 9
-   },
-   {
-    "name": ".Libellule",
-    "value": 8
    },
    {
     "name": "charlie-XCX123",
@@ -214,12 +218,12 @@
     "value": 6
    },
    {
-    "name": "pevanq640",
+    "name": "Astreu",
     "value": 6
    },
    {
-    "name": "Astreu",
-    "value": 5
+    "name": "pevanq640",
+    "value": 6
    },
    {
     "name": "flo578",
@@ -271,6 +275,10 @@
    },
    {
     "name": "BakeryJuice",
+    "value": 2
+   },
+   {
+    "name": "ladypink.",
     "value": 2
    },
    {
@@ -323,7 +331,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 255
+    "value": 256
    },
    {
     "name": "Fleabag",
@@ -331,7 +339,7 @@
    },
    {
     "name": "Lovepanda",
-    "value": 241
+    "value": 243
    },
    {
     "name": "marinadrk",
@@ -359,7 +367,7 @@
    },
    {
     "name": "Non-Non",
-    "value": 135
+    "value": 137
    },
    {
     "name": "Icarem",
@@ -402,12 +410,12 @@
     "value": 62
    },
    {
-    "name": "Pporappippam",
+    "name": "gotica",
     "value": 52
    },
    {
-    "name": "gotica",
-    "value": 50
+    "name": "Pporappippam",
+    "value": 52
    },
    {
     "name": "Mr.Dino",
@@ -450,11 +458,11 @@
     "value": 18
    },
    {
-    "name": "pititchatoncute",
-    "value": 17
+    "name": "Proxymore",
+    "value": 18
    },
    {
-    "name": "Proxymore",
+    "name": "pititchatoncute",
     "value": 17
    },
    {
@@ -525,7 +533,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 255
+    "value": 256
    },
    {
     "name": "Fleabag",
@@ -533,7 +541,7 @@
    },
    {
     "name": "Lovepanda",
-    "value": 241
+    "value": 243
    },
    {
     "name": "marinadrk",
@@ -561,7 +569,7 @@
    },
    {
     "name": "Non-Non",
-    "value": 135
+    "value": 137
    },
    {
     "name": "Icarem",
@@ -604,12 +612,12 @@
     "value": 62
    },
    {
-    "name": "Pporappippam",
+    "name": "gotica",
     "value": 52
    },
    {
-    "name": "gotica",
-    "value": 50
+    "name": "Pporappippam",
+    "value": 52
    },
    {
     "name": "Mr.Dino",
@@ -652,11 +660,11 @@
     "value": 18
    },
    {
-    "name": "pititchatoncute",
-    "value": 17
+    "name": "Proxymore",
+    "value": 18
    },
    {
-    "name": "Proxymore",
+    "name": "pititchatoncute",
     "value": 17
    },
    {
