@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T17:28:33+00:00",
+ "updated": "2026-11-19T17:30:32+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -84,7 +84,15 @@
     "value": 4
    },
    {
+    "name": "Proxymore",
+    "value": 4
+   },
+   {
     "name": "alexandre-780",
+    "value": 3
+   },
+   {
+    "name": "Astreu",
     "value": 3
    },
    {
@@ -114,14 +122,6 @@
    {
     "name": "Pantheon_",
     "value": 2
-   },
-   {
-    "name": "Proxymore",
-    "value": 2
-   },
-   {
-    "name": "Astreu",
-    "value": 1
    },
    {
     "name": "Fleabag",
@@ -230,7 +230,15 @@
     "value": 4
    },
    {
+    "name": "Proxymore",
+    "value": 4
+   },
+   {
     "name": "alexandre-780",
+    "value": 3
+   },
+   {
+    "name": "Astreu",
     "value": 3
    },
    {
@@ -260,14 +268,6 @@
    {
     "name": "Pantheon_",
     "value": 2
-   },
-   {
-    "name": "Proxymore",
-    "value": 2
-   },
-   {
-    "name": "Astreu",
-    "value": 1
    },
    {
     "name": "Fleabag",
@@ -315,11 +315,11 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 229
+    "value": 231
    },
    {
     "name": "Fleabag",
-    "value": 226
+    "value": 228
    },
    {
     "name": "marinadrk",
@@ -351,11 +351,11 @@
    },
    {
     "name": "Icarem",
-    "value": 123
+    "value": 125
    },
    {
     "name": "Non-Non",
-    "value": 116
+    "value": 117
    },
    {
     "name": "habbo22t",
@@ -450,15 +450,15 @@
     "value": 16
    },
    {
+    "name": "ladypink.",
+    "value": 14
+   },
+   {
     "name": "-Oiseau",
     "value": 12
    },
    {
     "name": "Kaykay3208",
-    "value": 12
-   },
-   {
-    "name": "ladypink.",
     "value": 12
    },
    {
@@ -517,11 +517,11 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 229
+    "value": 231
    },
    {
     "name": "Fleabag",
-    "value": 226
+    "value": 228
    },
    {
     "name": "marinadrk",
@@ -553,11 +553,11 @@
    },
    {
     "name": "Icarem",
-    "value": 123
+    "value": 125
    },
    {
     "name": "Non-Non",
-    "value": 116
+    "value": 117
    },
    {
     "name": "habbo22t",
@@ -652,15 +652,15 @@
     "value": 16
    },
    {
+    "name": "ladypink.",
+    "value": 14
+   },
+   {
     "name": "-Oiseau",
     "value": 12
    },
    {
     "name": "Kaykay3208",
-    "value": 12
-   },
-   {
-    "name": "ladypink.",
     "value": 12
    },
    {
