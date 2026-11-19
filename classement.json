@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T17:46:33+00:00",
+ "updated": "2026-11-19T17:48:33+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -323,15 +323,15 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 247
+    "value": 249
    },
    {
     "name": "Fleabag",
-    "value": 244
+    "value": 246
    },
    {
     "name": "Lovepanda",
-    "value": 233
+    "value": 235
    },
    {
     "name": "marinadrk",
@@ -363,7 +363,7 @@
    },
    {
     "name": "Non-Non",
-    "value": 130
+    "value": 132
    },
    {
     "name": "habbo22t",
@@ -430,12 +430,12 @@
     "value": 35
    },
    {
-    "name": "Postillon",
-    "value": 32
+    "name": "Pierre.Langlet",
+    "value": 33
    },
    {
-    "name": "Pierre.Langlet",
-    "value": 31
+    "name": "Postillon",
+    "value": 32
    },
    {
     "name": "ladypink.",
@@ -458,12 +458,12 @@
     "value": 17
    },
    {
-    "name": "Imondi",
+    "name": "BakeryJuice",
     "value": 16
    },
    {
-    "name": "BakeryJuice",
-    "value": 14
+    "name": "Imondi",
+    "value": 16
    },
    {
     "name": "-Oiseau",
@@ -474,16 +474,16 @@
     "value": 12
    },
    {
+    "name": "Proxymore",
+    "value": 12
+   },
+   {
     "name": "Robotor",
     "value": 11
    },
    {
     "name": "Rock_2000",
     "value": 11
-   },
-   {
-    "name": "Proxymore",
-    "value": 10
    },
    {
     "name": "Alejandro721",
@@ -525,15 +525,15 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 247
+    "value": 249
    },
    {
     "name": "Fleabag",
-    "value": 244
+    "value": 246
    },
    {
     "name": "Lovepanda",
-    "value": 233
+    "value": 235
    },
    {
     "name": "marinadrk",
@@ -565,7 +565,7 @@
    },
    {
     "name": "Non-Non",
-    "value": 130
+    "value": 132
    },
    {
     "name": "habbo22t",
@@ -632,12 +632,12 @@
     "value": 35
    },
    {
-    "name": "Postillon",
-    "value": 32
+    "name": "Pierre.Langlet",
+    "value": 33
    },
    {
-    "name": "Pierre.Langlet",
-    "value": 31
+    "name": "Postillon",
+    "value": 32
    },
    {
     "name": "ladypink.",
@@ -660,12 +660,12 @@
     "value": 17
    },
    {
-    "name": "Imondi",
+    "name": "BakeryJuice",
     "value": 16
    },
    {
-    "name": "BakeryJuice",
-    "value": 14
+    "name": "Imondi",
+    "value": 16
    },
    {
     "name": "-Oiseau",
@@ -676,16 +676,16 @@
     "value": 12
    },
    {
+    "name": "Proxymore",
+    "value": 12
+   },
+   {
     "name": "Robotor",
     "value": 11
    },
    {
     "name": "Rock_2000",
     "value": 11
-   },
-   {
-    "name": "Proxymore",
-    "value": 10
    },
    {
     "name": "Alejandro721",
