@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T19:04:33+00:00",
+ "updated": "2026-11-19T19:06:33+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -44,6 +44,10 @@
     "value": 8
    },
    {
+    "name": "pevanq640",
+    "value": 8
+   },
+   {
     "name": "sami75.19",
     "value": 8
    },
@@ -69,10 +73,6 @@
    },
    {
     "name": "Pantheon_",
-    "value": 6
-   },
-   {
-    "name": "pevanq640",
     "value": 6
    },
    {
@@ -198,6 +198,10 @@
     "value": 8
    },
    {
+    "name": "pevanq640",
+    "value": 8
+   },
+   {
     "name": "sami75.19",
     "value": 8
    },
@@ -223,10 +227,6 @@
    },
    {
     "name": "Pantheon_",
-    "value": 6
-   },
-   {
-    "name": "pevanq640",
     "value": 6
    },
    {
@@ -327,7 +327,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 281
+    "value": 283
    },
    {
     "name": "Shizuku",
@@ -370,11 +370,11 @@
     "value": 155
    },
    {
-    "name": "andrew16a",
-    "value": 143
+    "name": "habbo22t",
+    "value": 145
    },
    {
-    "name": "habbo22t",
+    "name": "andrew16a",
     "value": 143
    },
    {
@@ -383,11 +383,11 @@
    },
    {
     "name": "gotica",
-    "value": 109
+    "value": 110
    },
    {
     "name": "Monsieur-RF",
-    "value": 106
+    "value": 107
    },
    {
     "name": "Weavem",
@@ -459,15 +459,15 @@
    },
    {
     "name": "Piingouin.",
+    "value": 21
+   },
+   {
+    "name": "-Oiseau",
     "value": 19
    },
    {
     "name": "pohabbooq05-1",
     "value": 18
-   },
-   {
-    "name": "-Oiseau",
-    "value": 17
    },
    {
     "name": "pititchatoncute",
@@ -529,7 +529,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 281
+    "value": 283
    },
    {
     "name": "Shizuku",
@@ -572,11 +572,11 @@
     "value": 155
    },
    {
-    "name": "andrew16a",
-    "value": 143
+    "name": "habbo22t",
+    "value": 145
    },
    {
-    "name": "habbo22t",
+    "name": "andrew16a",
     "value": 143
    },
    {
@@ -585,11 +585,11 @@
    },
    {
     "name": "gotica",
-    "value": 109
+    "value": 110
    },
    {
     "name": "Monsieur-RF",
-    "value": 106
+    "value": 107
    },
    {
     "name": "Weavem",
@@ -661,15 +661,15 @@
    },
    {
     "name": "Piingouin.",
+    "value": 21
+   },
+   {
+    "name": "-Oiseau",
     "value": 19
    },
    {
     "name": "pohabbooq05-1",
     "value": 18
-   },
-   {
-    "name": "-Oiseau",
-    "value": 17
    },
    {
     "name": "pititchatoncute",
