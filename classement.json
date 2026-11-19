@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T21:22:36+00:00",
+ "updated": "2026-11-19T21:24:36+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -12,16 +12,16 @@
     "value": 19
    },
    {
+    "name": "halos34",
+    "value": 15
+   },
+   {
     "name": "Shizuku",
     "value": 15
    },
    {
     "name": "Icarem",
     "value": 14
-   },
-   {
-    "name": "halos34",
-    "value": 13
    },
    {
     "name": ".:Krustiz:.",
@@ -170,16 +170,16 @@
     "value": 19
    },
    {
+    "name": "halos34",
+    "value": 15
+   },
+   {
     "name": "Shizuku",
     "value": 15
    },
    {
     "name": "Icarem",
     "value": 14
-   },
-   {
-    "name": "halos34",
-    "value": 13
    },
    {
     "name": ".:Krustiz:.",
@@ -335,7 +335,7 @@
    },
    {
     "name": "Shizuku",
-    "value": 323
+    "value": 325
    },
    {
     "name": "habbo-160-3",
@@ -363,7 +363,7 @@
    },
    {
     "name": "Non-Non",
-    "value": 196
+    "value": 198
    },
    {
     "name": "habbo22t",
@@ -394,12 +394,12 @@
     "value": 125
    },
    {
-    "name": "gotica",
+    "name": "flo578",
     "value": 110
    },
    {
-    "name": "flo578",
-    "value": 109
+    "name": "gotica",
+    "value": 110
    },
    {
     "name": "Weavem",
@@ -537,7 +537,7 @@
    },
    {
     "name": "Shizuku",
-    "value": 323
+    "value": 325
    },
    {
     "name": "habbo-160-3",
@@ -565,7 +565,7 @@
    },
    {
     "name": "Non-Non",
-    "value": 196
+    "value": 198
    },
    {
     "name": "habbo22t",
@@ -596,12 +596,12 @@
     "value": 125
    },
    {
-    "name": "gotica",
+    "name": "flo578",
     "value": 110
    },
    {
-    "name": "flo578",
-    "value": 109
+    "name": "gotica",
+    "value": 110
    },
    {
     "name": "Weavem",
