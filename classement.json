@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T17:40:33+00:00",
+ "updated": "2026-11-19T17:42:33+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -323,15 +323,15 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 241
+    "value": 243
    },
    {
     "name": "Fleabag",
-    "value": 238
+    "value": 240
    },
    {
     "name": "Lovepanda",
-    "value": 227
+    "value": 229
    },
    {
     "name": "marinadrk",
@@ -399,7 +399,7 @@
    },
    {
     "name": "irysse",
-    "value": 61
+    "value": 62
    },
    {
     "name": "Pporappippam",
@@ -435,11 +435,11 @@
    },
    {
     "name": "Pierre.Langlet",
-    "value": 26
+    "value": 28
    },
    {
     "name": "ladypink.",
-    "value": 24
+    "value": 26
    },
    {
     "name": "Sciel",
@@ -470,6 +470,10 @@
     "value": 12
    },
    {
+    "name": "BakeryJuice",
+    "value": 11
+   },
+   {
     "name": "Robotor",
     "value": 11
    },
@@ -479,10 +483,6 @@
    },
    {
     "name": "Alejandro721",
-    "value": 9
-   },
-   {
-    "name": "BakeryJuice",
     "value": 9
    },
    {
@@ -525,15 +525,15 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 241
+    "value": 243
    },
    {
     "name": "Fleabag",
-    "value": 238
+    "value": 240
    },
    {
     "name": "Lovepanda",
-    "value": 227
+    "value": 229
    },
    {
     "name": "marinadrk",
@@ -601,7 +601,7 @@
    },
    {
     "name": "irysse",
-    "value": 61
+    "value": 62
    },
    {
     "name": "Pporappippam",
@@ -637,11 +637,11 @@
    },
    {
     "name": "Pierre.Langlet",
-    "value": 26
+    "value": 28
    },
    {
     "name": "ladypink.",
-    "value": 24
+    "value": 26
    },
    {
     "name": "Sciel",
@@ -672,6 +672,10 @@
     "value": 12
    },
    {
+    "name": "BakeryJuice",
+    "value": 11
+   },
+   {
     "name": "Robotor",
     "value": 11
    },
@@ -681,10 +685,6 @@
    },
    {
     "name": "Alejandro721",
-    "value": 9
-   },
-   {
-    "name": "BakeryJuice",
     "value": 9
    },
    {
