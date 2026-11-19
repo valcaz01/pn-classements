@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T17:36:33+00:00",
+ "updated": "2026-11-19T17:38:32+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -323,19 +323,19 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 237
+    "value": 239
    },
    {
     "name": "Fleabag",
-    "value": 234
+    "value": 236
+   },
+   {
+    "name": "Lovepanda",
+    "value": 225
    },
    {
     "name": "marinadrk",
     "value": 225
-   },
-   {
-    "name": "Lovepanda",
-    "value": 224
    },
    {
     "name": "charlie-XCX123",
@@ -359,11 +359,11 @@
    },
    {
     "name": "Icarem",
-    "value": 131
+    "value": 133
    },
    {
     "name": "Non-Non",
-    "value": 123
+    "value": 125
    },
    {
     "name": "habbo22t",
@@ -438,12 +438,12 @@
     "value": 25
    },
    {
-    "name": "Sciel",
+    "name": "ladypink.",
     "value": 22
    },
    {
-    "name": "ladypink.",
-    "value": 20
+    "name": "Sciel",
+    "value": 22
    },
    {
     "name": "pohabbooq05-1",
@@ -486,6 +486,10 @@
     "value": 8
    },
    {
+    "name": "BakeryJuice",
+    "value": 7
+   },
+   {
     "name": "Freminet",
     "value": 7
    },
@@ -496,10 +500,6 @@
    {
     "name": "Mixte",
     "value": 7
-   },
-   {
-    "name": "BakeryJuice",
-    "value": 6
    },
    {
     "name": "Dragonforevor",
@@ -525,19 +525,19 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 237
+    "value": 239
    },
    {
     "name": "Fleabag",
-    "value": 234
+    "value": 236
+   },
+   {
+    "name": "Lovepanda",
+    "value": 225
    },
    {
     "name": "marinadrk",
     "value": 225
-   },
-   {
-    "name": "Lovepanda",
-    "value": 224
    },
    {
     "name": "charlie-XCX123",
@@ -561,11 +561,11 @@
    },
    {
     "name": "Icarem",
-    "value": 131
+    "value": 133
    },
    {
     "name": "Non-Non",
-    "value": 123
+    "value": 125
    },
    {
     "name": "habbo22t",
@@ -640,12 +640,12 @@
     "value": 25
    },
    {
-    "name": "Sciel",
+    "name": "ladypink.",
     "value": 22
    },
    {
-    "name": "ladypink.",
-    "value": 20
+    "name": "Sciel",
+    "value": 22
    },
    {
     "name": "pohabbooq05-1",
@@ -688,6 +688,10 @@
     "value": 8
    },
    {
+    "name": "BakeryJuice",
+    "value": 7
+   },
+   {
     "name": "Freminet",
     "value": 7
    },
@@ -698,10 +702,6 @@
    {
     "name": "Mixte",
     "value": 7
-   },
-   {
-    "name": "BakeryJuice",
-    "value": 6
    },
    {
     "name": "Dragonforevor",
