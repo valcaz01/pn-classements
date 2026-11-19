@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T19:08:33+00:00",
+ "updated": "2026-11-19T19:10:33+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -56,6 +56,10 @@
     "value": 7
    },
    {
+    "name": "Astreu",
+    "value": 7
+   },
+   {
     "name": "guest77145",
     "value": 7
    },
@@ -66,10 +70,6 @@
    {
     "name": "Non-Non",
     "value": 7
-   },
-   {
-    "name": "Astreu",
-    "value": 6
    },
    {
     "name": "Pantheon_",
@@ -210,6 +210,10 @@
     "value": 7
    },
    {
+    "name": "Astreu",
+    "value": 7
+   },
+   {
     "name": "guest77145",
     "value": 7
    },
@@ -220,10 +224,6 @@
    {
     "name": "Non-Non",
     "value": 7
-   },
-   {
-    "name": "Astreu",
-    "value": 6
    },
    {
     "name": "Pantheon_",
@@ -327,7 +327,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 285
+    "value": 287
    },
    {
     "name": "Shizuku",
@@ -371,7 +371,7 @@
    },
    {
     "name": "habbo22t",
-    "value": 147
+    "value": 149
    },
    {
     "name": "andrew16a",
@@ -455,15 +455,15 @@
    },
    {
     "name": "Piingouin.",
-    "value": 23
+    "value": 24
+   },
+   {
+    "name": "-Oiseau",
+    "value": 22
    },
    {
     "name": "Sciel",
     "value": 22
-   },
-   {
-    "name": "-Oiseau",
-    "value": 21
    },
    {
     "name": "pohabbooq05-1",
@@ -529,7 +529,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 285
+    "value": 287
    },
    {
     "name": "Shizuku",
@@ -573,7 +573,7 @@
    },
    {
     "name": "habbo22t",
-    "value": 147
+    "value": 149
    },
    {
     "name": "andrew16a",
@@ -657,15 +657,15 @@
    },
    {
     "name": "Piingouin.",
-    "value": 23
+    "value": 24
+   },
+   {
+    "name": "-Oiseau",
+    "value": 22
    },
    {
     "name": "Sciel",
     "value": 22
-   },
-   {
-    "name": "-Oiseau",
-    "value": 21
    },
    {
     "name": "pohabbooq05-1",
