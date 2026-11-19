@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T14:30:32+00:00",
+ "updated": "2026-11-19T14:32:32+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -259,7 +259,7 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 676
+    "value": 678
    },
    {
     "name": "fym",
@@ -267,7 +267,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 308
+    "value": 310
    },
    {
     "name": "Shizuku",
@@ -335,7 +335,7 @@
    },
    {
     "name": "Fleabag",
-    "value": 65
+    "value": 67
    },
    {
     "name": "sami75.19",
@@ -375,11 +375,15 @@
    },
    {
     "name": "YzEnRodeo",
-    "value": 25
+    "value": 27
    },
    {
     "name": "Sciel",
     "value": 22
+   },
+   {
+    "name": ".Libellule",
+    "value": 18
    },
    {
     "name": "pohabbooq05-1",
@@ -394,12 +398,8 @@
     "value": 17
    },
    {
-    "name": ".Libellule",
-    "value": 16
-   },
-   {
     "name": "BOuclette.13",
-    "value": 14
+    "value": 16
    },
    {
     "name": "-Oiseau",
@@ -457,7 +457,7 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 676
+    "value": 678
    },
    {
     "name": "fym",
@@ -465,7 +465,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 308
+    "value": 310
    },
    {
     "name": "Shizuku",
@@ -533,7 +533,7 @@
    },
    {
     "name": "Fleabag",
-    "value": 65
+    "value": 67
    },
    {
     "name": "sami75.19",
@@ -573,11 +573,15 @@
    },
    {
     "name": "YzEnRodeo",
-    "value": 25
+    "value": 27
    },
    {
     "name": "Sciel",
     "value": 22
+   },
+   {
+    "name": ".Libellule",
+    "value": 18
    },
    {
     "name": "pohabbooq05-1",
@@ -592,12 +596,8 @@
     "value": 17
    },
    {
-    "name": ".Libellule",
-    "value": 16
-   },
-   {
     "name": "BOuclette.13",
-    "value": 14
+    "value": 16
    },
    {
     "name": "-Oiseau",
