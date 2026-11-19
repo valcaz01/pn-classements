@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T01:32:21+00:00",
+ "updated": "2026-11-19T01:34:20+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -275,7 +275,11 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 113
+    "value": 115
+   },
+   {
+    "name": "charlie-XCX123",
+    "value": 103
    },
    {
     "name": "Icarem",
@@ -284,10 +288,6 @@
    {
     "name": "Weavem",
     "value": 102
-   },
-   {
-    "name": "charlie-XCX123",
-    "value": 101
    },
    {
     "name": "flo578",
@@ -437,7 +437,11 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 113
+    "value": 115
+   },
+   {
+    "name": "charlie-XCX123",
+    "value": 103
    },
    {
     "name": "Icarem",
@@ -446,10 +450,6 @@
    {
     "name": "Weavem",
     "value": 102
-   },
-   {
-    "name": "charlie-XCX123",
-    "value": 101
    },
    {
     "name": "flo578",
