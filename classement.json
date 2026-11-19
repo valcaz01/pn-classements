@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T18:26:32+00:00",
+ "updated": "2026-11-19T18:28:32+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -319,11 +319,11 @@
    },
    {
     "name": "fym",
-    "value": 634
+    "value": 636
    },
    {
     "name": "Pantheon_",
-    "value": 401
+    "value": 403
    },
    {
     "name": "Shizuku",
@@ -359,7 +359,7 @@
    },
    {
     "name": "Non-Non",
-    "value": 160
+    "value": 162
    },
    {
     "name": "Lewddon",
@@ -375,15 +375,15 @@
    },
    {
     "name": "habbo22t",
-    "value": 108
+    "value": 110
+   },
+   {
+    "name": "-Tsukiri-",
+    "value": 102
    },
    {
     "name": "Weavem",
     "value": 102
-   },
-   {
-    "name": "-Tsukiri-",
-    "value": 100
    },
    {
     "name": "flo578",
@@ -395,14 +395,14 @@
    },
    {
     "name": "gotica",
-    "value": 77
-   },
-   {
-    "name": ".:Krustiz:.",
-    "value": 67
+    "value": 78
    },
    {
     "name": ".Libellule",
+    "value": 69
+   },
+   {
+    "name": ".:Krustiz:.",
     "value": 67
    },
    {
@@ -442,12 +442,12 @@
     "value": 35
    },
    {
-    "name": "Postillon",
-    "value": 32
+    "name": "Proxymore",
+    "value": 33
    },
    {
-    "name": "Proxymore",
-    "value": 31
+    "name": "Postillon",
+    "value": 32
    },
    {
     "name": "ladypink.",
@@ -521,11 +521,11 @@
    },
    {
     "name": "fym",
-    "value": 634
+    "value": 636
    },
    {
     "name": "Pantheon_",
-    "value": 401
+    "value": 403
    },
    {
     "name": "Shizuku",
@@ -561,7 +561,7 @@
    },
    {
     "name": "Non-Non",
-    "value": 160
+    "value": 162
    },
    {
     "name": "Lewddon",
@@ -577,15 +577,15 @@
    },
    {
     "name": "habbo22t",
-    "value": 108
+    "value": 110
+   },
+   {
+    "name": "-Tsukiri-",
+    "value": 102
    },
    {
     "name": "Weavem",
     "value": 102
-   },
-   {
-    "name": "-Tsukiri-",
-    "value": 100
    },
    {
     "name": "flo578",
@@ -597,14 +597,14 @@
    },
    {
     "name": "gotica",
-    "value": 77
-   },
-   {
-    "name": ".:Krustiz:.",
-    "value": 67
+    "value": 78
    },
    {
     "name": ".Libellule",
+    "value": 69
+   },
+   {
+    "name": ".:Krustiz:.",
     "value": 67
    },
    {
@@ -644,12 +644,12 @@
     "value": 35
    },
    {
-    "name": "Postillon",
-    "value": 32
+    "name": "Proxymore",
+    "value": 33
    },
    {
-    "name": "Proxymore",
-    "value": 31
+    "name": "Postillon",
+    "value": 32
    },
    {
     "name": "ladypink.",
