@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T10:52:20+00:00",
+ "updated": "2026-11-19T10:54:19+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -355,7 +355,7 @@
    },
    {
     "name": "Postillon",
-    "value": 30
+    "value": 31
    },
    {
     "name": "Sciel",
@@ -371,7 +371,7 @@
    },
    {
     "name": "gotica",
-    "value": 14
+    "value": 15
    },
    {
     "name": "-Oiseau",
@@ -533,7 +533,7 @@
    },
    {
     "name": "Postillon",
-    "value": 30
+    "value": 31
    },
    {
     "name": "Sciel",
@@ -549,7 +549,7 @@
    },
    {
     "name": "gotica",
-    "value": 14
+    "value": 15
    },
    {
     "name": "-Oiseau",
