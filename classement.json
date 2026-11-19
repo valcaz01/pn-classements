@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T17:04:33+00:00",
+ "updated": "2026-11-19T17:06:33+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -44,24 +44,24 @@
     "value": 7
    },
    {
+    "name": "irysse",
+    "value": 7
+   },
+   {
     "name": "Non-Non",
     "value": 7
+   },
+   {
+    "name": ".:Krustiz:.",
+    "value": 6
    },
    {
     "name": ".Libellule",
     "value": 6
    },
    {
-    "name": "irysse",
-    "value": 6
-   },
-   {
     "name": "pevanq640",
     "value": 6
-   },
-   {
-    "name": ".:Krustiz:.",
-    "value": 5
    },
    {
     "name": "flo578",
@@ -186,24 +186,24 @@
     "value": 7
    },
    {
+    "name": "irysse",
+    "value": 7
+   },
+   {
     "name": "Non-Non",
     "value": 7
+   },
+   {
+    "name": ".:Krustiz:.",
+    "value": 6
    },
    {
     "name": ".Libellule",
     "value": 6
    },
    {
-    "name": "irysse",
-    "value": 6
-   },
-   {
     "name": "pevanq640",
     "value": 6
-   },
-   {
-    "name": ".:Krustiz:.",
-    "value": 5
    },
    {
     "name": "flo578",
@@ -295,7 +295,7 @@
    },
    {
     "name": "fym",
-    "value": 609
+    "value": 611
    },
    {
     "name": "Pantheon_",
@@ -319,11 +319,11 @@
    },
    {
     "name": "Fleabag",
-    "value": 205
+    "value": 207
    },
    {
     "name": "habbo-160-3",
-    "value": 205
+    "value": 207
    },
    {
     "name": "Astreu",
@@ -343,7 +343,7 @@
    },
    {
     "name": "Non-Non",
-    "value": 107
+    "value": 108
    },
    {
     "name": "Icarem",
@@ -446,6 +446,10 @@
     "value": 12
    },
    {
+    "name": "Pierre.Langlet",
+    "value": 11
+   },
+   {
     "name": "Robotor",
     "value": 11
    },
@@ -455,10 +459,6 @@
    },
    {
     "name": "Alejandro721",
-    "value": 9
-   },
-   {
-    "name": "Pierre.Langlet",
     "value": 9
    },
    {
@@ -478,12 +478,12 @@
     "value": 5
    },
    {
-    "name": "Sooso",
+    "name": "Proxymore",
     "value": 4
    },
    {
-    "name": "Proxymore",
-    "value": 3
+    "name": "Sooso",
+    "value": 4
    },
    {
     "name": "habbo7-3-87",
@@ -497,7 +497,7 @@
    },
    {
     "name": "fym",
-    "value": 609
+    "value": 611
    },
    {
     "name": "Pantheon_",
@@ -521,11 +521,11 @@
    },
    {
     "name": "Fleabag",
-    "value": 205
+    "value": 207
    },
    {
     "name": "habbo-160-3",
-    "value": 205
+    "value": 207
    },
    {
     "name": "Astreu",
@@ -545,7 +545,7 @@
    },
    {
     "name": "Non-Non",
-    "value": 107
+    "value": 108
    },
    {
     "name": "Icarem",
@@ -648,6 +648,10 @@
     "value": 12
    },
    {
+    "name": "Pierre.Langlet",
+    "value": 11
+   },
+   {
     "name": "Robotor",
     "value": 11
    },
@@ -657,10 +661,6 @@
    },
    {
     "name": "Alejandro721",
-    "value": 9
-   },
-   {
-    "name": "Pierre.Langlet",
     "value": 9
    },
    {
@@ -680,12 +680,12 @@
     "value": 5
    },
    {
-    "name": "Sooso",
+    "name": "Proxymore",
     "value": 4
    },
    {
-    "name": "Proxymore",
-    "value": 3
+    "name": "Sooso",
+    "value": 4
    },
    {
     "name": "habbo7-3-87",
