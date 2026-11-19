@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T18:54:32+00:00",
+ "updated": "2026-11-19T18:56:34+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 22
+    "value": 23
    },
    {
     "name": "fym",
@@ -159,7 +159,7 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 22
+    "value": 23
    },
    {
     "name": "fym",
@@ -367,7 +367,7 @@
    },
    {
     "name": "Icarem",
-    "value": 148
+    "value": 150
    },
    {
     "name": "andrew16a",
@@ -375,7 +375,7 @@
    },
    {
     "name": "habbo22t",
-    "value": 133
+    "value": 135
    },
    {
     "name": "-Tsukiri-",
@@ -383,7 +383,7 @@
    },
    {
     "name": "gotica",
-    "value": 103
+    "value": 104
    },
    {
     "name": "Weavem",
@@ -391,7 +391,7 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 96
+    "value": 98
    },
    {
     "name": "flo578",
@@ -402,12 +402,12 @@
     "value": 73
    },
    {
-    "name": ".:Krustiz:.",
-    "value": 67
+    "name": "irysse",
+    "value": 68
    },
    {
-    "name": "irysse",
-    "value": 66
+    "name": ".:Krustiz:.",
+    "value": 67
    },
    {
     "name": "sami75.19",
@@ -486,6 +486,10 @@
     "value": 12
    },
    {
+    "name": "Piingouin.",
+    "value": 11
+   },
+   {
     "name": "Robotor",
     "value": 11
    },
@@ -495,10 +499,6 @@
    },
    {
     "name": "Alejandro721",
-    "value": 9
-   },
-   {
-    "name": "Piingouin.",
     "value": 9
    },
    {
@@ -569,7 +569,7 @@
    },
    {
     "name": "Icarem",
-    "value": 148
+    "value": 150
    },
    {
     "name": "andrew16a",
@@ -577,7 +577,7 @@
    },
    {
     "name": "habbo22t",
-    "value": 133
+    "value": 135
    },
    {
     "name": "-Tsukiri-",
@@ -585,7 +585,7 @@
    },
    {
     "name": "gotica",
-    "value": 103
+    "value": 104
    },
    {
     "name": "Weavem",
@@ -593,7 +593,7 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 96
+    "value": 98
    },
    {
     "name": "flo578",
@@ -604,12 +604,12 @@
     "value": 73
    },
    {
-    "name": ".:Krustiz:.",
-    "value": 67
+    "name": "irysse",
+    "value": 68
    },
    {
-    "name": "irysse",
-    "value": 66
+    "name": ".:Krustiz:.",
+    "value": 67
    },
    {
     "name": "sami75.19",
@@ -688,6 +688,10 @@
     "value": 12
    },
    {
+    "name": "Piingouin.",
+    "value": 11
+   },
+   {
     "name": "Robotor",
     "value": 11
    },
@@ -697,10 +701,6 @@
    },
    {
     "name": "Alejandro721",
-    "value": 9
-   },
-   {
-    "name": "Piingouin.",
     "value": 9
    },
    {
