@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T19:28:33+00:00",
+ "updated": "2026-11-19T19:30:34+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -323,7 +323,7 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 752
+    "value": 754
    },
    {
     "name": "fym",
@@ -335,7 +335,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 305
+    "value": 307
    },
    {
     "name": "Shizuku",
@@ -363,7 +363,7 @@
    },
    {
     "name": "Non-Non",
-    "value": 166
+    "value": 168
    },
    {
     "name": "halos34",
@@ -387,11 +387,11 @@
    },
    {
     "name": "-Tsukiri-",
-    "value": 126
+    "value": 127
    },
    {
     "name": "Monsieur-RF",
-    "value": 122
+    "value": 123
    },
    {
     "name": "gotica",
@@ -434,15 +434,15 @@
     "value": 45
    },
    {
+    "name": "Piingouin.",
+    "value": 43
+   },
+   {
     "name": "Proxymore",
     "value": 42
    },
    {
     "name": "alexandre-780",
-    "value": 41
-   },
-   {
-    "name": "Piingouin.",
     "value": 41
    },
    {
@@ -525,7 +525,7 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 752
+    "value": 754
    },
    {
     "name": "fym",
@@ -537,7 +537,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 305
+    "value": 307
    },
    {
     "name": "Shizuku",
@@ -565,7 +565,7 @@
    },
    {
     "name": "Non-Non",
-    "value": 166
+    "value": 168
    },
    {
     "name": "halos34",
@@ -589,11 +589,11 @@
    },
    {
     "name": "-Tsukiri-",
-    "value": 126
+    "value": 127
    },
    {
     "name": "Monsieur-RF",
-    "value": 122
+    "value": 123
    },
    {
     "name": "gotica",
@@ -636,15 +636,15 @@
     "value": 45
    },
    {
+    "name": "Piingouin.",
+    "value": 43
+   },
+   {
     "name": "Proxymore",
     "value": 42
    },
    {
     "name": "alexandre-780",
-    "value": 41
-   },
-   {
-    "name": "Piingouin.",
     "value": 41
    },
    {
