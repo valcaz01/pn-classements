@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T20:12:33+00:00",
+ "updated": "2026-11-19T20:14:32+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -92,6 +92,10 @@
     "value": 5
    },
    {
+    "name": "-Tsukiri-",
+    "value": 4
+   },
+   {
     "name": "Postillon",
     "value": 4
    },
@@ -113,10 +117,6 @@
    },
    {
     "name": "-Oiseau",
-    "value": 2
-   },
-   {
-    "name": "-Tsukiri-",
     "value": 2
    },
    {
@@ -250,6 +250,10 @@
     "value": 5
    },
    {
+    "name": "-Tsukiri-",
+    "value": 4
+   },
+   {
     "name": "Postillon",
     "value": 4
    },
@@ -271,10 +275,6 @@
    },
    {
     "name": "-Oiseau",
-    "value": 2
-   },
-   {
-    "name": "-Tsukiri-",
     "value": 2
    },
    {
@@ -343,7 +343,7 @@
    },
    {
     "name": "Fleabag",
-    "value": 274
+    "value": 276
    },
    {
     "name": "Lovepanda",
@@ -351,7 +351,7 @@
    },
    {
     "name": "Astreu",
-    "value": 233
+    "value": 234
    },
    {
     "name": "charlie-XCX123",
@@ -545,7 +545,7 @@
    },
    {
     "name": "Fleabag",
-    "value": 274
+    "value": 276
    },
    {
     "name": "Lovepanda",
@@ -553,7 +553,7 @@
    },
    {
     "name": "Astreu",
-    "value": 233
+    "value": 234
    },
    {
     "name": "charlie-XCX123",
