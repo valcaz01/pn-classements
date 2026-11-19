@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T14:28:33+00:00",
+ "updated": "2026-11-19T14:30:32+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -259,7 +259,7 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 674
+    "value": 676
    },
    {
     "name": "fym",
@@ -267,7 +267,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 307
+    "value": 308
    },
    {
     "name": "Shizuku",
@@ -275,7 +275,7 @@
    },
    {
     "name": "charlie-XCX123",
-    "value": 210
+    "value": 211
    },
    {
     "name": "marinadrk",
@@ -334,12 +334,12 @@
     "value": 72
    },
    {
-    "name": "sami75.19",
+    "name": "Fleabag",
     "value": 65
    },
    {
-    "name": "Fleabag",
-    "value": 64
+    "name": "sami75.19",
+    "value": 65
    },
    {
     "name": ".:Krustiz:.",
@@ -375,7 +375,7 @@
    },
    {
     "name": "YzEnRodeo",
-    "value": 23
+    "value": 25
    },
    {
     "name": "Sciel",
@@ -395,14 +395,14 @@
    },
    {
     "name": ".Libellule",
+    "value": 16
+   },
+   {
+    "name": "BOuclette.13",
     "value": 14
    },
    {
     "name": "-Oiseau",
-    "value": 12
-   },
-   {
-    "name": "BOuclette.13",
     "value": 12
    },
    {
@@ -457,7 +457,7 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 674
+    "value": 676
    },
    {
     "name": "fym",
@@ -465,7 +465,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 307
+    "value": 308
    },
    {
     "name": "Shizuku",
@@ -473,7 +473,7 @@
    },
    {
     "name": "charlie-XCX123",
-    "value": 210
+    "value": 211
    },
    {
     "name": "marinadrk",
@@ -532,12 +532,12 @@
     "value": 72
    },
    {
-    "name": "sami75.19",
+    "name": "Fleabag",
     "value": 65
    },
    {
-    "name": "Fleabag",
-    "value": 64
+    "name": "sami75.19",
+    "value": 65
    },
    {
     "name": ".:Krustiz:.",
@@ -573,7 +573,7 @@
    },
    {
     "name": "YzEnRodeo",
-    "value": 23
+    "value": 25
    },
    {
     "name": "Sciel",
@@ -593,14 +593,14 @@
    },
    {
     "name": ".Libellule",
+    "value": 16
+   },
+   {
+    "name": "BOuclette.13",
     "value": 14
    },
    {
     "name": "-Oiseau",
-    "value": 12
-   },
-   {
-    "name": "BOuclette.13",
     "value": 12
    },
    {
