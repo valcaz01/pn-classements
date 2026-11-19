@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T14:24:33+00:00",
+ "updated": "2026-11-19T14:26:33+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -259,7 +259,7 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 670
+    "value": 672
    },
    {
     "name": "fym",
@@ -267,7 +267,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 305
+    "value": 307
    },
    {
     "name": "Shizuku",
@@ -275,7 +275,7 @@
    },
    {
     "name": "charlie-XCX123",
-    "value": 207
+    "value": 209
    },
    {
     "name": "marinadrk",
@@ -338,12 +338,12 @@
     "value": 65
    },
    {
-    "name": ".:Krustiz:.",
-    "value": 62
+    "name": "Fleabag",
+    "value": 63
    },
    {
-    "name": "Fleabag",
-    "value": 61
+    "name": ".:Krustiz:.",
+    "value": 62
    },
    {
     "name": "Pporappippam",
@@ -379,7 +379,7 @@
    },
    {
     "name": "YzEnRodeo",
-    "value": 19
+    "value": 21
    },
    {
     "name": "pohabbooq05-1",
@@ -398,6 +398,10 @@
     "value": 12
    },
    {
+    "name": ".Libellule",
+    "value": 12
+   },
+   {
     "name": "Kaykay3208",
     "value": 12
    },
@@ -408,10 +412,6 @@
    {
     "name": "Rock_2000",
     "value": 11
-   },
-   {
-    "name": ".Libellule",
-    "value": 10
    },
    {
     "name": "BOuclette.13",
@@ -457,7 +457,7 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 670
+    "value": 672
    },
    {
     "name": "fym",
@@ -465,7 +465,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 305
+    "value": 307
    },
    {
     "name": "Shizuku",
@@ -473,7 +473,7 @@
    },
    {
     "name": "charlie-XCX123",
-    "value": 207
+    "value": 209
    },
    {
     "name": "marinadrk",
@@ -536,12 +536,12 @@
     "value": 65
    },
    {
-    "name": ".:Krustiz:.",
-    "value": 62
+    "name": "Fleabag",
+    "value": 63
    },
    {
-    "name": "Fleabag",
-    "value": 61
+    "name": ".:Krustiz:.",
+    "value": 62
    },
    {
     "name": "Pporappippam",
@@ -577,7 +577,7 @@
    },
    {
     "name": "YzEnRodeo",
-    "value": 19
+    "value": 21
    },
    {
     "name": "pohabbooq05-1",
@@ -596,6 +596,10 @@
     "value": 12
    },
    {
+    "name": ".Libellule",
+    "value": 12
+   },
+   {
     "name": "Kaykay3208",
     "value": 12
    },
@@ -606,10 +610,6 @@
    {
     "name": "Rock_2000",
     "value": 11
-   },
-   {
-    "name": ".Libellule",
-    "value": 10
    },
    {
     "name": "BOuclette.13",
