@@ -50,6 +50,7 @@ from discord.ext import tasks
 from publication import PUBLICATION_REVISION, PublicationHealth, network_git, public_reason
 from habbo_http import request_json
 from collection import COLLECTION_REVISION, JOBS, REASONS, CollectionHealth, subprocess_failure
+from direction_todo import DirectionBoard
 
 VERSION = "2026-10-28.1"   # diagnostic de mise en service (ne pas changer sans raison : il est re-posté)
 APERCU = "2026-10-28-xp2"  # changer cette valeur pour reposter l'aperçu dans #Classement-hebdo
@@ -538,6 +539,8 @@ class PNBot(discord.Client):
     async def setup_hook(self):
         self.add_dynamic_items(BadgeButton, AnnulerButton)
         self.tick.start()
+        self.direction_board = DirectionBoard(self, GUILD_ID, HEBDO_CHANNEL_ID, Path(LOCK_FILE).parent / "direction-tasks.sqlite3")
+        self.direction_board.start()
 
     async def on_ready(self):
         LOG.info("Connecté : %s (version %s)", self.user, VERSION)
