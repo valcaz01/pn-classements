@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T15:54:32+00:00",
+ "updated": "2026-11-19T15:56:33+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -100,6 +100,10 @@
     "value": 2
    },
    {
+    "name": "-Tsukiri-",
+    "value": 2
+   },
+   {
     "name": "marinadrk",
     "value": 2
    },
@@ -114,10 +118,6 @@
    {
     "name": "Proxymore",
     "value": 2
-   },
-   {
-    "name": "-Tsukiri-",
-    "value": 1
    },
    {
     "name": "Astreu",
@@ -242,6 +242,10 @@
     "value": 2
    },
    {
+    "name": "-Tsukiri-",
+    "value": 2
+   },
+   {
     "name": "marinadrk",
     "value": 2
    },
@@ -256,10 +260,6 @@
    {
     "name": "Proxymore",
     "value": 2
-   },
-   {
-    "name": "-Tsukiri-",
-    "value": 1
    },
    {
     "name": "Astreu",
@@ -299,7 +299,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 380
+    "value": 381
    },
    {
     "name": "Shizuku",
@@ -307,11 +307,11 @@
    },
    {
     "name": "marinadrk",
-    "value": 227
+    "value": 225
    },
    {
     "name": "charlie-XCX123",
-    "value": 213
+    "value": 215
    },
    {
     "name": "Lovepanda",
@@ -319,7 +319,7 @@
    },
    {
     "name": "Astreu",
-    "value": 178
+    "value": 179
    },
    {
     "name": "halos34",
@@ -339,7 +339,7 @@
    },
    {
     "name": "Fleabag",
-    "value": 136
+    "value": 138
    },
    {
     "name": "Non-Non",
@@ -391,7 +391,7 @@
    },
    {
     "name": ".Libellule",
-    "value": 45
+    "value": 46
    },
    {
     "name": "gotica",
@@ -497,7 +497,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 380
+    "value": 381
    },
    {
     "name": "Shizuku",
@@ -505,11 +505,11 @@
    },
    {
     "name": "marinadrk",
-    "value": 227
+    "value": 225
    },
    {
     "name": "charlie-XCX123",
-    "value": 213
+    "value": 215
    },
    {
     "name": "Lovepanda",
@@ -517,7 +517,7 @@
    },
    {
     "name": "Astreu",
-    "value": 178
+    "value": 179
    },
    {
     "name": "halos34",
@@ -537,7 +537,7 @@
    },
    {
     "name": "Fleabag",
-    "value": 136
+    "value": 138
    },
    {
     "name": "Non-Non",
@@ -589,7 +589,7 @@
    },
    {
     "name": ".Libellule",
-    "value": 45
+    "value": 46
    },
    {
     "name": "gotica",
