@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T17:34:33+00:00",
+ "updated": "2026-11-19T17:36:33+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -84,6 +84,10 @@
     "value": 5
    },
    {
+    "name": "Pantheon_",
+    "value": 4
+   },
+   {
     "name": "Piingouin.",
     "value": 4
    },
@@ -93,6 +97,10 @@
    },
    {
     "name": "alexandre-780",
+    "value": 3
+   },
+   {
+    "name": "Pierre.Langlet",
     "value": 3
    },
    {
@@ -124,10 +132,6 @@
     "value": 2
    },
    {
-    "name": "Pantheon_",
-    "value": 2
-   },
-   {
     "name": "Fleabag",
     "value": 1
    },
@@ -141,10 +145,6 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 1
-   },
-   {
-    "name": "Pierre.Langlet",
     "value": 1
    },
    {
@@ -234,6 +234,10 @@
     "value": 5
    },
    {
+    "name": "Pantheon_",
+    "value": 4
+   },
+   {
     "name": "Piingouin.",
     "value": 4
    },
@@ -243,6 +247,10 @@
    },
    {
     "name": "alexandre-780",
+    "value": 3
+   },
+   {
+    "name": "Pierre.Langlet",
     "value": 3
    },
    {
@@ -274,10 +282,6 @@
     "value": 2
    },
    {
-    "name": "Pantheon_",
-    "value": 2
-   },
-   {
     "name": "Fleabag",
     "value": 1
    },
@@ -291,10 +295,6 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 1
-   },
-   {
-    "name": "Pierre.Langlet",
     "value": 1
    },
    {
@@ -323,11 +323,11 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 235
+    "value": 237
    },
    {
     "name": "Fleabag",
-    "value": 232
+    "value": 234
    },
    {
     "name": "marinadrk",
@@ -359,11 +359,11 @@
    },
    {
     "name": "Icarem",
-    "value": 129
+    "value": 131
    },
    {
     "name": "Non-Non",
-    "value": 121
+    "value": 123
    },
    {
     "name": "habbo22t",
@@ -443,7 +443,7 @@
    },
    {
     "name": "ladypink.",
-    "value": 18
+    "value": 20
    },
    {
     "name": "pohabbooq05-1",
@@ -525,11 +525,11 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 235
+    "value": 237
    },
    {
     "name": "Fleabag",
-    "value": 232
+    "value": 234
    },
    {
     "name": "marinadrk",
@@ -561,11 +561,11 @@
    },
    {
     "name": "Icarem",
-    "value": 129
+    "value": 131
    },
    {
     "name": "Non-Non",
-    "value": 121
+    "value": 123
    },
    {
     "name": "habbo22t",
@@ -645,7 +645,7 @@
    },
    {
     "name": "ladypink.",
-    "value": 18
+    "value": 20
    },
    {
     "name": "pohabbooq05-1",
