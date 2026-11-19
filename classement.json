@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T17:12:32+00:00",
+ "updated": "2026-11-19T17:14:33+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -295,7 +295,7 @@
    },
    {
     "name": "fym",
-    "value": 617
+    "value": 619
    },
    {
     "name": "Pantheon_",
@@ -315,15 +315,15 @@
    },
    {
     "name": "Lovepanda",
-    "value": 215
+    "value": 216
    },
    {
     "name": "Fleabag",
-    "value": 213
+    "value": 215
    },
    {
     "name": "habbo-160-3",
-    "value": 213
+    "value": 215
    },
    {
     "name": "Astreu",
@@ -343,11 +343,11 @@
    },
    {
     "name": "Non-Non",
-    "value": 110
+    "value": 112
    },
    {
     "name": "Icarem",
-    "value": 108
+    "value": 110
    },
    {
     "name": "habbo22t",
@@ -422,6 +422,10 @@
     "value": 22
    },
    {
+    "name": "Pierre.Langlet",
+    "value": 18
+   },
+   {
     "name": "pohabbooq05-1",
     "value": 18
    },
@@ -435,10 +439,6 @@
    },
    {
     "name": "Imondi",
-    "value": 16
-   },
-   {
-    "name": "Pierre.Langlet",
     "value": 16
    },
    {
@@ -497,7 +497,7 @@
    },
    {
     "name": "fym",
-    "value": 617
+    "value": 619
    },
    {
     "name": "Pantheon_",
@@ -517,15 +517,15 @@
    },
    {
     "name": "Lovepanda",
-    "value": 215
+    "value": 216
    },
    {
     "name": "Fleabag",
-    "value": 213
+    "value": 215
    },
    {
     "name": "habbo-160-3",
-    "value": 213
+    "value": 215
    },
    {
     "name": "Astreu",
@@ -545,11 +545,11 @@
    },
    {
     "name": "Non-Non",
-    "value": 110
+    "value": 112
    },
    {
     "name": "Icarem",
-    "value": 108
+    "value": 110
    },
    {
     "name": "habbo22t",
@@ -624,6 +624,10 @@
     "value": 22
    },
    {
+    "name": "Pierre.Langlet",
+    "value": 18
+   },
+   {
     "name": "pohabbooq05-1",
     "value": 18
    },
@@ -637,10 +641,6 @@
    },
    {
     "name": "Imondi",
-    "value": 16
-   },
-   {
-    "name": "Pierre.Langlet",
     "value": 16
    },
    {
