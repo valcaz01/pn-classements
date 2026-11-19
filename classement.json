@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T13:50:32+00:00",
+ "updated": "2026-11-19T13:52:32+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -271,7 +271,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 276
+    "value": 278
    },
    {
     "name": "charlie-XCX123",
@@ -350,6 +350,10 @@
     "value": 48
    },
    {
+    "name": "Fleabag",
+    "value": 45
+   },
+   {
     "name": "guest77145",
     "value": 45
    },
@@ -358,16 +362,12 @@
     "value": 45
    },
    {
-    "name": "Fleabag",
-    "value": 43
-   },
-   {
     "name": "alexandre-780",
     "value": 41
    },
    {
     "name": "gotica",
-    "value": 36
+    "value": 38
    },
    {
     "name": "Postillon",
@@ -418,6 +418,10 @@
     "value": 8
    },
    {
+    "name": "BOuclette.13",
+    "value": 7
+   },
+   {
     "name": "Freminet",
     "value": 7
    },
@@ -430,7 +434,7 @@
     "value": 7
    },
    {
-    "name": "BOuclette.13",
+    "name": ".Libellule",
     "value": 5
    },
    {
@@ -440,10 +444,6 @@
    {
     "name": "Sooso",
     "value": 4
-   },
-   {
-    "name": ".Libellule",
-    "value": 3
    },
    {
     "name": "habbo7-3-87",
@@ -469,7 +469,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 276
+    "value": 278
    },
    {
     "name": "charlie-XCX123",
@@ -548,6 +548,10 @@
     "value": 48
    },
    {
+    "name": "Fleabag",
+    "value": 45
+   },
+   {
     "name": "guest77145",
     "value": 45
    },
@@ -556,16 +560,12 @@
     "value": 45
    },
    {
-    "name": "Fleabag",
-    "value": 43
-   },
-   {
     "name": "alexandre-780",
     "value": 41
    },
    {
     "name": "gotica",
-    "value": 36
+    "value": 38
    },
    {
     "name": "Postillon",
@@ -616,6 +616,10 @@
     "value": 8
    },
    {
+    "name": "BOuclette.13",
+    "value": 7
+   },
+   {
     "name": "Freminet",
     "value": 7
    },
@@ -628,7 +632,7 @@
     "value": 7
    },
    {
-    "name": "BOuclette.13",
+    "name": ".Libellule",
     "value": 5
    },
    {
@@ -638,10 +642,6 @@
    {
     "name": "Sooso",
     "value": 4
-   },
-   {
-    "name": ".Libellule",
-    "value": 3
    },
    {
     "name": "habbo7-3-87",
