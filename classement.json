@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T13:48:33+00:00",
+ "updated": "2026-11-19T13:50:32+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -271,11 +271,11 @@
    },
    {
     "name": "Pantheon_",
-    "value": 274
+    "value": 276
    },
    {
     "name": "charlie-XCX123",
-    "value": 201
+    "value": 202
    },
    {
     "name": "marinadrk",
@@ -358,16 +358,16 @@
     "value": 45
    },
    {
+    "name": "Fleabag",
+    "value": 43
+   },
+   {
     "name": "alexandre-780",
     "value": 41
    },
    {
-    "name": "Fleabag",
-    "value": 41
-   },
-   {
     "name": "gotica",
-    "value": 34
+    "value": 36
    },
    {
     "name": "Postillon",
@@ -430,6 +430,10 @@
     "value": 7
    },
    {
+    "name": "BOuclette.13",
+    "value": 5
+   },
+   {
     "name": "Dragonforevor",
     "value": 5
    },
@@ -438,7 +442,7 @@
     "value": 4
    },
    {
-    "name": "BOuclette.13",
+    "name": ".Libellule",
     "value": 3
    },
    {
@@ -448,10 +452,6 @@
    {
     "name": "Piingouin.",
     "value": 2
-   },
-   {
-    "name": ".Libellule",
-    "value": 1
    }
   ],
   "week": [
@@ -469,11 +469,11 @@
    },
    {
     "name": "Pantheon_",
-    "value": 274
+    "value": 276
    },
    {
     "name": "charlie-XCX123",
-    "value": 201
+    "value": 202
    },
    {
     "name": "marinadrk",
@@ -556,16 +556,16 @@
     "value": 45
    },
    {
+    "name": "Fleabag",
+    "value": 43
+   },
+   {
     "name": "alexandre-780",
     "value": 41
    },
    {
-    "name": "Fleabag",
-    "value": 41
-   },
-   {
     "name": "gotica",
-    "value": 34
+    "value": 36
    },
    {
     "name": "Postillon",
@@ -628,6 +628,10 @@
     "value": 7
    },
    {
+    "name": "BOuclette.13",
+    "value": 5
+   },
+   {
     "name": "Dragonforevor",
     "value": 5
    },
@@ -636,7 +640,7 @@
     "value": 4
    },
    {
-    "name": "BOuclette.13",
+    "name": ".Libellule",
     "value": 3
    },
    {
@@ -646,10 +650,6 @@
    {
     "name": "Piingouin.",
     "value": 2
-   },
-   {
-    "name": ".Libellule",
-    "value": 1
    }
   ]
  }
