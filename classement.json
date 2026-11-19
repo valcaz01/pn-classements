@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T19:54:33+00:00",
+ "updated": "2026-11-19T19:56:33+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -44,6 +44,10 @@
     "value": 8
    },
    {
+    "name": "guest77145",
+    "value": 8
+   },
+   {
     "name": "pevanq640",
     "value": 8
    },
@@ -57,10 +61,6 @@
    },
    {
     "name": "Astreu",
-    "value": 7
-   },
-   {
-    "name": "guest77145",
     "value": 7
    },
    {
@@ -202,6 +202,10 @@
     "value": 8
    },
    {
+    "name": "guest77145",
+    "value": 8
+   },
+   {
     "name": "pevanq640",
     "value": 8
    },
@@ -215,10 +219,6 @@
    },
    {
     "name": "Astreu",
-    "value": 7
-   },
-   {
-    "name": "guest77145",
     "value": 7
    },
    {
@@ -323,7 +323,7 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 777
+    "value": 779
    },
    {
     "name": "fym",
@@ -343,7 +343,7 @@
    },
    {
     "name": "Fleabag",
-    "value": 256
+    "value": 258
    },
    {
     "name": "Lovepanda",
@@ -359,11 +359,11 @@
    },
    {
     "name": "Astreu",
-    "value": 220
+    "value": 222
    },
    {
     "name": "habbo22t",
-    "value": 177
+    "value": 179
    },
    {
     "name": "Non-Non",
@@ -383,7 +383,7 @@
    },
    {
     "name": "-Tsukiri-",
-    "value": 151
+    "value": 153
    },
    {
     "name": "andrew16a",
@@ -525,7 +525,7 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 777
+    "value": 779
    },
    {
     "name": "fym",
@@ -545,7 +545,7 @@
    },
    {
     "name": "Fleabag",
-    "value": 256
+    "value": 258
    },
    {
     "name": "Lovepanda",
@@ -561,11 +561,11 @@
    },
    {
     "name": "Astreu",
-    "value": 220
+    "value": 222
    },
    {
     "name": "habbo22t",
-    "value": 177
+    "value": 179
    },
    {
     "name": "Non-Non",
@@ -585,7 +585,7 @@
    },
    {
     "name": "-Tsukiri-",
-    "value": 151
+    "value": 153
    },
    {
     "name": "andrew16a",
