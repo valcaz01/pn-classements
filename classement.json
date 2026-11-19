@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T18:12:32+00:00",
+ "updated": "2026-11-19T18:14:33+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -319,7 +319,7 @@
    },
    {
     "name": "fym",
-    "value": 620
+    "value": 622
    },
    {
     "name": "Pantheon_",
@@ -331,7 +331,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 272
+    "value": 274
    },
    {
     "name": "Lovepanda",
@@ -363,7 +363,7 @@
    },
    {
     "name": "Non-Non",
-    "value": 148
+    "value": 150
    },
    {
     "name": "andrew16a",
@@ -394,15 +394,15 @@
     "value": 82
    },
    {
+    "name": "gotica",
+    "value": 68
+   },
+   {
     "name": ".:Krustiz:.",
     "value": 66
    },
    {
     "name": ".Libellule",
-    "value": 66
-   },
-   {
-    "name": "gotica",
     "value": 66
    },
    {
@@ -455,7 +455,7 @@
    },
    {
     "name": "Proxymore",
-    "value": 19
+    "value": 21
    },
    {
     "name": "pohabbooq05-1",
@@ -521,7 +521,7 @@
    },
    {
     "name": "fym",
-    "value": 620
+    "value": 622
    },
    {
     "name": "Pantheon_",
@@ -533,7 +533,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 272
+    "value": 274
    },
    {
     "name": "Lovepanda",
@@ -565,7 +565,7 @@
    },
    {
     "name": "Non-Non",
-    "value": 148
+    "value": 150
    },
    {
     "name": "andrew16a",
@@ -596,15 +596,15 @@
     "value": 82
    },
    {
+    "name": "gotica",
+    "value": 68
+   },
+   {
     "name": ".:Krustiz:.",
     "value": 66
    },
    {
     "name": ".Libellule",
-    "value": 66
-   },
-   {
-    "name": "gotica",
     "value": 66
    },
    {
@@ -657,7 +657,7 @@
    },
    {
     "name": "Proxymore",
-    "value": 19
+    "value": 21
    },
    {
     "name": "pohabbooq05-1",
