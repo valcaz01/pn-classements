@@ -2701,7 +2701,7 @@
   "grade": null,
   "humeur": "[F.B.I] Agent-Élite      Benny ƒ",
   "pseudo": "Epine",
-  "verifie": "2026-11-18T21:10:18+00:00"
+  "verifie": "2026-11-19T00:10:20+00:00"
  },
  "25894972": {
   "alertes": {},
@@ -3269,7 +3269,7 @@
   "grade": null,
   "humeur": "# Ancienne Légende ´",
   "pseudo": "-Kartal",
-  "verifie": "2026-11-18T21:10:18+00:00"
+  "verifie": "2026-11-19T00:10:20+00:00"
  },
  "25991288": {
   "alertes": {},
@@ -4182,6 +4182,14 @@
   "humeur": "My Body Isn't Ready —",
   "pseudo": "Heroes",
   "verifie": "2026-11-18T21:16:18+00:00"
+ },
+ "4215861": {
+  "alertes": {},
+  "depuis": null,
+  "grade": null,
+  "humeur": "",
+  "pseudo": "benjodu13",
+  "verifie": "2026-11-19T00:10:20+00:00"
  },
  "4272673": {
   "alertes": {},
