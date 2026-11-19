@@ -47,8 +47,9 @@ ouvertes depuis au moins 24 heures. Les mentions et les rappels arrivent dans
 le fil « 🔔 Notifications des tâches » rattaché au tableau épinglé.
 Les anciens avis du bot y sont transférés silencieusement. Après un échange
 dans le salon, le tableau réapparaît en bas, avec ses boutons. L’épingle
-renvoie alors vers les cartes et garde son adresse permanente. Les confirmations privées disparaissent après dix
-secondes et les listes privées se ferment automatiquement.
+renvoie alors vers les cartes et garde son adresse permanente. Les listes privées
+(y compris l’historique), les confirmations d’attribution et l’annonce de création
+du fil disparaissent automatiquement après deux minutes.
 
 GitHub reste la source lue par le forum : pendant son indisponibilité, le forum
 conserve les dernières valeurs publiées et leur véritable heure de collecte.

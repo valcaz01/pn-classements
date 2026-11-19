@@ -6,7 +6,7 @@ import logging
 import re
 import sqlite3
 import unicodedata
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -20,7 +20,7 @@ CHANNEL_NAME = "to-do-list"
 PANEL_TITLE = "Tâches de la Direction"
 VISIBLE_TITLE = "📋 Tâches de la Direction"
 THREAD_NAME = "🔔 Notifications des tâches"
-PRIVATE_VIEW_SECONDS = 180
+TEMPORARY_MESSAGE_SECONDS = 120
 PAGE_SIZE = 8
 BLUE = 0x124669
 REASON = "Tableau des tâches de la Direction"
@@ -191,11 +191,13 @@ class AddTask(discord.ui.Modal, title="Ajouter une tâche"):
             return
         title = " ".join(self.task.value.split())
         if not title:
-            await interaction.response.send_message("Indique la tâche à faire.", ephemeral=True, delete_after=15)
+            await interaction.response.send_message("Indique la tâche à faire.", ephemeral=True,
+                                                    delete_after=TEMPORARY_MESSAGE_SECONDS)
             return
         priority = self.priority.values[0] if self.priority.values else "1"
         if priority not in {str(level) for level in range(len(PRIORITIES))}:
-            await interaction.response.send_message("Choisis une priorité dans la liste.", ephemeral=True, delete_after=15)
+            await interaction.response.send_message("Choisis une priorité dans la liste.", ephemeral=True,
+                                                    delete_after=TEMPORARY_MESSAGE_SECONDS)
             return
         await interaction.response.defer(ephemeral=True, thinking=True)
         try:
@@ -204,16 +206,16 @@ class AddTask(discord.ui.Modal, title="Ajouter une tâche"):
             member = None
         except discord.HTTPException:
             reply = await interaction.edit_original_response(content="Discord n’a pas pu vérifier le membre. Réessaie dans un instant.")
-            await reply.delete(delay=20)
+            await reply.delete(delay=TEMPORARY_MESSAGE_SECONDS)
             return
         if not assignable(member, self.board.role_id, interaction.channel):
             reply = await interaction.edit_original_response(content="Ce membre ne fait plus partie de la Direction ou n’a plus accès au salon. Choisis un autre responsable.")
-            await reply.delete(delay=20)
+            await reply.delete(delay=TEMPORARY_MESSAGE_SECONDS)
             return
         task_id = self.board.store.add(interaction.id, title, interaction.user.id, member.id,
                                        datetime.now(PARIS), int(priority))
         reply = await interaction.edit_original_response(content=f"Tâche **#{task_id}** attribuée à {member.mention}.")
-        await reply.delete(delay=10)
+        await reply.delete(delay=TEMPORARY_MESSAGE_SECONDS)
         await self.board.refresh()
 
 
@@ -238,7 +240,7 @@ class MemberSearch(discord.ui.Modal, title="Rechercher dans la Direction"):
 
 class AssigneePicker(discord.ui.View):
     def __init__(self, board, owner_id, members, page=0):
-        super().__init__(timeout=600)
+        super().__init__(timeout=TEMPORARY_MESSAGE_SECONDS)
         self.board, self.owner_id, self.members, self.page = board, owner_id, members, page
         self.reply = None
         choices = members[page * SELECT_LIMIT:(page + 1) * SELECT_LIMIT]
@@ -251,7 +253,8 @@ class AssigneePicker(discord.ui.View):
             async def choose(interaction):
                 member = by_id.get(select.values[0])
                 if member is None:
-                    await interaction.response.send_message("Choisis un responsable dans la liste.", ephemeral=True, delete_after=15)
+                    await interaction.response.send_message("Choisis un responsable dans la liste.", ephemeral=True,
+                                                            delete_after=TEMPORARY_MESSAGE_SECONDS)
                     return
                 await interaction.response.send_modal(AddTask(board, member))
                 if self.reply is not None:
@@ -275,7 +278,7 @@ class AssigneePicker(discord.ui.View):
     async def show(self, interaction, page):
         view = AssigneePicker(self.board, self.owner_id, self.members, page)
         view.reply = self.reply
-        await interaction.response.edit_message(view=view)
+        await interaction.response.edit_message(view=view, delete_after=TEMPORARY_MESSAGE_SECONDS)
 
     @discord.ui.button(label="Précédent", row=1)
     async def previous(self, interaction, button):
@@ -292,7 +295,7 @@ class AssigneePicker(discord.ui.View):
 
 class TaskList(discord.ui.View):
     def __init__(self, board, member_id, personal, page=0, history=False):
-        super().__init__(timeout=600)
+        super().__init__(timeout=TEMPORARY_MESSAGE_SECONDS)
         self.board, self.member_id, self.personal = board, member_id, personal
         self.history = history
         if history:
@@ -332,7 +335,8 @@ class TaskList(discord.ui.View):
 
     async def show(self, interaction, page):
         view = TaskList(self.board, self.member_id, self.personal, page, history=self.history)
-        await interaction.response.edit_message(embeds=view.embeds, view=view if view.children else None)
+        await interaction.response.edit_message(embeds=view.embeds, view=view if view.children else None,
+                                                delete_after=TEMPORARY_MESSAGE_SECONDS)
 
     @discord.ui.button(label="Précédent", row=3)
     async def previous(self, interaction, button):
@@ -357,11 +361,9 @@ class BoardButtons(discord.ui.View):
 
     async def show(self, interaction, personal, history=False):
         view = TaskList(self.board, interaction.user.id, personal, history=history)
-        if view.children:
-            await interaction.response.send_message(embeds=view.embeds, view=view, ephemeral=True,
-                                                   delete_after=PRIVATE_VIEW_SECONDS)
-        else:
-            await interaction.response.send_message(embeds=view.embeds, ephemeral=True, delete_after=20)
+        options = {"view": view} if view.children else {}
+        await interaction.response.send_message(embeds=view.embeds, ephemeral=True,
+                                               delete_after=TEMPORARY_MESSAGE_SECONDS, **options)
 
     @discord.ui.button(label="Mes tâches", custom_id="pn:direction:mine", style=discord.ButtonStyle.primary)
     async def mine(self, interaction, button):
@@ -385,6 +387,7 @@ class DirectionBoard:
         self.role_id = None
         self.channel_id = None
         self.visibility_task = None
+        self.thread_notice_cleanup = None
 
     def start(self):
         self.client.add_view(self.buttons)
@@ -395,7 +398,7 @@ class DirectionBoard:
                 and self.role_id and director(interaction.user, self.role_id)):
             return True
         await interaction.response.send_message("Ce tableau est réservé à la Direction dans son salon privé.",
-                                               ephemeral=True, delete_after=15)
+                                               ephemeral=True, delete_after=TEMPORARY_MESSAGE_SECONDS)
         return False
 
     async def assignees(self, interaction, prefix):
@@ -442,7 +445,7 @@ class DirectionBoard:
             prompt = "Discord n’a pas pu charger les membres de la Direction. Relance la recherche."
         view = AssigneePicker(self, interaction.user.id, members)
         view.reply = await interaction.edit_original_response(content=prompt, view=view)
-        await view.reply.delete(delay=PRIVATE_VIEW_SECONDS)
+        await view.reply.delete(delay=TEMPORARY_MESSAGE_SECONDS)
 
     async def channel(self):
         guild = self.client.get_guild(self.guild_id)
@@ -625,6 +628,28 @@ class DirectionBoard:
             raise RuntimeError("Le fil de notifications ne correspond pas au salon privé du tableau.")
         return thread
 
+    async def clear_thread_creation_notice(self, channel, thread):
+        # Le message système du salon et le fil sont deux objets Discord distincts.
+        lifetime = timedelta(seconds=TEMPORARY_MESSAGE_SECONDS)
+        created = thread.created_at or discord.utils.snowflake_time(thread.id)
+        await discord.utils.sleep_until(created + lifetime)
+        before = created + lifetime if thread.created_at else None
+        try:
+            async for msg in channel.history(after=created - timedelta(seconds=5), before=before,
+                                             oldest_first=True, limit=None):
+                if (msg.type != discord.MessageType.thread_created or msg.author.id != self.client.user.id
+                        or msg.reference is None or msg.reference.channel_id != thread.id):
+                    continue
+                await discord.utils.sleep_until(msg.created_at + lifetime)
+                try:
+                    await msg.delete()
+                except discord.NotFound:
+                    pass
+                break
+            self.store.remember("cleared_thread_notice", thread.id)
+        except discord.HTTPException:
+            LOG.exception("Nettoyage de l’annonce de création du fil reporté")
+
     async def archive_public_notices(self, channel, thread, panel):
         if self.store.setting("archived_public_notices") == str(thread.id):
             return
@@ -751,6 +776,9 @@ class DirectionBoard:
                 if self.store.setting("notification_thread") != str(thread.id):
                     self.store.remember("notification_thread", thread.id)
                     message = await self.panel(channel, link_to=self.store.setting("visible"))
+                if (self.store.setting("cleared_thread_notice") != str(thread.id)
+                        and (self.thread_notice_cleanup is None or self.thread_notice_cleanup.done())):
+                    self.thread_notice_cleanup = asyncio.create_task(self.clear_thread_creation_notice(channel, thread))
                 try:
                     await self.archive_public_notices(channel, thread, message)
                 except (discord.HTTPException, RuntimeError):

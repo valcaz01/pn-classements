@@ -88,7 +88,8 @@ class DirectionTests(unittest.IsolatedAsyncioTestCase):
 
     async def test_director_assigns_to_another_without_admin_privileges(self):
         alice, bob = self.member(10), self.member(20)
-        await self.submit(alice, bob)
+        confirmed = await self.submit(alice, bob)
+        confirmed.edit_original_response.return_value.delete.assert_awaited_once_with(delay=120)
         await self.submit(alice, bob)  # même soumission livrée deux fois
         self.assertEqual(self.board.store.page(alice.id)[1], 0)
         rows, count, _ = self.board.store.page(bob.id)
@@ -108,6 +109,22 @@ class DirectionTests(unittest.IsolatedAsyncioTestCase):
         rejected.response.send_message.assert_awaited_once()
         await self.submit(alice, guest)
         self.assertEqual(self.board.store.page()[1], 0)
+
+    async def test_private_lists_expire_after_two_minutes_with_or_without_controls(self):
+        interaction = SimpleNamespace(user=self.member(20), response=AsyncMock())
+        for button in (self.board.buttons.mine, self.board.buttons.all_tasks, self.board.buttons.history):
+            await button.callback(interaction)
+            args = interaction.response.send_message.await_args.kwargs
+            self.assertTrue(args["ephemeral"])
+            self.assertEqual(args["delete_after"], 120)
+            self.assertNotIn("view", args)
+        self.board.store.add(1, "À relire", 20, 20, self.now)
+        await self.board.buttons.mine.callback(interaction)
+        args = interaction.response.send_message.await_args.kwargs
+        self.assertEqual(args["delete_after"], 120)
+        self.assertTrue(args["view"].children)
+        await args["view"].show(interaction, 0)
+        self.assertEqual(interaction.response.edit_message.await_args.kwargs["delete_after"], 120)
 
     async def test_add_button_and_name_search_show_only_eligible_directors(self):
         alice, bob, newcomer = self.member(10), self.member(20), self.member(30)
@@ -423,13 +440,33 @@ class DirectionTests(unittest.IsolatedAsyncioTestCase):
         self.board.panel = AsyncMock(return_value=panel)
         self.board.keep_visible = AsyncMock()
         self.board.archive_public_notices = AsyncMock()
+        self.board.clear_thread_creation_notice = AsyncMock()
         self.board.notify_assignments, self.board.remind = AsyncMock(), AsyncMock()
         await self.board.refresh()
+        await self.board.thread_notice_cleanup
+        self.board.clear_thread_creation_notice.assert_awaited_once_with(self.channel, thread)
         self.board.notify_assignments.assert_awaited_once_with(thread, panel)
         self.assertIs(self.board.remind.await_args.args[0], thread)
         self.assertEqual(self.board.store.setting("notification_thread"), "500")
         self.board.keep_visible.assert_awaited_once_with(self.channel, panel)
         panel.create_thread.assert_awaited_once()
+
+    async def test_cleanup_only_deletes_the_bots_creation_notice_for_this_thread(self):
+        thread = SimpleNamespace(id=500, created_at=self.now)
+        def message(kind, author, target):
+            return SimpleNamespace(type=kind, author=SimpleNamespace(id=author), reference=SimpleNamespace(channel_id=target),
+                                   created_at=self.now + timedelta(seconds=1), delete=AsyncMock())
+        notice = message(discord.MessageType.thread_created, 123, 500)
+        others = [message(discord.MessageType.default, 123, 500), message(discord.MessageType.thread_created, 55, 500),
+                  message(discord.MessageType.thread_created, 123, 501), message(discord.MessageType.thread_starter_message, 123, 500)]
+        self.channel.history.side_effect = lambda **kw: messages([*others, notice])
+        with patch("direction_todo.discord.utils.sleep_until", new_callable=AsyncMock) as wait:
+            await self.board.clear_thread_creation_notice(self.channel, thread)
+        self.assertEqual(wait.await_args.args[0], notice.created_at + timedelta(minutes=2))
+        notice.delete.assert_awaited_once_with()
+        for other in others:
+            other.delete.assert_not_awaited()
+        self.assertEqual(self.board.store.setting("cleared_thread_notice"), str(thread.id))
 
     async def test_public_notice_archived_silently_before_removal_and_recovered_after_interruption(self):
         notice = MagicMock()
