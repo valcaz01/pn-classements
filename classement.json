@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T17:48:33+00:00",
+ "updated": "2026-11-19T17:50:33+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -323,15 +323,15 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 249
+    "value": 251
    },
    {
     "name": "Fleabag",
-    "value": 246
+    "value": 248
    },
    {
     "name": "Lovepanda",
-    "value": 235
+    "value": 237
    },
    {
     "name": "marinadrk",
@@ -363,7 +363,7 @@
    },
    {
     "name": "Non-Non",
-    "value": 132
+    "value": 134
    },
    {
     "name": "habbo22t",
@@ -411,7 +411,7 @@
    },
    {
     "name": "gotica",
-    "value": 45
+    "value": 46
    },
    {
     "name": "guest77145",
@@ -426,12 +426,12 @@
     "value": 37
    },
    {
-    "name": "YzEnRodeo",
+    "name": "Pierre.Langlet",
     "value": 35
    },
    {
-    "name": "Pierre.Langlet",
-    "value": 33
+    "name": "YzEnRodeo",
+    "value": 35
    },
    {
     "name": "Postillon",
@@ -466,15 +466,15 @@
     "value": 16
    },
    {
+    "name": "Proxymore",
+    "value": 14
+   },
+   {
     "name": "-Oiseau",
     "value": 12
    },
    {
     "name": "Kaykay3208",
-    "value": 12
-   },
-   {
-    "name": "Proxymore",
     "value": 12
    },
    {
@@ -525,15 +525,15 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 249
+    "value": 251
    },
    {
     "name": "Fleabag",
-    "value": 246
+    "value": 248
    },
    {
     "name": "Lovepanda",
-    "value": 235
+    "value": 237
    },
    {
     "name": "marinadrk",
@@ -565,7 +565,7 @@
    },
    {
     "name": "Non-Non",
-    "value": 132
+    "value": 134
    },
    {
     "name": "habbo22t",
@@ -613,7 +613,7 @@
    },
    {
     "name": "gotica",
-    "value": 45
+    "value": 46
    },
    {
     "name": "guest77145",
@@ -628,12 +628,12 @@
     "value": 37
    },
    {
-    "name": "YzEnRodeo",
+    "name": "Pierre.Langlet",
     "value": 35
    },
    {
-    "name": "Pierre.Langlet",
-    "value": 33
+    "name": "YzEnRodeo",
+    "value": 35
    },
    {
     "name": "Postillon",
@@ -668,15 +668,15 @@
     "value": 16
    },
    {
+    "name": "Proxymore",
+    "value": 14
+   },
+   {
     "name": "-Oiseau",
     "value": 12
    },
    {
     "name": "Kaykay3208",
-    "value": 12
-   },
-   {
-    "name": "Proxymore",
     "value": 12
    },
    {
