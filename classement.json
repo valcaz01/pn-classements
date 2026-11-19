@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T19:48:33+00:00",
+ "updated": "2026-11-19T19:50:33+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -24,11 +24,11 @@
     "value": 11
    },
    {
-    "name": "Lovepanda",
-    "value": 10
+    "name": "Shizuku",
+    "value": 11
    },
    {
-    "name": "Shizuku",
+    "name": "Lovepanda",
     "value": 10
    },
    {
@@ -182,11 +182,11 @@
     "value": 11
    },
    {
-    "name": "Lovepanda",
-    "value": 10
+    "name": "Shizuku",
+    "value": 11
    },
    {
-    "name": "Shizuku",
+    "name": "Lovepanda",
     "value": 10
    },
    {
@@ -323,7 +323,7 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 772
+    "value": 773
    },
    {
     "name": "fym",
@@ -342,12 +342,12 @@
     "value": 281
    },
    {
-    "name": "Lovepanda",
-    "value": 253
+    "name": "Fleabag",
+    "value": 254
    },
    {
-    "name": "Fleabag",
-    "value": 252
+    "name": "Lovepanda",
+    "value": 253
    },
    {
     "name": "charlie-XCX123",
@@ -359,15 +359,15 @@
    },
    {
     "name": "Astreu",
-    "value": 215
+    "value": 216
+   },
+   {
+    "name": "habbo22t",
+    "value": 173
    },
    {
     "name": "Non-Non",
     "value": 172
-   },
-   {
-    "name": "habbo22t",
-    "value": 171
    },
    {
     "name": "halos34",
@@ -383,7 +383,7 @@
    },
    {
     "name": "-Tsukiri-",
-    "value": 145
+    "value": 147
    },
    {
     "name": "andrew16a",
@@ -525,7 +525,7 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 772
+    "value": 773
    },
    {
     "name": "fym",
@@ -544,12 +544,12 @@
     "value": 281
    },
    {
-    "name": "Lovepanda",
-    "value": 253
+    "name": "Fleabag",
+    "value": 254
    },
    {
-    "name": "Fleabag",
-    "value": 252
+    "name": "Lovepanda",
+    "value": 253
    },
    {
     "name": "charlie-XCX123",
@@ -561,15 +561,15 @@
    },
    {
     "name": "Astreu",
-    "value": 215
+    "value": 216
+   },
+   {
+    "name": "habbo22t",
+    "value": 173
    },
    {
     "name": "Non-Non",
     "value": 172
-   },
-   {
-    "name": "habbo22t",
-    "value": 171
    },
    {
     "name": "halos34",
@@ -585,7 +585,7 @@
    },
    {
     "name": "-Tsukiri-",
-    "value": 145
+    "value": 147
    },
    {
     "name": "andrew16a",
