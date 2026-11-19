@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T14:16:33+00:00",
+ "updated": "2026-11-19T14:18:32+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -259,7 +259,7 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 662
+    "value": 664
    },
    {
     "name": "fym",
@@ -267,19 +267,19 @@
    },
    {
     "name": "Pantheon_",
-    "value": 299
+    "value": 300
    },
    {
     "name": "Shizuku",
     "value": 281
    },
    {
-    "name": "charlie-XCX123",
-    "value": 202
+    "name": "marinadrk",
+    "value": 203
    },
    {
-    "name": "marinadrk",
-    "value": 201
+    "name": "charlie-XCX123",
+    "value": 202
    },
    {
     "name": "Astreu",
@@ -343,7 +343,7 @@
    },
    {
     "name": "Fleabag",
-    "value": 53
+    "value": 55
    },
    {
     "name": "Pporappippam",
@@ -391,7 +391,7 @@
    },
    {
     "name": "YzEnRodeo",
-    "value": 14
+    "value": 16
    },
    {
     "name": "-Oiseau",
@@ -422,6 +422,10 @@
     "value": 8
    },
    {
+    "name": ".Libellule",
+    "value": 7
+   },
+   {
     "name": "Freminet",
     "value": 7
    },
@@ -432,10 +436,6 @@
    {
     "name": "Mixte",
     "value": 7
-   },
-   {
-    "name": ".Libellule",
-    "value": 6
    },
    {
     "name": "Dragonforevor",
@@ -457,7 +457,7 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 662
+    "value": 664
    },
    {
     "name": "fym",
@@ -465,19 +465,19 @@
    },
    {
     "name": "Pantheon_",
-    "value": 299
+    "value": 300
    },
    {
     "name": "Shizuku",
     "value": 281
    },
    {
-    "name": "charlie-XCX123",
-    "value": 202
+    "name": "marinadrk",
+    "value": 203
    },
    {
-    "name": "marinadrk",
-    "value": 201
+    "name": "charlie-XCX123",
+    "value": 202
    },
    {
     "name": "Astreu",
@@ -541,7 +541,7 @@
    },
    {
     "name": "Fleabag",
-    "value": 53
+    "value": 55
    },
    {
     "name": "Pporappippam",
@@ -589,7 +589,7 @@
    },
    {
     "name": "YzEnRodeo",
-    "value": 14
+    "value": 16
    },
    {
     "name": "-Oiseau",
@@ -620,6 +620,10 @@
     "value": 8
    },
    {
+    "name": ".Libellule",
+    "value": 7
+   },
+   {
     "name": "Freminet",
     "value": 7
    },
@@ -630,10 +634,6 @@
    {
     "name": "Mixte",
     "value": 7
-   },
-   {
-    "name": ".Libellule",
-    "value": 6
    },
    {
     "name": "Dragonforevor",
