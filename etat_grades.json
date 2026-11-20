@@ -27,9 +27,9 @@
   "alertes": {},
   "depuis": null,
   "grade": null,
-  "humeur": "#FBI-IAST",
+  "humeur": "",
   "pseudo": "-Demoniiac",
-  "verifie": "2026-11-19T23:20:34+00:00"
+  "verifie": "2026-11-20T02:20:36+00:00"
  },
  "10671179": {
   "alertes": {},
@@ -101,7 +101,7 @@
   "grade": null,
   "humeur": "Première Année Gryffondore",
   "pseudo": "Linisweet",
-  "verifie": "2026-11-19T23:18:35+00:00"
+  "verifie": "2026-11-20T02:20:36+00:00"
  },
  "12302852": {
   "alertes": {},
@@ -149,7 +149,7 @@
   "grade": null,
   "humeur": "Deus non alligatur sacramentis",
   "pseudo": "Eboshi.",
-  "verifie": "2026-11-19T23:18:35+00:00"
+  "verifie": "2026-11-20T02:20:36+00:00"
  },
  "13272681": {
   "alertes": {},
@@ -173,7 +173,7 @@
   "grade": null,
   "humeur": "Âme soeur irl |Didy59400|",
   "pseudo": "Jessvanny",
-  "verifie": "2026-11-19T23:18:35+00:00"
+  "verifie": "2026-11-20T02:20:36+00:00"
  },
  "13669439": {
   "alertes": {},
@@ -493,7 +493,7 @@
   "grade": null,
   "humeur": "[R.F] Animateur",
   "pseudo": "Neejan,",
-  "verifie": "2026-11-19T23:18:35+00:00"
+  "verifie": "2026-11-20T02:20:36+00:00"
  },
  "19613434": {
   "alertes": {},
@@ -501,7 +501,7 @@
   "grade": null,
   "humeur": "",
   "pseudo": "::cooperstown:",
-  "verifie": "2026-11-19T23:18:35+00:00"
+  "verifie": "2026-11-20T02:20:36+00:00"
  },
  "19640796": {
   "alertes": {},
@@ -981,7 +981,7 @@
   "grade": null,
   "humeur": "ça dit quoi ?",
   "pseudo": "Rock_2000",
-  "verifie": "2026-11-19T23:18:35+00:00"
+  "verifie": "2026-11-20T02:20:36+00:00"
  },
  "23381165": {
   "alertes": {},
@@ -1213,7 +1213,7 @@
   "grade": null,
   "humeur": "[C.I.A.] Haut Gradé [0]",
   "pseudo": "Spectra-",
-  "verifie": "2026-11-19T23:18:35+00:00"
+  "verifie": "2026-11-20T02:20:36+00:00"
  },
  "23943557": {
   "alertes": {},
@@ -1733,7 +1733,7 @@
   "grade": null,
   "humeur": "blablabla",
   "pseudo": "Yazouub",
-  "verifie": "2026-11-19T23:18:35+00:00"
+  "verifie": "2026-11-20T02:20:36+00:00"
  },
  "24554330": {
   "alertes": {},
@@ -1925,7 +1925,7 @@
   "grade": null,
   "humeur": "",
   "pseudo": "_.Flora._",
-  "verifie": "2026-11-19T23:18:35+00:00"
+  "verifie": "2026-11-20T02:20:36+00:00"
  },
  "24760638": {
   "alertes": {},
@@ -2597,7 +2597,7 @@
   "grade": null,
   "humeur": "",
   "pseudo": "lrysse",
-  "verifie": "2026-11-19T23:18:35+00:00"
+  "verifie": "2026-11-20T02:20:36+00:00"
  },
  "25472292": {
   "alertes": {},
@@ -2709,7 +2709,7 @@
   "grade": null,
   "humeur": "ª",
   "pseudo": "Chau7",
-  "verifie": "2026-11-19T23:18:35+00:00"
+  "verifie": "2026-11-20T02:20:36+00:00"
  },
  "25563019": {
   "alertes": {},
@@ -3189,7 +3189,7 @@
   "grade": null,
   "humeur": "yok beee abi",
   "pseudo": "Eliz,",
-  "verifie": "2026-11-19T23:18:35+00:00"
+  "verifie": "2026-11-20T02:20:36+00:00"
  },
  "25768408": {
   "alertes": {},
@@ -3293,7 +3293,7 @@
   "grade": null,
   "humeur": "[R.F] Psychiatre cadre (40) [d'ory]",
   "pseudo": "Impressario_",
-  "verifie": "2026-11-19T23:18:35+00:00"
+  "verifie": "2026-11-20T02:20:36+00:00"
  },
  "25788810": {
   "alertes": {},
@@ -3333,7 +3333,7 @@
   "grade": null,
   "humeur": "",
   "pseudo": "captainMugen",
-  "verifie": "2026-11-19T23:18:35+00:00"
+  "verifie": "2026-11-20T02:20:36+00:00"
  },
  "25812129": {
   "alertes": {},
@@ -3589,7 +3589,7 @@
   "grade": null,
   "humeur": "",
   "pseudo": "Tylre",
-  "verifie": "2026-11-19T23:18:35+00:00"
+  "verifie": "2026-11-20T02:20:36+00:00"
  },
  "25888587": {
   "alertes": {},
@@ -3709,7 +3709,7 @@
   "grade": null,
   "humeur": "4 alprazolam et du cheba souad",
   "pseudo": "Abdelicious",
-  "verifie": "2026-11-19T23:18:35+00:00"
+  "verifie": "2026-11-20T02:20:36+00:00"
  },
  "25908701": {
   "alertes": {},
@@ -3733,7 +3733,7 @@
   "grade": null,
   "humeur": "[C.I.A.] Dir. Ressources Humaines",
   "pseudo": "leanostar",
-  "verifie": "2026-11-19T23:18:35+00:00"
+  "verifie": "2026-11-20T02:20:36+00:00"
  },
  "25911676": {
   "alertes": {},
@@ -3749,7 +3749,7 @@
   "grade": null,
   "humeur": "LESBE\"TEAM LGBT\"",
   "pseudo": "charrifgameNOW",
-  "verifie": "2026-11-19T23:18:35+00:00"
+  "verifie": "2026-11-20T02:20:36+00:00"
  },
  "25916241": {
   "alertes": {},
@@ -4149,7 +4149,7 @@
   "grade": null,
   "humeur": "[F.B.I] Opérateur Débutant #CAVALIER<3",
   "pseudo": "Jordan2",
-  "verifie": "2026-11-19T23:18:35+00:00"
+  "verifie": "2026-11-20T02:20:36+00:00"
  },
  "25969079": {
   "alertes": {},
@@ -4173,7 +4173,7 @@
   "grade": null,
   "humeur": "     glucide",
   "pseudo": "jpass2spi",
-  "verifie": "2026-11-19T23:18:35+00:00"
+  "verifie": "2026-11-20T02:20:36+00:00"
  },
  "25971017": {
   "alertes": {},
@@ -4261,7 +4261,7 @@
   "grade": null,
   "humeur": "",
   "pseudo": "oui?",
-  "verifie": "2026-11-19T23:18:35+00:00"
+  "verifie": "2026-11-20T02:20:36+00:00"
  },
  "25978270": {
   "alertes": {},
@@ -4997,7 +4997,7 @@
   "grade": null,
   "humeur": "",
   "pseudo": "Leaaa111",
-  "verifie": "2026-11-19T23:18:35+00:00"
+  "verifie": "2026-11-20T02:20:36+00:00"
  },
  "26030228": {
   "alertes": {},
@@ -5397,7 +5397,7 @@
   "grade": null,
   "humeur": "Le silence est d’or",
   "pseudo": "Noahkiss2627",
-  "verifie": "2026-11-19T23:18:35+00:00"
+  "verifie": "2026-11-20T02:20:36+00:00"
  },
  "26042162": {
   "alertes": {},
@@ -5453,7 +5453,7 @@
   "grade": null,
   "humeur": "",
   "pseudo": "naisa69",
-  "verifie": "2026-11-19T23:18:35+00:00"
+  "verifie": "2026-11-20T02:20:36+00:00"
  },
  "26042282": {
   "alertes": {},
@@ -5661,7 +5661,7 @@
   "grade": null,
   "humeur": "Tu veux quoi toi ?",
   "pseudo": "Coucou76",
-  "verifie": "2026-11-19T23:18:35+00:00"
+  "verifie": "2026-11-20T02:20:36+00:00"
  },
  "26042568": {
   "alertes": {},
@@ -5893,7 +5893,7 @@
   "grade": null,
   "humeur": "",
   "pseudo": "kira083",
-  "verifie": "2026-11-19T23:18:35+00:00"
+  "verifie": "2026-11-20T02:20:36+00:00"
  },
  "7144283": {
   "alertes": {},
@@ -5941,7 +5941,7 @@
   "grade": null,
   "humeur": "",
   "pseudo": "-kikim7",
-  "verifie": "2026-11-19T23:18:35+00:00"
+  "verifie": "2026-11-20T02:20:36+00:00"
  },
  "8125270": {
   "alertes": {},
