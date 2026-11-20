@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T20:20:25+00:00",
+ "updated": "2026-11-20T20:22:25+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -371,7 +371,7 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 925
+    "value": 927
    },
    {
     "name": "habbo-160-3",
@@ -391,7 +391,7 @@
    },
    {
     "name": "Shizuku",
-    "value": 420
+    "value": 422
    },
    {
     "name": "Lovepanda",
@@ -402,16 +402,16 @@
     "value": 306
    },
    {
+    "name": "habbo22t",
+    "value": 292
+   },
+   {
     "name": "Non-Non",
     "value": 292
    },
    {
     "name": "Fleabag",
     "value": 291
-   },
-   {
-    "name": "habbo22t",
-    "value": 290
    },
    {
     "name": "Icarem",
@@ -427,7 +427,7 @@
    },
    {
     "name": "Lewddon",
-    "value": 207
+    "value": 209
    },
    {
     "name": "halos34",
@@ -455,7 +455,7 @@
    },
    {
     "name": "dadou07",
-    "value": 140
+    "value": 142
    },
    {
     "name": "flo578",
@@ -542,6 +542,14 @@
     "value": 17
    },
    {
+    "name": "Mi,hermano",
+    "value": 17
+   },
+   {
+    "name": "Padre",
+    "value": 17
+   },
+   {
     "name": "pititchatoncute",
     "value": 17
    },
@@ -556,14 +564,6 @@
    {
     "name": "Imondi",
     "value": 16
-   },
-   {
-    "name": "Mi,hermano",
-    "value": 15
-   },
-   {
-    "name": "Padre",
-    "value": 15
    },
    {
     "name": "Robotor",
@@ -573,7 +573,7 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 925
+    "value": 927
    },
    {
     "name": "habbo-160-3",
@@ -593,7 +593,7 @@
    },
    {
     "name": "Shizuku",
-    "value": 420
+    "value": 422
    },
    {
     "name": "Lovepanda",
@@ -604,16 +604,16 @@
     "value": 306
    },
    {
+    "name": "habbo22t",
+    "value": 292
+   },
+   {
     "name": "Non-Non",
     "value": 292
    },
    {
     "name": "Fleabag",
     "value": 291
-   },
-   {
-    "name": "habbo22t",
-    "value": 290
    },
    {
     "name": "Icarem",
@@ -629,7 +629,7 @@
    },
    {
     "name": "Lewddon",
-    "value": 207
+    "value": 209
    },
    {
     "name": "halos34",
@@ -657,7 +657,7 @@
    },
    {
     "name": "dadou07",
-    "value": 140
+    "value": 142
    },
    {
     "name": "flo578",
@@ -744,6 +744,14 @@
     "value": 17
    },
    {
+    "name": "Mi,hermano",
+    "value": 17
+   },
+   {
+    "name": "Padre",
+    "value": 17
+   },
+   {
     "name": "pititchatoncute",
     "value": 17
    },
@@ -758,14 +766,6 @@
    {
     "name": "Imondi",
     "value": 16
-   },
-   {
-    "name": "Mi,hermano",
-    "value": 15
-   },
-   {
-    "name": "Padre",
-    "value": 15
    },
    {
     "name": "Robotor",
