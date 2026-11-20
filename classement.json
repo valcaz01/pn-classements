@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T20:44:25+00:00",
+ "updated": "2026-11-20T20:46:25+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -371,7 +371,7 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 948
+    "value": 950
    },
    {
     "name": "habbo-160-3",
@@ -399,7 +399,7 @@
    },
    {
     "name": "habbo22t",
-    "value": 314
+    "value": 316
    },
    {
     "name": "Astreu",
@@ -510,12 +510,12 @@
     "value": 37
    },
    {
-    "name": "Pierre.Langlet",
+    "name": "Padre",
     "value": 37
    },
    {
-    "name": "Padre",
-    "value": 35
+    "name": "Pierre.Langlet",
+    "value": 37
    },
    {
     "name": "YzEnRodeo",
@@ -573,7 +573,7 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 948
+    "value": 950
    },
    {
     "name": "habbo-160-3",
@@ -601,7 +601,7 @@
    },
    {
     "name": "habbo22t",
-    "value": 314
+    "value": 316
    },
    {
     "name": "Astreu",
@@ -712,12 +712,12 @@
     "value": 37
    },
    {
-    "name": "Pierre.Langlet",
+    "name": "Padre",
     "value": 37
    },
    {
-    "name": "Padre",
-    "value": 35
+    "name": "Pierre.Langlet",
+    "value": 37
    },
    {
     "name": "YzEnRodeo",
