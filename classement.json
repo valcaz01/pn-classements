@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T11:16:34+00:00",
+ "updated": "2026-11-20T11:18:35+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -498,6 +498,10 @@
     "value": 18
    },
    {
+    "name": ".Dylan.",
+    "value": 17
+   },
+   {
     "name": "Kaykay3208",
     "value": 17
    },
@@ -516,10 +520,6 @@
    {
     "name": "Imondi",
     "value": 16
-   },
-   {
-    "name": ".Dylan.",
-    "value": 15
    },
    {
     "name": "Robotor",
@@ -700,6 +700,10 @@
     "value": 18
    },
    {
+    "name": ".Dylan.",
+    "value": 17
+   },
+   {
     "name": "Kaykay3208",
     "value": 17
    },
@@ -718,10 +722,6 @@
    {
     "name": "Imondi",
     "value": 16
-   },
-   {
-    "name": ".Dylan.",
-    "value": 15
    },
    {
     "name": "Robotor",
