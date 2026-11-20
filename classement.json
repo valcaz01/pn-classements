@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T11:04:34+00:00",
+ "updated": "2026-11-20T11:06:35+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -339,7 +339,7 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 918
+    "value": 919
    },
    {
     "name": "fym",
@@ -482,12 +482,12 @@
     "value": 30
    },
    {
-    "name": "-Oiseau",
-    "value": 23
+    "name": "dadou07",
+    "value": 24
    },
    {
-    "name": "dadou07",
-    "value": 22
+    "name": "-Oiseau",
+    "value": 23
    },
    {
     "name": "Sciel",
@@ -541,7 +541,7 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 918
+    "value": 919
    },
    {
     "name": "fym",
@@ -684,12 +684,12 @@
     "value": 30
    },
    {
-    "name": "-Oiseau",
-    "value": 23
+    "name": "dadou07",
+    "value": 24
    },
    {
-    "name": "dadou07",
-    "value": 22
+    "name": "-Oiseau",
+    "value": 23
    },
    {
     "name": "Sciel",
