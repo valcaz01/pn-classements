@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T12:24:34+00:00",
+ "updated": "2026-11-20T12:26:35+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -44,15 +44,15 @@
     "value": 13
    },
    {
+    "name": "Lovepanda",
+    "value": 12
+   },
+   {
     "name": "Astreu",
     "value": 11
    },
    {
     "name": "charlie-XCX123",
-    "value": 11
-   },
-   {
-    "name": "Lovepanda",
     "value": 11
    },
    {
@@ -210,15 +210,15 @@
     "value": 13
    },
    {
+    "name": "Lovepanda",
+    "value": 12
+   },
+   {
     "name": "Astreu",
     "value": 11
    },
    {
     "name": "charlie-XCX123",
-    "value": 11
-   },
-   {
-    "name": "Lovepanda",
     "value": 11
    },
    {
@@ -431,7 +431,7 @@
    },
    {
     "name": "Proxymore",
-    "value": 90
+    "value": 92
    },
    {
     "name": ".:Krustiz:.",
@@ -633,7 +633,7 @@
    },
    {
     "name": "Proxymore",
-    "value": 90
+    "value": 92
    },
    {
     "name": ".:Krustiz:.",
