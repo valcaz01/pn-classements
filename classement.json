@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T14:28:24+00:00",
+ "updated": "2026-11-20T14:30:24+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -160,6 +160,10 @@
     "value": 2
    },
    {
+    "name": "dadou07",
+    "value": 1
+   },
+   {
     "name": "HK83000",
     "value": 1
    },
@@ -330,6 +334,10 @@
     "value": 2
    },
    {
+    "name": "dadou07",
+    "value": 1
+   },
+   {
     "name": "HK83000",
     "value": 1
    },
@@ -367,7 +375,7 @@
    },
    {
     "name": "marinadrk",
-    "value": 355
+    "value": 357
    },
    {
     "name": "Lovepanda",
@@ -395,7 +403,7 @@
    },
    {
     "name": "habbo22t",
-    "value": 215
+    "value": 217
    },
    {
     "name": "halos34",
@@ -431,7 +439,7 @@
    },
    {
     "name": "gotica",
-    "value": 121
+    "value": 122
    },
    {
     "name": "sami75.19",
@@ -569,7 +577,7 @@
    },
    {
     "name": "marinadrk",
-    "value": 355
+    "value": 357
    },
    {
     "name": "Lovepanda",
@@ -597,7 +605,7 @@
    },
    {
     "name": "habbo22t",
-    "value": 215
+    "value": 217
    },
    {
     "name": "halos34",
@@ -633,7 +641,7 @@
    },
    {
     "name": "gotica",
-    "value": 121
+    "value": 122
    },
    {
     "name": "sami75.19",
