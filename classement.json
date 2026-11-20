@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T12:50:35+00:00",
+ "updated": "2026-11-20T12:52:34+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -383,7 +383,7 @@
    },
    {
     "name": "Non-Non",
-    "value": 231
+    "value": 232
    },
    {
     "name": "halos34",
@@ -418,11 +418,11 @@
     "value": 122
    },
    {
-    "name": "gotica",
-    "value": 110
+    "name": "Proxymore",
+    "value": 111
    },
    {
-    "name": "Proxymore",
+    "name": "gotica",
     "value": 110
    },
    {
@@ -585,7 +585,7 @@
    },
    {
     "name": "Non-Non",
-    "value": 231
+    "value": 232
    },
    {
     "name": "halos34",
@@ -620,11 +620,11 @@
     "value": 122
    },
    {
-    "name": "gotica",
-    "value": 110
+    "name": "Proxymore",
+    "value": 111
    },
    {
-    "name": "Proxymore",
+    "name": "gotica",
     "value": 110
    },
    {
