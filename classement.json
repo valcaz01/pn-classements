@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T15:46:24+00:00",
+ "updated": "2026-11-20T15:48:23+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -363,7 +363,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 625
+    "value": 627
    },
    {
     "name": "Pantheon_",
@@ -443,15 +443,15 @@
    },
    {
     "name": "dadou07",
+    "value": 121
+   },
+   {
+    "name": "Weavem",
     "value": 119
    },
    {
     "name": "sami75.19",
     "value": 118
-   },
-   {
-    "name": "Weavem",
-    "value": 117
    },
    {
     "name": ".:Krustiz:.",
@@ -565,7 +565,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 625
+    "value": 627
    },
    {
     "name": "Pantheon_",
@@ -645,15 +645,15 @@
    },
    {
     "name": "dadou07",
+    "value": 121
+   },
+   {
+    "name": "Weavem",
     "value": 119
    },
    {
     "name": "sami75.19",
     "value": 118
-   },
-   {
-    "name": "Weavem",
-    "value": 117
    },
    {
     "name": ".:Krustiz:.",
