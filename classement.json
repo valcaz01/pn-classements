@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T13:46:24+00:00",
+ "updated": "2026-11-20T13:48:23+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -13,7 +13,7 @@
    },
    {
     "name": "Icarem",
-    "value": 18
+    "value": 19
    },
    {
     "name": ".:Krustiz:.",
@@ -88,6 +88,10 @@
     "value": 5
    },
    {
+    "name": "habbo22t",
+    "value": 5
+   },
+   {
     "name": "Lewddon",
     "value": 5
    },
@@ -113,10 +117,6 @@
    },
    {
     "name": "alexandre-780",
-    "value": 3
-   },
-   {
-    "name": "habbo22t",
     "value": 3
    },
    {
@@ -179,7 +179,7 @@
    },
    {
     "name": "Icarem",
-    "value": 18
+    "value": 19
    },
    {
     "name": ".:Krustiz:.",
@@ -254,6 +254,10 @@
     "value": 5
    },
    {
+    "name": "habbo22t",
+    "value": 5
+   },
+   {
     "name": "Lewddon",
     "value": 5
    },
@@ -279,10 +283,6 @@
    },
    {
     "name": "alexandre-780",
-    "value": 3
-   },
-   {
-    "name": "habbo22t",
     "value": 3
    },
    {
@@ -347,7 +347,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 527
+    "value": 529
    },
    {
     "name": "Pantheon_",
@@ -391,7 +391,7 @@
    },
    {
     "name": "habbo22t",
-    "value": 179
+    "value": 180
    },
    {
     "name": "-Tsukiri-",
@@ -423,11 +423,11 @@
    },
    {
     "name": "gotica",
-    "value": 116
+    "value": 118
    },
    {
     "name": "sami75.19",
-    "value": 109
+    "value": 111
    },
    {
     "name": "Weavem",
@@ -549,7 +549,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 527
+    "value": 529
    },
    {
     "name": "Pantheon_",
@@ -593,7 +593,7 @@
    },
    {
     "name": "habbo22t",
-    "value": 179
+    "value": 180
    },
    {
     "name": "-Tsukiri-",
@@ -625,11 +625,11 @@
    },
    {
     "name": "gotica",
-    "value": 116
+    "value": 118
    },
    {
     "name": "sami75.19",
-    "value": 109
+    "value": 111
    },
    {
     "name": "Weavem",
