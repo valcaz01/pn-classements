@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T20:50:26+00:00",
+ "updated": "2026-11-20T20:52:26+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -371,7 +371,7 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 954
+    "value": 956
    },
    {
     "name": "habbo-160-3",
@@ -502,16 +502,16 @@
     "value": 45
    },
    {
+    "name": "Padre",
+    "value": 42
+   },
+   {
     "name": "alexandre-780",
     "value": 41
    },
    {
-    "name": "Padre",
-    "value": 41
-   },
-   {
     "name": "Mi,hermano",
-    "value": 37
+    "value": 39
    },
    {
     "name": "Pierre.Langlet",
@@ -573,7 +573,7 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 954
+    "value": 956
    },
    {
     "name": "habbo-160-3",
@@ -704,16 +704,16 @@
     "value": 45
    },
    {
+    "name": "Padre",
+    "value": 42
+   },
+   {
     "name": "alexandre-780",
     "value": 41
    },
    {
-    "name": "Padre",
-    "value": 41
-   },
-   {
     "name": "Mi,hermano",
-    "value": 37
+    "value": 39
    },
    {
     "name": "Pierre.Langlet",
