@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T20:28:24+00:00",
+ "updated": "2026-11-20T20:30:26+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -371,7 +371,7 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 933
+    "value": 935
    },
    {
     "name": "habbo-160-3",
@@ -403,11 +403,11 @@
    },
    {
     "name": "habbo22t",
-    "value": 298
+    "value": 300
    },
    {
     "name": "Icarem",
-    "value": 296
+    "value": 298
    },
    {
     "name": "Non-Non",
@@ -423,7 +423,7 @@
    },
    {
     "name": "Lewddon",
-    "value": 215
+    "value": 217
    },
    {
     "name": "-Tsukiri-",
@@ -447,7 +447,7 @@
    },
    {
     "name": "dadou07",
-    "value": 145
+    "value": 146
    },
    {
     "name": "Weavem",
@@ -522,16 +522,16 @@
     "value": 30
    },
    {
-    "name": "-Oiseau",
-    "value": 23
-   },
-   {
     "name": "Padre",
-    "value": 23
+    "value": 25
    },
    {
     "name": "Mi,hermano",
-    "value": 22
+    "value": 24
+   },
+   {
+    "name": "-Oiseau",
+    "value": 23
    },
    {
     "name": "Sciel",
@@ -573,7 +573,7 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 933
+    "value": 935
    },
    {
     "name": "habbo-160-3",
@@ -605,11 +605,11 @@
    },
    {
     "name": "habbo22t",
-    "value": 298
+    "value": 300
    },
    {
     "name": "Icarem",
-    "value": 296
+    "value": 298
    },
    {
     "name": "Non-Non",
@@ -625,7 +625,7 @@
    },
    {
     "name": "Lewddon",
-    "value": 215
+    "value": 217
    },
    {
     "name": "-Tsukiri-",
@@ -649,7 +649,7 @@
    },
    {
     "name": "dadou07",
-    "value": 145
+    "value": 146
    },
    {
     "name": "Weavem",
@@ -724,16 +724,16 @@
     "value": 30
    },
    {
-    "name": "-Oiseau",
-    "value": 23
-   },
-   {
     "name": "Padre",
-    "value": 23
+    "value": 25
    },
    {
     "name": "Mi,hermano",
-    "value": 22
+    "value": 24
+   },
+   {
+    "name": "-Oiseau",
+    "value": 23
    },
    {
     "name": "Sciel",
