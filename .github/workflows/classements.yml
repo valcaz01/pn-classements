@@ -48,7 +48,7 @@ jobs:
           git config user.name "pn-classements"
           git config user.email "actions@users.noreply.github.com"
           git add classement.json noms.json classement-state.json
-          if [ -f etat_grades.json ]; then git add etat_grades.json; fi
+          if [ -f etat_grades.json ]; then git add etat_grades.json badges_cadets.json; fi
           git diff --cached --quiet || git commit -m "Classements $(date -u +%FT%TZ)"
           git pull --rebase --autostash || true   # si quelqu'un a poussé entre-temps : sinon l'état serait perdu (et l'alerte renvoyée)
           git push

@@ -70,7 +70,7 @@ ALERT_CHANNEL_ID = int(os.environ.get("ALERT_CHANNEL_ID", "0") or 0)
 HEBDO_CHANNEL_ID = int(os.environ.get("HEBDO_CHANNEL_ID", "0") or 0)
 CYCLE_MINUTES = int(os.environ.get("CYCLE_MINUTES", "2"))
 RATTRAPAGE = timedelta(hours=6)
-DATA_FILES = ["classement.json", "noms.json", "classement-state.json", "etat_grades.json", "hebdo-state.json"]
+DATA_FILES = ["classement.json", "noms.json", "classement-state.json", "etat_grades.json", "badges_cadets.json", "hebdo-state.json"]
 HEBDO_STATE = REPO / "hebdo-state.json"
 OR, VERT, ROUGE, BLEU = 0xE3B34A, 0x188A68, 0xAF3843, 0x124669
 BADGE_ROLES = ("Haut gradé", "Supervision", "Direction")
@@ -102,7 +102,7 @@ XP_LOCK = threading.Lock()
 
 def procedure(pseudo):
     return {"name": "Procédure · Hauts gradés et plus", "inline": False, "value": (
-        "Conditions vérifiées par le bot (3 jours + 200 PR).\n"
+        "Conditions vérifiées par le bot (J+3 du badge Cadet, heure de Paris, et 200 PR).\n"
         f"**1.** Remets le badge **Policier adjoint** à **{pseudo}** sur Habbo.\n"
         "**2.** Clique sur **Badge attribué** : l'alerte passe en vert avec ton pseudo et tu gagnes **1 XP** en jeu "
         "(retiré si tu cliques ensuite sur **Annuler**).")}
@@ -821,11 +821,11 @@ class PNBot(discord.Client):
                 {"name": "Grade actuel", "value": "Cadet", "inline": True},
                 {"name": "Ancienneté", "value": "3 jours (≥ 3)", "inline": True},
                 {"name": "Points de recrutement", "value": "214 (≥ 200)", "inline": True},
-                {"name": "Humeur", "value": "`[PN] Cadet`", "inline": False},
+                {"name": "Badge Habbo", "value": "[PN] Cadet", "inline": False},
                 procedure(pseudo),
             ],
             "thumbnail": {"url": avatar(pseudo, head=True)},
-            "footer": {"text": f"Grade vu dans l'humeur depuis le {now - timedelta(days=3):%d/%m/%Y} · APERÇU"},
+            "footer": {"text": f"Badge Cadet depuis le {now - timedelta(days=3):%d/%m/%Y} · APERÇU"},
             "timestamp": now.isoformat(timespec="seconds"),
         }
         view = discord.ui.View(timeout=None)

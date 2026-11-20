@@ -1,13 +1,12 @@
 #!/usr/bin/env python3
 """PN — alertes de passage de grade des non-gradés, postées dans le salon Discord « Alertes-promotions ».
 
-Paliers (décisions de Val, 27/10/2026) :
-  Cadet            → Policier adjoint                     : 3 jours de grade + 200 points de recrutement
+Paliers :
+  Cadet            → Policier adjoint                     : J+3 du badge (heure de Paris) + 200 points de recrutement
   Policier adjoint → éligible formation Gardien de la paix : 3 jours de grade + 300 points de recrutement (total)
 
-Grade lu dans l'humeur Habbo (« [PN] Cadet/Cadette », « [PN] Policier adjoint/Policière adjointe » ;
-casse, accents, tiret, espaces et acronyme du formateur en suffixe tolérés) via l'API publique,
-ancienneté = date où le script voit ce grade pour la première fois dans l'humeur.
+Le registre badges_cadets.json suit l'adhésion au groupe Cadet par identifiant Habbo stable.
+Le palier Policier adjoint → formation conserve son suivi de l'humeur et de ses 72 heures.
 Une alerte par membre et par palier ; état gardé dans etat_grades.json.
 Depuis le 28/10/2026, les alertes sont postées par le bot PN · Alertes (serveur Hetzner, serveur/pn_bot.py) :
 l'alerte Cadet → Policier adjoint porte la procédure et un bouton vert « Badge attribué » (Hauts gradés et plus).
@@ -25,8 +24,10 @@ import unicodedata
 import urllib.parse
 import urllib.request
 from datetime import datetime, timedelta, timezone
+from pathlib import Path
+from zoneinfo import ZoneInfo
 
-from serveur.habbo_http import request_json
+from serveur.habbo_http import ApiRequestError, request_json
 
 HOST = os.environ.get("HABBO_HOST", "www.habbo.fr")
 ROOM = os.environ.get("WIRED_ROOM_ID", "").strip()
@@ -35,6 +36,20 @@ HOOK = os.environ.get("DISCORD_WEBHOOK", "").strip()
 VAR_PR = (os.environ.get("VAR_PR") or "pts_recrutement").strip()
 VAR_ALL = "matricule"          # tous les visiteurs du QG en ont un : sert à repérer les Cadets dès leur arrivée
 ETAT = "etat_grades.json"
+BADGES_CADETS = "badges_cadets.json"
+PARIS = ZoneInfo("Europe/Paris")
+GROUPE_CADET = "g-hhfr-3dcf0cad12934ba41c258628d82bde40"
+# Les gradés peuvent conserver leurs anciens badges et administrer le groupe Cadet.
+GROUPES_SUPERIEURS = (
+    "g-hhfr-98146efd0f202d369c38a5d5265d124e",  # Policier adjoint
+    "g-hhfr-f9e03b6a56b74caf069c4b3a3d80aabd",  # Gardien de la paix
+    "g-hhfr-e8723fe59e066f9847347ab936a0e9c6",  # Gradé débutant
+    "g-hhfr-f1c6e473ac8a29547c44a4675b750585",  # Gradé intermédiaire
+    "g-hhfr-d7080b2c1318a56acc06cf8b2b7568be",  # Gradé confirmé
+    "g-hhfr-c52059ba6f45cc055c9fb5b9b5a3bc64",  # Haut gradé
+    "g-hhfr-c2e7127da613e13151bd947c7593bb95",  # Superviseur
+    "g-hhfr-918ddc2eee80c1dc557c1e4d4e023828",  # Direction
+)
 RECHECK = timedelta(hours=3)   # humeur relue au plus toutes les 3 h par membre
 MAX_CHECKS = 60                # humeurs lues par passage (service toutes les 2 min, cache de 3 h)
 NOW = datetime.now(timezone.utc)
@@ -117,12 +132,78 @@ def iso(d):
     return d.isoformat(timespec="seconds")
 
 
+def lire_registre(nom):
+    with Path(nom).open(encoding="utf-8") as f:
+        data = json.load(f)
+    if not isinstance(data, dict):
+        raise ValueError(f"Registre invalide : {nom}")
+    return data
+
+
+def enregistrer(nom, data):
+    path = Path(nom)
+    temporaire = path.with_suffix(".tmp")
+    temporaire.write_text(json.dumps(data, ensure_ascii=False, indent=1, sort_keys=True) + "\n", encoding="utf-8")
+    temporaire.replace(path)
+
+
+def membres_groupe(groupe):
+    chemin = f"/api/public/groups/{groupe}/members"
+    rows = req(f"https://{HOST}{chemin}")
+    # Chaque groupe officiel a au moins son propriétaire. Une réponse vide/incomplète
+    # ne peut servir de preuve qu'un badge a été retiré.
+    if not isinstance(rows, list) or not rows or not all(
+        isinstance(r, dict) and r.get("uniqueId") and r.get("name") for r in rows
+    ):
+        raise ApiRequestError("response", endpoint=chemin)
+    return {r["uniqueId"]: r for r in rows}
+
+
+def cadets_du_jour(aujourdhui):
+    precedents = lire_registre(BADGES_CADETS)
+    membres = membres_groupe(GROUPE_CADET)
+    superieurs = set()
+    for groupe in GROUPES_SUPERIEURS:
+        superieurs.update(membres_groupe(groupe))
+
+    registre = {}
+    for hid, membre in membres.items():
+        depuis = precedents[hid]["depuis"] if hid in precedents else aujourdhui.isoformat()
+        registre[hid] = {"pseudo": membre["name"], "depuis": depuis}
+
+    for hid in precedents.keys() - membres.keys():
+        # Une omission de la liste publique, à elle seule, ne casse pas l'ancienneté.
+        chemin = f"/api/public/users/{urllib.parse.quote(hid)}/groups"
+        try:
+            groupes = req(f"https://{HOST}{chemin}")
+        except ApiRequestError as exc:
+            if exc.status not in (401, 403):
+                raise
+            groupes = None
+        if groupes is None:
+            registre[hid] = precedents[hid]  # profil inaccessible : conserver la date, différer l'alerte
+            continue
+        if not isinstance(groupes, list) or not all(isinstance(g, dict) and g.get("id") for g in groupes):
+            raise ApiRequestError("response", endpoint=chemin)
+        ids = {g["id"] for g in groupes}
+        if GROUPE_CADET in ids:
+            registre[hid] = precedents[hid]
+            membres[hid] = {"name": precedents[hid]["pseudo"]}
+            if ids.intersection(GROUPES_SUPERIEURS):
+                superieurs.add(hid)
+
+    if registre != precedents:
+        enregistrer(BADGES_CADETS, registre)
+    return {r["name"].casefold(): (registre[hid]["depuis"], r.get("motto"))
+            for hid, r in membres.items() if hid not in superieurs}
+
+
 def main():
     if os.environ.get("TEST") == "1":
         post({"title": "✅ Système d'alertes connecté",
               "description": "Ce salon recevra une alerte dès qu'un **Cadet** ou un **Policier adjoint** "
                              "remplit les conditions pour monter.\n\n"
-                             "• Cadet → Policier adjoint : 3 jours + 200 points de recrutement\n"
+                             "• Cadet → Policier adjoint : à J+3 du badge (heure de Paris) + 200 points de recrutement\n"
                              "• Policier adjoint → formation Gardien de la paix : 3 jours + 300 points de recrutement",
               "color": 0x0B3A5E, "footer": {"text": "Police Nationale · vérification toutes les 2 minutes"},
               "timestamp": iso(NOW)})
@@ -132,14 +213,16 @@ def main():
         sys.exit("WIRED_ROOM_ID et WIRED_READ_KEY sont obligatoires.")
 
     try:
-        etat = json.load(open(ETAT, encoding="utf-8"))
-    except (OSError, ValueError):
+        etat = lire_registre(ETAT)
+    except FileNotFoundError:
         etat = {}
 
     pr = all_values(VAR_PR)
     membres = all_values(VAR_ALL)
     for uid, (name, _) in pr.items():
         membres.setdefault(uid, (name, 0))
+    aujourdhui = NOW.astimezone(PARIS).date()
+    cadets = cadets_du_jour(aujourdhui)
     print(f"[API] {len(membres)} visiteurs suivis, {len(pr)} avec des points de recrutement")
 
     # Ordre de relecture des humeurs : d'abord ceux proches d'un palier, puis les plus anciennement vérifiés.
@@ -153,6 +236,18 @@ def main():
         e = etat.setdefault(uid, {"pseudo": name, "grade": None, "depuis": None, "alertes": {}})
         e["pseudo"] = name or e.get("pseudo")
         last = e.get("verifie")
+        badge = cadets.get((e["pseudo"] or "").casefold())
+        if badge:
+            jour_badge, humeur = badge
+            debut = datetime.fromisoformat(jour_badge).replace(tzinfo=PARIS)
+            e["grade"], e["depuis"] = "cadet", iso(debut.astimezone(timezone.utc))
+            if humeur is not None and (humeur != e.get("humeur") or not last or NOW - datetime.fromisoformat(last) >= RECHECK):
+                e["humeur"], e["verifie"] = humeur, iso(NOW)
+            continue
+        if e.get("grade") == "cadet":
+            e["grade"], e["depuis"] = None, None
+            e.pop("verifie", None)
+            last = None
         if last and NOW - datetime.fromisoformat(last) < RECHECK:
             continue
         if checks >= MAX_CHECKS or not e["pseudo"]:
@@ -162,7 +257,7 @@ def main():
         e["verifie"] = iso(NOW)
         if motto is None:
             continue
-        g = grade_from_motto(motto)
+        g = "pa" if grade_from_motto(motto) == "pa" else None
         e["humeur"] = motto
         if g != e.get("grade"):
             e["grade"], e["depuis"] = g, (iso(NOW) if g else None)
@@ -176,7 +271,16 @@ def main():
         p = PALIERS[g]
         pts = pr.get(uid, ("", 0))[1]
         depuis = datetime.fromisoformat(e["depuis"])
-        jours = (NOW - depuis).total_seconds() / 86400
+        if g == "cadet":
+            if e["pseudo"].casefold() not in cadets or e.get("badge", {}).get("cadet"):
+                continue
+            jours = (aujourdhui - depuis.astimezone(PARIS).date()).days
+            preuve = {"name": "Badge Habbo", "value": "[PN] Cadet", "inline": False}
+            origine = "Badge Cadet depuis le"
+        else:
+            jours = (NOW - depuis).days
+            preuve = {"name": "Humeur", "value": f"`{(e.get('humeur') or '')[:100]}`", "inline": False}
+            origine = "Grade vu dans l'humeur depuis le"
         if pts < p["seuil"] or jours < p["jours"] or g in e.get("alertes", {}):
             continue
         embed = {
@@ -185,28 +289,28 @@ def main():
             "color": p["couleur"],
             "fields": [
                 {"name": "Grade actuel", "value": p["label"], "inline": True},
-                {"name": "Ancienneté", "value": f"{int(jours)} jours (≥ {p['jours']})", "inline": True},
+                {"name": "Ancienneté", "value": f"{jours} jours (≥ {p['jours']})", "inline": True},
                 {"name": "Points de recrutement", "value": f"{pts} (≥ {p['seuil']})", "inline": True},
-                {"name": "Humeur", "value": f"`{(e.get('humeur') or '')[:100]}`", "inline": False},
+                preuve,
             ],
             "thumbnail": {"url": f"https://{HOST}/habbo-imaging/avatarimage?user={urllib.parse.quote(e['pseudo'])}"
                                  "&direction=2&head_direction=3&headonly=1&size=l"},
-            "footer": {"text": f"Grade vu dans l'humeur depuis le {depuis.astimezone(timezone(timedelta(hours=1))).strftime('%d/%m/%Y')}"},
+            "footer": {"text": f"{origine} {depuis.astimezone(PARIS):%d/%m/%Y}"},
             "timestamp": iso(NOW),
             "_pn": {"uid": uid, "palier": g, "pseudo": e["pseudo"]},
         }
         if g == "cadet":
             embed["fields"].append({"name": "Procédure · Hauts gradés et plus", "inline": False, "value": (
-                f"Conditions vérifiées par le bot (3 jours + 200 PR).\n"
+                f"Conditions vérifiées par le bot (J+3 du badge Cadet, heure de Paris, et 200 PR).\n"
                 f"**1.** Remets le badge **Policier adjoint** à **{e['pseudo']}** sur Habbo.\n"
                 f"**2.** Clique sur **Badge attribué** : l'alerte passe en vert avec ton pseudo et tu gagnes **1 XP** en jeu "
                 f"(retiré si tu cliques ensuite sur **Annuler**).")})
         if post(embed):
             e.setdefault("alertes", {})[g] = iso(NOW)
+            enregistrer(ETAT, etat)
             envoyees += 1
 
-    with open(ETAT, "w", encoding="utf-8") as f:
-        json.dump(etat, f, ensure_ascii=False, indent=1, sort_keys=True)
+    enregistrer(ETAT, etat)
     print(f"[Discord] {envoyees} alerte(s) envoyée(s)")
 
 
