@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T20:10:25+00:00",
+ "updated": "2026-11-20T20:12:24+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -13,7 +13,7 @@
    },
    {
     "name": "Icarem",
-    "value": 22
+    "value": 23
    },
    {
     "name": ".:Krustiz:.",
@@ -21,7 +21,7 @@
    },
    {
     "name": ".Libellule",
-    "value": 17
+    "value": 18
    },
    {
     "name": "halos34",
@@ -148,6 +148,10 @@
     "value": 2
    },
    {
+    "name": "dadou07",
+    "value": 2
+   },
+   {
     "name": "Fleabag",
     "value": 2
    },
@@ -161,10 +165,6 @@
    },
    {
     "name": "Astalue",
-    "value": 1
-   },
-   {
-    "name": "dadou07",
     "value": 1
    },
    {
@@ -195,7 +195,7 @@
    },
    {
     "name": "Icarem",
-    "value": 22
+    "value": 23
    },
    {
     "name": ".:Krustiz:.",
@@ -203,7 +203,7 @@
    },
    {
     "name": ".Libellule",
-    "value": 17
+    "value": 18
    },
    {
     "name": "halos34",
@@ -330,6 +330,10 @@
     "value": 2
    },
    {
+    "name": "dadou07",
+    "value": 2
+   },
+   {
     "name": "Fleabag",
     "value": 2
    },
@@ -343,10 +347,6 @@
    },
    {
     "name": "Astalue",
-    "value": 1
-   },
-   {
-    "name": "dadou07",
     "value": 1
    },
    {
@@ -375,7 +375,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 753
+    "value": 755
    },
    {
     "name": "fym",
@@ -391,7 +391,7 @@
    },
    {
     "name": "Shizuku",
-    "value": 411
+    "value": 412
    },
    {
     "name": "Lovepanda",
@@ -577,7 +577,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 753
+    "value": 755
    },
    {
     "name": "fym",
@@ -593,7 +593,7 @@
    },
    {
     "name": "Shizuku",
-    "value": 411
+    "value": 412
    },
    {
     "name": "Lovepanda",
