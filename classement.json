@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T18:40:23+00:00",
+ "updated": "2026-11-20T18:42:23+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -80,16 +80,16 @@
     "value": 7
    },
    {
+    "name": "habbo-160-3",
+    "value": 6
+   },
+   {
     "name": "habbo22t",
     "value": 6
    },
    {
     "name": "Piingouin.",
     "value": 6
-   },
-   {
-    "name": "habbo-160-3",
-    "value": 5
    },
    {
     "name": "Lewddon",
@@ -262,16 +262,16 @@
     "value": 7
    },
    {
+    "name": "habbo-160-3",
+    "value": 6
+   },
+   {
     "name": "habbo22t",
     "value": 6
    },
    {
     "name": "Piingouin.",
     "value": 6
-   },
-   {
-    "name": "habbo-160-3",
-    "value": 5
    },
    {
     "name": "Lewddon",
@@ -383,11 +383,11 @@
    },
    {
     "name": "Pantheon_",
-    "value": 515
+    "value": 517
    },
    {
     "name": "marinadrk",
-    "value": 413
+    "value": 415
    },
    {
     "name": "Shizuku",
@@ -455,7 +455,7 @@
    },
    {
     "name": "gotica",
-    "value": 135
+    "value": 137
    },
    {
     "name": ".Libellule",
@@ -585,11 +585,11 @@
    },
    {
     "name": "Pantheon_",
-    "value": 515
+    "value": 517
    },
    {
     "name": "marinadrk",
-    "value": 413
+    "value": 415
    },
    {
     "name": "Shizuku",
@@ -657,7 +657,7 @@
    },
    {
     "name": "gotica",
-    "value": 135
+    "value": 137
    },
    {
     "name": ".Libellule",
