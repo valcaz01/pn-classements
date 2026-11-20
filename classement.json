@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T20:16:25+00:00",
+ "updated": "2026-11-20T20:18:26+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -371,11 +371,11 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 921
+    "value": 923
    },
    {
     "name": "habbo-160-3",
-    "value": 759
+    "value": 761
    },
    {
     "name": "fym",
@@ -391,7 +391,7 @@
    },
    {
     "name": "Shizuku",
-    "value": 416
+    "value": 418
    },
    {
     "name": "Lovepanda",
@@ -415,7 +415,7 @@
    },
    {
     "name": "habbo22t",
-    "value": 287
+    "value": 289
    },
    {
     "name": "charlie-XCX123",
@@ -427,7 +427,7 @@
    },
    {
     "name": "Lewddon",
-    "value": 203
+    "value": 205
    },
    {
     "name": "halos34",
@@ -454,16 +454,16 @@
     "value": 143
    },
    {
+    "name": "dadou07",
+    "value": 138
+   },
+   {
     "name": "flo578",
     "value": 137
    },
    {
     "name": "gotica",
     "value": 137
-   },
-   {
-    "name": "dadou07",
-    "value": 136
    },
    {
     "name": "sami75.19",
@@ -559,11 +559,11 @@
    },
    {
     "name": "Mi,hermano",
-    "value": 12
+    "value": 13
    },
    {
     "name": "Padre",
-    "value": 12
+    "value": 13
    },
    {
     "name": "Robotor",
@@ -573,11 +573,11 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 921
+    "value": 923
    },
    {
     "name": "habbo-160-3",
-    "value": 759
+    "value": 761
    },
    {
     "name": "fym",
@@ -593,7 +593,7 @@
    },
    {
     "name": "Shizuku",
-    "value": 416
+    "value": 418
    },
    {
     "name": "Lovepanda",
@@ -617,7 +617,7 @@
    },
    {
     "name": "habbo22t",
-    "value": 287
+    "value": 289
    },
    {
     "name": "charlie-XCX123",
@@ -629,7 +629,7 @@
    },
    {
     "name": "Lewddon",
-    "value": 203
+    "value": 205
    },
    {
     "name": "halos34",
@@ -656,16 +656,16 @@
     "value": 143
    },
    {
+    "name": "dadou07",
+    "value": 138
+   },
+   {
     "name": "flo578",
     "value": 137
    },
    {
     "name": "gotica",
     "value": 137
-   },
-   {
-    "name": "dadou07",
-    "value": 136
    },
    {
     "name": "sami75.19",
@@ -761,11 +761,11 @@
    },
    {
     "name": "Mi,hermano",
-    "value": 12
+    "value": 13
    },
    {
     "name": "Padre",
-    "value": 12
+    "value": 13
    },
    {
     "name": "Robotor",
