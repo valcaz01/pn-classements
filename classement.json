@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T11:40:35+00:00",
+ "updated": "2026-11-20T11:42:34+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -28,12 +28,12 @@
     "value": 15
    },
    {
-    "name": "irysse",
+    "name": ".Libellule",
     "value": 13
    },
    {
-    "name": ".Libellule",
-    "value": 12
+    "name": "irysse",
+    "value": 13
    },
    {
     "name": "Astreu",
@@ -194,12 +194,12 @@
     "value": 15
    },
    {
-    "name": "irysse",
+    "name": ".Libellule",
     "value": 13
    },
    {
-    "name": ".Libellule",
-    "value": 12
+    "name": "irysse",
+    "value": 13
    },
    {
     "name": "Astreu",
