@@ -1697,7 +1697,7 @@
   "grade": null,
   "humeur": "De passage.",
   "pseudo": ",Jadou",
-  "verifie": "2026-11-20T17:40:24+00:00"
+  "verifie": "2026-11-20T20:40:25+00:00"
  },
  "24326570": {
   "alertes": {},
@@ -6169,7 +6169,7 @@
   "grade": null,
   "humeur": "",
   "pseudo": "AirHaazRette",
-  "verifie": "2026-11-20T17:40:24+00:00"
+  "verifie": "2026-11-20T20:40:25+00:00"
  },
  "26042440": {
   "alertes": {},
@@ -6177,7 +6177,7 @@
   "grade": null,
   "humeur": "[PN] Recrue #Astreumontout",
   "pseudo": "habbo7-3-87",
-  "verifie": "2026-11-20T17:40:24+00:00"
+  "verifie": "2026-11-20T20:40:25+00:00"
  },
  "26042457": {
   "alertes": {},
@@ -6281,7 +6281,7 @@
   "grade": null,
   "humeur": "",
   "pseudo": "gaetand.",
-  "verifie": "2026-11-20T17:40:24+00:00"
+  "verifie": "2026-11-20T20:40:25+00:00"
  },
  "26042579": {
   "alertes": {},
@@ -6349,11 +6349,11 @@
  },
  "26042683": {
   "alertes": {},
-  "depuis": null,
-  "grade": null,
-  "humeur": "",
+  "depuis": "2026-11-19T23:00:00+00:00",
+  "grade": "cadet",
+  "humeur": "[PN] Cadet",
   "pseudo": "Padre",
-  "verifie": "2026-11-20T19:08:25+00:00"
+  "verifie": "2026-11-20T20:40:25+00:00"
  },
  "26042694": {
   "alertes": {},
@@ -6410,6 +6410,14 @@
   "humeur": "HGS-84900",
   "pseudo": "Djer19",
   "verifie": "2026-11-20T20:08:25+00:00"
+ },
+ "3901326": {
+  "alertes": {},
+  "depuis": null,
+  "grade": null,
+  "humeur": "",
+  "pseudo": "=paris=",
+  "verifie": "2026-11-20T20:40:25+00:00"
  },
  "4009362": {
   "alertes": {},
