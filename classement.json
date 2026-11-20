@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T14:14:23+00:00",
+ "updated": "2026-11-20T14:16:24+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -355,7 +355,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 553
+    "value": 555
    },
    {
     "name": "Pantheon_",
@@ -367,7 +367,7 @@
    },
    {
     "name": "marinadrk",
-    "value": 341
+    "value": 343
    },
    {
     "name": "Lovepanda",
@@ -395,7 +395,7 @@
    },
    {
     "name": "habbo22t",
-    "value": 202
+    "value": 204
    },
    {
     "name": "halos34",
@@ -450,16 +450,16 @@
     "value": 69
    },
    {
+    "name": "dadou07",
+    "value": 52
+   },
+   {
     "name": "Mr.Dino",
     "value": 52
    },
    {
     "name": "Pporappippam",
     "value": 52
-   },
-   {
-    "name": "dadou07",
-    "value": 51
    },
    {
     "name": ".Dylan.",
@@ -557,7 +557,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 553
+    "value": 555
    },
    {
     "name": "Pantheon_",
@@ -569,7 +569,7 @@
    },
    {
     "name": "marinadrk",
-    "value": 341
+    "value": 343
    },
    {
     "name": "Lovepanda",
@@ -597,7 +597,7 @@
    },
    {
     "name": "habbo22t",
-    "value": 202
+    "value": 204
    },
    {
     "name": "halos34",
@@ -652,16 +652,16 @@
     "value": 69
    },
    {
+    "name": "dadou07",
+    "value": 52
+   },
+   {
     "name": "Mr.Dino",
     "value": 52
    },
    {
     "name": "Pporappippam",
     "value": 52
-   },
-   {
-    "name": "dadou07",
-    "value": 51
    },
    {
     "name": ".Dylan.",
