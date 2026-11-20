@@ -1395,11 +1395,21 @@
   "alertes": {
    "cadet": "2026-11-20T19:30:25+00:00"
   },
-  "depuis": "2026-11-16T23:00:00+00:00",
-  "grade": "cadet",
+  "badge": {
+   "cadet": {
+    "habbo": "Pantheon_",
+    "habbo_id": "24917362",
+    "le": "2026-11-20T21:24:13+01:00",
+    "par": "Pantheon_",
+    "par_id": "340051395799416844",
+    "xp": true
+   }
+  },
+  "depuis": null,
+  "grade": null,
   "humeur": "[PN] Cadet",
   "pseudo": "Lewddon",
-  "verifie": "2026-11-20T17:50:24+00:00"
+  "verifie": "2026-11-20T20:24:26+00:00"
  },
  "24002567": {
   "alertes": {},

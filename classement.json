@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T20:22:25+00:00",
+ "updated": "2026-11-20T20:24:26+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -371,7 +371,7 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 927
+    "value": 929
    },
    {
     "name": "habbo-160-3",
@@ -391,7 +391,7 @@
    },
    {
     "name": "Shizuku",
-    "value": 422
+    "value": 424
    },
    {
     "name": "Lovepanda",
@@ -403,6 +403,10 @@
    },
    {
     "name": "habbo22t",
+    "value": 294
+   },
+   {
+    "name": "Icarem",
     "value": 292
    },
    {
@@ -414,19 +418,15 @@
     "value": 291
    },
    {
-    "name": "Icarem",
-    "value": 290
-   },
-   {
     "name": "charlie-XCX123",
     "value": 266
    },
    {
-    "name": "-Tsukiri-",
-    "value": 209
+    "name": "Lewddon",
+    "value": 211
    },
    {
-    "name": "Lewddon",
+    "name": "-Tsukiri-",
     "value": 209
    },
    {
@@ -450,12 +450,12 @@
     "value": 145
    },
    {
-    "name": "andrew16a",
-    "value": 143
+    "name": "dadou07",
+    "value": 144
    },
    {
-    "name": "dadou07",
-    "value": 142
+    "name": "andrew16a",
+    "value": 143
    },
    {
     "name": "flo578",
@@ -530,6 +530,14 @@
     "value": 22
    },
    {
+    "name": "Mi,hermano",
+    "value": 19
+   },
+   {
+    "name": "Padre",
+    "value": 19
+   },
+   {
     "name": "pohabbooq05-1",
     "value": 18
    },
@@ -539,14 +547,6 @@
    },
    {
     "name": "Kaykay3208",
-    "value": 17
-   },
-   {
-    "name": "Mi,hermano",
-    "value": 17
-   },
-   {
-    "name": "Padre",
     "value": 17
    },
    {
@@ -573,7 +573,7 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 927
+    "value": 929
    },
    {
     "name": "habbo-160-3",
@@ -593,7 +593,7 @@
    },
    {
     "name": "Shizuku",
-    "value": 422
+    "value": 424
    },
    {
     "name": "Lovepanda",
@@ -605,6 +605,10 @@
    },
    {
     "name": "habbo22t",
+    "value": 294
+   },
+   {
+    "name": "Icarem",
     "value": 292
    },
    {
@@ -616,19 +620,15 @@
     "value": 291
    },
    {
-    "name": "Icarem",
-    "value": 290
-   },
-   {
     "name": "charlie-XCX123",
     "value": 266
    },
    {
-    "name": "-Tsukiri-",
-    "value": 209
+    "name": "Lewddon",
+    "value": 211
    },
    {
-    "name": "Lewddon",
+    "name": "-Tsukiri-",
     "value": 209
    },
    {
@@ -652,12 +652,12 @@
     "value": 145
    },
    {
-    "name": "andrew16a",
-    "value": 143
+    "name": "dadou07",
+    "value": 144
    },
    {
-    "name": "dadou07",
-    "value": 142
+    "name": "andrew16a",
+    "value": 143
    },
    {
     "name": "flo578",
@@ -732,6 +732,14 @@
     "value": 22
    },
    {
+    "name": "Mi,hermano",
+    "value": 19
+   },
+   {
+    "name": "Padre",
+    "value": 19
+   },
+   {
     "name": "pohabbooq05-1",
     "value": 18
    },
@@ -741,14 +749,6 @@
    },
    {
     "name": "Kaykay3208",
-    "value": 17
-   },
-   {
-    "name": "Mi,hermano",
-    "value": 17
-   },
-   {
-    "name": "Padre",
     "value": 17
    },
    {
