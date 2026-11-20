@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T01:18:35+00:00",
+ "updated": "2026-11-20T01:20:35+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -142,6 +142,10 @@
    {
     "name": "OnlyOneGuest",
     "value": 2
+   },
+   {
+    "name": "habbo-160-3",
+    "value": 1
    },
    {
     "name": "HK83000",
@@ -300,6 +304,10 @@
    {
     "name": "OnlyOneGuest",
     "value": 2
+   },
+   {
+    "name": "habbo-160-3",
+    "value": 1
    },
    {
     "name": "HK83000",
