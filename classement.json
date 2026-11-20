@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T12:06:35+00:00",
+ "updated": "2026-11-20T12:08:36+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -20,6 +20,10 @@
     "value": 17
    },
    {
+    "name": "Proxymore",
+    "value": 16
+   },
+   {
     "name": ".Libellule",
     "value": 15
    },
@@ -34,10 +38,6 @@
    {
     "name": "irysse",
     "value": 13
-   },
-   {
-    "name": "Proxymore",
-    "value": 12
    },
    {
     "name": "Astreu",
@@ -186,6 +186,10 @@
     "value": 17
    },
    {
+    "name": "Proxymore",
+    "value": 16
+   },
+   {
     "name": ".Libellule",
     "value": 15
    },
@@ -200,10 +204,6 @@
    {
     "name": "irysse",
     "value": 13
-   },
-   {
-    "name": "Proxymore",
-    "value": 12
    },
    {
     "name": "Astreu",
@@ -351,7 +351,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 425
+    "value": 427
    },
    {
     "name": "Shizuku",
@@ -363,7 +363,7 @@
    },
    {
     "name": "Lovepanda",
-    "value": 292
+    "value": 294
    },
    {
     "name": "Fleabag",
@@ -415,7 +415,7 @@
    },
    {
     "name": ".Libellule",
-    "value": 114
+    "value": 116
    },
    {
     "name": "gotica",
@@ -446,6 +446,10 @@
     "value": 52
    },
    {
+    "name": ".Dylan.",
+    "value": 49
+   },
+   {
     "name": "BOuclette.13",
     "value": 49
    },
@@ -456,10 +460,6 @@
    {
     "name": "Mr.Dino",
     "value": 48
-   },
-   {
-    "name": ".Dylan.",
-    "value": 47
    },
    {
     "name": "guest77145",
@@ -553,7 +553,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 425
+    "value": 427
    },
    {
     "name": "Shizuku",
@@ -565,7 +565,7 @@
    },
    {
     "name": "Lovepanda",
-    "value": 292
+    "value": 294
    },
    {
     "name": "Fleabag",
@@ -617,7 +617,7 @@
    },
    {
     "name": ".Libellule",
-    "value": 114
+    "value": 116
    },
    {
     "name": "gotica",
@@ -648,6 +648,10 @@
     "value": 52
    },
    {
+    "name": ".Dylan.",
+    "value": 49
+   },
+   {
     "name": "BOuclette.13",
     "value": 49
    },
@@ -658,10 +662,6 @@
    {
     "name": "Mr.Dino",
     "value": 48
-   },
-   {
-    "name": ".Dylan.",
-    "value": 47
    },
    {
     "name": "guest77145",
