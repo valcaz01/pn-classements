@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T12:04:34+00:00",
+ "updated": "2026-11-20T12:06:35+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -20,6 +20,10 @@
     "value": 17
    },
    {
+    "name": ".Libellule",
+    "value": 15
+   },
+   {
     "name": "halos34",
     "value": 15
    },
@@ -28,12 +32,12 @@
     "value": 15
    },
    {
-    "name": ".Libellule",
-    "value": 14
-   },
-   {
     "name": "irysse",
     "value": 13
+   },
+   {
+    "name": "Proxymore",
+    "value": 12
    },
    {
     "name": "Astreu",
@@ -50,10 +54,6 @@
    {
     "name": "pevanq640",
     "value": 11
-   },
-   {
-    "name": "Proxymore",
-    "value": 10
    },
    {
     "name": "andrew16a",
@@ -88,6 +88,10 @@
     "value": 5
    },
    {
+    "name": "Monsieur-RF",
+    "value": 5
+   },
+   {
     "name": "Mr.Dino",
     "value": 5
    },
@@ -97,10 +101,6 @@
    },
    {
     "name": "marinadrk",
-    "value": 4
-   },
-   {
-    "name": "Monsieur-RF",
     "value": 4
    },
    {
@@ -186,6 +186,10 @@
     "value": 17
    },
    {
+    "name": ".Libellule",
+    "value": 15
+   },
+   {
     "name": "halos34",
     "value": 15
    },
@@ -194,12 +198,12 @@
     "value": 15
    },
    {
-    "name": ".Libellule",
-    "value": 14
-   },
-   {
     "name": "irysse",
     "value": 13
+   },
+   {
+    "name": "Proxymore",
+    "value": 12
    },
    {
     "name": "Astreu",
@@ -216,10 +220,6 @@
    {
     "name": "pevanq640",
     "value": 11
-   },
-   {
-    "name": "Proxymore",
-    "value": 10
    },
    {
     "name": "andrew16a",
@@ -254,6 +254,10 @@
     "value": 5
    },
    {
+    "name": "Monsieur-RF",
+    "value": 5
+   },
+   {
     "name": "Mr.Dino",
     "value": 5
    },
@@ -263,10 +267,6 @@
    },
    {
     "name": "marinadrk",
-    "value": 4
-   },
-   {
-    "name": "Monsieur-RF",
     "value": 4
    },
    {
@@ -351,7 +351,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 423
+    "value": 425
    },
    {
     "name": "Shizuku",
@@ -362,12 +362,12 @@
     "value": 337
    },
    {
-    "name": "Fleabag",
-    "value": 291
+    "name": "Lovepanda",
+    "value": 292
    },
    {
-    "name": "Lovepanda",
-    "value": 290
+    "name": "Fleabag",
+    "value": 291
    },
    {
     "name": "Astreu",
@@ -415,7 +415,7 @@
    },
    {
     "name": ".Libellule",
-    "value": 113
+    "value": 114
    },
    {
     "name": "gotica",
@@ -459,7 +459,7 @@
    },
    {
     "name": ".Dylan.",
-    "value": 45
+    "value": 47
    },
    {
     "name": "guest77145",
@@ -553,7 +553,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 423
+    "value": 425
    },
    {
     "name": "Shizuku",
@@ -564,12 +564,12 @@
     "value": 337
    },
    {
-    "name": "Fleabag",
-    "value": 291
+    "name": "Lovepanda",
+    "value": 292
    },
    {
-    "name": "Lovepanda",
-    "value": 290
+    "name": "Fleabag",
+    "value": 291
    },
    {
     "name": "Astreu",
@@ -617,7 +617,7 @@
    },
    {
     "name": ".Libellule",
-    "value": 113
+    "value": 114
    },
    {
     "name": "gotica",
@@ -661,7 +661,7 @@
    },
    {
     "name": ".Dylan.",
-    "value": 45
+    "value": 47
    },
    {
     "name": "guest77145",
