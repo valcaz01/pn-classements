@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T18:22:24+00:00",
+ "updated": "2026-11-20T18:24:24+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -375,7 +375,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 503
+    "value": 504
    },
    {
     "name": "marinadrk",
@@ -559,7 +559,7 @@
    },
    {
     "name": "AllEyesOnMe57",
-    "value": 7
+    "value": 9
    }
   ],
   "week": [
@@ -577,7 +577,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 503
+    "value": 504
    },
    {
     "name": "marinadrk",
@@ -761,7 +761,7 @@
    },
    {
     "name": "AllEyesOnMe57",
-    "value": 7
+    "value": 9
    }
   ]
  }
