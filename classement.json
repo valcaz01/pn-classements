@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T01:26:35+00:00",
+ "updated": "2026-11-20T01:28:34+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -104,6 +104,10 @@
     "value": 3
    },
    {
+    "name": "habbo-160-3",
+    "value": 3
+   },
+   {
     "name": "habbo22t",
     "value": 3
    },
@@ -129,10 +133,6 @@
    },
    {
     "name": "Fleabag",
-    "value": 2
-   },
-   {
-    "name": "habbo-160-3",
     "value": 2
    },
    {
@@ -266,6 +266,10 @@
     "value": 3
    },
    {
+    "name": "habbo-160-3",
+    "value": 3
+   },
+   {
     "name": "habbo22t",
     "value": 3
    },
@@ -291,10 +295,6 @@
    },
    {
     "name": "Fleabag",
-    "value": 2
-   },
-   {
-    "name": "habbo-160-3",
     "value": 2
    },
    {
