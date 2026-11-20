@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T21:04:25+00:00",
+ "updated": "2026-11-20T21:06:25+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -9,7 +9,7 @@
    },
    {
     "name": "fym",
-    "value": 23
+    "value": 24
    },
    {
     "name": "Icarem",
@@ -199,7 +199,7 @@
    },
    {
     "name": "fym",
-    "value": 23
+    "value": 24
    },
    {
     "name": "Icarem",
@@ -387,7 +387,7 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 968
+    "value": 969
    },
    {
     "name": "habbo-160-3",
@@ -495,7 +495,7 @@
    },
    {
     "name": "Padre",
-    "value": 53
+    "value": 55
    },
    {
     "name": "Mr.Dino",
@@ -589,7 +589,7 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 968
+    "value": 969
    },
    {
     "name": "habbo-160-3",
@@ -697,7 +697,7 @@
    },
    {
     "name": "Padre",
-    "value": 53
+    "value": 55
    },
    {
     "name": "Mr.Dino",
