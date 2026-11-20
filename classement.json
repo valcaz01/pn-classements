@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T20:42:25+00:00",
+ "updated": "2026-11-20T20:44:25+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -371,7 +371,7 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 946
+    "value": 948
    },
    {
     "name": "habbo-160-3",
@@ -399,7 +399,7 @@
    },
    {
     "name": "habbo22t",
-    "value": 312
+    "value": 314
    },
    {
     "name": "Astreu",
@@ -407,7 +407,7 @@
    },
    {
     "name": "Icarem",
-    "value": 305
+    "value": 306
    },
    {
     "name": "Non-Non",
@@ -423,7 +423,7 @@
    },
    {
     "name": "Lewddon",
-    "value": 224
+    "value": 226
    },
    {
     "name": "-Tsukiri-",
@@ -443,7 +443,7 @@
    },
    {
     "name": "dadou07",
-    "value": 155
+    "value": 157
    },
    {
     "name": "Proxymore",
@@ -506,20 +506,20 @@
     "value": 41
    },
    {
+    "name": "Mi,hermano",
+    "value": 37
+   },
+   {
     "name": "Pierre.Langlet",
     "value": 37
    },
    {
-    "name": "Mi,hermano",
+    "name": "Padre",
     "value": 35
    },
    {
     "name": "YzEnRodeo",
     "value": 35
-   },
-   {
-    "name": "Padre",
-    "value": 33
    },
    {
     "name": "Postillon",
@@ -573,7 +573,7 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 946
+    "value": 948
    },
    {
     "name": "habbo-160-3",
@@ -601,7 +601,7 @@
    },
    {
     "name": "habbo22t",
-    "value": 312
+    "value": 314
    },
    {
     "name": "Astreu",
@@ -609,7 +609,7 @@
    },
    {
     "name": "Icarem",
-    "value": 305
+    "value": 306
    },
    {
     "name": "Non-Non",
@@ -625,7 +625,7 @@
    },
    {
     "name": "Lewddon",
-    "value": 224
+    "value": 226
    },
    {
     "name": "-Tsukiri-",
@@ -645,7 +645,7 @@
    },
    {
     "name": "dadou07",
-    "value": 155
+    "value": 157
    },
    {
     "name": "Proxymore",
@@ -708,20 +708,20 @@
     "value": 41
    },
    {
+    "name": "Mi,hermano",
+    "value": 37
+   },
+   {
     "name": "Pierre.Langlet",
     "value": 37
    },
    {
-    "name": "Mi,hermano",
+    "name": "Padre",
     "value": 35
    },
    {
     "name": "YzEnRodeo",
     "value": 35
-   },
-   {
-    "name": "Padre",
-    "value": 33
    },
    {
     "name": "Postillon",
