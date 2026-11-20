@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T10:40:34+00:00",
+ "updated": "2026-11-20T10:42:36+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -331,7 +331,7 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 894
+    "value": 896
    },
    {
     "name": "fym",
@@ -371,11 +371,11 @@
    },
    {
     "name": "Non-Non",
-    "value": 221
+    "value": 223
    },
    {
     "name": "Icarem",
-    "value": 198
+    "value": 200
    },
    {
     "name": "halos34",
@@ -418,15 +418,15 @@
     "value": 102
    },
    {
+    "name": ".Libellule",
+    "value": 75
+   },
+   {
     "name": "Proxymore",
     "value": 74
    },
    {
     "name": ".:Krustiz:.",
-    "value": 73
-   },
-   {
-    "name": ".Libellule",
     "value": 73
    },
    {
@@ -518,22 +518,22 @@
     "value": 9
    },
    {
+    "name": "dadou07",
+    "value": 7
+   },
+   {
     "name": "Freminet",
     "value": 7
    },
    {
     "name": "KC-73100",
-    "value": 7
-   },
-   {
-    "name": "Mixte",
     "value": 7
    }
   ],
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 894
+    "value": 896
    },
    {
     "name": "fym",
@@ -573,11 +573,11 @@
    },
    {
     "name": "Non-Non",
-    "value": 221
+    "value": 223
    },
    {
     "name": "Icarem",
-    "value": 198
+    "value": 200
    },
    {
     "name": "halos34",
@@ -620,15 +620,15 @@
     "value": 102
    },
    {
+    "name": ".Libellule",
+    "value": 75
+   },
+   {
     "name": "Proxymore",
     "value": 74
    },
    {
     "name": ".:Krustiz:.",
-    "value": 73
-   },
-   {
-    "name": ".Libellule",
     "value": 73
    },
    {
@@ -720,15 +720,15 @@
     "value": 9
    },
    {
+    "name": "dadou07",
+    "value": 7
+   },
+   {
     "name": "Freminet",
     "value": 7
    },
    {
     "name": "KC-73100",
-    "value": 7
-   },
-   {
-    "name": "Mixte",
     "value": 7
    }
   ]
