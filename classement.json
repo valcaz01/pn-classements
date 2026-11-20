@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T21:58:24+00:00",
+ "updated": "2026-11-20T22:00:25+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -124,6 +124,10 @@
     "value": 3
    },
    {
+    "name": "Fleabag",
+    "value": 3
+   },
+   {
     "name": "gotica",
     "value": 3
    },
@@ -149,10 +153,6 @@
    },
    {
     "name": "dadou07",
-    "value": 2
-   },
-   {
-    "name": "Fleabag",
     "value": 2
    },
    {
@@ -314,6 +314,10 @@
     "value": 3
    },
    {
+    "name": "Fleabag",
+    "value": 3
+   },
+   {
     "name": "gotica",
     "value": 3
    },
@@ -339,10 +343,6 @@
    },
    {
     "name": "dadou07",
-    "value": 2
-   },
-   {
-    "name": "Fleabag",
     "value": 2
    },
    {
@@ -431,7 +431,7 @@
    },
    {
     "name": "Fleabag",
-    "value": 293
+    "value": 294
    },
    {
     "name": "charlie-XCX123",
@@ -633,7 +633,7 @@
    },
    {
     "name": "Fleabag",
-    "value": 293
+    "value": 294
    },
    {
     "name": "charlie-XCX123",
