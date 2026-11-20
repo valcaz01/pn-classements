@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T14:04:24+00:00",
+ "updated": "2026-11-20T14:06:24+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -80,15 +80,15 @@
     "value": 7
    },
    {
+    "name": "habbo22t",
+    "value": 6
+   },
+   {
     "name": "Piingouin.",
     "value": 6
    },
    {
     "name": "habbo-160-3",
-    "value": 5
-   },
-   {
-    "name": "habbo22t",
     "value": 5
    },
    {
@@ -148,16 +148,16 @@
     "value": 2
    },
    {
+    "name": "gotica",
+    "value": 2
+   },
+   {
     "name": "ladypink.",
     "value": 2
    },
    {
     "name": "OnlyOneGuest",
     "value": 2
-   },
-   {
-    "name": "gotica",
-    "value": 1
    },
    {
     "name": "HK83000",
@@ -250,15 +250,15 @@
     "value": 7
    },
    {
+    "name": "habbo22t",
+    "value": 6
+   },
+   {
     "name": "Piingouin.",
     "value": 6
    },
    {
     "name": "habbo-160-3",
-    "value": 5
-   },
-   {
-    "name": "habbo22t",
     "value": 5
    },
    {
@@ -318,16 +318,16 @@
     "value": 2
    },
    {
+    "name": "gotica",
+    "value": 2
+   },
+   {
     "name": "ladypink.",
     "value": 2
    },
    {
     "name": "OnlyOneGuest",
     "value": 2
-   },
-   {
-    "name": "gotica",
-    "value": 1
    },
    {
     "name": "HK83000",
@@ -355,7 +355,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 544
+    "value": 545
    },
    {
     "name": "Pantheon_",
@@ -557,7 +557,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 544
+    "value": 545
    },
    {
     "name": "Pantheon_",
