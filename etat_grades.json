@@ -581,7 +581,7 @@
   "grade": null,
   "humeur": " dans le bleu de tes oeils",
   "pseudo": "guillaum2299",
-  "verifie": "2026-11-20T10:26:35+00:00"
+  "verifie": "2026-11-20T13:28:34+00:00"
  },
  "20001944": {
   "alertes": {},
@@ -717,7 +717,7 @@
   "grade": null,
   "humeur": "Directrice de Vaashop",
   "pseudo": "Vaanya",
-  "verifie": "2026-11-20T10:26:35+00:00"
+  "verifie": "2026-11-20T13:28:34+00:00"
  },
  "21236650": {
   "alertes": {},
@@ -1221,7 +1221,7 @@
   "grade": null,
   "humeur": "Propriétaire du Bar One-Eyed Jack's",
   "pseudo": "PayeToWin",
-  "verifie": "2026-11-20T10:26:35+00:00"
+  "verifie": "2026-11-20T13:28:34+00:00"
  },
  "23858206": {
   "alertes": {},
@@ -1305,7 +1305,7 @@
  },
  "23995645": {
   "alertes": {},
-  "depuis": "2026-11-17T23:42:14+00:00",
+  "depuis": "2026-11-16T23:00:00+00:00",
   "grade": "cadet",
   "humeur": "[PN] Cadet",
   "pseudo": "Lewddon",
@@ -1573,7 +1573,7 @@
   "grade": null,
   "humeur": "[R.F] Sergent [Star']",
   "pseudo": "Alking.",
-  "verifie": "2026-11-20T10:26:35+00:00"
+  "verifie": "2026-11-20T13:28:34+00:00"
  },
  "24310671": {
   "alertes": {},
@@ -1997,7 +1997,7 @@
   "grade": null,
   "humeur": "DEMiSSIONnER",
   "pseudo": "wassim2019",
-  "verifie": "2026-11-20T10:26:35+00:00"
+  "verifie": "2026-11-20T13:28:34+00:00"
  },
  "24837461": {
   "alertes": {},
@@ -2181,7 +2181,7 @@
   "grade": null,
   "humeur": "J'aime trop les sandwichs",
   "pseudo": "Aaliyah.",
-  "verifie": "2026-11-20T10:26:35+00:00"
+  "verifie": "2026-11-20T13:28:34+00:00"
  },
  "24960611": {
   "alertes": {},
@@ -2273,7 +2273,7 @@
  },
  "25113894": {
   "alertes": {},
-  "depuis": "2026-11-20T00:40:34+00:00",
+  "depuis": "2026-11-18T23:00:00+00:00",
   "grade": "cadet",
   "humeur": "[PN] Cadette",
   "pseudo": "orlxnee2",
@@ -2421,7 +2421,7 @@
   "grade": null,
   "humeur": "     .   x   *  +    .  *  .",
   "pseudo": "amnesya,",
-  "verifie": "2026-11-20T10:26:35+00:00"
+  "verifie": "2026-11-20T13:28:34+00:00"
  },
  "25268058": {
   "alertes": {},
@@ -3377,7 +3377,7 @@
  },
  "25782895": {
   "alertes": {},
-  "depuis": "2026-11-18T23:04:19+00:00",
+  "depuis": "2026-11-18T23:00:00+00:00",
   "grade": "cadet",
   "humeur": "[PN] Cadet",
   "pseudo": "Lovepanda",
@@ -3481,7 +3481,7 @@
  },
  "25834382": {
   "alertes": {},
-  "depuis": "2026-11-19T02:52:20+00:00",
+  "depuis": "2026-11-18T23:00:00+00:00",
   "grade": "cadet",
   "humeur": "[PN] Cadet",
   "pseudo": "habbo-160-3",
@@ -3497,7 +3497,7 @@
  },
  "25844830": {
   "alertes": {},
-  "depuis": "2026-11-19T18:32:33+00:00",
+  "depuis": "2026-11-18T23:00:00+00:00",
   "grade": "cadet",
   "humeur": "[PN] Cadet",
   "pseudo": "Proxymore",
@@ -3585,7 +3585,7 @@
  },
  "25865056": {
   "alertes": {},
-  "depuis": "2026-11-17T23:02:14+00:00",
+  "depuis": "2026-11-16T23:00:00+00:00",
   "grade": "cadet",
   "humeur": "[PN] Cadet",
   "pseudo": "Weavem",
@@ -3657,7 +3657,7 @@
  },
  "25877706": {
   "alertes": {},
-  "depuis": "2026-11-19T22:20:34+00:00",
+  "depuis": "2026-11-18T23:00:00+00:00",
   "grade": "cadet",
   "humeur": "[PN] Cadet",
   "pseudo": "habbo22t",
@@ -4024,8 +4024,10 @@
   "verifie": "2026-11-20T12:12:36+00:00"
  },
  "25936042": {
-  "alertes": {},
-  "depuis": "2026-11-20T11:10:35+00:00",
+  "alertes": {
+   "cadet": "2026-11-20T13:29:26+00:00"
+  },
+  "depuis": "2026-11-16T23:00:00+00:00",
   "grade": "cadet",
   "humeur": "[PN] Cadet",
   "pseudo": "Non-Non",
@@ -4173,7 +4175,7 @@
   "grade": null,
   "humeur": "nver learnt hw 2 count bc im n*1",
   "pseudo": "cla183",
-  "verifie": "2026-11-20T10:26:35+00:00"
+  "verifie": "2026-11-20T13:28:34+00:00"
  },
  "25957126": {
   "alertes": {},
@@ -4333,7 +4335,7 @@
   "grade": null,
   "humeur": "Durif président !",
   "pseudo": "ThuThu",
-  "verifie": "2026-11-20T10:26:35+00:00"
+  "verifie": "2026-11-20T13:28:34+00:00"
  },
  "25972715": {
   "alertes": {},
@@ -4521,7 +4523,7 @@
  },
  "25989293": {
   "alertes": {},
-  "depuis": "2026-11-19T13:20:31+00:00",
+  "depuis": "2026-11-18T23:00:00+00:00",
   "grade": "cadet",
   "humeur": "[PN] Cadette",
   "pseudo": "gotica",
@@ -4745,7 +4747,7 @@
  },
  "26006507": {
   "alertes": {},
-  "depuis": "2026-11-19T16:02:32+00:00",
+  "depuis": "2026-11-18T23:00:00+00:00",
   "grade": "cadet",
   "humeur": "[PN] Cadette",
   "pseudo": "Fleabag",
@@ -5073,7 +5075,7 @@
  },
  "26025080": {
   "alertes": {},
-  "depuis": "2026-11-19T19:20:33+00:00",
+  "depuis": "2026-11-18T23:00:00+00:00",
   "grade": "cadet",
   "humeur": "[PN] Cadette",
   "pseudo": "marinadrk",
@@ -5113,11 +5115,11 @@
  },
  "26027138": {
   "alertes": {},
-  "depuis": null,
-  "grade": null,
-  "humeur": "[PN] Recrue",
+  "depuis": "2026-11-19T23:00:00+00:00",
+  "grade": "cadet",
+  "humeur": "[PN] Cadet",
   "pseudo": "dadou07",
-  "verifie": "2026-11-20T10:32:35+00:00"
+  "verifie": "2026-11-20T13:29:26+00:00"
  },
  "26027187": {
   "alertes": {},
@@ -5185,7 +5187,7 @@
  },
  "26030228": {
   "alertes": {},
-  "depuis": "2026-11-18T22:28:20+00:00",
+  "depuis": "2026-11-18T23:00:00+00:00",
   "grade": "cadet",
   "humeur": "[PN] Cadet",
   "pseudo": "-Oiseau",
@@ -5297,8 +5299,8 @@
  },
  "26036368": {
   "alertes": {},
-  "depuis": null,
-  "grade": null,
+  "depuis": "2026-11-18T23:00:00+00:00",
+  "grade": "cadet",
   "humeur": "[PN] Recrue",
   "pseudo": "Postillon",
   "verifie": "2026-11-20T12:18:34+00:00"
@@ -5349,7 +5351,7 @@
   "grade": null,
   "humeur": "treize",
   "pseudo": "-Blizz",
-  "verifie": "2026-11-20T10:26:35+00:00"
+  "verifie": "2026-11-20T13:28:34+00:00"
  },
  "26038461": {
   "alertes": {},
@@ -5601,7 +5603,7 @@
  },
  "26042196": {
   "alertes": {},
-  "depuis": "2026-11-17T23:04:14+00:00",
+  "depuis": "2026-11-16T23:00:00+00:00",
   "grade": "cadet",
   "humeur": "[PN] Cadette",
   "pseudo": "-Tsukiri-",
@@ -5817,7 +5819,7 @@
  },
  "26042534": {
   "alertes": {},
-  "depuis": "2026-11-19T19:38:34+00:00",
+  "depuis": "2026-11-18T23:00:00+00:00",
   "grade": "cadet",
   "humeur": "[PN] Cadet",
   "pseudo": "Pierre.Langlet",
@@ -5825,7 +5827,7 @@
  },
  "26042537": {
   "alertes": {},
-  "depuis": "2026-11-19T20:08:32+00:00",
+  "depuis": "2026-11-18T23:00:00+00:00",
   "grade": "cadet",
   "humeur": "[PN] Cadette",
   "pseudo": "ladypink.",
@@ -5833,7 +5835,7 @@
  },
  "26042538": {
   "alertes": {},
-  "depuis": "2026-11-19T20:08:32+00:00",
+  "depuis": "2026-11-18T23:00:00+00:00",
   "grade": "cadet",
   "humeur": "[PN] Cadette",
   "pseudo": "BakeryJuice",
