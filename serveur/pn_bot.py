@@ -102,7 +102,7 @@ XP_LOCK = threading.Lock()
 
 def procedure(pseudo):
     return {"name": "Procédure · Hauts gradés et plus", "inline": False, "value": (
-        "Conditions vérifiées par le bot (J+3 du badge Cadet, heure de Paris, et 200 PR).\n"
+        "Le passage est possible dès le 3ᵉ jour du badge avec 200 PR. Le jour d’adhésion compte comme jour 1.\n"
         f"**1.** Remets le badge **Policier adjoint** à **{pseudo}** sur Habbo.\n"
         "**2.** Clique sur **Badge attribué** : l'alerte passe en vert avec ton pseudo et tu gagnes **1 XP** en jeu "
         "(retiré si tu cliques ensuite sur **Annuler**).")}
@@ -819,13 +819,13 @@ class PNBot(discord.Client):
             "color": 0x2F8FD4,
             "fields": [
                 {"name": "Grade actuel", "value": "Cadet", "inline": True},
-                {"name": "Ancienneté", "value": "3 jours (≥ 3)", "inline": True},
+                {"name": "Ancienneté", "value": "Jour 3 (adhésion incluse)", "inline": True},
                 {"name": "Points de recrutement", "value": "214 (≥ 200)", "inline": True},
                 {"name": "Badge Habbo", "value": "[PN] Cadet", "inline": False},
                 procedure(pseudo),
             ],
             "thumbnail": {"url": avatar(pseudo, head=True)},
-            "footer": {"text": f"Badge Cadet depuis le {now - timedelta(days=3):%d/%m/%Y} · APERÇU"},
+            "footer": {"text": f"Badge Cadet depuis le {now - timedelta(days=2):%d/%m/%Y} · APERÇU"},
             "timestamp": now.isoformat(timespec="seconds"),
         }
         view = discord.ui.View(timeout=None)

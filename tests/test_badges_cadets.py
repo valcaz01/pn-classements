@@ -64,17 +64,17 @@ class PromotionsCadets(unittest.TestCase):
     def registre(self):
         return json.loads(self.suivi.read_text(encoding="utf-8"))
 
-    def test_mardi_soir_vendredi_minuit_meme_avec_autre_humeur_ou_nouveau_pseudo(self):
+    def test_adhesion_mardi_soir_eligible_jeudi_minuit_meme_apres_changement_humeur_ou_pseudo(self):
         self.passage("2026-11-17T23:59:00+01:00")
         self.nom, self.humeur = "AutrePseudo", "En pause"
-        self.passage("2026-11-19T23:59:59+01:00")
+        self.passage("2026-11-18T23:59:59+01:00")
         self.assertFalse(self.envois)
-        self.passage("2026-11-20T00:00:00+01:00")
-        self.passage("2026-11-20T00:02:00+01:00")
+        self.passage("2026-11-19T00:00:00+01:00")
+        self.passage("2026-11-19T00:02:00+01:00")
         self.assertEqual(len(self.envois), 1)
         self.assertIn("AutrePseudo", self.envois[0]["title"])
         self.assertEqual(self.envois[0]["footer"]["text"], "Badge Cadet depuis le 17/11/2026")
-        self.assertIn({"name": "Ancienneté", "value": "3 jours (≥ 3)", "inline": True},
+        self.assertIn({"name": "Ancienneté", "value": "Jour 3 (adhésion incluse)", "inline": True},
                       self.envois[0]["fields"])
 
     def test_registre_attributions_existantes_remplace_compteur_humeur_et_respecte_200_pr(self):
@@ -87,6 +87,8 @@ class PromotionsCadets(unittest.TestCase):
         self.points = 200
         self.passage("2026-11-20T12:17:00+01:00")
         self.assertEqual(len(self.envois), 1)
+        self.assertIn({"name": "Ancienneté", "value": "Jour 4 (adhésion incluse)", "inline": True},
+                      self.envois[0]["fields"])
 
     def test_une_alerte_ancienne_ou_un_badge_pa_confirme_ne_repart_pas(self):
         for marque in ({"alertes": {"cadet": "2026-11-18"}}, {"badge": {"cadet": {"par": "HG"}}}):
@@ -105,9 +107,9 @@ class PromotionsCadets(unittest.TestCase):
         self.badge = True
         self.passage("2026-11-20T10:00:00+01:00")
         self.assertEqual(self.registre()["hhfr-test"]["depuis"], "2026-11-20")
-        self.passage("2026-11-22T23:59:59+01:00")
+        self.passage("2026-11-21T23:59:59+01:00")
         self.assertFalse(self.envois)
-        self.passage("2026-11-23T00:00:00+01:00")
+        self.passage("2026-11-22T00:00:00+01:00")
         self.assertEqual(len(self.envois), 1)
 
     def test_omission_et_profil_prive_conservent_le_jour_sans_envoyer(self):
@@ -135,7 +137,7 @@ class PromotionsCadets(unittest.TestCase):
         self.assertEqual([e["_pn"]["palier"] for e in self.envois], ["pa"])
 
     def test_changement_heure_ete(self):
-        self.passage("2027-03-26T23:59:00+01:00")
+        self.passage("2027-03-27T23:59:00+01:00")
         self.passage("2027-03-28T23:59:59+02:00")
         self.assertFalse(self.envois)
         self.passage("2027-03-29T00:00:00+02:00")

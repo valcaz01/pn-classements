@@ -2,7 +2,7 @@
 """PN — alertes de passage de grade des non-gradés, postées dans le salon Discord « Alertes-promotions ».
 
 Paliers :
-  Cadet            → Policier adjoint                     : J+3 du badge (heure de Paris) + 200 points de recrutement
+  Cadet → Policier adjoint dès le 3ᵉ jour du badge (adhésion = jour 1, heure de Paris) avec 200 points de recrutement.
   Policier adjoint → éligible formation Gardien de la paix : 3 jours de grade + 300 points de recrutement (total)
 
 Le registre badges_cadets.json suit l'adhésion au groupe Cadet par identifiant Habbo stable.
@@ -207,7 +207,8 @@ def main():
         post({"title": "✅ Système d'alertes connecté",
               "description": "Ce salon recevra une alerte dès qu'un **Cadet** ou un **Policier adjoint** "
                              "remplit les conditions pour monter.\n\n"
-                             "• Cadet → Policier adjoint : à J+3 du badge (heure de Paris) + 200 points de recrutement\n"
+                             "• Cadet → Policier adjoint dès le 3ᵉ jour du badge avec 200 points de recrutement. "
+                             "Le jour d’adhésion compte comme jour 1, en heure de Paris.\n"
                              "• Policier adjoint → formation Gardien de la paix : 3 jours + 300 points de recrutement",
               "color": 0x0B3A5E, "footer": {"text": "Police Nationale · vérification toutes les 2 minutes"},
               "timestamp": iso(NOW)})
@@ -278,11 +279,13 @@ def main():
         if g == "cadet":
             if e["pseudo"].casefold() not in cadets or e.get("badge", {}).get("cadet"):
                 continue
-            jours = (aujourdhui - depuis.astimezone(PARIS).date()).days
+            jours = (aujourdhui - depuis.astimezone(PARIS).date()).days + 1
+            anciennete = f"Jour {jours} (adhésion incluse)"
             preuve = {"name": "Badge Habbo", "value": "[PN] Cadet", "inline": False}
             origine = "Badge Cadet depuis le"
         else:
             jours = (NOW - depuis).days
+            anciennete = f"{jours} jours (≥ {p['jours']})"
             preuve = {"name": "Humeur", "value": f"`{(e.get('humeur') or '')[:100]}`", "inline": False}
             origine = "Grade vu dans l'humeur depuis le"
         if pts < p["seuil"] or jours < p["jours"] or g in e.get("alertes", {}):
@@ -293,7 +296,7 @@ def main():
             "color": p["couleur"],
             "fields": [
                 {"name": "Grade actuel", "value": p["label"], "inline": True},
-                {"name": "Ancienneté", "value": f"{jours} jours (≥ {p['jours']})", "inline": True},
+                {"name": "Ancienneté", "value": anciennete, "inline": True},
                 {"name": "Points de recrutement", "value": f"{pts} (≥ {p['seuil']})", "inline": True},
                 preuve,
             ],
@@ -305,7 +308,7 @@ def main():
         }
         if g == "cadet":
             embed["fields"].append({"name": "Procédure · Hauts gradés et plus", "inline": False, "value": (
-                f"Conditions vérifiées par le bot (J+3 du badge Cadet, heure de Paris, et 200 PR).\n"
+                "Le passage est possible dès le 3ᵉ jour du badge avec 200 PR. Le jour d’adhésion compte comme jour 1.\n"
                 f"**1.** Remets le badge **Policier adjoint** à **{e['pseudo']}** sur Habbo.\n"
                 f"**2.** Clique sur **Badge attribué** : l'alerte passe en vert avec ton pseudo et tu gagnes **1 XP** en jeu "
                 f"(retiré si tu cliques ensuite sur **Annuler**).")})

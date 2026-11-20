@@ -2,8 +2,9 @@
 Classements XP et points de recrutement du forum P.N (pn-rpg.fr)
 
 Pour le passage de Cadet à Policier adjoint, le bot vérifie l'adhésion au
-groupe Habbo Cadet et les 200 points de recrutement cumulés. Un badge obtenu
-le mardi ouvre le passage dès le vendredi à 0 h, heure de Paris. Le suivi
+groupe Habbo Cadet et les 200 points de recrutement cumulés. Le jour d’adhésion
+compte comme jour 1. Un badge obtenu mardi ouvre le passage jeudi dès 0 h,
+au début du 3ᵉ jour, heure de Paris. Le suivi
 continue si l'humeur ou le pseudo change. Les dates des cadets déjà présents
 le 20 novembre 2026 proviennent des attributions confirmées sur le forum.
 Pour les nouvelles adhésions, le registre retient le jour où le badge est vu
