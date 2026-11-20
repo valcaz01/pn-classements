@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-20T04:58:35+00:00",
+ "updated": "2026-11-20T05:00:35+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 32
+    "value": 33
    },
    {
     "name": "fym",
@@ -167,7 +167,7 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 32
+    "value": 33
    },
    {
     "name": "fym",
@@ -331,7 +331,7 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 823
+    "value": 824
    },
    {
     "name": "fym",
@@ -533,7 +533,7 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 823
+    "value": 824
    },
    {
     "name": "fym",
