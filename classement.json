@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T10:54:35+00:00",
+ "updated": "2026-11-20T10:56:33+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -331,7 +331,7 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 908
+    "value": 910
    },
    {
     "name": "fym",
@@ -482,6 +482,10 @@
     "value": 22
    },
    {
+    "name": "dadou07",
+    "value": 18
+   },
+   {
     "name": "pohabbooq05-1",
     "value": 18
    },
@@ -499,10 +503,6 @@
    },
    {
     "name": "BakeryJuice",
-    "value": 16
-   },
-   {
-    "name": "dadou07",
     "value": 16
    },
    {
@@ -533,7 +533,7 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 908
+    "value": 910
    },
    {
     "name": "fym",
@@ -684,6 +684,10 @@
     "value": 22
    },
    {
+    "name": "dadou07",
+    "value": 18
+   },
+   {
     "name": "pohabbooq05-1",
     "value": 18
    },
@@ -701,10 +705,6 @@
    },
    {
     "name": "BakeryJuice",
-    "value": 16
-   },
-   {
-    "name": "dadou07",
     "value": 16
    },
    {
