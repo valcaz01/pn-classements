@@ -176,6 +176,10 @@ def cadets_du_jour(aujourdhui):
         chemin = f"/api/public/users/{urllib.parse.quote(hid)}/groups"
         try:
             groupes = req(f"https://{HOST}{chemin}")
+            if groupes == []:
+                profil = req(f"https://{HOST}/api/public/users/{urllib.parse.quote(hid)}")
+                if not isinstance(profil, dict) or profil.get("profileVisible") is not True:
+                    groupes = None
         except ApiRequestError as exc:
             if exc.status not in (401, 403):
                 raise

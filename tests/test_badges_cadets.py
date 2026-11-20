@@ -25,6 +25,7 @@ class PromotionsCadets(unittest.TestCase):
         self.badge = True
         self.superieur = None
         self.groupes_profil = []
+        self.profil_visible = True
         self.envois = []
         self.stack = contextlib.ExitStack()
         self.addCleanup(self.stack.close)
@@ -40,6 +41,8 @@ class PromotionsCadets(unittest.TestCase):
         return True
 
     def requete(self, url):
+        if url.endswith("/users/hhfr-test"):
+            return {"profileVisible": self.profil_visible}
         if url.endswith("/users/hhfr-test/groups"):
             if isinstance(self.groupes_profil, Exception):
                 raise self.groupes_profil
@@ -112,6 +115,10 @@ class PromotionsCadets(unittest.TestCase):
         self.badge = False
         self.groupes_profil = ApiRequestError("access", status=403)
         self.passage("2026-11-20T00:00:00+01:00")
+        self.assertFalse(self.envois)
+        self.assertEqual(self.registre()["hhfr-test"]["depuis"], "2026-11-17")
+        self.groupes_profil, self.profil_visible = [], False
+        self.passage("2026-11-20T00:01:00+01:00")
         self.assertFalse(self.envois)
         self.assertEqual(self.registre()["hhfr-test"]["depuis"], "2026-11-17")
         self.groupes_profil = [{"id": bot.GROUPE_CADET}]
