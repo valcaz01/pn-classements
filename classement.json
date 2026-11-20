@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T10:52:35+00:00",
+ "updated": "2026-11-20T10:54:35+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -331,7 +331,7 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 906
+    "value": 908
    },
    {
     "name": "fym",
@@ -502,12 +502,12 @@
     "value": 16
    },
    {
-    "name": "Imondi",
+    "name": "dadou07",
     "value": 16
    },
    {
-    "name": "dadou07",
-    "value": 14
+    "name": "Imondi",
+    "value": 16
    },
    {
     "name": "Robotor",
@@ -533,7 +533,7 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 906
+    "value": 908
    },
    {
     "name": "fym",
@@ -704,12 +704,12 @@
     "value": 16
    },
    {
-    "name": "Imondi",
+    "name": "dadou07",
     "value": 16
    },
    {
-    "name": "dadou07",
-    "value": 14
+    "name": "Imondi",
+    "value": 16
    },
    {
     "name": "Robotor",
