@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T18:08:23+00:00",
+ "updated": "2026-11-20T18:10:24+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -158,6 +158,10 @@
    {
     "name": "OnlyOneGuest",
     "value": 2
+   },
+   {
+    "name": "Astalue",
+    "value": 1
    },
    {
     "name": "dadou07",
@@ -334,6 +338,10 @@
     "value": 2
    },
    {
+    "name": "Astalue",
+    "value": 1
+   },
+   {
     "name": "dadou07",
     "value": 1
    },
@@ -367,7 +375,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 489
+    "value": 491
    },
    {
     "name": "marinadrk",
@@ -391,7 +399,7 @@
    },
    {
     "name": "Icarem",
-    "value": 278
+    "value": 280
    },
    {
     "name": "Non-Non",
@@ -569,7 +577,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 489
+    "value": 491
    },
    {
     "name": "marinadrk",
@@ -593,7 +601,7 @@
    },
    {
     "name": "Icarem",
-    "value": 278
+    "value": 280
    },
    {
     "name": "Non-Non",
