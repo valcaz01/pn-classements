@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T17:40:24+00:00",
+ "updated": "2026-11-20T17:42:24+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -32,6 +32,10 @@
     "value": 15
    },
    {
+    "name": "pevanq640",
+    "value": 15
+   },
+   {
     "name": "Shizuku",
     "value": 15
    },
@@ -41,10 +45,6 @@
    },
    {
     "name": "charlie-XCX123",
-    "value": 13
-   },
-   {
-    "name": "pevanq640",
     "value": 13
    },
    {
@@ -206,6 +206,10 @@
     "value": 15
    },
    {
+    "name": "pevanq640",
+    "value": 15
+   },
+   {
     "name": "Shizuku",
     "value": 15
    },
@@ -215,10 +219,6 @@
    },
    {
     "name": "charlie-XCX123",
-    "value": 13
-   },
-   {
-    "name": "pevanq640",
     "value": 13
    },
    {
@@ -367,7 +367,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 463
+    "value": 465
    },
    {
     "name": "marinadrk",
@@ -379,7 +379,7 @@
    },
    {
     "name": "Lovepanda",
-    "value": 328
+    "value": 330
    },
    {
     "name": "Astreu",
@@ -391,7 +391,7 @@
    },
    {
     "name": "Non-Non",
-    "value": 268
+    "value": 269
    },
    {
     "name": "charlie-XCX123",
@@ -569,7 +569,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 463
+    "value": 465
    },
    {
     "name": "marinadrk",
@@ -581,7 +581,7 @@
    },
    {
     "name": "Lovepanda",
-    "value": 328
+    "value": 330
    },
    {
     "name": "Astreu",
@@ -593,7 +593,7 @@
    },
    {
     "name": "Non-Non",
-    "value": 268
+    "value": 269
    },
    {
     "name": "charlie-XCX123",
