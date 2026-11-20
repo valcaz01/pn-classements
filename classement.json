@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T20:40:25+00:00",
+ "updated": "2026-11-20T20:42:25+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -371,7 +371,7 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 945
+    "value": 946
    },
    {
     "name": "habbo-160-3",
@@ -399,7 +399,7 @@
    },
    {
     "name": "habbo22t",
-    "value": 310
+    "value": 312
    },
    {
     "name": "Astreu",
@@ -407,7 +407,7 @@
    },
    {
     "name": "Icarem",
-    "value": 304
+    "value": 305
    },
    {
     "name": "Non-Non",
@@ -423,7 +423,7 @@
    },
    {
     "name": "Lewddon",
-    "value": 222
+    "value": 224
    },
    {
     "name": "-Tsukiri-",
@@ -442,12 +442,12 @@
     "value": 163
    },
    {
-    "name": "Proxymore",
-    "value": 154
+    "name": "dadou07",
+    "value": 155
    },
    {
-    "name": "dadou07",
-    "value": 153
+    "name": "Proxymore",
+    "value": 154
    },
    {
     "name": "Weavem",
@@ -510,20 +510,20 @@
     "value": 37
    },
    {
+    "name": "Mi,hermano",
+    "value": 35
+   },
+   {
     "name": "YzEnRodeo",
     "value": 35
    },
    {
-    "name": "Mi,hermano",
-    "value": 34
+    "name": "Padre",
+    "value": 33
    },
    {
     "name": "Postillon",
     "value": 32
-   },
-   {
-    "name": "Padre",
-    "value": 31
    },
    {
     "name": "ladypink.",
@@ -573,7 +573,7 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 945
+    "value": 946
    },
    {
     "name": "habbo-160-3",
@@ -601,7 +601,7 @@
    },
    {
     "name": "habbo22t",
-    "value": 310
+    "value": 312
    },
    {
     "name": "Astreu",
@@ -609,7 +609,7 @@
    },
    {
     "name": "Icarem",
-    "value": 304
+    "value": 305
    },
    {
     "name": "Non-Non",
@@ -625,7 +625,7 @@
    },
    {
     "name": "Lewddon",
-    "value": 222
+    "value": 224
    },
    {
     "name": "-Tsukiri-",
@@ -644,12 +644,12 @@
     "value": 163
    },
    {
-    "name": "Proxymore",
-    "value": 154
+    "name": "dadou07",
+    "value": 155
    },
    {
-    "name": "dadou07",
-    "value": 153
+    "name": "Proxymore",
+    "value": 154
    },
    {
     "name": "Weavem",
@@ -712,20 +712,20 @@
     "value": 37
    },
    {
+    "name": "Mi,hermano",
+    "value": 35
+   },
+   {
     "name": "YzEnRodeo",
     "value": 35
    },
    {
-    "name": "Mi,hermano",
-    "value": 34
+    "name": "Padre",
+    "value": 33
    },
    {
     "name": "Postillon",
     "value": 32
-   },
-   {
-    "name": "Padre",
-    "value": 31
    },
    {
     "name": "ladypink.",
