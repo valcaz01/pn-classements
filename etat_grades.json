@@ -1429,11 +1429,11 @@
     "xp": true
    }
   },
-  "depuis": null,
-  "grade": null,
-  "humeur": "[PN] Cadet",
+  "depuis": "2026-11-20T23:24:26+00:00",
+  "grade": "pa",
+  "humeur": "[PN] Policier-adjoint",
   "pseudo": "Lewddon",
-  "verifie": "2026-11-20T20:24:26+00:00"
+  "verifie": "2026-11-20T23:24:26+00:00"
  },
  "24002567": {
   "alertes": {},
@@ -6476,6 +6476,14 @@
   "humeur": "",
   "pseudo": "MayhemBzh",
   "verifie": "2026-11-20T22:16:24+00:00"
+ },
+ "26042740": {
+  "alertes": {},
+  "depuis": null,
+  "grade": null,
+  "humeur": "",
+  "pseudo": "Akelox",
+  "verifie": "2026-11-20T23:24:26+00:00"
  },
  "2709157": {
   "alertes": {},
