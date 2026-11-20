@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T19:32:25+00:00",
+ "updated": "2026-11-20T19:34:25+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -28,15 +28,15 @@
     "value": 16
    },
    {
+    "name": "Shizuku",
+    "value": 16
+   },
+   {
     "name": ".Libellule",
     "value": 15
    },
    {
     "name": "pevanq640",
-    "value": 15
-   },
-   {
-    "name": "Shizuku",
     "value": 15
    },
    {
@@ -210,15 +210,15 @@
     "value": 16
    },
    {
+    "name": "Shizuku",
+    "value": 16
+   },
+   {
     "name": ".Libellule",
     "value": 15
    },
    {
     "name": "pevanq640",
-    "value": 15
-   },
-   {
-    "name": "Shizuku",
     "value": 15
    },
    {
@@ -379,7 +379,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 716
+    "value": 717
    },
    {
     "name": "Pantheon_",
@@ -387,7 +387,7 @@
    },
    {
     "name": "marinadrk",
-    "value": 432
+    "value": 433
    },
    {
     "name": "Shizuku",
@@ -415,7 +415,7 @@
    },
    {
     "name": "habbo22t",
-    "value": 270
+    "value": 272
    },
    {
     "name": "charlie-XCX123",
@@ -431,7 +431,7 @@
    },
    {
     "name": "-Tsukiri-",
-    "value": 192
+    "value": 194
    },
    {
     "name": "Monsieur-RF",
@@ -439,7 +439,7 @@
    },
    {
     "name": ".Libellule",
-    "value": 154
+    "value": 156
    },
    {
     "name": "Proxymore",
@@ -581,7 +581,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 716
+    "value": 717
    },
    {
     "name": "Pantheon_",
@@ -589,7 +589,7 @@
    },
    {
     "name": "marinadrk",
-    "value": 432
+    "value": 433
    },
    {
     "name": "Shizuku",
@@ -617,7 +617,7 @@
    },
    {
     "name": "habbo22t",
-    "value": 270
+    "value": 272
    },
    {
     "name": "charlie-XCX123",
@@ -633,7 +633,7 @@
    },
    {
     "name": "-Tsukiri-",
-    "value": 192
+    "value": 194
    },
    {
     "name": "Monsieur-RF",
@@ -641,7 +641,7 @@
    },
    {
     "name": ".Libellule",
-    "value": 154
+    "value": 156
    },
    {
     "name": "Proxymore",
