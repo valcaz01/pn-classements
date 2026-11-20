@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T18:04:23+00:00",
+ "updated": "2026-11-20T18:06:25+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -20,15 +20,15 @@
     "value": 17
    },
    {
+    "name": "halos34",
+    "value": 17
+   },
+   {
     "name": "Proxymore",
     "value": 16
    },
    {
     "name": ".Libellule",
-    "value": 15
-   },
-   {
-    "name": "halos34",
     "value": 15
    },
    {
@@ -194,15 +194,15 @@
     "value": 17
    },
    {
+    "name": "halos34",
+    "value": 17
+   },
+   {
     "name": "Proxymore",
     "value": 16
    },
    {
     "name": ".Libellule",
-    "value": 15
-   },
-   {
-    "name": "halos34",
     "value": 15
    },
    {
@@ -367,7 +367,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 485
+    "value": 487
    },
    {
     "name": "marinadrk",
@@ -379,7 +379,7 @@
    },
    {
     "name": "Lovepanda",
-    "value": 343
+    "value": 345
    },
    {
     "name": "Astreu",
@@ -391,7 +391,7 @@
    },
    {
     "name": "Icarem",
-    "value": 276
+    "value": 277
    },
    {
     "name": "Non-Non",
@@ -569,7 +569,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 485
+    "value": 487
    },
    {
     "name": "marinadrk",
@@ -581,7 +581,7 @@
    },
    {
     "name": "Lovepanda",
-    "value": 343
+    "value": 345
    },
    {
     "name": "Astreu",
@@ -593,7 +593,7 @@
    },
    {
     "name": "Icarem",
-    "value": 276
+    "value": 277
    },
    {
     "name": "Non-Non",
