@@ -3049,7 +3049,7 @@
   "grade": null,
   "humeur": "One day or another we will have it",
   "pseudo": "q3s",
-  "verifie": "2026-11-20T19:44:26+00:00"
+  "verifie": "2026-11-20T22:46:25+00:00"
  },
  "25574341": {
   "alertes": {},
@@ -3625,7 +3625,7 @@
   "grade": null,
   "humeur": "[C.I.A.] Agent-Elite",
   "pseudo": "Athena.Nova",
-  "verifie": "2026-11-20T19:44:26+00:00"
+  "verifie": "2026-11-20T22:46:25+00:00"
  },
  "25774771": {
   "alertes": {},
@@ -4361,11 +4361,11 @@
     "xp": true
    }
   },
-  "depuis": null,
-  "grade": null,
-  "humeur": "[PN] Cadet",
+  "depuis": "2026-11-20T22:46:25+00:00",
+  "grade": "pa",
+  "humeur": "[PN] Policier-adjoint",
   "pseudo": "Non-Non",
-  "verifie": "2026-11-20T19:46:25+00:00"
+  "verifie": "2026-11-20T22:46:25+00:00"
  },
  "25936070": {
   "alertes": {},
