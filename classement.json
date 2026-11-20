@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T20:08:25+00:00",
+ "updated": "2026-11-20T20:10:25+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -375,7 +375,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 751
+    "value": 753
    },
    {
     "name": "fym",
@@ -391,7 +391,7 @@
    },
    {
     "name": "Shizuku",
-    "value": 409
+    "value": 411
    },
    {
     "name": "Lovepanda",
@@ -402,11 +402,11 @@
     "value": 306
    },
    {
-    "name": "Fleabag",
-    "value": 291
+    "name": "Non-Non",
+    "value": 292
    },
    {
-    "name": "Non-Non",
+    "name": "Fleabag",
     "value": 291
    },
    {
@@ -435,7 +435,7 @@
    },
    {
     "name": ".Libellule",
-    "value": 173
+    "value": 174
    },
    {
     "name": "Monsieur-RF",
@@ -463,7 +463,7 @@
    },
    {
     "name": "dadou07",
-    "value": 131
+    "value": 132
    },
    {
     "name": "sami75.19",
@@ -562,11 +562,11 @@
     "value": 12
    },
    {
-    "name": "Robotor",
-    "value": 11
+    "name": "Padre",
+    "value": 12
    },
    {
-    "name": "Rock_2000",
+    "name": "Robotor",
     "value": 11
    }
   ],
@@ -577,7 +577,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 751
+    "value": 753
    },
    {
     "name": "fym",
@@ -593,7 +593,7 @@
    },
    {
     "name": "Shizuku",
-    "value": 409
+    "value": 411
    },
    {
     "name": "Lovepanda",
@@ -604,11 +604,11 @@
     "value": 306
    },
    {
-    "name": "Fleabag",
-    "value": 291
+    "name": "Non-Non",
+    "value": 292
    },
    {
-    "name": "Non-Non",
+    "name": "Fleabag",
     "value": 291
    },
    {
@@ -637,7 +637,7 @@
    },
    {
     "name": ".Libellule",
-    "value": 173
+    "value": 174
    },
    {
     "name": "Monsieur-RF",
@@ -665,7 +665,7 @@
    },
    {
     "name": "dadou07",
-    "value": 131
+    "value": 132
    },
    {
     "name": "sami75.19",
@@ -764,11 +764,11 @@
     "value": 12
    },
    {
-    "name": "Robotor",
-    "value": 11
+    "name": "Padre",
+    "value": 12
    },
    {
-    "name": "Rock_2000",
+    "name": "Robotor",
     "value": 11
    }
   ]
