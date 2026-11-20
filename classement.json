@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T18:30:25+00:00",
+ "updated": "2026-11-20T18:32:24+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -375,7 +375,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 508
+    "value": 510
    },
    {
     "name": "marinadrk",
@@ -427,7 +427,7 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 159
+    "value": 161
    },
    {
     "name": "Proxymore",
@@ -450,12 +450,12 @@
     "value": 129
    },
    {
-    "name": "dadou07",
-    "value": 125
+    "name": ".Libellule",
+    "value": 126
    },
    {
-    "name": ".Libellule",
-    "value": 124
+    "name": "dadou07",
+    "value": 125
    },
    {
     "name": "sami75.19",
@@ -538,16 +538,16 @@
     "value": 17
    },
    {
+    "name": "AllEyesOnMe57",
+    "value": 16
+   },
+   {
     "name": "BakeryJuice",
     "value": 16
    },
    {
     "name": "Imondi",
     "value": 16
-   },
-   {
-    "name": "AllEyesOnMe57",
-    "value": 14
    },
    {
     "name": "Robotor",
@@ -577,7 +577,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 508
+    "value": 510
    },
    {
     "name": "marinadrk",
@@ -629,7 +629,7 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 159
+    "value": 161
    },
    {
     "name": "Proxymore",
@@ -652,12 +652,12 @@
     "value": 129
    },
    {
-    "name": "dadou07",
-    "value": 125
+    "name": ".Libellule",
+    "value": 126
    },
    {
-    "name": ".Libellule",
-    "value": 124
+    "name": "dadou07",
+    "value": 125
    },
    {
     "name": "sami75.19",
@@ -740,16 +740,16 @@
     "value": 17
    },
    {
+    "name": "AllEyesOnMe57",
+    "value": 16
+   },
+   {
     "name": "BakeryJuice",
     "value": 16
    },
    {
     "name": "Imondi",
     "value": 16
-   },
-   {
-    "name": "AllEyesOnMe57",
-    "value": 14
    },
    {
     "name": "Robotor",
