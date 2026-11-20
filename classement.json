@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T01:22:34+00:00",
+ "updated": "2026-11-20T01:24:35+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -28,15 +28,15 @@
     "value": 14
    },
    {
+    "name": "irysse",
+    "value": 12
+   },
+   {
     "name": ".Libellule",
     "value": 11
    },
    {
     "name": "Astreu",
-    "value": 11
-   },
-   {
-    "name": "irysse",
     "value": 11
    },
    {
@@ -132,6 +132,10 @@
     "value": 2
    },
    {
+    "name": "habbo-160-3",
+    "value": 2
+   },
+   {
     "name": "ladypink.",
     "value": 2
    },
@@ -142,10 +146,6 @@
    {
     "name": "OnlyOneGuest",
     "value": 2
-   },
-   {
-    "name": "habbo-160-3",
-    "value": 1
    },
    {
     "name": "HK83000",
@@ -190,15 +190,15 @@
     "value": 14
    },
    {
+    "name": "irysse",
+    "value": 12
+   },
+   {
     "name": ".Libellule",
     "value": 11
    },
    {
     "name": "Astreu",
-    "value": 11
-   },
-   {
-    "name": "irysse",
     "value": 11
    },
    {
@@ -294,6 +294,10 @@
     "value": 2
    },
    {
+    "name": "habbo-160-3",
+    "value": 2
+   },
+   {
     "name": "ladypink.",
     "value": 2
    },
@@ -304,10 +308,6 @@
    {
     "name": "OnlyOneGuest",
     "value": 2
-   },
-   {
-    "name": "habbo-160-3",
-    "value": 1
    },
    {
     "name": "HK83000",
@@ -347,7 +347,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 360
+    "value": 361
    },
    {
     "name": "Fleabag",
@@ -549,7 +549,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 360
+    "value": 361
    },
    {
     "name": "Fleabag",
