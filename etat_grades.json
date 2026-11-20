@@ -53,7 +53,7 @@
   "grade": null,
   "humeur": ".",
   "pseudo": "misse-bimbo65",
-  "verifie": "2026-11-20T16:50:24+00:00"
+  "verifie": "2026-11-20T19:50:25+00:00"
  },
  "10818718": {
   "alertes": {},
@@ -341,7 +341,7 @@
   "grade": null,
   "humeur": "Blabla..#R|",
   "pseudo": "Koana-29",
-  "verifie": "2026-11-20T16:50:24+00:00"
+  "verifie": "2026-11-20T19:50:25+00:00"
  },
  "16215782": {
   "alertes": {},
@@ -413,7 +413,7 @@
   "grade": null,
   "humeur": "Famiglia Genovese",
   "pseudo": "Vito.Genovese",
-  "verifie": "2026-11-20T16:50:24+00:00"
+  "verifie": "2026-11-20T19:50:25+00:00"
  },
  "1709200": {
   "alertes": {},
@@ -1631,7 +1631,7 @@
   "grade": null,
   "humeur": "",
   "pseudo": "Eztitxug64",
-  "verifie": "2026-11-20T16:50:24+00:00"
+  "verifie": "2026-11-20T19:50:25+00:00"
  },
  "24255213": {
   "alertes": {},
@@ -2343,7 +2343,7 @@
   "grade": null,
   "humeur": "",
   "pseudo": "jenn29",
-  "verifie": "2026-11-20T16:50:24+00:00"
+  "verifie": "2026-11-20T19:50:25+00:00"
  },
  "24969829": {
   "alertes": {},
@@ -5211,7 +5211,7 @@
   "grade": null,
   "humeur": "Bonjour",
   "pseudo": "uydbsqufok",
-  "verifie": "2026-11-20T16:50:24+00:00"
+  "verifie": "2026-11-20T19:50:25+00:00"
  },
  "26016678": {
   "alertes": {},
@@ -5945,11 +5945,21 @@
   "alertes": {
    "cadet": "2026-11-20T19:40:26+00:00"
   },
-  "depuis": "2026-11-16T23:00:00+00:00",
-  "grade": "cadet",
+  "badge": {
+   "cadet": {
+    "habbo": ".Libellule",
+    "habbo_id": "25357971",
+    "le": "2026-11-20T20:50:29+01:00",
+    "par": ".Libellule",
+    "par_id": "676079051773050918",
+    "xp": true
+   }
+  },
+  "depuis": null,
+  "grade": null,
   "humeur": "[PN] Cadette",
   "pseudo": "-Tsukiri-",
-  "verifie": "2026-11-20T17:12:24+00:00"
+  "verifie": "2026-11-20T19:50:25+00:00"
  },
  "26042221": {
   "alertes": {},
@@ -6685,7 +6695,7 @@
   "grade": null,
   "humeur": "",
   "pseudo": "94-alexandre-94",
-  "verifie": "2026-11-20T16:50:24+00:00"
+  "verifie": "2026-11-20T19:50:25+00:00"
  },
  "9786066": {
   "alertes": {},
