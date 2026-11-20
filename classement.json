@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T10:48:35+00:00",
+ "updated": "2026-11-20T10:50:34+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -331,7 +331,7 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 902
+    "value": 904
    },
    {
     "name": "fym",
@@ -371,11 +371,11 @@
    },
    {
     "name": "Non-Non",
-    "value": 229
+    "value": 231
    },
    {
     "name": "Icarem",
-    "value": 206
+    "value": 208
    },
    {
     "name": "halos34",
@@ -419,7 +419,7 @@
    },
    {
     "name": ".Libellule",
-    "value": 81
+    "value": 83
    },
    {
     "name": "Proxymore",
@@ -506,16 +506,16 @@
     "value": 16
    },
    {
+    "name": "dadou07",
+    "value": 12
+   },
+   {
     "name": "Robotor",
     "value": 11
    },
    {
     "name": "Rock_2000",
     "value": 11
-   },
-   {
-    "name": "dadou07",
-    "value": 10
    },
    {
     "name": "Alejandro721",
@@ -533,7 +533,7 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 902
+    "value": 904
    },
    {
     "name": "fym",
@@ -573,11 +573,11 @@
    },
    {
     "name": "Non-Non",
-    "value": 229
+    "value": 231
    },
    {
     "name": "Icarem",
-    "value": 206
+    "value": 208
    },
    {
     "name": "halos34",
@@ -621,7 +621,7 @@
    },
    {
     "name": ".Libellule",
-    "value": 81
+    "value": 83
    },
    {
     "name": "Proxymore",
@@ -708,16 +708,16 @@
     "value": 16
    },
    {
+    "name": "dadou07",
+    "value": 12
+   },
+   {
     "name": "Robotor",
     "value": 11
    },
    {
     "name": "Rock_2000",
     "value": 11
-   },
-   {
-    "name": "dadou07",
-    "value": 10
    },
    {
     "name": "Alejandro721",
