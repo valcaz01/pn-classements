@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T19:34:25+00:00",
+ "updated": "2026-11-20T19:36:25+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -24,11 +24,11 @@
     "value": 17
    },
    {
-    "name": "Proxymore",
-    "value": 16
+    "name": "Shizuku",
+    "value": 17
    },
    {
-    "name": "Shizuku",
+    "name": "Proxymore",
     "value": 16
    },
    {
@@ -206,11 +206,11 @@
     "value": 17
    },
    {
-    "name": "Proxymore",
-    "value": 16
+    "name": "Shizuku",
+    "value": 17
    },
    {
-    "name": "Shizuku",
+    "name": "Proxymore",
     "value": 16
    },
    {
@@ -379,7 +379,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 717
+    "value": 719
    },
    {
     "name": "Pantheon_",
@@ -387,7 +387,7 @@
    },
    {
     "name": "marinadrk",
-    "value": 433
+    "value": 435
    },
    {
     "name": "Shizuku",
@@ -415,7 +415,7 @@
    },
    {
     "name": "habbo22t",
-    "value": 272
+    "value": 274
    },
    {
     "name": "charlie-XCX123",
@@ -426,12 +426,12 @@
     "value": 200
    },
    {
-    "name": "halos34",
+    "name": "-Tsukiri-",
     "value": 196
    },
    {
-    "name": "-Tsukiri-",
-    "value": 194
+    "name": "halos34",
+    "value": 196
    },
    {
     "name": "Monsieur-RF",
@@ -439,7 +439,7 @@
    },
    {
     "name": ".Libellule",
-    "value": 156
+    "value": 158
    },
    {
     "name": "Proxymore",
@@ -581,7 +581,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 717
+    "value": 719
    },
    {
     "name": "Pantheon_",
@@ -589,7 +589,7 @@
    },
    {
     "name": "marinadrk",
-    "value": 433
+    "value": 435
    },
    {
     "name": "Shizuku",
@@ -617,7 +617,7 @@
    },
    {
     "name": "habbo22t",
-    "value": 272
+    "value": 274
    },
    {
     "name": "charlie-XCX123",
@@ -628,12 +628,12 @@
     "value": 200
    },
    {
-    "name": "halos34",
+    "name": "-Tsukiri-",
     "value": 196
    },
    {
-    "name": "-Tsukiri-",
-    "value": 194
+    "name": "halos34",
+    "value": 196
    },
    {
     "name": "Monsieur-RF",
@@ -641,7 +641,7 @@
    },
    {
     "name": ".Libellule",
-    "value": 156
+    "value": 158
    },
    {
     "name": "Proxymore",
