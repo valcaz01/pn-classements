@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T18:54:28+00:00",
+ "updated": "2026-11-21T18:56:27+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -60,16 +60,16 @@
     "value": 15
    },
    {
+    "name": "flo578",
+    "value": 14
+   },
+   {
     "name": "Pantheon_",
     "value": 14
    },
    {
     "name": "sami75.19",
     "value": 14
-   },
-   {
-    "name": "flo578",
-    "value": 13
    },
    {
     "name": "habbo-160-3",
@@ -262,16 +262,16 @@
     "value": 15
    },
    {
+    "name": "flo578",
+    "value": 14
+   },
+   {
     "name": "Pantheon_",
     "value": 14
    },
    {
     "name": "sami75.19",
     "value": 14
-   },
-   {
-    "name": "flo578",
-    "value": 13
    },
    {
     "name": "habbo-160-3",
@@ -435,7 +435,7 @@
    },
    {
     "name": "Icarem",
-    "value": 477
+    "value": 479
    },
    {
     "name": "Astreu",
@@ -475,7 +475,7 @@
    },
    {
     "name": "andrew16a",
-    "value": 263
+    "value": 265
    },
    {
     "name": "halos34",
@@ -491,7 +491,7 @@
    },
    {
     "name": "flo578",
-    "value": 225
+    "value": 227
    },
    {
     "name": "-Tsukiri-",
@@ -637,7 +637,7 @@
    },
    {
     "name": "Icarem",
-    "value": 477
+    "value": 479
    },
    {
     "name": "Astreu",
@@ -677,7 +677,7 @@
    },
    {
     "name": "andrew16a",
-    "value": 263
+    "value": 265
    },
    {
     "name": "halos34",
@@ -693,7 +693,7 @@
    },
    {
     "name": "flo578",
-    "value": 225
+    "value": 227
    },
    {
     "name": "-Tsukiri-",
