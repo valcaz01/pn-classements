@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T03:46:26+00:00",
+ "updated": "2026-11-21T03:48:25+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -391,11 +391,11 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 902
+    "value": 904
    },
    {
     "name": "fym",
-    "value": 877
+    "value": 879
    },
    {
     "name": "Shizuku",
@@ -558,6 +558,10 @@
     "value": 22
    },
    {
+    "name": "Freminet",
+    "value": 18
+   },
+   {
     "name": "pohabbooq05-1",
     "value": 18
    },
@@ -579,10 +583,6 @@
    },
    {
     "name": "BakeryJuice",
-    "value": 16
-   },
-   {
-    "name": "Freminet",
     "value": 16
    }
   ],
@@ -593,11 +593,11 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 902
+    "value": 904
    },
    {
     "name": "fym",
-    "value": 877
+    "value": 879
    },
    {
     "name": "Shizuku",
@@ -760,6 +760,10 @@
     "value": 22
    },
    {
+    "name": "Freminet",
+    "value": 18
+   },
+   {
     "name": "pohabbooq05-1",
     "value": 18
    },
@@ -781,10 +785,6 @@
    },
    {
     "name": "BakeryJuice",
-    "value": 16
-   },
-   {
-    "name": "Freminet",
     "value": 16
    }
   ]
