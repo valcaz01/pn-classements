@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T20:04:27+00:00",
+ "updated": "2026-11-21T20:06:27+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -48,11 +48,11 @@
     "value": 19
    },
    {
-    "name": "irysse",
-    "value": 16
+    "name": "Lovepanda",
+    "value": 17
    },
    {
-    "name": "Lovepanda",
+    "name": "irysse",
     "value": 16
    },
    {
@@ -250,11 +250,11 @@
     "value": 19
    },
    {
-    "name": "irysse",
-    "value": 16
+    "name": "Lovepanda",
+    "value": 17
    },
    {
-    "name": "Lovepanda",
+    "name": "irysse",
     "value": 16
    },
    {
@@ -411,7 +411,7 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 1290
+    "value": 1292
    },
    {
     "name": "habbo-160-3",
@@ -422,16 +422,16 @@
     "value": 1009
    },
    {
+    "name": "Pantheon_",
+    "value": 697
+   },
+   {
     "name": "marinadrk",
     "value": 696
    },
    {
-    "name": "Pantheon_",
-    "value": 696
-   },
-   {
     "name": "Shizuku",
-    "value": 589
+    "value": 590
    },
    {
     "name": "Icarem",
@@ -439,7 +439,7 @@
    },
    {
     "name": "Astreu",
-    "value": 472
+    "value": 474
    },
    {
     "name": "Lovepanda",
@@ -495,7 +495,7 @@
    },
    {
     "name": "Mi,hermano",
-    "value": 213
+    "value": 215
    },
    {
     "name": "-Tsukiri-",
@@ -527,7 +527,7 @@
    },
    {
     "name": "_.Flora._",
-    "value": 64
+    "value": 66
    },
    {
     "name": "Padre",
@@ -613,7 +613,7 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 1290
+    "value": 1292
    },
    {
     "name": "habbo-160-3",
@@ -624,16 +624,16 @@
     "value": 1009
    },
    {
+    "name": "Pantheon_",
+    "value": 697
+   },
+   {
     "name": "marinadrk",
     "value": 696
    },
    {
-    "name": "Pantheon_",
-    "value": 696
-   },
-   {
     "name": "Shizuku",
-    "value": 589
+    "value": 590
    },
    {
     "name": "Icarem",
@@ -641,7 +641,7 @@
    },
    {
     "name": "Astreu",
-    "value": 472
+    "value": 474
    },
    {
     "name": "Lovepanda",
@@ -697,7 +697,7 @@
    },
    {
     "name": "Mi,hermano",
-    "value": 213
+    "value": 215
    },
    {
     "name": "-Tsukiri-",
@@ -729,7 +729,7 @@
    },
    {
     "name": "_.Flora._",
-    "value": 64
+    "value": 66
    },
    {
     "name": "Padre",
