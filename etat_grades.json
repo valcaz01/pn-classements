@@ -3951,11 +3951,21 @@
   "alertes": {
    "cadet": "2026-11-20T23:00:25+00:00"
   },
-  "depuis": "2026-11-18T23:00:00+00:00",
-  "grade": "cadet",
+  "badge": {
+   "cadet": {
+    "habbo": ".Libellule",
+    "habbo_id": "25357971",
+    "le": "2026-11-21T10:52:29+01:00",
+    "par": ".Libellule",
+    "par_id": "676079051773050918",
+    "xp": true
+   }
+  },
+  "depuis": null,
+  "grade": null,
   "humeur": "[PN] Cadet",
   "pseudo": "Lovepanda",
-  "verifie": "2026-11-21T08:16:25+00:00"
+  "verifie": "2026-11-21T09:52:24+00:00"
  },
  "25782968": {
   "alertes": {},
@@ -5293,11 +5303,21 @@
   "alertes": {
    "cadet": "2026-11-21T04:56:24+00:00"
   },
-  "depuis": "2026-11-18T23:00:00+00:00",
-  "grade": "cadet",
+  "badge": {
+   "cadet": {
+    "habbo": "Pantheon_",
+    "habbo_id": "24917362",
+    "le": "2026-11-21T10:52:16+01:00",
+    "par": "Pantheon_",
+    "par_id": "340051395799416844",
+    "xp": true
+   }
+  },
+  "depuis": null,
+  "grade": null,
   "humeur": "[PN] Cadette",
   "pseudo": "gotica",
-  "verifie": "2026-11-21T07:28:26+00:00"
+  "verifie": "2026-11-21T09:52:24+00:00"
  },
  "25989591": {
   "alertes": {},
@@ -6891,6 +6911,14 @@
   "pseudo": "Tousaint",
   "verifie": "2026-11-21T09:16:25+00:00"
  },
+ "26042744": {
+  "alertes": {},
+  "depuis": null,
+  "grade": null,
+  "humeur": "Dkdi",
+  "pseudo": "habbo-1c00",
+  "verifie": "2026-11-21T09:52:24+00:00"
+ },
  "26042754": {
   "alertes": {},
   "depuis": null,
@@ -7130,6 +7158,14 @@
   "humeur": "",
   "pseudo": "Girek",
   "verifie": "2026-11-21T09:38:25+00:00"
+ },
+ "6625741": {
+  "alertes": {},
+  "depuis": null,
+  "grade": null,
+  "humeur": "91essonne",
+  "pseudo": "1bo9",
+  "verifie": "2026-11-21T09:52:24+00:00"
  },
  "6650968": {
   "alertes": {},
