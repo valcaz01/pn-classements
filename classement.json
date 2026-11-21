@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-21T09:56:25+00:00",
+ "updated": "2026-11-21T09:58:25+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 44
+    "value": 45
    },
    {
     "name": "fym",
@@ -20,16 +20,16 @@
     "value": 23
    },
    {
+    "name": ".Libellule",
+    "value": 21
+   },
+   {
     "name": "halos34",
     "value": 21
    },
    {
     "name": "Shizuku",
     "value": 21
-   },
-   {
-    "name": ".Libellule",
-    "value": 20
    },
    {
     "name": "Proxymore",
@@ -199,7 +199,7 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 44
+    "value": 45
    },
    {
     "name": "fym",
@@ -214,16 +214,16 @@
     "value": 23
    },
    {
+    "name": ".Libellule",
+    "value": 21
+   },
+   {
     "name": "halos34",
     "value": 21
    },
    {
     "name": "Shizuku",
     "value": 21
-   },
-   {
-    "name": ".Libellule",
-    "value": 20
    },
    {
     "name": "Proxymore",
@@ -395,7 +395,7 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 1195
+    "value": 1196
    },
    {
     "name": "habbo-160-3",
@@ -451,7 +451,7 @@
    },
    {
     "name": "Proxymore",
-    "value": 267
+    "value": 269
    },
    {
     "name": "halos34",
@@ -467,7 +467,7 @@
    },
    {
     "name": "dadou07",
-    "value": 199
+    "value": 201
    },
    {
     "name": "Monsieur-RF",
@@ -597,7 +597,7 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 1195
+    "value": 1196
    },
    {
     "name": "habbo-160-3",
@@ -653,7 +653,7 @@
    },
    {
     "name": "Proxymore",
-    "value": 267
+    "value": 269
    },
    {
     "name": "halos34",
@@ -669,7 +669,7 @@
    },
    {
     "name": "dadou07",
-    "value": 199
+    "value": 201
    },
    {
     "name": "Monsieur-RF",
