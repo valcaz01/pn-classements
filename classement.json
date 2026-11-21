@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T17:16:26+00:00",
+ "updated": "2026-11-21T17:18:26+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -8,16 +8,16 @@
     "value": 47
    },
    {
+    "name": ".:Krustiz:.",
+    "value": 29
+   },
+   {
     "name": "fym",
     "value": 29
    },
    {
     "name": "Icarem",
     "value": 29
-   },
-   {
-    "name": ".:Krustiz:.",
-    "value": 28
    },
    {
     "name": ".Libellule",
@@ -210,16 +210,16 @@
     "value": 47
    },
    {
+    "name": ".:Krustiz:.",
+    "value": 29
+   },
+   {
     "name": "fym",
     "value": 29
    },
    {
     "name": "Icarem",
     "value": 29
-   },
-   {
-    "name": ".:Krustiz:.",
-    "value": 28
    },
    {
     "name": ".Libellule",
@@ -423,7 +423,7 @@
    },
    {
     "name": "marinadrk",
-    "value": 660
+    "value": 662
    },
    {
     "name": "Pantheon_",
@@ -439,7 +439,7 @@
    },
    {
     "name": "Astreu",
-    "value": 382
+    "value": 384
    },
    {
     "name": "Lovepanda",
@@ -499,15 +499,15 @@
    },
    {
     "name": "andrew16a",
-    "value": 177
+    "value": 179
    },
    {
     "name": "flo578",
-    "value": 170
+    "value": 171
    },
    {
     "name": "Mi,hermano",
-    "value": 140
+    "value": 141
    },
    {
     "name": "sami75.19",
@@ -625,7 +625,7 @@
    },
    {
     "name": "marinadrk",
-    "value": 660
+    "value": 662
    },
    {
     "name": "Pantheon_",
@@ -641,7 +641,7 @@
    },
    {
     "name": "Astreu",
-    "value": 382
+    "value": 384
    },
    {
     "name": "Lovepanda",
@@ -701,15 +701,15 @@
    },
    {
     "name": "andrew16a",
-    "value": 177
+    "value": 179
    },
    {
     "name": "flo578",
-    "value": 170
+    "value": 171
    },
    {
     "name": "Mi,hermano",
-    "value": 140
+    "value": 141
    },
    {
     "name": "sami75.19",
