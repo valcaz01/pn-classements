@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T18:20:27+00:00",
+ "updated": "2026-11-21T18:22:27+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -8,16 +8,16 @@
     "value": 47
    },
    {
+    "name": "fym",
+    "value": 31
+   },
+   {
     "name": ".:Krustiz:.",
     "value": 30
    },
    {
     "name": "Icarem",
     "value": 30
-   },
-   {
-    "name": "fym",
-    "value": 29
    },
    {
     "name": ".Libellule",
@@ -210,16 +210,16 @@
     "value": 47
    },
    {
+    "name": "fym",
+    "value": 31
+   },
+   {
     "name": ".:Krustiz:.",
     "value": 30
    },
    {
     "name": "Icarem",
     "value": 30
-   },
-   {
-    "name": "fym",
-    "value": 29
    },
    {
     "name": ".Libellule",
@@ -427,7 +427,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 646
+    "value": 648
    },
    {
     "name": "Shizuku",
@@ -483,11 +483,11 @@
    },
    {
     "name": "andrew16a",
-    "value": 236
+    "value": 238
    },
    {
     "name": ".Libellule",
-    "value": 227
+    "value": 229
    },
    {
     "name": "-Tsukiri-",
@@ -531,7 +531,7 @@
    },
    {
     "name": ".Dylan.",
-    "value": 53
+    "value": 54
    },
    {
     "name": "Mr.Dino",
@@ -629,7 +629,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 646
+    "value": 648
    },
    {
     "name": "Shizuku",
@@ -685,11 +685,11 @@
    },
    {
     "name": "andrew16a",
-    "value": 236
+    "value": 238
    },
    {
     "name": ".Libellule",
-    "value": 227
+    "value": 229
    },
    {
     "name": "-Tsukiri-",
@@ -733,7 +733,7 @@
    },
    {
     "name": ".Dylan.",
-    "value": 53
+    "value": 54
    },
    {
     "name": "Mr.Dino",
