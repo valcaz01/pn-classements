@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T22:52:28+00:00",
+ "updated": "2026-11-21T22:54:29+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -415,7 +415,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 1133
+    "value": 1135
    },
    {
     "name": "fym",
@@ -423,7 +423,7 @@
    },
    {
     "name": "marinadrk",
-    "value": 732
+    "value": 734
    },
    {
     "name": "Pantheon_",
@@ -447,7 +447,7 @@
    },
    {
     "name": "habbo22t",
-    "value": 401
+    "value": 403
    },
    {
     "name": "Lewddon",
@@ -483,7 +483,7 @@
    },
    {
     "name": "halos34",
-    "value": 256
+    "value": 258
    },
    {
     "name": "flo578",
@@ -511,7 +511,7 @@
    },
    {
     "name": "irysse",
-    "value": 150
+    "value": 152
    },
    {
     "name": "sami75.19",
@@ -522,16 +522,16 @@
     "value": 93
    },
    {
+    "name": "Padre",
+    "value": 81
+   },
+   {
     "name": ".:Krustiz:.",
     "value": 80
    },
    {
     "name": "_.Flora._",
     "value": 80
-   },
-   {
-    "name": "Padre",
-    "value": 79
    },
    {
     "name": ".Dylan.",
@@ -547,7 +547,7 @@
    },
    {
     "name": "sheila3738",
-    "value": 50
+    "value": 52
    },
    {
     "name": "BOuclette.13",
@@ -617,7 +617,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 1133
+    "value": 1135
    },
    {
     "name": "fym",
@@ -625,7 +625,7 @@
    },
    {
     "name": "marinadrk",
-    "value": 732
+    "value": 734
    },
    {
     "name": "Pantheon_",
@@ -649,7 +649,7 @@
    },
    {
     "name": "habbo22t",
-    "value": 401
+    "value": 403
    },
    {
     "name": "Lewddon",
@@ -685,7 +685,7 @@
    },
    {
     "name": "halos34",
-    "value": 256
+    "value": 258
    },
    {
     "name": "flo578",
@@ -713,7 +713,7 @@
    },
    {
     "name": "irysse",
-    "value": 150
+    "value": 152
    },
    {
     "name": "sami75.19",
@@ -724,16 +724,16 @@
     "value": 93
    },
    {
+    "name": "Padre",
+    "value": 81
+   },
+   {
     "name": ".:Krustiz:.",
     "value": 80
    },
    {
     "name": "_.Flora._",
     "value": 80
-   },
-   {
-    "name": "Padre",
-    "value": 79
    },
    {
     "name": ".Dylan.",
@@ -749,7 +749,7 @@
    },
    {
     "name": "sheila3738",
-    "value": 50
+    "value": 52
    },
    {
     "name": "BOuclette.13",
