@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-21T09:10:25+00:00",
+ "updated": "2026-11-21T09:12:24+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 43
+    "value": 44
    },
    {
     "name": "fym",
@@ -52,11 +52,11 @@
     "value": 16
    },
    {
-    "name": "Lovepanda",
-    "value": 14
+    "name": "Non-Non",
+    "value": 15
    },
    {
-    "name": "Non-Non",
+    "name": "Lovepanda",
     "value": 14
    },
    {
@@ -148,6 +148,10 @@
     "value": 2
    },
    {
+    "name": "_.Flora._",
+    "value": 2
+   },
+   {
     "name": "BakeryJuice",
     "value": 2
    },
@@ -169,10 +173,6 @@
    },
    {
     "name": ".::Law::.",
-    "value": 1
-   },
-   {
-    "name": "_.Flora._",
     "value": 1
    },
    {
@@ -199,7 +199,7 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 43
+    "value": 44
    },
    {
     "name": "fym",
@@ -246,11 +246,11 @@
     "value": 16
    },
    {
-    "name": "Lovepanda",
-    "value": 14
+    "name": "Non-Non",
+    "value": 15
    },
    {
-    "name": "Non-Non",
+    "name": "Lovepanda",
     "value": 14
    },
    {
@@ -342,6 +342,10 @@
     "value": 2
    },
    {
+    "name": "_.Flora._",
+    "value": 2
+   },
+   {
     "name": "BakeryJuice",
     "value": 2
    },
@@ -363,10 +367,6 @@
    },
    {
     "name": ".::Law::.",
-    "value": 1
-   },
-   {
-    "name": "_.Flora._",
     "value": 1
    },
    {
@@ -423,7 +423,7 @@
    },
    {
     "name": "Icarem",
-    "value": 351
+    "value": 352
    },
    {
     "name": "Fleabag",
@@ -439,7 +439,7 @@
    },
    {
     "name": "Non-Non",
-    "value": 297
+    "value": 298
    },
    {
     "name": "charlie-XCX123",
@@ -475,7 +475,7 @@
    },
    {
     "name": "dadou07",
-    "value": 168
+    "value": 170
    },
    {
     "name": "Weavem",
@@ -625,7 +625,7 @@
    },
    {
     "name": "Icarem",
-    "value": 351
+    "value": 352
    },
    {
     "name": "Fleabag",
@@ -641,7 +641,7 @@
    },
    {
     "name": "Non-Non",
-    "value": 297
+    "value": 298
    },
    {
     "name": "charlie-XCX123",
@@ -677,7 +677,7 @@
    },
    {
     "name": "dadou07",
-    "value": 168
+    "value": 170
    },
    {
     "name": "Weavem",
