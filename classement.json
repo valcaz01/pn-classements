@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-21T06:24:25+00:00",
+ "updated": "2026-11-21T06:26:25+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 41
+    "value": 43
    },
    {
     "name": "fym",
@@ -195,7 +195,7 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 41
+    "value": 43
    },
    {
     "name": "fym",
@@ -391,7 +391,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 1056
+    "value": 1058
    },
    {
     "name": "fym",
@@ -491,7 +491,7 @@
    },
    {
     "name": "irysse",
-    "value": 83
+    "value": 85
    },
    {
     "name": ".:Krustiz:.",
@@ -562,15 +562,15 @@
     "value": 22
    },
    {
+    "name": "In.esdzz!",
+    "value": 19
+   },
+   {
     "name": "pohabbooq05-1",
     "value": 18
    },
    {
     "name": "AllEyesOnMe57",
-    "value": 17
-   },
-   {
-    "name": "In.esdzz!",
     "value": 17
    },
    {
@@ -593,7 +593,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 1056
+    "value": 1058
    },
    {
     "name": "fym",
@@ -693,7 +693,7 @@
    },
    {
     "name": "irysse",
-    "value": 83
+    "value": 85
    },
    {
     "name": ".:Krustiz:.",
@@ -764,15 +764,15 @@
     "value": 22
    },
    {
+    "name": "In.esdzz!",
+    "value": 19
+   },
+   {
     "name": "pohabbooq05-1",
     "value": 18
    },
    {
     "name": "AllEyesOnMe57",
-    "value": 17
-   },
-   {
-    "name": "In.esdzz!",
     "value": 17
    },
    {
