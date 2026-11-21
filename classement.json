@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T06:22:25+00:00",
+ "updated": "2026-11-21T06:24:25+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -391,7 +391,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 1054
+    "value": 1056
    },
    {
     "name": "fym",
@@ -491,7 +491,7 @@
    },
    {
     "name": "irysse",
-    "value": 81
+    "value": 83
    },
    {
     "name": ".:Krustiz:.",
@@ -570,6 +570,10 @@
     "value": 17
    },
    {
+    "name": "In.esdzz!",
+    "value": 17
+   },
+   {
     "name": "Kaykay3208",
     "value": 17
    },
@@ -580,10 +584,6 @@
    {
     "name": "toussainthanae",
     "value": 17
-   },
-   {
-    "name": "BakeryJuice",
-    "value": 16
    }
   ],
   "week": [
@@ -593,7 +593,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 1054
+    "value": 1056
    },
    {
     "name": "fym",
@@ -693,7 +693,7 @@
    },
    {
     "name": "irysse",
-    "value": 81
+    "value": 83
    },
    {
     "name": ".:Krustiz:.",
@@ -772,6 +772,10 @@
     "value": 17
    },
    {
+    "name": "In.esdzz!",
+    "value": 17
+   },
+   {
     "name": "Kaykay3208",
     "value": 17
    },
@@ -782,10 +786,6 @@
    {
     "name": "toussainthanae",
     "value": 17
-   },
-   {
-    "name": "BakeryJuice",
-    "value": 16
    }
   ]
  }
