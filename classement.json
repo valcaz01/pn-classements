@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T19:54:26+00:00",
+ "updated": "2026-11-21T19:56:26+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -124,16 +124,16 @@
     "value": 4
    },
    {
+    "name": "_.Flora._",
+    "value": 4
+   },
+   {
     "name": "gotica",
     "value": 4
    },
    {
     "name": "Mi,hermano",
     "value": 4
-   },
-   {
-    "name": "_.Flora._",
-    "value": 3
    },
    {
     "name": "alexandre-780",
@@ -326,16 +326,16 @@
     "value": 4
    },
    {
+    "name": "_.Flora._",
+    "value": 4
+   },
+   {
     "name": "gotica",
     "value": 4
    },
    {
     "name": "Mi,hermano",
     "value": 4
-   },
-   {
-    "name": "_.Flora._",
-    "value": 3
    },
    {
     "name": "alexandre-780",
@@ -411,23 +411,23 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 1280
+    "value": 1282
    },
    {
     "name": "habbo-160-3",
-    "value": 1120
+    "value": 1122
    },
    {
     "name": "fym",
     "value": 1009
    },
    {
-    "name": "Pantheon_",
-    "value": 689
+    "name": "marinadrk",
+    "value": 690
    },
    {
-    "name": "marinadrk",
-    "value": 688
+    "name": "Pantheon_",
+    "value": 689
    },
    {
     "name": "Shizuku",
@@ -435,11 +435,11 @@
    },
    {
     "name": "Icarem",
-    "value": 510
+    "value": 511
    },
    {
     "name": "Astreu",
-    "value": 462
+    "value": 464
    },
    {
     "name": "Lovepanda",
@@ -499,7 +499,7 @@
    },
    {
     "name": "Mi,hermano",
-    "value": 206
+    "value": 208
    },
    {
     "name": "Monsieur-RF",
@@ -511,7 +511,7 @@
    },
    {
     "name": "irysse",
-    "value": 125
+    "value": 127
    },
    {
     "name": "sami75.19",
@@ -613,23 +613,23 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 1280
+    "value": 1282
    },
    {
     "name": "habbo-160-3",
-    "value": 1120
+    "value": 1122
    },
    {
     "name": "fym",
     "value": 1009
    },
    {
-    "name": "Pantheon_",
-    "value": 689
+    "name": "marinadrk",
+    "value": 690
    },
    {
-    "name": "marinadrk",
-    "value": 688
+    "name": "Pantheon_",
+    "value": 689
    },
    {
     "name": "Shizuku",
@@ -637,11 +637,11 @@
    },
    {
     "name": "Icarem",
-    "value": 510
+    "value": 511
    },
    {
     "name": "Astreu",
-    "value": 462
+    "value": 464
    },
    {
     "name": "Lovepanda",
@@ -701,7 +701,7 @@
    },
    {
     "name": "Mi,hermano",
-    "value": 206
+    "value": 208
    },
    {
     "name": "Monsieur-RF",
@@ -713,7 +713,7 @@
    },
    {
     "name": "irysse",
-    "value": 125
+    "value": 127
    },
    {
     "name": "sami75.19",
