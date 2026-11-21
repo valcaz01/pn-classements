@@ -6723,11 +6723,11 @@
  },
  "26034562": {
   "alertes": {},
-  "depuis": null,
-  "grade": null,
-  "humeur": "[C.I.A.] Portier",
+  "depuis": "2026-11-20T23:00:00+00:00",
+  "grade": "cadet",
+  "humeur": "[PN] Cadet",
   "pseudo": "Hectorr",
-  "verifie": "2026-11-21T21:06:28+00:00"
+  "verifie": "2026-11-21T21:44:27+00:00"
  },
  "26034583": {
   "alertes": {},
