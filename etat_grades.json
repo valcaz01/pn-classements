@@ -1237,7 +1237,7 @@
   "grade": "cadet",
   "humeur": "[PN] Cadet",
   "pseudo": "Babbo0",
-  "verifie": "2026-11-21T19:58:25+00:00"
+  "verifie": "2026-11-21T22:58:28+00:00"
  },
  "22761827": {
   "alertes": {},
@@ -5251,9 +5251,9 @@
   "alertes": {},
   "depuis": null,
   "grade": null,
-  "humeur": "[C.I.A.] Agent [Bob]",
+  "humeur": "[PN] Recrue",
   "pseudo": "Fays.4",
-  "verifie": "2026-11-21T19:58:25+00:00"
+  "verifie": "2026-11-21T22:58:28+00:00"
  },
  "25937900": {
   "alertes": {},
@@ -7804,6 +7804,14 @@
   "humeur": "",
   "pseudo": "Yousk",
   "verifie": "2026-11-21T22:06:26+00:00"
+ },
+ "26042896": {
+  "alertes": {},
+  "depuis": null,
+  "grade": null,
+  "humeur": "",
+  "pseudo": "BnBoy",
+  "verifie": "2026-11-21T22:58:28+00:00"
  },
  "2709157": {
   "alertes": {},
