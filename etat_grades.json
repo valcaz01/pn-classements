@@ -13,7 +13,7 @@
   "grade": null,
   "humeur": "Hotel FR -",
   "pseudo": "CHEF",
-  "verifie": "2026-11-21T15:30:27+00:00"
+  "verifie": "2026-11-21T18:32:27+00:00"
  },
  "1022725": {
   "alertes": {},
@@ -173,7 +173,7 @@
   "grade": null,
   "humeur": "danseuse et ambianceuse d'Habbo.",
   "pseudo": ",Mimi",
-  "verifie": "2026-11-21T15:30:27+00:00"
+  "verifie": "2026-11-21T18:32:27+00:00"
  },
  "13019743": {
   "alertes": {},
@@ -229,7 +229,7 @@
   "grade": null,
   "humeur": ".",
   "pseudo": "Mimi-moi",
-  "verifie": "2026-11-21T15:30:27+00:00"
+  "verifie": "2026-11-21T18:32:27+00:00"
  },
  "13669439": {
   "alertes": {},
@@ -277,7 +277,7 @@
   "grade": null,
   "humeur": "..",
   "pseudo": "mlle-mimixd",
-  "verifie": "2026-11-21T15:30:27+00:00"
+  "verifie": "2026-11-21T18:32:27+00:00"
  },
  "14197094": {
   "alertes": {},
@@ -1198,6 +1198,14 @@
   "humeur": "(P) marion narot (1A gryffondor)",
   "pseudo": "MarionGame",
   "verifie": "2026-11-21T15:38:27+00:00"
+ },
+ "22857599": {
+  "alertes": {},
+  "depuis": null,
+  "grade": null,
+  "humeur": "[R.F] Chirurgien",
+  "pseudo": "NhyxD",
+  "verifie": "2026-11-21T18:32:27+00:00"
  },
  "22892360": {
   "alertes": {},
@@ -2413,11 +2421,11 @@
  },
  "24730447": {
   "alertes": {},
-  "depuis": null,
-  "grade": null,
-  "humeur": "[PN] Recrue",
+  "depuis": "2026-11-20T23:00:00+00:00",
+  "grade": "cadet",
+  "humeur": "[PN] Cadette",
   "pseudo": "_.Flora._",
-  "verifie": "2026-11-21T17:34:26+00:00"
+  "verifie": "2026-11-21T18:32:27+00:00"
  },
  "24754351": {
   "alertes": {},
@@ -2817,7 +2825,7 @@
   "grade": null,
   "humeur": "Muerto, pero vivo.",
   "pseudo": "Ultimo",
-  "verifie": "2026-11-21T15:30:27+00:00"
+  "verifie": "2026-11-21T18:32:27+00:00"
  },
  "25146571": {
   "alertes": {},
@@ -2881,7 +2889,7 @@
   "grade": null,
   "humeur": "",
   "pseudo": "Nehyren",
-  "verifie": "2026-11-21T15:30:27+00:00"
+  "verifie": "2026-11-21T18:32:27+00:00"
  },
  "25217288": {
   "alertes": {},
