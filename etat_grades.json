@@ -853,7 +853,7 @@
   "grade": null,
   "humeur": "I Swear To God Im Movin On !",
   "pseudo": "Knuklez",
-  "verifie": "2026-11-21T06:46:25+00:00"
+  "verifie": "2026-11-21T09:46:25+00:00"
  },
  "21234813": {
   "alertes": {},
@@ -4107,11 +4107,21 @@
   "alertes": {
    "cadet": "2026-11-21T00:32:25+00:00"
   },
-  "depuis": "2026-11-18T23:00:00+00:00",
-  "grade": "cadet",
+  "badge": {
+   "cadet": {
+    "habbo": ".Libellule",
+    "habbo_id": "25357971",
+    "le": "2026-11-21T10:46:27+01:00",
+    "par": ".Libellule",
+    "par_id": "676079051773050918",
+    "xp": true
+   }
+  },
+  "depuis": null,
+  "grade": null,
   "humeur": "[PN] Cadet",
   "pseudo": "Proxymore",
-  "verifie": "2026-11-21T09:38:25+00:00"
+  "verifie": "2026-11-21T09:46:25+00:00"
  },
  "25845392": {
   "alertes": {},
