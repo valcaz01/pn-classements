@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T01:30:25+00:00",
+ "updated": "2026-11-21T01:32:26+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -96,6 +96,10 @@
     "value": 5
    },
    {
+    "name": "marinadrk",
+    "value": 5
+   },
+   {
     "name": "Monsieur-RF",
     "value": 5
    },
@@ -105,10 +109,6 @@
    },
    {
     "name": "-Tsukiri-",
-    "value": 4
-   },
-   {
-    "name": "marinadrk",
     "value": 4
    },
    {
@@ -286,6 +286,10 @@
     "value": 5
    },
    {
+    "name": "marinadrk",
+    "value": 5
+   },
+   {
     "name": "Monsieur-RF",
     "value": 5
    },
@@ -295,10 +299,6 @@
    },
    {
     "name": "-Tsukiri-",
-    "value": 4
-   },
-   {
-    "name": "marinadrk",
     "value": 4
    },
    {
@@ -403,11 +403,11 @@
    },
    {
     "name": "marinadrk",
-    "value": 477
+    "value": 478
    },
    {
     "name": "Shizuku",
-    "value": 471
+    "value": 473
    },
    {
     "name": "Lovepanda",
@@ -443,7 +443,7 @@
    },
    {
     "name": "Proxymore",
-    "value": 247
+    "value": 249
    },
    {
     "name": "-Tsukiri-",
@@ -605,11 +605,11 @@
    },
    {
     "name": "marinadrk",
-    "value": 477
+    "value": 478
    },
    {
     "name": "Shizuku",
-    "value": 471
+    "value": 473
    },
    {
     "name": "Lovepanda",
@@ -645,7 +645,7 @@
    },
    {
     "name": "Proxymore",
-    "value": 247
+    "value": 249
    },
    {
     "name": "-Tsukiri-",
