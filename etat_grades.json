@@ -861,7 +861,7 @@
   "grade": null,
   "humeur": "I Swear To God Im Movin On !",
   "pseudo": "Knuklez",
-  "verifie": "2026-11-21T09:46:25+00:00"
+  "verifie": "2026-11-21T12:46:26+00:00"
  },
  "21234813": {
   "alertes": {},
@@ -4161,11 +4161,11 @@
     "xp": true
    }
   },
-  "depuis": null,
-  "grade": null,
-  "humeur": "[PN] Cadet",
+  "depuis": "2026-11-21T12:46:26+00:00",
+  "grade": "pa",
+  "humeur": "[PN] Policier-adjoint",
   "pseudo": "Proxymore",
-  "verifie": "2026-11-21T09:46:25+00:00"
+  "verifie": "2026-11-21T12:46:26+00:00"
  },
  "25845392": {
   "alertes": {},
