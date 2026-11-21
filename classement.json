@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T08:18:25+00:00",
+ "updated": "2026-11-21T08:20:25+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -387,7 +387,7 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 1134
+    "value": 1135
    },
    {
     "name": "habbo-160-3",
@@ -522,11 +522,11 @@
     "value": 49
    },
    {
-    "name": "guest77145",
-    "value": 45
+    "name": "Postillon",
+    "value": 47
    },
    {
-    "name": "Postillon",
+    "name": "guest77145",
     "value": 45
    },
    {
@@ -589,7 +589,7 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 1134
+    "value": 1135
    },
    {
     "name": "habbo-160-3",
@@ -724,11 +724,11 @@
     "value": 49
    },
    {
-    "name": "guest77145",
-    "value": 45
+    "name": "Postillon",
+    "value": 47
    },
    {
-    "name": "Postillon",
+    "name": "guest77145",
     "value": 45
    },
    {
