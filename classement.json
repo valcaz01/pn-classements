@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T00:12:26+00:00",
+ "updated": "2026-11-21T00:14:25+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -407,7 +407,7 @@
    },
    {
     "name": "Shizuku",
-    "value": 440
+    "value": 442
    },
    {
     "name": "Lovepanda",
@@ -451,7 +451,7 @@
    },
    {
     "name": "Proxymore",
-    "value": 186
+    "value": 188
    },
    {
     "name": ".Libellule",
@@ -583,7 +583,7 @@
    },
    {
     "name": "bhabbod49-3",
-    "value": 12
+    "value": 14
    }
   ],
   "week": [
@@ -609,7 +609,7 @@
    },
    {
     "name": "Shizuku",
-    "value": 440
+    "value": 442
    },
    {
     "name": "Lovepanda",
@@ -653,7 +653,7 @@
    },
    {
     "name": "Proxymore",
-    "value": 186
+    "value": 188
    },
    {
     "name": ".Libellule",
@@ -785,7 +785,7 @@
    },
    {
     "name": "bhabbod49-3",
-    "value": 12
+    "value": 14
    }
   ]
  }
