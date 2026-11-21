@@ -4315,6 +4315,16 @@
   "alertes": {
    "cadet": "2026-11-20T23:00:25+00:00"
   },
+  "badge": {
+   "cadet": {
+    "habbo": ".Libellule",
+    "habbo_id": "25357971",
+    "le": "2026-11-21T11:16:45+01:00",
+    "par": ".Libellule",
+    "par_id": "676079051773050918",
+    "xp": true
+   }
+  },
   "depuis": null,
   "grade": null,
   "humeur": "[PN] Cadet",
