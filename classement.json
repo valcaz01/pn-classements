@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T00:14:25+00:00",
+ "updated": "2026-11-21T00:16:25+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -407,7 +407,7 @@
    },
    {
     "name": "Shizuku",
-    "value": 442
+    "value": 443
    },
    {
     "name": "Lovepanda",
@@ -451,7 +451,7 @@
    },
    {
     "name": "Proxymore",
-    "value": 188
+    "value": 190
    },
    {
     "name": ".Libellule",
@@ -578,12 +578,12 @@
     "value": 16
    },
    {
-    "name": "Imondi",
+    "name": "bhabbod49-3",
     "value": 16
    },
    {
-    "name": "bhabbod49-3",
-    "value": 14
+    "name": "Imondi",
+    "value": 16
    }
   ],
   "week": [
@@ -609,7 +609,7 @@
    },
    {
     "name": "Shizuku",
-    "value": 442
+    "value": 443
    },
    {
     "name": "Lovepanda",
@@ -653,7 +653,7 @@
    },
    {
     "name": "Proxymore",
-    "value": 188
+    "value": 190
    },
    {
     "name": ".Libellule",
@@ -780,12 +780,12 @@
     "value": 16
    },
    {
-    "name": "Imondi",
+    "name": "bhabbod49-3",
     "value": 16
    },
    {
-    "name": "bhabbod49-3",
-    "value": 14
+    "name": "Imondi",
+    "value": 16
    }
   ]
  }
