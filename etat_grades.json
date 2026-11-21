@@ -2769,7 +2769,7 @@
   "grade": null,
   "humeur": "Dans le noir en mode ghost reccon",
   "pseudo": "Tabakow",
-  "verifie": "2026-11-21T08:46:25+00:00"
+  "verifie": "2026-11-21T11:46:26+00:00"
  },
  "25201874": {
   "alertes": {},
@@ -4990,6 +4990,14 @@
   "humeur": "",
   "pseudo": "rom156",
   "verifie": "2026-11-21T09:06:24+00:00"
+ },
+ "25960596": {
+  "alertes": {},
+  "depuis": null,
+  "grade": null,
+  "humeur": "",
+  "pseudo": "guest-016379",
+  "verifie": "2026-11-21T11:46:26+00:00"
  },
  "25961129": {
   "alertes": {},
