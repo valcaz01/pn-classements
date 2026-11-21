@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T15:32:28+00:00",
+ "updated": "2026-11-21T15:34:28+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -192,6 +192,10 @@
     "value": 1
    },
    {
+    "name": "Padre",
+    "value": 1
+   },
+   {
     "name": "toussainthanae",
     "value": 1
    }
@@ -386,6 +390,10 @@
     "value": 1
    },
    {
+    "name": "Padre",
+    "value": 1
+   },
+   {
     "name": "toussainthanae",
     "value": 1
    }
@@ -407,7 +415,7 @@
    },
    {
     "name": "marinadrk",
-    "value": 638
+    "value": 640
    },
    {
     "name": "Pantheon_",
@@ -427,7 +435,7 @@
    },
    {
     "name": "habbo22t",
-    "value": 351
+    "value": 353
    },
    {
     "name": "Fleabag",
@@ -435,7 +443,7 @@
    },
    {
     "name": "Astreu",
-    "value": 324
+    "value": 326
    },
    {
     "name": "Non-Non",
@@ -491,7 +499,7 @@
    },
    {
     "name": "Mi,hermano",
-    "value": 131
+    "value": 132
    },
    {
     "name": "sami75.19",
@@ -609,7 +617,7 @@
    },
    {
     "name": "marinadrk",
-    "value": 638
+    "value": 640
    },
    {
     "name": "Pantheon_",
@@ -629,7 +637,7 @@
    },
    {
     "name": "habbo22t",
-    "value": 351
+    "value": 353
    },
    {
     "name": "Fleabag",
@@ -637,7 +645,7 @@
    },
    {
     "name": "Astreu",
-    "value": 324
+    "value": 326
    },
    {
     "name": "Non-Non",
@@ -693,7 +701,7 @@
    },
    {
     "name": "Mi,hermano",
-    "value": 131
+    "value": 132
    },
    {
     "name": "sami75.19",
