@@ -2901,11 +2901,11 @@
  },
  "25092845": {
   "alertes": {},
-  "depuis": null,
-  "grade": null,
-  "humeur": "[C.I.A.] Recrue",
+  "depuis": "2026-11-20T23:00:00+00:00",
+  "grade": "cadet",
+  "humeur": "[PN] Cadette",
   "pseudo": "sheila3738",
-  "verifie": "2026-11-21T21:16:27+00:00"
+  "verifie": "2026-11-21T22:04:27+00:00"
  },
  "25098150": {
   "alertes": {},
@@ -3994,6 +3994,14 @@
   "humeur": "",
   "pseudo": "-Kingslayer",
   "verifie": "2026-11-21T21:28:27+00:00"
+ },
+ "25710213": {
+  "alertes": {},
+  "depuis": null,
+  "grade": null,
+  "humeur": "vi",
+  "pseudo": "Nocif",
+  "verifie": "2026-11-21T22:04:27+00:00"
  },
  "25714125": {
   "alertes": {},
