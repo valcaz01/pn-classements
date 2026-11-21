@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T19:46:26+00:00",
+ "updated": "2026-11-21T19:48:26+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -411,11 +411,11 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 1272
+    "value": 1274
    },
    {
     "name": "habbo-160-3",
-    "value": 1113
+    "value": 1114
    },
    {
     "name": "fym",
@@ -427,7 +427,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 682
+    "value": 684
    },
    {
     "name": "Shizuku",
@@ -439,7 +439,7 @@
    },
    {
     "name": "Astreu",
-    "value": 454
+    "value": 456
    },
    {
     "name": "Lovepanda",
@@ -459,7 +459,7 @@
    },
    {
     "name": "charlie-XCX123",
-    "value": 293
+    "value": 295
    },
    {
     "name": "Lewddon",
@@ -503,7 +503,7 @@
    },
    {
     "name": "Mi,hermano",
-    "value": 200
+    "value": 202
    },
    {
     "name": "Weavem",
@@ -515,7 +515,7 @@
    },
    {
     "name": "irysse",
-    "value": 117
+    "value": 119
    },
    {
     "name": "Postillon",
@@ -534,16 +534,16 @@
     "value": 54
    },
    {
+    "name": "_.Flora._",
+    "value": 52
+   },
+   {
     "name": "Mr.Dino",
     "value": 52
    },
    {
     "name": "Pporappippam",
     "value": 52
-   },
-   {
-    "name": "_.Flora._",
-    "value": 50
    },
    {
     "name": "BOuclette.13",
@@ -613,11 +613,11 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 1272
+    "value": 1274
    },
    {
     "name": "habbo-160-3",
-    "value": 1113
+    "value": 1114
    },
    {
     "name": "fym",
@@ -629,7 +629,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 682
+    "value": 684
    },
    {
     "name": "Shizuku",
@@ -641,7 +641,7 @@
    },
    {
     "name": "Astreu",
-    "value": 454
+    "value": 456
    },
    {
     "name": "Lovepanda",
@@ -661,7 +661,7 @@
    },
    {
     "name": "charlie-XCX123",
-    "value": 293
+    "value": 295
    },
    {
     "name": "Lewddon",
@@ -705,7 +705,7 @@
    },
    {
     "name": "Mi,hermano",
-    "value": 200
+    "value": 202
    },
    {
     "name": "Weavem",
@@ -717,7 +717,7 @@
    },
    {
     "name": "irysse",
-    "value": 117
+    "value": 119
    },
    {
     "name": "Postillon",
@@ -736,16 +736,16 @@
     "value": 54
    },
    {
+    "name": "_.Flora._",
+    "value": 52
+   },
+   {
     "name": "Mr.Dino",
     "value": 52
    },
    {
     "name": "Pporappippam",
     "value": 52
-   },
-   {
-    "name": "_.Flora._",
-    "value": 50
    },
    {
     "name": "BOuclette.13",
