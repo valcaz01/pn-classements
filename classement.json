@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T14:14:27+00:00",
+ "updated": "2026-11-21T14:16:27+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -112,15 +112,15 @@
     "value": 5
    },
    {
+    "name": "Weavem",
+    "value": 5
+   },
+   {
     "name": "-Tsukiri-",
     "value": 4
    },
    {
     "name": "gotica",
-    "value": 4
-   },
-   {
-    "name": "Weavem",
     "value": 4
    },
    {
@@ -306,15 +306,15 @@
     "value": 5
    },
    {
+    "name": "Weavem",
+    "value": 5
+   },
+   {
     "name": "-Tsukiri-",
     "value": 4
    },
    {
     "name": "gotica",
-    "value": 4
-   },
-   {
-    "name": "Weavem",
     "value": 4
    },
    {
@@ -411,7 +411,7 @@
    },
    {
     "name": "marinadrk",
-    "value": 583
+    "value": 585
    },
    {
     "name": "Shizuku",
@@ -479,7 +479,7 @@
    },
    {
     "name": "Weavem",
-    "value": 148
+    "value": 149
    },
    {
     "name": "andrew16a",
@@ -613,7 +613,7 @@
    },
    {
     "name": "marinadrk",
-    "value": 583
+    "value": 585
    },
    {
     "name": "Shizuku",
@@ -681,7 +681,7 @@
    },
    {
     "name": "Weavem",
-    "value": 148
+    "value": 149
    },
    {
     "name": "andrew16a",
