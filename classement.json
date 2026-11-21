@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T00:16:25+00:00",
+ "updated": "2026-11-21T00:18:26+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -28,11 +28,11 @@
     "value": 19
    },
    {
-    "name": ".Libellule",
-    "value": 18
+    "name": "Shizuku",
+    "value": 19
    },
    {
-    "name": "Shizuku",
+    "name": ".Libellule",
     "value": 18
    },
    {
@@ -218,11 +218,11 @@
     "value": 19
    },
    {
-    "name": ".Libellule",
-    "value": 18
+    "name": "Shizuku",
+    "value": 19
    },
    {
-    "name": "Shizuku",
+    "name": ".Libellule",
     "value": 18
    },
    {
@@ -407,7 +407,7 @@
    },
    {
     "name": "Shizuku",
-    "value": 443
+    "value": 444
    },
    {
     "name": "Lovepanda",
@@ -451,7 +451,7 @@
    },
    {
     "name": "Proxymore",
-    "value": 190
+    "value": 189
    },
    {
     "name": ".Libellule",
@@ -491,7 +491,7 @@
    },
    {
     "name": "irysse",
-    "value": 80
+    "value": 81
    },
    {
     "name": ".:Krustiz:.",
@@ -609,7 +609,7 @@
    },
    {
     "name": "Shizuku",
-    "value": 443
+    "value": 444
    },
    {
     "name": "Lovepanda",
@@ -653,7 +653,7 @@
    },
    {
     "name": "Proxymore",
-    "value": 190
+    "value": 189
    },
    {
     "name": ".Libellule",
@@ -693,7 +693,7 @@
    },
    {
     "name": "irysse",
-    "value": 80
+    "value": 81
    },
    {
     "name": ".:Krustiz:.",
