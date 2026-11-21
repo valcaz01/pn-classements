@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T20:02:26+00:00",
+ "updated": "2026-11-21T20:04:27+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -411,11 +411,11 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 1288
+    "value": 1290
    },
    {
     "name": "habbo-160-3",
-    "value": 1127
+    "value": 1128
    },
    {
     "name": "fym",
@@ -427,19 +427,19 @@
    },
    {
     "name": "Pantheon_",
-    "value": 694
+    "value": 696
    },
    {
     "name": "Shizuku",
-    "value": 588
+    "value": 589
    },
    {
     "name": "Icarem",
-    "value": 517
+    "value": 518
    },
    {
     "name": "Astreu",
-    "value": 470
+    "value": 472
    },
    {
     "name": "Lovepanda",
@@ -495,7 +495,7 @@
    },
    {
     "name": "Mi,hermano",
-    "value": 214
+    "value": 213
    },
    {
     "name": "-Tsukiri-",
@@ -526,12 +526,12 @@
     "value": 80
    },
    {
-    "name": "Padre",
+    "name": "_.Flora._",
     "value": 64
    },
    {
-    "name": "_.Flora._",
-    "value": 62
+    "name": "Padre",
+    "value": 64
    },
    {
     "name": ".Dylan.",
@@ -613,11 +613,11 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 1288
+    "value": 1290
    },
    {
     "name": "habbo-160-3",
-    "value": 1127
+    "value": 1128
    },
    {
     "name": "fym",
@@ -629,19 +629,19 @@
    },
    {
     "name": "Pantheon_",
-    "value": 694
+    "value": 696
    },
    {
     "name": "Shizuku",
-    "value": 588
+    "value": 589
    },
    {
     "name": "Icarem",
-    "value": 517
+    "value": 518
    },
    {
     "name": "Astreu",
-    "value": 470
+    "value": 472
    },
    {
     "name": "Lovepanda",
@@ -697,7 +697,7 @@
    },
    {
     "name": "Mi,hermano",
-    "value": 214
+    "value": 213
    },
    {
     "name": "-Tsukiri-",
@@ -728,12 +728,12 @@
     "value": 80
    },
    {
-    "name": "Padre",
+    "name": "_.Flora._",
     "value": 64
    },
    {
-    "name": "_.Flora._",
-    "value": 62
+    "name": "Padre",
+    "value": 64
    },
    {
     "name": ".Dylan.",
