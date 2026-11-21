@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T08:00:25+00:00",
+ "updated": "2026-11-21T08:02:25+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -92,6 +92,10 @@
     "value": 6
    },
    {
+    "name": "Postillon",
+    "value": 6
+   },
+   {
     "name": "Lewddon",
     "value": 5
    },
@@ -105,10 +109,6 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 5
-   },
-   {
-    "name": "Postillon",
     "value": 5
    },
    {
@@ -282,6 +282,10 @@
     "value": 6
    },
    {
+    "name": "Postillon",
+    "value": 6
+   },
+   {
     "name": "Lewddon",
     "value": 5
    },
@@ -295,10 +299,6 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 5
-   },
-   {
-    "name": "Postillon",
     "value": 5
    },
    {
@@ -387,7 +387,7 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 1116
+    "value": 1118
    },
    {
     "name": "habbo-160-3",
@@ -423,7 +423,7 @@
    },
    {
     "name": "Icarem",
-    "value": 317
+    "value": 319
    },
    {
     "name": "Astreu",
@@ -450,11 +450,11 @@
     "value": 252
    },
    {
-    "name": "-Tsukiri-",
-    "value": 212
+    "name": "gotica",
+    "value": 214
    },
    {
-    "name": "gotica",
+    "name": "-Tsukiri-",
     "value": 212
    },
    {
@@ -539,7 +539,7 @@
    },
    {
     "name": "Postillon",
-    "value": 32
+    "value": 33
    },
    {
     "name": "ladypink.",
@@ -589,7 +589,7 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 1116
+    "value": 1118
    },
    {
     "name": "habbo-160-3",
@@ -625,7 +625,7 @@
    },
    {
     "name": "Icarem",
-    "value": 317
+    "value": 319
    },
    {
     "name": "Astreu",
@@ -652,11 +652,11 @@
     "value": 252
    },
    {
-    "name": "-Tsukiri-",
-    "value": 212
+    "name": "gotica",
+    "value": 214
    },
    {
-    "name": "gotica",
+    "name": "-Tsukiri-",
     "value": 212
    },
    {
@@ -741,7 +741,7 @@
    },
    {
     "name": "Postillon",
-    "value": 32
+    "value": 33
    },
    {
     "name": "ladypink.",
