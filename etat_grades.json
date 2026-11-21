@@ -1233,8 +1233,8 @@
  },
  "23158350": {
   "alertes": {},
-  "depuis": null,
-  "grade": null,
+  "depuis": "2026-11-20T23:00:00+00:00",
+  "grade": "cadet",
   "humeur": "[PN] Cadet",
   "pseudo": ".::Law::.",
   "verifie": "2026-11-21T14:20:27+00:00"
@@ -1545,11 +1545,11 @@
  },
  "23958336": {
   "alertes": {},
-  "depuis": null,
-  "grade": null,
-  "humeur": "[PN] Recrue",
+  "depuis": "2026-11-20T23:00:00+00:00",
+  "grade": "cadet",
+  "humeur": "[PN] Cadet",
   "pseudo": "Mi,hermano",
-  "verifie": "2026-11-21T16:42:27+00:00"
+  "verifie": "2026-11-21T17:16:26+00:00"
  },
  "23966068": {
   "alertes": {},
@@ -1666,6 +1666,14 @@
   "humeur": "#213",
   "pseudo": "supermomo33150",
   "verifie": "2026-11-21T15:48:27+00:00"
+ },
+ "24073052": {
+  "alertes": {},
+  "depuis": null,
+  "grade": null,
+  "humeur": "",
+  "pseudo": "celiae103",
+  "verifie": "2026-11-21T17:16:26+00:00"
  },
  "24074435": {
   "alertes": {},
@@ -1898,6 +1906,14 @@
   "humeur": "belle et rebelle ou moche et remoche",
   "pseudo": "7gouna",
   "verifie": "2026-11-21T15:26:27+00:00"
+ },
+ "24300802": {
+  "alertes": {},
+  "depuis": null,
+  "grade": null,
+  "humeur": "",
+  "pseudo": "Kensel",
+  "verifie": "2026-11-21T17:16:26+00:00"
  },
  "24310671": {
   "alertes": {},
@@ -5377,8 +5393,8 @@
  },
  "25981942": {
   "alertes": {},
-  "depuis": null,
-  "grade": null,
+  "depuis": "2026-11-20T23:00:00+00:00",
+  "grade": "cadet",
   "humeur": "[PN] Cadette",
   "pseudo": "Numa.981",
   "verifie": "2026-11-21T14:24:27+00:00"
