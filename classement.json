@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T07:56:25+00:00",
+ "updated": "2026-11-21T07:58:25+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -387,7 +387,7 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 1112
+    "value": 1114
    },
    {
     "name": "habbo-160-3",
@@ -427,7 +427,7 @@
    },
    {
     "name": "Icarem",
-    "value": 313
+    "value": 315
    },
    {
     "name": "Non-Non",
@@ -455,7 +455,7 @@
    },
    {
     "name": "gotica",
-    "value": 208
+    "value": 210
    },
    {
     "name": ".Libellule",
@@ -589,7 +589,7 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 1112
+    "value": 1114
    },
    {
     "name": "habbo-160-3",
@@ -629,7 +629,7 @@
    },
    {
     "name": "Icarem",
-    "value": 313
+    "value": 315
    },
    {
     "name": "Non-Non",
@@ -657,7 +657,7 @@
    },
    {
     "name": "gotica",
-    "value": 208
+    "value": 210
    },
    {
     "name": ".Libellule",
