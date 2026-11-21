@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T15:18:27+00:00",
+ "updated": "2026-11-21T15:20:27+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -76,15 +76,15 @@
     "value": 10
    },
    {
+    "name": "habbo22t",
+    "value": 10
+   },
+   {
     "name": "andrew16a",
     "value": 9
    },
    {
     "name": "guest77145",
-    "value": 9
-   },
-   {
-    "name": "habbo22t",
     "value": 9
    },
    {
@@ -270,15 +270,15 @@
     "value": 10
    },
    {
+    "name": "habbo22t",
+    "value": 10
+   },
+   {
     "name": "andrew16a",
     "value": 9
    },
    {
     "name": "guest77145",
-    "value": 9
-   },
-   {
-    "name": "habbo22t",
     "value": 9
    },
    {
@@ -407,7 +407,7 @@
    },
    {
     "name": "marinadrk",
-    "value": 624
+    "value": 626
    },
    {
     "name": "Pantheon_",
@@ -427,7 +427,7 @@
    },
    {
     "name": "habbo22t",
-    "value": 339
+    "value": 340
    },
    {
     "name": "Fleabag",
@@ -609,7 +609,7 @@
    },
    {
     "name": "marinadrk",
-    "value": 624
+    "value": 626
    },
    {
     "name": "Pantheon_",
@@ -629,7 +629,7 @@
    },
    {
     "name": "habbo22t",
-    "value": 339
+    "value": 340
    },
    {
     "name": "Fleabag",

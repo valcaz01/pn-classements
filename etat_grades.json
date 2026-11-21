@@ -3521,7 +3521,7 @@
   "grade": null,
   "humeur": "",
   "pseudo": "skskkssisksjjs",
-  "verifie": "2026-11-21T12:20:27+00:00"
+  "verifie": "2026-11-21T15:20:27+00:00"
  },
  "25652681": {
   "alertes": {},
@@ -5626,6 +5626,14 @@
   "humeur": "[R.F] Aspirateur de bulles et aideur",
   "pseudo": "RF-Bulles-CM",
   "verifie": "2026-11-21T12:40:26+00:00"
+ },
+ "26002159": {
+  "alertes": {},
+  "depuis": null,
+  "grade": null,
+  "humeur": "[R.F] Aspirateur de bulles et aideur",
+  "pseudo": "RF-Bulles-GN",
+  "verifie": "2026-11-21T15:20:27+00:00"
  },
  "26002160": {
   "alertes": {},
