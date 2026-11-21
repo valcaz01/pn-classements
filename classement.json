@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T10:08:24+00:00",
+ "updated": "2026-11-21T10:10:25+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -407,7 +407,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 559
+    "value": 561
    },
    {
     "name": "Shizuku",
@@ -462,16 +462,16 @@
     "value": 250
    },
    {
+    "name": "dadou07",
+    "value": 213
+   },
+   {
     "name": "-Tsukiri-",
     "value": 212
    },
    {
-    "name": "dadou07",
-    "value": 211
-   },
-   {
     "name": ".Libellule",
-    "value": 181
+    "value": 183
    },
    {
     "name": "Monsieur-RF",
@@ -609,7 +609,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 559
+    "value": 561
    },
    {
     "name": "Shizuku",
@@ -664,16 +664,16 @@
     "value": 250
    },
    {
+    "name": "dadou07",
+    "value": 213
+   },
+   {
     "name": "-Tsukiri-",
     "value": 212
    },
    {
-    "name": "dadou07",
-    "value": 211
-   },
-   {
     "name": ".Libellule",
-    "value": 181
+    "value": 183
    },
    {
     "name": "Monsieur-RF",
