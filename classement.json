@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T22:42:28+00:00",
+ "updated": "2026-11-21T22:44:28+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -64,6 +64,10 @@
     "value": 16
    },
    {
+    "name": "habbo-160-3",
+    "value": 14
+   },
+   {
     "name": "Pantheon_",
     "value": 14
    },
@@ -74,10 +78,6 @@
    {
     "name": "andrew16a",
     "value": 13
-   },
-   {
-    "name": "habbo-160-3",
-    "value": 12
    },
    {
     "name": "habbo22t",
@@ -266,6 +266,10 @@
     "value": 16
    },
    {
+    "name": "habbo-160-3",
+    "value": 14
+   },
+   {
     "name": "Pantheon_",
     "value": 14
    },
@@ -276,10 +280,6 @@
    {
     "name": "andrew16a",
     "value": 13
-   },
-   {
-    "name": "habbo-160-3",
-    "value": 12
    },
    {
     "name": "habbo22t",
@@ -427,7 +427,7 @@
    },
    {
     "name": "marinadrk",
-    "value": 725
+    "value": 724
    },
    {
     "name": "Shizuku",
@@ -447,7 +447,7 @@
    },
    {
     "name": "habbo22t",
-    "value": 391
+    "value": 393
    },
    {
     "name": "Lewddon",
@@ -531,7 +531,7 @@
    },
    {
     "name": "Padre",
-    "value": 70
+    "value": 72
    },
    {
     "name": ".Dylan.",
@@ -558,11 +558,11 @@
     "value": 45
    },
    {
-    "name": "alexandre-780",
-    "value": 41
+    "name": "sheila3738",
+    "value": 42
    },
    {
-    "name": "sheila3738",
+    "name": "alexandre-780",
     "value": 41
    },
    {
@@ -629,7 +629,7 @@
    },
    {
     "name": "marinadrk",
-    "value": 725
+    "value": 724
    },
    {
     "name": "Shizuku",
@@ -649,7 +649,7 @@
    },
    {
     "name": "habbo22t",
-    "value": 391
+    "value": 393
    },
    {
     "name": "Lewddon",
@@ -733,7 +733,7 @@
    },
    {
     "name": "Padre",
-    "value": 70
+    "value": 72
    },
    {
     "name": ".Dylan.",
@@ -760,11 +760,11 @@
     "value": 45
    },
    {
-    "name": "alexandre-780",
-    "value": 41
+    "name": "sheila3738",
+    "value": 42
    },
    {
-    "name": "sheila3738",
+    "name": "alexandre-780",
     "value": 41
    },
    {
