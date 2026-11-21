@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T03:26:26+00:00",
+ "updated": "2026-11-21T03:28:26+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -112,6 +112,10 @@
     "value": 4
    },
    {
+    "name": "gotica",
+    "value": 4
+   },
+   {
     "name": "Postillon",
     "value": 4
    },
@@ -125,10 +129,6 @@
    },
    {
     "name": "Fleabag",
-    "value": 3
-   },
-   {
-    "name": "gotica",
     "value": 3
    },
    {
@@ -302,6 +302,10 @@
     "value": 4
    },
    {
+    "name": "gotica",
+    "value": 4
+   },
+   {
     "name": "Postillon",
     "value": 4
    },
@@ -315,10 +319,6 @@
    },
    {
     "name": "Fleabag",
-    "value": 3
-   },
-   {
-    "name": "gotica",
     "value": 3
    },
    {
@@ -391,11 +391,11 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 882
+    "value": 884
    },
    {
     "name": "fym",
-    "value": 860
+    "value": 862
    },
    {
     "name": "Shizuku",
@@ -439,7 +439,7 @@
    },
    {
     "name": "Lewddon",
-    "value": 270
+    "value": 272
    },
    {
     "name": "Proxymore",
@@ -593,11 +593,11 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 882
+    "value": 884
    },
    {
     "name": "fym",
-    "value": 860
+    "value": 862
    },
    {
     "name": "Shizuku",
@@ -641,7 +641,7 @@
    },
    {
     "name": "Lewddon",
-    "value": 270
+    "value": 272
    },
    {
     "name": "Proxymore",
