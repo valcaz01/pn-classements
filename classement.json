@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T21:38:27+00:00",
+ "updated": "2026-11-21T21:40:26+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -463,15 +463,15 @@
    },
    {
     "name": "charlie-XCX123",
-    "value": 300
+    "value": 301
+   },
+   {
+    "name": "Mi,hermano",
+    "value": 282
    },
    {
     "name": "dadou07",
     "value": 281
-   },
-   {
-    "name": "Mi,hermano",
-    "value": 280
    },
    {
     "name": "Proxymore",
@@ -665,15 +665,15 @@
    },
    {
     "name": "charlie-XCX123",
-    "value": 300
+    "value": 301
+   },
+   {
+    "name": "Mi,hermano",
+    "value": 282
    },
    {
     "name": "dadou07",
     "value": 281
-   },
-   {
-    "name": "Mi,hermano",
-    "value": 280
    },
    {
     "name": "Proxymore",
