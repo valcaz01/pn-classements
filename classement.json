@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T11:36:29+00:00",
+ "updated": "2026-11-22T11:38:28+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -411,11 +411,11 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 1510
+    "value": 1512
    },
    {
     "name": "habbo-160-3",
-    "value": 1449
+    "value": 1451
    },
    {
     "name": "fym",
@@ -427,7 +427,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 735
+    "value": 737
    },
    {
     "name": "Shizuku",
@@ -435,7 +435,7 @@
    },
    {
     "name": "Icarem",
-    "value": 561
+    "value": 563
    },
    {
     "name": "Astreu",
@@ -490,16 +490,16 @@
     "value": 254
    },
    {
+    "name": ".Libellule",
+    "value": 250
+   },
+   {
     "name": "gotica",
     "value": 250
    },
    {
     "name": "Monsieur-RF",
     "value": 250
-   },
-   {
-    "name": ".Libellule",
-    "value": 248
    },
    {
     "name": "-Tsukiri-",
@@ -567,19 +567,19 @@
    },
    {
     "name": "Imondi",
-    "value": 47
+    "value": 48
    },
    {
     "name": "guest77145",
     "value": 45
    },
    {
-    "name": "alexandre-780",
-    "value": 41
+    "name": "Hectorr",
+    "value": 42
    },
    {
-    "name": "Hectorr",
-    "value": 40
+    "name": "alexandre-780",
+    "value": 41
    },
    {
     "name": "CharlesWish",
@@ -613,11 +613,11 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 1510
+    "value": 1512
    },
    {
     "name": "habbo-160-3",
-    "value": 1449
+    "value": 1451
    },
    {
     "name": "fym",
@@ -629,7 +629,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 735
+    "value": 737
    },
    {
     "name": "Shizuku",
@@ -637,7 +637,7 @@
    },
    {
     "name": "Icarem",
-    "value": 561
+    "value": 563
    },
    {
     "name": "Astreu",
@@ -692,16 +692,16 @@
     "value": 254
    },
    {
+    "name": ".Libellule",
+    "value": 250
+   },
+   {
     "name": "gotica",
     "value": 250
    },
    {
     "name": "Monsieur-RF",
     "value": 250
-   },
-   {
-    "name": ".Libellule",
-    "value": 248
    },
    {
     "name": "-Tsukiri-",
@@ -769,19 +769,19 @@
    },
    {
     "name": "Imondi",
-    "value": 47
+    "value": 48
    },
    {
     "name": "guest77145",
     "value": 45
    },
    {
-    "name": "alexandre-780",
-    "value": 41
+    "name": "Hectorr",
+    "value": 42
    },
    {
-    "name": "Hectorr",
-    "value": 40
+    "name": "alexandre-780",
+    "value": 41
    },
    {
     "name": "CharlesWish",
