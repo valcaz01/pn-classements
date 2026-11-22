@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T21:08:40+00:00",
+ "updated": "2026-11-22T21:10:41+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -56,16 +56,16 @@
     "value": 22
    },
    {
+    "name": "flo578",
+    "value": 20
+   },
+   {
     "name": "Non-Non",
     "value": 20
    },
    {
     "name": "Proxymore",
     "value": 20
-   },
-   {
-    "name": "flo578",
-    "value": 19
    },
    {
     "name": "Pantheon_",
@@ -258,16 +258,16 @@
     "value": 22
    },
    {
+    "name": "flo578",
+    "value": 20
+   },
+   {
     "name": "Non-Non",
     "value": 20
    },
    {
     "name": "Proxymore",
     "value": 20
-   },
-   {
-    "name": "flo578",
-    "value": 19
    },
    {
     "name": "Pantheon_",
@@ -419,7 +419,7 @@
    },
    {
     "name": "fym",
-    "value": 1142
+    "value": 1144
    },
    {
     "name": "marinadrk",
@@ -427,7 +427,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 833
+    "value": 834
    },
    {
     "name": "Icarem",
@@ -515,7 +515,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 193
+    "value": 195
    },
    {
     "name": "Postillon",
@@ -527,7 +527,7 @@
    },
    {
     "name": "Hectorr",
-    "value": 141
+    "value": 143
    },
    {
     "name": "sami75.19",
@@ -539,7 +539,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 103
+    "value": 104
    },
    {
     "name": ".:Krustiz:.",
@@ -574,12 +574,12 @@
     "value": 51
    },
    {
-    "name": "BOuclette.13",
-    "value": 49
+    "name": "BnBoy",
+    "value": 50
    },
    {
-    "name": "BnBoy",
-    "value": 48
+    "name": "BOuclette.13",
+    "value": 49
    },
    {
     "name": "guest77145",
@@ -621,7 +621,7 @@
    },
    {
     "name": "fym",
-    "value": 1142
+    "value": 1144
    },
    {
     "name": "marinadrk",
@@ -629,7 +629,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 833
+    "value": 834
    },
    {
     "name": "Icarem",
@@ -717,7 +717,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 193
+    "value": 195
    },
    {
     "name": "Postillon",
@@ -729,7 +729,7 @@
    },
    {
     "name": "Hectorr",
-    "value": 141
+    "value": 143
    },
    {
     "name": "sami75.19",
@@ -741,7 +741,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 103
+    "value": 104
    },
    {
     "name": ".:Krustiz:.",
@@ -776,12 +776,12 @@
     "value": 51
    },
    {
-    "name": "BOuclette.13",
-    "value": 49
+    "name": "BnBoy",
+    "value": 50
    },
    {
-    "name": "BnBoy",
-    "value": 48
+    "name": "BOuclette.13",
+    "value": 49
    },
    {
     "name": "guest77145",
