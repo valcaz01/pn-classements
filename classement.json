@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T10:38:28+00:00",
+ "updated": "2026-11-22T10:40:28+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -411,11 +411,11 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 1458
+    "value": 1460
    },
    {
     "name": "habbo-160-3",
-    "value": 1393
+    "value": 1395
    },
    {
     "name": "fym",
@@ -498,12 +498,12 @@
     "value": 236
    },
    {
-    "name": "-Tsukiri-",
-    "value": 212
+    "name": "Monsieur-RF",
+    "value": 213
    },
    {
-    "name": "Monsieur-RF",
-    "value": 211
+    "name": "-Tsukiri-",
+    "value": 212
    },
    {
     "name": "Weavem",
@@ -515,7 +515,7 @@
    },
    {
     "name": "Postillon",
-    "value": 143
+    "value": 144
    },
    {
     "name": "sami75.19",
@@ -523,7 +523,7 @@
    },
    {
     "name": "_.Flora._",
-    "value": 115
+    "value": 117
    },
    {
     "name": "Padre",
@@ -571,7 +571,7 @@
    },
    {
     "name": "Fanny-148",
-    "value": 39
+    "value": 41
    },
    {
     "name": "Pierre.Langlet",
@@ -613,11 +613,11 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 1458
+    "value": 1460
    },
    {
     "name": "habbo-160-3",
-    "value": 1393
+    "value": 1395
    },
    {
     "name": "fym",
@@ -700,12 +700,12 @@
     "value": 236
    },
    {
-    "name": "-Tsukiri-",
-    "value": 212
+    "name": "Monsieur-RF",
+    "value": 213
    },
    {
-    "name": "Monsieur-RF",
-    "value": 211
+    "name": "-Tsukiri-",
+    "value": 212
    },
    {
     "name": "Weavem",
@@ -717,7 +717,7 @@
    },
    {
     "name": "Postillon",
-    "value": 143
+    "value": 144
    },
    {
     "name": "sami75.19",
@@ -725,7 +725,7 @@
    },
    {
     "name": "_.Flora._",
-    "value": 115
+    "value": 117
    },
    {
     "name": "Padre",
@@ -773,7 +773,7 @@
    },
    {
     "name": "Fanny-148",
-    "value": 39
+    "value": 41
    },
    {
     "name": "Pierre.Langlet",
