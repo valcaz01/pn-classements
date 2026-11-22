@@ -1,15 +1,15 @@
 {
- "updated": "2026-11-22T10:16:28+00:00",
+ "updated": "2026-11-22T10:18:28+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 50
+    "value": 51
    },
    {
     "name": "Icarem",
-    "value": 35
+    "value": 37
    },
    {
     "name": "fym",
@@ -207,11 +207,11 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 50
+    "value": 51
    },
    {
     "name": "Icarem",
-    "value": 35
+    "value": 37
    },
    {
     "name": "fym",
@@ -415,7 +415,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 1371
+    "value": 1373
    },
    {
     "name": "fym",
@@ -519,7 +519,7 @@
    },
    {
     "name": "Postillon",
-    "value": 124
+    "value": 125
    },
    {
     "name": "_.Flora._",
@@ -599,7 +599,7 @@
    },
    {
     "name": "Fanny-148",
-    "value": 23
+    "value": 25
    },
    {
     "name": "Sciel",
@@ -617,7 +617,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 1371
+    "value": 1373
    },
    {
     "name": "fym",
@@ -721,7 +721,7 @@
    },
    {
     "name": "Postillon",
-    "value": 124
+    "value": 125
    },
    {
     "name": "_.Flora._",
@@ -801,7 +801,7 @@
    },
    {
     "name": "Fanny-148",
-    "value": 23
+    "value": 25
    },
    {
     "name": "Sciel",
