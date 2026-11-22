@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T22:30:41+00:00",
+ "updated": "2026-11-22T22:32:41+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -422,16 +422,16 @@
     "value": 1147
    },
    {
+    "name": "Pantheon_",
+    "value": 912
+   },
+   {
     "name": "marinadrk",
     "value": 910
    },
    {
-    "name": "Pantheon_",
-    "value": 910
-   },
-   {
     "name": "Icarem",
-    "value": 690
+    "value": 692
    },
    {
     "name": "Shizuku",
@@ -523,7 +523,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 174
+    "value": 176
    },
    {
     "name": "irysse",
@@ -547,7 +547,7 @@
    },
    {
     "name": "MagicalArt",
-    "value": 93
+    "value": 95
    },
    {
     "name": "BnBoy",
@@ -624,16 +624,16 @@
     "value": 1147
    },
    {
+    "name": "Pantheon_",
+    "value": 912
+   },
+   {
     "name": "marinadrk",
     "value": 910
    },
    {
-    "name": "Pantheon_",
-    "value": 910
-   },
-   {
     "name": "Icarem",
-    "value": 690
+    "value": 692
    },
    {
     "name": "Shizuku",
@@ -725,7 +725,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 174
+    "value": 176
    },
    {
     "name": "irysse",
@@ -749,7 +749,7 @@
    },
    {
     "name": "MagicalArt",
-    "value": 93
+    "value": 95
    },
    {
     "name": "BnBoy",
