@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-22T10:56:29+00:00",
+ "updated": "2026-11-22T10:58:28+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 53
+    "value": 54
    },
    {
     "name": "Icarem",
@@ -44,12 +44,12 @@
     "value": 21
    },
    {
-    "name": "Proxymore",
+    "name": ".:Krustiz:.",
     "value": 20
    },
    {
-    "name": ".:Krustiz:.",
-    "value": 19
+    "name": "Proxymore",
+    "value": 20
    },
    {
     "name": "habbo-160-3",
@@ -207,7 +207,7 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 53
+    "value": 54
    },
    {
     "name": "Icarem",
@@ -246,12 +246,12 @@
     "value": 21
    },
    {
-    "name": "Proxymore",
+    "name": ".:Krustiz:.",
     "value": 20
    },
    {
-    "name": ".:Krustiz:.",
-    "value": 19
+    "name": "Proxymore",
+    "value": 20
    },
    {
     "name": "habbo-160-3",
@@ -411,11 +411,11 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 1475
+    "value": 1476
    },
    {
     "name": "habbo-160-3",
-    "value": 1411
+    "value": 1413
    },
    {
     "name": "fym",
@@ -499,7 +499,7 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 228
+    "value": 229
    },
    {
     "name": "-Tsukiri-",
@@ -511,7 +511,7 @@
    },
    {
     "name": "Postillon",
-    "value": 160
+    "value": 161
    },
    {
     "name": "irysse",
@@ -613,11 +613,11 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 1475
+    "value": 1476
    },
    {
     "name": "habbo-160-3",
-    "value": 1411
+    "value": 1413
    },
    {
     "name": "fym",
@@ -701,7 +701,7 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 228
+    "value": 229
    },
    {
     "name": "-Tsukiri-",
@@ -713,7 +713,7 @@
    },
    {
     "name": "Postillon",
-    "value": 160
+    "value": 161
    },
    {
     "name": "irysse",
