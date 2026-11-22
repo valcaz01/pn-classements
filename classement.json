@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-22T22:58:41+00:00",
- "week_start": "2026-11-16",
+ "updated": "2026-11-22T23:00:57+00:00",
+ "week_start": "2026-11-23",
  "xp": {
   "total": [
    {
@@ -204,208 +204,7 @@
     "value": 2
    }
   ],
-  "week": [
-   {
-    "name": "BiBiCHarBo",
-    "value": 62
-   },
-   {
-    "name": "Icarem",
-    "value": 45
-   },
-   {
-    "name": "fym",
-    "value": 38
-   },
-   {
-    "name": "pevanq640",
-    "value": 34
-   },
-   {
-    "name": "charlie-XCX123",
-    "value": 33
-   },
-   {
-    "name": ".Libellule",
-    "value": 32
-   },
-   {
-    "name": "Astreu",
-    "value": 30
-   },
-   {
-    "name": "halos34",
-    "value": 29
-   },
-   {
-    "name": "Shizuku",
-    "value": 29
-   },
-   {
-    "name": "habbo-160-3",
-    "value": 23
-   },
-   {
-    "name": "Lovepanda",
-    "value": 23
-   },
-   {
-    "name": ".:Krustiz:.",
-    "value": 22
-   },
-   {
-    "name": "sami75.19",
-    "value": 22
-   },
-   {
-    "name": "flo578",
-    "value": 21
-   },
-   {
-    "name": "Non-Non",
-    "value": 21
-   },
-   {
-    "name": "Proxymore",
-    "value": 20
-   },
-   {
-    "name": "Pantheon_",
-    "value": 18
-   },
-   {
-    "name": "irysse",
-    "value": 16
-   },
-   {
-    "name": "andrew16a",
-    "value": 15
-   },
-   {
-    "name": "habbo22t",
-    "value": 15
-   },
-   {
-    "name": "_.Flora._",
-    "value": 11
-   },
-   {
-    "name": "Monsieur-RF",
-    "value": 10
-   },
-   {
-    "name": "Mr.Dino",
-    "value": 10
-   },
-   {
-    "name": "Postillon",
-    "value": 10
-   },
-   {
-    "name": "guest77145",
-    "value": 9
-   },
-   {
-    "name": "Mi,hermano",
-    "value": 8
-   },
-   {
-    "name": "Weavem",
-    "value": 8
-   },
-   {
-    "name": "gotica",
-    "value": 7
-   },
-   {
-    "name": "marinadrk",
-    "value": 7
-   },
-   {
-    "name": "Piingouin.",
-    "value": 7
-   },
-   {
-    "name": ".Dylan.",
-    "value": 5
-   },
-   {
-    "name": "Lewddon",
-    "value": 5
-   },
-   {
-    "name": "-Tsukiri-",
-    "value": 4
-   },
-   {
-    "name": "dadou07",
-    "value": 4
-   },
-   {
-    "name": "SMPSHomer",
-    "value": 4
-   },
-   {
-    "name": "alexandre-780",
-    "value": 3
-   },
-   {
-    "name": "Fanny-148",
-    "value": 3
-   },
-   {
-    "name": "Fleabag",
-    "value": 3
-   },
-   {
-    "name": "MagicalArt",
-    "value": 3
-   },
-   {
-    "name": "Pierre.Langlet",
-    "value": 3
-   },
-   {
-    "name": "Sciel",
-    "value": 3
-   },
-   {
-    "name": "-Oiseau",
-    "value": 2
-   },
-   {
-    "name": "BakeryJuice",
-    "value": 2
-   },
-   {
-    "name": "guest-3806",
-    "value": 2
-   },
-   {
-    "name": "Hectorr",
-    "value": 2
-   },
-   {
-    "name": "ladypink.",
-    "value": 2
-   },
-   {
-    "name": "LesdixGaga",
-    "value": 2
-   },
-   {
-    "name": "OnlyOneGuest",
-    "value": 2
-   },
-   {
-    "name": "Padre",
-    "value": 2
-   },
-   {
-    "name": "Sheesh.",
-    "value": 2
-   }
-  ]
+  "week": []
  },
  "pr": {
   "total": [
@@ -435,7 +234,7 @@
    },
    {
     "name": "Shizuku",
-    "value": 634
+    "value": 635
    },
    {
     "name": "Astreu",
@@ -511,7 +310,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 224
+    "value": 226
    },
    {
     "name": "-Tsukiri-",
@@ -543,7 +342,7 @@
    },
    {
     "name": "MagicalArt",
-    "value": 120
+    "value": 122
    },
    {
     "name": ".:Krustiz:.",
@@ -612,204 +411,16 @@
   ],
   "week": [
    {
-    "name": "habbo-160-3",
-    "value": 1881
-   },
-   {
-    "name": "BiBiCHarBo",
-    "value": 1601
-   },
-   {
-    "name": "fym",
-    "value": 1147
-   },
-   {
-    "name": "Pantheon_",
-    "value": 934
-   },
-   {
-    "name": "marinadrk",
-    "value": 910
-   },
-   {
-    "name": "Icarem",
-    "value": 692
-   },
-   {
-    "name": "Shizuku",
-    "value": 634
-   },
-   {
-    "name": "Astreu",
-    "value": 625
-   },
-   {
-    "name": "Lovepanda",
-    "value": 557
-   },
-   {
-    "name": "halos34",
-    "value": 483
-   },
-   {
-    "name": "habbo22t",
-    "value": 456
-   },
-   {
-    "name": "charlie-XCX123",
-    "value": 442
-   },
-   {
-    "name": "Mi,hermano",
-    "value": 362
-   },
-   {
-    "name": "dadou07",
-    "value": 359
-   },
-   {
-    "name": "Lewddon",
-    "value": 357
-   },
-   {
-    "name": "Monsieur-RF",
-    "value": 355
-   },
-   {
-    "name": "andrew16a",
-    "value": 352
-   },
-   {
-    "name": ".Libellule",
-    "value": 329
-   },
-   {
-    "name": "flo578",
-    "value": 328
-   },
-   {
-    "name": "Fleabag",
-    "value": 327
-   },
-   {
-    "name": "Non-Non",
-    "value": 319
-   },
-   {
-    "name": "_.Flora._",
-    "value": 301
-   },
-   {
-    "name": "Proxymore",
-    "value": 275
-   },
-   {
-    "name": "gotica",
-    "value": 270
-   },
-   {
-    "name": "Weavem",
-    "value": 233
-   },
-   {
     "name": "-Massimo-",
-    "value": 224
-   },
-   {
-    "name": "-Tsukiri-",
-    "value": 215
-   },
-   {
-    "name": "Mr.Dino",
-    "value": 182
-   },
-   {
-    "name": "Postillon",
-    "value": 179
-   },
-   {
-    "name": "irysse",
-    "value": 173
-   },
-   {
-    "name": "Hectorr",
-    "value": 150
-   },
-   {
-    "name": "sami75.19",
-    "value": 137
-   },
-   {
-    "name": "Padre",
-    "value": 135
+    "value": 2
    },
    {
     "name": "MagicalArt",
-    "value": 120
+    "value": 2
    },
    {
-    "name": ".:Krustiz:.",
-    "value": 100
-   },
-   {
-    "name": "BnBoy",
-    "value": 82
-   },
-   {
-    "name": "Piingouin.",
-    "value": 77
-   },
-   {
-    "name": "sheila3738",
-    "value": 75
-   },
-   {
-    "name": "Imondi",
-    "value": 68
-   },
-   {
-    "name": "Fanny-148",
-    "value": 57
-   },
-   {
-    "name": ".Dylan.",
-    "value": 54
-   },
-   {
-    "name": "Pporappippam",
-    "value": 52
-   },
-   {
-    "name": "In.esdzz!",
-    "value": 51
-   },
-   {
-    "name": "BOuclette.13",
-    "value": 49
-   },
-   {
-    "name": "guest77145",
-    "value": 45
-   },
-   {
-    "name": "JoyBoy.",
-    "value": 44
-   },
-   {
-    "name": "alexandre-780",
-    "value": 41
-   },
-   {
-    "name": "CharlesWish",
-    "value": 39
-   },
-   {
-    "name": "Pierre.Langlet",
-    "value": 37
-   },
-   {
-    "name": "YzEnRodeo",
-    "value": 35
+    "name": "Shizuku",
+    "value": 1
    }
   ]
  }

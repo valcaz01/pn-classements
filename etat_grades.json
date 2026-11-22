@@ -1181,7 +1181,7 @@
   "grade": null,
   "humeur": "Mr.Reddington",
   "pseudo": "Hephaistos.",
-  "verifie": "2026-11-22T20:00:41+00:00"
+  "verifie": "2026-11-22T23:00:57+00:00"
  },
  "20823070": {
   "alertes": {},
@@ -1997,7 +1997,7 @@
   "grade": null,
   "humeur": "#One Life",
   "pseudo": "fixy94",
-  "verifie": "2026-11-22T20:00:41+00:00"
+  "verifie": "2026-11-22T23:00:57+00:00"
  },
  "23730684": {
   "alertes": {},
@@ -2152,7 +2152,9 @@
   "verifie": "2026-11-22T22:34:41+00:00"
  },
  "23958336": {
-  "alertes": {},
+  "alertes": {
+   "cadet": "2026-11-22T23:00:57+00:00"
+  },
   "depuis": "2026-11-20T23:00:00+00:00",
   "grade": "cadet",
   "humeur": "[PN] Cadet",
@@ -3140,7 +3142,9 @@
   "verifie": "2026-11-22T20:42:41+00:00"
  },
  "24730447": {
-  "alertes": {},
+  "alertes": {
+   "cadet": "2026-11-22T23:00:57+00:00"
+  },
   "depuis": "2026-11-20T23:00:00+00:00",
   "grade": "cadet",
   "humeur": "[PN] Cadette",
