@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T03:54:28+00:00",
+ "updated": "2026-11-22T03:56:27+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -88,6 +88,10 @@
     "value": 9
    },
    {
+    "name": "marinadrk",
+    "value": 6
+   },
+   {
     "name": "Monsieur-RF",
     "value": 6
    },
@@ -105,10 +109,6 @@
    },
    {
     "name": "Lewddon",
-    "value": 5
-   },
-   {
-    "name": "marinadrk",
     "value": 5
    },
    {
@@ -290,6 +290,10 @@
     "value": 9
    },
    {
+    "name": "marinadrk",
+    "value": 6
+   },
+   {
     "name": "Monsieur-RF",
     "value": 6
    },
@@ -307,10 +311,6 @@
    },
    {
     "name": "Lewddon",
-    "value": 5
-   },
-   {
-    "name": "marinadrk",
     "value": 5
    },
    {
@@ -415,7 +415,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 1267
+    "value": 1269
    },
    {
     "name": "fym",
@@ -617,7 +617,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 1267
+    "value": 1269
    },
    {
     "name": "fym",
