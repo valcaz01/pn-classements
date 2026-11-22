@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T12:54:28+00:00",
+ "updated": "2026-11-22T12:56:28+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -100,6 +100,10 @@
     "value": 8
    },
    {
+    "name": "gotica",
+    "value": 7
+   },
+   {
     "name": "marinadrk",
     "value": 7
    },
@@ -109,10 +113,6 @@
    },
    {
     "name": ".Dylan.",
-    "value": 5
-   },
-   {
-    "name": "gotica",
     "value": 5
    },
    {
@@ -302,6 +302,10 @@
     "value": 8
    },
    {
+    "name": "gotica",
+    "value": 7
+   },
+   {
     "name": "marinadrk",
     "value": 7
    },
@@ -311,10 +315,6 @@
    },
    {
     "name": ".Dylan.",
-    "value": 5
-   },
-   {
-    "name": "gotica",
     "value": 5
    },
    {
@@ -415,7 +415,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 1527
+    "value": 1529
    },
    {
     "name": "fym",
@@ -451,7 +451,7 @@
    },
    {
     "name": "charlie-XCX123",
-    "value": 425
+    "value": 427
    },
    {
     "name": "Lovepanda",
@@ -499,7 +499,7 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 251
+    "value": 253
    },
    {
     "name": "-Tsukiri-",
@@ -586,12 +586,12 @@
     "value": 39
    },
    {
-    "name": "Pierre.Langlet",
-    "value": 37
+    "name": "-Massimo-",
+    "value": 38
    },
    {
-    "name": "-Massimo-",
-    "value": 36
+    "name": "Pierre.Langlet",
+    "value": 37
    },
    {
     "name": "YzEnRodeo",
@@ -617,7 +617,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 1527
+    "value": 1529
    },
    {
     "name": "fym",
@@ -653,7 +653,7 @@
    },
    {
     "name": "charlie-XCX123",
-    "value": 425
+    "value": 427
    },
    {
     "name": "Lovepanda",
@@ -701,7 +701,7 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 251
+    "value": 253
    },
    {
     "name": "-Tsukiri-",
@@ -788,12 +788,12 @@
     "value": 39
    },
    {
-    "name": "Pierre.Langlet",
-    "value": 37
+    "name": "-Massimo-",
+    "value": 38
    },
    {
-    "name": "-Massimo-",
-    "value": 36
+    "name": "Pierre.Langlet",
+    "value": 37
    },
    {
     "name": "YzEnRodeo",
