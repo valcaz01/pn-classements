@@ -69,6 +69,58 @@ def decoder(corps, mac, nonce, jeton):
     return texte, image
 
 
+class Jumelage(discord.ui.Modal, title="Relier le PC Habbo"):
+    adresse = discord.ui.TextInput(label="Adresse HTTPS affichée sur le PC", max_length=180)
+    code = discord.ui.TextInput(label="Code de jumelage à usage unique", min_length=24, max_length=80)
+
+    def __init__(self, suivi):
+        super().__init__(timeout=300)
+        self.suivi = suivi
+
+    async def on_submit(self, inter):
+        if not await self.suivi.autoriser(inter):
+            return
+        await inter.response.defer(ephemeral=True)
+        url, code = self.adresse.value.strip().rstrip("/"), self.code.value.strip()
+        if not HOTE.fullmatch(url) or not re.fullmatch(r"[a-zA-Z0-9_-]{24,80}", code) or not self.suivi.hook:
+            await inter.edit_original_response(content="Adresse, code ou liaison du salon invalide.")
+            return
+        nonce = secrets.token_hex(16)
+        hook = self.suivi.hook
+        try:
+            async with aiohttp.ClientSession(timeout=aiohttp.ClientTimeout(total=10)) as http:
+                async def envoyer(data, attendu):
+                    async with http.post(url+"/pn-qg/jumeler",json=data,allow_redirects=False) as rep:
+                        if rep.status != 200:
+                            raise ValueError
+                        bloc = await rep.content.read(1025)
+                        if len(bloc) > 1024 or not hmac.compare_digest(json.loads(bloc)["preuve"], signature(code,attendu)):
+                            raise ValueError
+                await envoyer({"etape":"verifier","nonce":nonce,"preuve":signature(code,("demande "+nonce).encode())},
+                              ("pc "+nonce).encode())
+                liaison = {"etape":"relier","nonce":nonce,"guild_id":str(inter.guild_id),
+                           "channel_id":str(inter.channel_id),"webhook":hook.url}
+                liaison["preuve"] = signature(code,f"relier {nonce} {inter.guild_id} {inter.channel_id} {hook.url}".encode())
+                await envoyer(liaison,("relie "+nonce).encode())
+            self.suivi.enregistrer(url=url,date=int(time.time()))
+            await self.suivi.actualiser()
+        except (aiohttp.ClientError, TimeoutError, ValueError, KeyError, TypeError):
+            await inter.edit_original_response(content="Le PC n’a pas confirmé le jumelage. Vérifie l’adresse et le code local.")
+            return
+        await inter.edit_original_response(content="PC relié. Le premier relevé est affiché dans ce salon.")
+
+
+class RelierPC(discord.ui.View):
+    def __init__(self, suivi):
+        super().__init__(timeout=180)
+        self.suivi = suivi
+
+    @discord.ui.button(label="Relier le PC")
+    async def relier(self, inter, bouton):
+        if await self.suivi.autoriser(inter):
+            await inter.response.send_modal(Jumelage(self.suivi))
+
+
 class BoutonsQG(discord.ui.View):
     def __init__(self, suivi):
         super().__init__(timeout=None)
@@ -87,7 +139,10 @@ class BoutonsQG(discord.ui.View):
 
     @discord.ui.button(label="QG suivis", custom_id="pn:qg:liste")
     async def liste(self, interaction, bouton):
-        await interaction.response.send_message(SUIVIS, ephemeral=True)
+        if not self.suivi.etat.get("url"):
+            await interaction.response.send_message(SUIVIS, view=RelierPC(self.suivi), ephemeral=True)
+        else:
+            await interaction.response.send_message(SUIVIS, ephemeral=True)
 
 
 class SuiviQG:
