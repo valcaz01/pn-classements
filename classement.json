@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T23:56:41+00:00",
+ "updated": "2026-11-22T23:58:41+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -247,7 +247,7 @@
    },
    {
     "name": "Shizuku",
-    "value": 636
+    "value": 638
    },
    {
     "name": "Astreu",
@@ -259,7 +259,7 @@
    },
    {
     "name": "halos34",
-    "value": 491
+    "value": 493
    },
    {
     "name": "habbo22t",
@@ -319,7 +319,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 240
+    "value": 242
    },
    {
     "name": "Weavem",
@@ -425,11 +425,11 @@
   "week": [
    {
     "name": "-Massimo-",
-    "value": 16
+    "value": 18
    },
    {
     "name": "halos34",
-    "value": 8
+    "value": 10
    },
    {
     "name": "irysse",
@@ -440,15 +440,15 @@
     "value": 5
    },
    {
+    "name": "Shizuku",
+    "value": 4
+   },
+   {
     "name": "Vyp",
     "value": 3
    },
    {
     "name": "MagicalArt",
-    "value": 2
-   },
-   {
-    "name": "Shizuku",
     "value": 2
    },
    {
