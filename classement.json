@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T21:22:40+00:00",
+ "updated": "2026-11-22T21:24:40+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -427,7 +427,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 844
+    "value": 846
    },
    {
     "name": "Icarem",
@@ -458,11 +458,11 @@
     "value": 436
    },
    {
-    "name": "dadou07",
-    "value": 359
+    "name": "Mi,hermano",
+    "value": 361
    },
    {
-    "name": "Mi,hermano",
+    "name": "dadou07",
     "value": 359
    },
    {
@@ -487,7 +487,7 @@
    },
    {
     "name": "flo578",
-    "value": 307
+    "value": 309
    },
    {
     "name": "_.Flora._",
@@ -515,7 +515,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 207
+    "value": 209
    },
    {
     "name": "Postillon",
@@ -539,7 +539,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 115
+    "value": 117
    },
    {
     "name": ".:Krustiz:.",
@@ -559,7 +559,7 @@
    },
    {
     "name": "BnBoy",
-    "value": 62
+    "value": 64
    },
    {
     "name": ".Dylan.",
@@ -606,8 +606,8 @@
     "value": 35
    },
    {
-    "name": "ladypink.",
-    "value": 30
+    "name": "MagicalArt",
+    "value": 31
    }
   ],
   "week": [
@@ -629,7 +629,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 844
+    "value": 846
    },
    {
     "name": "Icarem",
@@ -660,11 +660,11 @@
     "value": 436
    },
    {
-    "name": "dadou07",
-    "value": 359
+    "name": "Mi,hermano",
+    "value": 361
    },
    {
-    "name": "Mi,hermano",
+    "name": "dadou07",
     "value": 359
    },
    {
@@ -689,7 +689,7 @@
    },
    {
     "name": "flo578",
-    "value": 307
+    "value": 309
    },
    {
     "name": "_.Flora._",
@@ -717,7 +717,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 207
+    "value": 209
    },
    {
     "name": "Postillon",
@@ -741,7 +741,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 115
+    "value": 117
    },
    {
     "name": ".:Krustiz:.",
@@ -761,7 +761,7 @@
    },
    {
     "name": "BnBoy",
-    "value": 62
+    "value": 64
    },
    {
     "name": ".Dylan.",
@@ -808,8 +808,8 @@
     "value": 35
    },
    {
-    "name": "ladypink.",
-    "value": 30
+    "name": "MagicalArt",
+    "value": 31
    }
   ]
  }
