@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T18:34:39+00:00",
+ "updated": "2026-11-22T18:36:41+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -411,7 +411,7 @@
   "total": [
    {
     "name": "habbo-160-3",
-    "value": 1812
+    "value": 1814
    },
    {
     "name": "BiBiCHarBo",
@@ -430,12 +430,12 @@
     "value": 755
    },
    {
-    "name": "Astreu",
-    "value": 625
+    "name": "Icarem",
+    "value": 626
    },
    {
-    "name": "Icarem",
-    "value": 624
+    "name": "Astreu",
+    "value": 625
    },
    {
     "name": "Shizuku",
@@ -463,7 +463,7 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 343
+    "value": 345
    },
    {
     "name": "dadou07",
@@ -482,24 +482,24 @@
     "value": 308
    },
    {
-    "name": "andrew16a",
-    "value": 294
+    "name": "flo578",
+    "value": 295
    },
    {
-    "name": "flo578",
-    "value": 293
+    "name": "andrew16a",
+    "value": 294
    },
    {
     "name": "Proxymore",
     "value": 274
    },
    {
-    "name": "gotica",
-    "value": 270
+    "name": "_.Flora._",
+    "value": 271
    },
    {
-    "name": "_.Flora._",
-    "value": 269
+    "name": "gotica",
+    "value": 270
    },
    {
     "name": ".Libellule",
@@ -507,7 +507,7 @@
    },
    {
     "name": "Weavem",
-    "value": 228
+    "value": 230
    },
    {
     "name": "-Tsukiri-",
@@ -613,7 +613,7 @@
   "week": [
    {
     "name": "habbo-160-3",
-    "value": 1812
+    "value": 1814
    },
    {
     "name": "BiBiCHarBo",
@@ -632,12 +632,12 @@
     "value": 755
    },
    {
-    "name": "Astreu",
-    "value": 625
+    "name": "Icarem",
+    "value": 626
    },
    {
-    "name": "Icarem",
-    "value": 624
+    "name": "Astreu",
+    "value": 625
    },
    {
     "name": "Shizuku",
@@ -665,7 +665,7 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 343
+    "value": 345
    },
    {
     "name": "dadou07",
@@ -684,24 +684,24 @@
     "value": 308
    },
    {
-    "name": "andrew16a",
-    "value": 294
+    "name": "flo578",
+    "value": 295
    },
    {
-    "name": "flo578",
-    "value": 293
+    "name": "andrew16a",
+    "value": 294
    },
    {
     "name": "Proxymore",
     "value": 274
    },
    {
-    "name": "gotica",
-    "value": 270
+    "name": "_.Flora._",
+    "value": 271
    },
    {
-    "name": "_.Flora._",
-    "value": 269
+    "name": "gotica",
+    "value": 270
    },
    {
     "name": ".Libellule",
@@ -709,7 +709,7 @@
    },
    {
     "name": "Weavem",
-    "value": 228
+    "value": 230
    },
    {
     "name": "-Tsukiri-",
