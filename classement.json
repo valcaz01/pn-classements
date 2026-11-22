@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T18:12:40+00:00",
+ "updated": "2026-11-22T18:14:40+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -415,7 +415,7 @@
    },
    {
     "name": "BiBiCHarBo",
-    "value": 1584
+    "value": 1586
    },
    {
     "name": "fym",
@@ -435,7 +435,7 @@
    },
    {
     "name": "Astreu",
-    "value": 617
+    "value": 619
    },
    {
     "name": "Icarem",
@@ -475,7 +475,7 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 323
+    "value": 325
    },
    {
     "name": "Non-Non",
@@ -486,12 +486,12 @@
     "value": 294
    },
    {
-    "name": "Proxymore",
+    "name": "flo578",
     "value": 274
    },
    {
-    "name": "flo578",
-    "value": 272
+    "name": "Proxymore",
+    "value": 274
    },
    {
     "name": "gotica",
@@ -527,7 +527,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 108
+    "value": 109
    },
    {
     "name": "Padre",
@@ -539,19 +539,19 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 90
+    "value": 91
    },
    {
     "name": "Hectorr",
     "value": 87
    },
    {
-    "name": "sheila3738",
+    "name": "Piingouin.",
     "value": 75
    },
    {
-    "name": "Piingouin.",
-    "value": 73
+    "name": "sheila3738",
+    "value": 75
    },
    {
     "name": "Imondi",
@@ -606,8 +606,8 @@
     "value": 29
    },
    {
-    "name": "-Oiseau",
-    "value": 27
+    "name": "JoyBoy.",
+    "value": 29
    }
   ],
   "week": [
@@ -617,7 +617,7 @@
    },
    {
     "name": "BiBiCHarBo",
-    "value": 1584
+    "value": 1586
    },
    {
     "name": "fym",
@@ -637,7 +637,7 @@
    },
    {
     "name": "Astreu",
-    "value": 617
+    "value": 619
    },
    {
     "name": "Icarem",
@@ -677,7 +677,7 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 323
+    "value": 325
    },
    {
     "name": "Non-Non",
@@ -688,12 +688,12 @@
     "value": 294
    },
    {
-    "name": "Proxymore",
+    "name": "flo578",
     "value": 274
    },
    {
-    "name": "flo578",
-    "value": 272
+    "name": "Proxymore",
+    "value": 274
    },
    {
     "name": "gotica",
@@ -729,7 +729,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 108
+    "value": 109
    },
    {
     "name": "Padre",
@@ -741,19 +741,19 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 90
+    "value": 91
    },
    {
     "name": "Hectorr",
     "value": 87
    },
    {
-    "name": "sheila3738",
+    "name": "Piingouin.",
     "value": 75
    },
    {
-    "name": "Piingouin.",
-    "value": 73
+    "name": "sheila3738",
+    "value": 75
    },
    {
     "name": "Imondi",
@@ -808,8 +808,8 @@
     "value": 29
    },
    {
-    "name": "-Oiseau",
-    "value": 27
+    "name": "JoyBoy.",
+    "value": 29
    }
   ]
  }
