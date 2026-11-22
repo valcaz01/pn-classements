@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T18:38:39+00:00",
+ "updated": "2026-11-22T18:40:41+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -411,7 +411,7 @@
   "total": [
    {
     "name": "habbo-160-3",
-    "value": 1816
+    "value": 1818
    },
    {
     "name": "BiBiCHarBo",
@@ -431,7 +431,7 @@
    },
    {
     "name": "Icarem",
-    "value": 627
+    "value": 628
    },
    {
     "name": "Astreu",
@@ -463,7 +463,7 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 347
+    "value": 349
    },
    {
     "name": "dadou07",
@@ -495,7 +495,7 @@
    },
    {
     "name": "_.Flora._",
-    "value": 272
+    "value": 273
    },
    {
     "name": "gotica",
@@ -507,7 +507,7 @@
    },
    {
     "name": "Weavem",
-    "value": 232
+    "value": 233
    },
    {
     "name": "-Tsukiri-",
@@ -527,7 +527,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 128
+    "value": 130
    },
    {
     "name": "Padre",
@@ -613,7 +613,7 @@
   "week": [
    {
     "name": "habbo-160-3",
-    "value": 1816
+    "value": 1818
    },
    {
     "name": "BiBiCHarBo",
@@ -633,7 +633,7 @@
    },
    {
     "name": "Icarem",
-    "value": 627
+    "value": 628
    },
    {
     "name": "Astreu",
@@ -665,7 +665,7 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 347
+    "value": 349
    },
    {
     "name": "dadou07",
@@ -697,7 +697,7 @@
    },
    {
     "name": "_.Flora._",
-    "value": 272
+    "value": 273
    },
    {
     "name": "gotica",
@@ -709,7 +709,7 @@
    },
    {
     "name": "Weavem",
-    "value": 232
+    "value": 233
    },
    {
     "name": "-Tsukiri-",
@@ -729,7 +729,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 128
+    "value": 130
    },
    {
     "name": "Padre",
