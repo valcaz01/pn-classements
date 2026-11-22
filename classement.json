@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T11:10:29+00:00",
+ "updated": "2026-11-22T11:12:29+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -9,7 +9,7 @@
    },
    {
     "name": "Icarem",
-    "value": 40
+    "value": 41
    },
    {
     "name": "fym",
@@ -40,12 +40,12 @@
     "value": 25
    },
    {
-    "name": "sami75.19",
+    "name": ".:Krustiz:.",
     "value": 21
    },
    {
-    "name": ".:Krustiz:.",
-    "value": 20
+    "name": "sami75.19",
+    "value": 21
    },
    {
     "name": "Proxymore",
@@ -211,7 +211,7 @@
    },
    {
     "name": "Icarem",
-    "value": 40
+    "value": 41
    },
    {
     "name": "fym",
@@ -242,12 +242,12 @@
     "value": 25
    },
    {
-    "name": "sami75.19",
+    "name": ".:Krustiz:.",
     "value": 21
    },
    {
-    "name": ".:Krustiz:.",
-    "value": 20
+    "name": "sami75.19",
+    "value": 21
    },
    {
     "name": "Proxymore",
@@ -411,11 +411,11 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 1485
+    "value": 1487
    },
    {
     "name": "habbo-160-3",
-    "value": 1425
+    "value": 1427
    },
    {
     "name": "fym",
@@ -495,7 +495,7 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 238
+    "value": 240
    },
    {
     "name": ".Libellule",
@@ -511,7 +511,7 @@
    },
    {
     "name": "Postillon",
-    "value": 171
+    "value": 173
    },
    {
     "name": "irysse",
@@ -519,7 +519,7 @@
    },
    {
     "name": "_.Flora._",
-    "value": 133
+    "value": 135
    },
    {
     "name": "sami75.19",
@@ -586,12 +586,12 @@
     "value": 31
    },
    {
-    "name": "ladypink.",
-    "value": 30
+    "name": "CharlesWish",
+    "value": 31
    },
    {
-    "name": "CharlesWish",
-    "value": 29
+    "name": "ladypink.",
+    "value": 30
    },
    {
     "name": "bhabbod49-3",
@@ -602,22 +602,22 @@
     "value": 26
    },
    {
-    "name": "-Oiseau",
-    "value": 25
+    "name": "Imondi",
+    "value": 26
    },
    {
-    "name": "Imondi",
+    "name": "-Oiseau",
     "value": 25
    }
   ],
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 1485
+    "value": 1487
    },
    {
     "name": "habbo-160-3",
-    "value": 1425
+    "value": 1427
    },
    {
     "name": "fym",
@@ -697,7 +697,7 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 238
+    "value": 240
    },
    {
     "name": ".Libellule",
@@ -713,7 +713,7 @@
    },
    {
     "name": "Postillon",
-    "value": 171
+    "value": 173
    },
    {
     "name": "irysse",
@@ -721,7 +721,7 @@
    },
    {
     "name": "_.Flora._",
-    "value": 133
+    "value": 135
    },
    {
     "name": "sami75.19",
@@ -788,12 +788,12 @@
     "value": 31
    },
    {
-    "name": "ladypink.",
-    "value": 30
+    "name": "CharlesWish",
+    "value": 31
    },
    {
-    "name": "CharlesWish",
-    "value": 29
+    "name": "ladypink.",
+    "value": 30
    },
    {
     "name": "bhabbod49-3",
@@ -804,11 +804,11 @@
     "value": 26
    },
    {
-    "name": "-Oiseau",
-    "value": 25
+    "name": "Imondi",
+    "value": 26
    },
    {
-    "name": "Imondi",
+    "name": "-Oiseau",
     "value": 25
    }
   ]
