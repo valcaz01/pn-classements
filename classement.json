@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T20:06:41+00:00",
+ "updated": "2026-11-22T20:08:40+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -16,15 +16,15 @@
     "value": 37
    },
    {
+    "name": "pevanq640",
+    "value": 34
+   },
+   {
     "name": ".Libellule",
     "value": 32
    },
    {
     "name": "charlie-XCX123",
-    "value": 32
-   },
-   {
-    "name": "pevanq640",
     "value": 32
    },
    {
@@ -218,15 +218,15 @@
     "value": 37
    },
    {
+    "name": "pevanq640",
+    "value": 34
+   },
+   {
     "name": ".Libellule",
     "value": 32
    },
    {
     "name": "charlie-XCX123",
-    "value": 32
-   },
-   {
-    "name": "pevanq640",
     "value": 32
    },
    {
@@ -411,7 +411,7 @@
   "total": [
    {
     "name": "habbo-160-3",
-    "value": 1874
+    "value": 1876
    },
    {
     "name": "BiBiCHarBo",
@@ -427,11 +427,11 @@
    },
    {
     "name": "Pantheon_",
-    "value": 777
+    "value": 779
    },
    {
     "name": "Icarem",
-    "value": 654
+    "value": 656
    },
    {
     "name": "Astreu",
@@ -467,11 +467,11 @@
    },
    {
     "name": "dadou07",
-    "value": 349
+    "value": 351
    },
    {
     "name": "Mi,hermano",
-    "value": 341
+    "value": 343
    },
    {
     "name": "Fleabag",
@@ -482,12 +482,12 @@
     "value": 317
    },
    {
-    "name": "flo578",
+    "name": "_.Flora._",
     "value": 296
    },
    {
-    "name": "_.Flora._",
-    "value": 294
+    "name": "flo578",
+    "value": 296
    },
    {
     "name": "andrew16a",
@@ -523,7 +523,7 @@
    },
    {
     "name": "irysse",
-    "value": 162
+    "value": 164
    },
    {
     "name": "sami75.19",
@@ -543,7 +543,7 @@
    },
    {
     "name": "Hectorr",
-    "value": 90
+    "value": 92
    },
    {
     "name": "Piingouin.",
@@ -613,7 +613,7 @@
   "week": [
    {
     "name": "habbo-160-3",
-    "value": 1874
+    "value": 1876
    },
    {
     "name": "BiBiCHarBo",
@@ -629,11 +629,11 @@
    },
    {
     "name": "Pantheon_",
-    "value": 777
+    "value": 779
    },
    {
     "name": "Icarem",
-    "value": 654
+    "value": 656
    },
    {
     "name": "Astreu",
@@ -669,11 +669,11 @@
    },
    {
     "name": "dadou07",
-    "value": 349
+    "value": 351
    },
    {
     "name": "Mi,hermano",
-    "value": 341
+    "value": 343
    },
    {
     "name": "Fleabag",
@@ -684,12 +684,12 @@
     "value": 317
    },
    {
-    "name": "flo578",
+    "name": "_.Flora._",
     "value": 296
    },
    {
-    "name": "_.Flora._",
-    "value": 294
+    "name": "flo578",
+    "value": 296
    },
    {
     "name": "andrew16a",
@@ -725,7 +725,7 @@
    },
    {
     "name": "irysse",
-    "value": 162
+    "value": 164
    },
    {
     "name": "sami75.19",
@@ -745,7 +745,7 @@
    },
    {
     "name": "Hectorr",
-    "value": 90
+    "value": 92
    },
    {
     "name": "Piingouin.",

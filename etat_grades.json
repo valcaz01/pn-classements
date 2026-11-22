@@ -5193,8 +5193,8 @@
  },
  "25812129": {
   "alertes": {},
-  "depuis": null,
-  "grade": null,
+  "depuis": "2026-11-21T23:00:00+00:00",
+  "grade": "cadet",
   "humeur": "[PN] Recrue",
   "pseudo": "LorenzoVisconti",
   "verifie": "2026-11-22T18:32:40+00:00"
@@ -9028,6 +9028,14 @@
   "humeur": "",
   "pseudo": "htebasileiram",
   "verifie": "2026-11-22T19:00:40+00:00"
+ },
+ "26043033": {
+  "alertes": {},
+  "depuis": null,
+  "grade": null,
+  "humeur": "Ennui",
+  "pseudo": "Layali",
+  "verifie": "2026-11-22T20:08:40+00:00"
  },
  "2709157": {
   "alertes": {},
