@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T11:20:27+00:00",
+ "updated": "2026-11-22T11:22:29+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -20,12 +20,12 @@
     "value": 30
    },
    {
-    "name": "charlie-XCX123",
+    "name": ".Libellule",
     "value": 27
    },
    {
-    "name": ".Libellule",
-    "value": 26
+    "name": "charlie-XCX123",
+    "value": 27
    },
    {
     "name": "Astreu",
@@ -222,12 +222,12 @@
     "value": 30
    },
    {
-    "name": "charlie-XCX123",
+    "name": ".Libellule",
     "value": 27
    },
    {
-    "name": ".Libellule",
-    "value": 26
+    "name": "charlie-XCX123",
+    "value": 27
    },
    {
     "name": "Astreu",
@@ -411,11 +411,11 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 1495
+    "value": 1497
    },
    {
     "name": "habbo-160-3",
-    "value": 1434
+    "value": 1436
    },
    {
     "name": "fym",
@@ -519,11 +519,11 @@
    },
    {
     "name": "_.Flora._",
-    "value": 142
+    "value": 144
    },
    {
     "name": "sami75.19",
-    "value": 135
+    "value": 136
    },
    {
     "name": "Padre",
@@ -575,7 +575,7 @@
    },
    {
     "name": "CharlesWish",
-    "value": 37
+    "value": 39
    },
    {
     "name": "Pierre.Langlet",
@@ -587,7 +587,7 @@
    },
    {
     "name": "Imondi",
-    "value": 34
+    "value": 33
    },
    {
     "name": "-Massimo-",
@@ -613,11 +613,11 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 1495
+    "value": 1497
    },
    {
     "name": "habbo-160-3",
-    "value": 1434
+    "value": 1436
    },
    {
     "name": "fym",
@@ -721,11 +721,11 @@
    },
    {
     "name": "_.Flora._",
-    "value": 142
+    "value": 144
    },
    {
     "name": "sami75.19",
-    "value": 135
+    "value": 136
    },
    {
     "name": "Padre",
@@ -777,7 +777,7 @@
    },
    {
     "name": "CharlesWish",
-    "value": 37
+    "value": 39
    },
    {
     "name": "Pierre.Langlet",
@@ -789,7 +789,7 @@
    },
    {
     "name": "Imondi",
-    "value": 34
+    "value": 33
    },
    {
     "name": "-Massimo-",
