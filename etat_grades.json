@@ -6017,8 +6017,8 @@
  },
  "25935140": {
   "alertes": {},
-  "depuis": null,
-  "grade": null,
+  "depuis": "2026-11-21T23:00:00+00:00",
+  "grade": "cadet",
   "humeur": "[PN] Cadette",
   "pseudo": "MagicalArt",
   "verifie": "2026-11-22T21:02:40+00:00"

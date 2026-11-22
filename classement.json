@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T21:10:41+00:00",
+ "updated": "2026-11-22T21:12:39+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -419,7 +419,7 @@
    },
    {
     "name": "fym",
-    "value": 1144
+    "value": 1146
    },
    {
     "name": "marinadrk",
@@ -427,7 +427,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 834
+    "value": 836
    },
    {
     "name": "Icarem",
@@ -491,7 +491,7 @@
    },
    {
     "name": "flo578",
-    "value": 296
+    "value": 297
    },
    {
     "name": ".Libellule",
@@ -515,7 +515,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 195
+    "value": 197
    },
    {
     "name": "Postillon",
@@ -527,7 +527,7 @@
    },
    {
     "name": "Hectorr",
-    "value": 143
+    "value": 145
    },
    {
     "name": "sami75.19",
@@ -539,7 +539,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 104
+    "value": 106
    },
    {
     "name": ".:Krustiz:.",
@@ -562,6 +562,10 @@
     "value": 54
    },
    {
+    "name": "BnBoy",
+    "value": 52
+   },
+   {
     "name": "Pporappippam",
     "value": 52
    },
@@ -572,10 +576,6 @@
    {
     "name": "In.esdzz!",
     "value": 51
-   },
-   {
-    "name": "BnBoy",
-    "value": 50
    },
    {
     "name": "BOuclette.13",
@@ -621,7 +621,7 @@
    },
    {
     "name": "fym",
-    "value": 1144
+    "value": 1146
    },
    {
     "name": "marinadrk",
@@ -629,7 +629,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 834
+    "value": 836
    },
    {
     "name": "Icarem",
@@ -693,7 +693,7 @@
    },
    {
     "name": "flo578",
-    "value": 296
+    "value": 297
    },
    {
     "name": ".Libellule",
@@ -717,7 +717,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 195
+    "value": 197
    },
    {
     "name": "Postillon",
@@ -729,7 +729,7 @@
    },
    {
     "name": "Hectorr",
-    "value": 143
+    "value": 145
    },
    {
     "name": "sami75.19",
@@ -741,7 +741,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 104
+    "value": 106
    },
    {
     "name": ".:Krustiz:.",
@@ -764,6 +764,10 @@
     "value": 54
    },
    {
+    "name": "BnBoy",
+    "value": 52
+   },
+   {
     "name": "Pporappippam",
     "value": 52
    },
@@ -774,10 +778,6 @@
    {
     "name": "In.esdzz!",
     "value": 51
-   },
-   {
-    "name": "BnBoy",
-    "value": 50
    },
    {
     "name": "BOuclette.13",
