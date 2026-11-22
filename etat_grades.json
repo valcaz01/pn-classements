@@ -1315,9 +1315,9 @@
   "alertes": {},
   "depuis": "2026-11-21T23:00:00+00:00",
   "grade": "cadet",
-  "humeur": "[PN] Recrue",
+  "humeur": "[PN] Cadet",
   "pseudo": "SMPSHomer",
-  "verifie": "2026-11-22T20:44:41+00:00"
+  "verifie": "2026-11-22T21:28:40+00:00"
  },
  "21505424": {
   "alertes": {},
@@ -1421,7 +1421,7 @@
   "grade": null,
   "humeur": "mimi |",
   "pseudo": "Nute",
-  "verifie": "2026-11-22T18:28:40+00:00"
+  "verifie": "2026-11-22T21:28:40+00:00"
  },
  "22057754": {
   "alertes": {},
@@ -9019,7 +9019,7 @@
   "grade": null,
   "humeur": "<3",
   "pseudo": "iamjannaaa",
-  "verifie": "2026-11-22T18:28:40+00:00"
+  "verifie": "2026-11-22T21:28:40+00:00"
  },
  "26042945": {
   "alertes": {},
@@ -9051,7 +9051,7 @@
   "grade": null,
   "humeur": "",
   "pseudo": "Louhanney",
-  "verifie": "2026-11-22T18:26:40+00:00"
+  "verifie": "2026-11-22T21:28:40+00:00"
  },
  "26042974": {
   "alertes": {},
@@ -9140,6 +9140,14 @@
   "humeur": "",
   "pseudo": "Thuringwethil2",
   "verifie": "2026-11-22T21:16:42+00:00"
+ },
+ "26043054": {
+  "alertes": {},
+  "depuis": null,
+  "grade": null,
+  "humeur": "",
+  "pseudo": "Knightmistress",
+  "verifie": "2026-11-22T21:28:40+00:00"
  },
  "2709157": {
   "alertes": {},
