@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T12:50:29+00:00",
+ "updated": "2026-11-22T12:52:29+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -25,7 +25,7 @@
    },
    {
     "name": "charlie-XCX123",
-    "value": 28
+    "value": 29
    },
    {
     "name": "Astreu",
@@ -227,7 +227,7 @@
    },
    {
     "name": "charlie-XCX123",
-    "value": 28
+    "value": 29
    },
    {
     "name": "Astreu",
@@ -411,11 +411,11 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 1578
+    "value": 1580
    },
    {
     "name": "habbo-160-3",
-    "value": 1523
+    "value": 1525
    },
    {
     "name": "fym",
@@ -495,7 +495,7 @@
    },
    {
     "name": "gotica",
-    "value": 251
+    "value": 253
    },
    {
     "name": "Monsieur-RF",
@@ -595,7 +595,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 32
+    "value": 34
    },
    {
     "name": "ladypink.",
@@ -613,11 +613,11 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 1578
+    "value": 1580
    },
    {
     "name": "habbo-160-3",
-    "value": 1523
+    "value": 1525
    },
    {
     "name": "fym",
@@ -697,7 +697,7 @@
    },
    {
     "name": "gotica",
-    "value": 251
+    "value": 253
    },
    {
     "name": "Monsieur-RF",
@@ -797,7 +797,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 32
+    "value": 34
    },
    {
     "name": "ladypink.",
