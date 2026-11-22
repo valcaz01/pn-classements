@@ -1313,8 +1313,8 @@
  },
  "21465661": {
   "alertes": {},
-  "depuis": null,
-  "grade": null,
+  "depuis": "2026-11-21T23:00:00+00:00",
+  "grade": "cadet",
   "humeur": "[PN] Recrue",
   "pseudo": "SMPSHomer",
   "verifie": "2026-11-22T20:44:41+00:00"

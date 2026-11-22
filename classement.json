@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T21:24:40+00:00",
+ "updated": "2026-11-22T21:26:39+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -427,7 +427,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 846
+    "value": 848
    },
    {
     "name": "Icarem",
@@ -459,7 +459,7 @@
    },
    {
     "name": "Mi,hermano",
-    "value": 361
+    "value": 362
    },
    {
     "name": "dadou07",
@@ -487,7 +487,7 @@
    },
    {
     "name": "flo578",
-    "value": 309
+    "value": 311
    },
    {
     "name": "_.Flora._",
@@ -515,7 +515,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 209
+    "value": 211
    },
    {
     "name": "Postillon",
@@ -539,7 +539,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 117
+    "value": 118
    },
    {
     "name": ".:Krustiz:.",
@@ -559,7 +559,7 @@
    },
    {
     "name": "BnBoy",
-    "value": 64
+    "value": 66
    },
    {
     "name": ".Dylan.",
@@ -607,7 +607,7 @@
    },
    {
     "name": "MagicalArt",
-    "value": 31
+    "value": 33
    }
   ],
   "week": [
@@ -629,7 +629,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 846
+    "value": 848
    },
    {
     "name": "Icarem",
@@ -661,7 +661,7 @@
    },
    {
     "name": "Mi,hermano",
-    "value": 361
+    "value": 362
    },
    {
     "name": "dadou07",
@@ -689,7 +689,7 @@
    },
    {
     "name": "flo578",
-    "value": 309
+    "value": 311
    },
    {
     "name": "_.Flora._",
@@ -717,7 +717,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 209
+    "value": 211
    },
    {
     "name": "Postillon",
@@ -741,7 +741,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 117
+    "value": 118
    },
    {
     "name": ".:Krustiz:.",
@@ -761,7 +761,7 @@
    },
    {
     "name": "BnBoy",
-    "value": 64
+    "value": 66
    },
    {
     "name": ".Dylan.",
@@ -809,7 +809,7 @@
    },
    {
     "name": "MagicalArt",
-    "value": 31
+    "value": 33
    }
   ]
  }
