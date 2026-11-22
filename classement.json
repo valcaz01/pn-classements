@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T17:32:41+00:00",
+ "updated": "2026-11-22T17:34:41+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -116,6 +116,10 @@
     "value": 6
    },
    {
+    "name": "Weavem",
+    "value": 6
+   },
+   {
     "name": ".Dylan.",
     "value": 5
    },
@@ -125,10 +129,6 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 5
-   },
-   {
-    "name": "Weavem",
     "value": 5
    },
    {
@@ -318,6 +318,10 @@
     "value": 6
    },
    {
+    "name": "Weavem",
+    "value": 6
+   },
+   {
     "name": ".Dylan.",
     "value": 5
    },
@@ -327,10 +331,6 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 5
-   },
-   {
-    "name": "Weavem",
     "value": 5
    },
    {
@@ -463,7 +463,7 @@
    },
    {
     "name": "dadou07",
-    "value": 331
+    "value": 333
    },
    {
     "name": "Fleabag",
@@ -471,7 +471,7 @@
    },
    {
     "name": "Mi,hermano",
-    "value": 317
+    "value": 319
    },
    {
     "name": "Monsieur-RF",
@@ -499,7 +499,7 @@
    },
    {
     "name": "flo578",
-    "value": 256
+    "value": 258
    },
    {
     "name": ".Libellule",
@@ -551,7 +551,7 @@
    },
    {
     "name": "Imondi",
-    "value": 64
+    "value": 66
    },
    {
     "name": ".Dylan.",
@@ -665,7 +665,7 @@
    },
    {
     "name": "dadou07",
-    "value": 331
+    "value": 333
    },
    {
     "name": "Fleabag",
@@ -673,7 +673,7 @@
    },
    {
     "name": "Mi,hermano",
-    "value": 317
+    "value": 319
    },
    {
     "name": "Monsieur-RF",
@@ -701,7 +701,7 @@
    },
    {
     "name": "flo578",
-    "value": 256
+    "value": 258
    },
    {
     "name": ".Libellule",
@@ -753,7 +753,7 @@
    },
    {
     "name": "Imondi",
-    "value": 64
+    "value": 66
    },
    {
     "name": ".Dylan.",
