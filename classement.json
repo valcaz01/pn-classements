@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-22T10:54:28+00:00",
+ "updated": "2026-11-22T10:56:29+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 52
+    "value": 53
    },
    {
     "name": "Icarem",
@@ -48,12 +48,12 @@
     "value": 20
    },
    {
-    "name": "habbo-160-3",
+    "name": ".:Krustiz:.",
     "value": 19
    },
    {
-    "name": ".:Krustiz:.",
-    "value": 18
+    "name": "habbo-160-3",
+    "value": 19
    },
    {
     "name": "Lovepanda",
@@ -207,7 +207,7 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 52
+    "value": 53
    },
    {
     "name": "Icarem",
@@ -250,12 +250,12 @@
     "value": 20
    },
    {
-    "name": "habbo-160-3",
+    "name": ".:Krustiz:.",
     "value": 19
    },
    {
-    "name": ".:Krustiz:.",
-    "value": 18
+    "name": "habbo-160-3",
+    "value": 19
    },
    {
     "name": "Lovepanda",
@@ -411,11 +411,11 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 1473
+    "value": 1475
    },
    {
     "name": "habbo-160-3",
-    "value": 1409
+    "value": 1411
    },
    {
     "name": "fym",
@@ -499,7 +499,7 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 226
+    "value": 228
    },
    {
     "name": "-Tsukiri-",
@@ -511,7 +511,7 @@
    },
    {
     "name": "Postillon",
-    "value": 158
+    "value": 160
    },
    {
     "name": "irysse",
@@ -519,7 +519,7 @@
    },
    {
     "name": "_.Flora._",
-    "value": 130
+    "value": 131
    },
    {
     "name": "sami75.19",
@@ -606,18 +606,18 @@
     "value": 22
    },
    {
-    "name": "Gunna.",
+    "name": "CharlesWish",
     "value": 20
    }
   ],
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 1473
+    "value": 1475
    },
    {
     "name": "habbo-160-3",
-    "value": 1409
+    "value": 1411
    },
    {
     "name": "fym",
@@ -701,7 +701,7 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 226
+    "value": 228
    },
    {
     "name": "-Tsukiri-",
@@ -713,7 +713,7 @@
    },
    {
     "name": "Postillon",
-    "value": 158
+    "value": 160
    },
    {
     "name": "irysse",
@@ -721,7 +721,7 @@
    },
    {
     "name": "_.Flora._",
-    "value": 130
+    "value": 131
    },
    {
     "name": "sami75.19",
@@ -808,7 +808,7 @@
     "value": 22
    },
    {
-    "name": "Gunna.",
+    "name": "CharlesWish",
     "value": 20
    }
   ]
