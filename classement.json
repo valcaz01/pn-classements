@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T11:16:28+00:00",
+ "updated": "2026-11-22T11:18:28+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -411,11 +411,11 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 1491
+    "value": 1493
    },
    {
     "name": "habbo-160-3",
-    "value": 1431
+    "value": 1432
    },
    {
     "name": "fym",
@@ -511,7 +511,7 @@
    },
    {
     "name": "Postillon",
-    "value": 175
+    "value": 177
    },
    {
     "name": "irysse",
@@ -519,11 +519,11 @@
    },
    {
     "name": "_.Flora._",
-    "value": 139
+    "value": 141
    },
    {
     "name": "sami75.19",
-    "value": 131
+    "value": 133
    },
    {
     "name": "Padre",
@@ -578,24 +578,28 @@
     "value": 37
    },
    {
+    "name": "CharlesWish",
+    "value": 36
+   },
+   {
     "name": "YzEnRodeo",
     "value": 35
    },
    {
-    "name": "CharlesWish",
-    "value": 34
+    "name": "Imondi",
+    "value": 32
    },
    {
     "name": "-Massimo-",
     "value": 31
    },
    {
-    "name": "Imondi",
+    "name": "ladypink.",
     "value": 30
    },
    {
-    "name": "ladypink.",
-    "value": 30
+    "name": "Hectorr",
+    "value": 28
    },
    {
     "name": "bhabbod49-3",
@@ -603,21 +607,17 @@
    },
    {
     "name": "Freminet",
-    "value": 26
-   },
-   {
-    "name": "Hectorr",
     "value": 26
    }
   ],
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 1491
+    "value": 1493
    },
    {
     "name": "habbo-160-3",
-    "value": 1431
+    "value": 1432
    },
    {
     "name": "fym",
@@ -713,7 +713,7 @@
    },
    {
     "name": "Postillon",
-    "value": 175
+    "value": 177
    },
    {
     "name": "irysse",
@@ -721,11 +721,11 @@
    },
    {
     "name": "_.Flora._",
-    "value": 139
+    "value": 141
    },
    {
     "name": "sami75.19",
-    "value": 131
+    "value": 133
    },
    {
     "name": "Padre",
@@ -780,24 +780,28 @@
     "value": 37
    },
    {
+    "name": "CharlesWish",
+    "value": 36
+   },
+   {
     "name": "YzEnRodeo",
     "value": 35
    },
    {
-    "name": "CharlesWish",
-    "value": 34
+    "name": "Imondi",
+    "value": 32
    },
    {
     "name": "-Massimo-",
     "value": 31
    },
    {
-    "name": "Imondi",
+    "name": "ladypink.",
     "value": 30
    },
    {
-    "name": "ladypink.",
-    "value": 30
+    "name": "Hectorr",
+    "value": 28
    },
    {
     "name": "bhabbod49-3",
@@ -805,10 +809,6 @@
    },
    {
     "name": "Freminet",
-    "value": 26
-   },
-   {
-    "name": "Hectorr",
     "value": 26
    }
   ]
