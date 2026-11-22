@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T20:52:42+00:00",
+ "updated": "2026-11-22T20:54:39+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -176,6 +176,10 @@
     "value": 2
    },
    {
+    "name": "Hectorr",
+    "value": 2
+   },
+   {
     "name": "ladypink.",
     "value": 2
    },
@@ -198,10 +202,6 @@
    {
     "name": "SMPSHomer",
     "value": 2
-   },
-   {
-    "name": ".::Law::.",
-    "value": 1
    }
   ],
   "week": [
@@ -378,6 +378,10 @@
     "value": 2
    },
    {
+    "name": "Hectorr",
+    "value": 2
+   },
+   {
     "name": "ladypink.",
     "value": 2
    },
@@ -400,10 +404,6 @@
    {
     "name": "SMPSHomer",
     "value": 2
-   },
-   {
-    "name": ".::Law::.",
-    "value": 1
    }
   ]
  },
@@ -427,7 +427,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 819
+    "value": 820
    },
    {
     "name": "Icarem",
@@ -451,7 +451,7 @@
    },
    {
     "name": "habbo22t",
-    "value": 448
+    "value": 450
    },
    {
     "name": "charlie-XCX123",
@@ -503,7 +503,7 @@
    },
    {
     "name": ".Libellule",
-    "value": 267
+    "value": 269
    },
    {
     "name": "Weavem",
@@ -515,7 +515,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 180
+    "value": 182
    },
    {
     "name": "Postillon",
@@ -603,7 +603,7 @@
    },
    {
     "name": "BnBoy",
-    "value": 32
+    "value": 34
    },
    {
     "name": "ladypink.",
@@ -629,7 +629,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 819
+    "value": 820
    },
    {
     "name": "Icarem",
@@ -653,7 +653,7 @@
    },
    {
     "name": "habbo22t",
-    "value": 448
+    "value": 450
    },
    {
     "name": "charlie-XCX123",
@@ -705,7 +705,7 @@
    },
    {
     "name": ".Libellule",
-    "value": 267
+    "value": 269
    },
    {
     "name": "Weavem",
@@ -717,7 +717,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 180
+    "value": 182
    },
    {
     "name": "Postillon",
@@ -805,7 +805,7 @@
    },
    {
     "name": "BnBoy",
-    "value": 32
+    "value": 34
    },
    {
     "name": "ladypink.",
