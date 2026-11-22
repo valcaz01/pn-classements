@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T17:44:40+00:00",
+ "updated": "2026-11-22T17:46:41+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -435,7 +435,7 @@
    },
    {
     "name": "Icarem",
-    "value": 610
+    "value": 611
    },
    {
     "name": "Astreu",
@@ -467,7 +467,7 @@
    },
    {
     "name": "Mi,hermano",
-    "value": 328
+    "value": 330
    },
    {
     "name": "Fleabag",
@@ -495,7 +495,7 @@
    },
    {
     "name": "flo578",
-    "value": 267
+    "value": 269
    },
    {
     "name": "_.Flora._",
@@ -511,7 +511,7 @@
    },
    {
     "name": "Weavem",
-    "value": 199
+    "value": 200
    },
    {
     "name": "Postillon",
@@ -558,6 +558,10 @@
     "value": 54
    },
    {
+    "name": "Piingouin.",
+    "value": 52
+   },
+   {
     "name": "Pporappippam",
     "value": 52
    },
@@ -567,10 +571,6 @@
    },
    {
     "name": "In.esdzz!",
-    "value": 51
-   },
-   {
-    "name": "Piingouin.",
     "value": 51
    },
    {
@@ -637,7 +637,7 @@
    },
    {
     "name": "Icarem",
-    "value": 610
+    "value": 611
    },
    {
     "name": "Astreu",
@@ -669,7 +669,7 @@
    },
    {
     "name": "Mi,hermano",
-    "value": 328
+    "value": 330
    },
    {
     "name": "Fleabag",
@@ -697,7 +697,7 @@
    },
    {
     "name": "flo578",
-    "value": 267
+    "value": 269
    },
    {
     "name": "_.Flora._",
@@ -713,7 +713,7 @@
    },
    {
     "name": "Weavem",
-    "value": 199
+    "value": 200
    },
    {
     "name": "Postillon",
@@ -760,6 +760,10 @@
     "value": 54
    },
    {
+    "name": "Piingouin.",
+    "value": 52
+   },
+   {
     "name": "Pporappippam",
     "value": 52
    },
@@ -769,10 +773,6 @@
    },
    {
     "name": "In.esdzz!",
-    "value": 51
-   },
-   {
-    "name": "Piingouin.",
     "value": 51
    },
    {
