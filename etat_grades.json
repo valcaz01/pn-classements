@@ -397,7 +397,7 @@
   "grade": null,
   "humeur": "Au véto",
   "pseudo": "ovetto",
-  "verifie": "2026-11-22T17:10:40+00:00"
+  "verifie": "2026-11-22T20:10:41+00:00"
  },
  "14643312": {
   "alertes": {},
@@ -4333,8 +4333,8 @@
  },
  "25578794": {
   "alertes": {},
-  "depuis": null,
-  "grade": null,
+  "depuis": "2026-11-21T23:00:00+00:00",
+  "grade": "cadet",
   "humeur": "[PN] Cadet",
   "pseudo": "JoyBoy.",
   "verifie": "2026-11-22T19:44:41+00:00"
@@ -5950,6 +5950,14 @@
   "humeur": "[R.F] gendarme supérieur [mag’]",
   "pseudo": "CovidJr",
   "verifie": "2026-11-22T18:42:40+00:00"
+ },
+ "25933083": {
+  "alertes": {},
+  "depuis": null,
+  "grade": null,
+  "humeur": "Redford-Family : Fixer [TS]\r",
+  "pseudo": "CallMeParadis",
+  "verifie": "2026-11-22T20:10:41+00:00"
  },
  "25933194": {
   "alertes": {},
