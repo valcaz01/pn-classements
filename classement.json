@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-22T12:42:29+00:00",
+ "updated": "2026-11-22T12:44:29+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 58
+    "value": 59
    },
    {
     "name": "Icarem",
@@ -112,6 +112,10 @@
     "value": 5
    },
    {
+    "name": "gotica",
+    "value": 5
+   },
+   {
     "name": "Lewddon",
     "value": 5
    },
@@ -129,10 +133,6 @@
    },
    {
     "name": "-Tsukiri-",
-    "value": 4
-   },
-   {
-    "name": "gotica",
     "value": 4
    },
    {
@@ -207,7 +207,7 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 58
+    "value": 59
    },
    {
     "name": "Icarem",
@@ -314,6 +314,10 @@
     "value": 5
    },
    {
+    "name": "gotica",
+    "value": 5
+   },
+   {
     "name": "Lewddon",
     "value": 5
    },
@@ -331,10 +335,6 @@
    },
    {
     "name": "-Tsukiri-",
-    "value": 4
-   },
-   {
-    "name": "gotica",
     "value": 4
    },
    {
@@ -411,11 +411,11 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 1572
+    "value": 1573
    },
    {
     "name": "habbo-160-3",
-    "value": 1515
+    "value": 1517
    },
    {
     "name": "fym",
@@ -613,11 +613,11 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 1572
+    "value": 1573
    },
    {
     "name": "habbo-160-3",
-    "value": 1515
+    "value": 1517
    },
    {
     "name": "fym",
