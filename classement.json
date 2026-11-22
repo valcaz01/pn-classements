@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T23:50:41+00:00",
+ "updated": "2026-11-22T23:52:42+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -259,7 +259,7 @@
    },
    {
     "name": "halos34",
-    "value": 486
+    "value": 488
    },
    {
     "name": "habbo22t",
@@ -319,7 +319,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 237
+    "value": 238
    },
    {
     "name": "Weavem",
@@ -425,7 +425,11 @@
   "week": [
    {
     "name": "-Massimo-",
-    "value": 13
+    "value": 14
+   },
+   {
+    "name": "halos34",
+    "value": 5
    },
    {
     "name": "irysse",
@@ -434,10 +438,6 @@
    {
     "name": "MelMlrr",
     "value": 5
-   },
-   {
-    "name": "halos34",
-    "value": 3
    },
    {
     "name": "Vyp",
