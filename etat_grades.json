@@ -3513,7 +3513,7 @@
   "grade": null,
   "humeur": "[R.F] Policier",
   "pseudo": "LeBeaugosseRF",
-  "verifie": "2026-11-22T00:00:29+00:00"
+  "verifie": "2026-11-22T03:00:29+00:00"
  },
  "25394071": {
   "alertes": {},
@@ -6611,7 +6611,7 @@
   "grade": null,
   "humeur": "slime season 3.",
   "pseudo": ".Future",
-  "verifie": "2026-11-22T00:00:29+00:00"
+  "verifie": "2026-11-22T03:00:29+00:00"
  },
  "26015284": {
   "alertes": {},
@@ -7282,6 +7282,14 @@
   "humeur": "[C.I.A.] Recrue",
   "pseudo": "leMr.IVAR",
   "verifie": "2026-11-22T00:06:28+00:00"
+ },
+ "26039785": {
+  "alertes": {},
+  "depuis": null,
+  "grade": null,
+  "humeur": "Marine des tenebres",
+  "pseudo": "MarineL.epen3",
+  "verifie": "2026-11-22T03:00:29+00:00"
  },
  "26039792": {
   "alertes": {},
