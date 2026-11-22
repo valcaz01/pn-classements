@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T20:00:41+00:00",
+ "updated": "2026-11-22T20:02:41+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -411,7 +411,7 @@
   "total": [
    {
     "name": "habbo-160-3",
-    "value": 1868
+    "value": 1870
    },
    {
     "name": "BiBiCHarBo",
@@ -427,11 +427,11 @@
    },
    {
     "name": "Pantheon_",
-    "value": 771
+    "value": 773
    },
    {
     "name": "Icarem",
-    "value": 649
+    "value": 651
    },
    {
     "name": "Astreu",
@@ -451,7 +451,7 @@
    },
    {
     "name": "habbo22t",
-    "value": 439
+    "value": 437
    },
    {
     "name": "charlie-XCX123",
@@ -467,11 +467,11 @@
    },
    {
     "name": "dadou07",
-    "value": 344
+    "value": 346
    },
    {
     "name": "Mi,hermano",
-    "value": 339
+    "value": 340
    },
    {
     "name": "Fleabag",
@@ -486,12 +486,12 @@
     "value": 296
    },
    {
-    "name": "andrew16a",
-    "value": 294
+    "name": "_.Flora._",
+    "value": 295
    },
    {
-    "name": "_.Flora._",
-    "value": 293
+    "name": "andrew16a",
+    "value": 294
    },
    {
     "name": "Proxymore",
@@ -523,7 +523,7 @@
    },
    {
     "name": "irysse",
-    "value": 156
+    "value": 158
    },
    {
     "name": "sami75.19",
@@ -613,7 +613,7 @@
   "week": [
    {
     "name": "habbo-160-3",
-    "value": 1868
+    "value": 1870
    },
    {
     "name": "BiBiCHarBo",
@@ -629,11 +629,11 @@
    },
    {
     "name": "Pantheon_",
-    "value": 771
+    "value": 773
    },
    {
     "name": "Icarem",
-    "value": 649
+    "value": 651
    },
    {
     "name": "Astreu",
@@ -653,7 +653,7 @@
    },
    {
     "name": "habbo22t",
-    "value": 439
+    "value": 437
    },
    {
     "name": "charlie-XCX123",
@@ -669,11 +669,11 @@
    },
    {
     "name": "dadou07",
-    "value": 344
+    "value": 346
    },
    {
     "name": "Mi,hermano",
-    "value": 339
+    "value": 340
    },
    {
     "name": "Fleabag",
@@ -688,12 +688,12 @@
     "value": 296
    },
    {
-    "name": "andrew16a",
-    "value": 294
+    "name": "_.Flora._",
+    "value": 295
    },
    {
-    "name": "_.Flora._",
-    "value": 293
+    "name": "andrew16a",
+    "value": 294
    },
    {
     "name": "Proxymore",
@@ -725,7 +725,7 @@
    },
    {
     "name": "irysse",
-    "value": 156
+    "value": 158
    },
    {
     "name": "sami75.19",
