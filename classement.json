@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T06:56:28+00:00",
+ "updated": "2026-11-22T06:58:29+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -92,6 +92,10 @@
     "value": 7
    },
    {
+    "name": "_.Flora._",
+    "value": 6
+   },
+   {
     "name": "Monsieur-RF",
     "value": 6
    },
@@ -105,10 +109,6 @@
    },
    {
     "name": ".Dylan.",
-    "value": 5
-   },
-   {
-    "name": "_.Flora._",
     "value": 5
    },
    {
@@ -294,6 +294,10 @@
     "value": 7
    },
    {
+    "name": "_.Flora._",
+    "value": 6
+   },
+   {
     "name": "Monsieur-RF",
     "value": 6
    },
@@ -307,10 +311,6 @@
    },
    {
     "name": ".Dylan.",
-    "value": 5
-   },
-   {
-    "name": "_.Flora._",
     "value": 5
    },
    {
@@ -531,7 +531,7 @@
    },
    {
     "name": "_.Flora._",
-    "value": 81
+    "value": 82
    },
    {
     "name": "sheila3738",
@@ -733,7 +733,7 @@
    },
    {
     "name": "_.Flora._",
-    "value": 81
+    "value": 82
    },
    {
     "name": "sheila3738",
