@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T21:46:41+00:00",
+ "updated": "2026-11-22T21:48:40+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -148,6 +148,10 @@
     "value": 3
    },
    {
+    "name": "Fanny-148",
+    "value": 3
+   },
+   {
     "name": "Fleabag",
     "value": 3
    },
@@ -169,10 +173,6 @@
    },
    {
     "name": "BakeryJuice",
-    "value": 2
-   },
-   {
-    "name": "Fanny-148",
     "value": 2
    },
    {
@@ -350,6 +350,10 @@
     "value": 3
    },
    {
+    "name": "Fanny-148",
+    "value": 3
+   },
+   {
     "name": "Fleabag",
     "value": 3
    },
@@ -371,10 +375,6 @@
    },
    {
     "name": "BakeryJuice",
-    "value": 2
-   },
-   {
-    "name": "Fanny-148",
     "value": 2
    },
    {
@@ -427,7 +427,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 868
+    "value": 870
    },
    {
     "name": "Icarem",
@@ -475,7 +475,7 @@
    },
    {
     "name": "andrew16a",
-    "value": 340
+    "value": 342
    },
    {
     "name": "flo578",
@@ -495,7 +495,7 @@
    },
    {
     "name": ".Libellule",
-    "value": 289
+    "value": 291
    },
    {
     "name": "Proxymore",
@@ -531,7 +531,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 137
+    "value": 139
    },
    {
     "name": "sami75.19",
@@ -566,10 +566,6 @@
     "value": 54
    },
    {
-    "name": "MagicalArt",
-    "value": 52
-   },
-   {
     "name": "Pporappippam",
     "value": 52
    },
@@ -579,6 +575,10 @@
    },
    {
     "name": "In.esdzz!",
+    "value": 51
+   },
+   {
+    "name": "MagicalArt",
     "value": 51
    },
    {
@@ -629,7 +629,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 868
+    "value": 870
    },
    {
     "name": "Icarem",
@@ -677,7 +677,7 @@
    },
    {
     "name": "andrew16a",
-    "value": 340
+    "value": 342
    },
    {
     "name": "flo578",
@@ -697,7 +697,7 @@
    },
    {
     "name": ".Libellule",
-    "value": 289
+    "value": 291
    },
    {
     "name": "Proxymore",
@@ -733,7 +733,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 137
+    "value": 139
    },
    {
     "name": "sami75.19",
@@ -768,10 +768,6 @@
     "value": 54
    },
    {
-    "name": "MagicalArt",
-    "value": 52
-   },
-   {
     "name": "Pporappippam",
     "value": 52
    },
@@ -781,6 +777,10 @@
    },
    {
     "name": "In.esdzz!",
+    "value": 51
+   },
+   {
+    "name": "MagicalArt",
     "value": 51
    },
    {
