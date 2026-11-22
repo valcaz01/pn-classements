@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T10:14:29+00:00",
+ "updated": "2026-11-22T10:16:28+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -8,12 +8,12 @@
     "value": 50
    },
    {
-    "name": "fym",
-    "value": 34
+    "name": "Icarem",
+    "value": 35
    },
    {
-    "name": "Icarem",
-    "value": 33
+    "name": "fym",
+    "value": 34
    },
    {
     "name": "charlie-XCX123",
@@ -210,12 +210,12 @@
     "value": 50
    },
    {
-    "name": "fym",
-    "value": 34
+    "name": "Icarem",
+    "value": 35
    },
    {
-    "name": "Icarem",
-    "value": 33
+    "name": "fym",
+    "value": 34
    },
    {
     "name": "charlie-XCX123",
@@ -411,11 +411,11 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 1439
+    "value": 1440
    },
    {
     "name": "habbo-160-3",
-    "value": 1369
+    "value": 1371
    },
    {
     "name": "fym",
@@ -447,7 +447,7 @@
    },
    {
     "name": "habbo22t",
-    "value": 428
+    "value": 429
    },
    {
     "name": "charlie-XCX123",
@@ -519,7 +519,7 @@
    },
    {
     "name": "Postillon",
-    "value": 122
+    "value": 124
    },
    {
     "name": "_.Flora._",
@@ -598,12 +598,12 @@
     "value": 25
    },
    {
-    "name": "Sciel",
-    "value": 22
+    "name": "Fanny-148",
+    "value": 23
    },
    {
-    "name": "Fanny-148",
-    "value": 21
+    "name": "Sciel",
+    "value": 22
    },
    {
     "name": "Gunna.",
@@ -613,11 +613,11 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 1439
+    "value": 1440
    },
    {
     "name": "habbo-160-3",
-    "value": 1369
+    "value": 1371
    },
    {
     "name": "fym",
@@ -649,7 +649,7 @@
    },
    {
     "name": "habbo22t",
-    "value": 428
+    "value": 429
    },
    {
     "name": "charlie-XCX123",
@@ -721,7 +721,7 @@
    },
    {
     "name": "Postillon",
-    "value": 122
+    "value": 124
    },
    {
     "name": "_.Flora._",
@@ -800,12 +800,12 @@
     "value": 25
    },
    {
-    "name": "Sciel",
-    "value": 22
+    "name": "Fanny-148",
+    "value": 23
    },
    {
-    "name": "Fanny-148",
-    "value": 21
+    "name": "Sciel",
+    "value": 22
    },
    {
     "name": "Gunna.",
