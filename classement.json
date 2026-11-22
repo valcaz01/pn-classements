@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T10:48:28+00:00",
+ "updated": "2026-11-22T10:50:29+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -411,11 +411,11 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 1467
+    "value": 1470
    },
    {
     "name": "habbo-160-3",
-    "value": 1403
+    "value": 1405
    },
    {
     "name": "fym",
@@ -435,7 +435,7 @@
    },
    {
     "name": "Icarem",
-    "value": 543
+    "value": 544
    },
    {
     "name": "Astreu",
@@ -499,7 +499,7 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 220
+    "value": 222
    },
    {
     "name": "-Tsukiri-",
@@ -510,12 +510,12 @@
     "value": 191
    },
    {
-    "name": "irysse",
-    "value": 153
+    "name": "Postillon",
+    "value": 154
    },
    {
-    "name": "Postillon",
-    "value": 152
+    "name": "irysse",
+    "value": 153
    },
    {
     "name": "sami75.19",
@@ -523,7 +523,7 @@
    },
    {
     "name": "_.Flora._",
-    "value": 125
+    "value": 127
    },
    {
     "name": "Padre",
@@ -550,15 +550,15 @@
     "value": 52
    },
    {
+    "name": "Fanny-148",
+    "value": 51
+   },
+   {
     "name": "In.esdzz!",
     "value": 51
    },
    {
     "name": "BOuclette.13",
-    "value": 49
-   },
-   {
-    "name": "Fanny-148",
     "value": 49
    },
    {
@@ -613,11 +613,11 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 1467
+    "value": 1470
    },
    {
     "name": "habbo-160-3",
-    "value": 1403
+    "value": 1405
    },
    {
     "name": "fym",
@@ -637,7 +637,7 @@
    },
    {
     "name": "Icarem",
-    "value": 543
+    "value": 544
    },
    {
     "name": "Astreu",
@@ -701,7 +701,7 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 220
+    "value": 222
    },
    {
     "name": "-Tsukiri-",
@@ -712,12 +712,12 @@
     "value": 191
    },
    {
-    "name": "irysse",
-    "value": 153
+    "name": "Postillon",
+    "value": 154
    },
    {
-    "name": "Postillon",
-    "value": 152
+    "name": "irysse",
+    "value": 153
    },
    {
     "name": "sami75.19",
@@ -725,7 +725,7 @@
    },
    {
     "name": "_.Flora._",
-    "value": 125
+    "value": 127
    },
    {
     "name": "Padre",
@@ -752,15 +752,15 @@
     "value": 52
    },
    {
+    "name": "Fanny-148",
+    "value": 51
+   },
+   {
     "name": "In.esdzz!",
     "value": 51
    },
    {
     "name": "BOuclette.13",
-    "value": 49
-   },
-   {
-    "name": "Fanny-148",
     "value": 49
    },
    {
