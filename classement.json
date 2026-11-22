@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T22:04:43+00:00",
+ "updated": "2026-11-22T22:06:42+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -427,7 +427,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 884
+    "value": 886
    },
    {
     "name": "Icarem",
@@ -491,11 +491,11 @@
    },
    {
     "name": ".Libellule",
-    "value": 307
+    "value": 309
    },
    {
     "name": "_.Flora._",
-    "value": 300
+    "value": 301
    },
    {
     "name": "Proxymore",
@@ -527,7 +527,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 151
+    "value": 153
    },
    {
     "name": "Hectorr",
@@ -558,20 +558,20 @@
     "value": 75
    },
    {
+    "name": "MagicalArt",
+    "value": 69
+   },
+   {
     "name": "Imondi",
     "value": 68
    },
    {
-    "name": "MagicalArt",
-    "value": 67
+    "name": "Fanny-148",
+    "value": 55
    },
    {
     "name": ".Dylan.",
     "value": 54
-   },
-   {
-    "name": "Fanny-148",
-    "value": 53
    },
    {
     "name": "Pporappippam",
@@ -629,7 +629,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 884
+    "value": 886
    },
    {
     "name": "Icarem",
@@ -693,11 +693,11 @@
    },
    {
     "name": ".Libellule",
-    "value": 307
+    "value": 309
    },
    {
     "name": "_.Flora._",
-    "value": 300
+    "value": 301
    },
    {
     "name": "Proxymore",
@@ -729,7 +729,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 151
+    "value": 153
    },
    {
     "name": "Hectorr",
@@ -760,20 +760,20 @@
     "value": 75
    },
    {
+    "name": "MagicalArt",
+    "value": 69
+   },
+   {
     "name": "Imondi",
     "value": 68
    },
    {
-    "name": "MagicalArt",
-    "value": 67
+    "name": "Fanny-148",
+    "value": 55
    },
    {
     "name": ".Dylan.",
     "value": 54
-   },
-   {
-    "name": "Fanny-148",
-    "value": 53
    },
    {
     "name": "Pporappippam",
