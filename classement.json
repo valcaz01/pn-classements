@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T10:12:29+00:00",
+ "updated": "2026-11-22T10:14:29+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -411,11 +411,11 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 1437
+    "value": 1439
    },
    {
     "name": "habbo-160-3",
-    "value": 1367
+    "value": 1369
    },
    {
     "name": "fym",
@@ -447,7 +447,7 @@
    },
    {
     "name": "habbo22t",
-    "value": 426
+    "value": 428
    },
    {
     "name": "charlie-XCX123",
@@ -519,7 +519,7 @@
    },
    {
     "name": "Postillon",
-    "value": 120
+    "value": 122
    },
    {
     "name": "_.Flora._",
@@ -602,22 +602,22 @@
     "value": 22
    },
    {
-    "name": "Gunna.",
-    "value": 20
+    "name": "Fanny-148",
+    "value": 21
    },
    {
-    "name": "AllEyesOnMe57",
-    "value": 19
+    "name": "Gunna.",
+    "value": 20
    }
   ],
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 1437
+    "value": 1439
    },
    {
     "name": "habbo-160-3",
-    "value": 1367
+    "value": 1369
    },
    {
     "name": "fym",
@@ -649,7 +649,7 @@
    },
    {
     "name": "habbo22t",
-    "value": 426
+    "value": 428
    },
    {
     "name": "charlie-XCX123",
@@ -721,7 +721,7 @@
    },
    {
     "name": "Postillon",
-    "value": 120
+    "value": 122
    },
    {
     "name": "_.Flora._",
@@ -804,12 +804,12 @@
     "value": 22
    },
    {
-    "name": "Gunna.",
-    "value": 20
+    "name": "Fanny-148",
+    "value": 21
    },
    {
-    "name": "AllEyesOnMe57",
-    "value": 19
+    "name": "Gunna.",
+    "value": 20
    }
   ]
  }
