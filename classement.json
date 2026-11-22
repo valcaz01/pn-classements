@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T14:24:30+00:00",
+ "updated": "2026-11-22T14:26:30+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -411,7 +411,7 @@
   "total": [
    {
     "name": "habbo-160-3",
-    "value": 1616
+    "value": 1618
    },
    {
     "name": "BiBiCHarBo",
@@ -447,7 +447,7 @@
    },
    {
     "name": "Lovepanda",
-    "value": 456
+    "value": 458
    },
    {
     "name": "habbo22t",
@@ -502,11 +502,11 @@
     "value": 253
    },
    {
-    "name": "-Tsukiri-",
-    "value": 212
+    "name": "_.Flora._",
+    "value": 214
    },
    {
-    "name": "_.Flora._",
+    "name": "-Tsukiri-",
     "value": 212
    },
    {
@@ -602,18 +602,18 @@
     "value": 30
    },
    {
-    "name": "bhabbod49-3",
-    "value": 27
+    "name": "BnBoy",
+    "value": 28
    },
    {
-    "name": "BnBoy",
-    "value": 26
+    "name": "bhabbod49-3",
+    "value": 27
    }
   ],
   "week": [
    {
     "name": "habbo-160-3",
-    "value": 1616
+    "value": 1618
    },
    {
     "name": "BiBiCHarBo",
@@ -649,7 +649,7 @@
    },
    {
     "name": "Lovepanda",
-    "value": 456
+    "value": 458
    },
    {
     "name": "habbo22t",
@@ -704,11 +704,11 @@
     "value": 253
    },
    {
-    "name": "-Tsukiri-",
-    "value": 212
+    "name": "_.Flora._",
+    "value": 214
    },
    {
-    "name": "_.Flora._",
+    "name": "-Tsukiri-",
     "value": 212
    },
    {
@@ -804,12 +804,12 @@
     "value": 30
    },
    {
-    "name": "bhabbod49-3",
-    "value": 27
+    "name": "BnBoy",
+    "value": 28
    },
    {
-    "name": "BnBoy",
-    "value": 26
+    "name": "bhabbod49-3",
+    "value": 27
    }
   ]
  }
