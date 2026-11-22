@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T11:30:29+00:00",
+ "updated": "2026-11-22T11:32:30+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -116,6 +116,10 @@
     "value": 5
    },
    {
+    "name": "Mi,hermano",
+    "value": 5
+   },
+   {
     "name": "Mr.Dino",
     "value": 5
    },
@@ -129,10 +133,6 @@
    },
    {
     "name": "gotica",
-    "value": 4
-   },
-   {
-    "name": "Mi,hermano",
     "value": 4
    },
    {
@@ -318,6 +318,10 @@
     "value": 5
    },
    {
+    "name": "Mi,hermano",
+    "value": 5
+   },
+   {
     "name": "Mr.Dino",
     "value": 5
    },
@@ -331,10 +335,6 @@
    },
    {
     "name": "gotica",
-    "value": 4
-   },
-   {
-    "name": "Mi,hermano",
     "value": 4
    },
    {
@@ -411,11 +411,11 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 1504
+    "value": 1507
    },
    {
     "name": "habbo-160-3",
-    "value": 1444
+    "value": 1446
    },
    {
     "name": "fym",
@@ -427,7 +427,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 729
+    "value": 731
    },
    {
     "name": "Shizuku",
@@ -435,7 +435,7 @@
    },
    {
     "name": "Icarem",
-    "value": 555
+    "value": 557
    },
    {
     "name": "Astreu",
@@ -495,11 +495,11 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 247
+    "value": 249
    },
    {
     "name": ".Libellule",
-    "value": 243
+    "value": 245
    },
    {
     "name": "-Tsukiri-",
@@ -570,11 +570,11 @@
     "value": 45
    },
    {
-    "name": "alexandre-780",
-    "value": 41
+    "name": "Imondi",
+    "value": 43
    },
    {
-    "name": "Imondi",
+    "name": "alexandre-780",
     "value": 41
    },
    {
@@ -613,11 +613,11 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 1504
+    "value": 1507
    },
    {
     "name": "habbo-160-3",
-    "value": 1444
+    "value": 1446
    },
    {
     "name": "fym",
@@ -629,7 +629,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 729
+    "value": 731
    },
    {
     "name": "Shizuku",
@@ -637,7 +637,7 @@
    },
    {
     "name": "Icarem",
-    "value": 555
+    "value": 557
    },
    {
     "name": "Astreu",
@@ -697,11 +697,11 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 247
+    "value": 249
    },
    {
     "name": ".Libellule",
-    "value": 243
+    "value": 245
    },
    {
     "name": "-Tsukiri-",
@@ -772,11 +772,11 @@
     "value": 45
    },
    {
-    "name": "alexandre-780",
-    "value": 41
+    "name": "Imondi",
+    "value": 43
    },
    {
-    "name": "Imondi",
+    "name": "alexandre-780",
     "value": 41
    },
    {
