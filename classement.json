@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-22T10:18:28+00:00",
+ "updated": "2026-11-22T10:20:28+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 51
+    "value": 52
    },
    {
     "name": "Icarem",
@@ -84,11 +84,11 @@
     "value": 13
    },
    {
-    "name": "guest77145",
-    "value": 9
+    "name": "Postillon",
+    "value": 10
    },
    {
-    "name": "Postillon",
+    "name": "guest77145",
     "value": 9
    },
    {
@@ -207,7 +207,7 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 51
+    "value": 52
    },
    {
     "name": "Icarem",
@@ -286,11 +286,11 @@
     "value": 13
    },
    {
-    "name": "guest77145",
-    "value": 9
+    "name": "Postillon",
+    "value": 10
    },
    {
-    "name": "Postillon",
+    "name": "guest77145",
     "value": 9
    },
    {
@@ -411,11 +411,11 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 1440
+    "value": 1441
    },
    {
     "name": "habbo-160-3",
-    "value": 1373
+    "value": 1375
    },
    {
     "name": "fym",
@@ -590,15 +590,15 @@
     "value": 27
    },
    {
+    "name": "Fanny-148",
+    "value": 27
+   },
+   {
     "name": "Freminet",
     "value": 26
    },
    {
     "name": "-Oiseau",
-    "value": 25
-   },
-   {
-    "name": "Fanny-148",
     "value": 25
    },
    {
@@ -613,11 +613,11 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 1440
+    "value": 1441
    },
    {
     "name": "habbo-160-3",
-    "value": 1373
+    "value": 1375
    },
    {
     "name": "fym",
@@ -792,15 +792,15 @@
     "value": 27
    },
    {
+    "name": "Fanny-148",
+    "value": 27
+   },
+   {
     "name": "Freminet",
     "value": 26
    },
    {
     "name": "-Oiseau",
-    "value": 25
-   },
-   {
-    "name": "Fanny-148",
     "value": 25
    },
    {
