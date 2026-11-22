@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T20:18:41+00:00",
+ "updated": "2026-11-22T20:20:42+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -100,6 +100,10 @@
     "value": 9
    },
    {
+    "name": "Mi,hermano",
+    "value": 8
+   },
+   {
     "name": "Mr.Dino",
     "value": 8
    },
@@ -113,10 +117,6 @@
    },
    {
     "name": "marinadrk",
-    "value": 7
-   },
-   {
-    "name": "Mi,hermano",
     "value": 7
    },
    {
@@ -302,6 +302,10 @@
     "value": 9
    },
    {
+    "name": "Mi,hermano",
+    "value": 8
+   },
+   {
     "name": "Mr.Dino",
     "value": 8
    },
@@ -315,10 +319,6 @@
    },
    {
     "name": "marinadrk",
-    "value": 7
-   },
-   {
-    "name": "Mi,hermano",
     "value": 7
    },
    {
@@ -427,11 +427,11 @@
    },
    {
     "name": "Pantheon_",
-    "value": 787
+    "value": 789
    },
    {
     "name": "Icarem",
-    "value": 665
+    "value": 667
    },
    {
     "name": "Astreu",
@@ -447,7 +447,7 @@
    },
    {
     "name": "halos34",
-    "value": 479
+    "value": 481
    },
    {
     "name": "habbo22t",
@@ -482,12 +482,12 @@
     "value": 317
    },
    {
-    "name": "_.Flora._",
-    "value": 299
+    "name": "andrew16a",
+    "value": 300
    },
    {
-    "name": "andrew16a",
-    "value": 298
+    "name": "_.Flora._",
+    "value": 299
    },
    {
     "name": "flo578",
@@ -535,15 +535,15 @@
    },
    {
     "name": "Hectorr",
-    "value": 102
+    "value": 104
+   },
+   {
+    "name": "Mr.Dino",
+    "value": 101
    },
    {
     "name": ".:Krustiz:.",
     "value": 100
-   },
-   {
-    "name": "Mr.Dino",
-    "value": 99
    },
    {
     "name": "Piingouin.",
@@ -629,11 +629,11 @@
    },
    {
     "name": "Pantheon_",
-    "value": 787
+    "value": 789
    },
    {
     "name": "Icarem",
-    "value": 665
+    "value": 667
    },
    {
     "name": "Astreu",
@@ -649,7 +649,7 @@
    },
    {
     "name": "halos34",
-    "value": 479
+    "value": 481
    },
    {
     "name": "habbo22t",
@@ -684,12 +684,12 @@
     "value": 317
    },
    {
-    "name": "_.Flora._",
-    "value": 299
+    "name": "andrew16a",
+    "value": 300
    },
    {
-    "name": "andrew16a",
-    "value": 298
+    "name": "_.Flora._",
+    "value": 299
    },
    {
     "name": "flo578",
@@ -737,15 +737,15 @@
    },
    {
     "name": "Hectorr",
-    "value": 102
+    "value": 104
+   },
+   {
+    "name": "Mr.Dino",
+    "value": 101
    },
    {
     "name": ".:Krustiz:.",
     "value": 100
-   },
-   {
-    "name": "Mr.Dino",
-    "value": 99
    },
    {
     "name": "Piingouin.",
