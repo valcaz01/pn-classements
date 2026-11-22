@@ -1,12 +1,8 @@
 {
- "updated": "2026-11-22T00:36:29+00:00",
+ "updated": "2026-11-22T00:38:28+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
-   {
-    "name": ".:Krustiz:.",
-    "value": 61
-   },
    {
     "name": "BiBiCHarBo",
     "value": 47
@@ -26,6 +22,10 @@
    {
     "name": "Icarem",
     "value": 31
+   },
+   {
+    "name": ".:Krustiz:.",
+    "value": 28
    },
    {
     "name": "pevanq640",
@@ -206,10 +206,6 @@
   ],
   "week": [
    {
-    "name": ".:Krustiz:.",
-    "value": 61
-   },
-   {
     "name": "BiBiCHarBo",
     "value": 47
    },
@@ -228,6 +224,10 @@
    {
     "name": "Icarem",
     "value": 31
+   },
+   {
+    "name": ".:Krustiz:.",
+    "value": 28
    },
    {
     "name": "pevanq640",
@@ -423,7 +423,7 @@
    },
    {
     "name": "marinadrk",
-    "value": 747
+    "value": 749
    },
    {
     "name": "Pantheon_",
@@ -463,7 +463,7 @@
    },
    {
     "name": "halos34",
-    "value": 310
+    "value": 311
    },
    {
     "name": "Non-Non",
@@ -625,7 +625,7 @@
    },
    {
     "name": "marinadrk",
-    "value": 747
+    "value": 749
    },
    {
     "name": "Pantheon_",
@@ -665,7 +665,7 @@
    },
    {
     "name": "halos34",
-    "value": 310
+    "value": 311
    },
    {
     "name": "Non-Non",
