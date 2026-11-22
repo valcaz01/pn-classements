@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T11:06:29+00:00",
+ "updated": "2026-11-22T11:08:29+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -411,11 +411,11 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 1481
+    "value": 1483
    },
    {
     "name": "habbo-160-3",
-    "value": 1421
+    "value": 1423
    },
    {
     "name": "fym",
@@ -435,7 +435,7 @@
    },
    {
     "name": "Icarem",
-    "value": 547
+    "value": 549
    },
    {
     "name": "Astreu",
@@ -499,7 +499,7 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 234
+    "value": 236
    },
    {
     "name": "-Tsukiri-",
@@ -511,7 +511,7 @@
    },
    {
     "name": "Postillon",
-    "value": 169
+    "value": 170
    },
    {
     "name": "irysse",
@@ -594,6 +594,10 @@
     "value": 27
    },
    {
+    "name": "CharlesWish",
+    "value": 27
+   },
+   {
     "name": "Freminet",
     "value": 26
    },
@@ -602,22 +606,18 @@
     "value": 25
    },
    {
-    "name": "CharlesWish",
-    "value": 25
-   },
-   {
-    "name": "Sciel",
-    "value": 22
+    "name": "Imondi",
+    "value": 23
    }
   ],
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 1481
+    "value": 1483
    },
    {
     "name": "habbo-160-3",
-    "value": 1421
+    "value": 1423
    },
    {
     "name": "fym",
@@ -637,7 +637,7 @@
    },
    {
     "name": "Icarem",
-    "value": 547
+    "value": 549
    },
    {
     "name": "Astreu",
@@ -701,7 +701,7 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 234
+    "value": 236
    },
    {
     "name": "-Tsukiri-",
@@ -713,7 +713,7 @@
    },
    {
     "name": "Postillon",
-    "value": 169
+    "value": 170
    },
    {
     "name": "irysse",
@@ -796,6 +796,10 @@
     "value": 27
    },
    {
+    "name": "CharlesWish",
+    "value": 27
+   },
+   {
     "name": "Freminet",
     "value": 26
    },
@@ -804,12 +808,8 @@
     "value": 25
    },
    {
-    "name": "CharlesWish",
-    "value": 25
-   },
-   {
-    "name": "Sciel",
-    "value": 22
+    "name": "Imondi",
+    "value": 23
    }
   ]
  }
