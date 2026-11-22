@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T19:44:41+00:00",
+ "updated": "2026-11-22T19:46:41+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -9,7 +9,7 @@
    },
    {
     "name": "Icarem",
-    "value": 42
+    "value": 44
    },
    {
     "name": "fym",
@@ -211,7 +211,7 @@
    },
    {
     "name": "Icarem",
-    "value": 42
+    "value": 44
    },
    {
     "name": "fym",
@@ -427,11 +427,11 @@
    },
    {
     "name": "Pantheon_",
-    "value": 755
+    "value": 757
    },
    {
     "name": "Icarem",
-    "value": 636
+    "value": 637
    },
    {
     "name": "Astreu",
@@ -443,7 +443,7 @@
    },
    {
     "name": "Lovepanda",
-    "value": 547
+    "value": 549
    },
    {
     "name": "halos34",
@@ -503,7 +503,7 @@
    },
    {
     "name": ".Libellule",
-    "value": 257
+    "value": 259
    },
    {
     "name": "Weavem",
@@ -629,11 +629,11 @@
    },
    {
     "name": "Pantheon_",
-    "value": 755
+    "value": 757
    },
    {
     "name": "Icarem",
-    "value": 636
+    "value": 637
    },
    {
     "name": "Astreu",
@@ -645,7 +645,7 @@
    },
    {
     "name": "Lovepanda",
-    "value": 547
+    "value": 549
    },
    {
     "name": "halos34",
@@ -705,7 +705,7 @@
    },
    {
     "name": ".Libellule",
-    "value": 257
+    "value": 259
    },
    {
     "name": "Weavem",
