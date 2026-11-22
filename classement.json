@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T19:16:40+00:00",
+ "updated": "2026-11-22T19:18:40+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -88,15 +88,15 @@
     "value": 11
    },
    {
+    "name": "Monsieur-RF",
+    "value": 10
+   },
+   {
     "name": "Postillon",
     "value": 10
    },
    {
     "name": "guest77145",
-    "value": 9
-   },
-   {
-    "name": "Monsieur-RF",
     "value": 9
    },
    {
@@ -188,6 +188,10 @@
     "value": 2
    },
    {
+    "name": "Padre",
+    "value": 2
+   },
+   {
     "name": "Sheesh.",
     "value": 2
    },
@@ -197,10 +201,6 @@
    },
    {
     "name": ".::Law::.",
-    "value": 1
-   },
-   {
-    "name": "Astalue",
     "value": 1
    }
   ],
@@ -290,15 +290,15 @@
     "value": 11
    },
    {
+    "name": "Monsieur-RF",
+    "value": 10
+   },
+   {
     "name": "Postillon",
     "value": 10
    },
    {
     "name": "guest77145",
-    "value": 9
-   },
-   {
-    "name": "Monsieur-RF",
     "value": 9
    },
    {
@@ -390,6 +390,10 @@
     "value": 2
    },
    {
+    "name": "Padre",
+    "value": 2
+   },
+   {
     "name": "Sheesh.",
     "value": 2
    },
@@ -399,10 +403,6 @@
    },
    {
     "name": ".::Law::.",
-    "value": 1
-   },
-   {
-    "name": "Astalue",
     "value": 1
    }
   ]
@@ -523,7 +523,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 141
+    "value": 143
    },
    {
     "name": "sami75.19",
@@ -531,7 +531,7 @@
    },
    {
     "name": "Padre",
-    "value": 120
+    "value": 121
    },
    {
     "name": ".:Krustiz:.",
@@ -725,7 +725,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 141
+    "value": 143
    },
    {
     "name": "sami75.19",
@@ -733,7 +733,7 @@
    },
    {
     "name": "Padre",
-    "value": 120
+    "value": 121
    },
    {
     "name": ".:Krustiz:.",
