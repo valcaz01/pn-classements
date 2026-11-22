@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T21:44:40+00:00",
+ "updated": "2026-11-22T21:46:41+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -13,7 +13,7 @@
    },
    {
     "name": "fym",
-    "value": 37
+    "value": 38
    },
    {
     "name": "pevanq640",
@@ -57,7 +57,7 @@
    },
    {
     "name": "flo578",
-    "value": 20
+    "value": 21
    },
    {
     "name": "Non-Non",
@@ -140,6 +140,10 @@
     "value": 4
    },
    {
+    "name": "SMPSHomer",
+    "value": 4
+   },
+   {
     "name": "alexandre-780",
     "value": 3
    },
@@ -157,10 +161,6 @@
    },
    {
     "name": "Sciel",
-    "value": 3
-   },
-   {
-    "name": "SMPSHomer",
     "value": 3
    },
    {
@@ -215,7 +215,7 @@
    },
    {
     "name": "fym",
-    "value": 37
+    "value": 38
    },
    {
     "name": "pevanq640",
@@ -259,7 +259,7 @@
    },
    {
     "name": "flo578",
-    "value": 20
+    "value": 21
    },
    {
     "name": "Non-Non",
@@ -342,6 +342,10 @@
     "value": 4
    },
    {
+    "name": "SMPSHomer",
+    "value": 4
+   },
+   {
     "name": "alexandre-780",
     "value": 3
    },
@@ -359,10 +363,6 @@
    },
    {
     "name": "Sciel",
-    "value": 3
-   },
-   {
-    "name": "SMPSHomer",
     "value": 3
    },
    {
@@ -427,7 +427,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 866
+    "value": 868
    },
    {
     "name": "Icarem",
@@ -475,7 +475,7 @@
    },
    {
     "name": "andrew16a",
-    "value": 338
+    "value": 340
    },
    {
     "name": "flo578",
@@ -495,7 +495,7 @@
    },
    {
     "name": ".Libellule",
-    "value": 287
+    "value": 289
    },
    {
     "name": "Proxymore",
@@ -530,12 +530,12 @@
     "value": 150
    },
    {
-    "name": "sami75.19",
+    "name": "Mr.Dino",
     "value": 137
    },
    {
-    "name": "Mr.Dino",
-    "value": 135
+    "name": "sami75.19",
+    "value": 137
    },
    {
     "name": "Padre",
@@ -566,6 +566,10 @@
     "value": 54
    },
    {
+    "name": "MagicalArt",
+    "value": 52
+   },
+   {
     "name": "Pporappippam",
     "value": 52
    },
@@ -576,10 +580,6 @@
    {
     "name": "In.esdzz!",
     "value": 51
-   },
-   {
-    "name": "MagicalArt",
-    "value": 50
    },
    {
     "name": "BOuclette.13",
@@ -629,7 +629,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 866
+    "value": 868
    },
    {
     "name": "Icarem",
@@ -677,7 +677,7 @@
    },
    {
     "name": "andrew16a",
-    "value": 338
+    "value": 340
    },
    {
     "name": "flo578",
@@ -697,7 +697,7 @@
    },
    {
     "name": ".Libellule",
-    "value": 287
+    "value": 289
    },
    {
     "name": "Proxymore",
@@ -732,12 +732,12 @@
     "value": 150
    },
    {
-    "name": "sami75.19",
+    "name": "Mr.Dino",
     "value": 137
    },
    {
-    "name": "Mr.Dino",
-    "value": 135
+    "name": "sami75.19",
+    "value": 137
    },
    {
     "name": "Padre",
@@ -768,6 +768,10 @@
     "value": 54
    },
    {
+    "name": "MagicalArt",
+    "value": 52
+   },
+   {
     "name": "Pporappippam",
     "value": 52
    },
@@ -778,10 +782,6 @@
    {
     "name": "In.esdzz!",
     "value": 51
-   },
-   {
-    "name": "MagicalArt",
-    "value": 50
    },
    {
     "name": "BOuclette.13",
