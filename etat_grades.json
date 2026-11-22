@@ -613,7 +613,7 @@
   "grade": null,
   "humeur": "",
   "pseudo": "mimika230",
-  "verifie": "2026-11-22T15:24:30+00:00"
+  "verifie": "2026-11-22T18:24:40+00:00"
  },
  "16767926": {
   "alertes": {},
@@ -3065,7 +3065,7 @@
   "grade": null,
   "humeur": "",
   "pseudo": "Hanunu",
-  "verifie": "2026-11-22T15:24:30+00:00"
+  "verifie": "2026-11-22T18:24:40+00:00"
  },
  "24852206": {
   "alertes": {},
@@ -4201,7 +4201,7 @@
   "grade": null,
   "humeur": "[PN]  Recrue",
   "pseudo": "-Alaix-",
-  "verifie": "2026-11-22T15:24:30+00:00"
+  "verifie": "2026-11-22T18:24:40+00:00"
  },
  "25559162": {
   "alertes": {},
@@ -4465,7 +4465,7 @@
   "grade": null,
   "humeur": "",
   "pseudo": "skskkssisksjjs",
-  "verifie": "2026-11-22T15:24:30+00:00"
+  "verifie": "2026-11-22T18:24:40+00:00"
  },
  "25652681": {
   "alertes": {},
@@ -4785,7 +4785,7 @@
   "grade": null,
   "humeur": "",
   "pseudo": "Laurinebis",
-  "verifie": "2026-11-22T15:24:30+00:00"
+  "verifie": "2026-11-22T18:24:40+00:00"
  },
  "25736811": {
   "alertes": {},
@@ -6153,7 +6153,7 @@
   "grade": null,
   "humeur": "",
   "pseudo": "Lucette22",
-  "verifie": "2026-11-22T15:24:30+00:00"
+  "verifie": "2026-11-22T18:24:40+00:00"
  },
  "25955785": {
   "alertes": {},
@@ -6234,6 +6234,14 @@
   "humeur": "QUE DU VIRTUEL ET NON REAL.",
   "pseudo": "l00laa",
   "verifie": "2026-11-22T16:25:01+00:00"
+ },
+ "25960042": {
+  "alertes": {},
+  "depuis": null,
+  "grade": null,
+  "humeur": "Recherche Coiffure Hime pas Chère.",
+  "pseudo": "Yemmek",
+  "verifie": "2026-11-22T18:24:40+00:00"
  },
  "25960110": {
   "alertes": {},
@@ -6497,7 +6505,7 @@
   "grade": null,
   "humeur": "[F.B.I] Agent [Flaeyl]",
   "pseudo": "Toscane02",
-  "verifie": "2026-11-22T15:24:30+00:00"
+  "verifie": "2026-11-22T18:24:40+00:00"
  },
  "25974789": {
   "alertes": {},
@@ -6522,6 +6530,14 @@
   "humeur": "",
   "pseudo": "Si-seul",
   "verifie": "2026-11-22T17:34:41+00:00"
+ },
+ "25975480": {
+  "alertes": {},
+  "depuis": null,
+  "grade": null,
+  "humeur": "[P.N] Recrue",
+  "pseudo": "cowboysd4",
+  "verifie": "2026-11-22T18:24:40+00:00"
  },
  "25976534": {
   "alertes": {},
@@ -7045,7 +7061,7 @@
   "grade": null,
   "humeur": "[R.F] Aspirateur de bulles et aideur",
   "pseudo": "RF-Bulles-GN",
-  "verifie": "2026-11-22T15:24:30+00:00"
+  "verifie": "2026-11-22T18:24:40+00:00"
  },
  "26002160": {
   "alertes": {},
@@ -8795,7 +8811,7 @@
   "grade": null,
   "humeur": "",
   "pseudo": "Gonel",
-  "verifie": "2026-11-22T15:24:30+00:00"
+  "verifie": "2026-11-22T18:24:40+00:00"
  },
  "26042887": {
   "alertes": {},
