@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T11:24:29+00:00",
+ "updated": "2026-11-22T11:26:28+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -411,11 +411,11 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 1499
+    "value": 1501
    },
    {
     "name": "habbo-160-3",
-    "value": 1438
+    "value": 1440
    },
    {
     "name": "fym",
@@ -435,7 +435,7 @@
    },
    {
     "name": "Icarem",
-    "value": 549
+    "value": 551
    },
    {
     "name": "Astreu",
@@ -495,11 +495,11 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 241
+    "value": 243
    },
    {
     "name": ".Libellule",
-    "value": 238
+    "value": 240
    },
    {
     "name": "-Tsukiri-",
@@ -519,7 +519,7 @@
    },
    {
     "name": "_.Flora._",
-    "value": 146
+    "value": 147
    },
    {
     "name": "sami75.19",
@@ -578,12 +578,12 @@
     "value": 39
    },
    {
-    "name": "Pierre.Langlet",
+    "name": "Imondi",
     "value": 37
    },
    {
-    "name": "Imondi",
-    "value": 35
+    "name": "Pierre.Langlet",
+    "value": 37
    },
    {
     "name": "YzEnRodeo",
@@ -591,7 +591,7 @@
    },
    {
     "name": "Hectorr",
-    "value": 32
+    "value": 34
    },
    {
     "name": "-Massimo-",
@@ -613,11 +613,11 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 1499
+    "value": 1501
    },
    {
     "name": "habbo-160-3",
-    "value": 1438
+    "value": 1440
    },
    {
     "name": "fym",
@@ -637,7 +637,7 @@
    },
    {
     "name": "Icarem",
-    "value": 549
+    "value": 551
    },
    {
     "name": "Astreu",
@@ -697,11 +697,11 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 241
+    "value": 243
    },
    {
     "name": ".Libellule",
-    "value": 238
+    "value": 240
    },
    {
     "name": "-Tsukiri-",
@@ -721,7 +721,7 @@
    },
    {
     "name": "_.Flora._",
-    "value": 146
+    "value": 147
    },
    {
     "name": "sami75.19",
@@ -780,12 +780,12 @@
     "value": 39
    },
    {
-    "name": "Pierre.Langlet",
+    "name": "Imondi",
     "value": 37
    },
    {
-    "name": "Imondi",
-    "value": 35
+    "name": "Pierre.Langlet",
+    "value": 37
    },
    {
     "name": "YzEnRodeo",
@@ -793,7 +793,7 @@
    },
    {
     "name": "Hectorr",
-    "value": 32
+    "value": 34
    },
    {
     "name": "-Massimo-",
