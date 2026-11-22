@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-22T18:08:40+00:00",
+ "updated": "2026-11-22T18:10:40+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 60
+    "value": 62
    },
    {
     "name": "Icarem",
@@ -207,7 +207,7 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 60
+    "value": 62
    },
    {
     "name": "Icarem",
@@ -475,7 +475,7 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 319
+    "value": 321
    },
    {
     "name": "Non-Non",
@@ -507,7 +507,7 @@
    },
    {
     "name": "Weavem",
-    "value": 220
+    "value": 222
    },
    {
     "name": "-Tsukiri-",
@@ -526,12 +526,12 @@
     "value": 137
    },
    {
-    "name": "Padre",
+    "name": "-Massimo-",
     "value": 106
    },
    {
-    "name": "-Massimo-",
-    "value": 104
+    "name": "Padre",
+    "value": 106
    },
    {
     "name": ".:Krustiz:.",
@@ -539,7 +539,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 89
+    "value": 90
    },
    {
     "name": "Hectorr",
@@ -551,7 +551,7 @@
    },
    {
     "name": "Piingouin.",
-    "value": 69
+    "value": 71
    },
    {
     "name": "Imondi",
@@ -677,7 +677,7 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 319
+    "value": 321
    },
    {
     "name": "Non-Non",
@@ -709,7 +709,7 @@
    },
    {
     "name": "Weavem",
-    "value": 220
+    "value": 222
    },
    {
     "name": "-Tsukiri-",
@@ -728,12 +728,12 @@
     "value": 137
    },
    {
-    "name": "Padre",
+    "name": "-Massimo-",
     "value": 106
    },
    {
-    "name": "-Massimo-",
-    "value": 104
+    "name": "Padre",
+    "value": 106
    },
    {
     "name": ".:Krustiz:.",
@@ -741,7 +741,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 89
+    "value": 90
    },
    {
     "name": "Hectorr",
@@ -753,7 +753,7 @@
    },
    {
     "name": "Piingouin.",
-    "value": 69
+    "value": 71
    },
    {
     "name": "Imondi",
