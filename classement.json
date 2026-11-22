@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T16:32:41+00:00",
+ "updated": "2026-11-22T16:34:41+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -64,15 +64,15 @@
     "value": 20
    },
    {
+    "name": "Pantheon_",
+    "value": 17
+   },
+   {
     "name": "flo578",
     "value": 16
    },
    {
     "name": "irysse",
-    "value": 16
-   },
-   {
-    "name": "Pantheon_",
     "value": 16
    },
    {
@@ -266,15 +266,15 @@
     "value": 20
    },
    {
+    "name": "Pantheon_",
+    "value": 17
+   },
+   {
     "name": "flo578",
     "value": 16
    },
    {
     "name": "irysse",
-    "value": 16
-   },
-   {
-    "name": "Pantheon_",
     "value": 16
    },
    {
@@ -411,7 +411,7 @@
   "total": [
    {
     "name": "habbo-160-3",
-    "value": 1743
+    "value": 1745
    },
    {
     "name": "BiBiCHarBo",
@@ -439,7 +439,7 @@
    },
    {
     "name": "Astreu",
-    "value": 562
+    "value": 564
    },
    {
     "name": "Lovepanda",
@@ -475,7 +475,7 @@
    },
    {
     "name": "Mi,hermano",
-    "value": 300
+    "value": 302
    },
    {
     "name": "andrew16a",
@@ -483,7 +483,7 @@
    },
    {
     "name": "dadou07",
-    "value": 285
+    "value": 286
    },
    {
     "name": "Proxymore",
@@ -503,7 +503,7 @@
    },
    {
     "name": "_.Flora._",
-    "value": 251
+    "value": 253
    },
    {
     "name": "-Tsukiri-",
@@ -535,7 +535,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 92
+    "value": 94
    },
    {
     "name": "Hectorr",
@@ -613,7 +613,7 @@
   "week": [
    {
     "name": "habbo-160-3",
-    "value": 1743
+    "value": 1745
    },
    {
     "name": "BiBiCHarBo",
@@ -641,7 +641,7 @@
    },
    {
     "name": "Astreu",
-    "value": 562
+    "value": 564
    },
    {
     "name": "Lovepanda",
@@ -677,7 +677,7 @@
    },
    {
     "name": "Mi,hermano",
-    "value": 300
+    "value": 302
    },
    {
     "name": "andrew16a",
@@ -685,7 +685,7 @@
    },
    {
     "name": "dadou07",
-    "value": 285
+    "value": 286
    },
    {
     "name": "Proxymore",
@@ -705,7 +705,7 @@
    },
    {
     "name": "_.Flora._",
-    "value": 251
+    "value": 253
    },
    {
     "name": "-Tsukiri-",
@@ -737,7 +737,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 92
+    "value": 94
    },
    {
     "name": "Hectorr",
