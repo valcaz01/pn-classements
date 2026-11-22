@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T09:34:28+00:00",
+ "updated": "2026-11-22T09:36:28+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -188,6 +188,10 @@
     "value": 1
    },
    {
+    "name": "Fanny-148",
+    "value": 1
+   },
+   {
     "name": "HK83000",
     "value": 1
    },
@@ -197,10 +201,6 @@
    },
    {
     "name": "LesdixGaga",
-    "value": 1
-   },
-   {
-    "name": "Padre",
     "value": 1
    }
   ],
@@ -390,6 +390,10 @@
     "value": 1
    },
    {
+    "name": "Fanny-148",
+    "value": 1
+   },
+   {
     "name": "HK83000",
     "value": 1
    },
@@ -400,10 +404,6 @@
    {
     "name": "LesdixGaga",
     "value": 1
-   },
-   {
-    "name": "Padre",
-    "value": 1
    }
   ]
  },
@@ -411,11 +411,11 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 1399
+    "value": 1401
    },
    {
     "name": "habbo-160-3",
-    "value": 1330
+    "value": 1332
    },
    {
     "name": "fym",
@@ -613,11 +613,11 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 1399
+    "value": 1401
    },
    {
     "name": "habbo-160-3",
-    "value": 1330
+    "value": 1332
    },
    {
     "name": "fym",
