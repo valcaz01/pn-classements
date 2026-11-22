@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T23:38:40+00:00",
+ "updated": "2026-11-22T23:40:40+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -40,16 +40,16 @@
     "value": 29
    },
    {
+    "name": ".:Krustiz:.",
+    "value": 23
+   },
+   {
     "name": "habbo-160-3",
     "value": 23
    },
    {
     "name": "Lovepanda",
     "value": 23
-   },
-   {
-    "name": ".:Krustiz:.",
-    "value": 22
    },
    {
     "name": "sami75.19",
@@ -208,6 +208,10 @@
    {
     "name": "fym",
     "value": 2
+   },
+   {
+    "name": ".:Krustiz:.",
+    "value": 1
    },
    {
     "name": "MelMlrr",
