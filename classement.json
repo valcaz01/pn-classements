@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-22T11:02:29+00:00",
+ "updated": "2026-11-22T11:04:28+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 54
+    "value": 55
    },
    {
     "name": "Icarem",
@@ -20,11 +20,11 @@
     "value": 27
    },
    {
-    "name": ".Libellule",
-    "value": 26
+    "name": "pevanq640",
+    "value": 27
    },
    {
-    "name": "pevanq640",
+    "name": ".Libellule",
     "value": 26
    },
    {
@@ -92,16 +92,16 @@
     "value": 9
    },
    {
+    "name": "_.Flora._",
+    "value": 7
+   },
+   {
     "name": "marinadrk",
     "value": 7
    },
    {
     "name": "Monsieur-RF",
     "value": 7
-   },
-   {
-    "name": "_.Flora._",
-    "value": 6
    },
    {
     "name": "Piingouin.",
@@ -207,7 +207,7 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 54
+    "value": 55
    },
    {
     "name": "Icarem",
@@ -222,11 +222,11 @@
     "value": 27
    },
    {
-    "name": ".Libellule",
-    "value": 26
+    "name": "pevanq640",
+    "value": 27
    },
    {
-    "name": "pevanq640",
+    "name": ".Libellule",
     "value": 26
    },
    {
@@ -294,16 +294,16 @@
     "value": 9
    },
    {
+    "name": "_.Flora._",
+    "value": 7
+   },
+   {
     "name": "marinadrk",
     "value": 7
    },
    {
     "name": "Monsieur-RF",
     "value": 7
-   },
-   {
-    "name": "_.Flora._",
-    "value": 6
    },
    {
     "name": "Piingouin.",
@@ -411,11 +411,11 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 1479
+    "value": 1480
    },
    {
     "name": "habbo-160-3",
-    "value": 1417
+    "value": 1419
    },
    {
     "name": "fym",
@@ -499,7 +499,7 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 231
+    "value": 232
    },
    {
     "name": "-Tsukiri-",
@@ -511,7 +511,7 @@
    },
    {
     "name": "Postillon",
-    "value": 165
+    "value": 167
    },
    {
     "name": "irysse",
@@ -602,22 +602,22 @@
     "value": 25
    },
    {
-    "name": "Sciel",
-    "value": 22
+    "name": "CharlesWish",
+    "value": 23
    },
    {
-    "name": "CharlesWish",
-    "value": 21
+    "name": "Sciel",
+    "value": 22
    }
   ],
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 1479
+    "value": 1480
    },
    {
     "name": "habbo-160-3",
-    "value": 1417
+    "value": 1419
    },
    {
     "name": "fym",
@@ -701,7 +701,7 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 231
+    "value": 232
    },
    {
     "name": "-Tsukiri-",
@@ -713,7 +713,7 @@
    },
    {
     "name": "Postillon",
-    "value": 165
+    "value": 167
    },
    {
     "name": "irysse",
@@ -804,12 +804,12 @@
     "value": 25
    },
    {
-    "name": "Sciel",
-    "value": 22
+    "name": "CharlesWish",
+    "value": 23
    },
    {
-    "name": "CharlesWish",
-    "value": 21
+    "name": "Sciel",
+    "value": 22
    }
   ]
  }
