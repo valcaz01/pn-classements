@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T00:38:28+00:00",
+ "updated": "2026-11-22T00:40:28+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -9,10 +9,6 @@
    },
    {
     "name": "fym",
-    "value": 33
-   },
-   {
-    "name": "halos34",
     "value": 33
    },
    {
@@ -38,6 +34,10 @@
    {
     "name": ".Libellule",
     "value": 24
+   },
+   {
+    "name": "halos34",
+    "value": 23
    },
    {
     "name": "Astreu",
@@ -214,10 +214,6 @@
     "value": 33
    },
    {
-    "name": "halos34",
-    "value": 33
-   },
-   {
     "name": "charlie-XCX123",
     "value": 31
    },
@@ -240,6 +236,10 @@
    {
     "name": ".Libellule",
     "value": 24
+   },
+   {
+    "name": "halos34",
+    "value": 23
    },
    {
     "name": "Astreu",
@@ -419,11 +419,11 @@
    },
    {
     "name": "fym",
-    "value": 1014
+    "value": 1016
    },
    {
     "name": "marinadrk",
-    "value": 749
+    "value": 751
    },
    {
     "name": "Pantheon_",
@@ -463,7 +463,7 @@
    },
    {
     "name": "halos34",
-    "value": 311
+    "value": 312
    },
    {
     "name": "Non-Non",
@@ -621,11 +621,11 @@
    },
    {
     "name": "fym",
-    "value": 1014
+    "value": 1016
    },
    {
     "name": "marinadrk",
-    "value": 749
+    "value": 751
    },
    {
     "name": "Pantheon_",
@@ -665,7 +665,7 @@
    },
    {
     "name": "halos34",
-    "value": 311
+    "value": 312
    },
    {
     "name": "Non-Non",
