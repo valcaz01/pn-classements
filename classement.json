@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T11:46:29+00:00",
+ "updated": "2026-11-22T11:48:29+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -411,11 +411,11 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 1520
+    "value": 1522
    },
    {
     "name": "habbo-160-3",
-    "value": 1459
+    "value": 1461
    },
    {
     "name": "fym",
@@ -427,7 +427,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 745
+    "value": 747
    },
    {
     "name": "Shizuku",
@@ -515,7 +515,7 @@
    },
    {
     "name": "_.Flora._",
-    "value": 154
+    "value": 156
    },
    {
     "name": "irysse",
@@ -531,7 +531,7 @@
    },
    {
     "name": ".:Krustiz:.",
-    "value": 94
+    "value": 96
    },
    {
     "name": "sheila3738",
@@ -554,15 +554,15 @@
     "value": 51
    },
    {
+    "name": "Hectorr",
+    "value": 51
+   },
+   {
     "name": "In.esdzz!",
     "value": 51
    },
    {
     "name": "BOuclette.13",
-    "value": 49
-   },
-   {
-    "name": "Hectorr",
     "value": 49
    },
    {
@@ -613,11 +613,11 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 1520
+    "value": 1522
    },
    {
     "name": "habbo-160-3",
-    "value": 1459
+    "value": 1461
    },
    {
     "name": "fym",
@@ -629,7 +629,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 745
+    "value": 747
    },
    {
     "name": "Shizuku",
@@ -717,7 +717,7 @@
    },
    {
     "name": "_.Flora._",
-    "value": 154
+    "value": 156
    },
    {
     "name": "irysse",
@@ -733,7 +733,7 @@
    },
    {
     "name": ".:Krustiz:.",
-    "value": 94
+    "value": 96
    },
    {
     "name": "sheila3738",
@@ -756,15 +756,15 @@
     "value": 51
    },
    {
+    "name": "Hectorr",
+    "value": 51
+   },
+   {
     "name": "In.esdzz!",
     "value": 51
    },
    {
     "name": "BOuclette.13",
-    "value": 49
-   },
-   {
-    "name": "Hectorr",
     "value": 49
    },
    {
