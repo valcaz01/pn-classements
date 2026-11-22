@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T23:02:42+00:00",
+ "updated": "2026-11-22T23:04:41+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -310,7 +310,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 228
+    "value": 229
    },
    {
     "name": "-Tsukiri-",
@@ -412,11 +412,15 @@
   "week": [
    {
     "name": "-Massimo-",
-    "value": 4
+    "value": 5
    },
    {
     "name": "MagicalArt",
     "value": 2
+   },
+   {
+    "name": "CovidJr",
+    "value": 1
    },
    {
     "name": "Shizuku",
