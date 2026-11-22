@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T09:24:29+00:00",
+ "updated": "2026-11-22T09:26:29+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -92,6 +92,10 @@
     "value": 7
    },
    {
+    "name": "Postillon",
+    "value": 7
+   },
+   {
     "name": "_.Flora._",
     "value": 6
    },
@@ -101,10 +105,6 @@
    },
    {
     "name": "Piingouin.",
-    "value": 6
-   },
-   {
-    "name": "Postillon",
     "value": 6
    },
    {
@@ -294,6 +294,10 @@
     "value": 7
    },
    {
+    "name": "Postillon",
+    "value": 7
+   },
+   {
     "name": "_.Flora._",
     "value": 6
    },
@@ -303,10 +307,6 @@
    },
    {
     "name": "Piingouin.",
-    "value": 6
-   },
-   {
-    "name": "Postillon",
     "value": 6
    },
    {
@@ -415,7 +415,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 1320
+    "value": 1322
    },
    {
     "name": "fym",
@@ -617,7 +617,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 1320
+    "value": 1322
    },
    {
     "name": "fym",
