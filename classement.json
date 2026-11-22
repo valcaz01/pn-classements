@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T17:46:41+00:00",
+ "updated": "2026-11-22T17:48:40+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -108,15 +108,15 @@
     "value": 7
    },
    {
+    "name": "Piingouin.",
+    "value": 7
+   },
+   {
     "name": "Weavem",
     "value": 7
    },
    {
     "name": "Mi,hermano",
-    "value": 6
-   },
-   {
-    "name": "Piingouin.",
     "value": 6
    },
    {
@@ -310,15 +310,15 @@
     "value": 7
    },
    {
+    "name": "Piingouin.",
+    "value": 7
+   },
+   {
     "name": "Weavem",
     "value": 7
    },
    {
     "name": "Mi,hermano",
-    "value": 6
-   },
-   {
-    "name": "Piingouin.",
     "value": 6
    },
    {
@@ -439,7 +439,7 @@
    },
    {
     "name": "Astreu",
-    "value": 599
+    "value": 601
    },
    {
     "name": "Lovepanda",
@@ -490,12 +490,12 @@
     "value": 274
    },
    {
-    "name": "gotica",
+    "name": "flo578",
     "value": 270
    },
    {
-    "name": "flo578",
-    "value": 269
+    "name": "gotica",
+    "value": 270
    },
    {
     "name": "_.Flora._",
@@ -511,7 +511,7 @@
    },
    {
     "name": "Weavem",
-    "value": 200
+    "value": 202
    },
    {
     "name": "Postillon",
@@ -559,7 +559,7 @@
    },
    {
     "name": "Piingouin.",
-    "value": 52
+    "value": 53
    },
    {
     "name": "Pporappippam",
@@ -641,7 +641,7 @@
    },
    {
     "name": "Astreu",
-    "value": 599
+    "value": 601
    },
    {
     "name": "Lovepanda",
@@ -692,12 +692,12 @@
     "value": 274
    },
    {
-    "name": "gotica",
+    "name": "flo578",
     "value": 270
    },
    {
-    "name": "flo578",
-    "value": 269
+    "name": "gotica",
+    "value": 270
    },
    {
     "name": "_.Flora._",
@@ -713,7 +713,7 @@
    },
    {
     "name": "Weavem",
-    "value": 200
+    "value": 202
    },
    {
     "name": "Postillon",
@@ -761,7 +761,7 @@
    },
    {
     "name": "Piingouin.",
-    "value": 52
+    "value": 53
    },
    {
     "name": "Pporappippam",
