@@ -445,7 +445,7 @@
   "grade": null,
   "humeur": "SAMHAIN",
   "pseudo": "LHETO",
-  "verifie": "2026-11-21T22:48:28+00:00"
+  "verifie": "2026-11-22T01:48:28+00:00"
  },
  "16113307": {
   "alertes": {},
@@ -3801,7 +3801,7 @@
   "grade": null,
   "humeur": "One day or another we will have it",
   "pseudo": "q3s",
-  "verifie": "2026-11-21T22:48:28+00:00"
+  "verifie": "2026-11-22T01:48:28+00:00"
  },
  "25573733": {
   "alertes": {},
@@ -4489,7 +4489,7 @@
   "grade": null,
   "humeur": "[C.I.A.] Agent-Elite",
   "pseudo": "Athena.Nova",
-  "verifie": "2026-11-21T22:48:28+00:00"
+  "verifie": "2026-11-22T01:48:28+00:00"
  },
  "25774771": {
   "alertes": {},
@@ -4758,6 +4758,14 @@
   "humeur": "444 |",
   "pseudo": "_TCHII",
   "verifie": "2026-11-21T23:46:29+00:00"
+ },
+ "25847507": {
+  "alertes": {},
+  "depuis": null,
+  "grade": null,
+  "humeur": "",
+  "pseudo": "Chuut",
+  "verifie": "2026-11-22T01:48:28+00:00"
  },
  "25848359": {
   "alertes": {},
@@ -5381,7 +5389,7 @@
   "grade": "pa",
   "humeur": "[PN] Policier adjoint",
   "pseudo": "Non-Non",
-  "verifie": "2026-11-21T22:48:28+00:00"
+  "verifie": "2026-11-22T01:48:28+00:00"
  },
  "25936070": {
   "alertes": {},
