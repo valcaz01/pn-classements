@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T14:22:30+00:00",
+ "updated": "2026-11-22T14:24:30+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -411,7 +411,7 @@
   "total": [
    {
     "name": "habbo-160-3",
-    "value": 1614
+    "value": 1616
    },
    {
     "name": "BiBiCHarBo",
@@ -447,7 +447,7 @@
    },
    {
     "name": "Lovepanda",
-    "value": 454
+    "value": 456
    },
    {
     "name": "habbo22t",
@@ -507,7 +507,7 @@
    },
    {
     "name": "_.Flora._",
-    "value": 210
+    "value": 212
    },
    {
     "name": "Weavem",
@@ -606,14 +606,14 @@
     "value": 27
    },
    {
-    "name": "Freminet",
+    "name": "BnBoy",
     "value": 26
    }
   ],
   "week": [
    {
     "name": "habbo-160-3",
-    "value": 1614
+    "value": 1616
    },
    {
     "name": "BiBiCHarBo",
@@ -649,7 +649,7 @@
    },
    {
     "name": "Lovepanda",
-    "value": 454
+    "value": 456
    },
    {
     "name": "habbo22t",
@@ -709,7 +709,7 @@
    },
    {
     "name": "_.Flora._",
-    "value": 210
+    "value": 212
    },
    {
     "name": "Weavem",
@@ -808,7 +808,7 @@
     "value": 27
    },
    {
-    "name": "Freminet",
+    "name": "BnBoy",
     "value": 26
    }
   ]
