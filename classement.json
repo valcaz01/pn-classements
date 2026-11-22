@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T11:00:29+00:00",
+ "updated": "2026-11-22T11:02:29+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -411,11 +411,11 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 1478
+    "value": 1479
    },
    {
     "name": "habbo-160-3",
-    "value": 1415
+    "value": 1417
    },
    {
     "name": "fym",
@@ -435,7 +435,7 @@
    },
    {
     "name": "Icarem",
-    "value": 545
+    "value": 546
    },
    {
     "name": "Astreu",
@@ -499,7 +499,7 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 230
+    "value": 231
    },
    {
     "name": "-Tsukiri-",
@@ -511,7 +511,7 @@
    },
    {
     "name": "Postillon",
-    "value": 163
+    "value": 165
    },
    {
     "name": "irysse",
@@ -607,17 +607,17 @@
    },
    {
     "name": "CharlesWish",
-    "value": 20
+    "value": 21
    }
   ],
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 1478
+    "value": 1479
    },
    {
     "name": "habbo-160-3",
-    "value": 1415
+    "value": 1417
    },
    {
     "name": "fym",
@@ -637,7 +637,7 @@
    },
    {
     "name": "Icarem",
-    "value": 545
+    "value": 546
    },
    {
     "name": "Astreu",
@@ -701,7 +701,7 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 230
+    "value": 231
    },
    {
     "name": "-Tsukiri-",
@@ -713,7 +713,7 @@
    },
    {
     "name": "Postillon",
-    "value": 163
+    "value": 165
    },
    {
     "name": "irysse",
@@ -809,7 +809,7 @@
    },
    {
     "name": "CharlesWish",
-    "value": 20
+    "value": 21
    }
   ]
  }
