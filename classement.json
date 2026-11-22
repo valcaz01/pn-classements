@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T21:42:41+00:00",
+ "updated": "2026-11-22T21:44:40+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -427,7 +427,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 864
+    "value": 866
    },
    {
     "name": "Icarem",
@@ -475,15 +475,15 @@
    },
    {
     "name": "andrew16a",
-    "value": 336
+    "value": 338
+   },
+   {
+    "name": "flo578",
+    "value": 328
    },
    {
     "name": "Fleabag",
     "value": 327
-   },
-   {
-    "name": "flo578",
-    "value": 326
    },
    {
     "name": "Non-Non",
@@ -495,7 +495,7 @@
    },
    {
     "name": ".Libellule",
-    "value": 285
+    "value": 287
    },
    {
     "name": "Proxymore",
@@ -534,12 +534,12 @@
     "value": 137
    },
    {
-    "name": "Padre",
+    "name": "Mr.Dino",
     "value": 135
    },
    {
-    "name": "Mr.Dino",
-    "value": 133
+    "name": "Padre",
+    "value": 135
    },
    {
     "name": ".:Krustiz:.",
@@ -578,12 +578,12 @@
     "value": 51
    },
    {
-    "name": "BOuclette.13",
-    "value": 49
+    "name": "MagicalArt",
+    "value": 50
    },
    {
-    "name": "MagicalArt",
-    "value": 48
+    "name": "BOuclette.13",
+    "value": 49
    },
    {
     "name": "guest77145",
@@ -629,7 +629,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 864
+    "value": 866
    },
    {
     "name": "Icarem",
@@ -677,15 +677,15 @@
    },
    {
     "name": "andrew16a",
-    "value": 336
+    "value": 338
+   },
+   {
+    "name": "flo578",
+    "value": 328
    },
    {
     "name": "Fleabag",
     "value": 327
-   },
-   {
-    "name": "flo578",
-    "value": 326
    },
    {
     "name": "Non-Non",
@@ -697,7 +697,7 @@
    },
    {
     "name": ".Libellule",
-    "value": 285
+    "value": 287
    },
    {
     "name": "Proxymore",
@@ -736,12 +736,12 @@
     "value": 137
    },
    {
-    "name": "Padre",
+    "name": "Mr.Dino",
     "value": 135
    },
    {
-    "name": "Mr.Dino",
-    "value": 133
+    "name": "Padre",
+    "value": 135
    },
    {
     "name": ".:Krustiz:.",
@@ -780,12 +780,12 @@
     "value": 51
    },
    {
-    "name": "BOuclette.13",
-    "value": 49
+    "name": "MagicalArt",
+    "value": 50
    },
    {
-    "name": "MagicalArt",
-    "value": 48
+    "name": "BOuclette.13",
+    "value": 49
    },
    {
     "name": "guest77145",
