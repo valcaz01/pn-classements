@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T09:50:29+00:00",
+ "updated": "2026-11-22T09:52:29+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -164,6 +164,10 @@
     "value": 2
    },
    {
+    "name": "Fanny-148",
+    "value": 2
+   },
+   {
     "name": "guest-3806",
     "value": 2
    },
@@ -189,10 +193,6 @@
    },
    {
     "name": "Astalue",
-    "value": 1
-   },
-   {
-    "name": "Fanny-148",
     "value": 1
    },
    {
@@ -366,6 +366,10 @@
     "value": 2
    },
    {
+    "name": "Fanny-148",
+    "value": 2
+   },
+   {
     "name": "guest-3806",
     "value": 2
    },
@@ -394,10 +398,6 @@
     "value": 1
    },
    {
-    "name": "Fanny-148",
-    "value": 1
-   },
-   {
     "name": "HK83000",
     "value": 1
    },
@@ -411,11 +411,11 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 1415
+    "value": 1417
    },
    {
     "name": "habbo-160-3",
-    "value": 1345
+    "value": 1347
    },
    {
     "name": "fym",
@@ -455,7 +455,7 @@
    },
    {
     "name": "habbo22t",
-    "value": 406
+    "value": 407
    },
    {
     "name": "Lewddon",
@@ -527,7 +527,7 @@
    },
    {
     "name": "Postillon",
-    "value": 105
+    "value": 106
    },
    {
     "name": ".:Krustiz:.",
@@ -613,11 +613,11 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 1415
+    "value": 1417
    },
    {
     "name": "habbo-160-3",
-    "value": 1345
+    "value": 1347
    },
    {
     "name": "fym",
@@ -657,7 +657,7 @@
    },
    {
     "name": "habbo22t",
-    "value": 406
+    "value": 407
    },
    {
     "name": "Lewddon",
@@ -729,7 +729,7 @@
    },
    {
     "name": "Postillon",
-    "value": 105
+    "value": 106
    },
    {
     "name": ".:Krustiz:.",
