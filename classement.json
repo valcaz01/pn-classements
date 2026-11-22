@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-22T12:16:30+00:00",
+ "updated": "2026-11-22T12:18:30+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 57
+    "value": 58
    },
    {
     "name": "Icarem",
@@ -56,11 +56,11 @@
     "value": 20
    },
    {
-    "name": "Lovepanda",
-    "value": 18
+    "name": "Non-Non",
+    "value": 19
    },
    {
-    "name": "Non-Non",
+    "name": "Lovepanda",
     "value": 18
    },
    {
@@ -207,7 +207,7 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 57
+    "value": 58
    },
    {
     "name": "Icarem",
@@ -258,11 +258,11 @@
     "value": 20
    },
    {
-    "name": "Lovepanda",
-    "value": 18
+    "name": "Non-Non",
+    "value": 19
    },
    {
-    "name": "Non-Non",
+    "name": "Lovepanda",
     "value": 18
    },
    {
@@ -411,11 +411,11 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 1550
+    "value": 1551
    },
    {
     "name": "habbo-160-3",
-    "value": 1489
+    "value": 1491
    },
    {
     "name": "fym",
@@ -511,7 +511,7 @@
    },
    {
     "name": "_.Flora._",
-    "value": 181
+    "value": 183
    },
    {
     "name": "Postillon",
@@ -535,7 +535,7 @@
    },
    {
     "name": "Hectorr",
-    "value": 76
+    "value": 77
    },
    {
     "name": "sheila3738",
@@ -613,11 +613,11 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 1550
+    "value": 1551
    },
    {
     "name": "habbo-160-3",
-    "value": 1489
+    "value": 1491
    },
    {
     "name": "fym",
@@ -713,7 +713,7 @@
    },
    {
     "name": "_.Flora._",
-    "value": 181
+    "value": 183
    },
    {
     "name": "Postillon",
@@ -737,7 +737,7 @@
    },
    {
     "name": "Hectorr",
-    "value": 76
+    "value": 77
    },
    {
     "name": "sheila3738",
