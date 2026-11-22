@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T07:30:28+00:00",
+ "updated": "2026-11-22T07:32:29+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -28,15 +28,15 @@
     "value": 25
    },
    {
+    "name": "halos34",
+    "value": 25
+   },
+   {
     "name": "Shizuku",
     "value": 25
    },
    {
     "name": ".Libellule",
-    "value": 24
-   },
-   {
-    "name": "halos34",
     "value": 24
    },
    {
@@ -230,15 +230,15 @@
     "value": 25
    },
    {
+    "name": "halos34",
+    "value": 25
+   },
+   {
     "name": "Shizuku",
     "value": 25
    },
    {
     "name": ".Libellule",
-    "value": 24
-   },
-   {
-    "name": "halos34",
     "value": 24
    },
    {
@@ -519,7 +519,7 @@
    },
    {
     "name": "_.Flora._",
-    "value": 113
+    "value": 114
    },
    {
     "name": "Padre",
@@ -721,7 +721,7 @@
    },
    {
     "name": "_.Flora._",
-    "value": 113
+    "value": 114
    },
    {
     "name": "Padre",
