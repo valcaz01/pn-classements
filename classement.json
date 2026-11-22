@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T12:52:29+00:00",
+ "updated": "2026-11-22T12:54:28+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -20,12 +20,12 @@
     "value": 31
    },
    {
-    "name": "pevanq640",
+    "name": "charlie-XCX123",
     "value": 30
    },
    {
-    "name": "charlie-XCX123",
-    "value": 29
+    "name": "pevanq640",
+    "value": 30
    },
    {
     "name": "Astreu",
@@ -222,12 +222,12 @@
     "value": 31
    },
    {
-    "name": "pevanq640",
+    "name": "charlie-XCX123",
     "value": 30
    },
    {
-    "name": "charlie-XCX123",
-    "value": 29
+    "name": "pevanq640",
+    "value": 30
    },
    {
     "name": "Astreu",
@@ -411,11 +411,11 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 1580
+    "value": 1582
    },
    {
     "name": "habbo-160-3",
-    "value": 1525
+    "value": 1527
    },
    {
     "name": "fym",
@@ -490,16 +490,16 @@
     "value": 254
    },
    {
+    "name": "gotica",
+    "value": 254
+   },
+   {
     "name": ".Libellule",
     "value": 253
    },
    {
-    "name": "gotica",
-    "value": 253
-   },
-   {
     "name": "Monsieur-RF",
-    "value": 250
+    "value": 251
    },
    {
     "name": "-Tsukiri-",
@@ -590,12 +590,12 @@
     "value": 37
    },
    {
-    "name": "YzEnRodeo",
-    "value": 35
+    "name": "-Massimo-",
+    "value": 36
    },
    {
-    "name": "-Massimo-",
-    "value": 34
+    "name": "YzEnRodeo",
+    "value": 35
    },
    {
     "name": "ladypink.",
@@ -613,11 +613,11 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 1580
+    "value": 1582
    },
    {
     "name": "habbo-160-3",
-    "value": 1525
+    "value": 1527
    },
    {
     "name": "fym",
@@ -692,16 +692,16 @@
     "value": 254
    },
    {
+    "name": "gotica",
+    "value": 254
+   },
+   {
     "name": ".Libellule",
     "value": 253
    },
    {
-    "name": "gotica",
-    "value": 253
-   },
-   {
     "name": "Monsieur-RF",
-    "value": 250
+    "value": 251
    },
    {
     "name": "-Tsukiri-",
@@ -792,12 +792,12 @@
     "value": 37
    },
    {
-    "name": "YzEnRodeo",
-    "value": 35
+    "name": "-Massimo-",
+    "value": 36
    },
    {
-    "name": "-Massimo-",
-    "value": 34
+    "name": "YzEnRodeo",
+    "value": 35
    },
    {
     "name": "ladypink.",
