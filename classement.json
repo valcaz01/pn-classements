@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T12:56:28+00:00",
+ "updated": "2026-11-22T12:58:28+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -52,12 +52,12 @@
     "value": 20
    },
    {
-    "name": "Proxymore",
+    "name": "Non-Non",
     "value": 20
    },
    {
-    "name": "Non-Non",
-    "value": 19
+    "name": "Proxymore",
+    "value": 20
    },
    {
     "name": "Lovepanda",
@@ -254,12 +254,12 @@
     "value": 20
    },
    {
-    "name": "Proxymore",
+    "name": "Non-Non",
     "value": 20
    },
    {
-    "name": "Non-Non",
-    "value": 19
+    "name": "Proxymore",
+    "value": 20
    },
    {
     "name": "Lovepanda",
@@ -415,7 +415,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 1529
+    "value": 1531
    },
    {
     "name": "fym",
@@ -451,7 +451,7 @@
    },
    {
     "name": "charlie-XCX123",
-    "value": 427
+    "value": 428
    },
    {
     "name": "Lovepanda",
@@ -494,11 +494,11 @@
     "value": 254
    },
    {
-    "name": ".Libellule",
-    "value": 253
+    "name": "Monsieur-RF",
+    "value": 254
    },
    {
-    "name": "Monsieur-RF",
+    "name": ".Libellule",
     "value": 253
    },
    {
@@ -582,12 +582,12 @@
     "value": 41
    },
    {
-    "name": "CharlesWish",
+    "name": "-Massimo-",
     "value": 39
    },
    {
-    "name": "-Massimo-",
-    "value": 38
+    "name": "CharlesWish",
+    "value": 39
    },
    {
     "name": "Pierre.Langlet",
@@ -617,7 +617,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 1529
+    "value": 1531
    },
    {
     "name": "fym",
@@ -653,7 +653,7 @@
    },
    {
     "name": "charlie-XCX123",
-    "value": 427
+    "value": 428
    },
    {
     "name": "Lovepanda",
@@ -696,11 +696,11 @@
     "value": 254
    },
    {
-    "name": ".Libellule",
-    "value": 253
+    "name": "Monsieur-RF",
+    "value": 254
    },
    {
-    "name": "Monsieur-RF",
+    "name": ".Libellule",
     "value": 253
    },
    {
@@ -784,12 +784,12 @@
     "value": 41
    },
    {
-    "name": "CharlesWish",
+    "name": "-Massimo-",
     "value": 39
    },
    {
-    "name": "-Massimo-",
-    "value": 38
+    "name": "CharlesWish",
+    "value": 39
    },
    {
     "name": "Pierre.Langlet",
