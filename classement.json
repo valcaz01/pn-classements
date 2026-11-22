@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T20:44:40+00:00",
+ "updated": "2026-11-22T20:46:41+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -92,15 +92,15 @@
     "value": 10
    },
    {
+    "name": "Mr.Dino",
+    "value": 10
+   },
+   {
     "name": "Postillon",
     "value": 10
    },
    {
     "name": "guest77145",
-    "value": 9
-   },
-   {
-    "name": "Mr.Dino",
     "value": 9
    },
    {
@@ -294,15 +294,15 @@
     "value": 10
    },
    {
+    "name": "Mr.Dino",
+    "value": 10
+   },
+   {
     "name": "Postillon",
     "value": 10
    },
    {
     "name": "guest77145",
-    "value": 9
-   },
-   {
-    "name": "Mr.Dino",
     "value": 9
    },
    {
@@ -427,7 +427,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 813
+    "value": 815
    },
    {
     "name": "Icarem",
@@ -451,7 +451,7 @@
    },
    {
     "name": "habbo22t",
-    "value": 441
+    "value": 443
    },
    {
     "name": "charlie-XCX123",
@@ -471,7 +471,7 @@
    },
    {
     "name": "Mi,hermano",
-    "value": 352
+    "value": 354
    },
    {
     "name": "Fleabag",
@@ -503,7 +503,7 @@
    },
    {
     "name": ".Libellule",
-    "value": 260
+    "value": 261
    },
    {
     "name": "Weavem",
@@ -519,7 +519,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 173
+    "value": 175
    },
    {
     "name": "irysse",
@@ -535,7 +535,7 @@
    },
    {
     "name": "Hectorr",
-    "value": 127
+    "value": 129
    },
    {
     "name": "Mr.Dino",
@@ -629,7 +629,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 813
+    "value": 815
    },
    {
     "name": "Icarem",
@@ -653,7 +653,7 @@
    },
    {
     "name": "habbo22t",
-    "value": 441
+    "value": 443
    },
    {
     "name": "charlie-XCX123",
@@ -673,7 +673,7 @@
    },
    {
     "name": "Mi,hermano",
-    "value": 352
+    "value": 354
    },
    {
     "name": "Fleabag",
@@ -705,7 +705,7 @@
    },
    {
     "name": ".Libellule",
-    "value": 260
+    "value": 261
    },
    {
     "name": "Weavem",
@@ -721,7 +721,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 173
+    "value": 175
    },
    {
     "name": "irysse",
@@ -737,7 +737,7 @@
    },
    {
     "name": "Hectorr",
-    "value": 127
+    "value": 129
    },
    {
     "name": "Mr.Dino",
