@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T10:44:29+00:00",
+ "updated": "2026-11-22T10:46:29+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -9,7 +9,7 @@
    },
    {
     "name": "Icarem",
-    "value": 38
+    "value": 40
    },
    {
     "name": "fym",
@@ -24,6 +24,10 @@
     "value": 26
    },
    {
+    "name": ".Libellule",
+    "value": 25
+   },
+   {
     "name": "Astreu",
     "value": 25
    },
@@ -34,10 +38,6 @@
    {
     "name": "Shizuku",
     "value": 25
-   },
-   {
-    "name": ".Libellule",
-    "value": 24
    },
    {
     "name": "sami75.19",
@@ -96,11 +96,11 @@
     "value": 7
    },
    {
-    "name": "_.Flora._",
-    "value": 6
+    "name": "Monsieur-RF",
+    "value": 7
    },
    {
-    "name": "Monsieur-RF",
+    "name": "_.Flora._",
     "value": 6
    },
    {
@@ -211,7 +211,7 @@
    },
    {
     "name": "Icarem",
-    "value": 38
+    "value": 40
    },
    {
     "name": "fym",
@@ -226,6 +226,10 @@
     "value": 26
    },
    {
+    "name": ".Libellule",
+    "value": 25
+   },
+   {
     "name": "Astreu",
     "value": 25
    },
@@ -236,10 +240,6 @@
    {
     "name": "Shizuku",
     "value": 25
-   },
-   {
-    "name": ".Libellule",
-    "value": 24
    },
    {
     "name": "sami75.19",
@@ -298,11 +298,11 @@
     "value": 7
    },
    {
-    "name": "_.Flora._",
-    "value": 6
+    "name": "Monsieur-RF",
+    "value": 7
    },
    {
-    "name": "Monsieur-RF",
+    "name": "_.Flora._",
     "value": 6
    },
    {
@@ -411,11 +411,11 @@
   "total": [
    {
     "name": "BiBiCHarBo",
-    "value": 1464
+    "value": 1466
    },
    {
     "name": "habbo-160-3",
-    "value": 1399
+    "value": 1401
    },
    {
     "name": "fym",
@@ -499,7 +499,7 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 217
+    "value": 218
    },
    {
     "name": "-Tsukiri-",
@@ -515,7 +515,7 @@
    },
    {
     "name": "Postillon",
-    "value": 148
+    "value": 150
    },
    {
     "name": "sami75.19",
@@ -523,7 +523,7 @@
    },
    {
     "name": "_.Flora._",
-    "value": 121
+    "value": 123
    },
    {
     "name": "Padre",
@@ -563,7 +563,7 @@
    },
    {
     "name": "Fanny-148",
-    "value": 45
+    "value": 47
    },
    {
     "name": "guest77145",
@@ -613,11 +613,11 @@
   "week": [
    {
     "name": "BiBiCHarBo",
-    "value": 1464
+    "value": 1466
    },
    {
     "name": "habbo-160-3",
-    "value": 1399
+    "value": 1401
    },
    {
     "name": "fym",
@@ -701,7 +701,7 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 217
+    "value": 218
    },
    {
     "name": "-Tsukiri-",
@@ -717,7 +717,7 @@
    },
    {
     "name": "Postillon",
-    "value": 148
+    "value": 150
    },
    {
     "name": "sami75.19",
@@ -725,7 +725,7 @@
    },
    {
     "name": "_.Flora._",
-    "value": 121
+    "value": 123
    },
    {
     "name": "Padre",
@@ -765,7 +765,7 @@
    },
    {
     "name": "Fanny-148",
-    "value": 45
+    "value": 47
    },
    {
     "name": "guest77145",
