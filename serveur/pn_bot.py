@@ -51,6 +51,7 @@ from publication import PUBLICATION_REVISION, PublicationHealth, network_git, pu
 from habbo_http import request_json
 from collection import COLLECTION_REVISION, JOBS, REASONS, CollectionHealth, subprocess_failure
 from direction_todo import DirectionBoard
+from suivi_qg import SuiviQG
 
 VERSION = "2026-10-28.1"   # diagnostic de mise en service (ne pas changer sans raison : il est re-posté)
 APERCU = "2026-10-28-xp2"  # changer cette valeur pour reposter l'aperçu dans #Classement-hebdo
@@ -542,6 +543,8 @@ class PNBot(discord.Client):
         self.tick.start()
         self.direction_board = DirectionBoard(self, GUILD_ID, HEBDO_CHANNEL_ID, Path(LOCK_FILE).parent / "direction-tasks.sqlite3")
         self.direction_board.start()
+        self.suivi_qg = SuiviQG(self, GUILD_ID, Path(LOCK_FILE).parent / "suivi-qg.json")
+        self.suivi_qg.demarrer()
 
     async def on_ready(self):
         LOG.info("Connecté : %s (version %s)", self.user, VERSION)
@@ -551,6 +554,11 @@ class PNBot(discord.Client):
 
     async def on_message(self, message):
         self.direction_board.schedule_visibility(message)
+        if message.webhook_id:
+            await self.suivi_qg.annonce(message)
+
+    async def on_interaction(self, interaction):
+        await self.suivi_qg.commande(interaction)
 
     async def demarrage(self):
         await asyncio.to_thread(refresh_habbo)
