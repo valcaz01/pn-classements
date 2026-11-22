@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T18:14:40+00:00",
+ "updated": "2026-11-22T18:16:39+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -415,7 +415,7 @@
    },
    {
     "name": "BiBiCHarBo",
-    "value": 1586
+    "value": 1588
    },
    {
     "name": "fym",
@@ -435,7 +435,7 @@
    },
    {
     "name": "Astreu",
-    "value": 619
+    "value": 621
    },
    {
     "name": "Icarem",
@@ -475,7 +475,7 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 325
+    "value": 327
    },
    {
     "name": "Non-Non",
@@ -487,7 +487,7 @@
    },
    {
     "name": "flo578",
-    "value": 274
+    "value": 276
    },
    {
     "name": "Proxymore",
@@ -527,7 +527,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 109
+    "value": 111
    },
    {
     "name": "Padre",
@@ -539,7 +539,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 91
+    "value": 93
    },
    {
     "name": "Hectorr",
@@ -547,7 +547,7 @@
    },
    {
     "name": "Piingouin.",
-    "value": 75
+    "value": 76
    },
    {
     "name": "sheila3738",
@@ -598,15 +598,15 @@
     "value": 35
    },
    {
+    "name": "JoyBoy.",
+    "value": 31
+   },
+   {
     "name": "ladypink.",
     "value": 30
    },
    {
     "name": "BnBoy",
-    "value": 29
-   },
-   {
-    "name": "JoyBoy.",
     "value": 29
    }
   ],
@@ -617,7 +617,7 @@
    },
    {
     "name": "BiBiCHarBo",
-    "value": 1586
+    "value": 1588
    },
    {
     "name": "fym",
@@ -637,7 +637,7 @@
    },
    {
     "name": "Astreu",
-    "value": 619
+    "value": 621
    },
    {
     "name": "Icarem",
@@ -677,7 +677,7 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 325
+    "value": 327
    },
    {
     "name": "Non-Non",
@@ -689,7 +689,7 @@
    },
    {
     "name": "flo578",
-    "value": 274
+    "value": 276
    },
    {
     "name": "Proxymore",
@@ -729,7 +729,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 109
+    "value": 111
    },
    {
     "name": "Padre",
@@ -741,7 +741,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 91
+    "value": 93
    },
    {
     "name": "Hectorr",
@@ -749,7 +749,7 @@
    },
    {
     "name": "Piingouin.",
-    "value": 75
+    "value": 76
    },
    {
     "name": "sheila3738",
@@ -800,15 +800,15 @@
     "value": 35
    },
    {
+    "name": "JoyBoy.",
+    "value": 31
+   },
+   {
     "name": "ladypink.",
     "value": 30
    },
    {
     "name": "BnBoy",
-    "value": 29
-   },
-   {
-    "name": "JoyBoy.",
     "value": 29
    }
   ]
