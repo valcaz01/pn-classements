@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T23:12:42+00:00",
+ "updated": "2026-11-22T23:14:41+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -425,6 +425,10 @@
    },
    {
     "name": "MagicalArt",
+    "value": 2
+   },
+   {
+    "name": "MelMlrr",
     "value": 2
    },
    {
