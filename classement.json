@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T13:08:29+00:00",
+ "updated": "2026-11-22T13:10:29+00:00",
  "week_start": "2026-11-16",
  "xp": {
   "total": [
@@ -415,7 +415,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 1541
+    "value": 1543
    },
    {
     "name": "fym",
@@ -487,14 +487,14 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 264
-   },
-   {
-    "name": "flo578",
-    "value": 254
+    "value": 266
    },
    {
     "name": "gotica",
+    "value": 255
+   },
+   {
+    "name": "flo578",
     "value": 254
    },
    {
@@ -554,16 +554,16 @@
     "value": 52
    },
    {
+    "name": "-Massimo-",
+    "value": 51
+   },
+   {
     "name": "Fanny-148",
     "value": 51
    },
    {
     "name": "In.esdzz!",
     "value": 51
-   },
-   {
-    "name": "-Massimo-",
-    "value": 49
    },
    {
     "name": "BOuclette.13",
@@ -617,7 +617,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 1541
+    "value": 1543
    },
    {
     "name": "fym",
@@ -689,14 +689,14 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 264
-   },
-   {
-    "name": "flo578",
-    "value": 254
+    "value": 266
    },
    {
     "name": "gotica",
+    "value": 255
+   },
+   {
+    "name": "flo578",
     "value": 254
    },
    {
@@ -756,16 +756,16 @@
     "value": 52
    },
    {
+    "name": "-Massimo-",
+    "value": 51
+   },
+   {
     "name": "Fanny-148",
     "value": 51
    },
    {
     "name": "In.esdzz!",
     "value": 51
-   },
-   {
-    "name": "-Massimo-",
-    "value": 49
    },
    {
     "name": "BOuclette.13",
