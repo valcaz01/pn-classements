@@ -51,8 +51,8 @@ class SalonFormations(unittest.IsolatedAsyncioTestCase):
         self.tableau = form.TableauFormations(self.bot, self.guild.id, self.chemin)
         self.a = {"uid": "1", "hid": "hhfr-1", "pseudo": "Alpha", "depuis": "2026-11-21", "pr": 321}
         self.b = {**self.a, "uid": "2", "hid": "hhfr-2", "pseudo": "Bravo"}
-        self.texte_inconnus = ("**Alpha** (badge du 21/11/26)\nPrésence indisponible\n\n"
-                               "**Bravo** (badge du 21/11/26)\nPrésence indisponible")
+        self.texte_inconnus = ("**Alpha** (P.Adj depuis 21/11/26)\nPrésence indisponible\n\n"
+                               "**Bravo** (P.Adj depuis 21/11/26)\nPrésence indisponible")
         self.messages = {}
         self.compteur = 100
         async def envoyer(**options):
@@ -175,8 +175,8 @@ class SalonFormations(unittest.IsolatedAsyncioTestCase):
         with patch.object(form, "presences_habbo", return_value=lectures):
             await self.tableau.actualiser_presences()
         msg = next(iter(self.messages.values()))
-        self.assertEqual(msg.vue.carte.description, "**Alpha** 🟢 en ligne (badge du 21/11/26)\n\n"
-                         "**Bravo** (badge du 21/11/26)\nDernière connexion le 23/11/26 à 08:05")
+        self.assertEqual(msg.vue.carte.description, "**Alpha** 🟢 en ligne (P.Adj depuis 21/11/26)\n\n"
+                         "**Bravo** (P.Adj depuis 21/11/26)\nDernière connexion le 23/11/26 à 08:05")
         self.assertEqual(msg.vue.carte.footer.text, "2 en attente · 1 en ligne")
         self.assertEqual(msg.edit.await_args.kwargs["allowed_mentions"].to_dict()["parse"], [])
         await self.tableau.actualiser([{**self.b, "observation":time.time(), "en_ligne":False}])
@@ -251,7 +251,7 @@ class SalonFormations(unittest.IsolatedAsyncioTestCase):
         self.assertIn("**Police\\_000**", carte.description)
         self.assertNotIn("Police\\_005", carte.description)
         self.assertEqual(carte.footer.text, "100 en attente")
-        self.assertEqual(fichier.decode().split("\n\n"), [f"{f['pseudo']} (badge du 21/11/26)\nPrésence indisponible" for f in fiches])
+        self.assertEqual(fichier.decode().split("\n\n"), [f"{f['pseudo']} (P.Adj depuis 21/11/26)\nPrésence indisponible" for f in fiches])
 
     async def test_formateur_peut_utiliser_les_boutons_en_lecture_seule(self):
         membre = Mock(spec=discord.Member)
@@ -268,7 +268,7 @@ class SalonFormations(unittest.IsolatedAsyncioTestCase):
         adjoint = {**self.a, "depuis": "2026-11-16"}
         await self.tableau.actualiser([adjoint, qualif])
         public = next(iter(self.messages.values())).vue
-        self.assertEqual(public.carte.description, "**Alpha** (badge du 16/11/26)\nPrésence indisponible")
+        self.assertEqual(public.carte.description, "**Alpha** (P.Adj depuis 16/11/26)\nPrésence indisponible")
         menu = next(c for c in public.walk_children() if isinstance(c, discord.ui.Select))
         self.assertEqual([(o.label, o.default) for o in menu.options],
                          [("Formation Gardien de la paix",False),("Formation qualifiante",False)])
@@ -278,13 +278,13 @@ class SalonFormations(unittest.IsolatedAsyncioTestCase):
         await menu.callback(inter)
         opts = inter.response.send_message.await_args.kwargs
         self.assertTrue(opts["ephemeral"])
-        self.assertEqual(opts["view"].carte.description, "**Charlie** (badge du 21/11/26)\nPrésence indisponible")
+        self.assertEqual(opts["view"].carte.description, "**Charlie** (GPX depuis 21/11/26)\nPrésence indisponible")
         for vue, titre in [(public, "Formation Gardien de la paix"), (opts["view"], "Formation qualifiante")]:
             self.assertIn(f"### 🎓 {titre}", [c.content for c in vue.walk_children() if isinstance(c, discord.ui.TextDisplay)])
         self.tableau.noter_presence(form.cle(qualif), time.time(), form.Presence(True))
         await self.tableau.actualiser([])
         self.assertEqual(inter.edit_original_response.await_args.kwargs["view"].carte.description,
-                         "**Charlie** 🟢 en ligne (badge du 21/11/26)")
+                         "**Charlie** 🟢 en ligne (GPX depuis 21/11/26)")
         self.assertEqual(len(self.messages), 1)
         self.tableau.terminer(form.cle(qualif), SimpleNamespace(id=888, display_name="Formateur"))
         archive = form.PagesFormations(self.tableau, 888, historique=True)

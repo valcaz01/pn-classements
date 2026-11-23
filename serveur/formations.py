@@ -147,9 +147,10 @@ def carte_liste(fiches, presences, genre):
     entrees = []
     connectes = 0
     inconnus = 0
+    grade = {"gdp": "P.Adj", "qualifiante": "GPX"}[genre]
     for fiche in fiches:
         depuis = date.fromisoformat(fiche["depuis"])
-        badge = f"(badge du {depuis:%d/%m/%y})"
+        badge = f"({grade} depuis {depuis:%d/%m/%y})"
         presence = presences.get(cle(fiche), Presence(None))
         if presence.en_ligne is True:
             detail = f" 🟢 en ligne {badge}"
