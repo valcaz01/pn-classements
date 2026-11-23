@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T18:56:36+00:00",
+ "updated": "2026-11-23T18:58:35+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -286,6 +286,10 @@
     "value": 2
    },
    {
+    "name": "apo4020",
+    "value": 1
+   },
+   {
     "name": "LesdixGaga",
     "value": 1
    },
@@ -327,7 +331,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 1009
+    "value": 1011
    },
    {
     "name": "halos34",
@@ -351,7 +355,7 @@
    },
    {
     "name": "andrew16a",
-    "value": 535
+    "value": 537
    },
    {
     "name": "habbo22t",
@@ -374,11 +378,11 @@
     "value": 375
    },
    {
-    "name": "dadou07",
-    "value": 368
+    "name": "Monsieur-RF",
+    "value": 370
    },
    {
-    "name": "Monsieur-RF",
+    "name": "dadou07",
     "value": 368
    },
    {
@@ -394,11 +398,11 @@
     "value": 338
    },
    {
-    "name": "Fleabag",
-    "value": 327
+    "name": "Mr.Dino",
+    "value": 329
    },
    {
-    "name": "Mr.Dino",
+    "name": "Fleabag",
     "value": 327
    },
    {
@@ -423,7 +427,7 @@
    },
    {
     "name": "Hectorr",
-    "value": 220
+    "value": 222
    },
    {
     "name": "-Tsukiri-",
@@ -443,7 +447,7 @@
    },
    {
     "name": "Vyp",
-    "value": 154
+    "value": 156
    },
    {
     "name": "MagicalArt",
@@ -478,16 +482,16 @@
     "value": 68
    },
    {
+    "name": "Leif",
+    "value": 58
+   },
+   {
     "name": ".Dylan.",
     "value": 57
    },
    {
     "name": "Fanny-148",
     "value": 57
-   },
-   {
-    "name": "Leif",
-    "value": 56
    },
    {
     "name": "Pporappippam",
@@ -521,7 +525,7 @@
    },
    {
     "name": "andrew16a",
-    "value": 183
+    "value": 185
    },
    {
     "name": "marinadrk",
@@ -529,11 +533,11 @@
    },
    {
     "name": "Vyp",
-    "value": 154
+    "value": 156
    },
    {
     "name": "Mr.Dino",
-    "value": 145
+    "value": 147
    },
    {
     "name": "Lovepanda",
@@ -552,16 +556,16 @@
     "value": 80
    },
    {
+    "name": "Pantheon_",
+    "value": 77
+   },
+   {
     "name": "SuzieOuistiti!",
     "value": 76
    },
    {
-    "name": "Pantheon_",
-    "value": 75
-   },
-   {
     "name": "Hectorr",
-    "value": 70
+    "value": 72
    },
    {
     "name": "Lewddon",
@@ -573,7 +577,7 @@
    },
    {
     "name": "Leif",
-    "value": 56
+    "value": 58
    },
    {
     "name": "Shizuku",
@@ -600,6 +604,10 @@
     "value": 22
    },
    {
+    "name": "Monsieur-RF",
+    "value": 15
+   },
+   {
     "name": "gotica",
     "value": 13
    },
@@ -609,10 +617,6 @@
    },
    {
     "name": "Mi,hermano",
-    "value": 13
-   },
-   {
-    "name": "Monsieur-RF",
     "value": 13
    },
    {
