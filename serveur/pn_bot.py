@@ -51,7 +51,8 @@ from publication import PUBLICATION_REVISION, PublicationHealth, network_git, pu
 from habbo_http import request_json
 from collection import COLLECTION_REVISION, JOBS, REASONS, CollectionHealth, subprocess_failure
 from direction_todo import DirectionBoard
-from formations import TableauFormations
+from formations import DELAI_MENTION_QG, TableauFormations
+from promotions_qg import AlertesBadgesQG
 from suivi_qg import SuiviQG
 
 VERSION = "2026-10-28.1"   # diagnostic de mise en service (ne pas changer sans raison : il est re-posté)
@@ -540,7 +541,12 @@ class PNBot(discord.Client):
 
     async def setup_hook(self):
         self.add_dynamic_items(BadgeButton, AnnulerButton)
-        self.formations = TableauFormations(self, GUILD_ID, Path(LOCK_FILE).parent / "tableau-formations.json", api_qg=api)
+        dossier = Path(LOCK_FILE).parent
+        promotions_qg = (AlertesBadgesQG(self, ALERT_CHANNEL_ID, ROLE_HAUT_GRADE_ID, REPO,
+                                         dossier / "mentions-promotions-qg.json", HOST, DELAI_MENTION_QG)
+                         if ALERT_CHANNEL_ID else None)
+        self.formations = TableauFormations(self, GUILD_ID, dossier / "tableau-formations.json",
+                                           api_qg=api, promotions_qg=promotions_qg)
         self.formations.demarrer()
         self.tick.start()
         self.direction_board = DirectionBoard(self, GUILD_ID, HEBDO_CHANNEL_ID, Path(LOCK_FILE).parent / "direction-tasks.sqlite3")

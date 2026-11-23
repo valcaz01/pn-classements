@@ -286,7 +286,7 @@ def est_tableau(msg):
 
 
 class TableauFormations:
-    def __init__(self, client, guild_id, chemin, *, api_qg=None):
+    def __init__(self, client, guild_id, chemin, *, api_qg=None, promotions_qg=None):
         self.client, self.guild_id, self.chemin = client, guild_id, chemin
         self.etat = (json.loads(chemin.read_text(encoding="utf-8")) if chemin.exists() else
                      {"attente": {}, "historique": {}, "annonces": [], "panneau": 0, "migration": False})
@@ -300,6 +300,7 @@ class TableauFormations:
         self.badges = {}
         self.controles_badge = {}
         self.controle_qg = ControlePresenceQG(api_qg) if api_qg else None
+        self.promotions_qg = promotions_qg
         self.lecture_qg = None
         self.statut_qg = None
         self.prochain_qg = self.prochain_statut = 0
@@ -420,12 +421,23 @@ class TableauFormations:
     async def actualiser_qg(self):
         fiches = self.liste()
         instant = time.monotonic()
+        if instant < self.prochain_qg:
+            return
+        demandes = None
+        if self.promotions_qg:
+            try:
+                demandes = await asyncio.to_thread(self.promotions_qg.demandes)
+            except (OSError, ValueError, KeyError, TypeError):
+                LOG.exception("Lecture des demandes de badge reportée")
+        suivis_qg = [*fiches, *(demandes or [])]
         # Une première sonde vérifie la liaison même si personne n'attend de formation.
-        if instant < self.prochain_qg or (not fiches and self.lecture_qg is not None):
+        if not suivis_qg and self.lecture_qg is not None:
+            if demandes == []:
+                self.promotions_qg.observer([], set())
             return
         self.prochain_qg = instant + INTERVALLE_PRESENCE - 2
         try:
-            numero, nombre, presents = await asyncio.to_thread(self.controle_qg.relever, fiches)
+            numero, nombre, presents = await asyncio.to_thread(self.controle_qg.relever, suivis_qg)
         except ApiRequestError as exc:
             self.prochain_qg = time.monotonic() + max(60, exc.retry_delay or 0)
             LOG.warning("Sonde de formation QG reportée : %s", exc)
@@ -440,14 +452,19 @@ class TableauFormations:
             if not nombre:
                 LOG.info("Contrôle QG %s : en attente du premier écho d'un avatar", numero)
                 self.statut_qg = "QG en attente d’un écho WIRED"
-                if not fiches:
+                if not suivis_qg:
                     self.prochain_qg = time.monotonic() + 120
                 return
             LOG.info("Liaison WIRED formations confirmée, contrôle %s repris par %s avatars", numero, nombre)
+        if demandes is not None:
+            try:
+                self.promotions_qg.observer(demandes, presents)
+            except OSError:
+                LOG.exception("Enregistrement de la visite pour une promotion reporté")
         async with self.verrou:
             self.statut_qg = None
-            self.lecture_qg = time.monotonic(), presents
             suivis = {identite(f) for f in self.etat["attente"].values()}
+            self.lecture_qg = time.monotonic(), presents & suivis
             visites = {}
             for hid, absences in self.etat.get("visites_qg", {}).items():
                 if hid in suivis and (hid in presents or absences == 0):

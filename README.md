@@ -45,6 +45,12 @@ pour les nouvelles formations. Le salon est en lecture seule pour les formateurs
 badges et du tableau persiste dans les fichiers privés `formations-pa.json`
 et `tableau-formations.json` de `/opt/pn/lock/`.
 
+Dans **Alertes-promotions**, le même contrôle du QG repère aussi les cadets dont le badge
+Policier adjoint reste à attribuer. Le bot vérifie la connexion Habbo, le badge Cadet et le
+bouton d’attribution de la demande avant de signaler le candidat au rôle **Haut gradé**.
+Le rappel est une réponse à la demande d’origine. Une nouvelle visite peut donner lieu à un
+autre rappel après une heure. Le délai et les visites sont conservés au redémarrage.
+
 Le serveur collecte les données toutes les deux minutes. Le widget et la page
 Classements relisent le fichier publié toutes les deux minutes sans interroger
 directement Habbo. « Actualisé à » indique la dernière collecte réussie, heure
