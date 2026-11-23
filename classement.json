@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T12:04:33+00:00",
+ "updated": "2026-11-23T12:06:34+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -279,7 +279,7 @@
   "total": [
    {
     "name": "habbo-160-3",
-    "value": 1905
+    "value": 1907
    },
    {
     "name": "BiBiCHarBo",
@@ -327,7 +327,7 @@
    },
    {
     "name": "andrew16a",
-    "value": 440
+    "value": 442
    },
    {
     "name": "Lewddon",
@@ -363,7 +363,7 @@
    },
    {
     "name": "_.Flora._",
-    "value": 301
+    "value": 303
    },
    {
     "name": "gotica",
@@ -375,7 +375,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 260
+    "value": 262
    },
    {
     "name": "Weavem",
@@ -383,7 +383,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 229
+    "value": 230
    },
    {
     "name": "-Tsukiri-",
@@ -493,7 +493,7 @@
    },
    {
     "name": "andrew16a",
-    "value": 88
+    "value": 90
    },
    {
     "name": ".Libellule",
@@ -521,19 +521,19 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 47
+    "value": 48
    },
    {
     "name": "-Massimo-",
-    "value": 36
+    "value": 38
+   },
+   {
+    "name": "habbo-160-3",
+    "value": 26
    },
    {
     "name": "Icarem",
     "value": 26
-   },
-   {
-    "name": "habbo-160-3",
-    "value": 24
    },
    {
     "name": "sami75.19",
@@ -570,6 +570,10 @@
    {
     "name": "Babbo0",
     "value": 4
+   },
+   {
+    "name": "_.Flora._",
+    "value": 2
    },
    {
     "name": "MagicalArt",
