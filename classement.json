@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T13:32:30+00:00",
+ "updated": "2026-11-23T13:34:30+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -287,7 +287,7 @@
   "total": [
    {
     "name": "habbo-160-3",
-    "value": 1928
+    "value": 1930
    },
    {
     "name": "BiBiCHarBo",
@@ -533,7 +533,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 47
+    "value": 49
    },
    {
     "name": "-Massimo-",
@@ -552,6 +552,10 @@
     "value": 22
    },
    {
+    "name": "apo4020",
+    "value": 13
+   },
+   {
     "name": "gotica",
     "value": 13
    },
@@ -566,10 +570,6 @@
    {
     "name": "_.Flora._",
     "value": 12
-   },
-   {
-    "name": "apo4020",
-    "value": 11
    },
    {
     "name": "charlie-XCX123",
