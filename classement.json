@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T00:58:43+00:00",
+ "updated": "2026-11-23T01:00:43+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -17,7 +17,7 @@
    },
    {
     "name": "pevanq640",
-    "value": 34
+    "value": 36
    },
    {
     "name": "charlie-XCX123",
@@ -210,6 +210,10 @@
     "value": 2
    },
    {
+    "name": "pevanq640",
+    "value": 2
+   },
+   {
     "name": ".:Krustiz:.",
     "value": 1
    },
@@ -247,7 +251,7 @@
    },
    {
     "name": "Shizuku",
-    "value": 667
+    "value": 669
    },
    {
     "name": "Astreu",
@@ -259,7 +263,7 @@
    },
    {
     "name": "halos34",
-    "value": 547
+    "value": 549
    },
    {
     "name": "habbo22t",
@@ -425,15 +429,19 @@
   "week": [
    {
     "name": "halos34",
-    "value": 64
+    "value": 66
    },
    {
     "name": "Shizuku",
-    "value": 33
+    "value": 35
    },
    {
     "name": "-Massimo-",
     "value": 23
+   },
+   {
+    "name": "SuzieOuistiti!",
+    "value": 7
    },
    {
     "name": "irysse",
@@ -441,10 +449,6 @@
    },
    {
     "name": "MelMlrr",
-    "value": 5
-   },
-   {
-    "name": "SuzieOuistiti!",
     "value": 5
    },
    {
