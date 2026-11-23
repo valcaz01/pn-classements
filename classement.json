@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T12:28:28+00:00",
+ "updated": "2026-11-23T12:30:30+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -156,6 +156,10 @@
     "value": 3
    },
    {
+    "name": "LesdixGaga",
+    "value": 3
+   },
+   {
     "name": "MagicalArt",
     "value": 3
    },
@@ -185,10 +189,6 @@
    },
    {
     "name": "ladypink.",
-    "value": 2
-   },
-   {
-    "name": "LesdixGaga",
     "value": 2
    },
    {
@@ -264,6 +264,10 @@
    {
     "name": "Pantheon_",
     "value": 2
+   },
+   {
+    "name": "LesdixGaga",
+    "value": 1
    },
    {
     "name": "MelMlrr",
@@ -383,7 +387,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 245
+    "value": 247
    },
    {
     "name": "Weavem",
@@ -411,7 +415,7 @@
    },
    {
     "name": "Padre",
-    "value": 140
+    "value": 141
    },
    {
     "name": "MagicalArt",
@@ -508,12 +512,12 @@
     "value": 71
    },
    {
-    "name": "Lewddon",
-    "value": 64
+    "name": "Mr.Dino",
+    "value": 65
    },
    {
-    "name": "Mr.Dino",
-    "value": 63
+    "name": "Lewddon",
+    "value": 64
    },
    {
     "name": "Pantheon_",
@@ -564,6 +568,10 @@
     "value": 8
    },
    {
+    "name": "Padre",
+    "value": 6
+   },
+   {
     "name": "irysse",
     "value": 5
    },
@@ -573,10 +581,6 @@
    },
    {
     "name": "MelMlrr",
-    "value": 5
-   },
-   {
-    "name": "Padre",
     "value": 5
    },
    {
