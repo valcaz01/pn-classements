@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T09:42:24+00:00",
+ "updated": "2026-11-23T09:45:53+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -20,12 +20,12 @@
     "value": 38
    },
    {
-    "name": "charlie-XCX123",
+    "name": ".Libellule",
     "value": 35
    },
    {
-    "name": ".Libellule",
-    "value": 34
+    "name": "charlie-XCX123",
+    "value": 35
    },
    {
     "name": "halos34",
@@ -218,12 +218,12 @@
     "value": 3
    },
    {
-    "name": "gotica",
+    "name": ".Libellule",
     "value": 3
    },
    {
-    "name": ".Libellule",
-    "value": 2
+    "name": "gotica",
+    "value": 3
    },
    {
     "name": "charlie-XCX123",
@@ -311,7 +311,7 @@
    },
    {
     "name": "Mi,hermano",
-    "value": 362
+    "value": 364
    },
    {
     "name": "dadou07",
@@ -327,7 +327,7 @@
    },
    {
     "name": ".Libellule",
-    "value": 332
+    "value": 333
    },
    {
     "name": "flo578",
@@ -370,12 +370,12 @@
     "value": 192
    },
    {
-    "name": "Mr.Dino",
-    "value": 182
+    "name": "Hectorr",
+    "value": 183
    },
    {
-    "name": "Hectorr",
-    "value": 179
+    "name": "Mr.Dino",
+    "value": 182
    },
    {
     "name": "irysse",
@@ -481,7 +481,7 @@
    },
    {
     "name": "Hectorr",
-    "value": 29
+    "value": 33
    },
    {
     "name": "-Massimo-",
@@ -520,15 +520,19 @@
     "value": 5
    },
    {
+    "name": ".Libellule",
+    "value": 4
+   },
+   {
     "name": "Babbo0",
     "value": 4
    },
    {
-    "name": ".Libellule",
-    "value": 3
+    "name": "MagicalArt",
+    "value": 2
    },
    {
-    "name": "MagicalArt",
+    "name": "Mi,hermano",
     "value": 2
    },
    {
