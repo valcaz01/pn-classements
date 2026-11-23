@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T03:12:45+00:00",
+ "updated": "2026-11-23T03:14:43+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -255,7 +255,7 @@
    },
    {
     "name": "marinadrk",
-    "value": 958
+    "value": 960
    },
    {
     "name": "Pantheon_",
@@ -271,7 +271,7 @@
    },
    {
     "name": "halos34",
-    "value": 650
+    "value": 651
    },
    {
     "name": "Astreu",
@@ -291,7 +291,7 @@
    },
    {
     "name": "Lewddon",
-    "value": 415
+    "value": 417
    },
    {
     "name": "Mi,hermano",
@@ -351,7 +351,7 @@
    },
    {
     "name": "Postillon",
-    "value": 183
+    "value": 185
    },
    {
     "name": "Mr.Dino",
@@ -394,11 +394,11 @@
     "value": 75
    },
    {
-    "name": "Imondi",
-    "value": 68
+    "name": "Vyp",
+    "value": 70
    },
    {
-    "name": "Vyp",
+    "name": "Imondi",
     "value": 68
    },
    {
@@ -445,15 +445,15 @@
   "week": [
    {
     "name": "halos34",
-    "value": 167
+    "value": 168
    },
    {
     "name": "Vyp",
-    "value": 68
+    "value": 70
    },
    {
     "name": "Lewddon",
-    "value": 60
+    "value": 62
    },
    {
     "name": "Shizuku",
@@ -461,7 +461,7 @@
    },
    {
     "name": "marinadrk",
-    "value": 49
+    "value": 51
    },
    {
     "name": "-Massimo-",
@@ -476,6 +476,10 @@
     "value": 8
    },
    {
+    "name": "Postillon",
+    "value": 6
+   },
+   {
     "name": "irysse",
     "value": 5
    },
@@ -485,10 +489,6 @@
    },
    {
     "name": "Babbo0",
-    "value": 4
-   },
-   {
-    "name": "Postillon",
     "value": 4
    },
    {
