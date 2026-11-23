@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T17:12:36+00:00",
+ "updated": "2026-11-23T17:14:36+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -25,7 +25,7 @@
    },
    {
     "name": "fym",
-    "value": 38
+    "value": 39
    },
    {
     "name": "halos34",
@@ -227,7 +227,7 @@
    },
    {
     "name": "fym",
-    "value": 4
+    "value": 5
    },
    {
     "name": "gotica",
@@ -362,12 +362,12 @@
     "value": 364
    },
    {
-    "name": "dadou07",
-    "value": 360
+    "name": "Monsieur-RF",
+    "value": 362
    },
    {
-    "name": "Monsieur-RF",
-    "value": 360
+    "name": "dadou07",
+    "value": 361
    },
    {
     "name": "_.Flora._",
@@ -391,7 +391,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 285
+    "value": 287
    },
    {
     "name": "gotica",
@@ -435,7 +435,7 @@
    },
    {
     "name": "Vyp",
-    "value": 117
+    "value": 119
    },
    {
     "name": "apo4020",
@@ -474,12 +474,12 @@
     "value": 52
    },
    {
-    "name": "In.esdzz!",
-    "value": 51
+    "name": "SuzieOuistiti!",
+    "value": 52
    },
    {
-    "name": "SuzieOuistiti!",
-    "value": 50
+    "name": "In.esdzz!",
+    "value": 51
    },
    {
     "name": "BOuclette.13",
@@ -513,19 +513,19 @@
    },
    {
     "name": "Vyp",
-    "value": 117
+    "value": 119
    },
    {
     "name": "marinadrk",
     "value": 108
    },
    {
-    "name": "andrew16a",
-    "value": 104
+    "name": "Mr.Dino",
+    "value": 105
    },
    {
-    "name": "Mr.Dino",
-    "value": 103
+    "name": "andrew16a",
+    "value": 104
    },
    {
     "name": "apo4020",
@@ -556,15 +556,15 @@
     "value": 53
    },
    {
+    "name": "SuzieOuistiti!",
+    "value": 44
+   },
+   {
     "name": "-Massimo-",
     "value": 43
    },
    {
     "name": "_.Flora._",
-    "value": 42
-   },
-   {
-    "name": "SuzieOuistiti!",
     "value": 42
    },
    {
@@ -596,15 +596,15 @@
     "value": 10
    },
    {
+    "name": "Monsieur-RF",
+    "value": 7
+   },
+   {
     "name": "irysse",
     "value": 5
    },
    {
     "name": "JoyBoy.",
-    "value": 5
-   },
-   {
-    "name": "Monsieur-RF",
     "value": 5
    },
    {
@@ -614,6 +614,10 @@
    {
     "name": ".Dylan.",
     "value": 3
+   },
+   {
+    "name": "dadou07",
+    "value": 2
    },
    {
     "name": "MagicalArt",
@@ -629,10 +633,6 @@
    },
    {
     "name": "CovidJr",
-    "value": 1
-   },
-   {
-    "name": "dadou07",
     "value": 1
    }
   ]
