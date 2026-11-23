@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T12:26:29+00:00",
+ "updated": "2026-11-23T12:28:28+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -383,7 +383,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 244
+    "value": 245
    },
    {
     "name": "Weavem",
@@ -411,7 +411,7 @@
    },
    {
     "name": "Padre",
-    "value": 138
+    "value": 140
    },
    {
     "name": "MagicalArt",
@@ -513,7 +513,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 62
+    "value": 63
    },
    {
     "name": "Pantheon_",
@@ -576,12 +576,12 @@
     "value": 5
    },
    {
-    "name": "Babbo0",
-    "value": 4
+    "name": "Padre",
+    "value": 5
    },
    {
-    "name": "Padre",
-    "value": 3
+    "name": "Babbo0",
+    "value": 4
    },
    {
     "name": "MagicalArt",
