@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T21:24:37+00:00",
+ "updated": "2026-11-23T21:26:37+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -339,7 +339,7 @@
    },
    {
     "name": "marinadrk",
-    "value": 1100
+    "value": 1102
    },
    {
     "name": "Pantheon_",
@@ -359,7 +359,7 @@
    },
    {
     "name": "Lovepanda",
-    "value": 679
+    "value": 680
    },
    {
     "name": "Astreu",
@@ -371,7 +371,7 @@
    },
    {
     "name": "charlie-XCX123",
-    "value": 484
+    "value": 486
    },
    {
     "name": "habbo22t",
@@ -379,7 +379,7 @@
    },
    {
     "name": "Padre",
-    "value": 448
+    "value": 450
    },
    {
     "name": "Lewddon",
@@ -403,7 +403,7 @@
    },
    {
     "name": "flo578",
-    "value": 378
+    "value": 380
    },
    {
     "name": "_.Flora._",
@@ -475,7 +475,7 @@
    },
    {
     "name": "SuzieOuistiti!",
-    "value": 85
+    "value": 87
    },
    {
     "name": "BnBoy",
@@ -523,7 +523,7 @@
    },
    {
     "name": "guest77145",
-    "value": 45
+    "value": 47
    }
   ],
   "week": [
@@ -533,7 +533,7 @@
    },
    {
     "name": "Padre",
-    "value": 314
+    "value": 316
    },
    {
     "name": "Vyp",
@@ -545,7 +545,7 @@
    },
    {
     "name": "marinadrk",
-    "value": 191
+    "value": 193
    },
    {
     "name": "Mr.Dino",
@@ -557,7 +557,7 @@
    },
    {
     "name": "Lovepanda",
-    "value": 122
+    "value": 123
    },
    {
     "name": "Icarem",
@@ -580,11 +580,11 @@
     "value": 80
    },
    {
-    "name": "Shizuku",
-    "value": 77
+    "name": "SuzieOuistiti!",
+    "value": 79
    },
    {
-    "name": "SuzieOuistiti!",
+    "name": "Shizuku",
     "value": 77
    },
    {
@@ -605,19 +605,19 @@
    },
    {
     "name": "flo578",
-    "value": 50
+    "value": 52
    },
    {
     "name": "Mi,hermano",
     "value": 47
    },
    {
-    "name": "-Massimo-",
-    "value": 43
+    "name": "charlie-XCX123",
+    "value": 44
    },
    {
-    "name": "charlie-XCX123",
-    "value": 42
+    "name": "-Massimo-",
+    "value": 43
    },
    {
     "name": "dadou07",
@@ -670,6 +670,10 @@
    {
     "name": ".Dylan.",
     "value": 3
+   },
+   {
+    "name": "guest77145",
+    "value": 2
    },
    {
     "name": "MagicalArt",
