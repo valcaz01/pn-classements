@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T01:34:42+00:00",
+ "updated": "2026-11-23T01:36:42+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -13,7 +13,7 @@
    },
    {
     "name": "fym",
-    "value": 40
+    "value": 38
    },
    {
     "name": "pevanq640",
@@ -37,11 +37,11 @@
    },
    {
     "name": "Shizuku",
-    "value": 29
+    "value": 27
    },
    {
     "name": ".:Krustiz:.",
-    "value": 25
+    "value": 23
    },
    {
     "name": "habbo-160-3",
@@ -239,7 +239,7 @@
    },
    {
     "name": "fym",
-    "value": 1145
+    "value": 1143
    },
    {
     "name": "Pantheon_",
@@ -247,7 +247,7 @@
    },
    {
     "name": "marinadrk",
-    "value": 910
+    "value": 911
    },
    {
     "name": "Icarem",
@@ -255,7 +255,7 @@
    },
    {
     "name": "Shizuku",
-    "value": 690
+    "value": 688
    },
    {
     "name": "Astreu",
@@ -263,7 +263,7 @@
    },
    {
     "name": "halos34",
-    "value": 567
+    "value": 569
    },
    {
     "name": "Lovepanda",
@@ -367,7 +367,7 @@
    },
    {
     "name": ".:Krustiz:.",
-    "value": 100
+    "value": 98
    },
    {
     "name": "BnBoy",
@@ -433,7 +433,7 @@
   "week": [
    {
     "name": "halos34",
-    "value": 84
+    "value": 86
    },
    {
     "name": "Shizuku",
@@ -473,6 +473,10 @@
    },
    {
     "name": "CovidJr",
+    "value": 1
+   },
+   {
+    "name": "marinadrk",
     "value": 1
    }
   ]
