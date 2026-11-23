@@ -3005,7 +3005,7 @@
   "grade": null,
   "humeur": "",
   "pseudo": "Cocoo58",
-  "verifie": "2026-11-23T07:04:43+00:00"
+  "verifie": "2026-11-23T10:06:42+00:00"
  },
  "24554330": {
   "alertes": {},
@@ -8291,11 +8291,21 @@
   "alertes": {
    "cadet": "2026-11-23T10:04:42+00:00"
   },
-  "depuis": "2026-11-20T23:00:00+00:00",
-  "grade": "cadet",
-  "humeur": "[PN] Cadet",
+  "badge": {
+   "cadet": {
+    "habbo": ".Libellule",
+    "habbo_id": "25357971",
+    "le": "2026-11-23T11:05:42+01:00",
+    "par": ".Libellule",
+    "par_id": "676079051773050918",
+    "xp": true
+   }
+  },
+  "depuis": "2026-11-23T10:06:42+00:00",
+  "grade": "pa",
+  "humeur": "[PN] Policier Adjoint",
   "pseudo": "Hectorr",
-  "verifie": "2026-11-23T09:54:49+00:00"
+  "verifie": "2026-11-23T10:06:42+00:00"
  },
  "26034583": {
   "alertes": {},
@@ -9299,7 +9309,7 @@
   "grade": null,
   "humeur": "",
   "pseudo": "Aevia",
-  "verifie": "2026-11-23T07:04:43+00:00"
+  "verifie": "2026-11-23T10:06:42+00:00"
  },
  "26042873": {
   "alertes": {},

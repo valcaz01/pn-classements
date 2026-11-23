@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T10:04:42+00:00",
+ "updated": "2026-11-23T10:06:42+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -21,7 +21,7 @@
    },
    {
     "name": ".Libellule",
-    "value": 35
+    "value": 36
    },
    {
     "name": "charlie-XCX123",
@@ -206,6 +206,10 @@
   ],
   "week": [
    {
+    "name": ".Libellule",
+    "value": 4
+   },
+   {
     "name": "fym",
     "value": 4
    },
@@ -215,10 +219,6 @@
    },
    {
     "name": ".:Krustiz:.",
-    "value": 3
-   },
-   {
-    "name": ".Libellule",
     "value": 3
    },
    {
@@ -279,7 +279,7 @@
    },
    {
     "name": "halos34",
-    "value": 695
+    "value": 697
    },
    {
     "name": "Icarem",
@@ -295,7 +295,7 @@
    },
    {
     "name": "Lovepanda",
-    "value": 579
+    "value": 581
    },
    {
     "name": "habbo22t",
@@ -322,12 +322,12 @@
     "value": 355
    },
    {
-    "name": "andrew16a",
-    "value": 352
+    "name": ".Libellule",
+    "value": 353
    },
    {
-    "name": ".Libellule",
-    "value": 351
+    "name": "andrew16a",
+    "value": 352
    },
    {
     "name": "flo578",
@@ -367,7 +367,7 @@
    },
    {
     "name": "Hectorr",
-    "value": 199
+    "value": 201
    },
    {
     "name": "Postillon",
@@ -461,7 +461,7 @@
   "week": [
    {
     "name": "halos34",
-    "value": 212
+    "value": 214
    },
    {
     "name": "marinadrk",
@@ -481,19 +481,19 @@
    },
    {
     "name": "Hectorr",
-    "value": 49
+    "value": 51
+   },
+   {
+    "name": ".Libellule",
+    "value": 24
+   },
+   {
+    "name": "Lovepanda",
+    "value": 24
    },
    {
     "name": "-Massimo-",
     "value": 23
-   },
-   {
-    "name": ".Libellule",
-    "value": 22
-   },
-   {
-    "name": "Lovepanda",
-    "value": 22
    },
    {
     "name": "sami75.19",
