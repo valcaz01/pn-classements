@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T09:54:49+00:00",
+ "updated": "2026-11-23T09:56:49+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -287,7 +287,7 @@
    },
    {
     "name": "halos34",
-    "value": 686
+    "value": 687
    },
    {
     "name": "Astreu",
@@ -327,7 +327,7 @@
    },
    {
     "name": ".Libellule",
-    "value": 341
+    "value": 343
    },
    {
     "name": "flo578",
@@ -366,12 +366,12 @@
     "value": 215
    },
    {
-    "name": "Postillon",
+    "name": "Hectorr",
     "value": 192
    },
    {
-    "name": "Hectorr",
-    "value": 190
+    "name": "Postillon",
+    "value": 192
    },
    {
     "name": "Mr.Dino",
@@ -438,11 +438,11 @@
     "value": 49
    },
    {
-    "name": "guest77145",
-    "value": 45
+    "name": "JoyBoy.",
+    "value": 47
    },
    {
-    "name": "JoyBoy.",
+    "name": "guest77145",
     "value": 45
    },
    {
@@ -461,7 +461,7 @@
   "week": [
    {
     "name": "halos34",
-    "value": 203
+    "value": 204
    },
    {
     "name": "marinadrk",
@@ -481,7 +481,7 @@
    },
    {
     "name": "Hectorr",
-    "value": 40
+    "value": 42
    },
    {
     "name": "-Massimo-",
@@ -496,6 +496,10 @@
     "value": 16
    },
    {
+    "name": ".Libellule",
+    "value": 14
+   },
+   {
     "name": "gotica",
     "value": 13
    },
@@ -506,10 +510,6 @@
    {
     "name": "SuzieOuistiti!",
     "value": 13
-   },
-   {
-    "name": ".Libellule",
-    "value": 12
    },
    {
     "name": "charlie-XCX123",
@@ -528,6 +528,10 @@
     "value": 4
    },
    {
+    "name": "JoyBoy.",
+    "value": 3
+   },
+   {
     "name": "MagicalArt",
     "value": 2
    },
@@ -541,10 +545,6 @@
    },
    {
     "name": "CovidJr",
-    "value": 1
-   },
-   {
-    "name": "JoyBoy.",
     "value": 1
    }
   ]
