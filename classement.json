@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T06:02:43+00:00",
+ "updated": "2026-11-23T06:04:44+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -92,6 +92,10 @@
     "value": 11
    },
    {
+    "name": "gotica",
+    "value": 10
+   },
+   {
     "name": "Monsieur-RF",
     "value": 10
    },
@@ -110,10 +114,6 @@
    {
     "name": "Weavem",
     "value": 8
-   },
-   {
-    "name": "gotica",
-    "value": 7
    },
    {
     "name": "marinadrk",
@@ -211,6 +211,10 @@
    },
    {
     "name": ".:Krustiz:.",
+    "value": 3
+   },
+   {
+    "name": "gotica",
     "value": 3
    },
    {
