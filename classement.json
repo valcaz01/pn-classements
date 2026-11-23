@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T09:34:25+00:00",
+ "updated": "2026-11-23T09:36:24+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -17,7 +17,7 @@
    },
    {
     "name": "pevanq640",
-    "value": 36
+    "value": 38
    },
    {
     "name": "charlie-XCX123",
@@ -210,6 +210,10 @@
     "value": 4
    },
    {
+    "name": "pevanq640",
+    "value": 4
+   },
+   {
     "name": ".:Krustiz:.",
     "value": 3
    },
@@ -219,10 +223,6 @@
    },
    {
     "name": "charlie-XCX123",
-    "value": 2
-   },
-   {
-    "name": "pevanq640",
     "value": 2
    },
    {
@@ -279,7 +279,7 @@
    },
    {
     "name": "halos34",
-    "value": 677
+    "value": 678
    },
    {
     "name": "Astreu",
@@ -287,7 +287,7 @@
    },
    {
     "name": "Lovepanda",
-    "value": 569
+    "value": 571
    },
    {
     "name": "habbo22t",
@@ -371,7 +371,7 @@
    },
    {
     "name": "Hectorr",
-    "value": 171
+    "value": 173
    },
    {
     "name": "sami75.19",
@@ -453,7 +453,7 @@
   "week": [
    {
     "name": "halos34",
-    "value": 194
+    "value": 195
    },
    {
     "name": "marinadrk",
@@ -477,11 +477,15 @@
    },
    {
     "name": "Hectorr",
-    "value": 21
+    "value": 23
    },
    {
     "name": "sami75.19",
     "value": 21
+   },
+   {
+    "name": "Lovepanda",
+    "value": 14
    },
    {
     "name": "gotica",
@@ -494,10 +498,6 @@
    {
     "name": "SuzieOuistiti!",
     "value": 13
-   },
-   {
-    "name": "Lovepanda",
-    "value": 12
    },
    {
     "name": "charlie-XCX123",
