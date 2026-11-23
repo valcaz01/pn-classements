@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T06:00:43+00:00",
+ "updated": "2026-11-23T06:02:43+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -335,7 +335,7 @@
    },
    {
     "name": "gotica",
-    "value": 270
+    "value": 271
    },
    {
     "name": "-Massimo-",
@@ -501,6 +501,10 @@
    },
    {
     "name": "CovidJr",
+    "value": 1
+   },
+   {
+    "name": "gotica",
     "value": 1
    }
   ]
