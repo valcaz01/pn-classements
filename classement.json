@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T10:42:32+00:00",
+ "updated": "2026-11-23T10:44:32+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -283,7 +283,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 939
+    "value": 941
    },
    {
     "name": "halos34",
@@ -319,11 +319,11 @@
    },
    {
     "name": ".Libellule",
-    "value": 388
+    "value": 390
    },
    {
     "name": "andrew16a",
-    "value": 365
+    "value": 367
    },
    {
     "name": "Mi,hermano",
@@ -485,7 +485,7 @@
    },
    {
     "name": ".Libellule",
-    "value": 59
+    "value": 61
    },
    {
     "name": "Shizuku",
@@ -509,7 +509,7 @@
    },
    {
     "name": "andrew16a",
-    "value": 13
+    "value": 15
    },
    {
     "name": "gotica",
@@ -528,6 +528,10 @@
     "value": 8
    },
    {
+    "name": "Pantheon_",
+    "value": 7
+   },
+   {
     "name": "irysse",
     "value": 5
    },
@@ -537,10 +541,6 @@
    },
    {
     "name": "MelMlrr",
-    "value": 5
-   },
-   {
-    "name": "Pantheon_",
     "value": 5
    },
    {
