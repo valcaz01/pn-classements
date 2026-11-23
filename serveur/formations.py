@@ -423,7 +423,8 @@ class BoutonsFormations(discord.ui.LayoutView):
     def __init__(self, tableau, genre="gdp", *, auteur=None, annoncer=(), gestion=False):
         super().__init__(timeout=None if auteur is None else 900)
         self.tableau, self.genre, self.auteur = tableau, genre, auteur
-        self.gestion = auteur is not None and gestion
+        # Le message du salon est commun à tous. Le bot contrôle le rôle au clic.
+        self.afficher_retrait = auteur is None or gestion
         presences = tableau.presences_recentes()
         self.carte, self.fichier = carte_liste(tableau.liste(genre, presences=presences), presences, genre)
         self.compteurs = {g: len(tableau.liste(g, presences=presences)) for g in TYPES}
@@ -457,20 +458,19 @@ class BoutonsFormations(discord.ui.LayoutView):
         boite.add_item(discord.ui.TextDisplay(self.carte.description))
         if self.fichier:
             boite.add_item(discord.ui.File("attachment://formations-a-faire.txt"))
-        actions = discord.ui.ActionRow(faite, historique)
-        if self.gestion:
+        boite.add_item(discord.ui.ActionRow(faite, historique))
+        if self.afficher_retrait:
             retrait = discord.ui.Button(label="Retirer de la liste", style=discord.ButtonStyle.danger,
                                        custom_id="pn:formas:retirer")
             retrait.callback = self.retirer
-            actions.add_item(retrait)
-        boite.add_item(actions)
+            boite.add_item(discord.ui.ActionRow(retrait))
         self.add_item(boite)
 
     def pieces(self):
         return [discord.File(io.BytesIO(self.fichier), filename="formations-a-faire.txt")] if self.fichier else []
 
     def signature(self):
-        contenu = json.dumps([self.genre, self.gestion, self.carte.title, self.carte.description, self.carte.footer.text,
+        contenu = json.dumps([self.genre, self.afficher_retrait, self.carte.title, self.carte.description, self.carte.footer.text,
                               self.compteurs], ensure_ascii=False).encode()
         return hashlib.sha256(contenu + (self.fichier or b"")).hexdigest()
 

@@ -86,7 +86,7 @@ class SalonFormations(unittest.IsolatedAsyncioTestCase):
         self.assertNotIn("<@&", "\n".join(textes))
         self.assertEqual(appel["allowed_mentions"].to_dict(), {"parse": ["everyone"]})
         self.assertEqual([b.label for b in appel["view"].walk_children() if isinstance(b, discord.ui.Button)],
-                         ["Formation faite", "Historique des formations"])
+                         ["Formation faite", "Historique des formations", "Retirer de la liste"])
         self.assertEqual(appel["view"].carte.description, self.texte_inconnus)
         self.assertTrue(appel["view"].is_persistent())
         await self.tableau.actualiser([self.a, self.b])
@@ -291,10 +291,25 @@ class SalonFormations(unittest.IsolatedAsyncioTestCase):
         self.assertIn("Formation qualifiante", archive.carte.description)
         self.assertEqual([f["pseudo"] for f in self.tableau.liste()], ["Alpha"])
 
+    async def test_ajout_du_retrait_sur_un_tableau_existant_sans_nouvelle_mention(self):
+        await self.tableau.actualiser([self.a])
+        msg = next(iter(self.messages.values()))
+        # L'ancien tableau commun avait la même signature que la vue sans bouton de retrait.
+        sans_retrait = form.BoutonsFormations(self.tableau, auteur=77)
+        msg.components = sans_retrait.children
+        self.tableau.sauver(rendu=sans_retrait.signature())
+        reprise = form.TableauFormations(self.bot, self.guild.id, self.chemin)
+        await reprise.actualiser([])
+        msg.edit.assert_awaited_once()
+        self.assertEqual(msg.edit.await_args.kwargs["allowed_mentions"].to_dict()["parse"], [])
+        self.assertIn("pn:formas:retirer", [getattr(c, "custom_id", None) for c in msg.vue.walk_children()])
+        self.salon.send.assert_awaited_once()
+
     async def test_retrait_reserve_aux_trois_roles_et_revalide_apres_selection(self):
         qualif = {**self.a, "type":"qualifiante", "uid":"hhfr-1"}
         await self.tableau.actualiser([self.a, qualif])
         public = next(iter(self.messages.values())).vue
+        retirer = next(c for c in public.walk_children() if getattr(c, "custom_id", None) == "pn:formas:retirer")
         menu = next(c for c in public.walk_children() if isinstance(c, discord.ui.Select))
         menu._values = ["qualifiante"]
         membre = Mock(spec=discord.Member)
@@ -305,6 +320,11 @@ class SalonFormations(unittest.IsolatedAsyncioTestCase):
         self.guild.get_member.return_value = membre
         for role in form.ROLES_RETRAIT:
             membre.roles = [Mock(id=role)]
+            await retirer.callback(inter)
+            reponse = inter.response.send_message.await_args.kwargs
+            self.assertTrue(reponse["ephemeral"])
+            self.assertTrue(reponse["view"].retrait)
+            self.assertEqual(reponse["view"].genre, "gdp")
             await menu.callback(inter)
             vue = inter.response.send_message.await_args.kwargs['view']
             self.assertTrue(any(getattr(c, 'label', None) == 'Retirer de la liste' for c in vue.walk_children()))
@@ -312,6 +332,10 @@ class SalonFormations(unittest.IsolatedAsyncioTestCase):
         confirmation = form.Confirmation(self.tableau, membre.id, form.cle(qualif), retrait=True)
         for admin in [False, True]:
             membre.roles, membre.guild_permissions.administrator = [self.formateur], admin
+            await retirer.callback(inter)
+            refus = inter.response.send_message.await_args
+            self.assertIn("réservé aux Hauts gradés", refus.args[0])
+            self.assertEqual(refus.kwargs, {"ephemeral": True})
             await menu.callback(inter)
             vue = inter.response.send_message.await_args.kwargs['view']
             self.assertFalse(any(getattr(c, 'label', None) == 'Retirer de la liste' for c in vue.walk_children()))

@@ -26,8 +26,9 @@ Chaque pseudo est suivi de la date du badge correspondant entre parenthèses, au
 La mention « 🟢 en ligne » apparaît lorsque Habbo indique le policier connecté. Pour une personne
 hors ligne, le bot affiche la dernière connexion communiquée par son profil public, en heure de Paris.
 Il revérifie les présences toutes les deux minutes et modifie le message sans mention.
-Les Hauts gradés, la Supervision et la Direction qui ont accès au salon choisissent une formation
-dans le menu pour afficher **Retirer de la liste** dans leur vue personnelle. Le retrait confirmé
+**Retirer de la liste** se trouve au bas du tableau du salon. Seuls les Hauts gradés, la Supervision
+et la Direction qui ont accès au salon peuvent l’utiliser. Pour la formation qualifiante, ils
+sélectionnent cette formation dans le menu et retrouvent le bouton dans leur vue personnelle. Le retrait confirmé
 s’applique au badge et à la formation en cours. Il est conservé à part des formations effectuées.
 **Historique des formations** affiche le policier, le formateur et la date de
 confirmation. Le salon est en lecture seule pour les formateurs. Le suivi des
