@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T17:10:35+00:00",
+ "updated": "2026-11-23T17:12:36+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -363,11 +363,11 @@
    },
    {
     "name": "dadou07",
-    "value": 359
+    "value": 360
    },
    {
     "name": "Monsieur-RF",
-    "value": 358
+    "value": 360
    },
    {
     "name": "_.Flora._",
@@ -391,7 +391,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 284
+    "value": 285
    },
    {
     "name": "gotica",
@@ -435,7 +435,7 @@
    },
    {
     "name": "Vyp",
-    "value": 115
+    "value": 117
    },
    {
     "name": "apo4020",
@@ -478,16 +478,16 @@
     "value": 51
    },
    {
+    "name": "SuzieOuistiti!",
+    "value": 50
+   },
+   {
     "name": "BOuclette.13",
     "value": 49
    },
    {
     "name": "JoyBoy.",
     "value": 49
-   },
-   {
-    "name": "SuzieOuistiti!",
-    "value": 48
    },
    {
     "name": "guest77145",
@@ -513,7 +513,7 @@
    },
    {
     "name": "Vyp",
-    "value": 115
+    "value": 117
    },
    {
     "name": "marinadrk",
@@ -524,11 +524,11 @@
     "value": 104
    },
    {
-    "name": "apo4020",
-    "value": 102
+    "name": "Mr.Dino",
+    "value": 103
    },
    {
-    "name": "Mr.Dino",
+    "name": "apo4020",
     "value": 102
    },
    {
@@ -564,11 +564,11 @@
     "value": 42
    },
    {
-    "name": "Icarem",
-    "value": 40
+    "name": "SuzieOuistiti!",
+    "value": 42
    },
    {
-    "name": "SuzieOuistiti!",
+    "name": "Icarem",
     "value": 40
    },
    {
@@ -604,15 +604,15 @@
     "value": 5
    },
    {
+    "name": "Monsieur-RF",
+    "value": 5
+   },
+   {
     "name": "Babbo0",
     "value": 4
    },
    {
     "name": ".Dylan.",
-    "value": 3
-   },
-   {
-    "name": "Monsieur-RF",
     "value": 3
    },
    {
@@ -629,6 +629,10 @@
    },
    {
     "name": "CovidJr",
+    "value": 1
+   },
+   {
+    "name": "dadou07",
     "value": 1
    }
   ]
