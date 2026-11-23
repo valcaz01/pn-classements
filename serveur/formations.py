@@ -32,6 +32,8 @@ ROLES_RETRAIT = frozenset({
 TITRE = "🎓 Formations Gardien de la paix à faire"
 TYPES = {"gdp": "Formation Gardien de la paix", "qualifiante": "Formation qualifiante"}
 PARIS = ZoneInfo("Europe/Paris")
+VALIDITE_PRESENCE = 240  # secondes
+ORDRE_PRESENCE = {True: 0, False: 1, None: 2}
 HOST = os.environ.get("HABBO_HOST", "www.habbo.fr")
 LOG = logging.getLogger("pn.formations")
 SANS_MENTIONS = discord.AllowedMentions.none()
@@ -142,29 +144,38 @@ def presences_habbo(fiches):
 
 
 def carte_liste(fiches, presences, genre):
-    lignes = []
+    entrees = []
+    connectes = 0
+    inconnus = 0
     for fiche in fiches:
         depuis = date.fromisoformat(fiche["depuis"])
+        badge = f"(badge du {depuis:%d/%m/%y})"
         presence = presences.get(cle(fiche), Presence(None))
         if presence.en_ligne is True:
-            statut = " 🟢 en ligne"
+            detail = f" 🟢 en ligne {badge}"
+            connectes += 1
         elif presence.dernier_acces is not None:
-            statut = f" · dernière connexion le {presence.dernier_acces:%d/%m/%y à %H:%M}"
+            detail = f" {badge}\nDernière connexion le {presence.dernier_acces:%d/%m/%y à %H:%M}"
         elif presence.en_ligne is False:
-            statut = " · dernière connexion non communiquée"
+            detail = f" {badge}\nDernière connexion non communiquée"
         else:
-            statut = " · présence indisponible"
-        lignes.append(f"• {pseudo(fiche['pseudo'])} (depuis le {depuis:%d/%m/%y}){statut}")
-    contenu = "\n".join(lignes) or ("Aucun gardien de la paix en attente de formation qualifiante."
-                                    if genre == "qualifiante" else "Aucun policier adjoint en attente de formation.")
+            detail = f" {badge}\nPrésence indisponible"
+            inconnus += 1
+        entrees.append((fiche["pseudo"], detail))
+    lignes = [f"**{pseudo(nom)}**{detail}" for nom, detail in entrees]
+    contenu = "\n\n".join(lignes) or ("Aucun gardien de la paix en attente de formation qualifiante."
+                                     if genre == "qualifiante" else "Aucun policier adjoint en attente de formation.")
     fichier = None
     if len(contenu.encode("utf-16-le")) > 6800:
-        # La liste complète reste sur le même message si elle dépasse la limite Discord.
-        fichier = "\n".join(lignes).encode("utf-8")
-        contenu = "La liste complète des pseudos est jointe à ce message."
+        fichier = "\n\n".join(nom + detail for nom, detail in entrees).encode("utf-8")
+        notice = "La liste complète est en pièce jointe."
+        apercu = "\n\n".join([*lignes[:5], notice])
+        contenu = apercu if len(apercu.encode("utf-16-le")) <= 6800 else notice
     carte = discord.Embed(title=TYPES[genre], description=contenu)
-    n = len(fiches)
-    carte.set_footer(text=f"{n} formation{'s' if n > 1 else ''} en attente")
+    resume = f"{len(fiches)} en attente"
+    if connectes or (fiches and not inconnus):
+        resume += f" · {connectes} en ligne"
+    carte.set_footer(text=resume)
     return carte, fichier
 
 
@@ -247,9 +258,20 @@ class TableauFormations:
             tmp.replace(self.chemin)
             self.etat = nouveau
 
-    def liste(self, genre=None):
+    def presences_recentes(self):
+        limite = time.time() - VALIDITE_PRESENCE
+        return {k: p for k, (instant, p) in self.presences.items() if instant > limite}
+
+    def liste(self, genre=None, *, presences=None):
+        if presences is None:
+            presences = self.presences_recentes()
+
+        def ordre(fiche):
+            presence = presences.get(cle(fiche), Presence(None))
+            return ORDRE_PRESENCE[presence.en_ligne], fiche["depuis"], fiche["pseudo"].casefold()
+
         return sorted((f for f in self.etat["attente"].values() if genre is None or f.get("type", "gdp") == genre),
-                      key=lambda f: (f["depuis"], f["pseudo"].casefold()))
+                      key=ordre)
 
     def incorporer(self, candidats):
         attente = {k: f for k, f in self.etat["attente"].items() if f.get("hid") not in EXCLUS_FORMATIONS}
@@ -401,9 +423,9 @@ class BoutonsFormations(discord.ui.LayoutView):
         super().__init__(timeout=None if auteur is None else 900)
         self.tableau, self.genre, self.auteur = tableau, genre, auteur
         self.gestion = auteur is not None and gestion
-        presences = {k: p for k, (t, p) in tableau.presences.items() if time.time() - t < 240}
-        self.carte, self.fichier = carte_liste(tableau.liste(genre), presences, genre)
-        self.compteurs = {g: len(tableau.liste(g)) for g in TYPES}
+        presences = tableau.presences_recentes()
+        self.carte, self.fichier = carte_liste(tableau.liste(genre, presences=presences), presences, genre)
+        self.compteurs = {g: len(tableau.liste(g, presences=presences)) for g in TYPES}
         menu = discord.ui.Select(custom_id="pn:formas:type", placeholder="Choisir une formation", options=[
             discord.SelectOption(label=nom, value=g, default=auteur is not None and g == genre, description=f"{self.compteurs[g]} en attente")
             for g, nom in TYPES.items()])
@@ -428,10 +450,12 @@ class BoutonsFormations(discord.ui.LayoutView):
         # Discord peut garder le dernier choix affiché dans le menu public de ce lecteur.
         # Ce titre identifie toujours la liste concernée par les boutons juste en dessous.
         boite.add_item(discord.ui.TextDisplay(f"### 🎓 {self.carte.title}"))
+        if self.compteurs[genre]:
+            boite.add_item(discord.ui.TextDisplay(self.carte.footer.text))
+            boite.add_item(discord.ui.Separator())
         boite.add_item(discord.ui.TextDisplay(self.carte.description))
         if self.fichier:
             boite.add_item(discord.ui.File("attachment://formations-a-faire.txt"))
-        boite.add_item(discord.ui.TextDisplay(f"-# {self.carte.footer.text}"))
         actions = discord.ui.ActionRow(faite, historique)
         if self.gestion:
             retrait = discord.ui.Button(label="Retirer de la liste", style=discord.ButtonStyle.danger,
