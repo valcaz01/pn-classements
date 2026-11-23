@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T01:08:43+00:00",
+ "updated": "2026-11-23T01:10:42+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -21,7 +21,7 @@
    },
    {
     "name": "charlie-XCX123",
-    "value": 33
+    "value": 34
    },
    {
     "name": ".Libellule",
@@ -218,6 +218,10 @@
     "value": 1
    },
    {
+    "name": "charlie-XCX123",
+    "value": 1
+   },
+   {
     "name": "MelMlrr",
     "value": 1
    }
@@ -251,7 +255,7 @@
    },
    {
     "name": "Shizuku",
-    "value": 677
+    "value": 679
    },
    {
     "name": "Astreu",
@@ -433,7 +437,7 @@
    },
    {
     "name": "Shizuku",
-    "value": 43
+    "value": 45
    },
    {
     "name": "-Massimo-",
