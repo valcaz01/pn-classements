@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T09:16:44+00:00",
+ "updated": "2026-11-23T09:18:42+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -275,7 +275,7 @@
    },
    {
     "name": "halos34",
-    "value": 661
+    "value": 663
    },
    {
     "name": "Astreu",
@@ -335,7 +335,7 @@
    },
    {
     "name": "gotica",
-    "value": 282
+    "value": 283
    },
    {
     "name": "Proxymore",
@@ -371,7 +371,7 @@
    },
    {
     "name": "Hectorr",
-    "value": 154
+    "value": 156
    },
    {
     "name": "Padre",
@@ -449,7 +449,7 @@
   "week": [
    {
     "name": "halos34",
-    "value": 178
+    "value": 180
    },
    {
     "name": "marinadrk",
@@ -476,6 +476,10 @@
     "value": 21
    },
    {
+    "name": "gotica",
+    "value": 13
+   },
+   {
     "name": "Postillon",
     "value": 13
    },
@@ -484,12 +488,12 @@
     "value": 13
    },
    {
-    "name": "gotica",
-    "value": 12
-   },
-   {
     "name": "charlie-XCX123",
     "value": 8
+   },
+   {
+    "name": "Hectorr",
+    "value": 6
    },
    {
     "name": "irysse",
@@ -501,10 +505,6 @@
    },
    {
     "name": "Babbo0",
-    "value": 4
-   },
-   {
-    "name": "Hectorr",
     "value": 4
    },
    {
