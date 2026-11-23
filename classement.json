@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T22:12:36+00:00",
+ "updated": "2026-11-23T22:14:36+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -12,15 +12,15 @@
     "value": 54
    },
    {
+    "name": "fym",
+    "value": 42
+   },
+   {
     "name": "pevanq640",
     "value": 42
    },
    {
     "name": "charlie-XCX123",
-    "value": 41
-   },
-   {
-    "name": "fym",
     "value": 41
    },
    {
@@ -144,6 +144,10 @@
     "value": 4
    },
    {
+    "name": "SuzieOuistiti!",
+    "value": 4
+   },
+   {
     "name": "alexandre-780",
     "value": 3
    },
@@ -177,10 +181,6 @@
    },
    {
     "name": "Sciel",
-    "value": 3
-   },
-   {
-    "name": "SuzieOuistiti!",
     "value": 3
    },
    {
@@ -218,15 +218,15 @@
     "value": 8
    },
    {
+    "name": "fym",
+    "value": 8
+   },
+   {
     "name": "pevanq640",
     "value": 8
    },
    {
     "name": ".Libellule",
-    "value": 7
-   },
-   {
-    "name": "fym",
     "value": 7
    },
    {
@@ -251,6 +251,10 @@
    },
    {
     "name": "Shizuku",
+    "value": 4
+   },
+   {
+    "name": "SuzieOuistiti!",
     "value": 4
    },
    {
@@ -283,10 +287,6 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 3
-   },
-   {
-    "name": "SuzieOuistiti!",
     "value": 3
    },
    {
@@ -324,6 +324,10 @@
    {
     "name": "Postillon",
     "value": 1
+   },
+   {
+    "name": "tiff34",
+    "value": 1
    }
   ]
  },
@@ -343,11 +347,11 @@
    },
    {
     "name": "marinadrk",
-    "value": 1118
+    "value": 1120
    },
    {
     "name": "Pantheon_",
-    "value": 1064
+    "value": 1065
    },
    {
     "name": "halos34",
@@ -379,7 +383,7 @@
    },
    {
     "name": "Padre",
-    "value": 487
+    "value": 489
    },
    {
     "name": "habbo22t",
@@ -532,16 +536,16 @@
   ],
   "week": [
    {
+    "name": "Padre",
+    "value": 355
+   },
+   {
     "name": "halos34",
     "value": 354
    },
    {
-    "name": "Padre",
-    "value": 353
-   },
-   {
     "name": "marinadrk",
-    "value": 210
+    "value": 212
    },
    {
     "name": "Vyp",
@@ -557,7 +561,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 130
+    "value": 131
    },
    {
     "name": "Lovepanda",
@@ -661,7 +665,7 @@
    },
    {
     "name": "CovidJr",
-    "value": 6
+    "value": 7
    },
    {
     "name": "irysse",
