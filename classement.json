@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T19:14:33+00:00",
+ "updated": "2026-11-23T19:16:35+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -335,7 +335,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 1024
+    "value": 1026
    },
    {
     "name": "halos34",
@@ -343,7 +343,7 @@
    },
    {
     "name": "Icarem",
-    "value": 767
+    "value": 769
    },
    {
     "name": "Shizuku",
@@ -379,11 +379,11 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 382
+    "value": 384
    },
    {
     "name": "dadou07",
-    "value": 375
+    "value": 377
    },
    {
     "name": "Mi,hermano",
@@ -427,7 +427,7 @@
    },
    {
     "name": "Hectorr",
-    "value": 235
+    "value": 237
    },
    {
     "name": "Weavem",
@@ -557,23 +557,23 @@
    },
    {
     "name": "Pantheon_",
-    "value": 90
+    "value": 92
    },
    {
     "name": "Hectorr",
-    "value": 85
+    "value": 87
    },
    {
     "name": ".Libellule",
     "value": 80
    },
    {
-    "name": "SuzieOuistiti!",
-    "value": 76
+    "name": "Icarem",
+    "value": 77
    },
    {
-    "name": "Icarem",
-    "value": 75
+    "name": "SuzieOuistiti!",
+    "value": 76
    },
    {
     "name": "Lewddon",
@@ -596,6 +596,10 @@
     "value": 43
    },
    {
+    "name": "Monsieur-RF",
+    "value": 29
+   },
+   {
     "name": "sami75.19",
     "value": 29
    },
@@ -604,16 +608,12 @@
     "value": 28
    },
    {
-    "name": "Monsieur-RF",
-    "value": 27
-   },
-   {
     "name": "LorenzoVisconti",
     "value": 22
    },
    {
     "name": "dadou07",
-    "value": 16
+    "value": 18
    },
    {
     "name": "gotica",
