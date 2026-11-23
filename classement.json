@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T14:30:29+00:00",
+ "updated": "2026-11-23T14:32:29+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -287,7 +287,7 @@
   "total": [
    {
     "name": "habbo-160-3",
-    "value": 1983
+    "value": 1985
    },
    {
     "name": "BiBiCHarBo",
@@ -307,7 +307,7 @@
    },
    {
     "name": "halos34",
-    "value": 765
+    "value": 767
    },
    {
     "name": "Icarem",
@@ -359,7 +359,7 @@
    },
    {
     "name": "_.Flora._",
-    "value": 339
+    "value": 341
    },
    {
     "name": "flo578",
@@ -399,7 +399,7 @@
    },
    {
     "name": "Padre",
-    "value": 212
+    "value": 214
    },
    {
     "name": "Hectorr",
@@ -454,16 +454,16 @@
     "value": 54
    },
    {
+    "name": "apo4020",
+    "value": 52
+   },
+   {
     "name": "Pporappippam",
     "value": 52
    },
    {
     "name": "In.esdzz!",
     "value": 51
-   },
-   {
-    "name": "apo4020",
-    "value": 50
    },
    {
     "name": "BOuclette.13",
@@ -489,7 +489,11 @@
   "week": [
    {
     "name": "halos34",
-    "value": 282
+    "value": 284
+   },
+   {
+    "name": "habbo-160-3",
+    "value": 104
    },
    {
     "name": "marinadrk",
@@ -498,10 +502,6 @@
    {
     "name": "Vyp",
     "value": 103
-   },
-   {
-    "name": "habbo-160-3",
-    "value": 102
    },
    {
     "name": "andrew16a",
@@ -513,7 +513,7 @@
    },
    {
     "name": "Padre",
-    "value": 77
+    "value": 79
    },
    {
     "name": "Lovepanda",
@@ -541,7 +541,7 @@
    },
    {
     "name": "apo4020",
-    "value": 50
+    "value": 52
    },
    {
     "name": "-Massimo-",
@@ -549,7 +549,7 @@
    },
    {
     "name": "_.Flora._",
-    "value": 38
+    "value": 40
    },
    {
     "name": "Icarem",
