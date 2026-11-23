@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T09:38:24+00:00",
+ "updated": "2026-11-23T09:40:24+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -25,7 +25,7 @@
    },
    {
     "name": ".Libellule",
-    "value": 33
+    "value": 34
    },
    {
     "name": "halos34",
@@ -40,15 +40,15 @@
     "value": 28
    },
    {
+    "name": "Lovepanda",
+    "value": 24
+   },
+   {
     "name": ".:Krustiz:.",
     "value": 23
    },
    {
     "name": "habbo-160-3",
-    "value": 23
-   },
-   {
-    "name": "Lovepanda",
     "value": 23
    },
    {
@@ -96,6 +96,10 @@
     "value": 10
    },
    {
+    "name": "Mi,hermano",
+    "value": 10
+   },
+   {
     "name": "Monsieur-RF",
     "value": 10
    },
@@ -105,10 +109,6 @@
    },
    {
     "name": "guest77145",
-    "value": 9
-   },
-   {
-    "name": "Mi,hermano",
     "value": 9
    },
    {
@@ -222,6 +222,10 @@
     "value": 3
    },
    {
+    "name": ".Libellule",
+    "value": 2
+   },
+   {
     "name": "charlie-XCX123",
     "value": 2
    },
@@ -230,15 +234,15 @@
     "value": 2
    },
    {
-    "name": ".Libellule",
+    "name": "Mi,hermano",
+    "value": 2
+   },
+   {
+    "name": "Lovepanda",
     "value": 1
    },
    {
     "name": "MelMlrr",
-    "value": 1
-   },
-   {
-    "name": "Mi,hermano",
     "value": 1
    },
    {
@@ -283,7 +287,7 @@
    },
    {
     "name": "halos34",
-    "value": 678
+    "value": 679
    },
    {
     "name": "Astreu",
@@ -291,7 +295,7 @@
    },
    {
     "name": "Lovepanda",
-    "value": 572
+    "value": 573
    },
    {
     "name": "habbo22t",
@@ -323,7 +327,7 @@
    },
    {
     "name": ".Libellule",
-    "value": 329
+    "value": 330
    },
    {
     "name": "flo578",
@@ -375,7 +379,7 @@
    },
    {
     "name": "Hectorr",
-    "value": 175
+    "value": 177
    },
    {
     "name": "sami75.19",
@@ -457,7 +461,7 @@
   "week": [
    {
     "name": "halos34",
-    "value": 195
+    "value": 196
    },
    {
     "name": "marinadrk",
@@ -477,7 +481,7 @@
    },
    {
     "name": "Hectorr",
-    "value": 25
+    "value": 27
    },
    {
     "name": "-Massimo-",
@@ -489,7 +493,7 @@
    },
    {
     "name": "Lovepanda",
-    "value": 15
+    "value": 16
    },
    {
     "name": "gotica",
@@ -525,6 +529,10 @@
    },
    {
     "name": ".:Krustiz:.",
+    "value": 1
+   },
+   {
+    "name": ".Libellule",
     "value": 1
    },
    {
