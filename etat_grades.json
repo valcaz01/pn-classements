@@ -117,7 +117,7 @@
   "grade": null,
   "humeur": "Band-aids don't fix bullet holes. |",
   "pseudo": "Mllx-Lolipop",
-  "verifie": "2026-11-23T11:20:32+00:00"
+  "verifie": "2026-11-23T14:22:29+00:00"
  },
  "11489852": {
   "alertes": {},
@@ -1061,7 +1061,7 @@
   "grade": null,
   "humeur": "Ok",
   "pseudo": "ThugLifeIzy",
-  "verifie": "2026-11-23T11:20:32+00:00"
+  "verifie": "2026-11-23T14:22:29+00:00"
  },
  "19790770": {
   "alertes": {},
@@ -1677,7 +1677,7 @@
   "grade": null,
   "humeur": "Accio Amigo ! :)",
   "pseudo": "valentin7382",
-  "verifie": "2026-11-23T11:20:32+00:00"
+  "verifie": "2026-11-23T14:22:29+00:00"
  },
  "22671604": {
   "alertes": {},
@@ -2173,7 +2173,7 @@
   "grade": null,
   "humeur": "Ok.",
   "pseudo": "Xx_G-STAR_xX",
-  "verifie": "2026-11-23T11:20:32+00:00"
+  "verifie": "2026-11-23T14:22:29+00:00"
  },
  "23858206": {
   "alertes": {},
@@ -2557,7 +2557,7 @@
   "grade": null,
   "humeur": "Redford-Family : Counsellor \"Stach\" ª",
   "pseudo": "Puccini-",
-  "verifie": "2026-11-23T11:20:32+00:00"
+  "verifie": "2026-11-23T14:22:29+00:00"
  },
  "24191371": {
   "alertes": {},
@@ -8311,7 +8311,7 @@
   "grade": null,
   "humeur": "",
   "pseudo": "Grammeistmas",
-  "verifie": "2026-11-23T11:20:32+00:00"
+  "verifie": "2026-11-23T14:22:29+00:00"
  },
  "26031721": {
   "alertes": {},
@@ -8935,7 +8935,7 @@
   "grade": null,
   "humeur": "",
   "pseudo": "Plto",
-  "verifie": "2026-11-23T11:20:32+00:00"
+  "verifie": "2026-11-23T14:22:29+00:00"
  },
  "26042278": {
   "alertes": {},
@@ -8943,7 +8943,7 @@
   "grade": null,
   "humeur": "",
   "pseudo": "habbo68o9",
-  "verifie": "2026-11-23T11:20:32+00:00"
+  "verifie": "2026-11-23T14:22:29+00:00"
  },
  "26042279": {
   "alertes": {},
@@ -9031,7 +9031,7 @@
   "grade": null,
   "humeur": "",
   "pseudo": "Petite633",
-  "verifie": "2026-11-23T11:20:32+00:00"
+  "verifie": "2026-11-23T14:22:29+00:00"
  },
  "26042432": {
   "alertes": {},
@@ -9175,7 +9175,7 @@
   "grade": null,
   "humeur": "",
   "pseudo": "FLORIAN2002",
-  "verifie": "2026-11-23T11:20:32+00:00"
+  "verifie": "2026-11-23T14:22:29+00:00"
  },
  "26042586": {
   "alertes": {},
@@ -9237,11 +9237,21 @@
   "alertes": {
    "cadet": "2026-11-23T14:16:30+00:00"
   },
-  "depuis": "2026-11-19T23:00:00+00:00",
-  "grade": "cadet",
-  "humeur": "[PN] Cadet",
+  "badge": {
+   "cadet": {
+    "habbo": ".Libellule",
+    "habbo_id": "25357971",
+    "le": "2026-11-23T15:22:03+01:00",
+    "par": ".Libellule",
+    "par_id": "676079051773050918",
+    "xp": true
+   }
+  },
+  "depuis": "2026-11-23T14:22:29+00:00",
+  "grade": "pa",
+  "humeur": "[PN] Policier adjoint",
   "pseudo": "Padre",
-  "verifie": "2026-11-23T11:52:36+00:00"
+  "verifie": "2026-11-23T14:22:29+00:00"
  },
  "26042694": {
   "alertes": {},
@@ -9313,7 +9323,7 @@
   "grade": null,
   "humeur": "RJ-Brasil",
   "pseudo": "xohabboox-6-77",
-  "verifie": "2026-11-23T11:20:32+00:00"
+  "verifie": "2026-11-23T14:22:29+00:00"
  },
  "26042760": {
   "alertes": {},
@@ -9569,7 +9579,7 @@
   "grade": null,
   "humeur": "",
   "pseudo": "Lucas-4280",
-  "verifie": "2026-11-23T11:20:32+00:00"
+  "verifie": "2026-11-23T14:22:29+00:00"
  },
  "26043002": {
   "alertes": {},
@@ -9777,7 +9787,7 @@
   "grade": null,
   "humeur": "HGS-84900",
   "pseudo": "Djer19",
-  "verifie": "2026-11-23T11:20:32+00:00"
+  "verifie": "2026-11-23T14:22:29+00:00"
  },
  "3901326": {
   "alertes": {},
