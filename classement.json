@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T20:14:35+00:00",
+ "updated": "2026-11-23T20:16:37+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -347,7 +347,7 @@
    },
    {
     "name": "Icarem",
-    "value": 798
+    "value": 800
    },
    {
     "name": "Shizuku",
@@ -391,18 +391,18 @@
    },
    {
     "name": "Mi,hermano",
-    "value": 395
+    "value": 396
    },
    {
     "name": "Padre",
-    "value": 384
-   },
-   {
-    "name": "_.Flora._",
-    "value": 359
+    "value": 386
    },
    {
     "name": "flo578",
+    "value": 360
+   },
+   {
+    "name": "_.Flora._",
     "value": 359
    },
    {
@@ -529,7 +529,7 @@
    },
    {
     "name": "Padre",
-    "value": 249
+    "value": 251
    },
    {
     "name": "andrew16a",
@@ -564,11 +564,11 @@
     "value": 114
    },
    {
-    "name": "apo4020",
-    "value": 106
+    "name": "Icarem",
+    "value": 108
    },
    {
-    "name": "Icarem",
+    "name": "apo4020",
     "value": 106
    },
    {
@@ -609,11 +609,11 @@
    },
    {
     "name": "Mi,hermano",
-    "value": 33
+    "value": 34
    },
    {
     "name": "flo578",
-    "value": 31
+    "value": 32
    },
    {
     "name": "sami75.19",
