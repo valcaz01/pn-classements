@@ -589,7 +589,7 @@
   "grade": null,
   "humeur": "Famiglia Ferruli : ù Sottucapu",
   "pseudo": "Lurenzu.Ferruli",
-  "verifie": "2026-11-23T10:58:33+00:00"
+  "verifie": "2026-11-23T14:00:30+00:00"
  },
  "16212047": {
   "alertes": {},
@@ -1917,7 +1917,7 @@
   "grade": null,
   "humeur": "",
   "pseudo": "maely305",
-  "verifie": "2026-11-23T10:58:33+00:00"
+  "verifie": "2026-11-23T14:00:30+00:00"
  },
  "23364260": {
   "alertes": {},
@@ -3275,11 +3275,21 @@
   "alertes": {
    "cadet": "2026-11-22T23:00:57+00:00"
   },
-  "depuis": "2026-11-20T23:00:00+00:00",
-  "grade": "cadet",
-  "humeur": "[PN] Cadette",
+  "badge": {
+   "cadet": {
+    "habbo": ".Libellule",
+    "habbo_id": "25357971",
+    "le": "2026-11-23T14:59:43+01:00",
+    "par": ".Libellule",
+    "par_id": "676079051773050918",
+    "xp": true
+   }
+  },
+  "depuis": "2026-11-23T14:00:30+00:00",
+  "grade": "pa",
+  "humeur": "[PN] Policière Adjointe",
   "pseudo": "_.Flora._",
-  "verifie": "2026-11-23T12:36:30+00:00"
+  "verifie": "2026-11-23T14:00:30+00:00"
  },
  "24754351": {
   "alertes": {},
