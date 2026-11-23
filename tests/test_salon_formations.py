@@ -188,11 +188,76 @@ class SalonFormations(unittest.IsolatedAsyncioTestCase):
         await self.tableau.actualiser([{**self.b, "observation":time.time(), "en_ligne":False}])
         self.assertEqual(self.tableau.presences[form.cle(self.b)][1].dernier_acces, dernier)
         self.tableau.presences[form.cle(self.a)] = (0, form.Presence(True))
+        self.tableau.prochain_statut = 0  # passage suivant
         with patch.object(form, "presences_habbo", side_effect=form.ApiRequestError("unavailable")):
             await self.tableau.actualiser_presences()
         self.assertEqual(msg.vue.carte.description, self.texte_inconnus)
         self.salon.send.assert_awaited_once()
-        self.assertEqual(self.tableau.suivre_presences.minutes, 2)
+        self.assertEqual(self.tableau.suivre_presences.seconds, 30)
+        self.assertEqual(self.tableau.suivre_qg.seconds, 30)
+
+    async def test_visite_qg_panne_reprise_puis_depart_et_retour(self):
+        await self.tableau.actualiser([self.a, self.b])
+        controle = Mock()
+        self.tableau.controle_qg = controle
+
+        async def relever(tableau, resultat):
+            tableau.prochain_qg = 0
+            controle.relever.side_effect = [resultat]
+            await tableau.actualiser_qg()
+
+        await relever(self.tableau, (104, 3, {"hhfr-2"}))
+        self.assertEqual(self.salon.send.await_count, 2)
+        dernier = self.salon.send.await_args.kwargs
+        self.assertEqual(dernier['allowed_mentions'].to_dict(), {'roles':[form.FORMATEUR], 'parse':[]})
+        self.assertIn('**Bravo** 🟢 en ligne · au QG', dernier['view'].carte.description)
+        self.assertEqual(len(self.messages), 1)
+        reprise = form.TableauFormations(self.bot, self.guild.id, self.chemin)
+        reprise.controle_qg = controle
+        await relever(reprise, (105, 3, {"hhfr-2"}))
+        await relever(reprise, form.ApiRequestError('rate_limit', retry_delay=150))
+        self.assertGreater(reprise.prochain_qg - time.monotonic(), 148)
+        await relever(reprise, (106, 2, set()))
+        await relever(reprise, (107, 2, {"hhfr-2"}))
+        self.assertEqual(self.salon.send.await_count, 2)
+        await relever(reprise, (108, 2, set()))
+        await relever(reprise, (109, 1, set()))
+        await relever(reprise, (110, 2, {"hhfr-2"}))
+        self.assertEqual(self.salon.send.await_count, 3)
+        self.assertEqual(len(self.messages), 1)
+
+    async def test_mention_qg_reponse_discord_perdue_et_profils_doubles(self):
+        await self.tableau.actualiser([self.a, {**self.a, 'type':'qualifiante', 'uid':self.a['hid']}])
+        envoi = self.salon.send.side_effect
+        async def perdu(**options):
+            await envoi(**options)
+            raise TimeoutError()
+        self.salon.send.side_effect = perdu
+        self.tableau.controle_qg = Mock()
+        self.tableau.controle_qg.relever.return_value = (104, 10, {self.a['hid']})
+        with self.assertRaises(TimeoutError):
+            await self.tableau.actualiser_qg()
+        self.salon.send.side_effect = envoi
+        reprise = form.TableauFormations(self.bot, self.guild.id, self.chemin)
+        reprise.controle_qg = self.tableau.controle_qg
+        await reprise.actualiser_qg()
+        self.assertEqual(self.salon.send.await_count, 2)
+        self.assertEqual(reprise.etat['visites_qg'], {self.a['hid']:0})
+        self.assertEqual(len(self.messages), 1)
+
+    def test_groupes_relus_et_derniere_connexion_en_cache(self):
+        membre = {'uniqueId':self.a['hid'], 'name':'Alpha', 'online':False}
+        profil = {'profileVisible':True, 'online':False, 'lastAccessTime':'2026-11-23T08:00:00Z'}
+        cache = {}
+        with patch.object(form, 'request_json', side_effect=[[membre], profil, [membre], [{**membre,'online':True}], [membre], profil]) as api:
+            a = form.presences_habbo([self.a], cache)
+            b = form.presences_habbo([self.a], cache)
+            c = form.presences_habbo([self.a], cache)
+            d = form.presences_habbo([self.a], cache)
+        self.assertEqual(a, b)
+        self.assertTrue(c[form.cle(self.a)].en_ligne)
+        self.assertEqual(a, d)
+        self.assertEqual(api.call_count, 6)
 
     async def test_presence_publique_et_profil_masque_et_changement_de_pseudo(self):
         groupe = [{"uniqueId":"hhfr-1","name":"PseudoModifié","online":True}]

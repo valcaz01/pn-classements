@@ -540,7 +540,7 @@ class PNBot(discord.Client):
 
     async def setup_hook(self):
         self.add_dynamic_items(BadgeButton, AnnulerButton)
-        self.formations = TableauFormations(self, GUILD_ID, Path(LOCK_FILE).parent / "tableau-formations.json")
+        self.formations = TableauFormations(self, GUILD_ID, Path(LOCK_FILE).parent / "tableau-formations.json", api_qg=api)
         self.formations.demarrer()
         self.tick.start()
         self.direction_board = DirectionBoard(self, GUILD_ID, HEBDO_CHANNEL_ID, Path(LOCK_FILE).parent / "direction-tasks.sqlite3")

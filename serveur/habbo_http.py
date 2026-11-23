@@ -20,8 +20,9 @@ FAILURE_MARKER = "PN_API_FAILURE:"
 
 class ApiRequestError(RuntimeError):
     """Cause structurée, sans clé ni contenu HTML provenant du service distant."""
-    def __init__(self, kind, service="Habbo", status=None, endpoint=""):
+    def __init__(self, kind, service="Habbo", status=None, endpoint="", retry_delay=None):
         self.kind, self.service, self.status = kind, service, status
+        self.retry_delay = retry_delay
         detail = {
             "timeout": "délai de réponse dépassé",
             "network": "connexion interrompue ou indisponible",
@@ -86,7 +87,7 @@ def request_json(request, *, service="Habbo", opener=None, sleep=None):
                 return None
             kind = ("rate_limit" if status == 429 else "unavailable" if status in {500, 502, 503, 504}
                     else "access" if status in {401, 403} else "http")
-            error = ApiRequestError(kind, service, status, endpoint)
+            error = ApiRequestError(kind, service, status, endpoint, retry_delay=delay_hint)
             retry = kind in {"rate_limit", "unavailable"}
         except ssl.SSLCertVerificationError:
             error = ApiRequestError("access", service, endpoint=endpoint)

@@ -20,6 +20,7 @@ import discord
 from discord.ext import tasks
 from habbo_http import ApiRequestError, request_json
 from groupes_pn import EXCLUS_FORMATIONS, GROUPE_GDP, GROUPE_PA
+from presence_formations_qg import ControlePresenceQG, identite
 
 
 SALON = 1574352702413086810
@@ -32,12 +33,12 @@ ROLES_RETRAIT = frozenset({
 TITRE = "🎓 Formations Gardien de la paix à faire"
 TYPES = {"gdp": "Formation Gardien de la paix", "qualifiante": "Formation qualifiante"}
 PARIS = ZoneInfo("Europe/Paris")
-VALIDITE_PRESENCE = 240  # secondes
+INTERVALLE_PRESENCE = 30  # secondes
+VALIDITE_PRESENCE = 3 * INTERVALLE_PRESENCE
 ORDRE_PRESENCE = {True: 0, False: 1, None: 2}
 HOST = os.environ.get("HABBO_HOST", "www.habbo.fr")
 LOG = logging.getLogger("pn.formations")
 SANS_MENTIONS = discord.AllowedMentions.none()
-MENTION_SALON = discord.AllowedMentions(everyone=True, users=False, roles=False, replied_user=False)
 
 
 def verifier_salon(ch, guild_id):
@@ -141,7 +142,7 @@ def presence_publique(profil, membre):
     return Presence(False, acces.astimezone(PARIS) if acces.tzinfo else None)
 
 
-def presences_habbo(fiches):
+def presences_habbo(fiches, cache_profils=None):
     def lire(chemin):
         return request_json(urllib.request.Request(f"https://{HOST}/api/public/{chemin}",
                             headers={"Accept": "application/json", "User-Agent": "PN-Formations/1.0"}))
@@ -154,29 +155,48 @@ def presences_habbo(fiches):
         membres.extend(lot)
     par_id = {m["uniqueId"]: m for m in membres}
     par_nom = {m["name"].casefold(): m for m in membres if m.get("name")}
-    resultat, profils = {}, {}
+    if cache_profils is None:
+        cache_profils = {}
+    instant = time.monotonic()
+    profils, resultat = {}, {}
+    # Lire d'abord les profils les moins récemment consultés. Le statut des deux
+    # groupes est toujours frais, même si les dates individuelles doivent attendre.
+    fiches = sorted(fiches, key=lambda f: cache_profils.get(identite(f), (0,))[0])
+    budget = 4
     profils_disponibles = True
     for f in fiches:
+        hid = identite(f)
         membre = (par_id.get(f["hid"]) if f.get("hid") else par_nom.get(f["pseudo"].casefold())) or {}
         if membre.get("online") is True:
             resultat[cle(f)] = Presence(True)
+            cache_profils.pop(hid, None)
         else:
-            # Seul le profil public expose l'heure du dernier accès. Mutualiser les deux listes.
+            lu, avant = cache_profils.get(hid, (0, None))
+            if membre.get("online") is False and avant and avant.en_ligne is False and instant - lu < 300:
+                resultat[cle(f)] = avant
+                continue
             chemin = ("users/" + urllib.parse.quote(f["hid"], safe="") if f.get("hid") else
                       "users?" + urllib.parse.urlencode({"name": f["pseudo"]}))
-            if profils_disponibles and chemin not in profils:
+            if profils_disponibles and budget and chemin not in profils:
+                budget -= 1
                 try:
                     profils[chemin] = lire(chemin)
                 except ApiRequestError as exc:
-                    if exc.kind in {"rate_limit", "unavailable", "timeout", "network"}:
+                    if exc.kind == "rate_limit":
+                        raise
+                    if exc.kind in {"unavailable", "timeout", "network"}:
                         profils_disponibles = False
                         LOG.warning("Lecture des autres profils reportée : %s", exc)
-                    profils[chemin] = None
-            resultat[cle(f)] = presence_publique(profils.get(chemin), membre)
+            if chemin in profils:
+                observation = presence_publique(profils[chemin], membre)
+                cache_profils[hid] = instant, observation
+            else:
+                observation = avant if avant and membre.get("online") is False and avant.en_ligne is False else Presence(membre.get("online"))
+            resultat[cle(f)] = observation
     return resultat
 
 
-def carte_liste(fiches, presences, genre):
+def carte_liste(fiches, presences, genre, au_qg=None):
     entrees = []
     connectes = 0
     inconnus = 0
@@ -185,8 +205,10 @@ def carte_liste(fiches, presences, genre):
         depuis = date.fromisoformat(fiche["depuis"])
         badge = f"({grade} depuis {depuis:%d/%m/%y})"
         presence = presences.get(cle(fiche), Presence(None))
-        if presence.en_ligne is True:
-            detail = f" 🟢 en ligne {badge}"
+        dans_qg = au_qg is not None and identite(fiche) in au_qg
+        if dans_qg or presence.en_ligne is True:
+            lieu = " · au QG" if dans_qg else ""
+            detail = f" 🟢 en ligne{lieu} {badge}"
             connectes += 1
         elif presence.dernier_acces is not None:
             detail = f" {badge}\nDernière connexion le {presence.dernier_acces:%d/%m/%y à %H:%M}"
@@ -209,6 +231,8 @@ def carte_liste(fiches, presences, genre):
     resume = f"{len(fiches)} en attente"
     if connectes or (fiches and not inconnus):
         resume += f" · {connectes} en ligne"
+    if au_qg is not None and fiches:
+        resume += f" · {sum(identite(f) in au_qg for f in fiches)} au QG"
     carte.set_footer(text=resume)
     return carte, fichier
 
@@ -222,19 +246,26 @@ def est_tableau(msg):
 
 
 class TableauFormations:
-    def __init__(self, client, guild_id, chemin):
+    def __init__(self, client, guild_id, chemin, *, api_qg=None):
         self.client, self.guild_id, self.chemin = client, guild_id, chemin
         self.etat = (json.loads(chemin.read_text(encoding="utf-8")) if chemin.exists() else
                      {"attente": {}, "historique": {}, "annonces": [], "panneau": 0, "migration": False})
         self.verrou = asyncio.Lock()
         self.reconcilier = True
         self.presences = {}
+        self.cache_profils = {}
+        self.controle_qg = ControlePresenceQG(api_qg) if api_qg else None
+        self.lecture_qg = None
+        self.statut_qg = None
+        self.prochain_qg = self.prochain_statut = 0
         self.consultations = {}
         self.vue = BoutonsFormations(self)
 
     def demarrer(self):
         self.client.add_view(self.vue)
         self.suivre_presences.start()
+        if self.controle_qg:
+            self.suivre_qg.start()
 
     def noter_presence(self, k, instant, presence, *, du_groupe=False):
         precedent, etat = self.presences.get(k, (0, Presence(None)))
@@ -246,7 +277,7 @@ class TableauFormations:
             return
         self.presences[k] = (instant, presence)
 
-    @tasks.loop(minutes=2)
+    @tasks.loop(seconds=INTERVALLE_PRESENCE)
     async def suivre_presences(self):
         try:
             await self.actualiser_presences()
@@ -259,30 +290,91 @@ class TableauFormations:
 
     async def actualiser_presences(self):
         fiches = self.liste()
-        if not fiches:
+        instant = time.monotonic()
+        if not fiches or instant < self.prochain_statut:
             return
+        self.prochain_statut = instant + INTERVALLE_PRESENCE - 2
         debut = time.time()
-        # Pour une présence en ligne récente, le groupe suffit. Les autres profils
-        # doivent être relus pour afficher la dernière connexion ou son masquage.
-        a_lire = []
-        for fiche in fiches:
-            instant, presence = self.presences.get(cle(fiche), (0, Presence(None)))
-            if presence.en_ligne is not True or debut - instant >= 60:
-                a_lire.append(fiche)
-        if not a_lire:
-            return
+        suivis = {identite(f) for f in fiches}
+        self.cache_profils = {k: v for k, v in self.cache_profils.items() if k in suivis}
         try:
-            resultats = await asyncio.to_thread(presences_habbo, a_lire)
+            resultats = await asyncio.to_thread(presences_habbo, fiches, self.cache_profils)
         except ApiRequestError as exc:
             LOG.warning("Présences Habbo indisponibles : %s", exc)
-            resultats = {cle(f): Presence(None) for f in a_lire}
+            self.prochain_statut = time.monotonic() + max(30, exc.retry_delay or 0)
+            resultats = {cle(f): Presence(None) for f in fiches}
         async with self.verrou:
             ch = await self.client.channel(SALON)
             verifier_salon(ch, self.guild_id)
             for k, presence in resultats.items():
                 if k in self.etat["attente"]:
                     self.noter_presence(k, debut, presence)
+            await self.actualiser_rendu(ch)
+
+    def au_qg(self):
+        if self.lecture_qg is not None:
+            instant, presents = self.lecture_qg
+            if time.monotonic() - instant < VALIDITE_PRESENCE:
+                return presents
+        return None
+
+    @tasks.loop(seconds=INTERVALLE_PRESENCE)
+    async def suivre_qg(self):
+        try:
+            await self.actualiser_qg()
+        except (discord.HTTPException, RuntimeError, OSError):
+            LOG.exception("Actualisation de la présence au QG reportée")
+
+    @suivre_qg.before_loop
+    async def avant_qg(self):
+        await self.client.wait_until_ready()
+
+    async def actualiser_qg(self):
+        fiches = self.liste()
+        instant = time.monotonic()
+        # Une première sonde vérifie la liaison même si personne n'attend de formation.
+        if instant < self.prochain_qg or (not fiches and self.lecture_qg is not None):
+            return
+        self.prochain_qg = instant + INTERVALLE_PRESENCE - 2
+        try:
+            numero, nombre, presents = await asyncio.to_thread(self.controle_qg.relever, fiches)
+        except ApiRequestError as exc:
+            self.prochain_qg = time.monotonic() + max(60, exc.retry_delay or 0)
+            LOG.warning("Sonde de formation QG reportée : %s", exc)
+            self.statut_qg = f"QG indisponible (HTTP {exc.status})" if exc.status else "QG indisponible"
+            return
+        if self.lecture_qg is None:
+            if not nombre:
+                LOG.info("Contrôle QG %s : en attente du premier écho d'un avatar", numero)
+                self.statut_qg = "QG en attente d’un écho WIRED"
+                if not fiches:
+                    self.prochain_qg = time.monotonic() + 120
+                return
+            LOG.info("Liaison WIRED formations confirmée, contrôle %s repris par %s avatars", numero, nombre)
+        async with self.verrou:
+            self.statut_qg = None
+            self.lecture_qg = time.monotonic(), presents
+            suivis = {identite(f) for f in self.etat["attente"].values()}
+            visites = {}
+            for hid, absences in self.etat.get("visites_qg", {}).items():
+                if hid in suivis and (hid in presents or absences == 0):
+                    visites[hid] = 0 if hid in presents else 1
+            self.sauver(visites_qg=visites)
+            ch = await self.client.channel(SALON)
+            verifier_salon(ch, self.guild_id)
+            await self.actualiser_rendu(ch)
+
+    def arrivees_qg(self):
+        presents = self.au_qg() or set()
+        return {identite(f): f["pseudo"] for f in self.etat["attente"].values()
+                if identite(f) in presents and identite(f) not in self.etat.get("visites_qg", {})}
+
+    async def actualiser_rendu(self, ch):
+        if (self.reconcilier or self.etat.get("envoi") or self.arrivees_qg()
+                or self.etat.get("rendu") != BoutonsFormations(self).signature()):
             await self.publier(ch, [])
+        else:
+            await self.rafraichir_consultations()
 
     def sauver(self, **changements):
         nouveau = {**self.etat, **changements}
@@ -299,10 +391,12 @@ class TableauFormations:
     def liste(self, genre=None, *, presences=None):
         if presences is None:
             presences = self.presences_recentes()
+        au_qg = self.au_qg() or set()
 
         def ordre(fiche):
             presence = presences.get(cle(fiche), Presence(None))
-            return ORDRE_PRESENCE[presence.en_ligne], fiche["depuis"], fiche["pseudo"].casefold()
+            dans_qg = identite(fiche) in au_qg
+            return not dans_qg, ORDRE_PRESENCE[presence.en_ligne], fiche["depuis"], fiche["pseudo"].casefold()
 
         return sorted((f for f in self.etat["attente"].values() if genre is None or f.get("type", "gdp") == genre),
                       key=ordre)
@@ -397,32 +491,41 @@ class TableauFormations:
         envoi = self.etat.get("envoi")
         if envoi and courant and courant.id > envoi["apres"]:
             annonces.update(envoi["cles"])
-            self.sauver(panneau=courant.id, annonces=sorted(annonces), envoi=None)
+            visites = {**self.etat.get("visites_qg", {}), **dict.fromkeys(envoi.get("visites", ()), 0)}
+            self.sauver(panneau=courant.id, annonces=sorted(annonces), visites_qg=visites, envoi=None)
             envoi = None
 
         self.incorporer([*reprises, *candidats])
         cles = set(self.etat["attente"])
         nouveaux = cles - annonces
+        arrivees = self.arrivees_qg()
         vue = BoutonsFormations(self)
         rendu = vue.signature()
 
         # Une nouvelle liste mentionne le salon une fois pour le lot. Une simple
         # correction, une confirmation ou un redémarrage ne doit réveiller personne.
-        if courant is None or nouveaux:
+        if courant is None or nouveaux or arrivees:
             if nouveaux and not ch.permissions_for(ch.guild.me).mention_everyone:
                 raise RuntimeError("PN · Alertes doit pouvoir mentionner @everyone dans le salon des formations.")
-            if envoi is None:
-                envoi = {"apres": courant.id if courant else 0, "cles": sorted(cles), "nonce": secrets.token_hex(10)}
+            role = ch.guild.get_role(FORMATEUR)
+            if arrivees and not (role.mentionable or ch.permissions_for(ch.guild.me).mention_everyone):
+                raise RuntimeError("Le rôle Formateur doit pouvoir être mentionné dans le salon des formations.")
+            if envoi is None or set(envoi.get("visites", ())) != arrivees.keys() or set(envoi["cles"]) != cles:
+                envoi = {"apres": courant.id if courant else 0, "cles": sorted(cles),
+                         "visites": sorted(arrivees), "nonce": secrets.token_hex(10)}
                 self.sauver(envoi=envoi)
             self.reconcilier = True
-            if nouveaux:
-                genres = {self.etat["attente"][k].get("type", "gdp") for k in nouveaux}
-                vue = BoutonsFormations(self, annoncer=genres)
+            genres = {self.etat["attente"][k].get("type", "gdp") for k in nouveaux}
+            vue = BoutonsFormations(self, annoncer=genres, arrivees=arrivees.values())
+            mentions = discord.AllowedMentions(everyone=bool(nouveaux), users=False,
+                                              roles=[discord.Object(id=FORMATEUR)] if arrivees else False,
+                                              replied_user=False)
             courant = await ch.send(view=vue, files=vue.pieces(), nonce=envoi["nonce"],
-                                    allowed_mentions=MENTION_SALON if nouveaux else SANS_MENTIONS)
+                                    allowed_mentions=mentions)
         elif self.etat.get("rendu") != rendu or courant.embeds:
             await courant.edit(content=None, embed=None, view=vue, attachments=vue.pieces(), allowed_mentions=SANS_MENTIONS)
-        self.sauver(panneau=courant.id, annonces=sorted(cles), envoi=None, rendu=rendu)
+        visites = {**self.etat.get("visites_qg", {}), **dict.fromkeys(arrivees, 0)}
+        self.sauver(panneau=courant.id, annonces=sorted(cles), visites_qg=visites, envoi=None, rendu=rendu)
         self.reconcilier = True
         for msg in [*panneaux, *anciennes]:
             if msg.id != courant.id:
@@ -458,13 +561,16 @@ class TableauFormations:
 
 
 class BoutonsFormations(discord.ui.LayoutView):
-    def __init__(self, tableau, genre="gdp", *, auteur=None, annoncer=(), gestion=False):
+    def __init__(self, tableau, genre="gdp", *, auteur=None, annoncer=(), arrivees=(), gestion=False):
         super().__init__(timeout=None if auteur is None else 900)
         self.tableau, self.genre, self.auteur = tableau, genre, auteur
         # Le message du salon est commun à tous. Le bot contrôle le rôle au clic.
         self.afficher_retrait = auteur is None or gestion
         presences = tableau.presences_recentes()
-        self.carte, self.fichier = carte_liste(tableau.liste(genre, presences=presences), presences, genre)
+        au_qg = tableau.au_qg()
+        self.carte, self.fichier = carte_liste(tableau.liste(genre, presences=presences), presences, genre, au_qg)
+        if au_qg is None and tableau.statut_qg:
+            self.carte.set_footer(text=f"{self.carte.footer.text} · {tableau.statut_qg}")
         self.compteurs = {g: len(tableau.liste(g, presences=presences)) for g in TYPES}
         menu = discord.ui.Select(custom_id="pn:formas:type", placeholder="Choisir une formation", options=[
             discord.SelectOption(label=nom, value=g, default=auteur is not None and g == genre, description=f"{self.compteurs[g]} en attente")
@@ -486,6 +592,10 @@ class BoutonsFormations(discord.ui.LayoutView):
         if annoncer:
             types = " et ".join(TYPES[g] for g in TYPES if g in annoncer)
             boite.add_item(discord.ui.TextDisplay(f"@everyone · Ajout à la liste « {types} »"))
+        if arrivees:
+            noms = ", ".join(pseudo(nom) for nom in sorted(arrivees, key=str.casefold))
+            noms = noms if len(noms) <= 500 else f"{len(arrivees)} personnes en attente de formation"
+            boite.add_item(discord.ui.TextDisplay(f"<@&{FORMATEUR}> · Au QG pour une formation : **{noms}**"))
         boite.add_item(discord.ui.ActionRow(menu))
         # Discord peut garder le dernier choix affiché dans le menu public de ce lecteur.
         # Ce titre identifie toujours la liste concernée par les boutons juste en dessous.
