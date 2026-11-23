@@ -84,7 +84,7 @@ class SalonFormations(unittest.IsolatedAsyncioTestCase):
         self.assertEqual(appel["allowed_mentions"].to_dict(), {"parse": ["everyone"]})
         self.assertEqual([b.label for b in appel["view"].walk_children() if isinstance(b, discord.ui.Button)],
                          ["Formation faite", "Historique des formations"])
-        self.assertEqual(appel["view"].carte.description, "• Alpha\n• Bravo")
+        self.assertEqual(appel["view"].carte.description, "• Alpha (depuis le 21/11/26)\n• Bravo (depuis le 21/11/26)")
         self.assertTrue(appel["view"].is_persistent())
         await self.tableau.actualiser([self.a, self.b])
         self.salon.send.assert_awaited_once()
@@ -130,7 +130,8 @@ class SalonFormations(unittest.IsolatedAsyncioTestCase):
         await reprise.actualiser([self.a, self.b])
         self.assertEqual(self.salon.send.await_count, 2)
         self.assertEqual(len(self.messages), 1)
-        self.assertEqual(next(iter(self.messages.values())).vue.carte.description, "• Alpha\n• Bravo")
+        self.assertEqual(next(iter(self.messages.values())).vue.carte.description,
+                         "• Alpha (depuis le 21/11/26)\n• Bravo (depuis le 21/11/26)")
 
     async def test_confirmation_historique_concurrence_et_persistance(self):
         await self.tableau.actualiser([self.a, self.b])
@@ -170,12 +171,12 @@ class SalonFormations(unittest.IsolatedAsyncioTestCase):
         with patch.object(form, "presences_habbo", return_value={form.cle(self.a):True, form.cle(self.b):False}):
             await self.tableau.actualiser_presences()
         msg = next(iter(self.messages.values()))
-        self.assertEqual(msg.vue.carte.description, "• Alpha 🟢\n• Bravo")
+        self.assertEqual(msg.vue.carte.description, "• Alpha (depuis le 21/11/26) 🟢 en ligne\n• Bravo (depuis le 21/11/26)")
         self.assertEqual(msg.edit.await_args.kwargs["allowed_mentions"].to_dict()["parse"], [])
         self.tableau.presences[form.cle(self.a)] = (0, True)
         with patch.object(form, "presences_habbo", side_effect=form.ApiRequestError("unavailable")):
             await self.tableau.actualiser_presences()
-        self.assertEqual(msg.vue.carte.description, "• Alpha\n• Bravo")
+        self.assertEqual(msg.vue.carte.description, "• Alpha (depuis le 21/11/26)\n• Bravo (depuis le 21/11/26)")
         self.salon.send.assert_awaited_once()
         self.assertEqual(self.tableau.suivre_presences.minutes, 2)
 
@@ -210,9 +211,10 @@ class SalonFormations(unittest.IsolatedAsyncioTestCase):
 
     async def test_menu_qualifiante_distinct_du_tableau_public_et_historique_type(self):
         qualif = {**self.a, "type":"qualifiante", "uid":"hhfr-1", "pseudo":"Charlie"}
-        await self.tableau.actualiser([self.a, qualif])
+        adjoint = {**self.a, "depuis": "2026-11-16"}
+        await self.tableau.actualiser([adjoint, qualif])
         public = next(iter(self.messages.values())).vue
-        self.assertEqual(public.carte.description, "• Alpha")
+        self.assertEqual(public.carte.description, "• Alpha (depuis le 16/11/26)")
         menu = next(c for c in public.walk_children() if isinstance(c, discord.ui.Select))
         self.assertEqual([(o.label, o.default) for o in menu.options],
                          [("Formation Gardien de la paix",True),("Formation qualifiante",False)])
@@ -222,10 +224,13 @@ class SalonFormations(unittest.IsolatedAsyncioTestCase):
         await menu.callback(inter)
         opts = inter.response.send_message.await_args.kwargs
         self.assertTrue(opts["ephemeral"])
-        self.assertEqual(opts["view"].carte.description, "• Charlie")
+        self.assertEqual(opts["view"].carte.description, "• Charlie (depuis le 21/11/26)")
+        for vue, titre in [(public, "Formation Gardien de la paix"), (opts["view"], "Formation qualifiante")]:
+            self.assertIn(f"### 🎓 {titre}", [c.content for c in vue.walk_children() if isinstance(c, discord.ui.TextDisplay)])
         self.tableau.noter_presence(form.cle(qualif), time.time(), True)
         await self.tableau.actualiser([])
-        self.assertEqual(inter.edit_original_response.await_args.kwargs["view"].carte.description,"• Charlie 🟢")
+        self.assertEqual(inter.edit_original_response.await_args.kwargs["view"].carte.description,
+                         "• Charlie (depuis le 21/11/26) 🟢 en ligne")
         self.assertEqual(len(self.messages), 1)
         self.tableau.terminer(form.cle(qualif), SimpleNamespace(id=888, display_name="Formateur"))
         archive = form.PagesFormations(self.tableau, 888, historique=True)

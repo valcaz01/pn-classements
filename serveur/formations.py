@@ -109,7 +109,11 @@ def presences_habbo(fiches):
 
 
 def carte_liste(fiches, en_ligne, genre):
-    lignes = [f"• {pseudo(f['pseudo'])}" + (" 🟢" if cle(f) in en_ligne else "") for f in fiches]
+    lignes = []
+    for fiche in fiches:
+        depuis = date.fromisoformat(fiche["depuis"])
+        presence = " 🟢 en ligne" if cle(fiche) in en_ligne else ""
+        lignes.append(f"• {pseudo(fiche['pseudo'])} (depuis le {depuis:%d/%m/%y}){presence}")
     contenu = "\n".join(lignes) or ("Aucun gardien de la paix en attente de formation qualifiante."
                                     if genre == "qualifiante" else "Aucun policier adjoint en attente de formation.")
     fichier = None
@@ -119,7 +123,7 @@ def carte_liste(fiches, en_ligne, genre):
         contenu = "La liste complète des pseudos est jointe à ce message."
     carte = discord.Embed(title=TYPES[genre], description=contenu)
     n = len(fiches)
-    carte.set_footer(text=f"{n} formation{'s' if n > 1 else ''} en attente · 🟢 En ligne sur Habbo")
+    carte.set_footer(text=f"{n} formation{'s' if n > 1 else ''} en attente")
     return carte, fichier
 
 
@@ -359,8 +363,10 @@ class BoutonsFormations(discord.ui.LayoutView):
         if annoncer:
             types = " et ".join(TYPES[g] for g in TYPES if g in annoncer)
             boite.add_item(discord.ui.TextDisplay(f"@everyone · Ajout à la liste « {types} »"))
-        boite.add_item(discord.ui.TextDisplay("### 🎓 Formations à faire"))
         boite.add_item(discord.ui.ActionRow(menu))
+        # Discord peut garder le dernier choix affiché dans le menu public de ce lecteur.
+        # Ce titre identifie toujours la liste concernée par les boutons juste en dessous.
+        boite.add_item(discord.ui.TextDisplay(f"### 🎓 {self.carte.title}"))
         boite.add_item(discord.ui.TextDisplay(self.carte.description))
         if self.fichier:
             boite.add_item(discord.ui.File("attachment://formations-a-faire.txt"))
@@ -372,7 +378,8 @@ class BoutonsFormations(discord.ui.LayoutView):
         return [discord.File(io.BytesIO(self.fichier), filename="formations-a-faire.txt")] if self.fichier else []
 
     def signature(self):
-        contenu = json.dumps([self.genre, self.carte.description, self.compteurs], ensure_ascii=False).encode()
+        contenu = json.dumps([self.genre, self.carte.title, self.carte.description, self.carte.footer.text,
+                              self.compteurs], ensure_ascii=False).encode()
         return hashlib.sha256(contenu + (self.fichier or b"")).hexdigest()
 
     async def interaction_check(self, inter):

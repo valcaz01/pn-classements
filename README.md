@@ -22,7 +22,8 @@ pour les gardiens de la paix dès le 3ᵉ jour du badge. Ce deuxième passage
 n’a pas de seuil de PR. Les gradés et les comptes exclus sont écartés du suivi.
 Le bot mentionne `@everyone` une fois par lot de nouveaux noms dans ce salon privé. Les formateurs
 utilisent **Formation faite**, choisissent le pseudo puis confirment.
-Le point 🟢 signale que Habbo indique le policier connecté. Le bot revérifie
+Chaque pseudo est suivi de la date du badge correspondant entre parenthèses, au format `JJ/MM/AA`.
+La mention « 🟢 en ligne » apparaît lorsque Habbo indique le policier connecté. Le bot revérifie
 les présences toutes les deux minutes et modifie le message sans mention.
 **Historique des formations** affiche le policier, le formateur et la date de
 confirmation. Le salon est en lecture seule pour les formateurs. Le suivi des
