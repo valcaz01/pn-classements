@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T12:44:29+00:00",
+ "updated": "2026-11-23T12:46:29+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -415,7 +415,7 @@
    },
    {
     "name": "Padre",
-    "value": 154
+    "value": 156
    },
    {
     "name": "MagicalArt",
@@ -549,7 +549,7 @@
    },
    {
     "name": "Padre",
-    "value": 19
+    "value": 21
    },
    {
     "name": "gotica",
