@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T14:06:29+00:00",
+ "updated": "2026-11-23T14:08:28+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -20,12 +20,12 @@
     "value": 38
    },
    {
-    "name": "fym",
+    "name": "charlie-XCX123",
     "value": 38
    },
    {
-    "name": "charlie-XCX123",
-    "value": 36
+    "name": "fym",
+    "value": 38
    },
    {
     "name": "halos34",
@@ -218,6 +218,10 @@
     "value": 6
    },
    {
+    "name": "charlie-XCX123",
+    "value": 5
+   },
+   {
     "name": "fym",
     "value": 4
    },
@@ -235,10 +239,6 @@
    },
    {
     "name": "_.Flora._",
-    "value": 3
-   },
-   {
-    "name": "charlie-XCX123",
     "value": 3
    },
    {
@@ -287,7 +287,7 @@
   "total": [
    {
     "name": "habbo-160-3",
-    "value": 1959
+    "value": 1961
    },
    {
     "name": "BiBiCHarBo",
@@ -371,7 +371,7 @@
    },
    {
     "name": "_.Flora._",
-    "value": 315
+    "value": 317
    },
    {
     "name": "gotica",
@@ -403,7 +403,7 @@
    },
    {
     "name": "Padre",
-    "value": 192
+    "value": 194
    },
    {
     "name": "Postillon",
@@ -509,7 +509,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 78
+    "value": 80
    },
    {
     "name": "Lovepanda",
@@ -529,7 +529,7 @@
    },
    {
     "name": "Padre",
-    "value": 57
+    "value": 59
    },
    {
     "name": "Shizuku",
@@ -557,7 +557,7 @@
    },
    {
     "name": "_.Flora._",
-    "value": 14
+    "value": 16
    },
    {
     "name": "gotica",
