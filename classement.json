@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T18:34:35+00:00",
+ "updated": "2026-11-23T18:36:35+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -80,12 +80,12 @@
     "value": 17
    },
    {
-    "name": "irysse",
+    "name": "_.Flora._",
     "value": 16
    },
    {
-    "name": "_.Flora._",
-    "value": 14
+    "name": "irysse",
+    "value": 16
    },
    {
     "name": "Mr.Dino",
@@ -234,6 +234,10 @@
     "value": 6
    },
    {
+    "name": "_.Flora._",
+    "value": 5
+   },
+   {
     "name": "Mr.Dino",
     "value": 4
    },
@@ -243,10 +247,6 @@
    },
    {
     "name": ".Dylan.",
-    "value": 3
-   },
-   {
-    "name": "_.Flora._",
     "value": 3
    },
    {
@@ -323,7 +323,7 @@
    },
    {
     "name": "marinadrk",
-    "value": 1081
+    "value": 1083
    },
    {
     "name": "Pantheon_",
@@ -343,7 +343,7 @@
    },
    {
     "name": "Lovepanda",
-    "value": 677
+    "value": 679
    },
    {
     "name": "Astreu",
@@ -351,11 +351,11 @@
    },
    {
     "name": "andrew16a",
-    "value": 514
+    "value": 516
    },
    {
     "name": "habbo22t",
-    "value": 479
+    "value": 481
    },
    {
     "name": "charlie-XCX123",
@@ -403,7 +403,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 311
+    "value": 313
    },
    {
     "name": "gotica",
@@ -443,7 +443,7 @@
    },
    {
     "name": "Vyp",
-    "value": 132
+    "value": 134
    },
    {
     "name": "MagicalArt",
@@ -521,23 +521,23 @@
    },
    {
     "name": "marinadrk",
-    "value": 172
+    "value": 174
    },
    {
     "name": "andrew16a",
-    "value": 162
+    "value": 164
    },
    {
     "name": "Vyp",
-    "value": 132
+    "value": 134
    },
    {
     "name": "Mr.Dino",
-    "value": 129
+    "value": 131
    },
    {
     "name": "Lovepanda",
-    "value": 120
+    "value": 122
    },
    {
     "name": "habbo-160-3",
@@ -585,7 +585,7 @@
    },
    {
     "name": "Leif",
-    "value": 35
+    "value": 37
    },
    {
     "name": "sami75.19",
@@ -593,7 +593,7 @@
    },
    {
     "name": "habbo22t",
-    "value": 23
+    "value": 25
    },
    {
     "name": "LorenzoVisconti",
