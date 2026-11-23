@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T22:24:36+00:00",
+ "updated": "2026-11-23T22:26:36+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -351,7 +351,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 1075
+    "value": 1077
    },
    {
     "name": "halos34",
@@ -379,7 +379,7 @@
    },
    {
     "name": "Padre",
-    "value": 498
+    "value": 500
    },
    {
     "name": "charlie-XCX123",
@@ -537,7 +537,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 364
+    "value": 366
    },
    {
     "name": "halos34",
@@ -561,7 +561,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 141
+    "value": 143
    },
    {
     "name": "Lovepanda",
@@ -648,6 +648,10 @@
     "value": 22
    },
    {
+    "name": "---Jayden---",
+    "value": 13
+   },
+   {
     "name": "gotica",
     "value": 13
    },
@@ -660,16 +664,12 @@
     "value": 13
    },
    {
-    "name": "---Jayden---",
-    "value": 11
-   },
-   {
     "name": "CovidJr",
     "value": 8
    },
    {
     "name": "tiff34",
-    "value": 6
+    "value": 8
    },
    {
     "name": "irysse",
