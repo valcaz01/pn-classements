@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T13:22:28+00:00",
+ "updated": "2026-11-23T13:24:29+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -13,7 +13,7 @@
    },
    {
     "name": "pevanq640",
-    "value": 39
+    "value": 40
    },
    {
     "name": "fym",
@@ -37,7 +37,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 28
+    "value": 29
    },
    {
     "name": "Shizuku",
@@ -207,11 +207,11 @@
   "week": [
    {
     "name": "habbo-160-3",
-    "value": 5
+    "value": 6
    },
    {
     "name": "pevanq640",
-    "value": 5
+    "value": 6
    },
    {
     "name": ".Libellule",
@@ -287,7 +287,7 @@
   "total": [
    {
     "name": "habbo-160-3",
-    "value": 1920
+    "value": 1921
    },
    {
     "name": "BiBiCHarBo",
@@ -537,7 +537,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 39
+    "value": 40
    },
    {
     "name": "Padre",
@@ -588,6 +588,10 @@
     "value": 4
    },
    {
+    "name": "apo4020",
+    "value": 3
+   },
+   {
     "name": "MagicalArt",
     "value": 2
    },
@@ -597,10 +601,6 @@
    },
    {
     "name": ".:Krustiz:.",
-    "value": 1
-   },
-   {
-    "name": "apo4020",
     "value": 1
    },
    {
