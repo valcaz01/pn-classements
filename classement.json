@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T17:06:34+00:00",
+ "updated": "2026-11-23T17:08:35+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -21,7 +21,7 @@
    },
    {
     "name": "charlie-XCX123",
-    "value": 38
+    "value": 39
    },
    {
     "name": "fym",
@@ -116,16 +116,16 @@
     "value": 8
    },
    {
+    "name": ".Dylan.",
+    "value": 7
+   },
+   {
     "name": "marinadrk",
     "value": 7
    },
    {
     "name": "Piingouin.",
     "value": 7
-   },
-   {
-    "name": ".Dylan.",
-    "value": 6
    },
    {
     "name": "Lewddon",
@@ -218,12 +218,12 @@
     "value": 7
    },
    {
-    "name": "Icarem",
+    "name": "charlie-XCX123",
     "value": 6
    },
    {
-    "name": "charlie-XCX123",
-    "value": 5
+    "name": "Icarem",
+    "value": 6
    },
    {
     "name": "fym",
@@ -258,16 +258,16 @@
     "value": 3
    },
    {
+    "name": ".Dylan.",
+    "value": 2
+   },
+   {
     "name": "Mi,hermano",
     "value": 2
    },
    {
     "name": "Pantheon_",
     "value": 2
-   },
-   {
-    "name": ".Dylan.",
-    "value": 1
    },
    {
     "name": "LesdixGaga",
@@ -287,6 +287,10 @@
    },
    {
     "name": "Shizuku",
+    "value": 1
+   },
+   {
+    "name": "SuzieOuistiti!",
     "value": 1
    }
   ]
@@ -363,7 +367,7 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 355
+    "value": 356
    },
    {
     "name": "_.Flora._",
@@ -391,7 +395,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 280
+    "value": 282
    },
    {
     "name": "Proxymore",
@@ -431,7 +435,7 @@
    },
    {
     "name": "Vyp",
-    "value": 111
+    "value": 113
    },
    {
     "name": "apo4020",
@@ -483,7 +487,7 @@
    },
    {
     "name": "SuzieOuistiti!",
-    "value": 46
+    "value": 47
    },
    {
     "name": "guest77145",
@@ -509,7 +513,7 @@
    },
    {
     "name": "Vyp",
-    "value": 111
+    "value": 113
    },
    {
     "name": "marinadrk",
@@ -525,7 +529,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 98
+    "value": 100
    },
    {
     "name": "Lovepanda",
@@ -565,7 +569,7 @@
    },
    {
     "name": "SuzieOuistiti!",
-    "value": 38
+    "value": 39
    },
    {
     "name": "LorenzoVisconti",
@@ -621,6 +625,10 @@
    },
    {
     "name": "CovidJr",
+    "value": 1
+   },
+   {
+    "name": "Monsieur-RF",
     "value": 1
    }
   ]
