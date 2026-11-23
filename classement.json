@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T10:28:32+00:00",
+ "updated": "2026-11-23T10:31:03+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -73,7 +73,7 @@
    },
    {
     "name": "andrew16a",
-    "value": 16
+    "value": 17
    },
    {
     "name": "irysse",
@@ -226,6 +226,10 @@
     "value": 3
    },
    {
+    "name": "andrew16a",
+    "value": 2
+   },
+   {
     "name": "charlie-XCX123",
     "value": 2
    },
@@ -236,10 +240,6 @@
    {
     "name": "Mi,hermano",
     "value": 2
-   },
-   {
-    "name": "andrew16a",
-    "value": 1
    },
    {
     "name": "Lovepanda",
@@ -303,7 +303,7 @@
    },
    {
     "name": "Lovepanda",
-    "value": 602
+    "value": 604
    },
    {
     "name": "habbo22t",
@@ -319,7 +319,7 @@
    },
    {
     "name": ".Libellule",
-    "value": 374
+    "value": 377
    },
    {
     "name": "Mi,hermano",
@@ -335,7 +335,7 @@
    },
    {
     "name": "andrew16a",
-    "value": 352
+    "value": 354
    },
    {
     "name": "flo578",
@@ -493,11 +493,11 @@
    },
    {
     "name": ".Libellule",
-    "value": 45
+    "value": 48
    },
    {
     "name": "Lovepanda",
-    "value": 45
+    "value": 47
    },
    {
     "name": "-Massimo-",
@@ -538,6 +538,10 @@
    {
     "name": "Babbo0",
     "value": 4
+   },
+   {
+    "name": "andrew16a",
+    "value": 2
    },
    {
     "name": "MagicalArt",
