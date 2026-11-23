@@ -2,6 +2,7 @@ import sys
 import tempfile
 import time
 import unittest
+from datetime import datetime
 from pathlib import Path
 from types import SimpleNamespace
 from unittest.mock import AsyncMock, Mock, patch
@@ -84,7 +85,8 @@ class SalonFormations(unittest.IsolatedAsyncioTestCase):
         self.assertEqual(appel["allowed_mentions"].to_dict(), {"parse": ["everyone"]})
         self.assertEqual([b.label for b in appel["view"].walk_children() if isinstance(b, discord.ui.Button)],
                          ["Formation faite", "Historique des formations"])
-        self.assertEqual(appel["view"].carte.description, "• Alpha (depuis le 21/11/26)\n• Bravo (depuis le 21/11/26)")
+        self.assertEqual(appel["view"].carte.description, "• Alpha (depuis le 21/11/26) · présence indisponible\n"
+                         "• Bravo (depuis le 21/11/26) · présence indisponible")
         self.assertTrue(appel["view"].is_persistent())
         await self.tableau.actualiser([self.a, self.b])
         self.salon.send.assert_awaited_once()
@@ -131,7 +133,7 @@ class SalonFormations(unittest.IsolatedAsyncioTestCase):
         self.assertEqual(self.salon.send.await_count, 2)
         self.assertEqual(len(self.messages), 1)
         self.assertEqual(next(iter(self.messages.values())).vue.carte.description,
-                         "• Alpha (depuis le 21/11/26)\n• Bravo (depuis le 21/11/26)")
+                         "• Alpha (depuis le 21/11/26) · présence indisponible\n• Bravo (depuis le 21/11/26) · présence indisponible")
 
     async def test_confirmation_historique_concurrence_et_persistance(self):
         await self.tableau.actualiser([self.a, self.b])
@@ -168,15 +170,21 @@ class SalonFormations(unittest.IsolatedAsyncioTestCase):
 
     async def test_presence_disponible_hors_ligne_ou_indisponible_sans_mention(self):
         await self.tableau.actualiser([self.a, self.b])
-        with patch.object(form, "presences_habbo", return_value={form.cle(self.a):True, form.cle(self.b):False}):
+        dernier = datetime(2026, 11, 23, 8, 5, tzinfo=form.PARIS)
+        lectures = {form.cle(self.a):form.Presence(True), form.cle(self.b):form.Presence(False, dernier)}
+        with patch.object(form, "presences_habbo", return_value=lectures):
             await self.tableau.actualiser_presences()
         msg = next(iter(self.messages.values()))
-        self.assertEqual(msg.vue.carte.description, "• Alpha (depuis le 21/11/26) 🟢 en ligne\n• Bravo (depuis le 21/11/26)")
+        self.assertEqual(msg.vue.carte.description, "• Alpha (depuis le 21/11/26) 🟢 en ligne\n"
+                         "• Bravo (depuis le 21/11/26) · dernière connexion le 23/11/26 à 08:05")
         self.assertEqual(msg.edit.await_args.kwargs["allowed_mentions"].to_dict()["parse"], [])
-        self.tableau.presences[form.cle(self.a)] = (0, True)
+        await self.tableau.actualiser([{**self.b, "observation":time.time(), "en_ligne":False}])
+        self.assertEqual(self.tableau.presences[form.cle(self.b)][1].dernier_acces, dernier)
+        self.tableau.presences[form.cle(self.a)] = (0, form.Presence(True))
         with patch.object(form, "presences_habbo", side_effect=form.ApiRequestError("unavailable")):
             await self.tableau.actualiser_presences()
-        self.assertEqual(msg.vue.carte.description, "• Alpha (depuis le 21/11/26)\n• Bravo (depuis le 21/11/26)")
+        self.assertEqual(msg.vue.carte.description, "• Alpha (depuis le 21/11/26) · présence indisponible\n"
+                         "• Bravo (depuis le 21/11/26) · présence indisponible")
         self.salon.send.assert_awaited_once()
         self.assertEqual(self.tableau.suivre_presences.minutes, 2)
 
@@ -184,11 +192,29 @@ class SalonFormations(unittest.IsolatedAsyncioTestCase):
         groupe = [{"uniqueId":"hhfr-1","name":"PseudoModifié","online":True}]
         with patch.object(form, "request_json", side_effect=[groupe, {"online":True,"profileVisible":False}]):
             lecture = form.presences_habbo([self.a, self.b])
-        self.assertEqual(lecture, {form.cle(self.a):True, form.cle(self.b):False})
+        self.assertEqual(lecture, {form.cle(self.a):form.Presence(True), form.cle(self.b):form.Presence(None)})
         instant = time.time()
         await self.tableau.actualiser([{**self.a,"en_ligne":True,"observation":instant}])
-        self.tableau.noter_presence(form.cle(self.a), instant - 60, False)
-        self.assertEqual(self.tableau.presences[form.cle(self.a)], (instant, True))
+        self.tableau.noter_presence(form.cle(self.a), instant - 60, form.Presence(False))
+        self.assertEqual(self.tableau.presences[form.cle(self.a)], (instant, form.Presence(True)))
+
+    async def test_derniere_connexion_publique_hiver_ete_masquage_et_deux_listes(self):
+        membre = {"uniqueId":"hhfr-1", "name":"Alpha", "online":False}
+        qualif = {**self.a, "type":"qualifiante"}
+        profil = {"profileVisible":True, "online":False, "lastAccessTime":"2026-11-22T23:03:59.000+0000"}
+        with patch.object(form, "request_json", side_effect=[[membre], [membre], profil]) as req:
+            lectures = form.presences_habbo([self.a, qualif])
+        self.assertEqual(req.call_count, 3)
+        for fiche in [self.a, qualif]:
+            self.assertEqual(lectures[form.cle(fiche)].dernier_acces.strftime("%d/%m/%y %H:%M"), "23/11/26 00:03")
+        ete = form.presence_publique({**profil, "lastAccessTime":"2026-07-25T10:00:00Z"}, membre)
+        self.assertEqual(ete.dernier_acces.hour, 12)
+        for prive in [{**profil, "profileVisible":False}, {**profil, "lastAccessTime":"invalide"},
+                      {**profil, "lastAccessTime":"2026-01-01T09:00:00"}]:
+            lecture = form.presence_publique(prive, membre)
+            self.assertIsNone(lecture.dernier_acces)
+            carte, _ = form.carte_liste([self.a], {form.cle(self.a):lecture}, "gdp")
+            self.assertIn("dernière connexion non communiquée", carte.description)
 
     async def test_menu_page_deux_et_nom_absent_du_dernier_releve(self):
         candidats = [{**self.a, "pseudo":f"Police{i:02}", "uid":str(i)} for i in range(28)]
@@ -214,20 +240,20 @@ class SalonFormations(unittest.IsolatedAsyncioTestCase):
         adjoint = {**self.a, "depuis": "2026-11-16"}
         await self.tableau.actualiser([adjoint, qualif])
         public = next(iter(self.messages.values())).vue
-        self.assertEqual(public.carte.description, "• Alpha (depuis le 16/11/26)")
+        self.assertEqual(public.carte.description, "• Alpha (depuis le 16/11/26) · présence indisponible")
         menu = next(c for c in public.walk_children() if isinstance(c, discord.ui.Select))
         self.assertEqual([(o.label, o.default) for o in menu.options],
-                         [("Formation Gardien de la paix",True),("Formation qualifiante",False)])
+                         [("Formation Gardien de la paix",False),("Formation qualifiante",False)])
         inter = Mock(user=Mock(id=888), response=Mock(send_message=AsyncMock()), is_expired=Mock(return_value=False),
                      edit_original_response=AsyncMock())
         menu._values = ["qualifiante"]
         await menu.callback(inter)
         opts = inter.response.send_message.await_args.kwargs
         self.assertTrue(opts["ephemeral"])
-        self.assertEqual(opts["view"].carte.description, "• Charlie (depuis le 21/11/26)")
+        self.assertEqual(opts["view"].carte.description, "• Charlie (depuis le 21/11/26) · présence indisponible")
         for vue, titre in [(public, "Formation Gardien de la paix"), (opts["view"], "Formation qualifiante")]:
             self.assertIn(f"### 🎓 {titre}", [c.content for c in vue.walk_children() if isinstance(c, discord.ui.TextDisplay)])
-        self.tableau.noter_presence(form.cle(qualif), time.time(), True)
+        self.tableau.noter_presence(form.cle(qualif), time.time(), form.Presence(True))
         await self.tableau.actualiser([])
         self.assertEqual(inter.edit_original_response.await_args.kwargs["view"].carte.description,
                          "• Charlie (depuis le 21/11/26) 🟢 en ligne")
@@ -236,6 +262,43 @@ class SalonFormations(unittest.IsolatedAsyncioTestCase):
         archive = form.PagesFormations(self.tableau, 888, historique=True)
         self.assertIn("Formation qualifiante", archive.carte.description)
         self.assertEqual([f["pseudo"] for f in self.tableau.liste()], ["Alpha"])
+
+    async def test_retrait_reserve_aux_trois_roles_et_revalide_apres_selection(self):
+        qualif = {**self.a, "type":"qualifiante", "uid":"hhfr-1"}
+        await self.tableau.actualiser([self.a, qualif])
+        public = next(iter(self.messages.values())).vue
+        menu = next(c for c in public.walk_children() if isinstance(c, discord.ui.Select))
+        menu._values = ["qualifiante"]
+        membre = Mock(spec=discord.Member)
+        membre.id, membre.display_name, membre.guild_permissions.administrator = 77, "Membre", False
+        inter = SimpleNamespace(user=membre, guild_id=self.guild.id, guild=self.guild,
+                                channel_id=form.SALON, channel=self.salon, is_expired=lambda:False,
+                                response=Mock(send_message=AsyncMock(), defer=AsyncMock()), edit_original_response=AsyncMock())
+        self.guild.get_member.return_value = membre
+        for role in form.ROLES_RETRAIT:
+            membre.roles = [Mock(id=role)]
+            await menu.callback(inter)
+            vue = inter.response.send_message.await_args.kwargs['view']
+            self.assertTrue(any(getattr(c, 'label', None) == 'Retirer de la liste' for c in vue.walk_children()))
+            self.assertTrue(await self.tableau.autoriser(inter, retrait=True))
+        confirmation = form.Confirmation(self.tableau, membre.id, form.cle(qualif), retrait=True)
+        for admin in [False, True]:
+            membre.roles, membre.guild_permissions.administrator = [self.formateur], admin
+            await menu.callback(inter)
+            vue = inter.response.send_message.await_args.kwargs['view']
+            self.assertFalse(any(getattr(c, 'label', None) == 'Retirer de la liste' for c in vue.walk_children()))
+            await confirmation.confirmer.callback(inter)
+            self.assertIn(form.cle(qualif), self.tableau.etat['attente'])
+            inter.response.defer.assert_not_awaited()
+        membre.roles = [Mock(id=1552758582141784225)]
+        await confirmation.confirmer.callback(inter)
+        reprise = form.TableauFormations(self.bot, self.guild.id, self.chemin)
+        await reprise.actualiser([qualif, self.a])
+        self.assertEqual(reprise.liste('qualifiante'), [])
+        self.assertEqual(len(reprise.liste('gdp')), 1)
+        self.assertEqual(reprise.etat['historique'], {})
+        self.assertEqual(reprise.etat['retraits'][form.cle(qualif)]['par_id'], '77')
+        self.salon.send.assert_awaited_once()
 
     async def test_cadet_conserve_sa_destination_son_role_et_son_bouton(self):
         await pn_bot.PNBot.envoyer_alerte(self.bot, {"title": "Cadet", "_pn": {"palier": "cadet", "uid": "123"}})

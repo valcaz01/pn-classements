@@ -23,8 +23,12 @@ n’a pas de seuil de PR. Les gradés et les comptes exclus sont écartés du su
 Le bot mentionne `@everyone` une fois par lot de nouveaux noms dans ce salon privé. Les formateurs
 utilisent **Formation faite**, choisissent le pseudo puis confirment.
 Chaque pseudo est suivi de la date du badge correspondant entre parenthèses, au format `JJ/MM/AA`.
-La mention « 🟢 en ligne » apparaît lorsque Habbo indique le policier connecté. Le bot revérifie
-les présences toutes les deux minutes et modifie le message sans mention.
+La mention « 🟢 en ligne » apparaît lorsque Habbo indique le policier connecté. Pour une personne
+hors ligne, le bot affiche la dernière connexion communiquée par son profil public, en heure de Paris.
+Il revérifie les présences toutes les deux minutes et modifie le message sans mention.
+Les Hauts gradés, la Supervision et la Direction qui ont accès au salon choisissent une formation
+dans le menu pour afficher **Retirer de la liste** dans leur vue personnelle. Le retrait confirmé
+s’applique au badge et à la formation en cours. Il est conservé à part des formations effectuées.
 **Historique des formations** affiche le policier, le formateur et la date de
 confirmation. Le salon est en lecture seule pour les formateurs. Le suivi des
 badges et du tableau persiste dans les fichiers privés `formations-pa.json`

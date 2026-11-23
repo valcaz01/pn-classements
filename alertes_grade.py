@@ -246,12 +246,12 @@ def formations_a_faire(chemin, listes, visiteurs, pr, etat, aujourdhui):
         if pts < palier["seuil"] or jours < palier["jours"]:
             continue
         candidats.append({"type": "gdp", "uid": uid, "hid": hid, "pseudo": membre["name"], "depuis": fiche["depuis"], "pr": pts,
-                          "en_ligne": membre.get("online") is True, "observation": NOW.timestamp()})
+                          "en_ligne": membre.get("online"), "observation": NOW.timestamp()})
     for hid, membre in gardiens_actifs.items():
         depuis = datetime.fromisoformat(gardiens[hid]["depuis"]).date()
         if (aujourdhui - depuis).days + 1 >= 3:
             candidats.append({"type": "qualifiante", "uid": hid, "hid": hid, "pseudo": membre["name"],
-                              "depuis": depuis.isoformat(), "en_ligne": membre.get("online") is True,
+                              "depuis": depuis.isoformat(), "en_ligne": membre.get("online"),
                               "observation": NOW.timestamp()})
     return candidats
 
