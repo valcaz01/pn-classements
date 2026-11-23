@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T21:56:35+00:00",
+ "updated": "2026-11-23T21:58:37+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -383,11 +383,11 @@
    },
    {
     "name": "Padre",
-    "value": 471
+    "value": 473
    },
    {
     "name": "Monsieur-RF",
-    "value": 433
+    "value": 435
    },
    {
     "name": "Lewddon",
@@ -537,7 +537,7 @@
    },
    {
     "name": "Padre",
-    "value": 337
+    "value": 339
    },
    {
     "name": "Vyp",
@@ -589,7 +589,7 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 78
+    "value": 80
    },
    {
     "name": "Shizuku",
@@ -637,7 +637,7 @@
    },
    {
     "name": "Kouukii",
-    "value": 24
+    "value": 26
    },
    {
     "name": "LorenzoVisconti",
@@ -660,6 +660,10 @@
     "value": 6
    },
    {
+    "name": "CovidJr",
+    "value": 5
+   },
+   {
     "name": "irysse",
     "value": 5
    },
@@ -669,10 +673,6 @@
    },
    {
     "name": "Babbo0",
-    "value": 4
-   },
-   {
-    "name": "CovidJr",
     "value": 4
    },
    {
