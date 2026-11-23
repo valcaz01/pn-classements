@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T19:12:35+00:00",
+ "updated": "2026-11-23T19:14:33+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -335,7 +335,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 1023
+    "value": 1024
    },
    {
     "name": "halos34",
@@ -343,7 +343,7 @@
    },
    {
     "name": "Icarem",
-    "value": 765
+    "value": 767
    },
    {
     "name": "Shizuku",
@@ -359,7 +359,7 @@
    },
    {
     "name": "andrew16a",
-    "value": 550
+    "value": 551
    },
    {
     "name": "habbo22t",
@@ -379,15 +379,15 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 380
+    "value": 382
+   },
+   {
+    "name": "dadou07",
+    "value": 375
    },
    {
     "name": "Mi,hermano",
     "value": 375
-   },
-   {
-    "name": "dadou07",
-    "value": 374
    },
    {
     "name": "_.Flora._",
@@ -427,7 +427,7 @@
    },
    {
     "name": "Hectorr",
-    "value": 233
+    "value": 235
    },
    {
     "name": "Weavem",
@@ -529,7 +529,7 @@
    },
    {
     "name": "andrew16a",
-    "value": 198
+    "value": 199
    },
    {
     "name": "marinadrk",
@@ -557,11 +557,11 @@
    },
    {
     "name": "Pantheon_",
-    "value": 89
+    "value": 90
    },
    {
     "name": "Hectorr",
-    "value": 83
+    "value": 85
    },
    {
     "name": ".Libellule",
@@ -573,7 +573,7 @@
    },
    {
     "name": "Icarem",
-    "value": 73
+    "value": 75
    },
    {
     "name": "Lewddon",
@@ -605,7 +605,7 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 25
+    "value": 27
    },
    {
     "name": "LorenzoVisconti",
@@ -613,7 +613,7 @@
    },
    {
     "name": "dadou07",
-    "value": 15
+    "value": 16
    },
    {
     "name": "gotica",
