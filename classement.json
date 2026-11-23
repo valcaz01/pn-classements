@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T20:38:35+00:00",
+ "updated": "2026-11-23T20:40:36+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -339,7 +339,7 @@
    },
    {
     "name": "marinadrk",
-    "value": 1087
+    "value": 1089
    },
    {
     "name": "Pantheon_",
@@ -382,16 +382,16 @@
     "value": 419
    },
    {
+    "name": "Padre",
+    "value": 410
+   },
+   {
     "name": ".Libellule",
     "value": 409
    },
    {
     "name": "Mi,hermano",
     "value": 409
-   },
-   {
-    "name": "Padre",
-    "value": 408
    },
    {
     "name": "Monsieur-RF",
@@ -533,7 +533,7 @@
    },
    {
     "name": "Padre",
-    "value": 273
+    "value": 275
    },
    {
     "name": "Vyp",
@@ -545,7 +545,7 @@
    },
    {
     "name": "marinadrk",
-    "value": 178
+    "value": 180
    },
    {
     "name": "Mr.Dino",
