@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T02:04:43+00:00",
+ "updated": "2026-11-23T02:06:44+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -243,7 +243,7 @@
    },
    {
     "name": "marinadrk",
-    "value": 938
+    "value": 939
    },
    {
     "name": "Pantheon_",
@@ -263,7 +263,7 @@
    },
    {
     "name": "halos34",
-    "value": 593
+    "value": 595
    },
    {
     "name": "Lovepanda",
@@ -287,7 +287,7 @@
    },
    {
     "name": "Lewddon",
-    "value": 357
+    "value": 359
    },
    {
     "name": "Monsieur-RF",
@@ -433,7 +433,7 @@
   "week": [
    {
     "name": "halos34",
-    "value": 110
+    "value": 112
    },
    {
     "name": "Shizuku",
@@ -441,7 +441,7 @@
    },
    {
     "name": "marinadrk",
-    "value": 28
+    "value": 29
    },
    {
     "name": "-Massimo-",
@@ -470,6 +470,10 @@
    {
     "name": "Babbo0",
     "value": 4
+   },
+   {
+    "name": "Lewddon",
+    "value": 2
    },
    {
     "name": "MagicalArt",
