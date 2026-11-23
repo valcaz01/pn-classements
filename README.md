@@ -10,8 +10,8 @@ le 20 novembre 2026 proviennent des attributions confirmées sur le forum.
 Pour les nouvelles adhésions, le registre retient le jour où le badge est vu
 dans le groupe. Un retrait confirmé termine cette période d'ancienneté.
 
-Dans **🎓︱𝖥ormas-à-faire**, PN · Alertes mentionne le rôle Formateur lorsqu’un
-policier adjoint atteint **300 PR cumulés** et son **3ᵉ jour de badge**, en
+Dans **🎓︱𝖥ormas-à-faire**, PN · Alertes ajoute au tableau chaque
+policier adjoint qui atteint **300 PR cumulés** et son **3ᵉ jour de badge**, en
 comptant le jour de remise en heure de Paris. Les attributions déjà confirmées
 par un HG sont reprises au premier passage. Sans confirmation datée, le suivi
 commence le jour où le badge est observé. Un gardien de la paix ou un gradé
@@ -20,7 +20,7 @@ un seul tableau. Sa vue par défaut liste la formation Gardien de la paix.
 Le menu du haut ouvre une vue personnelle des **formations qualifiantes**
 pour les gardiens de la paix dès le 3ᵉ jour du badge. Ce deuxième passage
 n’a pas de seuil de PR. Les gradés et les comptes exclus sont écartés du suivi.
-Le rôle Formateur est mentionné une fois par lot de nouveaux noms. Les formateurs
+Le bot mentionne `@everyone` une fois par lot de nouveaux noms dans ce salon privé. Les formateurs
 utilisent **Formation faite**, choisissent le pseudo puis confirment.
 Le point 🟢 signale que Habbo indique le policier connecté. Le bot revérifie
 les présences toutes les deux minutes et modifie le message sans mention.

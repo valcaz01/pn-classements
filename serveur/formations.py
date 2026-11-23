@@ -29,8 +29,7 @@ PARIS = ZoneInfo("Europe/Paris")
 HOST = os.environ.get("HABBO_HOST", "www.habbo.fr")
 LOG = logging.getLogger("pn.formations")
 SANS_MENTIONS = discord.AllowedMentions.none()
-MENTION_FORMATEUR = discord.AllowedMentions(everyone=False, users=False, roles=[discord.Object(id=FORMATEUR)],
-                                          replied_user=False)
+MENTION_SALON = discord.AllowedMentions(everyone=True, users=False, roles=False, replied_user=False)
 
 
 def verifier_salon(ch, guild_id):
@@ -283,9 +282,11 @@ class TableauFormations:
         vue = BoutonsFormations(self)
         rendu = vue.signature()
 
-        # Une nouvelle liste mentionne le rôle une fois pour le lot. Une simple
+        # Une nouvelle liste mentionne le salon une fois pour le lot. Une simple
         # correction, une confirmation ou un redémarrage ne doit réveiller personne.
         if courant is None or nouveaux:
+            if nouveaux and not ch.permissions_for(ch.guild.me).mention_everyone:
+                raise RuntimeError("PN · Alertes doit pouvoir mentionner @everyone dans le salon des formations.")
             if envoi is None:
                 envoi = {"apres": courant.id if courant else 0, "cles": sorted(cles), "nonce": secrets.token_hex(10)}
                 self.sauver(envoi=envoi)
@@ -294,7 +295,7 @@ class TableauFormations:
                 genres = {self.etat["attente"][k].get("type", "gdp") for k in nouveaux}
                 vue = BoutonsFormations(self, annoncer=genres)
             courant = await ch.send(view=vue, files=vue.pieces(), nonce=envoi["nonce"],
-                                    allowed_mentions=MENTION_FORMATEUR if nouveaux else SANS_MENTIONS)
+                                    allowed_mentions=MENTION_SALON if nouveaux else SANS_MENTIONS)
         elif self.etat.get("rendu") != rendu or courant.embeds:
             await courant.edit(content=None, embed=None, view=vue, attachments=vue.pieces(), allowed_mentions=SANS_MENTIONS)
         self.sauver(panneau=courant.id, annonces=sorted(cles), envoi=None, rendu=rendu)
@@ -357,7 +358,7 @@ class BoutonsFormations(discord.ui.LayoutView):
         boite = discord.ui.Container(accent_colour=0xE3B34A)
         if annoncer:
             types = " et ".join(TYPES[g] for g in TYPES if g in annoncer)
-            boite.add_item(discord.ui.TextDisplay(f"<@&{FORMATEUR}> · Ajout à la liste « {types} »"))
+            boite.add_item(discord.ui.TextDisplay(f"@everyone · Ajout à la liste « {types} »"))
         boite.add_item(discord.ui.TextDisplay("### 🎓 Formations à faire"))
         boite.add_item(discord.ui.ActionRow(menu))
         boite.add_item(discord.ui.TextDisplay(self.carte.description))

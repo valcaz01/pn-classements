@@ -74,20 +74,35 @@ class SalonFormations(unittest.IsolatedAsyncioTestCase):
         self.salon.fetch_message = AsyncMock(side_effect=self.messages.__getitem__)
         self.salon.history.side_effect = historique
 
-    async def test_seul_le_salon_prive_recoit_la_notification_et_seul_formateur_est_mentionne(self):
+    async def test_une_seule_mention_everyone_pour_le_lot_dans_le_salon_prive(self):
         await self.tableau.actualiser([self.a, self.b])
         self.bot.channel.assert_awaited_once_with(form.SALON)
         appel = self.salon.send.await_args.kwargs
         textes = [c.content for c in appel["view"].walk_children() if isinstance(c,discord.ui.TextDisplay)]
-        self.assertEqual("\n".join(textes).count(f"<@&{self.formateur.id}>"), 1)
-        self.assertEqual([r.id for r in appel["allowed_mentions"].roles], [self.formateur.id])
-        self.assertFalse(appel["allowed_mentions"].everyone)
+        self.assertEqual("\n".join(textes).count("@everyone"), 1)
+        self.assertNotIn("<@&", "\n".join(textes))
+        self.assertEqual(appel["allowed_mentions"].to_dict(), {"parse": ["everyone"]})
         self.assertEqual([b.label for b in appel["view"].walk_children() if isinstance(b, discord.ui.Button)],
                          ["Formation faite", "Historique des formations"])
         self.assertEqual(appel["view"].carte.description, "• Alpha\n• Bravo")
         self.assertTrue(appel["view"].is_persistent())
         await self.tableau.actualiser([self.a, self.b])
         self.salon.send.assert_awaited_once()
+
+    async def test_alerte_everyone_reprise_si_permission_retablie(self):
+        droits = self.salon.permissions_for.side_effect
+        def priver_de_mention(membre):
+            acces = droits(membre)
+            acces.mention_everyone = False
+            return acces
+        self.salon.permissions_for.side_effect = priver_de_mention
+        with self.assertRaisesRegex(RuntimeError, "@everyone"):
+            await self.tableau.actualiser([self.a])
+        self.salon.send.assert_not_awaited()
+        self.salon.permissions_for.side_effect = droits
+        await self.tableau.actualiser([])
+        self.salon.send.assert_awaited_once()
+        self.assertEqual(self.salon.send.await_args.kwargs["allowed_mentions"].to_dict()["parse"], ["everyone"])
 
     async def test_aucun_repli_public_si_une_permission_permet_un_acces_non_prevu(self):
         self.salon.overwrites[self.everyone] = discord.PermissionOverwrite(view_channel=None)
