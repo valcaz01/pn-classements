@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T19:44:34+00:00",
+ "updated": "2026-11-23T19:46:35+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -100,12 +100,12 @@
     "value": 12
    },
    {
-    "name": "Postillon",
+    "name": "Mi,hermano",
     "value": 11
    },
    {
-    "name": "Mi,hermano",
-    "value": 10
+    "name": "Postillon",
+    "value": 11
    },
    {
     "name": "guest77145",
@@ -270,6 +270,10 @@
     "value": 3
    },
    {
+    "name": "Mi,hermano",
+    "value": 3
+   },
+   {
     "name": "Pantheon_",
     "value": 3
    },
@@ -291,10 +295,6 @@
    },
    {
     "name": "habbo22t",
-    "value": 2
-   },
-   {
-    "name": "Mi,hermano",
     "value": 2
    },
    {
@@ -339,7 +339,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 1049
+    "value": 1051
    },
    {
     "name": "halos34",
@@ -394,11 +394,11 @@
     "value": 375
    },
    {
-    "name": "_.Flora._",
-    "value": 354
+    "name": "Padre",
+    "value": 356
    },
    {
-    "name": "Padre",
+    "name": "_.Flora._",
     "value": 354
    },
    {
@@ -431,7 +431,7 @@
    },
    {
     "name": "Hectorr",
-    "value": 261
+    "value": 263
    },
    {
     "name": "Weavem",
@@ -446,11 +446,11 @@
     "value": 192
    },
    {
-    "name": "irysse",
-    "value": 178
+    "name": "Vyp",
+    "value": 180
    },
    {
-    "name": "Vyp",
+    "name": "irysse",
     "value": 178
    },
    {
@@ -529,7 +529,7 @@
    },
    {
     "name": "Padre",
-    "value": 219
+    "value": 221
    },
    {
     "name": "andrew16a",
@@ -537,7 +537,7 @@
    },
    {
     "name": "Vyp",
-    "value": 178
+    "value": 180
    },
    {
     "name": "marinadrk",
@@ -557,11 +557,11 @@
    },
    {
     "name": "Pantheon_",
-    "value": 115
+    "value": 117
    },
    {
     "name": "Hectorr",
-    "value": 111
+    "value": 113
    },
    {
     "name": "apo4020",
