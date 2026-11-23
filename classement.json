@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T10:32:33+00:00",
+ "updated": "2026-11-23T10:34:33+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -41,7 +41,7 @@
    },
    {
     "name": "Lovepanda",
-    "value": 24
+    "value": 25
    },
    {
     "name": ".:Krustiz:.",
@@ -64,12 +64,12 @@
     "value": 21
    },
    {
-    "name": "Proxymore",
+    "name": "Pantheon_",
     "value": 20
    },
    {
-    "name": "Pantheon_",
-    "value": 19
+    "name": "Proxymore",
+    "value": 20
    },
    {
     "name": "andrew16a",
@@ -238,19 +238,19 @@
     "value": 2
    },
    {
+    "name": "Lovepanda",
+    "value": 2
+   },
+   {
     "name": "Mi,hermano",
     "value": 2
    },
    {
-    "name": "Lovepanda",
-    "value": 1
+    "name": "Pantheon_",
+    "value": 2
    },
    {
     "name": "MelMlrr",
-    "value": 1
-   },
-   {
-    "name": "Pantheon_",
     "value": 1
    },
    {
@@ -283,7 +283,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 934
+    "value": 935
    },
    {
     "name": "halos34",
@@ -319,7 +319,7 @@
    },
    {
     "name": ".Libellule",
-    "value": 378
+    "value": 380
    },
    {
     "name": "Mi,hermano",
@@ -331,7 +331,7 @@
    },
    {
     "name": "andrew16a",
-    "value": 355
+    "value": 357
    },
    {
     "name": "Monsieur-RF",
@@ -493,7 +493,7 @@
    },
    {
     "name": ".Libellule",
-    "value": 49
+    "value": 51
    },
    {
     "name": "Lovepanda",
@@ -524,6 +524,10 @@
     "value": 8
    },
    {
+    "name": "andrew16a",
+    "value": 5
+   },
+   {
     "name": "irysse",
     "value": 5
    },
@@ -538,10 +542,6 @@
    {
     "name": "Babbo0",
     "value": 4
-   },
-   {
-    "name": "andrew16a",
-    "value": 3
    },
    {
     "name": "MagicalArt",
@@ -561,6 +561,10 @@
    },
    {
     "name": "habbo-160-3",
+    "value": 1
+   },
+   {
+    "name": "Pantheon_",
     "value": 1
    }
   ]
