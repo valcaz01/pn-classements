@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T10:40:32+00:00",
+ "updated": "2026-11-23T10:42:32+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -319,15 +319,15 @@
    },
    {
     "name": ".Libellule",
-    "value": 386
+    "value": 388
+   },
+   {
+    "name": "andrew16a",
+    "value": 365
    },
    {
     "name": "Mi,hermano",
     "value": 364
-   },
-   {
-    "name": "andrew16a",
-    "value": 363
    },
    {
     "name": "dadou07",
@@ -485,7 +485,7 @@
    },
    {
     "name": ".Libellule",
-    "value": 57
+    "value": 59
    },
    {
     "name": "Shizuku",
@@ -508,6 +508,10 @@
     "value": 21
    },
    {
+    "name": "andrew16a",
+    "value": 13
+   },
+   {
     "name": "gotica",
     "value": 13
    },
@@ -518,10 +522,6 @@
    {
     "name": "SuzieOuistiti!",
     "value": 13
-   },
-   {
-    "name": "andrew16a",
-    "value": 11
    },
    {
     "name": "charlie-XCX123",
