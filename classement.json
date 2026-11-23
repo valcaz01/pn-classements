@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T21:34:37+00:00",
+ "updated": "2026-11-23T21:36:37+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -168,6 +168,10 @@
     "value": 3
    },
    {
+    "name": "Padre",
+    "value": 3
+   },
+   {
     "name": "Pierre.Langlet",
     "value": 3
    },
@@ -197,10 +201,6 @@
    },
    {
     "name": "guest-3806",
-    "value": 2
-   },
-   {
-    "name": "Hectorr",
     "value": 2
    }
   ],
@@ -318,6 +318,10 @@
     "value": 1
    },
    {
+    "name": "Padre",
+    "value": 1
+   },
+   {
     "name": "Postillon",
     "value": 1
    }
@@ -339,7 +343,7 @@
    },
    {
     "name": "marinadrk",
-    "value": 1110
+    "value": 1109
    },
    {
     "name": "Pantheon_",
@@ -387,7 +391,7 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 413
+    "value": 415
    },
    {
     "name": ".Libellule",
@@ -403,7 +407,7 @@
    },
    {
     "name": "flo578",
-    "value": 387
+    "value": 389
    },
    {
     "name": "_.Flora._",
@@ -596,16 +600,16 @@
     "value": 61
    },
    {
+    "name": "flo578",
+    "value": 61
+   },
+   {
     "name": "Leif",
     "value": 61
    },
    {
-    "name": "flo578",
-    "value": 59
-   },
-   {
     "name": "Monsieur-RF",
-    "value": 58
+    "value": 60
    },
    {
     "name": "charlie-XCX123",
