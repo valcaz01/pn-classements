@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T16:02:28+00:00",
+ "updated": "2026-11-23T16:04:29+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -270,6 +270,10 @@
     "value": 1
    },
    {
+    "name": "LorenzoVisconti",
+    "value": 1
+   },
+   {
     "name": "MelMlrr",
     "value": 1
    },
@@ -379,7 +383,7 @@
    },
    {
     "name": "Padre",
-    "value": 276
+    "value": 278
    },
    {
     "name": "Proxymore",
@@ -493,7 +497,7 @@
    },
    {
     "name": "Padre",
-    "value": 141
+    "value": 143
    },
    {
     "name": "habbo-160-3",
