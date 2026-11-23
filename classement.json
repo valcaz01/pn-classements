@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T19:08:34+00:00",
+ "updated": "2026-11-23T19:10:35+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -9,7 +9,7 @@
    },
    {
     "name": "Icarem",
-    "value": 51
+    "value": 52
    },
    {
     "name": "pevanq640",
@@ -96,15 +96,15 @@
     "value": 13
    },
    {
+    "name": "Monsieur-RF",
+    "value": 12
+   },
+   {
     "name": "Postillon",
     "value": 11
    },
    {
     "name": "Mi,hermano",
-    "value": 10
-   },
-   {
-    "name": "Monsieur-RF",
     "value": 10
    },
    {
@@ -218,6 +218,10 @@
     "value": 7
    },
    {
+    "name": "Icarem",
+    "value": 7
+   },
+   {
     "name": "charlie-XCX123",
     "value": 6
    },
@@ -227,10 +231,6 @@
    },
    {
     "name": "gotica",
-    "value": 6
-   },
-   {
-    "name": "Icarem",
     "value": 6
    },
    {
@@ -286,6 +286,10 @@
     "value": 2
    },
    {
+    "name": "Monsieur-RF",
+    "value": 2
+   },
+   {
     "name": "apo4020",
     "value": 1
    },
@@ -331,7 +335,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 1019
+    "value": 1020
    },
    {
     "name": "halos34",
@@ -355,7 +359,7 @@
    },
    {
     "name": "andrew16a",
-    "value": 546
+    "value": 548
    },
    {
     "name": "habbo22t",
@@ -383,7 +387,7 @@
    },
    {
     "name": "dadou07",
-    "value": 370
+    "value": 372
    },
    {
     "name": "_.Flora._",
@@ -427,7 +431,7 @@
    },
    {
     "name": "Hectorr",
-    "value": 230
+    "value": 231
    },
    {
     "name": "-Tsukiri-",
@@ -525,7 +529,7 @@
    },
    {
     "name": "andrew16a",
-    "value": 194
+    "value": 196
    },
    {
     "name": "marinadrk",
@@ -553,14 +557,14 @@
    },
    {
     "name": "Pantheon_",
-    "value": 85
-   },
-   {
-    "name": ".Libellule",
-    "value": 80
+    "value": 86
    },
    {
     "name": "Hectorr",
+    "value": 81
+   },
+   {
+    "name": ".Libellule",
     "value": 80
    },
    {
@@ -608,6 +612,10 @@
     "value": 22
    },
    {
+    "name": "dadou07",
+    "value": 13
+   },
+   {
     "name": "gotica",
     "value": 13
    },
@@ -622,10 +630,6 @@
    {
     "name": "Postillon",
     "value": 13
-   },
-   {
-    "name": "dadou07",
-    "value": 11
    },
    {
     "name": "charlie-XCX123",
