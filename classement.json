@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T17:56:35+00:00",
+ "updated": "2026-11-23T17:58:36+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -156,6 +156,10 @@
     "value": 3
    },
    {
+    "name": "Leif",
+    "value": 3
+   },
+   {
     "name": "LesdixGaga",
     "value": 3
    },
@@ -197,10 +201,6 @@
    },
    {
     "name": "OnlyOneGuest",
-    "value": 2
-   },
-   {
-    "name": "Padre",
     "value": 2
    }
   ],
@@ -258,6 +258,10 @@
     "value": 3
    },
    {
+    "name": "Leif",
+    "value": 3
+   },
+   {
     "name": "Lovepanda",
     "value": 3
    },
@@ -272,10 +276,6 @@
    {
     "name": "Pantheon_",
     "value": 2
-   },
-   {
-    "name": "Leif",
-    "value": 1
    },
    {
     "name": "LesdixGaga",
@@ -315,7 +315,7 @@
    },
    {
     "name": "marinadrk",
-    "value": 1043
+    "value": 1045
    },
    {
     "name": "Pantheon_",
@@ -335,7 +335,7 @@
    },
    {
     "name": "Lovepanda",
-    "value": 656
+    "value": 657
    },
    {
     "name": "Astreu",
@@ -343,7 +343,7 @@
    },
    {
     "name": "andrew16a",
-    "value": 479
+    "value": 480
    },
    {
     "name": "habbo22t",
@@ -375,7 +375,7 @@
    },
    {
     "name": "Padre",
-    "value": 347
+    "value": 349
    },
    {
     "name": "_.Flora._",
@@ -509,11 +509,11 @@
    },
    {
     "name": "Padre",
-    "value": 212
+    "value": 214
    },
    {
     "name": "marinadrk",
-    "value": 134
+    "value": 136
    },
    {
     "name": "Vyp",
@@ -521,7 +521,7 @@
    },
    {
     "name": "andrew16a",
-    "value": 127
+    "value": 128
    },
    {
     "name": "habbo-160-3",
@@ -537,7 +537,7 @@
    },
    {
     "name": "Lovepanda",
-    "value": 99
+    "value": 100
    },
    {
     "name": ".Libellule",
@@ -637,6 +637,10 @@
    },
    {
     "name": "CovidJr",
+    "value": 1
+   },
+   {
+    "name": "Leif",
     "value": 1
    }
   ]
