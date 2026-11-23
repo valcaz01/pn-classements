@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T12:36:30+00:00",
+ "updated": "2026-11-23T12:38:28+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -415,7 +415,7 @@
    },
    {
     "name": "Padre",
-    "value": 147
+    "value": 149
    },
    {
     "name": "MagicalArt",
@@ -548,6 +548,10 @@
     "value": 22
    },
    {
+    "name": "Padre",
+    "value": 14
+   },
+   {
     "name": "gotica",
     "value": 13
    },
@@ -561,10 +565,6 @@
    },
    {
     "name": "_.Flora._",
-    "value": 12
-   },
-   {
-    "name": "Padre",
     "value": 12
    },
    {
