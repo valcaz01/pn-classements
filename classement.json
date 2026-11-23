@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T19:52:35+00:00",
+ "updated": "2026-11-23T19:54:34+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -339,7 +339,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 1055
+    "value": 1057
    },
    {
     "name": "halos34",
@@ -347,11 +347,11 @@
    },
    {
     "name": "Icarem",
-    "value": 781
+    "value": 782
    },
    {
     "name": "Shizuku",
-    "value": 691
+    "value": 693
    },
    {
     "name": "Lovepanda",
@@ -391,11 +391,11 @@
    },
    {
     "name": "Mi,hermano",
-    "value": 377
+    "value": 379
    },
    {
     "name": "Padre",
-    "value": 362
+    "value": 364
    },
    {
     "name": "_.Flora._",
@@ -403,7 +403,7 @@
    },
    {
     "name": "flo578",
-    "value": 340
+    "value": 342
    },
    {
     "name": "Mr.Dino",
@@ -529,7 +529,7 @@
    },
    {
     "name": "Padre",
-    "value": 227
+    "value": 229
    },
    {
     "name": "andrew16a",
@@ -548,12 +548,12 @@
     "value": 149
    },
    {
-    "name": "Lovepanda",
-    "value": 122
+    "name": "Pantheon_",
+    "value": 123
    },
    {
-    "name": "Pantheon_",
-    "value": 121
+    "name": "Lovepanda",
+    "value": 122
    },
    {
     "name": "habbo-160-3",
@@ -569,7 +569,7 @@
    },
    {
     "name": "Icarem",
-    "value": 89
+    "value": 90
    },
    {
     "name": ".Libellule",
@@ -589,7 +589,7 @@
    },
    {
     "name": "Shizuku",
-    "value": 59
+    "value": 61
    },
    {
     "name": "_.Flora._",
@@ -621,7 +621,11 @@
    },
    {
     "name": "Mi,hermano",
-    "value": 15
+    "value": 17
+   },
+   {
+    "name": "flo578",
+    "value": 14
    },
    {
     "name": "gotica",
@@ -634,10 +638,6 @@
    {
     "name": "Postillon",
     "value": 13
-   },
-   {
-    "name": "flo578",
-    "value": 12
    },
    {
     "name": "charlie-XCX123",
