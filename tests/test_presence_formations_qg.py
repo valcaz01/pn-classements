@@ -60,3 +60,16 @@ class SondesWIRED(unittest.TestCase):
         with self.assertRaises(ApiRequestError):
             self.sonde.relever([])
         self.assertEqual(self.sonde.relever([]), (105,1,set()))
+
+    def test_acquittement_sans_valeur_et_identifiant_a_la_racine(self):
+        self.api.side_effect = [{'value':'10'}, [], {'status':'ok'}, {'value':'11'},
+                                [{'entity_id':5, 'value':'11'}]]
+        self.assertEqual(self.sonde.relever([{'uid':'5'}]), (11,1,{'5'}))
+
+    def test_localise_un_404_avant_de_toucher_au_compteur(self):
+        self.api.side_effect = [{'value':'103'}, None]
+        with self.assertRaises(ApiRequestError) as erreur:
+            self.sonde.relever([])
+        self.assertEqual((erreur.exception.status, erreur.exception.indication),
+                         (404, 'variable de présence introuvable'))
+        self.assertFalse(any(c.kwargs.get('write') for c in self.api.call_args_list))

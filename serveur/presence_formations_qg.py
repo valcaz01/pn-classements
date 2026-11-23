@@ -8,7 +8,16 @@ CONTROLE = "/variables/global/controle_forma_qg"
 PRESENCES = "/variables/user/presence_forma_qg/users"
 
 
+class ErreurControle(ApiRequestError):
+    def __init__(self, indication, chemin, status=None):
+        super().__init__("response", status=status, endpoint=chemin)
+        self.indication = indication
+
+
 def valeur(objet, chemin):
+    if objet is None:
+        indication = "contrôle global introuvable" if chemin == CONTROLE else "variable de présence introuvable"
+        raise ErreurControle(indication, chemin, 404)
     if isinstance(objet, dict):
         valeur_wired = objet.get("variable", objet)
         if isinstance(valeur_wired, dict):
@@ -16,7 +25,8 @@ def valeur(objet, chemin):
                 return int(str(valeur_wired.get("value")))
             except ValueError:
                 pass
-    raise ApiRequestError("response", endpoint=chemin)
+    indication = "valeur du contrôle illisible" if chemin == CONTROLE else "valeur de présence illisible"
+    raise ErreurControle(indication, chemin)
 
 
 def identite(fiche):
@@ -31,8 +41,12 @@ class ControlePresenceQG:
 
     def page(self, page, taille):
         resultat = self.api(PRESENCES, {"order_by": "value", "order_dir": "desc", "page": page, "size": taille})
+        if resultat is None:
+            raise ErreurControle("variable de présence introuvable", PRESENCES, 404)
+        if isinstance(resultat, list):
+            return resultat
         if not isinstance(resultat, dict) or not isinstance(resultat.get("items"), list):
-            raise ApiRequestError("response", endpoint=PRESENCES)
+            raise ErreurControle("liste de présence illisible", PRESENCES)
         return resultat["items"]
 
     def lire_echos(self, numero):
@@ -46,13 +60,13 @@ class ControlePresenceQG:
                     return ids, publics
                 if marque > numero:
                     self.numero = None  # Une intervention a avancé le compteur entre écriture et lecture.
-                    raise ApiRequestError("response", endpoint=CONTROLE)
-                joueur = ligne.get("user")
+                    raise ErreurControle("contrôle modifié pendant la lecture", CONTROLE)
+                joueur = ligne.get("user") or {}
                 if not isinstance(joueur, dict):
-                    raise ApiRequestError("response", endpoint=PRESENCES)
-                uid = str(joueur.get("id", ""))
+                    raise ErreurControle("identifiant de présence illisible", PRESENCES)
+                uid = str(joueur.get("id") or ligne.get("entity_id") or ligne.get("id") or "")
                 if not uid.isdecimal() or uid in ids:
-                    raise ApiRequestError("response", endpoint=PRESENCES)
+                    raise ErreurControle("identifiant de présence absent ou répété", PRESENCES)
                 ids.add(uid)
                 hid = joueur.get("unique_id") or joueur.get("uniqueId")
                 if hid:
@@ -70,11 +84,17 @@ class ControlePresenceQG:
         self.numero += 1
         numero = self.numero
         reponse = self.api(CONTROLE, body={"value": str(numero)}, method="PATCH", write=True)
-        if reponse == {}:  # Certains serveurs acquittent sans corps ; confirmer par lecture.
+        if reponse is None:
+            raise ErreurControle("écriture du contrôle introuvable", CONTROLE, 404)
+        try:
+            confirme = valeur(reponse, CONTROLE)
+        except ErreurControle:
+            # Un acquittement peut ne contenir aucune valeur. Vérifier sans rejouer l'écriture.
             reponse = self.api(CONTROLE)
-        if valeur(reponse, CONTROLE) != numero:
+            confirme = valeur(reponse, CONTROLE)
+        if confirme != numero:
             self.numero = None
-            raise ApiRequestError("response", endpoint=CONTROLE)
+            raise ErreurControle("écriture du contrôle non confirmée", CONTROLE)
         time.sleep(3)  # Le PATCH confirme la globale avant la propagation aux avatars.
         ids, publics = self.lire_echos(numero)
         if not ids:
@@ -98,7 +118,7 @@ class ControlePresenceQG:
                         joueur = profil.get("user") if isinstance(profil, dict) else None
                         if (not isinstance(joueur, dict) or (joueur.get("unique_id") or joueur.get("uniqueId")) != hid
                                 or not str(joueur.get("id")).isdecimal()):
-                            raise ApiRequestError("response", endpoint="identifiant WIRED du candidat")
+                            raise ErreurControle("identifiant du candidat illisible", PRESENCES)
                         numerique = str(joueur["id"])
                     self.ids_wired[hid] = time.monotonic(), numerique
                 if numerique in ids:

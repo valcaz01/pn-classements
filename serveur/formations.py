@@ -341,7 +341,12 @@ class TableauFormations:
         except ApiRequestError as exc:
             self.prochain_qg = time.monotonic() + max(60, exc.retry_delay or 0)
             LOG.warning("Sonde de formation QG reportée : %s", exc)
-            self.statut_qg = f"QG indisponible (HTTP {exc.status})" if exc.status else "QG indisponible"
+            raison = getattr(exc, "indication", None) or {
+                "timeout": "délai dépassé", "network": "connexion interrompue",
+                "rate_limit": "limite d’appels atteinte", "access": "accès refusé",
+            }.get(exc.kind, "réponse Habbo indisponible")
+            code = f", HTTP {exc.status}" if exc.status else ""
+            self.statut_qg = f"QG indisponible ({raison}{code})"
             return
         if self.lecture_qg is None:
             if not nombre:
