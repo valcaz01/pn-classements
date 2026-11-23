@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T19:06:34+00:00",
+ "updated": "2026-11-23T19:08:34+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -65,7 +65,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 20
+    "value": 21
    },
    {
     "name": "Proxymore",
@@ -270,6 +270,10 @@
     "value": 3
    },
    {
+    "name": "Pantheon_",
+    "value": 3
+   },
+   {
     "name": "SuzieOuistiti!",
     "value": 3
    },
@@ -279,10 +283,6 @@
    },
    {
     "name": "Mi,hermano",
-    "value": 2
-   },
-   {
-    "name": "Pantheon_",
     "value": 2
    },
    {
@@ -331,7 +331,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 1018
+    "value": 1019
    },
    {
     "name": "halos34",
@@ -339,7 +339,7 @@
    },
    {
     "name": "Icarem",
-    "value": 761
+    "value": 763
    },
    {
     "name": "Shizuku",
@@ -355,7 +355,7 @@
    },
    {
     "name": "andrew16a",
-    "value": 544
+    "value": 546
    },
    {
     "name": "habbo22t",
@@ -375,7 +375,7 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 377
+    "value": 378
    },
    {
     "name": "Mi,hermano",
@@ -383,7 +383,7 @@
    },
    {
     "name": "dadou07",
-    "value": 368
+    "value": 370
    },
    {
     "name": "_.Flora._",
@@ -427,7 +427,7 @@
    },
    {
     "name": "Hectorr",
-    "value": 229
+    "value": 230
    },
    {
     "name": "-Tsukiri-",
@@ -525,7 +525,7 @@
    },
    {
     "name": "andrew16a",
-    "value": 192
+    "value": 194
    },
    {
     "name": "marinadrk",
@@ -553,7 +553,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 84
+    "value": 85
    },
    {
     "name": ".Libellule",
@@ -561,7 +561,7 @@
    },
    {
     "name": "Hectorr",
-    "value": 79
+    "value": 80
    },
    {
     "name": "SuzieOuistiti!",
@@ -569,7 +569,7 @@
    },
    {
     "name": "Icarem",
-    "value": 69
+    "value": 71
    },
    {
     "name": "Lewddon",
@@ -600,11 +600,11 @@
     "value": 28
    },
    {
-    "name": "LorenzoVisconti",
-    "value": 22
+    "name": "Monsieur-RF",
+    "value": 23
    },
    {
-    "name": "Monsieur-RF",
+    "name": "LorenzoVisconti",
     "value": 22
    },
    {
@@ -624,16 +624,16 @@
     "value": 13
    },
    {
+    "name": "dadou07",
+    "value": 11
+   },
+   {
     "name": "charlie-XCX123",
     "value": 10
    },
    {
     "name": "flo578",
     "value": 10
-   },
-   {
-    "name": "dadou07",
-    "value": 9
    },
    {
     "name": "irysse",
