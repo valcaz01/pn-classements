@@ -28,9 +28,11 @@ La mention « 🟢 en ligne » apparaît lorsque Habbo indique le policier conne
 hors ligne, le bot affiche la dernière connexion communiquée par son profil public, en heure de Paris.
 Le bot relit les deux groupes toutes les 30 secondes lorsque des candidats attendent. Au QG,
 il écrit un nouveau numéro dans `controle_forma_qg` et relit les échos de `presence_forma_qg`.
-La liste affiche « 🟢 en ligne · au QG » pour les candidats présents. Leur arrivée mentionne le
-rôle Formateur une fois dans le tableau privé. Deux relevés d’absence consécutifs permettent
-une nouvelle mention lors de la visite suivante. Une erreur de l’API conserve la visite en cours.
+La liste affiche « 🟢 en ligne · au QG » pour les candidats présents. Une première visite mentionne
+le rôle Formateur dans le tableau privé. Pour mentionner à nouveau ce rôle pour la même personne,
+le bot doit constater deux absences consécutives puis une arrivée au moins une heure après sa
+dernière mention. Un retour pendant cette heure reste silencieux pour toute la visite. Ce délai
+est propre à chaque candidat et se conserve au redémarrage. Une erreur de l’API conserve la visite en cours.
 **Retirer de la liste** se trouve au bas du tableau du salon. Seuls les Hauts gradés, la Supervision
 et la Direction qui ont accès au salon peuvent l’utiliser. Pour la formation qualifiante, ils
 sélectionnent cette formation dans le menu et retrouvent le bouton dans leur vue personnelle. Le retrait confirmé

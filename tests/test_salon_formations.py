@@ -60,7 +60,8 @@ class SalonFormations(unittest.IsolatedAsyncioTestCase):
             ident = self.compteur
             vue = options.get("view")
             msg = SimpleNamespace(id=ident, author=self.moi, embeds=[options["embed"]] if "embed" in options else [],
-                                  components=vue.children if vue else [], vue=vue)
+                                  components=vue.children if vue else [], vue=vue,
+                                  created_at=datetime.fromtimestamp(time.time(), form.PARIS))
             async def modifier(**kw):
                 msg.embeds = [kw["embed"]] if kw.get("embed") else []
                 msg.vue = kw["view"]
@@ -196,7 +197,9 @@ class SalonFormations(unittest.IsolatedAsyncioTestCase):
         self.assertEqual(self.tableau.suivre_presences.seconds, 30)
         self.assertEqual(self.tableau.suivre_qg.seconds, 30)
 
-    async def test_visite_qg_panne_reprise_puis_depart_et_retour(self):
+    @patch.object(form.time, "time", return_value=1_800_000_000)
+    async def test_visite_qg_panne_reprise_puis_depart_et_retour(self, horloge):
+        debut = horloge.return_value
         await self.tableau.actualiser([self.a, self.b])
         controle = Mock()
         self.tableau.controle_qg = controle
@@ -222,11 +225,35 @@ class SalonFormations(unittest.IsolatedAsyncioTestCase):
         self.assertEqual(self.salon.send.await_count, 2)
         await relever(reprise, (108, 2, set()))
         await relever(reprise, (109, 1, set()))
+        horloge.return_value = debut + 3599
         await relever(reprise, (110, 2, {"hhfr-2"}))
+        self.assertEqual(self.salon.send.await_count, 2)
+        self.assertIn('**Bravo** 🟢 en ligne · au QG', next(iter(self.messages.values())).vue.carte.description)
+
+        # Alpha arrive pour la première fois, pendant la visite silencieuse de Bravo.
+        await relever(reprise, (111, 2, {"hhfr-1", "hhfr-2"}))
         self.assertEqual(self.salon.send.await_count, 3)
+        vue = self.salon.send.await_args.kwargs["view"]
+        alerte = next(c.content for c in vue.walk_children()
+                      if isinstance(c, discord.ui.TextDisplay) and "<@&" in c.content)
+        self.assertIn("Alpha", alerte)
+        self.assertNotIn("Bravo", alerte)
+
+        horloge.return_value = debut + 3600
+        reprise = form.TableauFormations(self.bot, self.guild.id, self.chemin)
+        reprise.controle_qg = controle
+        await relever(reprise, (112, 2, {"hhfr-1", "hhfr-2"}))
+        self.assertEqual(self.salon.send.await_count, 3)
+        await relever(reprise, (113, 1, {"hhfr-1"}))
+        await relever(reprise, (114, 1, {"hhfr-1"}))
+        horloge.return_value += 90
+        await relever(reprise, (115, 2, {"hhfr-1", "hhfr-2"}))
+        self.assertEqual(self.salon.send.await_count, 4)
         self.assertEqual(len(self.messages), 1)
 
-    async def test_mention_qg_reponse_discord_perdue_et_profils_doubles(self):
+    @patch.object(form.time, "time", return_value=1_800_000_000)
+    async def test_mention_qg_reponse_discord_perdue_et_profils_doubles(self, horloge):
+        debut = horloge.return_value
         await self.tableau.actualiser([self.a, {**self.a, 'type':'qualifiante', 'uid':self.a['hid']}])
         envoi = self.salon.send.side_effect
         async def perdu(**options):
@@ -238,12 +265,48 @@ class SalonFormations(unittest.IsolatedAsyncioTestCase):
         with self.assertRaises(TimeoutError):
             await self.tableau.actualiser_qg()
         self.salon.send.side_effect = envoi
+        horloge.return_value += 300
         reprise = form.TableauFormations(self.bot, self.guild.id, self.chemin)
         reprise.controle_qg = self.tableau.controle_qg
         await reprise.actualiser_qg()
         self.assertEqual(self.salon.send.await_count, 2)
         self.assertEqual(reprise.etat['visites_qg'], {self.a['hid']:0})
+        self.assertEqual(reprise.etat['dernieres_mentions_qg'], {self.a['hid']:debut})
+        for presents in (set(), set(), {self.a['hid']}):
+            reprise.prochain_qg = 0
+            reprise.controle_qg.relever.return_value = (105, 1, presents)
+            if presents:
+                horloge.return_value = debut + 3600
+            await reprise.actualiser_qg()
+        self.assertEqual(self.salon.send.await_count, 3)
+        self.assertEqual(reprise.etat['dernieres_mentions_qg'], {self.a['hid']:debut + 3600})
         self.assertEqual(len(self.messages), 1)
+
+    @patch.object(form.time, "time", return_value=1_800_000_000)
+    async def test_visite_de_l_ancienne_version_protegee_au_premier_demarrage(self, horloge):
+        await self.tableau.actualiser([self.a, self.b])
+        self.tableau.sauver(visites_qg={self.a["hid"]: 1})
+        reprise = form.TableauFormations(self.bot, self.guild.id, self.chemin)
+        debut = horloge.return_value
+        self.assertEqual(reprise.etat["dernieres_mentions_qg"], {self.a["hid"]: debut})
+        horloge.return_value += 120
+        encore = form.TableauFormations(self.bot, self.guild.id, self.chemin)
+        self.assertEqual(encore.etat["dernieres_mentions_qg"], {self.a["hid"]: debut})
+
+    async def test_consigne_du_salon_corrigee_une_fois_sans_message(self):
+        self.bot.wait_until_ready = AsyncMock()
+        self.salon.topic = ("Avant. Quand un candidat est détecté au QG, les formateurs sont mentionnés "
+                            "une fois par visite. Après.")
+        self.salon.edit = AsyncMock()
+        await self.tableau.avant_qg()
+        self.salon.edit.assert_awaited_once()
+        sujet = self.salon.edit.await_args.kwargs["topic"]
+        self.assertTrue(sujet.startswith("Avant. ") and sujet.endswith(" Après."))
+        self.assertIn("une fois par heure et par candidat", sujet)
+        reprise = form.TableauFormations(self.bot, self.guild.id, self.chemin)
+        await reprise.avant_qg()
+        self.salon.edit.assert_awaited_once()
+        self.salon.send.assert_not_awaited()
 
     def test_groupes_relus_et_derniere_connexion_en_cache(self):
         membre = {'uniqueId':self.a['hid'], 'name':'Alpha', 'online':False}

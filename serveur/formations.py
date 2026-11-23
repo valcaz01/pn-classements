@@ -35,6 +35,7 @@ TYPES = {"gdp": "Formation Gardien de la paix", "qualifiante": "Formation qualif
 PARIS = ZoneInfo("Europe/Paris")
 INTERVALLE_PRESENCE = 30  # secondes
 VALIDITE_PRESENCE = 3 * INTERVALLE_PRESENCE
+DELAI_MENTION_QG = 60 * 60  # secondes, pour un même identifiant Habbo
 ORDRE_PRESENCE = {True: 0, False: 1, None: 2}
 HOST = os.environ.get("HABBO_HOST", "www.habbo.fr")
 LOG = logging.getLogger("pn.formations")
@@ -250,6 +251,9 @@ class TableauFormations:
         self.client, self.guild_id, self.chemin = client, guild_id, chemin
         self.etat = (json.loads(chemin.read_text(encoding="utf-8")) if chemin.exists() else
                      {"attente": {}, "historique": {}, "annonces": [], "panneau": 0, "migration": False})
+        if self.etat.get("visites_qg") and "dernieres_mentions_qg" not in self.etat:
+            # L'ancienne version connaissait les visites annoncées, sans dater les mentions.
+            self.sauver(dernieres_mentions_qg=dict.fromkeys(self.etat["visites_qg"], time.time()))
         self.verrou = asyncio.Lock()
         self.reconcilier = True
         self.presences = {}
@@ -328,6 +332,20 @@ class TableauFormations:
     @suivre_qg.before_loop
     async def avant_qg(self):
         await self.client.wait_until_ready()
+        if self.etat.get("consigne_delai_qg"):
+            return
+        try:
+            ch = await self.client.channel(SALON)
+            verifier_salon(ch, self.guild_id)
+            ancienne = "Quand un candidat est détecté au QG, les formateurs sont mentionnés une fois par visite."
+            nouvelle = "Le bot mentionne les formateurs à l’arrivée, au plus une fois par heure et par candidat."
+            if ancienne in (ch.topic or ""):
+                if not ch.permissions_for(ch.guild.me).manage_channels:
+                    return
+                await ch.edit(topic=ch.topic.replace(ancienne, nouvelle, 1), reason="Délai des mentions de formation au QG")
+            self.sauver(consigne_delai_qg=True)
+        except (discord.HTTPException, RuntimeError, OSError):
+            LOG.warning("Description du salon des formations inchangée", exc_info=True)
 
     async def actualiser_qg(self):
         fiches = self.liste()
@@ -364,7 +382,13 @@ class TableauFormations:
             for hid, absences in self.etat.get("visites_qg", {}).items():
                 if hid in suivis and (hid in presents or absences == 0):
                     visites[hid] = 0 if hid in presents else 1
-            self.sauver(visites_qg=visites)
+            limite = time.time() - DELAI_MENTION_QG
+            mentions = {hid: dernier_envoi for hid, dernier_envoi in self.etat.get("dernieres_mentions_qg", {}).items()
+                        if dernier_envoi > limite}
+            # Un retour pendant l'heure est une visite silencieuse, même si le joueur
+            # reste sur place jusqu'après l'expiration du délai.
+            visites.update(dict.fromkeys(presents.intersection(mentions, suivis), 0))
+            self.sauver(visites_qg=visites, dernieres_mentions_qg=mentions)
             ch = await self.client.channel(SALON)
             verifier_salon(ch, self.guild_id)
             await self.actualiser_rendu(ch)
@@ -467,6 +491,17 @@ class TableauFormations:
             verifier_salon(ch, self.guild_id)
             await self.publier(ch, candidats)
 
+    def confirmer_publication(self, message, visites_annoncees, **changements):
+        if visites_annoncees:
+            visites = dict(self.etat.get("visites_qg", {}))
+            mentions = dict(self.etat.get("dernieres_mentions_qg", {}))
+            instant = message.created_at.timestamp()
+            for hid in visites_annoncees:
+                visites[hid] = 0
+                mentions[hid] = instant
+            changements.update(visites_qg=visites, dernieres_mentions_qg=mentions)
+        self.sauver(panneau=message.id, envoi=None, **changements)
+
     async def publier(self, ch, candidats):
         panneaux, anciennes, reprises = [], [], []
         # Une copie supplémentaire peut subsister si Discord a accepté l'envoi juste avant un arrêt.
@@ -496,8 +531,7 @@ class TableauFormations:
         envoi = self.etat.get("envoi")
         if envoi and courant and courant.id > envoi["apres"]:
             annonces.update(envoi["cles"])
-            visites = {**self.etat.get("visites_qg", {}), **dict.fromkeys(envoi.get("visites", ()), 0)}
-            self.sauver(panneau=courant.id, annonces=sorted(annonces), visites_qg=visites, envoi=None)
+            self.confirmer_publication(courant, envoi.get("visites", ()), annonces=sorted(annonces))
             envoi = None
 
         self.incorporer([*reprises, *candidats])
@@ -529,8 +563,7 @@ class TableauFormations:
                                     allowed_mentions=mentions)
         elif self.etat.get("rendu") != rendu or courant.embeds:
             await courant.edit(content=None, embed=None, view=vue, attachments=vue.pieces(), allowed_mentions=SANS_MENTIONS)
-        visites = {**self.etat.get("visites_qg", {}), **dict.fromkeys(arrivees, 0)}
-        self.sauver(panneau=courant.id, annonces=sorted(cles), visites_qg=visites, envoi=None, rendu=rendu)
+        self.confirmer_publication(courant, arrivees, annonces=sorted(cles), rendu=rendu)
         self.reconcilier = True
         for msg in [*panneaux, *anciennes]:
             if msg.id != courant.id:
