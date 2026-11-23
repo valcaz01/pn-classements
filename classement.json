@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T22:36:36+00:00",
+ "updated": "2026-11-23T22:38:37+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -343,7 +343,7 @@
    },
    {
     "name": "fym",
-    "value": 1146
+    "value": 1148
    },
    {
     "name": "marinadrk",
@@ -351,7 +351,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 1087
+    "value": 1089
    },
    {
     "name": "halos34",
@@ -363,7 +363,7 @@
    },
    {
     "name": "Shizuku",
-    "value": 717
+    "value": 719
    },
    {
     "name": "Lovepanda",
@@ -379,7 +379,7 @@
    },
    {
     "name": "Padre",
-    "value": 510
+    "value": 512
    },
    {
     "name": "charlie-XCX123",
@@ -391,7 +391,7 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 452
+    "value": 454
    },
    {
     "name": "Lewddon",
@@ -537,7 +537,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 376
+    "value": 378
    },
    {
     "name": "halos34",
@@ -561,7 +561,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 153
+    "value": 155
    },
    {
     "name": "Lovepanda",
@@ -585,15 +585,15 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 97
+    "value": 99
+   },
+   {
+    "name": "Shizuku",
+    "value": 87
    },
    {
     "name": "SuzieOuistiti!",
     "value": 87
-   },
-   {
-    "name": "Shizuku",
-    "value": 85
    },
    {
     "name": ".Libellule",
@@ -644,16 +644,16 @@
     "value": 26
    },
    {
+    "name": "---Jayden---",
+    "value": 23
+   },
+   {
     "name": "LorenzoVisconti",
     "value": 22
    },
    {
-    "name": "---Jayden---",
-    "value": 21
-   },
-   {
     "name": "tiff34",
-    "value": 17
+    "value": 18
    },
    {
     "name": "gotica",
@@ -670,6 +670,10 @@
    {
     "name": "CovidJr",
     "value": 8
+   },
+   {
+    "name": "fym",
+    "value": 5
    },
    {
     "name": "irysse",
@@ -689,10 +693,6 @@
    },
    {
     "name": ".Dylan.",
-    "value": 3
-   },
-   {
-    "name": "fym",
     "value": 3
    },
    {
