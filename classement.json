@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T08:48:42+00:00",
+ "updated": "2026-11-23T08:50:43+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -371,7 +371,7 @@
    },
    {
     "name": "sami75.19",
-    "value": 137
+    "value": 139
    },
    {
     "name": "Padre",
@@ -501,6 +501,10 @@
    },
    {
     "name": "MagicalArt",
+    "value": 2
+   },
+   {
+    "name": "sami75.19",
     "value": 2
    },
    {
