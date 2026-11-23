@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T20:30:35+00:00",
+ "updated": "2026-11-23T20:32:37+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -9,7 +9,7 @@
    },
    {
     "name": "Icarem",
-    "value": 53
+    "value": 54
    },
    {
     "name": "pevanq640",
@@ -56,15 +56,15 @@
     "value": 23
    },
    {
+    "name": "Pantheon_",
+    "value": 22
+   },
+   {
     "name": "sami75.19",
     "value": 22
    },
    {
     "name": "Non-Non",
-    "value": 21
-   },
-   {
-    "name": "Pantheon_",
     "value": 21
    },
    {
@@ -207,7 +207,7 @@
   "week": [
    {
     "name": "Icarem",
-    "value": 8
+    "value": 9
    },
    {
     "name": "pevanq640",
@@ -239,6 +239,10 @@
    },
    {
     "name": "Mr.Dino",
+    "value": 4
+   },
+   {
+    "name": "Pantheon_",
     "value": 4
    },
    {
@@ -275,10 +279,6 @@
    },
    {
     "name": "Mi,hermano",
-    "value": 3
-   },
-   {
-    "name": "Pantheon_",
     "value": 3
    },
    {
@@ -395,7 +395,7 @@
    },
    {
     "name": "Padre",
-    "value": 400
+    "value": 402
    },
    {
     "name": "dadou07",
@@ -407,7 +407,7 @@
    },
    {
     "name": "_.Flora._",
-    "value": 359
+    "value": 360
    },
    {
     "name": "Mr.Dino",
@@ -447,7 +447,7 @@
    },
    {
     "name": "Vyp",
-    "value": 202
+    "value": 204
    },
    {
     "name": "Postillon",
@@ -533,11 +533,11 @@
    },
    {
     "name": "Padre",
-    "value": 265
+    "value": 267
    },
    {
     "name": "Vyp",
-    "value": 202
+    "value": 204
    },
    {
     "name": "andrew16a",
@@ -597,7 +597,7 @@
    },
    {
     "name": "_.Flora._",
-    "value": 58
+    "value": 59
    },
    {
     "name": "Monsieur-RF",
@@ -660,11 +660,11 @@
     "value": 4
    },
    {
-    "name": ".Dylan.",
-    "value": 3
+    "name": "Kouukii",
+    "value": 4
    },
    {
-    "name": "Kouukii",
+    "name": ".Dylan.",
     "value": 3
    },
    {
