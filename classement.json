@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T08:50:43+00:00",
+ "updated": "2026-11-23T08:52:42+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -339,7 +339,7 @@
    },
    {
     "name": "gotica",
-    "value": 272
+    "value": 274
    },
    {
     "name": "-Massimo-",
@@ -371,7 +371,7 @@
    },
    {
     "name": "sami75.19",
-    "value": 139
+    "value": 141
    },
    {
     "name": "Padre",
@@ -497,14 +497,14 @@
    },
    {
     "name": "gotica",
-    "value": 2
-   },
-   {
-    "name": "MagicalArt",
-    "value": 2
+    "value": 4
    },
    {
     "name": "sami75.19",
+    "value": 4
+   },
+   {
+    "name": "MagicalArt",
     "value": 2
    },
    {
