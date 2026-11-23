@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T18:38:34+00:00",
+ "updated": "2026-11-23T18:40:36+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -327,7 +327,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 995
+    "value": 996
    },
    {
     "name": "halos34",
@@ -351,11 +351,11 @@
    },
    {
     "name": "andrew16a",
-    "value": 517
+    "value": 520
    },
    {
     "name": "habbo22t",
-    "value": 483
+    "value": 484
    },
    {
     "name": "charlie-XCX123",
@@ -375,7 +375,7 @@
    },
    {
     "name": "Mi,hermano",
-    "value": 366
+    "value": 368
    },
    {
     "name": "Monsieur-RF",
@@ -427,7 +427,7 @@
    },
    {
     "name": "Hectorr",
-    "value": 203
+    "value": 205
    },
    {
     "name": "Postillon",
@@ -443,7 +443,7 @@
    },
    {
     "name": "Vyp",
-    "value": 136
+    "value": 138
    },
    {
     "name": "MagicalArt",
@@ -525,11 +525,11 @@
    },
    {
     "name": "andrew16a",
-    "value": 165
+    "value": 168
    },
    {
     "name": "Vyp",
-    "value": 136
+    "value": 138
    },
    {
     "name": "Mr.Dino",
@@ -560,11 +560,11 @@
     "value": 64
    },
    {
-    "name": "Icarem",
-    "value": 61
+    "name": "Pantheon_",
+    "value": 62
    },
    {
-    "name": "Pantheon_",
+    "name": "Icarem",
     "value": 61
    },
    {
@@ -572,11 +572,11 @@
     "value": 56
    },
    {
-    "name": "_.Flora._",
-    "value": 53
+    "name": "Hectorr",
+    "value": 55
    },
    {
-    "name": "Hectorr",
+    "name": "_.Flora._",
     "value": 53
    },
    {
@@ -585,7 +585,7 @@
    },
    {
     "name": "Leif",
-    "value": 39
+    "value": 41
    },
    {
     "name": "sami75.19",
@@ -593,7 +593,7 @@
    },
    {
     "name": "habbo22t",
-    "value": 27
+    "value": 28
    },
    {
     "name": "LorenzoVisconti",
@@ -628,6 +628,10 @@
     "value": 8
    },
    {
+    "name": "Mi,hermano",
+    "value": 6
+   },
+   {
     "name": "irysse",
     "value": 5
    },
@@ -637,10 +641,6 @@
    },
    {
     "name": "Babbo0",
-    "value": 4
-   },
-   {
-    "name": "Mi,hermano",
     "value": 4
    },
    {
