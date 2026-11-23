@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T20:46:36+00:00",
+ "updated": "2026-11-23T20:49:06+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -355,7 +355,7 @@
    },
    {
     "name": "Shizuku",
-    "value": 704
+    "value": 706
    },
    {
     "name": "Lovepanda",
@@ -375,7 +375,7 @@
    },
    {
     "name": "charlie-XCX123",
-    "value": 453
+    "value": 455
    },
    {
     "name": "Lewddon",
@@ -383,7 +383,7 @@
    },
    {
     "name": "Padre",
-    "value": 413
+    "value": 415
    },
    {
     "name": ".Libellule",
@@ -533,7 +533,7 @@
    },
    {
     "name": "Padre",
-    "value": 278
+    "value": 280
    },
    {
     "name": "Vyp",
@@ -585,7 +585,7 @@
    },
    {
     "name": "Shizuku",
-    "value": 72
+    "value": 74
    },
    {
     "name": "Lewddon",
@@ -632,6 +632,10 @@
     "value": 22
    },
    {
+    "name": "charlie-XCX123",
+    "value": 13
+   },
+   {
     "name": "gotica",
     "value": 13
    },
@@ -642,10 +646,6 @@
    {
     "name": "Postillon",
     "value": 13
-   },
-   {
-    "name": "charlie-XCX123",
-    "value": 11
    },
    {
     "name": "Kouukii",
