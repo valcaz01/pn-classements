@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T18:22:35+00:00",
+ "updated": "2026-11-23T18:24:34+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -323,7 +323,7 @@
    },
    {
     "name": "marinadrk",
-    "value": 1069
+    "value": 1071
    },
    {
     "name": "Pantheon_",
@@ -351,11 +351,11 @@
    },
    {
     "name": "andrew16a",
-    "value": 502
+    "value": 504
    },
    {
     "name": "habbo22t",
-    "value": 467
+    "value": 469
    },
    {
     "name": "charlie-XCX123",
@@ -387,11 +387,11 @@
    },
    {
     "name": "_.Flora._",
-    "value": 343
+    "value": 344
    },
    {
     "name": "flo578",
-    "value": 334
+    "value": 336
    },
    {
     "name": "Fleabag",
@@ -403,7 +403,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 300
+    "value": 302
    },
    {
     "name": "gotica",
@@ -521,23 +521,23 @@
    },
    {
     "name": "marinadrk",
-    "value": 160
+    "value": 162
    },
    {
     "name": "andrew16a",
-    "value": 150
+    "value": 152
    },
    {
     "name": "Vyp",
     "value": 131
    },
    {
-    "name": "habbo-160-3",
-    "value": 119
+    "name": "Mr.Dino",
+    "value": 120
    },
    {
-    "name": "Mr.Dino",
-    "value": 118
+    "name": "habbo-160-3",
+    "value": 119
    },
    {
     "name": "Lovepanda",
@@ -581,7 +581,7 @@
    },
    {
     "name": "_.Flora._",
-    "value": 42
+    "value": 43
    },
    {
     "name": "sami75.19",
@@ -589,7 +589,7 @@
    },
    {
     "name": "Leif",
-    "value": 23
+    "value": 25
    },
    {
     "name": "LorenzoVisconti",
@@ -597,6 +597,10 @@
    },
    {
     "name": "gotica",
+    "value": 13
+   },
+   {
+    "name": "habbo22t",
     "value": 13
    },
    {
@@ -608,10 +612,6 @@
     "value": 13
    },
    {
-    "name": "habbo22t",
-    "value": 11
-   },
-   {
     "name": "charlie-XCX123",
     "value": 10
    },
@@ -620,12 +620,12 @@
     "value": 9
    },
    {
-    "name": "Monsieur-RF",
+    "name": "flo578",
     "value": 8
    },
    {
-    "name": "flo578",
-    "value": 6
+    "name": "Monsieur-RF",
+    "value": 8
    },
    {
     "name": "irysse",
