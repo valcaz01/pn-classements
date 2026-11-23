@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T17:08:35+00:00",
+ "updated": "2026-11-23T17:10:35+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -112,12 +112,12 @@
     "value": 9
    },
    {
-    "name": "Weavem",
+    "name": ".Dylan.",
     "value": 8
    },
    {
-    "name": ".Dylan.",
-    "value": 7
+    "name": "Weavem",
+    "value": 8
    },
    {
     "name": "marinadrk",
@@ -242,6 +242,10 @@
     "value": 3
    },
    {
+    "name": ".Dylan.",
+    "value": 3
+   },
+   {
     "name": "_.Flora._",
     "value": 3
    },
@@ -258,15 +262,15 @@
     "value": 3
    },
    {
-    "name": ".Dylan.",
-    "value": 2
-   },
-   {
     "name": "Mi,hermano",
     "value": 2
    },
    {
     "name": "Pantheon_",
+    "value": 2
+   },
+   {
+    "name": "SuzieOuistiti!",
     "value": 2
    },
    {
@@ -287,10 +291,6 @@
    },
    {
     "name": "Shizuku",
-    "value": 1
-   },
-   {
-    "name": "SuzieOuistiti!",
     "value": 1
    }
   ]
@@ -367,7 +367,7 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 356
+    "value": 358
    },
    {
     "name": "_.Flora._",
@@ -390,12 +390,12 @@
     "value": 319
    },
    {
-    "name": "gotica",
-    "value": 283
+    "name": "Mr.Dino",
+    "value": 284
    },
    {
-    "name": "Mr.Dino",
-    "value": 282
+    "name": "gotica",
+    "value": 283
    },
    {
     "name": "Proxymore",
@@ -435,7 +435,7 @@
    },
    {
     "name": "Vyp",
-    "value": 113
+    "value": 115
    },
    {
     "name": "apo4020",
@@ -487,7 +487,7 @@
    },
    {
     "name": "SuzieOuistiti!",
-    "value": 47
+    "value": 48
    },
    {
     "name": "guest77145",
@@ -513,7 +513,7 @@
    },
    {
     "name": "Vyp",
-    "value": 113
+    "value": 115
    },
    {
     "name": "marinadrk",
@@ -529,7 +529,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 100
+    "value": 102
    },
    {
     "name": "Lovepanda",
@@ -569,7 +569,7 @@
    },
    {
     "name": "SuzieOuistiti!",
-    "value": 39
+    "value": 40
    },
    {
     "name": "LorenzoVisconti",
@@ -612,6 +612,10 @@
     "value": 3
    },
    {
+    "name": "Monsieur-RF",
+    "value": 3
+   },
+   {
     "name": "MagicalArt",
     "value": 2
    },
@@ -625,10 +629,6 @@
    },
    {
     "name": "CovidJr",
-    "value": 1
-   },
-   {
-    "name": "Monsieur-RF",
     "value": 1
    }
   ]
