@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T14:04:29+00:00",
+ "updated": "2026-11-23T14:06:29+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -16,20 +16,20 @@
     "value": 40
    },
    {
+    "name": ".Libellule",
+    "value": 38
+   },
+   {
     "name": "fym",
     "value": 38
    },
    {
-    "name": ".Libellule",
-    "value": 37
-   },
-   {
     "name": "charlie-XCX123",
-    "value": 35
+    "value": 36
    },
    {
     "name": "halos34",
-    "value": 31
+    "value": 32
    },
    {
     "name": "Astreu",
@@ -206,16 +206,16 @@
   ],
   "week": [
    {
+    "name": ".Libellule",
+    "value": 6
+   },
+   {
     "name": "habbo-160-3",
     "value": 6
    },
    {
     "name": "pevanq640",
     "value": 6
-   },
-   {
-    "name": ".Libellule",
-    "value": 5
    },
    {
     "name": "fym",
@@ -238,19 +238,19 @@
     "value": 3
    },
    {
+    "name": "charlie-XCX123",
+    "value": 3
+   },
+   {
+    "name": "halos34",
+    "value": 3
+   },
+   {
     "name": "Mr.Dino",
     "value": 3
    },
    {
     "name": "andrew16a",
-    "value": 2
-   },
-   {
-    "name": "charlie-XCX123",
-    "value": 2
-   },
-   {
-    "name": "halos34",
     "value": 2
    },
    {
@@ -287,7 +287,7 @@
   "total": [
    {
     "name": "habbo-160-3",
-    "value": 1957
+    "value": 1959
    },
    {
     "name": "BiBiCHarBo",
@@ -371,7 +371,7 @@
    },
    {
     "name": "_.Flora._",
-    "value": 314
+    "value": 315
    },
    {
     "name": "gotica",
@@ -402,12 +402,12 @@
     "value": 203
    },
    {
-    "name": "Postillon",
+    "name": "Padre",
     "value": 192
    },
    {
-    "name": "Padre",
-    "value": 190
+    "name": "Postillon",
+    "value": 192
    },
    {
     "name": "irysse",
@@ -509,7 +509,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 76
+    "value": 78
    },
    {
     "name": "Lovepanda",
@@ -528,12 +528,12 @@
     "value": 61
    },
    {
-    "name": "Shizuku",
-    "value": 56
+    "name": "Padre",
+    "value": 57
    },
    {
-    "name": "Padre",
-    "value": 55
+    "name": "Shizuku",
+    "value": 56
    },
    {
     "name": "Hectorr",
@@ -557,7 +557,7 @@
    },
    {
     "name": "_.Flora._",
-    "value": 13
+    "value": 14
    },
    {
     "name": "gotica",
