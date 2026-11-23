@@ -39,6 +39,21 @@ class ControlePresenceQG:
         self.numero = None
         self.ids_wired = {}
 
+    def controle_initial(self):
+        resultat = self.api(CONTROLE)
+        if resultat is None:
+            # Une salle déjà ouverte peut encore servir l'ancien catalogue WIRED.
+            catalogue = self.api("/variables")
+            if catalogue is None:
+                raise ErreurControle("API de la salle introuvable", CONTROLE, 404)
+            if isinstance(catalogue, dict) and isinstance(catalogue.get("global"), list):
+                if "controle_forma_qg" not in catalogue["global"]:
+                    raise ErreurControle("contrôle en attente de publication par Habbo", CONTROLE, 404)
+                profil = self.api("/variables_profile/global")
+                if isinstance(profil, dict) and isinstance(profil.get("variables"), dict):
+                    resultat = profil["variables"].get("controle_forma_qg")
+        return valeur(resultat, CONTROLE)
+
     def page(self, page, taille):
         resultat = self.api(PRESENCES, {"order_by": "value", "order_dir": "desc", "page": page, "size": taille})
         if resultat is None:
@@ -77,7 +92,7 @@ class ControlePresenceQG:
 
     def relever(self, fiches):
         if self.numero is None:
-            actuel = valeur(self.api(CONTROLE), CONTROLE)
+            actuel = self.controle_initial()
             derniers = self.page(1, 1)
             self.numero = max(actuel, valeur(derniers[0], PRESENCES) if derniers else 0)
         # Un numéro dont la réponse se perd ne doit jamais être réutilisé.

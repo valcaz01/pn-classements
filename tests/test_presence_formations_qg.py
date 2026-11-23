@@ -73,3 +73,16 @@ class SondesWIRED(unittest.TestCase):
         self.assertEqual((erreur.exception.status, erreur.exception.indication),
                          (404, 'variable de présence introuvable'))
         self.assertFalse(any(c.kwargs.get('write') for c in self.api.call_args_list))
+
+    def test_ancienne_configuration_reconnue_sans_ecriture(self):
+        self.api.side_effect = [None, {'global': ['autre'], 'users': []}]
+        with self.assertRaisesRegex(ApiRequestError, '404') as erreur:
+            self.sonde.relever([])
+        self.assertIn('en attente de publication', erreur.exception.indication)
+        self.assertEqual(self.api.call_count, 2)
+
+    def test_globale_publiee_et_lisible_depuis_son_profil(self):
+        self.api.side_effect = [None, {'global':['controle_forma_qg']},
+                                {'variables':{'controle_forma_qg':{'value':'103'}}},
+                                {'items':[]}, {'value':'104'}, {'items':[joueur(2,104)]}]
+        self.assertEqual(self.sonde.relever([]), (104,1,set()))
