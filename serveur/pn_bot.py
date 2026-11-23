@@ -3,8 +3,8 @@
 
 Toutes les 2 minutes (minutes paires, heure de Paris) :
   1. classements du forum : lance build_classement.py (classement.json, noms.json, classement-state.json) ;
-  2. alertes de promotion : lance alertes_grade.py ; les alertes sont postées par le bot dans #Alertes-promotions
-     (une seule par membre et par palier, état dans etat_grades.json) ;
+  2. alertes de promotion des cadets dans #Alertes-promotions, formations Gardien de la paix dans
+     le salon privé #Formas-à-faire ;
   3. publie les fichiers modifiés sur GitHub (le forum lit classement.json sur raw.githubusercontent.com).
 
 Chaque lundi à 00 h 00 (Paris) : lit pts_recrutement_semaine, la remet à 0 pour tout le monde (API Web,
@@ -68,6 +68,7 @@ WRITE_KEY = os.environ.get("WIRED_WRITE_KEY", "").strip()
 VAR_SEMAINE = os.environ.get("VAR_SEMAINE", "pts_recrutement_semaine").strip()
 GUILD_ID = int(os.environ.get("GUILD_ID", "0") or 0)
 ALERT_CHANNEL_ID = int(os.environ.get("ALERT_CHANNEL_ID", "0") or 0)
+FORMATIONS_CHANNEL_ID = 1574352702413086810
 HEBDO_CHANNEL_ID = int(os.environ.get("HEBDO_CHANNEL_ID", "0") or 0)
 CYCLE_MINUTES = int(os.environ.get("CYCLE_MINUTES", "2"))
 RATTRAPAGE = timedelta(hours=6)
@@ -82,6 +83,28 @@ ETAT_LOCK = threading.Lock()   # alertes_grade.main() et les clics « Badge attr
 
 def norm(text):
     return unicodedata.normalize("NFKD", text or "").encode("ascii", "ignore").decode().lower().strip()
+
+
+def verifier_salon_formations(ch):
+    guild = ch.guild
+    role = guild.get_role(ROLE_FORMATEUR_ID)
+    moi = guild.me
+    if (guild.id != GUILD_ID or role is None or moi is None
+            or ch.overwrites_for(guild.default_role).view_channel is not False
+            or not (ch.permissions_for(role).view_channel and ch.permissions_for(role).read_message_history)):
+        raise RuntimeError("Le salon des formations doit être privé et accessible au rôle Formateur.")
+    for cible, droits in ch.overwrites.items():
+        if droits.view_channel is not True or cible.id in (role.id, moi.id, guild.owner_id):
+            continue
+        if isinstance(cible, discord.Role):
+            if cible.permissions.administrator or (cible.tags and cible.tags.bot_id == moi.id):
+                continue
+        elif isinstance(cible, discord.Member) and cible.guild_permissions.administrator:
+            continue
+        raise RuntimeError("Un accès supplémentaire au salon des formations doit être vérifié.")
+    acces = ch.permissions_for(moi)
+    if not (acces.view_channel and acces.send_messages and acces.embed_links and acces.read_message_history):
+        raise RuntimeError("PN · Alertes doit pouvoir lire le salon des formations et y envoyer des embeds.")
 
 
 def peut_attribuer(member):
@@ -690,33 +713,49 @@ class PNBot(discord.Client):
             # 3. publication GitHub
             await self.publish_data(f"Classements {datetime.now(timezone.utc):%Y-%m-%dT%H:%M:%SZ}")
 
+    async def envoyer_alerte(self, embed):
+        meta = embed.get("_pn") or {}
+        formation = meta.get("palier") == "pa"
+        ch = await self.channel(FORMATIONS_CHANNEL_ID if formation else ALERT_CHANNEL_ID)
+        view = None
+        if formation:
+            verifier_salon_formations(ch)
+            if meta.get("reprise"):
+                # Discord a pu accepter le message avant une coupure ou un redémarrage.
+                debut = datetime.fromisoformat(meta["reprise"]) - timedelta(minutes=1)
+                async for msg in ch.history(limit=None, after=debut):
+                    if msg.author.id == self.user.id and any(
+                        item.footer.text == embed["footer"]["text"] for item in msg.embeds
+                    ):
+                        return
+        elif meta.get("palier") == "cadet":
+            view = discord.ui.View(timeout=None)
+            view.add_item(BadgeButton(str(meta["uid"])))
+        role_id = {"cadet": ROLE_HAUT_GRADE_ID, "pa": ROLE_FORMATEUR_ID}.get(meta.get("palier"))
+        await ch.send(
+            content=f"<@&{role_id}>" if role_id else None,
+            embed=discord.Embed.from_dict({k: v for k, v in embed.items() if k != "_pn"}),
+            view=view,
+            nonce=meta.get("nonce"),
+            allowed_mentions=discord.AllowedMentions(
+                everyone=False, users=False, roles=[discord.Object(id=role_id)] if role_id else [],
+                replied_user=False,
+            ),
+        )
+
     async def alerts(self):
         loop = asyncio.get_running_loop()
-        ch = await self.channel(ALERT_CHANNEL_ID)
-
-        async def send(embed):
-            meta = embed.pop("_pn", None) or {}
-            view = None
-            if meta.get("palier") == "cadet":
-                view = discord.ui.View(timeout=None)
-                view.add_item(BadgeButton(str(meta["uid"])))
-            role_id = {"cadet": ROLE_HAUT_GRADE_ID, "pa": ROLE_FORMATEUR_ID}.get(meta.get("palier"))
-            await ch.send(
-                content=f"<@&{role_id}>" if role_id else None,
-                embed=discord.Embed.from_dict(embed),
-                view=view,
-                allowed_mentions=discord.AllowedMentions(
-                    everyone=False, users=False,
-                    roles=[discord.Object(id=role_id)] if role_id else [],
-                    replied_user=False,
-                ),
-            )
 
         def post(embed):
+            envoi = asyncio.run_coroutine_threadsafe(self.envoyer_alerte(embed), loop)
             try:
-                asyncio.run_coroutine_threadsafe(send(embed), loop).result(60)
+                envoi.result(60)
                 time.sleep(1)
                 return True
+            except TimeoutError:
+                envoi.cancel()
+                LOG.warning("Envoi Discord non confirmé dans le délai prévu")
+                return False
             except Exception:  # noqa: BLE001  (alerte non marquée : elle repartira au passage suivant)
                 LOG.exception("alerte non envoyée")
                 return False
@@ -731,7 +770,7 @@ class PNBot(discord.Client):
                 else importlib.import_module("alertes_grade")
             mod.post = post
             with ETAT_LOCK:
-                mod.main()
+                mod.main(suivi_formations=Path(LOCK_FILE).parent / "formations-pa.json")
 
         await asyncio.to_thread(run)
 

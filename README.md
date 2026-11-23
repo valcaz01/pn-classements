@@ -10,6 +10,15 @@ le 20 novembre 2026 proviennent des attributions confirmées sur le forum.
 Pour les nouvelles adhésions, le registre retient le jour où le badge est vu
 dans le groupe. Un retrait confirmé termine cette période d'ancienneté.
 
+Dans **🎓︱𝖥ormas-à-faire**, PN · Alertes mentionne le rôle Formateur lorsqu’un
+policier adjoint atteint **300 PR cumulés** et son **3ᵉ jour de badge**, en
+comptant le jour de remise en heure de Paris. Les attributions déjà confirmées
+par un HG sont reprises au premier passage. Sans confirmation datée, le suivi
+commence le jour où le badge est observé. Un gardien de la paix ou un gradé
+qui conserve le badge inférieur est exclu. Le registre privé persiste dans
+`/opt/pn/lock/formations-pa.json` et évite de relancer les formateurs pour
+la même adhésion après un redémarrage.
+
 Le serveur collecte les données toutes les deux minutes. Le widget et la page
 Classements relisent le fichier publié toutes les deux minutes sans interroger
 directement Habbo. « Actualisé à » indique la dernière collecte réussie, heure

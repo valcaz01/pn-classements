@@ -17,6 +17,7 @@ class PromotionsCadets(unittest.TestCase):
         self.addCleanup(tmp.cleanup)
         dossier = Path(tmp.name)
         self.suivi = dossier / "badges_cadets.json"
+        self.formations = dossier / "formations-pa.json"
         self.etat = dossier / "etat_grades.json"
         self.suivi.write_text("{}", encoding="utf-8")
         self.nom = "Cadette"
@@ -24,6 +25,7 @@ class PromotionsCadets(unittest.TestCase):
         self.points = 200
         self.badge = True
         self.superieur = None
+        self.autre_groupe = None
         self.groupes_profil = []
         self.profil_visible = True
         self.envois = []
@@ -51,7 +53,7 @@ class PromotionsCadets(unittest.TestCase):
         if groupe not in (bot.GROUPE_CADET, *bot.GROUPES_SUPERIEURS):
             self.fail(f"Appel inattendu : {url}")
         rows = [{"uniqueId": "owner", "name": "Direction", "motto": ""}]
-        if (groupe == bot.GROUPE_CADET and self.badge) or groupe == self.superieur:
+        if (groupe == bot.GROUPE_CADET and self.badge) or groupe in (self.superieur, self.autre_groupe):
             rows.append({"uniqueId": "hhfr-test", "name": self.nom, "motto": self.humeur,
                          "memberSince": "2004-01-01T00:00:00Z"})
         return rows
@@ -59,7 +61,7 @@ class PromotionsCadets(unittest.TestCase):
     def passage(self, heure):
         with patch.object(bot, "NOW", datetime.fromisoformat(heure).astimezone(timezone.utc)):
             with contextlib.redirect_stdout(io.StringIO()):
-                bot.main()
+                bot.main(suivi_formations=self.formations)
 
     def registre(self):
         return json.loads(self.suivi.read_text(encoding="utf-8"))
@@ -127,14 +129,66 @@ class PromotionsCadets(unittest.TestCase):
         self.passage("2026-11-20T00:02:00+01:00")
         self.assertEqual(len(self.envois), 1)
 
-    def test_badge_superieur_exclut_le_cadet_et_pa_conserve_son_delai(self):
+    def test_badge_pa_remplace_cadet_et_ouvre_le_troisieme_jour_a_300_points(self):
         self.passage("2026-11-17T08:00:00+01:00")
-        self.superieur, self.humeur, self.points = bot.GROUPES_SUPERIEURS[0], "[PN] Policier adjoint", 300
-        self.passage("2026-11-20T18:00:00+01:00")
-        self.passage("2026-11-23T00:00:00+01:00")
+        self.superieur, self.humeur, self.points = bot.GROUPE_PA, "En pause", 300
+        self.passage("2026-11-20T23:59:00+01:00")
+        self.passage("2026-11-21T23:59:59+01:00")
         self.assertFalse(self.envois)
+        self.points = 299
+        self.passage("2026-11-22T00:00:00+01:00")
+        self.assertFalse(self.envois)
+        self.nom, self.points = "NouveauPseudo", 300
+        self.passage("2026-11-22T01:00:00+01:00")
         self.passage("2026-11-23T18:00:00+01:00")
         self.assertEqual([e["_pn"]["palier"] for e in self.envois], ["pa"])
+        self.assertIn("NouveauPseudo", self.envois[0]["title"])
+        self.assertIn("20/11/2026 · jour 3", self.envois[0]["fields"][0]["value"])
+
+    def test_pa_attribution_confirmee_avant_demarrage_refus_grade_superieur_et_retrait(self):
+        self.badge = False
+        self.superieur, self.autre_groupe, self.points = bot.GROUPE_PA, bot.GROUPES_SUPERIEURS[1], 310
+        bot.enregistrer(self.etat, {"1": {"pseudo": self.nom, "badge": {"cadet": {"le": "2026-11-17T23:59:00+01:00"}}}})
+        self.passage("2026-11-20T00:00:00+01:00")
+        self.assertFalse(self.envois)
+        self.superieur, self.autre_groupe = None, None
+        self.passage("2026-11-20T08:00:00+01:00")
+        self.humeur = "[PN] Policier adjoint"
+        self.passage("2026-11-21T12:00:00+01:00")
+        self.assertFalse(self.envois)
+        self.superieur = bot.GROUPE_PA
+        self.passage("2026-11-21T23:57:00+01:00")
+        self.passage("2026-11-22T23:59:59+01:00")
+        self.assertFalse(self.envois)
+        self.passage("2026-11-23T00:00:00+01:00")
+        self.assertEqual(len(self.envois), 1)
+        self.assertIn("21/11/2026", self.envois[0]["fields"][0]["value"])
+
+    def test_migration_alerte_privee_et_reprise_apres_echec_envoi(self):
+        self.badge, self.superieur, self.points = False, bot.GROUPE_PA, 300
+        bot.enregistrer(self.etat, {"1": {"pseudo": self.nom, "alertes": {"pa": "ancien salon"},
+                                          "badge": {"cadet": {"le": "2026-11-20T22:59:00+00:00"}}}})
+        with patch.object(bot, "post", return_value=False) as echec, self.assertRaises(ApiRequestError):
+            self.passage("2026-11-22T00:00:00+01:00")
+        essai = echec.call_args.args[0]["_pn"]
+        self.assertIsNone(essai["reprise"])
+        self.passage("2026-11-22T00:02:00+01:00")
+        self.passage("2026-11-22T00:04:00+01:00")
+        self.assertEqual(len(self.envois), 1)
+        self.assertTrue(self.envois[0]["_pn"]["reprise"])
+        self.assertEqual(self.envois[0]["_pn"]["nonce"], essai["nonce"])
+        self.assertIn("20/11/2026 · jour 3", self.envois[0]["fields"][0]["value"])
+
+    def test_pa_omission_en_profil_prive_differe_sans_perdre_la_date(self):
+        self.badge, self.superieur, self.points = False, bot.GROUPE_PA, 300
+        self.passage("2026-11-20T23:59:00+01:00")
+        self.superieur, self.profil_visible = None, False
+        self.passage("2026-11-22T00:00:00+01:00")
+        self.assertFalse(self.envois)
+        self.groupes_profil = [{"id": bot.GROUPE_PA}]
+        self.passage("2026-11-22T00:02:00+01:00")
+        self.assertEqual(len(self.envois), 1)
+        self.assertIn("jour 3", self.envois[0]["fields"][0]["value"])
 
     def test_changement_heure_ete(self):
         self.passage("2027-03-27T23:59:00+01:00")
