@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T16:08:29+00:00",
+ "updated": "2026-11-23T16:10:29+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -378,12 +378,12 @@
     "value": 319
    },
    {
-    "name": "gotica",
-    "value": 283
+    "name": "Padre",
+    "value": 284
    },
    {
-    "name": "Padre",
-    "value": 282
+    "name": "gotica",
+    "value": 283
    },
    {
     "name": "Proxymore",
@@ -497,7 +497,7 @@
    },
    {
     "name": "Padre",
-    "value": 147
+    "value": 149
    },
    {
     "name": "habbo-160-3",
