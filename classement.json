@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T14:34:29+00:00",
+ "updated": "2026-11-23T14:36:29+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -287,7 +287,7 @@
   "total": [
    {
     "name": "habbo-160-3",
-    "value": 1987
+    "value": 1988
    },
    {
     "name": "BiBiCHarBo",
@@ -307,7 +307,7 @@
    },
    {
     "name": "halos34",
-    "value": 769
+    "value": 771
    },
    {
     "name": "Icarem",
@@ -395,7 +395,7 @@
    },
    {
     "name": "Padre",
-    "value": 216
+    "value": 218
    },
    {
     "name": "-Tsukiri-",
@@ -450,11 +450,11 @@
     "value": 57
    },
    {
-    "name": ".Dylan.",
-    "value": 54
+    "name": "apo4020",
+    "value": 56
    },
    {
-    "name": "apo4020",
+    "name": ".Dylan.",
     "value": 54
    },
    {
@@ -489,11 +489,11 @@
   "week": [
    {
     "name": "halos34",
-    "value": 286
+    "value": 288
    },
    {
     "name": "habbo-160-3",
-    "value": 106
+    "value": 107
    },
    {
     "name": "marinadrk",
@@ -509,7 +509,7 @@
    },
    {
     "name": "Padre",
-    "value": 81
+    "value": 83
    },
    {
     "name": ".Libellule",
@@ -532,12 +532,12 @@
     "value": 61
    },
    {
-    "name": "Shizuku",
+    "name": "apo4020",
     "value": 56
    },
    {
-    "name": "apo4020",
-    "value": 54
+    "name": "Shizuku",
+    "value": 56
    },
    {
     "name": "Hectorr",
@@ -605,6 +605,10 @@
    },
    {
     "name": "CovidJr",
+    "value": 1
+   },
+   {
+    "name": "LorenzoVisconti",
     "value": 1
    }
   ]
