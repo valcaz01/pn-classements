@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T16:38:35+00:00",
+ "updated": "2026-11-23T16:40:35+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -379,7 +379,7 @@
    },
    {
     "name": "Padre",
-    "value": 310
+    "value": 312
    },
    {
     "name": "gotica",
@@ -395,7 +395,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 256
+    "value": 257
    },
    {
     "name": "Weavem",
@@ -497,7 +497,7 @@
    },
    {
     "name": "Padre",
-    "value": 175
+    "value": 177
    },
    {
     "name": "habbo-160-3",
@@ -529,7 +529,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 74
+    "value": 75
    },
    {
     "name": "Lewddon",
@@ -568,6 +568,10 @@
     "value": 22
    },
    {
+    "name": "SuzieOuistiti!",
+    "value": 15
+   },
+   {
     "name": "gotica",
     "value": 13
    },
@@ -577,10 +581,6 @@
    },
    {
     "name": "Postillon",
-    "value": 13
-   },
-   {
-    "name": "SuzieOuistiti!",
     "value": 13
    },
    {
