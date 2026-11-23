@@ -21,7 +21,8 @@ Le menu du haut ouvre une vue personnelle des **formations qualifiantes**
 pour les gardiens de la paix dès le 3ᵉ jour du badge. Ce deuxième passage
 n’a pas de seuil de PR. Les gradés et les comptes exclus sont écartés du suivi.
 Le bot mentionne `@everyone` une fois par lot de nouveaux noms dans ce salon privé. Les formateurs
-utilisent **Formation faite**, choisissent le pseudo puis confirment.
+utilisent **Formation faite**, choisissent le pseudo et collent le lien du sujet ou du message de formation
+sur le forum PN. Ils peuvent ouvrir le lien avant de confirmer.
 Chaque pseudo est suivi de la date du badge correspondant entre parenthèses, au format `JJ/MM/AA`.
 La mention « 🟢 en ligne » apparaît lorsque Habbo indique le policier connecté. Pour une personne
 hors ligne, le bot affiche la dernière connexion communiquée par son profil public, en heure de Paris.
@@ -30,8 +31,8 @@ Il revérifie les présences toutes les deux minutes et modifie le message sans 
 et la Direction qui ont accès au salon peuvent l’utiliser. Pour la formation qualifiante, ils
 sélectionnent cette formation dans le menu et retrouvent le bouton dans leur vue personnelle. Le retrait confirmé
 s’applique au badge et à la formation en cours. Il est conservé à part des formations effectuées.
-**Historique des formations** affiche le policier, le formateur et la date de
-confirmation. Le salon est en lecture seule pour les formateurs. Le suivi des
+**Historique des formations** affiche le policier, le formateur, la date de confirmation et le lien du sujet
+pour les nouvelles formations. Le salon est en lecture seule pour les formateurs. Le suivi des
 badges et du tableau persiste dans les fichiers privés `formations-pa.json`
 et `tableau-formations.json` de `/opt/pn/lock/`.
 

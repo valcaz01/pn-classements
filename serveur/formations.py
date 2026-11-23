@@ -86,6 +86,39 @@ def pseudo(nom):
     return discord.utils.escape_mentions(discord.utils.escape_markdown(nom))
 
 
+def lien_sujet_forum(valeur):
+    """Lien Forumactif permanent, y compris une page précise ou un message du cockpit."""
+    if not valeur:
+        return None
+    texte = valeur.strip()
+    if "://" not in texte:
+        texte = "https://" + texte
+    try:
+        url = urllib.parse.urlsplit(texte)
+    except ValueError:
+        return None
+    if url.scheme not in ("http", "https") or url.netloc.lower() not in (
+            "www.pn-rpg.fr", "pn-rpg.fr", "pn-rpg.forumactif.com"):
+        return None
+    route = re.fullmatch(r"/t([1-9][0-9]{0,15})(?:p([0-9]{1,16}))?(?:-[^/]*)?/?", url.path)
+    parametres = dict(urllib.parse.parse_qsl(url.query))
+    if route:
+        sujet, debut = route.groups()
+    elif url.path.rstrip("/") in ("/viewtopic", "/viewtopic.forum", "/viewtopic.php"):
+        sujet, debut = parametres.get("t"), parametres.get("start")
+        post = parametres.get("p", "")
+        if re.fullmatch(r"[1-9][0-9]{0,15}", post):
+            return f"https://www.pn-rpg.fr/viewtopic?p={post}#{post}"
+    else:
+        return None
+    if not re.fullmatch(r"[1-9][0-9]{0,15}", sujet or ""):
+        return None
+    debut = debut or parametres.get("start", "")
+    page = f"p{debut}" if re.fullmatch(r"[1-9][0-9]{0,15}", debut) else ""
+    ancre = f"#{url.fragment}" if re.fullmatch(r"[a-zA-Z0-9_-]{1,40}", url.fragment) else ""
+    return f"https://www.pn-rpg.fr/t{sujet}{page}-{ancre}"
+
+
 def peut_retirer(membre):
     return isinstance(membre, discord.Member) and any(r.id in ROLES_RETRAIT for r in membre.roles)
 
@@ -294,7 +327,7 @@ class TableauFormations:
             par_uid[identite] = k
         self.sauver(attente=attente)
 
-    def terminer(self, k, membre, *, retrait=False):
+    def terminer(self, k, membre, *, retrait=False, sujet=None):
         fiche = self.etat["attente"].get(k)
         if fiche is None:
             return None
@@ -302,6 +335,11 @@ class TableauFormations:
         del attente[k]
         archive = {**fiche, "par": membre.display_name, "par_id": str(membre.id),
                    "le": datetime.now(timezone.utc).isoformat(timespec="seconds")}
+        if not retrait:
+            lien = lien_sujet_forum(sujet)
+            if not lien:
+                raise ValueError("Un lien vers le sujet de formation sur le forum PN est obligatoire.")
+            archive["sujet"] = lien
         registre = "retraits" if retrait else "historique"
         self.sauver(attente=attente, **{registre: {**self.etat.get(registre, {}), k: archive}})
         self.presences.pop(k, None)
@@ -525,13 +563,16 @@ class PagesFormations(VuePrivee):
             lignes = []
             for f in lot:
                 heure = datetime.fromisoformat(f["le"]).astimezone(PARIS)
-                lignes.append(f"**{pseudo(f['pseudo'])}** · {TYPES[f.get('type', 'gdp')]}\n"
-                              f"{heure:%d/%m/%y à %H:%M} · {pseudo(f['par'])}")
+                ligne = (f"**{pseudo(f['pseudo'])}** · {TYPES[f.get('type', 'gdp')]}\n"
+                         f"{heure:%d/%m/%y à %H:%M} · {pseudo(f['par'])}")
+                if lien := f.get("sujet"):
+                    ligne += f" · [Sujet de formation]({lien})"
+                lignes.append(ligne)
             self.carte = discord.Embed(title="📚 Historique des formations",
                                        description="\n".join(lignes) or "Aucune formation confirmée depuis ce tableau.")
         else:
             consigne = ("Choisis la personne à retirer sans enregistrer de formation." if retrait else
-                        "Choisis la personne qui a passé sa formation.")
+                        "Choisis la personne qui a passé sa formation, puis colle le lien de son sujet sur le forum PN.")
             self.carte = discord.Embed(title=TYPES[genre], description=consigne if lot else "La liste des formations à faire est vide.")
             if lot:
                 choix = discord.ui.Select(placeholder="Choisir un pseudo", row=0, options=[
@@ -543,11 +584,13 @@ class PagesFormations(VuePrivee):
                         await inter.response.edit_message(content="Cette personne ne figure plus dans la liste.",
                                                           embed=None, view=None)
                         return
+                    if not retrait:
+                        await inter.response.send_modal(SujetFormation(self, fiche))
+                        return
                     nom = pseudo(fiche["pseudo"])
-                    question = (f"Retirer **{nom}** de la liste « {TYPES[genre]} » sans valider de formation ?" if retrait else
-                                f"Confirmer pour **{nom}** la formation « {TYPES[genre]} » ?")
+                    question = f"Retirer **{nom}** de la liste « {TYPES[genre]} » sans valider de formation ?"
                     await inter.response.edit_message(content=question, embed=None,
-                                                      view=Confirmation(tableau, auteur, k, retrait=retrait), allowed_mentions=SANS_MENTIONS)
+                                                      view=Confirmation(tableau, auteur, k, retrait=True), allowed_mentions=SANS_MENTIONS)
                 choix.callback = selection
                 self.add_item(choix)
         if derniere:
@@ -571,10 +614,40 @@ class PagesFormations(VuePrivee):
         await self.naviguer(inter, 1)
 
 
+class SujetFormation(discord.ui.Modal, title="Sujet de formation"):
+    def __init__(self, menu, fiche):
+        super().__init__(timeout=300)
+        self.menu, self.k = menu, cle(fiche)
+        self.lien = discord.ui.TextInput(required=True, max_length=2000,
+                                         placeholder="https://www.pn-rpg.fr/t…")
+        self.add_item(discord.ui.Label(text="Lien du sujet sur le forum PN", component=self.lien,
+                                       description=f"{fiche['pseudo']} · {TYPES[menu.genre]}"))
+
+    async def on_submit(self, inter):
+        menu = self.menu
+        if not await menu.interaction_check(inter):
+            return
+        fiche = menu.tableau.etat["attente"].get(self.k)
+        if fiche is None:
+            await inter.response.edit_message(content="Cette personne ne figure plus dans la liste.", embed=None, view=None)
+            return
+        lien = lien_sujet_forum(self.lien.value)
+        if not lien:
+            nouveau = PagesFormations(menu.tableau, menu.auteur, historique=False, page=menu.page, genre=menu.genre)
+            await inter.response.edit_message(content="Il faut un lien vers un sujet ou un message de pn-rpg.fr. "
+                                               "Sélectionne à nouveau le pseudo pour corriger le lien.",
+                                               embed=nouveau.carte, view=nouveau)
+            return
+        question = (f"Confirmer pour **{pseudo(fiche['pseudo'])}** la formation « {TYPES[menu.genre]} » ?\n"
+                    f"[Ouvrir le sujet de formation]({lien})")
+        await inter.response.edit_message(content=question, embed=None, allowed_mentions=SANS_MENTIONS,
+                                          view=Confirmation(menu.tableau, menu.auteur, self.k, sujet=lien))
+
+
 class Confirmation(VuePrivee):
-    def __init__(self, tableau, auteur, k, *, retrait=False):
+    def __init__(self, tableau, auteur, k, *, retrait=False, sujet=None):
         super().__init__(tableau, auteur, retrait=retrait)
-        self.k = k
+        self.k, self.sujet = k, sujet
         if retrait:
             self.confirmer.label = "Confirmer le retrait"
             self.confirmer.style = discord.ButtonStyle.danger
@@ -585,7 +658,7 @@ class Confirmation(VuePrivee):
             return
         await inter.response.defer()
         async with self.tableau.verrou:
-            fiche = self.tableau.terminer(self.k, inter.user, retrait=self.retrait)
+            fiche = self.tableau.terminer(self.k, inter.user, retrait=self.retrait, sujet=self.sujet)
             if fiche:
                 nom = pseudo(fiche["pseudo"])
                 texte = (f"**{nom}** a été retiré de la liste." if self.retrait else

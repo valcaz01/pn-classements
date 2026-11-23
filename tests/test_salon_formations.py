@@ -139,7 +139,7 @@ class SalonFormations(unittest.IsolatedAsyncioTestCase):
         await self.tableau.actualiser([self.a, self.b])
         hg = SimpleNamespace(display_name="Formatrice", id=800)
         inter = Mock(user=hg, channel=self.salon, response=Mock(defer=AsyncMock()), edit_original_response=AsyncMock())
-        menu = form.Confirmation(self.tableau, hg.id, form.cle(self.a))
+        menu = form.Confirmation(self.tableau, hg.id, form.cle(self.a), sujet="https://www.pn-rpg.fr/viewtopic?p=31")
         await menu.confirmer.callback(inter)
         await menu.confirmer.callback(inter)
         self.assertIn("déjà", inter.edit_original_response.await_args.kwargs["content"])
@@ -152,6 +152,12 @@ class SalonFormations(unittest.IsolatedAsyncioTestCase):
         historique = form.PagesFormations(nouveau, hg.id, historique=True)
         self.assertIn("Formatrice", historique.carte.description)
         self.assertIn("Alpha", historique.carte.description)
+        self.assertEqual(archive[0]["sujet"], "https://www.pn-rpg.fr/viewtopic?p=31#31")
+        self.assertIn(f"[Sujet de formation]({archive[0]['sujet']})", historique.carte.description)
+        del archive[0]["sujet"]
+        ancien = form.PagesFormations(nouveau, hg.id, historique=True)
+        self.assertIn("Alpha", ancien.carte.description)
+        self.assertNotIn("[Sujet de formation]", ancien.carte.description)
         self.assertTrue(archive[0]["le"])
         self.salon.send.assert_awaited_once()
 
@@ -286,10 +292,62 @@ class SalonFormations(unittest.IsolatedAsyncioTestCase):
         self.assertEqual(inter.edit_original_response.await_args.kwargs["view"].carte.description,
                          "**Charlie** 🟢 en ligne (GPX depuis 21/11/26)")
         self.assertEqual(len(self.messages), 1)
-        self.tableau.terminer(form.cle(qualif), SimpleNamespace(id=888, display_name="Formateur"))
+        self.tableau.terminer(form.cle(qualif), SimpleNamespace(id=888, display_name="Formateur"),
+                              sujet="https://www.pn-rpg.fr/t45-formation")
         archive = form.PagesFormations(self.tableau, 888, historique=True)
         self.assertIn("Formation qualifiante", archive.carte.description)
         self.assertEqual([f["pseudo"] for f in self.tableau.liste()], ["Alpha"])
+
+    def test_liens_des_sujets_et_messages_du_forum(self):
+        base = "https://www.pn-rpg.fr"
+        for entree, attendu in (
+            ("https://pn-rpg.fr/t12p25-rapport#104", "/t12p25-#104"),
+            ("http://pn-rpg.forumactif.com/t12-formation?sid=test", "/t12-"),
+            ("www.pn-rpg.fr/viewtopic?t=12&start=25#104", "/t12p25-#104"),
+            (base + "/viewtopic?p=104#104", "/viewtopic?p=104#104"),
+        ):
+            with self.subTest(entree=entree):
+                self.assertEqual(form.lien_sujet_forum(entree), base + attendu)
+        for invalide in ("", base, base + "/f12-forum", base + "/viewtopic?p=0",
+                         "https://exemple.fr/t12-rapport", "https://pn-rpg.fr@exemple.fr/t12-rapport",
+                         "https://www.pn-rpg.fr.exemple.fr/t12-rapport"):
+            with self.subTest(invalide=invalide):
+                self.assertIsNone(form.lien_sujet_forum(invalide))
+
+    async def test_formation_faite_exige_un_sujet_pour_les_deux_formations(self):
+        membre = Mock(spec=discord.Member, id=77, display_name="Formatrice", roles=[self.formateur])
+        membre.guild_permissions.administrator = False
+        inter = SimpleNamespace(user=membre, guild_id=self.guild.id, channel_id=form.SALON, channel=self.salon,
+                                response=Mock(send_modal=AsyncMock(), edit_message=AsyncMock(), send_message=AsyncMock(),
+                                              defer=AsyncMock()), edit_original_response=AsyncMock())
+        for genre in form.TYPES:
+            fiche = {**self.a, "type": genre}
+            k = form.cle(fiche)
+            await self.tableau.actualiser([fiche])
+            def selection(vue):
+                choix = next(c for c in vue.children if isinstance(c, discord.ui.Select))
+                choix._values = [k]
+                return choix.callback(inter)
+            await selection(form.PagesFormations(self.tableau, membre.id, historique=False, genre=genre))
+            modal = inter.response.send_modal.await_args.args[0]
+            self.assertTrue(modal.lien.required)
+            with self.assertRaises(ValueError):
+                self.tableau.terminer(k, membre)
+            modal.lien._value = "https://exemple.fr/t12-formation"
+            await modal.on_submit(inter)
+            rep = inter.response.edit_message.await_args.kwargs
+            self.assertIn("corriger le lien", rep["content"])
+            self.assertIn(k, self.tableau.etat["attente"])
+            await selection(rep["view"])
+            modal = inter.response.send_modal.await_args.args[0]
+            modal.lien._value = "https://pn-rpg.fr/t12p25-formation#104"
+            await modal.on_submit(inter)
+            rep = inter.response.edit_message.await_args.kwargs
+            self.assertIn("https://www.pn-rpg.fr/t12p25-#104", rep["content"])
+            self.assertIn(k, self.tableau.etat["attente"])
+            await rep["view"].confirmer.callback(inter)
+            self.assertEqual(self.tableau.etat["historique"][k]["sujet"], "https://www.pn-rpg.fr/t12p25-#104")
+            self.assertNotIn(k, self.tableau.etat["attente"])
 
     async def test_ajout_du_retrait_sur_un_tableau_existant_sans_nouvelle_mention(self):
         await self.tableau.actualiser([self.a])
