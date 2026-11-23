@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T15:40:28+00:00",
+ "updated": "2026-11-23T15:42:28+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -307,7 +307,7 @@
    },
    {
     "name": "halos34",
-    "value": 827
+    "value": 829
    },
    {
     "name": "Icarem",
@@ -387,7 +387,7 @@
    },
    {
     "name": "Padre",
-    "value": 254
+    "value": 256
    },
    {
     "name": "Mr.Dino",
@@ -489,14 +489,14 @@
   "week": [
    {
     "name": "halos34",
-    "value": 344
-   },
-   {
-    "name": "habbo-160-3",
-    "value": 119
+    "value": 346
    },
    {
     "name": "Padre",
+    "value": 121
+   },
+   {
+    "name": "habbo-160-3",
     "value": 119
    },
    {
