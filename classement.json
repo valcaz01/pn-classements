@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T15:22:29+00:00",
+ "updated": "2026-11-23T15:24:29+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -299,7 +299,7 @@
    },
    {
     "name": "marinadrk",
-    "value": 1013
+    "value": 1014
    },
    {
     "name": "Pantheon_",
@@ -307,7 +307,7 @@
    },
    {
     "name": "halos34",
-    "value": 810
+    "value": 812
    },
    {
     "name": "Icarem",
@@ -326,12 +326,12 @@
     "value": 625
    },
    {
-    "name": "habbo22t",
+    "name": "andrew16a",
     "value": 456
    },
    {
-    "name": "andrew16a",
-    "value": 454
+    "name": "habbo22t",
+    "value": 456
    },
    {
     "name": "charlie-XCX123",
@@ -391,7 +391,7 @@
    },
    {
     "name": "Padre",
-    "value": 237
+    "value": 239
    },
    {
     "name": "Weavem",
@@ -426,11 +426,11 @@
     "value": 103
    },
    {
-    "name": ".:Krustiz:.",
-    "value": 99
+    "name": "apo4020",
+    "value": 101
    },
    {
-    "name": "apo4020",
+    "name": ".:Krustiz:.",
     "value": 99
    },
    {
@@ -489,7 +489,7 @@
   "week": [
    {
     "name": "halos34",
-    "value": 327
+    "value": 329
    },
    {
     "name": "habbo-160-3",
@@ -497,6 +497,14 @@
    },
    {
     "name": "marinadrk",
+    "value": 105
+   },
+   {
+    "name": "andrew16a",
+    "value": 104
+   },
+   {
+    "name": "Padre",
     "value": 104
    },
    {
@@ -504,16 +512,8 @@
     "value": 103
    },
    {
-    "name": "andrew16a",
-    "value": 102
-   },
-   {
-    "name": "Padre",
-    "value": 102
-   },
-   {
     "name": "apo4020",
-    "value": 99
+    "value": 101
    },
    {
     "name": "Lovepanda",
