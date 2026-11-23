@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T17:00:35+00:00",
+ "updated": "2026-11-23T17:02:35+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -367,7 +367,7 @@
    },
    {
     "name": "Padre",
-    "value": 332
+    "value": 334
    },
    {
     "name": "flo578",
@@ -386,12 +386,12 @@
     "value": 283
    },
    {
-    "name": "Proxymore",
-    "value": 275
+    "name": "Mr.Dino",
+    "value": 276
    },
    {
-    "name": "Mr.Dino",
-    "value": 274
+    "name": "Proxymore",
+    "value": 275
    },
    {
     "name": "-Massimo-",
@@ -427,7 +427,7 @@
    },
    {
     "name": "Vyp",
-    "value": 105
+    "value": 107
    },
    {
     "name": "apo4020",
@@ -454,12 +454,12 @@
     "value": 68
    },
    {
-    "name": "Fanny-148",
+    "name": ".Dylan.",
     "value": 57
    },
    {
-    "name": ".Dylan.",
-    "value": 55
+    "name": "Fanny-148",
+    "value": 57
    },
    {
     "name": "Pporappippam",
@@ -482,12 +482,12 @@
     "value": 45
    },
    {
-    "name": "alexandre-780",
-    "value": 41
+    "name": "SuzieOuistiti!",
+    "value": 42
    },
    {
-    "name": "SuzieOuistiti!",
-    "value": 40
+    "name": "alexandre-780",
+    "value": 41
    }
   ],
   "week": [
@@ -497,7 +497,7 @@
    },
    {
     "name": "Padre",
-    "value": 197
+    "value": 199
    },
    {
     "name": "habbo-160-3",
@@ -509,7 +509,7 @@
    },
    {
     "name": "Vyp",
-    "value": 105
+    "value": 107
    },
    {
     "name": "andrew16a",
@@ -521,7 +521,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 92
+    "value": 94
    },
    {
     "name": "Lovepanda",
@@ -561,7 +561,7 @@
    },
    {
     "name": "SuzieOuistiti!",
-    "value": 32
+    "value": 34
    },
    {
     "name": "LorenzoVisconti",
@@ -600,6 +600,10 @@
     "value": 4
    },
    {
+    "name": ".Dylan.",
+    "value": 3
+   },
+   {
     "name": "MagicalArt",
     "value": 2
    },
@@ -609,10 +613,6 @@
    },
    {
     "name": ".:Krustiz:.",
-    "value": 1
-   },
-   {
-    "name": ".Dylan.",
     "value": 1
    },
    {
