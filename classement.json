@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T12:24:29+00:00",
+ "updated": "2026-11-23T12:26:29+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -383,7 +383,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 242
+    "value": 244
    },
    {
     "name": "Weavem",
@@ -411,7 +411,7 @@
    },
    {
     "name": "Padre",
-    "value": 136
+    "value": 138
    },
    {
     "name": "MagicalArt",
@@ -512,12 +512,12 @@
     "value": 64
    },
    {
-    "name": "Pantheon_",
-    "value": 61
+    "name": "Mr.Dino",
+    "value": 62
    },
    {
-    "name": "Mr.Dino",
-    "value": 60
+    "name": "Pantheon_",
+    "value": 61
    },
    {
     "name": "Shizuku",
@@ -580,6 +580,10 @@
     "value": 4
    },
    {
+    "name": "Padre",
+    "value": 3
+   },
+   {
     "name": "MagicalArt",
     "value": 2
    },
@@ -593,10 +597,6 @@
    },
    {
     "name": "CovidJr",
-    "value": 1
-   },
-   {
-    "name": "Padre",
     "value": 1
    }
   ]
