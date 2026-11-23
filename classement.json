@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T23:16:36+00:00",
+ "updated": "2026-11-23T23:18:36+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -37,7 +37,7 @@
    },
    {
     "name": "Shizuku",
-    "value": 31
+    "value": 32
    },
    {
     "name": "Astreu",
@@ -184,6 +184,10 @@
     "value": 3
    },
    {
+    "name": "tiff34",
+    "value": 3
+   },
+   {
     "name": "---Jayden---",
     "value": 2
    },
@@ -197,10 +201,6 @@
    },
    {
     "name": "BakeryJuice",
-    "value": 2
-   },
-   {
-    "name": "guest-3806",
     "value": 2
    }
   ],
@@ -250,15 +250,15 @@
     "value": 5
    },
    {
+    "name": "Shizuku",
+    "value": 5
+   },
+   {
     "name": "SuzieOuistiti!",
     "value": 5
    },
    {
     "name": "Pantheon_",
-    "value": 4
-   },
-   {
-    "name": "Shizuku",
     "value": 4
    },
    {
@@ -290,11 +290,19 @@
     "value": 3
    },
    {
+    "name": "tiff34",
+    "value": 3
+   },
+   {
     "name": "---Jayden---",
     "value": 2
    },
    {
     "name": "apo4020",
+    "value": 2
+   },
+   {
+    "name": "CovidJr",
     "value": 2
    },
    {
@@ -304,10 +312,6 @@
    {
     "name": "Kouukii",
     "value": 2
-   },
-   {
-    "name": "CovidJr",
-    "value": 1
    },
    {
     "name": "guest77145",
@@ -331,10 +335,6 @@
    },
    {
     "name": "Postillon",
-    "value": 1
-   },
-   {
-    "name": "tiff34",
     "value": 1
    }
   ]
