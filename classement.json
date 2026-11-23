@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T01:06:43+00:00",
+ "updated": "2026-11-23T01:08:43+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -13,7 +13,7 @@
    },
    {
     "name": "fym",
-    "value": 40
+    "value": 42
    },
    {
     "name": "pevanq640",
@@ -207,7 +207,7 @@
   "week": [
    {
     "name": "fym",
-    "value": 2
+    "value": 4
    },
    {
     "name": "pevanq640",
@@ -251,7 +251,7 @@
    },
    {
     "name": "Shizuku",
-    "value": 675
+    "value": 677
    },
    {
     "name": "Astreu",
@@ -433,7 +433,7 @@
    },
    {
     "name": "Shizuku",
-    "value": 41
+    "value": 43
    },
    {
     "name": "-Massimo-",
