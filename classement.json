@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T14:08:28+00:00",
+ "updated": "2026-11-23T14:10:29+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -287,7 +287,7 @@
   "total": [
    {
     "name": "habbo-160-3",
-    "value": 1961
+    "value": 1963
    },
    {
     "name": "BiBiCHarBo",
@@ -366,12 +366,12 @@
     "value": 327
    },
    {
-    "name": "Non-Non",
+    "name": "_.Flora._",
     "value": 319
    },
    {
-    "name": "_.Flora._",
-    "value": 317
+    "name": "Non-Non",
+    "value": 319
    },
    {
     "name": "gotica",
@@ -403,7 +403,7 @@
    },
    {
     "name": "Padre",
-    "value": 194
+    "value": 196
    },
    {
     "name": "Postillon",
@@ -504,11 +504,11 @@
     "value": 101
    },
    {
-    "name": ".Libellule",
-    "value": 80
+    "name": "habbo-160-3",
+    "value": 82
    },
    {
-    "name": "habbo-160-3",
+    "name": ".Libellule",
     "value": 80
    },
    {
@@ -524,12 +524,12 @@
     "value": 64
    },
    {
-    "name": "Pantheon_",
+    "name": "Padre",
     "value": 61
    },
    {
-    "name": "Padre",
-    "value": 59
+    "name": "Pantheon_",
+    "value": 61
    },
    {
     "name": "Shizuku",
@@ -545,7 +545,7 @@
    },
    {
     "name": "apo4020",
-    "value": 30
+    "value": 31
    },
    {
     "name": "Icarem",
@@ -557,7 +557,7 @@
    },
    {
     "name": "_.Flora._",
-    "value": 16
+    "value": 18
    },
    {
     "name": "gotica",
