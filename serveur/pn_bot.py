@@ -714,6 +714,8 @@ class PNBot(discord.Client):
 
     async def alerts(self):
         loop = asyncio.get_running_loop()
+        departs_badge = self.formations.etat.get("departs_badge", {})
+        fins_adhesion = {}
 
         def post(embed):
             envoi = asyncio.run_coroutine_threadsafe(self.envoyer_alerte(embed), loop)
@@ -739,11 +741,12 @@ class PNBot(discord.Client):
                 else importlib.import_module("alertes_grade")
             mod.post = post
             with ETAT_LOCK:
-                return mod.main(suivi_formations=Path(LOCK_FILE).parent / "formations-pa.json")
+                return mod.main(suivi_formations=Path(LOCK_FILE).parent / "formations-pa.json",
+                                departs_badge=departs_badge, fins_adhesion=fins_adhesion)
 
         candidats = await asyncio.to_thread(run)
         if candidats is not None:
-            await self.formations.actualiser(candidats)
+            await self.formations.actualiser(candidats, fins_adhesion=fins_adhesion)
 
     # -- lundi 00 h 00 : podium de la semaine écoulée puis remise à zéro
     async def weekly(self, now):

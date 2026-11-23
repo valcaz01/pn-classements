@@ -26,7 +26,10 @@ sur le forum PN. Ils peuvent ouvrir le lien avant de confirmer.
 Chaque pseudo est suivi de la date du badge correspondant entre parenthèses, au format `JJ/MM/AA`.
 La mention « 🟢 en ligne » apparaît lorsque Habbo indique le policier connecté. Pour une personne
 hors ligne, le bot affiche la dernière connexion communiquée par son profil public, en heure de Paris.
-Le bot relit les deux groupes toutes les 30 secondes lorsque des candidats attendent. Au QG,
+Toutes les 30 secondes, le bot relit le groupe du grade requis pour chaque liste qui a des candidats.
+Si un nom manque, il vérifie aussi les groupes du profil Habbo. Un départ confirmé retire la fiche en
+silence. Si le profil est masqué ou que Habbo ne répond pas, la fiche et sa date sont conservées.
+Une nouvelle adhésion fait repartir le délai de trois jours, jour d’adhésion inclus. Au QG,
 il écrit un nouveau numéro dans `controle_forma_qg` et relit les échos de `presence_forma_qg`.
 La liste affiche « 🟢 en ligne · au QG » pour les candidats présents. Une première visite mentionne
 le rôle Formateur dans le tableau privé. Pour mentionner à nouveau ce rôle pour la même personne,

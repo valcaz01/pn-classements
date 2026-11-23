@@ -27,6 +27,7 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
+from serveur.adhesions import groupes_publics_du_membre
 from serveur.habbo_http import ApiRequestError, request_json
 from serveur.groupes_pn import EXCLUS_FORMATIONS, GROUPE_CADET, GROUPE_GDP, GROUPE_PA, GROUPES_GRADES, GROUPES_SUPERIEURS
 
@@ -165,23 +166,10 @@ def suivre_badge(groupe, groupes_superieurs, listes, precedents, aujourdhui, exc
 
     for hid in precedents.keys() - membres.keys() - set(exclus):
         # Une omission de la liste publique, à elle seule, ne casse pas l'ancienneté.
-        chemin = f"/api/public/users/{urllib.parse.quote(hid)}/groups"
-        try:
-            groupes = req(f"https://{HOST}{chemin}")
-            if groupes == []:
-                profil = req(f"https://{HOST}/api/public/users/{urllib.parse.quote(hid)}")
-                if not isinstance(profil, dict) or profil.get("profileVisible") is not True:
-                    groupes = None
-        except ApiRequestError as exc:
-            if exc.status not in (401, 403):
-                raise
-            groupes = None
-        if groupes is None:
+        ids = groupes_publics_du_membre(hid, groupe, lambda chemin: req(f"https://{HOST}/api/public/{chemin}"))
+        if ids is None:
             registre[hid] = precedents[hid]  # profil inaccessible : conserver la date, différer l'alerte
             continue
-        if not isinstance(groupes, list) or not all(isinstance(g, dict) and g.get("id") for g in groupes):
-            raise ApiRequestError("response", endpoint=chemin)
-        ids = {g["id"] for g in groupes}
         if groupe in ids:
             registre[hid] = precedents[hid]
             membres[hid] = {"name": precedents[hid]["pseudo"]}
@@ -200,16 +188,29 @@ def cadets_du_jour(aujourdhui, listes):
             for hid, r in membres.items()}
 
 
-def formations_a_faire(chemin, listes, visiteurs, pr, etat, aujourdhui):
+def adhesions_apres_depart(membres, departs):
+    # Un aller-retour peut être détecté entre deux lectures du registre des promotions.
+    return {hid: fiche for hid, fiche in membres.items() if hid not in departs
+            or fiche["depuis"] >= datetime.fromtimestamp(departs[hid], PARIS).date().isoformat()}
+
+
+def formations_a_faire(chemin, listes, visiteurs, pr, etat, aujourdhui, departs_badge=None, fins_adhesion=None):
     try:
         suivi = lire_registre(chemin)
     except FileNotFoundError:
         suivi = {"membres": {}, "verifie_le": None}
-    precedents = suivi["membres"]
+    departs = departs_badge or {}
+    departs_pa = departs.get("gdp", {})
+    precedents = adhesions_apres_depart(suivi["membres"], departs_pa)
+    precedents_gdp = adhesions_apres_depart(suivi.get("gardiens", {}), departs.get("qualifiante", {}))
     derniere_lecture = datetime.fromisoformat(suivi["verifie_le"]) if suivi["verifie_le"] else None
     registre, actifs = suivre_badge(GROUPE_PA, GROUPES_SUPERIEURS[1:], listes, precedents, aujourdhui, EXCLUS_FORMATIONS)
-    gardiens, gardiens_actifs = suivre_badge(GROUPE_GDP, GROUPES_GRADES, listes, suivi.get("gardiens", {}),
+    gardiens, gardiens_actifs = suivre_badge(GROUPE_GDP, GROUPES_GRADES, listes, precedents_gdp,
                                              aujourdhui, EXCLUS_FORMATIONS)
+    if fins_adhesion is not None:
+        for genre, avant, apres in (("gdp", precedents, registre), ("qualifiante", precedents_gdp, gardiens)):
+            for hid in avant.keys() - apres.keys() - EXCLUS_FORMATIONS:
+                fins_adhesion[genre, hid, avant[hid]["depuis"]] = NOW.timestamp()
     ids = {}
     for uid, (nom, _) in visiteurs.items():
         nom = pr.get(uid, ("", 0))[0] or nom or etat.get(uid, {}).get("pseudo")
@@ -229,7 +230,8 @@ def formations_a_faire(chemin, listes, visiteurs, pr, etat, aujourdhui):
             attribution = etat.get(uid, {}).get("badge", {}).get("cadet", {}).get("le")
             if attribution:
                 date = datetime.fromisoformat(attribution)
-                if date.tzinfo and date <= NOW and (derniere_lecture is None or date > derniere_lecture):
+                if (date.tzinfo and date <= NOW and date.timestamp() > departs_pa.get(hid, 0)
+                        and (derniere_lecture is None or date > derniere_lecture)):
                     fiche["depuis"] = date.astimezone(PARIS).date().isoformat()
 
     enregistrer(chemin, suivi)
@@ -256,7 +258,7 @@ def formations_a_faire(chemin, listes, visiteurs, pr, etat, aujourdhui):
     return candidats
 
 
-def main(*, suivi_formations=None):
+def main(*, suivi_formations=None, departs_badge=None, fins_adhesion=None):
     if os.environ.get("TEST") == "1":
         post({"title": "✅ Système d'alertes connecté",
               "description": "Ce salon signale les **Cadets** qui peuvent passer **Policier adjoint** dès le "
@@ -283,7 +285,8 @@ def main(*, suivi_formations=None):
     cadets = cadets_du_jour(aujourdhui, listes)
     candidats = None
     if suivi_formations is not None:
-        candidats = formations_a_faire(suivi_formations, listes, membres, pr, etat, aujourdhui)
+        candidats = formations_a_faire(suivi_formations, listes, membres, pr, etat, aujourdhui,
+                                       departs_badge, fins_adhesion)
     print(f"[API] {len(membres)} visiteurs suivis, {len(pr)} avec des points de recrutement")
 
     # Ordre de relecture des humeurs : d'abord ceux proches d'un palier, puis les plus anciennement vérifiés.

@@ -13,11 +13,13 @@ import time
 import urllib.parse
 import urllib.request
 from datetime import date, datetime, timezone
+from functools import cache
 from typing import NamedTuple
 from zoneinfo import ZoneInfo
 
 import discord
 from discord.ext import tasks
+from adhesions import groupes_publics_du_membre
 from habbo_http import ApiRequestError, request_json
 from groupes_pn import EXCLUS_FORMATIONS, GROUPE_GDP, GROUPE_PA
 from presence_formations_qg import ControlePresenceQG, identite
@@ -32,6 +34,7 @@ ROLES_RETRAIT = frozenset({
 })
 TITRE = "🎓 Formations Gardien de la paix à faire"
 TYPES = {"gdp": "Formation Gardien de la paix", "qualifiante": "Formation qualifiante"}
+BADGES_FORMATION = {"gdp": (GROUPE_PA, "Policier adjoint"), "qualifiante": (GROUPE_GDP, "Gardien de la paix")}
 PARIS = ZoneInfo("Europe/Paris")
 INTERVALLE_PRESENCE = 30  # secondes
 VALIDITE_PRESENCE = 3 * INTERVALLE_PRESENCE
@@ -128,6 +131,7 @@ def peut_retirer(membre):
 class Presence(NamedTuple):
     en_ligne: bool | None
     dernier_acces: datetime | None = None
+    badge: bool | None = None
 
 
 def presence_publique(profil, membre):
@@ -143,19 +147,54 @@ def presence_publique(profil, membre):
     return Presence(False, acces.astimezone(PARIS) if acces.tzinfo else None)
 
 
-def presences_habbo(fiches, cache_profils=None):
+def verifier_badges(fiches, lire, controles):
+    groupes = {cle(f): BADGES_FORMATION[f.get("type", "gdp")][0] for f in fiches}
+    par_id, par_nom = {}, {}
+    for groupe in set(groupes.values()):
+        lot = lire(f"groups/{groupe}/members")
+        if not isinstance(lot, list) or not lot or not all(
+            isinstance(m, dict) and m.get("uniqueId") and m.get("name") for m in lot
+        ):
+            raise ApiRequestError("response", endpoint="membres du groupe de formation")
+        par_id[groupe] = {m["uniqueId"]: m for m in lot}
+        par_nom[groupe] = {m["name"].casefold(): m for m in lot}
+    membres, badges, absents = {}, {}, []
+    for f in fiches:
+        k = cle(f)
+        groupe = groupes[k]
+        membre = par_id[groupe].get(f["hid"]) if f.get("hid") else par_nom[groupe].get(f["pseudo"].casefold())
+        membres[k] = membre or {}
+        badges[k] = True if membre else None
+        if membre:
+            controles.pop(k, None)
+        elif f.get("hid"):
+            absents.append(f)
+    # Les groupes sont relus pour tous. Si plusieurs profils manquent à la fois,
+    # vérifier en priorité ceux qui attendent depuis le plus longtemps.
+    absents.sort(key=lambda f: controles.get(cle(f), 0))
+    for f in absents[:4]:
+        k = cle(f)
+        controles[k] = time.monotonic()
+        try:
+            ids = groupes_publics_du_membre(f["hid"], groupes[k], lire)
+        except ApiRequestError as exc:
+            if exc.kind == "rate_limit":
+                raise
+            LOG.warning("Confirmation du badge de formation reportée : %s", exc)
+            if exc.kind in {"unavailable", "timeout", "network"}:
+                break
+            continue
+        if ids is not None:
+            badges[k] = groupes[k] in ids
+    return membres, badges
+
+
+def presences_habbo(fiches, cache_profils=None, controles_badge=None):
+    @cache
     def lire(chemin):
         return request_json(urllib.request.Request(f"https://{HOST}/api/public/{chemin}",
                             headers={"Accept": "application/json", "User-Agent": "PN-Formations/1.0"}))
-    groupes = {GROUPE_GDP if f.get("type") == "qualifiante" else GROUPE_PA for f in fiches}
-    membres = []
-    for groupe in groupes:
-        lot = lire(f"groups/{groupe}/members")
-        if not isinstance(lot, list) or not lot or not all(isinstance(m, dict) and m.get("uniqueId") for m in lot):
-            raise ApiRequestError("response", endpoint="membres du groupe de formation")
-        membres.extend(lot)
-    par_id = {m["uniqueId"]: m for m in membres}
-    par_nom = {m["name"].casefold(): m for m in membres if m.get("name")}
+    membres, badges = verifier_badges(fiches, lire, controles_badge if controles_badge is not None else {})
     if cache_profils is None:
         cache_profils = {}
     instant = time.monotonic()
@@ -167,7 +206,7 @@ def presences_habbo(fiches, cache_profils=None):
     profils_disponibles = True
     for f in fiches:
         hid = identite(f)
-        membre = (par_id.get(f["hid"]) if f.get("hid") else par_nom.get(f["pseudo"].casefold())) or {}
+        membre = membres[cle(f)]
         if membre.get("online") is True:
             resultat[cle(f)] = Presence(True)
             cache_profils.pop(hid, None)
@@ -194,7 +233,7 @@ def presences_habbo(fiches, cache_profils=None):
             else:
                 observation = avant if avant and membre.get("online") is False and avant.en_ligne is False else Presence(membre.get("online"))
             resultat[cle(f)] = observation
-    return resultat
+    return {k: presence._replace(badge=badges[k]) for k, presence in resultat.items()}
 
 
 def carte_liste(fiches, presences, genre, au_qg=None):
@@ -258,6 +297,8 @@ class TableauFormations:
         self.reconcilier = True
         self.presences = {}
         self.cache_profils = {}
+        self.badges = {}
+        self.controles_badge = {}
         self.controle_qg = ControlePresenceQG(api_qg) if api_qg else None
         self.lecture_qg = None
         self.statut_qg = None
@@ -301,8 +342,9 @@ class TableauFormations:
         debut = time.time()
         suivis = {identite(f) for f in fiches}
         self.cache_profils = {k: v for k, v in self.cache_profils.items() if k in suivis}
+        self.controles_badge = {k: v for k, v in self.controles_badge.items() if k in self.etat["attente"]}
         try:
-            resultats = await asyncio.to_thread(presences_habbo, fiches, self.cache_profils)
+            resultats = await asyncio.to_thread(presences_habbo, fiches, self.cache_profils, self.controles_badge)
         except ApiRequestError as exc:
             LOG.warning("Présences Habbo indisponibles : %s", exc)
             self.prochain_statut = time.monotonic() + max(30, exc.retry_delay or 0)
@@ -310,10 +352,38 @@ class TableauFormations:
         async with self.verrou:
             ch = await self.client.channel(SALON)
             verifier_salon(ch, self.guild_id)
+            self.appliquer_badges(resultats, debut)
             for k, presence in resultats.items():
                 if k in self.etat["attente"]:
                     self.noter_presence(k, debut, presence)
             await self.actualiser_rendu(ch)
+
+    def appliquer_badges(self, resultats, debut):
+        pertes = {}
+        for k, lecture in resultats.items():
+            fiche = self.etat["attente"].get(k)
+            if fiche is None or debut < self.badges.get(k, (0, None))[0]:
+                continue
+            self.badges[k] = (debut, lecture.badge)
+            if lecture.badge is False and fiche.get("hid"):
+                pertes[k] = debut
+        self.retirer_badges_perdus(pertes)
+
+    def retirer_badges_perdus(self, pertes):
+        if not pertes:
+            return
+        attente = dict(self.etat["attente"])
+        departs = {genre: dict(dates) for genre, dates in self.etat.get("departs_badge", {}).items()}
+        for k, instant in pertes.items():
+            fiche = attente.pop(k)
+            dates = departs.setdefault(fiche.get("type", "gdp"), {})
+            dates[fiche["hid"]] = max(instant, dates.get(fiche["hid"], 0))
+        # La fiche et la fin de son adhésion sont persistées ensemble.
+        self.sauver(attente=attente, departs_badge=departs)
+        for k in pertes:
+            self.badges.pop(k, None)
+            self.presences.pop(k, None)
+        LOG.info("Départ du badge confirmé pour %d fiche(s) de formation", len(pertes))
 
     def au_qg(self):
         if self.lecture_qg is not None:
@@ -395,8 +465,10 @@ class TableauFormations:
 
     def arrivees_qg(self):
         presents = self.au_qg() or set()
-        return {identite(f): f["pseudo"] for f in self.etat["attente"].values()
-                if identite(f) in presents and identite(f) not in self.etat.get("visites_qg", {})}
+        limite = time.time() - VALIDITE_PRESENCE
+        confirmes = {k for k, (instant, badge) in self.badges.items() if badge and instant > limite}
+        return {identite(f): f["pseudo"] for k, f in self.etat["attente"].items() if k in confirmes
+                and identite(f) in presents and identite(f) not in self.etat.get("visites_qg", {})}
 
     async def actualiser_rendu(self, ch):
         if (self.reconcilier or self.etat.get("envoi") or self.arrivees_qg()
@@ -438,7 +510,14 @@ class TableauFormations:
             k = cle(fiche)
             if k in self.etat["historique"] or k in self.etat.get("retraits", {}) or fiche.get("hid") in EXCLUS_FORMATIONS:
                 continue
-            identite = (fiche.get("type", "gdp"), fiche["uid"])
+            genre = fiche.get("type", "gdp")
+            depart = self.etat.get("departs_badge", {}).get(genre, {}).get(fiche.get("hid"))
+            instant = fiche.get("observation", time.time())
+            if depart is not None and (
+                instant <= depart or fiche["depuis"] < datetime.fromtimestamp(depart, PARIS).date().isoformat()
+            ):
+                continue
+            identite = (genre, fiche["uid"])
             if "observation" in fiche:
                 self.noter_presence(k, fiche.pop("observation"), Presence(fiche.pop("en_ligne")), du_groupe=True)
             ancien = par_uid.get(identite)
@@ -446,6 +525,9 @@ class TableauFormations:
                 if attente[ancien]["depuis"] > fiche["depuis"]:
                     continue
                 del attente[ancien]
+                self.badges.pop(ancien, None)
+            if fiche.get("hid") and instant >= self.badges.get(k, (0, None))[0]:
+                self.badges[k] = instant, True
             attente[k] = fiche
             par_uid[identite] = k
         self.sauver(attente=attente)
@@ -465,6 +547,7 @@ class TableauFormations:
             archive["sujet"] = lien
         registre = "retraits" if retrait else "historique"
         self.sauver(attente=attente, **{registre: {**self.etat.get(registre, {}), k: archive}})
+        self.badges.pop(k, None)
         self.presences.pop(k, None)
         return fiche
 
@@ -485,10 +568,17 @@ class TableauFormations:
         await inter.response.send_message(texte, ephemeral=True)
         return False
 
-    async def actualiser(self, candidats):
+    async def actualiser(self, candidats, *, fins_adhesion=None):
         async with self.verrou:
             ch = await self.client.channel(SALON)
             verifier_salon(ch, self.guild_id)
+            if fins_adhesion:
+                pertes = {}
+                for k, f in self.etat["attente"].items():
+                    ancienne = (f.get("type", "gdp"), f.get("hid"), f["depuis"])
+                    if ancienne in fins_adhesion:
+                        pertes[k] = fins_adhesion[ancienne]
+                self.retirer_badges_perdus(pertes)
             await self.publier(ch, candidats)
 
     def confirmer_publication(self, message, visites_annoncees, **changements):
@@ -610,8 +700,9 @@ class BoutonsFormations(discord.ui.LayoutView):
         if au_qg is None and tableau.statut_qg:
             self.carte.set_footer(text=f"{self.carte.footer.text} · {tableau.statut_qg}")
         self.compteurs = {g: len(tableau.liste(g, presences=presences)) for g in TYPES}
+        self.descriptions_menu = {g: f"{n} en attente · Badge {BADGES_FORMATION[g][1]} requis" for g, n in self.compteurs.items()}
         menu = discord.ui.Select(custom_id="pn:formas:type", placeholder="Choisir une formation", options=[
-            discord.SelectOption(label=nom, value=g, default=auteur is not None and g == genre, description=f"{self.compteurs[g]} en attente")
+            discord.SelectOption(label=nom, value=g, default=auteur is not None and g == genre, description=self.descriptions_menu[g])
             for g, nom in TYPES.items()])
         async def choisir(inter):
             selection = menu.values[0]
@@ -657,7 +748,7 @@ class BoutonsFormations(discord.ui.LayoutView):
 
     def signature(self):
         contenu = json.dumps([self.genre, self.afficher_retrait, self.carte.title, self.carte.description, self.carte.footer.text,
-                              self.compteurs], ensure_ascii=False).encode()
+                              self.descriptions_menu], ensure_ascii=False).encode()
         return hashlib.sha256(contenu + (self.fichier or b"")).hexdigest()
 
     async def interaction_check(self, inter):

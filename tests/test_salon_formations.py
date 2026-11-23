@@ -205,6 +205,7 @@ class SalonFormations(unittest.IsolatedAsyncioTestCase):
         self.tableau.controle_qg = controle
 
         async def relever(tableau, resultat):
+            tableau.appliquer_badges({form.cle(f): form.Presence(True, badge=True) for f in tableau.liste()}, horloge.return_value)
             tableau.prochain_qg = 0
             controle.relever.side_effect = [resultat]
             await tableau.actualiser_qg()
@@ -277,6 +278,7 @@ class SalonFormations(unittest.IsolatedAsyncioTestCase):
             reprise.controle_qg.relever.return_value = (105, 1, presents)
             if presents:
                 horloge.return_value = debut + 3600
+                reprise.appliquer_badges({form.cle(f): form.Presence(True, badge=True) for f in reprise.liste()}, horloge.return_value)
             await reprise.actualiser_qg()
         self.assertEqual(self.salon.send.await_count, 3)
         self.assertEqual(reprise.etat['dernieres_mentions_qg'], {self.a['hid']:debut + 3600})
@@ -324,9 +326,9 @@ class SalonFormations(unittest.IsolatedAsyncioTestCase):
 
     async def test_presence_publique_et_profil_masque_et_changement_de_pseudo(self):
         groupe = [{"uniqueId":"hhfr-1","name":"PseudoModifié","online":True}]
-        with patch.object(form, "request_json", side_effect=[groupe, {"online":True,"profileVisible":False}]):
+        with patch.object(form, "request_json", side_effect=[groupe, [], {"online":True,"profileVisible":False}]):
             lecture = form.presences_habbo([self.a, self.b])
-        self.assertEqual(lecture, {form.cle(self.a):form.Presence(True), form.cle(self.b):form.Presence(None)})
+        self.assertEqual(lecture, {form.cle(self.a):form.Presence(True, badge=True), form.cle(self.b):form.Presence(None)})
         instant = time.time()
         await self.tableau.actualiser([{**self.a,"en_ligne":True,"observation":instant}])
         self.tableau.noter_presence(form.cle(self.a), instant - 60, form.Presence(False))
@@ -349,6 +351,84 @@ class SalonFormations(unittest.IsolatedAsyncioTestCase):
             self.assertIsNone(lecture.dernier_acces)
             carte, _ = form.carte_liste([self.a], {form.cle(self.a):lecture}, "gdp")
             self.assertIn("Dernière connexion non communiquée", carte.description)
+
+    def test_badge_requis_par_formation_et_identite_stable(self):
+        qualif = {**self.a, "type": "qualifiante", "uid": self.a["hid"]}
+        proprio = {"uniqueId": "direction", "name": "Direction", "online": True}
+        membre = {"uniqueId": self.a["hid"], "name": "NouveauPseudo", "online": True}
+        for garde, perdu in ((form.GROUPE_PA, form.GROUPE_GDP), (form.GROUPE_GDP, form.GROUPE_PA)):
+            reponses = {f"groups/{garde}/members": [proprio, membre], f"groups/{perdu}/members": [proprio],
+                        "users/hhfr-1/groups": [{"id": garde}], "users/hhfr-1": {"uniqueId": self.a["hid"], "profileVisible": True}}
+            with patch.object(form, "request_json", side_effect=lambda req: reponses[req.full_url.split("/public/")[1]]):
+                bilan = form.presences_habbo([self.a, qualif])
+            self.assertIs(bilan[form.cle(self.a)].badge, garde == form.GROUPE_PA)
+            self.assertIs(bilan[form.cle(qualif)].badge, garde == form.GROUPE_GDP)
+
+    def test_omission_confirmee_uniquement_sur_un_profil_public_identifie(self):
+        membre = {"uniqueId": "direction", "name": "Direction", "online": True}
+        for groupes, profil, attendu in (
+            ([{"id": form.GROUPE_PA}], None, True),
+            ([], {"uniqueId": self.a["hid"], "profileVisible": True}, False),
+            ([], {"uniqueId": self.a["hid"], "profileVisible": False}, None),
+            ([{"id": "autre"}], {"profileVisible": True}, None),
+            ([{"id": "autre"}], {"uniqueId": "autre-joueur", "profileVisible": True}, None),
+            ([], None, None), (None, None, None), ([{}], None, None),
+            (form.ApiRequestError("access", status=403), None, None),
+            (form.ApiRequestError("unavailable", status=503), None, None),
+        ):
+            with self.subTest(groupes=groupes, profil=profil):
+                def requete(req):
+                    if req.full_url.endswith("/members"):
+                        return [membre]
+                    if req.full_url.endswith("/groups"):
+                        if isinstance(groupes, Exception):
+                            raise groupes
+                        return groupes
+                    return profil
+                with patch.object(form, "request_json", side_effect=requete):
+                    self.assertIs(form.presences_habbo([self.a])[form.cle(self.a)].badge, attendu)
+
+    async def test_perte_badge_silencieuse_reprise_et_reinscription(self):
+        instant = datetime(2026, 11, 23, 12, tzinfo=form.PARIS).timestamp()
+        def candidat(f, moment):
+            return {**f, "observation": moment, "en_ligne": True}
+        await self.tableau.actualiser([candidat(f, instant - 10) for f in (self.a, self.b)])
+        self.tableau.lecture_qg = time.monotonic(), {self.a["hid"], self.b["hid"]}
+        with patch.object(form.time, "time", return_value=instant):
+            with patch.object(form, "request_json", side_effect=form.ApiRequestError("rate_limit", status=429)):
+                await self.tableau.actualiser_presences()
+            self.assertEqual(len(self.tableau.liste()), 2)
+            self.assertFalse(self.tableau.arrivees_qg())
+            self.tableau.prochain_statut = 0
+            lectures = {form.cle(self.a): form.Presence(True, badge=False),
+                        form.cle(self.b): form.Presence(True, badge=None)}
+            with patch.object(form, "presences_habbo", return_value=lectures):
+                await self.tableau.actualiser_presences()
+        self.assertEqual([f["pseudo"] for f in self.tableau.liste()], ["Bravo"])
+        self.assertFalse(self.tableau.etat["historique"])
+        self.assertFalse(self.tableau.etat.get("retraits"))
+        self.salon.send.assert_awaited_once()
+        self.assertEqual(self.tableau.etat["departs_badge"], {"gdp": {self.a["hid"]: instant}})
+
+        reprise = form.TableauFormations(self.bot, self.guild.id, self.chemin)
+        await reprise.actualiser([candidat(self.a, instant - 1), candidat(self.a, instant + 30)])
+        self.assertEqual([f["pseudo"] for f in reprise.liste()], ["Bravo"])
+        self.salon.send.assert_awaited_once()
+        nouvelle = {**self.a, "depuis": "2026-11-23"}
+        deux_jours = 2 * 24 * 3600
+        await reprise.actualiser([candidat(nouvelle, instant + deux_jours)])
+        self.assertEqual({f["pseudo"] for f in reprise.liste()}, {"Alpha", "Bravo"})
+        self.assertEqual(self.salon.send.await_count, 2)
+
+    async def test_collecte_ne_retire_que_la_fiche_de_l_ancienne_adhesion(self):
+        await self.tableau.actualiser([self.a, self.b])
+        ancien = ("gdp", self.a["hid"], self.a["depuis"])
+        await self.tableau.actualiser([], fins_adhesion={ancien: time.time()})
+        self.assertEqual([f["pseudo"] for f in self.tableau.liste()], ["Bravo"])
+        mauvais_cycle = ("gdp", self.b["hid"], "2026-11-15")
+        await self.tableau.actualiser([], fins_adhesion={mauvais_cycle: time.time()})
+        self.assertEqual([f["pseudo"] for f in self.tableau.liste()], ["Bravo"])
+        self.salon.send.assert_awaited_once()
 
     async def test_menu_page_deux_et_nom_absent_du_dernier_releve(self):
         candidats = [{**self.a, "pseudo":f"Police{i:02}", "uid":str(i)} for i in range(28)]

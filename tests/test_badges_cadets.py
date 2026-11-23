@@ -45,7 +45,7 @@ class PromotionsCadets(unittest.TestCase):
 
     def requete(self, url):
         if url.endswith("/users/hhfr-test"):
-            return {"profileVisible": self.profil_visible}
+            return {"uniqueId": "hhfr-test", "profileVisible": self.profil_visible}
         if url.endswith("/users/hhfr-test/groups"):
             if isinstance(self.groupes_profil, Exception):
                 raise self.groupes_profil
@@ -59,10 +59,10 @@ class PromotionsCadets(unittest.TestCase):
                          "memberSince": "2004-01-01T00:00:00Z"})
         return rows
 
-    def passage(self, heure):
+    def passage(self, heure, **options):
         with patch.object(bot, "NOW", datetime.fromisoformat(heure).astimezone(timezone.utc)):
             with contextlib.redirect_stdout(io.StringIO()):
-                self.liste = bot.main(suivi_formations=self.formations)
+                self.liste = bot.main(suivi_formations=self.formations, **options)
 
     def registre(self):
         return json.loads(self.suivi.read_text(encoding="utf-8"))
@@ -195,6 +195,36 @@ class PromotionsCadets(unittest.TestCase):
             self.autre_groupe = bot.GROUPES_GRADES[0]
             self.passage("2027-03-29T00:02:00+02:00")
             self.assertFalse(self.liste)
+
+    def test_sortie_entre_deux_collectes_redate_les_deux_formations(self):
+        self.badge, self.points = False, 310
+        for genre, groupe in (("gdp", bot.GROUPE_PA), ("qualifiante", bot.GROUPE_GDP)):
+            with self.subTest(genre=genre):
+                self.formations.unlink(missing_ok=True)
+                self.superieur = groupe
+                self.passage("2026-11-19T10:00:00+01:00")
+                self.passage("2026-11-23T09:00:00+01:00")
+                self.assertEqual([f["depuis"] for f in self.liste], ["2026-11-19"])
+                instant = datetime.fromisoformat("2026-11-23T09:00:30+01:00").timestamp()
+                departs = {genre: {"hhfr-test": instant}}
+                self.passage("2026-11-23T09:02:00+01:00", departs_badge=departs)
+                self.passage("2026-11-24T23:59:59+01:00", departs_badge=departs)
+                self.assertFalse(self.liste)
+                self.passage("2026-11-25T00:00:00+01:00", departs_badge=departs)
+                self.assertEqual([(f["type"], f["depuis"]) for f in self.liste], [(genre, "2026-11-23")])
+
+    def test_collecte_transmet_uniquement_une_fin_adhesion_confirmee(self):
+        self.badge, self.points, self.superieur = False, 310, bot.GROUPE_PA
+        self.passage("2026-11-19T12:00:00+01:00")
+        fins = {}
+        self.superieur, self.profil_visible = None, False
+        self.groupes_profil = [{"id": "autre-badge"}]
+        self.passage("2026-11-23T12:00:00+01:00", fins_adhesion=fins)
+        self.assertEqual(fins, {})
+        self.profil_visible = True
+        heure = "2026-11-23T12:02:00+01:00"
+        self.passage(heure, fins_adhesion=fins)
+        self.assertEqual(fins, {("gdp", "hhfr-test", "2026-11-19"): datetime.fromisoformat(heure).timestamp()})
 
     def test_exclusion_par_identifiant_stable_pour_les_deux_formations(self):
         def remplace_id(url):
