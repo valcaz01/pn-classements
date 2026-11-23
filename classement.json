@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T19:40:35+00:00",
+ "updated": "2026-11-23T19:42:34+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -180,6 +180,10 @@
     "value": 3
    },
    {
+    "name": "---Jayden---",
+    "value": 2
+   },
+   {
     "name": "-Oiseau",
     "value": 2
    },
@@ -197,10 +201,6 @@
    },
    {
     "name": "Hectorr",
-    "value": 2
-   },
-   {
-    "name": "ladypink.",
     "value": 2
    }
   ],
@@ -282,6 +282,10 @@
     "value": 3
    },
    {
+    "name": "---Jayden---",
+    "value": 2
+   },
+   {
     "name": "apo4020",
     "value": 2
    },
@@ -296,10 +300,6 @@
    {
     "name": "Monsieur-RF",
     "value": 2
-   },
-   {
-    "name": "---Jayden---",
-    "value": 1
    },
    {
     "name": "LesdixGaga",
@@ -339,7 +339,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 1046
+    "value": 1048
    },
    {
     "name": "halos34",
@@ -387,7 +387,7 @@
    },
    {
     "name": "dadou07",
-    "value": 397
+    "value": 398
    },
    {
     "name": "Mi,hermano",
@@ -399,7 +399,7 @@
    },
    {
     "name": "Padre",
-    "value": 350
+    "value": 352
    },
    {
     "name": "flo578",
@@ -431,7 +431,7 @@
    },
    {
     "name": "Hectorr",
-    "value": 257
+    "value": 259
    },
    {
     "name": "Weavem",
@@ -451,7 +451,7 @@
    },
    {
     "name": "Vyp",
-    "value": 174
+    "value": 176
    },
    {
     "name": "sami75.19",
@@ -529,7 +529,7 @@
    },
    {
     "name": "Padre",
-    "value": 215
+    "value": 217
    },
    {
     "name": "andrew16a",
@@ -541,7 +541,7 @@
    },
    {
     "name": "Vyp",
-    "value": 174
+    "value": 176
    },
    {
     "name": "Mr.Dino",
@@ -557,11 +557,11 @@
    },
    {
     "name": "Pantheon_",
-    "value": 112
+    "value": 114
    },
    {
     "name": "Hectorr",
-    "value": 107
+    "value": 109
    },
    {
     "name": "apo4020",
@@ -605,7 +605,7 @@
    },
    {
     "name": "dadou07",
-    "value": 38
+    "value": 39
    },
    {
     "name": "sami75.19",
