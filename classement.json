@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T23:38:37+00:00",
+ "updated": "2026-11-23T23:40:37+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -21,7 +21,7 @@
    },
    {
     "name": "charlie-XCX123",
-    "value": 41
+    "value": 43
    },
    {
     "name": ".Libellule",
@@ -206,6 +206,10 @@
   ],
   "week": [
    {
+    "name": "charlie-XCX123",
+    "value": 10
+   },
+   {
     "name": "fym",
     "value": 10
    },
@@ -220,10 +224,6 @@
    {
     "name": "Icarem",
     "value": 9
-   },
-   {
-    "name": "charlie-XCX123",
-    "value": 8
    },
    {
     "name": ".Libellule",
@@ -351,11 +351,11 @@
    },
    {
     "name": "fym",
-    "value": 1199
+    "value": 1201
    },
    {
     "name": "marinadrk",
-    "value": 1127
+    "value": 1128
    },
    {
     "name": "Pantheon_",
@@ -391,7 +391,7 @@
    },
    {
     "name": "charlie-XCX123",
-    "value": 500
+    "value": 501
    },
    {
     "name": "habbo22t",
@@ -553,7 +553,7 @@
    },
    {
     "name": "marinadrk",
-    "value": 220
+    "value": 221
    },
    {
     "name": "Vyp",
@@ -625,6 +625,10 @@
    },
    {
     "name": "charlie-XCX123",
+    "value": 59
+   },
+   {
+    "name": "fym",
     "value": 58
    },
    {
@@ -634,10 +638,6 @@
    {
     "name": "tiff34",
     "value": 58
-   },
-   {
-    "name": "fym",
-    "value": 56
    },
    {
     "name": "Mi,hermano",
