@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T01:36:42+00:00",
+ "updated": "2026-11-23T01:38:42+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -247,7 +247,7 @@
    },
    {
     "name": "marinadrk",
-    "value": 911
+    "value": 913
    },
    {
     "name": "Icarem",
@@ -263,7 +263,7 @@
    },
    {
     "name": "halos34",
-    "value": 569
+    "value": 570
    },
    {
     "name": "Lovepanda",
@@ -433,7 +433,7 @@
   "week": [
    {
     "name": "halos34",
-    "value": 86
+    "value": 87
    },
    {
     "name": "Shizuku",
@@ -464,6 +464,10 @@
     "value": 4
    },
    {
+    "name": "marinadrk",
+    "value": 3
+   },
+   {
     "name": "Vyp",
     "value": 3
    },
@@ -473,10 +477,6 @@
    },
    {
     "name": "CovidJr",
-    "value": 1
-   },
-   {
-    "name": "marinadrk",
     "value": 1
    }
   ]
