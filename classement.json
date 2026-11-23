@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T00:42:42+00:00",
+ "updated": "2026-11-23T00:45:13+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -247,7 +247,7 @@
    },
    {
     "name": "Shizuku",
-    "value": 651
+    "value": 654
    },
    {
     "name": "Astreu",
@@ -259,7 +259,7 @@
    },
    {
     "name": "halos34",
-    "value": 531
+    "value": 534
    },
    {
     "name": "habbo22t",
@@ -267,7 +267,7 @@
    },
    {
     "name": "charlie-XCX123",
-    "value": 442
+    "value": 443
    },
    {
     "name": "Mi,hermano",
@@ -425,7 +425,7 @@
   "week": [
    {
     "name": "halos34",
-    "value": 48
+    "value": 51
    },
    {
     "name": "-Massimo-",
@@ -433,7 +433,7 @@
    },
    {
     "name": "Shizuku",
-    "value": 17
+    "value": 20
    },
    {
     "name": "irysse",
@@ -450,6 +450,10 @@
    {
     "name": "MagicalArt",
     "value": 2
+   },
+   {
+    "name": "charlie-XCX123",
+    "value": 1
    },
    {
     "name": "CovidJr",
