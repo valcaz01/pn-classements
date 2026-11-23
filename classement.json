@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T17:22:34+00:00",
+ "updated": "2026-11-23T17:24:35+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -93,7 +93,7 @@
    },
    {
     "name": "gotica",
-    "value": 11
+    "value": 13
    },
    {
     "name": "Postillon",
@@ -172,6 +172,10 @@
     "value": 3
    },
    {
+    "name": "SuzieOuistiti!",
+    "value": 3
+   },
+   {
     "name": "-Oiseau",
     "value": 2
    },
@@ -198,10 +202,6 @@
    {
     "name": "Padre",
     "value": 2
-   },
-   {
-    "name": "Sheesh.",
-    "value": 2
    }
   ],
   "week": [
@@ -222,16 +222,16 @@
     "value": 6
    },
    {
+    "name": "gotica",
+    "value": 6
+   },
+   {
     "name": "Icarem",
     "value": 6
    },
    {
     "name": "fym",
     "value": 5
-   },
-   {
-    "name": "gotica",
-    "value": 4
    },
    {
     "name": "Mr.Dino",
@@ -262,15 +262,15 @@
     "value": 3
    },
    {
+    "name": "SuzieOuistiti!",
+    "value": 3
+   },
+   {
     "name": "Mi,hermano",
     "value": 2
    },
    {
     "name": "Pantheon_",
-    "value": 2
-   },
-   {
-    "name": "SuzieOuistiti!",
     "value": 2
    },
    {
@@ -391,7 +391,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 295
+    "value": 297
    },
    {
     "name": "gotica",
@@ -431,7 +431,7 @@
    },
    {
     "name": "Vyp",
-    "value": 126
+    "value": 128
    },
    {
     "name": "MagicalArt",
@@ -463,7 +463,7 @@
    },
    {
     "name": "SuzieOuistiti!",
-    "value": 60
+    "value": 61
    },
    {
     "name": ".Dylan.",
@@ -509,7 +509,7 @@
    },
    {
     "name": "Vyp",
-    "value": 126
+    "value": 128
    },
    {
     "name": "habbo-160-3",
@@ -517,7 +517,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 113
+    "value": 115
    },
    {
     "name": "marinadrk",
@@ -557,7 +557,7 @@
    },
    {
     "name": "SuzieOuistiti!",
-    "value": 52
+    "value": 53
    },
    {
     "name": "-Massimo-",
