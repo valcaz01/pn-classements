@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T09:12:42+00:00",
+ "updated": "2026-11-23T09:14:43+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -275,7 +275,7 @@
    },
    {
     "name": "halos34",
-    "value": 657
+    "value": 659
    },
    {
     "name": "Astreu",
@@ -371,7 +371,7 @@
    },
    {
     "name": "Hectorr",
-    "value": 150
+    "value": 152
    },
    {
     "name": "Padre",
@@ -449,7 +449,7 @@
   "week": [
    {
     "name": "halos34",
-    "value": 174
+    "value": 176
    },
    {
     "name": "marinadrk",
@@ -502,6 +502,10 @@
    {
     "name": "Babbo0",
     "value": 4
+   },
+   {
+    "name": "Hectorr",
+    "value": 2
    },
    {
     "name": "Lovepanda",
