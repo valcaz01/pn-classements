@@ -29,6 +29,7 @@ class PromotionsCadets(unittest.TestCase):
         self.groupes_profil = []
         self.profil_visible = True
         self.envois = []
+        self.liste = []
         self.stack = contextlib.ExitStack()
         self.addCleanup(self.stack.close)
         for k, v in {"ROOM": "salle", "KEY": "test", "ETAT": self.etat, "BADGES_CADETS": self.suivi,
@@ -61,7 +62,7 @@ class PromotionsCadets(unittest.TestCase):
     def passage(self, heure):
         with patch.object(bot, "NOW", datetime.fromisoformat(heure).astimezone(timezone.utc)):
             with contextlib.redirect_stdout(io.StringIO()):
-                bot.main(suivi_formations=self.formations)
+                self.liste = bot.main(suivi_formations=self.formations)
 
     def registre(self):
         return json.loads(self.suivi.read_text(encoding="utf-8"))
@@ -134,61 +135,80 @@ class PromotionsCadets(unittest.TestCase):
         self.superieur, self.humeur, self.points = bot.GROUPE_PA, "En pause", 300
         self.passage("2026-11-20T23:59:00+01:00")
         self.passage("2026-11-21T23:59:59+01:00")
-        self.assertFalse(self.envois)
+        self.assertFalse(self.liste)
         self.points = 299
         self.passage("2026-11-22T00:00:00+01:00")
-        self.assertFalse(self.envois)
+        self.assertFalse(self.liste)
         self.nom, self.points = "NouveauPseudo", 300
         self.passage("2026-11-22T01:00:00+01:00")
         self.passage("2026-11-23T18:00:00+01:00")
-        self.assertEqual([e["_pn"]["palier"] for e in self.envois], ["pa"])
-        self.assertIn("NouveauPseudo", self.envois[0]["title"])
-        self.assertIn("20/11/2026 · jour 3", self.envois[0]["fields"][0]["value"])
+        self.assertEqual([(f["pseudo"], f["uid"], f["pr"], f["depuis"]) for f in self.liste],
+                         [("NouveauPseudo", "1", 300, "2026-11-20")])
+        self.assertFalse(self.envois)
 
     def test_pa_attribution_confirmee_avant_demarrage_refus_grade_superieur_et_retrait(self):
         self.badge = False
         self.superieur, self.autre_groupe, self.points = bot.GROUPE_PA, bot.GROUPES_SUPERIEURS[1], 310
         bot.enregistrer(self.etat, {"1": {"pseudo": self.nom, "badge": {"cadet": {"le": "2026-11-17T23:59:00+01:00"}}}})
         self.passage("2026-11-20T00:00:00+01:00")
-        self.assertFalse(self.envois)
+        self.assertFalse(self.liste)
         self.superieur, self.autre_groupe = None, None
         self.passage("2026-11-20T08:00:00+01:00")
         self.humeur = "[PN] Policier adjoint"
         self.passage("2026-11-21T12:00:00+01:00")
-        self.assertFalse(self.envois)
+        self.assertFalse(self.liste)
         self.superieur = bot.GROUPE_PA
         self.passage("2026-11-21T23:57:00+01:00")
         self.passage("2026-11-22T23:59:59+01:00")
-        self.assertFalse(self.envois)
+        self.assertFalse(self.liste)
         self.passage("2026-11-23T00:00:00+01:00")
-        self.assertEqual(len(self.envois), 1)
-        self.assertIn("21/11/2026", self.envois[0]["fields"][0]["value"])
+        self.assertEqual([f["depuis"] for f in self.liste], ["2026-11-21"])
 
-    def test_migration_alerte_privee_et_reprise_apres_echec_envoi(self):
+    def test_migration_reprend_la_date_confirmee_sans_poster_d_alerte_individuelle(self):
         self.badge, self.superieur, self.points = False, bot.GROUPE_PA, 300
         bot.enregistrer(self.etat, {"1": {"pseudo": self.nom, "alertes": {"pa": "ancien salon"},
                                           "badge": {"cadet": {"le": "2026-11-20T22:59:00+00:00"}}}})
-        with patch.object(bot, "post", return_value=False) as echec, self.assertRaises(ApiRequestError):
-            self.passage("2026-11-22T00:00:00+01:00")
-        essai = echec.call_args.args[0]["_pn"]
-        self.assertIsNone(essai["reprise"])
+        self.passage("2026-11-22T00:00:00+01:00")
         self.passage("2026-11-22T00:02:00+01:00")
-        self.passage("2026-11-22T00:04:00+01:00")
-        self.assertEqual(len(self.envois), 1)
-        self.assertTrue(self.envois[0]["_pn"]["reprise"])
-        self.assertEqual(self.envois[0]["_pn"]["nonce"], essai["nonce"])
-        self.assertIn("20/11/2026 · jour 3", self.envois[0]["fields"][0]["value"])
+        self.assertEqual([f["depuis"] for f in self.liste], ["2026-11-20"])
+        self.assertFalse(self.envois)
 
     def test_pa_omission_en_profil_prive_differe_sans_perdre_la_date(self):
         self.badge, self.superieur, self.points = False, bot.GROUPE_PA, 300
         self.passage("2026-11-20T23:59:00+01:00")
         self.superieur, self.profil_visible = None, False
         self.passage("2026-11-22T00:00:00+01:00")
-        self.assertFalse(self.envois)
+        self.assertFalse(self.liste)
         self.groupes_profil = [{"id": bot.GROUPE_PA}]
         self.passage("2026-11-22T00:02:00+01:00")
-        self.assertEqual(len(self.envois), 1)
-        self.assertIn("jour 3", self.envois[0]["fields"][0]["value"])
+        self.assertEqual([f["depuis"] for f in self.liste], ["2026-11-20"])
+
+    def test_gardien_qualifiante_troisieme_jour_sans_pr_ni_matricule(self):
+        self.superieur, self.badge, self.points = bot.GROUPE_GDP, False, 0
+        with patch.object(bot, "all_values", return_value={}):
+            self.passage("2027-03-27T23:59:00+01:00")
+            self.passage("2027-03-28T23:59:59+02:00")
+            self.assertFalse(self.liste)
+            self.passage("2027-03-29T00:00:00+02:00")
+            self.assertEqual([(f["type"],f["pseudo"],f["depuis"]) for f in self.liste],
+                             [("qualifiante",self.nom,"2027-03-27")])
+            self.autre_groupe = bot.GROUPES_GRADES[0]
+            self.passage("2027-03-29T00:02:00+02:00")
+            self.assertFalse(self.liste)
+
+    def test_exclusion_par_identifiant_stable_pour_les_deux_formations(self):
+        def remplace_id(url):
+            return [{**r,"uniqueId":next(iter(bot.EXCLUS_FORMATIONS)) if r["uniqueId"]=="hhfr-test" else r["uniqueId"]}
+                    for r in self.requete(url)]
+        self.badge, self.superieur, self.points = False, bot.GROUPE_PA, 350
+        with patch.object(bot,"req",side_effect=remplace_id):
+            self.passage("2026-11-20T00:00:00+01:00")
+            self.passage("2026-11-23T00:00:00+01:00")
+            self.assertFalse(self.liste)
+            self.superieur, self.nom = bot.GROUPE_GDP, "NouveauPseudo"
+            self.passage("2026-11-23T20:00:00+01:00")
+            self.passage("2026-11-26T20:00:00+01:00")
+            self.assertFalse(self.liste)
 
     def test_changement_heure_ete(self):
         self.passage("2027-03-27T23:59:00+01:00")

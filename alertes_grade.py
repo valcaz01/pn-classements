@@ -4,6 +4,7 @@
 Paliers :
   Cadet → Policier adjoint dès le 3ᵉ jour du badge (adhésion = jour 1, heure de Paris) avec 200 points de recrutement.
   Policier adjoint → formation Gardien de la paix dès le 3ᵉ jour du badge avec 300 PR cumulés.
+  Gardien de la paix → formation qualifiante dès le 3ᵉ jour du badge.
 
 Le registre badges_cadets.json suit l'adhésion au groupe Cadet par identifiant Habbo stable.
 Le bot garde le suivi des formations hors du dépôt et les annonce dans le salon privé des formateurs.
@@ -27,6 +28,7 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 from serveur.habbo_http import ApiRequestError, request_json
+from serveur.groupes_pn import EXCLUS_FORMATIONS, GROUPE_CADET, GROUPE_GDP, GROUPE_PA, GROUPES_GRADES, GROUPES_SUPERIEURS
 
 HOST = os.environ.get("HABBO_HOST", "www.habbo.fr")
 ROOM = os.environ.get("WIRED_ROOM_ID", "").strip()
@@ -37,19 +39,6 @@ VAR_ALL = "matricule"          # tous les visiteurs du QG en ont un : sert à re
 ETAT = "etat_grades.json"
 BADGES_CADETS = "badges_cadets.json"
 PARIS = ZoneInfo("Europe/Paris")
-GROUPE_CADET = "g-hhfr-3dcf0cad12934ba41c258628d82bde40"
-GROUPE_PA = "g-hhfr-98146efd0f202d369c38a5d5265d124e"
-# Les gradés peuvent conserver leurs anciens badges et administrer le groupe Cadet.
-GROUPES_SUPERIEURS = (
-    GROUPE_PA,
-    "g-hhfr-f9e03b6a56b74caf069c4b3a3d80aabd",  # Gardien de la paix
-    "g-hhfr-e8723fe59e066f9847347ab936a0e9c6",  # Gradé débutant
-    "g-hhfr-f1c6e473ac8a29547c44a4675b750585",  # Gradé intermédiaire
-    "g-hhfr-d7080b2c1318a56acc06cf8b2b7568be",  # Gradé confirmé
-    "g-hhfr-c52059ba6f45cc055c9fb5b9b5a3bc64",  # Haut gradé
-    "g-hhfr-c2e7127da613e13151bd947c7593bb95",  # Superviseur
-    "g-hhfr-918ddc2eee80c1dc557c1e4d4e023828",  # Direction
-)
 RECHECK = timedelta(hours=3)   # humeur relue au plus toutes les 3 h par membre
 MAX_CHECKS = 60                # humeurs lues par passage (service toutes les 2 min, cache de 3 h)
 NOW = datetime.now(timezone.utc)
@@ -165,8 +154,8 @@ def membres_groupe(groupe):
     return {r["uniqueId"]: r for r in rows}
 
 
-def suivre_badge(groupe, groupes_superieurs, listes, precedents, aujourdhui):
-    membres = dict(listes[groupe])
+def suivre_badge(groupe, groupes_superieurs, listes, precedents, aujourdhui, exclus=()):
+    membres = {hid: membre for hid, membre in listes[groupe].items() if hid not in exclus}
     superieurs = set().union(*(listes[g] for g in groupes_superieurs))
     registre = {}
     for hid, membre in membres.items():
@@ -174,7 +163,7 @@ def suivre_badge(groupe, groupes_superieurs, listes, precedents, aujourdhui):
         fiche["pseudo"] = membre["name"]
         registre[hid] = fiche
 
-    for hid in precedents.keys() - membres.keys():
+    for hid in precedents.keys() - membres.keys() - set(exclus):
         # Une omission de la liste publique, à elle seule, ne casse pas l'ancienneté.
         chemin = f"/api/public/users/{urllib.parse.quote(hid)}/groups"
         try:
@@ -218,14 +207,16 @@ def formations_a_faire(chemin, listes, visiteurs, pr, etat, aujourdhui):
         suivi = {"membres": {}, "verifie_le": None}
     precedents = suivi["membres"]
     derniere_lecture = datetime.fromisoformat(suivi["verifie_le"]) if suivi["verifie_le"] else None
-    registre, actifs = suivre_badge(GROUPE_PA, GROUPES_SUPERIEURS[1:], listes, precedents, aujourdhui)
+    registre, actifs = suivre_badge(GROUPE_PA, GROUPES_SUPERIEURS[1:], listes, precedents, aujourdhui, EXCLUS_FORMATIONS)
+    gardiens, gardiens_actifs = suivre_badge(GROUPE_GDP, GROUPES_GRADES, listes, suivi.get("gardiens", {}),
+                                             aujourdhui, EXCLUS_FORMATIONS)
     ids = {}
     for uid, (nom, _) in visiteurs.items():
         nom = pr.get(uid, ("", 0))[0] or nom or etat.get(uid, {}).get("pseudo")
         if nom:
             ids[nom.casefold()] = uid
 
-    suivi = {"membres": registre, "verifie_le": iso(NOW)}
+    suivi = {"membres": registre, "gardiens": gardiens, "verifie_le": iso(NOW)}
     for hid, membre in actifs.items():
         fiche = registre[hid]
         uid = fiche.get("uid") or ids.get(membre["name"].casefold())
@@ -243,43 +234,26 @@ def formations_a_faire(chemin, listes, visiteurs, pr, etat, aujourdhui):
 
     enregistrer(chemin, suivi)
     palier = PALIERS["pa"]
-    en_attente = 0
+    candidats = []
     for hid, membre in actifs.items():
         fiche = registre[hid]
         uid = fiche.get("uid")
-        if uid not in pr or fiche.get("notifie_le"):
+        if uid not in pr:
             continue
         pts = pr[uid][1]
         depuis = datetime.fromisoformat(fiche["depuis"]).date()
         jours = (aujourdhui - depuis).days + 1
         if pts < palier["seuil"] or jours < palier["jours"]:
             continue
-        reprise = fiche.get("tentative")
-        if not reprise:
-            fiche["tentative"] = iso(NOW)
-            enregistrer(chemin, suivi)
-        nom = membre["name"]
-        embed = {
-            "title": f"🎓 {nom} peut passer la formation Gardien de la paix",
-            "url": f"https://{HOST}/profile/{urllib.parse.quote(nom, safe='')}",
-            "description": "Un formateur peut prendre contact avec ce policier adjoint pour organiser la formation.",
-            "color": palier["couleur"],
-            "fields": [
-                {"name": "Badge Policier adjoint", "value": f"Depuis le {depuis:%d/%m/%Y} · jour {jours}", "inline": True},
-                {"name": "Points de recrutement cumulés", "value": f"{pts} PR", "inline": True},
-            ],
-            "footer": {"text": f"Suivi de formation · {uid}/{depuis:%Y%m%d}"},
-            "timestamp": iso(NOW),
-            "_pn": {"uid": uid, "palier": "pa", "pseudo": nom, "reprise": reprise,
-                    "nonce": f"pa:{uid}:{depuis:%Y%m%d}"},
-        }
-        if post(embed):
-            fiche["notifie_le"] = iso(NOW)
-            fiche.pop("tentative", None)
-            enregistrer(chemin, suivi)
-        else:
-            en_attente += 1
-    return en_attente
+        candidats.append({"type": "gdp", "uid": uid, "hid": hid, "pseudo": membre["name"], "depuis": fiche["depuis"], "pr": pts,
+                          "en_ligne": membre.get("online") is True, "observation": NOW.timestamp()})
+    for hid, membre in gardiens_actifs.items():
+        depuis = datetime.fromisoformat(gardiens[hid]["depuis"]).date()
+        if (aujourdhui - depuis).days + 1 >= 3:
+            candidats.append({"type": "qualifiante", "uid": hid, "hid": hid, "pseudo": membre["name"],
+                              "depuis": depuis.isoformat(), "en_ligne": membre.get("online") is True,
+                              "observation": NOW.timestamp()})
+    return candidats
 
 
 def main(*, suivi_formations=None):
@@ -307,9 +281,9 @@ def main(*, suivi_formations=None):
     aujourdhui = NOW.astimezone(PARIS).date()
     listes = {g: membres_groupe(g) for g in (GROUPE_CADET, *GROUPES_SUPERIEURS)}
     cadets = cadets_du_jour(aujourdhui, listes)
-    formations_en_attente = 0
+    candidats = None
     if suivi_formations is not None:
-        formations_en_attente = formations_a_faire(suivi_formations, listes, membres, pr, etat, aujourdhui)
+        candidats = formations_a_faire(suivi_formations, listes, membres, pr, etat, aujourdhui)
     print(f"[API] {len(membres)} visiteurs suivis, {len(pr)} avec des points de recrutement")
 
     # Ordre de relecture des humeurs : d'abord ceux proches d'un palier, puis les plus anciennement vérifiés.
@@ -394,8 +368,7 @@ def main(*, suivi_formations=None):
 
     enregistrer(ETAT, etat)
     print(f"[Discord] {envoyees} alerte(s) envoyée(s)")
-    if formations_en_attente:
-        raise ApiRequestError("unavailable", service="Discord", endpoint="Formas-à-faire")
+    return candidats
 
 
 if __name__ == "__main__":

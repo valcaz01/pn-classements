@@ -3,8 +3,8 @@
 
 Toutes les 2 minutes (minutes paires, heure de Paris) :
   1. classements du forum : lance build_classement.py (classement.json, noms.json, classement-state.json) ;
-  2. alertes de promotion des cadets dans #Alertes-promotions, formations Gardien de la paix dans
-     le salon privé #Formas-à-faire ;
+  2. alertes de promotion des cadets dans #Alertes-promotions, formations Gardien de la paix
+     et qualifiante dans le salon privé #Formas-à-faire ;
   3. publie les fichiers modifiés sur GitHub (le forum lit classement.json sur raw.githubusercontent.com).
 
 Chaque lundi à 00 h 00 (Paris) : lit pts_recrutement_semaine, la remet à 0 pour tout le monde (API Web,
@@ -51,6 +51,7 @@ from publication import PUBLICATION_REVISION, PublicationHealth, network_git, pu
 from habbo_http import request_json
 from collection import COLLECTION_REVISION, JOBS, REASONS, CollectionHealth, subprocess_failure
 from direction_todo import DirectionBoard
+from formations import TableauFormations
 from suivi_qg import SuiviQG
 
 VERSION = "2026-10-28.1"   # diagnostic de mise en service (ne pas changer sans raison : il est re-posté)
@@ -68,7 +69,6 @@ WRITE_KEY = os.environ.get("WIRED_WRITE_KEY", "").strip()
 VAR_SEMAINE = os.environ.get("VAR_SEMAINE", "pts_recrutement_semaine").strip()
 GUILD_ID = int(os.environ.get("GUILD_ID", "0") or 0)
 ALERT_CHANNEL_ID = int(os.environ.get("ALERT_CHANNEL_ID", "0") or 0)
-FORMATIONS_CHANNEL_ID = 1574352702413086810
 HEBDO_CHANNEL_ID = int(os.environ.get("HEBDO_CHANNEL_ID", "0") or 0)
 CYCLE_MINUTES = int(os.environ.get("CYCLE_MINUTES", "2"))
 RATTRAPAGE = timedelta(hours=6)
@@ -77,34 +77,11 @@ HEBDO_STATE = REPO / "hebdo-state.json"
 OR, VERT, ROUGE, BLEU = 0xE3B34A, 0x188A68, 0xAF3843, 0x124669
 BADGE_ROLES = ("Haut gradé", "Supervision", "Direction")
 ROLE_HAUT_GRADE_ID = 1552758582141784225
-ROLE_FORMATEUR_ID = 1552122047034032221
 ETAT_LOCK = threading.Lock()   # alertes_grade.main() et les clics « Badge attribué » écrivent etat_grades.json
 
 
 def norm(text):
     return unicodedata.normalize("NFKD", text or "").encode("ascii", "ignore").decode().lower().strip()
-
-
-def verifier_salon_formations(ch):
-    guild = ch.guild
-    role = guild.get_role(ROLE_FORMATEUR_ID)
-    moi = guild.me
-    if (guild.id != GUILD_ID or role is None or moi is None
-            or ch.overwrites_for(guild.default_role).view_channel is not False
-            or not (ch.permissions_for(role).view_channel and ch.permissions_for(role).read_message_history)):
-        raise RuntimeError("Le salon des formations doit être privé et accessible au rôle Formateur.")
-    for cible, droits in ch.overwrites.items():
-        if droits.view_channel is not True or cible.id in (role.id, moi.id, guild.owner_id):
-            continue
-        if isinstance(cible, discord.Role):
-            if cible.permissions.administrator or (cible.tags and cible.tags.bot_id == moi.id):
-                continue
-        elif isinstance(cible, discord.Member) and cible.guild_permissions.administrator:
-            continue
-        raise RuntimeError("Un accès supplémentaire au salon des formations doit être vérifié.")
-    acces = ch.permissions_for(moi)
-    if not (acces.view_channel and acces.send_messages and acces.embed_links and acces.read_message_history):
-        raise RuntimeError("PN · Alertes doit pouvoir lire le salon des formations et y envoyer des embeds.")
 
 
 def peut_attribuer(member):
@@ -563,6 +540,8 @@ class PNBot(discord.Client):
 
     async def setup_hook(self):
         self.add_dynamic_items(BadgeButton, AnnulerButton)
+        self.formations = TableauFormations(self, GUILD_ID, Path(LOCK_FILE).parent / "tableau-formations.json")
+        self.formations.demarrer()
         self.tick.start()
         self.direction_board = DirectionBoard(self, GUILD_ID, HEBDO_CHANNEL_ID, Path(LOCK_FILE).parent / "direction-tasks.sqlite3")
         self.direction_board.start()
@@ -715,28 +694,18 @@ class PNBot(discord.Client):
 
     async def envoyer_alerte(self, embed):
         meta = embed.get("_pn") or {}
-        formation = meta.get("palier") == "pa"
-        ch = await self.channel(FORMATIONS_CHANNEL_ID if formation else ALERT_CHANNEL_ID)
+        if meta.get("palier") == "pa":
+            raise RuntimeError("Les formations doivent être ajoutées au tableau privé.")
+        ch = await self.channel(ALERT_CHANNEL_ID)
         view = None
-        if formation:
-            verifier_salon_formations(ch)
-            if meta.get("reprise"):
-                # Discord a pu accepter le message avant une coupure ou un redémarrage.
-                debut = datetime.fromisoformat(meta["reprise"]) - timedelta(minutes=1)
-                async for msg in ch.history(limit=None, after=debut):
-                    if msg.author.id == self.user.id and any(
-                        item.footer.text == embed["footer"]["text"] for item in msg.embeds
-                    ):
-                        return
-        elif meta.get("palier") == "cadet":
+        if meta.get("palier") == "cadet":
             view = discord.ui.View(timeout=None)
             view.add_item(BadgeButton(str(meta["uid"])))
-        role_id = {"cadet": ROLE_HAUT_GRADE_ID, "pa": ROLE_FORMATEUR_ID}.get(meta.get("palier"))
+        role_id = ROLE_HAUT_GRADE_ID if meta.get("palier") == "cadet" else None
         await ch.send(
             content=f"<@&{role_id}>" if role_id else None,
             embed=discord.Embed.from_dict({k: v for k, v in embed.items() if k != "_pn"}),
             view=view,
-            nonce=meta.get("nonce"),
             allowed_mentions=discord.AllowedMentions(
                 everyone=False, users=False, roles=[discord.Object(id=role_id)] if role_id else [],
                 replied_user=False,
@@ -770,9 +739,11 @@ class PNBot(discord.Client):
                 else importlib.import_module("alertes_grade")
             mod.post = post
             with ETAT_LOCK:
-                mod.main(suivi_formations=Path(LOCK_FILE).parent / "formations-pa.json")
+                return mod.main(suivi_formations=Path(LOCK_FILE).parent / "formations-pa.json")
 
-        await asyncio.to_thread(run)
+        candidats = await asyncio.to_thread(run)
+        if candidats is not None:
+            await self.formations.actualiser(candidats)
 
     # -- lundi 00 h 00 : podium de la semaine écoulée puis remise à zéro
     async def weekly(self, now):
