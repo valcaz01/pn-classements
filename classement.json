@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T20:16:37+00:00",
+ "updated": "2026-11-23T20:18:38+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -32,15 +32,15 @@
     "value": 32
    },
    {
+    "name": "Shizuku",
+    "value": 31
+   },
+   {
     "name": "Astreu",
     "value": 30
    },
    {
     "name": "habbo-160-3",
-    "value": 30
-   },
-   {
-    "name": "Shizuku",
     "value": 30
    },
    {
@@ -109,7 +109,7 @@
    },
    {
     "name": "guest77145",
-    "value": 9
+    "value": 10
    },
    {
     "name": ".Dylan.",
@@ -242,6 +242,10 @@
     "value": 4
    },
    {
+    "name": "Shizuku",
+    "value": 4
+   },
+   {
     "name": ".:Krustiz:.",
     "value": 3
    },
@@ -278,10 +282,6 @@
     "value": 3
    },
    {
-    "name": "Shizuku",
-    "value": 3
-   },
-   {
     "name": "SuzieOuistiti!",
     "value": 3
    },
@@ -300,6 +300,10 @@
    {
     "name": "Monsieur-RF",
     "value": 2
+   },
+   {
+    "name": "guest77145",
+    "value": 1
    },
    {
     "name": "LesdixGaga",
@@ -347,7 +351,7 @@
    },
    {
     "name": "Icarem",
-    "value": 800
+    "value": 802
    },
    {
     "name": "Shizuku",
@@ -391,15 +395,15 @@
    },
    {
     "name": "Mi,hermano",
-    "value": 396
+    "value": 398
    },
    {
     "name": "Padre",
-    "value": 386
+    "value": 388
    },
    {
     "name": "flo578",
-    "value": 360
+    "value": 362
    },
    {
     "name": "_.Flora._",
@@ -447,7 +451,7 @@
    },
    {
     "name": "Vyp",
-    "value": 189
+    "value": 190
    },
    {
     "name": "irysse",
@@ -529,7 +533,7 @@
    },
    {
     "name": "Padre",
-    "value": 251
+    "value": 253
    },
    {
     "name": "andrew16a",
@@ -537,7 +541,7 @@
    },
    {
     "name": "Vyp",
-    "value": 189
+    "value": 190
    },
    {
     "name": "marinadrk",
@@ -565,7 +569,7 @@
    },
    {
     "name": "Icarem",
-    "value": 108
+    "value": 110
    },
    {
     "name": "apo4020",
@@ -609,11 +613,11 @@
    },
    {
     "name": "Mi,hermano",
-    "value": 34
+    "value": 36
    },
    {
     "name": "flo578",
-    "value": 32
+    "value": 34
    },
    {
     "name": "sami75.19",
