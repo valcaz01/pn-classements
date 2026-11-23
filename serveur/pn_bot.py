@@ -54,6 +54,7 @@ from direction_todo import DirectionBoard
 from formations import DELAI_MENTION_QG, TableauFormations
 from promotions_qg import AlertesBadgesQG
 from suivi_qg import SuiviQG
+from bonus_notations import BonusNotations
 
 VERSION = "2026-10-28.1"   # diagnostic de mise en service (ne pas changer sans raison : il est re-posté)
 APERCU = "2026-10-28-xp2"  # changer cette valeur pour reposter l'aperçu dans #Classement-hebdo
@@ -73,7 +74,7 @@ ALERT_CHANNEL_ID = int(os.environ.get("ALERT_CHANNEL_ID", "0") or 0)
 HEBDO_CHANNEL_ID = int(os.environ.get("HEBDO_CHANNEL_ID", "0") or 0)
 CYCLE_MINUTES = int(os.environ.get("CYCLE_MINUTES", "2"))
 RATTRAPAGE = timedelta(hours=6)
-DATA_FILES = ["classement.json", "noms.json", "classement-state.json", "etat_grades.json", "badges_cadets.json", "hebdo-state.json"]
+DATA_FILES = ["classement.json", "noms.json", "classement-state.json", "etat_grades.json", "badges_cadets.json", "hebdo-state.json", "bonus-notations.json"]
 HEBDO_STATE = REPO / "hebdo-state.json"
 OR, VERT, ROUGE, BLEU = 0xE3B34A, 0x188A68, 0xAF3843, 0x124669
 BADGE_ROLES = ("Haut gradé", "Supervision", "Direction")
@@ -538,6 +539,7 @@ class PNBot(discord.Client):
         self.last_slot = None
         self.last_errors = {}
         self.started = False
+        self.bonus_notations = None
 
     async def setup_hook(self):
         self.add_dynamic_items(BadgeButton, AnnulerButton)
@@ -695,6 +697,16 @@ class PNBot(discord.Client):
                 # L'annuaire déjà en mémoire reste utilisable pendant une coupure.
                 await asyncio.to_thread(refresh_habbo)
             await self.notify_collection_health()
+            # Le message officiel de la liste des gradés porte uniquement les
+            # demandes validées par l'encadrement ; aucun secret côté forum.
+            try:
+                if self.bonus_notations is None:
+                    self.bonus_notations = await asyncio.to_thread(
+                        BonusNotations, Path(LOCK_FILE).parent / "bonus-notations.sqlite3",
+                        REPO / "bonus-notations.json", api, holders, XP_LOCK)
+                await asyncio.to_thread(self.bonus_notations.cycle)
+            except Exception:
+                LOG.exception("Bonus des notations différés ; aucun crédit rejoué")
             # 3. publication GitHub
             await self.publish_data(f"Classements {datetime.now(timezone.utc):%Y-%m-%dT%H:%M:%SZ}")
 
