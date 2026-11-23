@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T12:14:23+00:00",
+ "updated": "2026-11-23T12:17:59+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -367,7 +367,7 @@
    },
    {
     "name": "_.Flora._",
-    "value": 306
+    "value": 309
    },
    {
     "name": "gotica",
@@ -383,7 +383,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 236
+    "value": 238
    },
    {
     "name": "Weavem",
@@ -516,12 +516,12 @@
     "value": 61
    },
    {
-    "name": "Shizuku",
+    "name": "Mr.Dino",
     "value": 56
    },
    {
-    "name": "Mr.Dino",
-    "value": 54
+    "name": "Shizuku",
+    "value": 56
    },
    {
     "name": "Hectorr",
@@ -556,12 +556,12 @@
     "value": 13
    },
    {
-    "name": "charlie-XCX123",
+    "name": "_.Flora._",
     "value": 8
    },
    {
-    "name": "_.Flora._",
-    "value": 5
+    "name": "charlie-XCX123",
+    "value": 8
    },
    {
     "name": "irysse",
