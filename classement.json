@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T12:18:37+00:00",
+ "updated": "2026-11-24T12:20:36+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -12,11 +12,11 @@
     "value": 60
    },
    {
-    "name": "charlie-XCX123",
-    "value": 47
+    "name": "pevanq640",
+    "value": 49
    },
    {
-    "name": "pevanq640",
+    "name": "charlie-XCX123",
     "value": 47
    },
    {
@@ -210,16 +210,16 @@
     "value": 15
    },
    {
+    "name": "pevanq640",
+    "value": 15
+   },
+   {
     "name": "charlie-XCX123",
     "value": 14
    },
    {
     "name": "habbo-160-3",
     "value": 14
-   },
-   {
-    "name": "pevanq640",
-    "value": 13
    },
    {
     "name": "fym",
@@ -379,7 +379,7 @@
    },
    {
     "name": "halos34",
-    "value": 959
+    "value": 961
    },
    {
     "name": "Icarem",
@@ -411,7 +411,7 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 500
+    "value": 501
    },
    {
     "name": "habbo22t",
@@ -561,7 +561,7 @@
   "week": [
    {
     "name": "halos34",
-    "value": 476
+    "value": 478
    },
    {
     "name": "Padre",
@@ -609,7 +609,7 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 145
+    "value": 146
    },
    {
     "name": "Lovepanda",
