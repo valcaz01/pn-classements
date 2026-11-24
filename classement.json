@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T02:36:35+00:00",
+ "updated": "2026-11-24T02:38:36+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -152,6 +152,10 @@
     "value": 4
    },
    {
+    "name": "---Jayden---",
+    "value": 3
+   },
+   {
     "name": "alexandre-780",
     "value": 3
    },
@@ -190,10 +194,6 @@
    {
     "name": "Sciel",
     "value": 3
-   },
-   {
-    "name": "---Jayden---",
-    "value": 2
    },
    {
     "name": "-Oiseau",
@@ -266,6 +266,10 @@
     "value": 4
    },
    {
+    "name": "---Jayden---",
+    "value": 3
+   },
+   {
     "name": ".:Krustiz:.",
     "value": 3
    },
@@ -296,10 +300,6 @@
    {
     "name": "Monsieur-RF",
     "value": 3
-   },
-   {
-    "name": "---Jayden---",
-    "value": 2
    },
    {
     "name": "apo4020",
@@ -403,7 +403,7 @@
    },
    {
     "name": "Lewddon",
-    "value": 436
+    "value": 438
    },
    {
     "name": ".Libellule",
@@ -613,7 +613,7 @@
    },
    {
     "name": "Lewddon",
-    "value": 81
+    "value": 83
    },
    {
     "name": ".Libellule",
