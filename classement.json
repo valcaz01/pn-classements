@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T18:41:09+00:00",
+ "updated": "2026-11-24T18:42:39+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -116,6 +116,10 @@
     "value": 10
    },
    {
+    "name": "Piingouin.",
+    "value": 9
+   },
+   {
     "name": "Lewddon",
     "value": 8
    },
@@ -125,10 +129,6 @@
    },
    {
     "name": "marinadrk",
-    "value": 7
-   },
-   {
-    "name": "Piingouin.",
     "value": 7
    },
    {
@@ -346,6 +346,10 @@
     "value": 2
    },
    {
+    "name": "Piingouin.",
+    "value": 2
+   },
+   {
     "name": ":.Florence.:.",
     "value": 1
    },
@@ -375,7 +379,7 @@
   "total": [
    {
     "name": "habbo-160-3",
-    "value": 2237
+    "value": 2239
    },
    {
     "name": "BiBiCHarBo",
@@ -407,7 +411,7 @@
    },
    {
     "name": "Padre",
-    "value": 753
+    "value": 754
    },
    {
     "name": "Shizuku",
@@ -427,7 +431,7 @@
    },
    {
     "name": "dadou07",
-    "value": 547
+    "value": 548
    },
    {
     "name": "Monsieur-RF",
@@ -479,7 +483,7 @@
    },
    {
     "name": "Vyp",
-    "value": 277
+    "value": 279
    },
    {
     "name": "Proxymore",
@@ -577,7 +581,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 621
+    "value": 622
    },
    {
     "name": "halos34",
@@ -585,7 +589,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 356
+    "value": 358
    },
    {
     "name": "marinadrk",
@@ -597,7 +601,7 @@
    },
    {
     "name": "Vyp",
-    "value": 277
+    "value": 279
    },
    {
     "name": "Icarem",
@@ -629,7 +633,7 @@
    },
    {
     "name": "dadou07",
-    "value": 194
+    "value": 195
    },
    {
     "name": "Monsieur-RF",
