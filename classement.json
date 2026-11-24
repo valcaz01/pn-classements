@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T01:52:37+00:00",
+ "updated": "2026-11-24T01:54:37+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -479,7 +479,7 @@
    },
    {
     "name": "tiff34",
-    "value": 163
+    "value": 165
    },
    {
     "name": "MagicalArt",
@@ -568,15 +568,15 @@
     "value": 199
    },
    {
+    "name": "tiff34",
+    "value": 165
+   },
+   {
     "name": "fym",
     "value": 164
    },
    {
     "name": "Mr.Dino",
-    "value": 163
-   },
-   {
-    "name": "tiff34",
     "value": 163
    },
    {
