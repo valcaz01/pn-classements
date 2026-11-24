@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T18:02:46+00:00",
+ "updated": "2026-11-24T18:04:38+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -375,7 +375,7 @@
   "total": [
    {
     "name": "habbo-160-3",
-    "value": 2199
+    "value": 2201
    },
    {
     "name": "BiBiCHarBo",
@@ -411,7 +411,7 @@
    },
    {
     "name": "Padre",
-    "value": 714
+    "value": 716
    },
    {
     "name": "Astreu",
@@ -435,7 +435,7 @@
    },
    {
     "name": "dadou07",
-    "value": 518
+    "value": 519
    },
    {
     "name": ".Libellule",
@@ -459,11 +459,11 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 384
+    "value": 386
    },
    {
     "name": "Hectorr",
-    "value": 350
+    "value": 352
    },
    {
     "name": "Fleabag",
@@ -491,7 +491,7 @@
    },
    {
     "name": "Postillon",
-    "value": 243
+    "value": 245
    },
    {
     "name": "tiff34",
@@ -543,7 +543,7 @@
    },
    {
     "name": "Imondi",
-    "value": 78
+    "value": 80
    },
    {
     "name": "Piingouin.",
@@ -577,7 +577,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 582
+    "value": 584
    },
    {
     "name": "halos34",
@@ -589,7 +589,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 318
+    "value": 320
    },
    {
     "name": "Pantheon_",
@@ -609,15 +609,15 @@
    },
    {
     "name": "Mr.Dino",
+    "value": 204
+   },
+   {
+    "name": "Hectorr",
     "value": 202
    },
    {
     "name": "Lewddon",
     "value": 201
-   },
-   {
-    "name": "Hectorr",
-    "value": 200
    },
    {
     "name": "andrew16a",
@@ -636,12 +636,12 @@
     "value": 183
    },
    {
-    "name": "fym",
+    "name": "dadou07",
     "value": 164
    },
    {
-    "name": "dadou07",
-    "value": 163
+    "name": "fym",
+    "value": 164
    },
    {
     "name": "apo4020",
@@ -689,7 +689,7 @@
    },
    {
     "name": "Postillon",
-    "value": 64
+    "value": 66
    },
    {
     "name": "Leif",
@@ -732,11 +732,11 @@
     "value": 13
    },
    {
-    "name": ":.Florence.:.",
-    "value": 10
+    "name": "Imondi",
+    "value": 12
    },
    {
-    "name": "Imondi",
+    "name": ":.Florence.:.",
     "value": 10
    },
    {
