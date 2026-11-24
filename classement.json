@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T15:40:38+00:00",
+ "updated": "2026-11-24T15:42:38+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -367,7 +367,7 @@
   "total": [
    {
     "name": "habbo-160-3",
-    "value": 2173
+    "value": 2175
    },
    {
     "name": "BiBiCHarBo",
@@ -383,7 +383,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 1196
+    "value": 1197
    },
    {
     "name": "halos34",
@@ -391,7 +391,7 @@
    },
    {
     "name": "Icarem",
-    "value": 943
+    "value": 945
    },
    {
     "name": "Shizuku",
@@ -403,7 +403,7 @@
    },
    {
     "name": "Padre",
-    "value": 630
+    "value": 632
    },
    {
     "name": "Astreu",
@@ -415,27 +415,27 @@
    },
    {
     "name": "Lewddon",
-    "value": 542
+    "value": 544
+   },
+   {
+    "name": "Monsieur-RF",
+    "value": 526
    },
    {
     "name": "charlie-XCX123",
     "value": 525
    },
    {
-    "name": "Monsieur-RF",
-    "value": 524
-   },
-   {
     "name": "habbo22t",
     "value": 484
    },
    {
-    "name": "dadou07",
-    "value": 455
+    "name": ".Libellule",
+    "value": 456
    },
    {
-    "name": ".Libellule",
-    "value": 454
+    "name": "dadou07",
+    "value": 455
    },
    {
     "name": "Mi,hermano",
@@ -569,7 +569,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 498
+    "value": 500
    },
    {
     "name": "halos34",
@@ -581,19 +581,19 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 292
+    "value": 294
    },
    {
     "name": "Pantheon_",
-    "value": 262
+    "value": 263
+   },
+   {
+    "name": "Icarem",
+    "value": 253
    },
    {
     "name": "Vyp",
     "value": 252
-   },
-   {
-    "name": "Icarem",
-    "value": 251
    },
    {
     "name": "tiff34",
@@ -609,7 +609,7 @@
    },
    {
     "name": "Lewddon",
-    "value": 187
+    "value": 189
    },
    {
     "name": "Lovepanda",
@@ -617,7 +617,7 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 169
+    "value": 171
    },
    {
     "name": "fym",
@@ -633,7 +633,7 @@
    },
    {
     "name": ".Libellule",
-    "value": 125
+    "value": 127
    },
    {
     "name": "Shizuku",
@@ -749,6 +749,10 @@
    },
    {
     "name": ".:Krustiz:.",
+    "value": 1
+   },
+   {
+    "name": "Richesse",
     "value": 1
    }
   ]
