@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T19:22:40+00:00",
+ "updated": "2026-11-24T19:24:39+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -391,7 +391,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 1250
+    "value": 1252
    },
    {
     "name": "marinadrk",
@@ -407,7 +407,7 @@
    },
    {
     "name": "Padre",
-    "value": 789
+    "value": 791
    },
    {
     "name": "Lovepanda",
@@ -455,7 +455,7 @@
    },
    {
     "name": "_.Flora._",
-    "value": 421
+    "value": 422
    },
    {
     "name": "flo578",
@@ -535,11 +535,11 @@
    },
    {
     "name": "Piingouin.",
-    "value": 109
+    "value": 110
    },
    {
     "name": "Richesse",
-    "value": 106
+    "value": 108
    },
    {
     "name": ".:Krustiz:.",
@@ -581,7 +581,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 658
+    "value": 660
    },
    {
     "name": "halos34",
@@ -597,7 +597,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 316
+    "value": 318
    },
    {
     "name": "Vyp",
@@ -657,7 +657,7 @@
    },
    {
     "name": "_.Flora._",
-    "value": 120
+    "value": 121
    },
    {
     "name": "SuzieOuistiti!",
@@ -669,7 +669,7 @@
    },
    {
     "name": "Richesse",
-    "value": 106
+    "value": 108
    },
    {
     "name": "sami75.19",
@@ -712,11 +712,11 @@
     "value": 42
    },
    {
-    "name": "Lunatic...",
-    "value": 32
+    "name": "Piingouin.",
+    "value": 33
    },
    {
-    "name": "Piingouin.",
+    "name": "Lunatic...",
     "value": 32
    },
    {
@@ -772,11 +772,11 @@
     "value": 4
    },
    {
-    "name": "BOuclette.13",
-    "value": 3
+    "name": "toutoune-09",
+    "value": 4
    },
    {
-    "name": "Nocif",
+    "name": "BOuclette.13",
     "value": 3
    }
   ]
