@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T15:14:36+00:00",
+ "updated": "2026-11-24T15:16:36+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -367,7 +367,7 @@
   "total": [
    {
     "name": "habbo-160-3",
-    "value": 2147
+    "value": 2149
    },
    {
     "name": "BiBiCHarBo",
@@ -383,7 +383,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 1172
+    "value": 1173
    },
    {
     "name": "halos34",
@@ -399,7 +399,7 @@
    },
    {
     "name": "Lovepanda",
-    "value": 723
+    "value": 725
    },
    {
     "name": "Astreu",
@@ -407,7 +407,7 @@
    },
    {
     "name": "Padre",
-    "value": 613
+    "value": 615
    },
    {
     "name": "andrew16a",
@@ -423,7 +423,7 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 515
+    "value": 517
    },
    {
     "name": "habbo22t",
@@ -431,7 +431,7 @@
    },
    {
     "name": "dadou07",
-    "value": 437
+    "value": 439
    },
    {
     "name": ".Libellule",
@@ -491,7 +491,7 @@
    },
    {
     "name": "tiff34",
-    "value": 227
+    "value": 228
    },
    {
     "name": "-Tsukiri-",
@@ -573,7 +573,7 @@
    },
    {
     "name": "Padre",
-    "value": 481
+    "value": 483
    },
    {
     "name": "marinadrk",
@@ -581,7 +581,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 266
+    "value": 268
    },
    {
     "name": "Vyp",
@@ -589,7 +589,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 238
+    "value": 239
    },
    {
     "name": "Icarem",
@@ -597,7 +597,7 @@
    },
    {
     "name": "tiff34",
-    "value": 227
+    "value": 228
    },
    {
     "name": "andrew16a",
@@ -608,12 +608,12 @@
     "value": 192
    },
    {
-    "name": "Lewddon",
-    "value": 167
+    "name": "Lovepanda",
+    "value": 168
    },
    {
-    "name": "Lovepanda",
-    "value": 166
+    "name": "Lewddon",
+    "value": 167
    },
    {
     "name": "fym",
@@ -621,7 +621,7 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 160
+    "value": 162
    },
    {
     "name": "Hectorr",
@@ -656,12 +656,12 @@
     "value": 87
    },
    {
-    "name": "charlie-XCX123",
-    "value": 83
+    "name": "dadou07",
+    "value": 84
    },
    {
-    "name": "dadou07",
-    "value": 82
+    "name": "charlie-XCX123",
+    "value": 83
    },
    {
     "name": "flo578",
@@ -745,6 +745,10 @@
    },
    {
     "name": ".:Krustiz:.",
+    "value": 1
+   },
+   {
+    "name": "BOuclette.13",
     "value": 1
    }
   ]
