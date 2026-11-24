@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T21:16:38+00:00",
+ "updated": "2026-11-24T21:18:36+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -144,6 +144,10 @@
     "value": 7
    },
    {
+    "name": "---Jayden---",
+    "value": 5
+   },
+   {
     "name": "apo4020",
     "value": 5
    },
@@ -162,10 +166,6 @@
    {
     "name": "Padre",
     "value": 5
-   },
-   {
-    "name": "---Jayden---",
-    "value": 4
    },
    {
     "name": "-Tsukiri-",
@@ -278,6 +278,10 @@
     "value": 7
    },
    {
+    "name": "---Jayden---",
+    "value": 5
+   },
+   {
     "name": ".Dylan.",
     "value": 5
    },
@@ -304,10 +308,6 @@
    {
     "name": "Postillon",
     "value": 5
-   },
-   {
-    "name": "---Jayden---",
-    "value": 4
    },
    {
     "name": ".:Krustiz:.",
@@ -407,7 +407,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 1355
+    "value": 1357
    },
    {
     "name": "fym",
@@ -415,7 +415,7 @@
    },
    {
     "name": "marinadrk",
-    "value": 1267
+    "value": 1268
    },
    {
     "name": "Icarem",
@@ -427,7 +427,7 @@
    },
    {
     "name": "Padre",
-    "value": 895
+    "value": 897
    },
    {
     "name": "Shizuku",
@@ -435,7 +435,7 @@
    },
    {
     "name": "Lovepanda",
-    "value": 778
+    "value": 779
    },
    {
     "name": "Astreu",
@@ -443,7 +443,7 @@
    },
    {
     "name": "dadou07",
-    "value": 584
+    "value": 586
    },
    {
     "name": "andrew16a",
@@ -455,7 +455,7 @@
    },
    {
     "name": "charlie-XCX123",
-    "value": 545
+    "value": 547
    },
    {
     "name": "Monsieur-RF",
@@ -601,7 +601,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 764
+    "value": 766
    },
    {
     "name": "halos34",
@@ -609,7 +609,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 421
+    "value": 423
    },
    {
     "name": "habbo-160-3",
@@ -617,7 +617,7 @@
    },
    {
     "name": "marinadrk",
-    "value": 361
+    "value": 362
    },
    {
     "name": "Icarem",
@@ -637,11 +637,11 @@
    },
    {
     "name": "dadou07",
-    "value": 232
+    "value": 234
    },
    {
     "name": "Lovepanda",
-    "value": 221
+    "value": 222
    },
    {
     "name": "andrew16a",
@@ -692,12 +692,12 @@
     "value": 114
    },
    {
-    "name": "Kouukii",
-    "value": 104
+    "name": "charlie-XCX123",
+    "value": 105
    },
    {
-    "name": "charlie-XCX123",
-    "value": 103
+    "name": "Kouukii",
+    "value": 104
    },
    {
     "name": "sami75.19",
@@ -757,7 +757,7 @@
    },
    {
     "name": "Seew-",
-    "value": 14
+    "value": 16
    },
    {
     "name": "Imondi",
