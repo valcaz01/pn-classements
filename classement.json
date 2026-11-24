@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T16:06:37+00:00",
+ "updated": "2026-11-24T16:09:08+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -387,11 +387,11 @@
    },
    {
     "name": "Pantheon_",
-    "value": 1202
+    "value": 1205
    },
    {
     "name": "halos34",
-    "value": 981
+    "value": 984
    },
    {
     "name": "Icarem",
@@ -435,7 +435,7 @@
    },
    {
     "name": ".Libellule",
-    "value": 478
+    "value": 481
    },
    {
     "name": "dadou07",
@@ -519,7 +519,7 @@
    },
    {
     "name": "SuzieOuistiti!",
-    "value": 110
+    "value": 112
    },
    {
     "name": ".:Krustiz:.",
@@ -577,7 +577,7 @@
    },
    {
     "name": "halos34",
-    "value": 498
+    "value": 501
    },
    {
     "name": "marinadrk",
@@ -589,7 +589,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 268
+    "value": 271
    },
    {
     "name": "Icarem",
@@ -633,7 +633,7 @@
    },
    {
     "name": ".Libellule",
-    "value": 149
+    "value": 152
    },
    {
     "name": "apo4020",
@@ -649,7 +649,7 @@
    },
    {
     "name": "SuzieOuistiti!",
-    "value": 102
+    "value": 104
    },
    {
     "name": "dadou07",
@@ -704,11 +704,11 @@
     "value": 28
    },
    {
-    "name": "MrDrMathieu1990",
-    "value": 24
+    "name": "Richesse",
+    "value": 26
    },
    {
-    "name": "Richesse",
+    "name": "MrDrMathieu1990",
     "value": 24
    },
    {
@@ -740,6 +740,10 @@
     "value": 4
    },
    {
+    "name": "girly12",
+    "value": 4
+   },
+   {
     "name": "guest77145",
     "value": 4
    },
@@ -754,10 +758,6 @@
    {
     "name": "Nocif",
     "value": 3
-   },
-   {
-    "name": "girly12",
-    "value": 2
    },
    {
     "name": "MagicalArt",
