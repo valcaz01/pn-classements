@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T12:28:35+00:00",
+ "updated": "2026-11-24T12:30:35+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -88,6 +88,10 @@
     "value": 17
    },
    {
+    "name": "Mi,hermano",
+    "value": 15
+   },
+   {
     "name": "Mr.Dino",
     "value": 15
    },
@@ -98,10 +102,6 @@
    {
     "name": "Monsieur-RF",
     "value": 14
-   },
-   {
-    "name": "Mi,hermano",
-    "value": 12
    },
    {
     "name": "Postillon",
@@ -246,6 +246,10 @@
     "value": 7
    },
    {
+    "name": "Mi,hermano",
+    "value": 7
+   },
+   {
     "name": "Shizuku",
     "value": 7
    },
@@ -271,10 +275,6 @@
    },
    {
     "name": "apo4020",
-    "value": 4
-   },
-   {
-    "name": "Mi,hermano",
     "value": 4
    },
    {
@@ -379,7 +379,7 @@
    },
    {
     "name": "halos34",
-    "value": 963
+    "value": 964
    },
    {
     "name": "Icarem",
@@ -439,7 +439,7 @@
    },
    {
     "name": "_.Flora._",
-    "value": 377
+    "value": 379
    },
    {
     "name": "Mr.Dino",
@@ -459,7 +459,7 @@
    },
    {
     "name": "gotica",
-    "value": 290
+    "value": 292
    },
    {
     "name": "Proxymore",
@@ -561,7 +561,7 @@
   "week": [
    {
     "name": "halos34",
-    "value": 480
+    "value": 481
    },
    {
     "name": "Padre",
@@ -645,7 +645,7 @@
    },
    {
     "name": "_.Flora._",
-    "value": 76
+    "value": 78
    },
    {
     "name": "flo578",
@@ -689,7 +689,7 @@
    },
    {
     "name": "gotica",
-    "value": 20
+    "value": 22
    },
    {
     "name": "CovidJr",
