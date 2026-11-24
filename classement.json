@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T20:54:38+00:00",
+ "updated": "2026-11-24T20:57:07+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -395,7 +395,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 1333
+    "value": 1336
    },
    {
     "name": "fym",
@@ -403,7 +403,7 @@
    },
    {
     "name": "marinadrk",
-    "value": 1245
+    "value": 1248
    },
    {
     "name": "Icarem",
@@ -415,7 +415,7 @@
    },
    {
     "name": "Padre",
-    "value": 875
+    "value": 878
    },
    {
     "name": "Shizuku",
@@ -431,11 +431,11 @@
    },
    {
     "name": "dadou07",
-    "value": 569
+    "value": 572
    },
    {
     "name": "andrew16a",
-    "value": 556
+    "value": 558
    },
    {
     "name": "Lewddon",
@@ -463,11 +463,11 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 445
+    "value": 448
    },
    {
     "name": "_.Flora._",
-    "value": 437
+    "value": 439
    },
    {
     "name": "flo578",
@@ -589,7 +589,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 744
+    "value": 747
    },
    {
     "name": "halos34",
@@ -597,7 +597,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 399
+    "value": 402
    },
    {
     "name": "habbo-160-3",
@@ -605,7 +605,7 @@
    },
    {
     "name": "marinadrk",
-    "value": 339
+    "value": 342
    },
    {
     "name": "Icarem",
@@ -617,23 +617,23 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 263
+    "value": 266
    },
    {
     "name": "tiff34",
     "value": 263
    },
    {
+    "name": "dadou07",
+    "value": 220
+   },
+   {
     "name": "Lovepanda",
     "value": 219
    },
    {
-    "name": "dadou07",
-    "value": 217
-   },
-   {
     "name": "andrew16a",
-    "value": 204
+    "value": 206
    },
    {
     "name": "Hectorr",
@@ -664,12 +664,12 @@
     "value": 151
    },
    {
-    "name": "---Jayden---",
-    "value": 137
+    "name": "_.Flora._",
+    "value": 138
    },
    {
-    "name": "_.Flora._",
-    "value": 136
+    "name": "---Jayden---",
+    "value": 137
    },
    {
     "name": "SuzieOuistiti!",
@@ -756,6 +756,10 @@
     "value": 10
    },
    {
+    "name": "Seew-",
+    "value": 7
+   },
+   {
     "name": "toutoune-09",
     "value": 6
    },
@@ -781,10 +785,6 @@
    },
    {
     "name": "guest77145",
-    "value": 4
-   },
-   {
-    "name": "Seew-",
     "value": 4
    }
   ]
