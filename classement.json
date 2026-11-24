@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T23:38:38+00:00",
+ "updated": "2026-11-24T23:40:37+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -411,7 +411,7 @@
   "total": [
    {
     "name": "habbo-160-3",
-    "value": 2326
+    "value": 2328
    },
    {
     "name": "BiBiCHarBo",
@@ -451,7 +451,7 @@
    },
    {
     "name": "Astreu",
-    "value": 671
+    "value": 673
    },
    {
     "name": "dadou07",
@@ -499,7 +499,7 @@
    },
    {
     "name": "Hectorr",
-    "value": 410
+    "value": 412
    },
    {
     "name": "Fleabag",
@@ -514,12 +514,12 @@
     "value": 307
    },
    {
-    "name": "gotica",
-    "value": 300
+    "name": "Proxymore",
+    "value": 301
    },
    {
-    "name": "Proxymore",
-    "value": 299
+    "name": "gotica",
+    "value": 300
    },
    {
     "name": "tiff34",
@@ -625,7 +625,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 445
+    "value": 447
    },
    {
     "name": "marinadrk",
@@ -649,7 +649,7 @@
    },
    {
     "name": "Hectorr",
-    "value": 260
+    "value": 262
    },
    {
     "name": "dadou07",
@@ -736,12 +736,12 @@
     "value": 61
    },
    {
-    "name": "LorenzoVisconti",
-    "value": 47
+    "name": "Astreu",
+    "value": 48
    },
    {
-    "name": "Astreu",
-    "value": 46
+    "name": "LorenzoVisconti",
+    "value": 47
    },
    {
     "name": "-Massimo-",
@@ -756,6 +756,10 @@
     "value": 35
    },
    {
+    "name": "girly12",
+    "value": 33
+   },
+   {
     "name": "Piingouin.",
     "value": 33
    },
@@ -764,19 +768,15 @@
     "value": 32
    },
    {
-    "name": "girly12",
-    "value": 31
-   },
-   {
     "name": "gotica",
     "value": 30
    },
    {
-    "name": "MrDrMathieu1990",
-    "value": 24
+    "name": "Proxymore",
+    "value": 26
    },
    {
-    "name": "Proxymore",
+    "name": "MrDrMathieu1990",
     "value": 24
    },
    {
