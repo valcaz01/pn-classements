@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T07:36:37+00:00",
+ "updated": "2026-11-24T07:38:36+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -144,6 +144,10 @@
     "value": 4
    },
    {
+    "name": "apo4020",
+    "value": 4
+   },
+   {
     "name": "dadou07",
     "value": 4
    },
@@ -198,10 +202,6 @@
    {
     "name": "Sciel",
     "value": 3
-   },
-   {
-    "name": "-Oiseau",
-    "value": 2
    }
   ],
   "week": [
@@ -266,6 +266,10 @@
     "value": 4
    },
    {
+    "name": "apo4020",
+    "value": 4
+   },
+   {
     "name": "Pantheon_",
     "value": 4
    },
@@ -304,10 +308,6 @@
    {
     "name": "Monsieur-RF",
     "value": 3
-   },
-   {
-    "name": "apo4020",
-    "value": 2
    },
    {
     "name": "CovidJr",
@@ -367,7 +367,7 @@
    },
    {
     "name": "halos34",
-    "value": 859
+    "value": 861
    },
    {
     "name": "Icarem",
@@ -475,7 +475,7 @@
    },
    {
     "name": "Postillon",
-    "value": 193
+    "value": 194
    },
    {
     "name": "irysse",
@@ -553,7 +553,7 @@
    },
    {
     "name": "halos34",
-    "value": 376
+    "value": 378
    },
    {
     "name": "marinadrk",
@@ -677,7 +677,7 @@
    },
    {
     "name": "Postillon",
-    "value": 14
+    "value": 15
    },
    {
     "name": "gotica",
