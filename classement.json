@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T20:48:37+00:00",
+ "updated": "2026-11-24T20:50:38+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -64,15 +64,15 @@
     "value": 23
    },
    {
+    "name": "andrew16a",
+    "value": 21
+   },
+   {
     "name": "Non-Non",
     "value": 21
    },
    {
     "name": "_.Flora._",
-    "value": 20
-   },
-   {
-    "name": "andrew16a",
     "value": 20
    },
    {
@@ -274,11 +274,11 @@
     "value": 7
    },
    {
-    "name": ".Dylan.",
-    "value": 5
+    "name": "andrew16a",
+    "value": 6
    },
    {
-    "name": "andrew16a",
+    "name": ".Dylan.",
     "value": 5
    },
    {
@@ -362,6 +362,10 @@
     "value": 2
    },
    {
+    "name": "Lord_Fullbody",
+    "value": 1
+   },
+   {
     "name": "MelMlrr",
     "value": 1
    },
@@ -391,7 +395,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 1327
+    "value": 1329
    },
    {
     "name": "fym",
@@ -399,7 +403,7 @@
    },
    {
     "name": "marinadrk",
-    "value": 1239
+    "value": 1241
    },
    {
     "name": "Icarem",
@@ -411,7 +415,7 @@
    },
    {
     "name": "Padre",
-    "value": 870
+    "value": 872
    },
    {
     "name": "Shizuku",
@@ -435,7 +439,7 @@
    },
    {
     "name": "andrew16a",
-    "value": 551
+    "value": 552
    },
    {
     "name": "Monsieur-RF",
@@ -443,7 +447,7 @@
    },
    {
     "name": "charlie-XCX123",
-    "value": 527
+    "value": 528
    },
    {
     "name": ".Libellule",
@@ -459,11 +463,11 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 440
+    "value": 441
    },
    {
     "name": "_.Flora._",
-    "value": 432
+    "value": 433
    },
    {
     "name": "flo578",
@@ -585,7 +589,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 739
+    "value": 741
    },
    {
     "name": "halos34",
@@ -593,7 +597,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 393
+    "value": 395
    },
    {
     "name": "habbo-160-3",
@@ -601,7 +605,7 @@
    },
    {
     "name": "marinadrk",
-    "value": 333
+    "value": 335
    },
    {
     "name": "Icarem",
@@ -617,7 +621,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 258
+    "value": 259
    },
    {
     "name": "Lovepanda",
@@ -637,7 +641,7 @@
    },
    {
     "name": "andrew16a",
-    "value": 199
+    "value": 200
    },
    {
     "name": "Monsieur-RF",
@@ -665,7 +669,7 @@
    },
    {
     "name": "_.Flora._",
-    "value": 131
+    "value": 132
    },
    {
     "name": "SuzieOuistiti!",
@@ -693,7 +697,7 @@
    },
    {
     "name": "charlie-XCX123",
-    "value": 85
+    "value": 86
    },
    {
     "name": "Postillon",
