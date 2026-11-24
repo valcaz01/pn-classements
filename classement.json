@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T11:22:36+00:00",
+ "updated": "2026-11-24T11:24:35+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -116,6 +116,10 @@
     "value": 8
    },
    {
+    "name": "Lewddon",
+    "value": 8
+   },
+   {
     "name": "Weavem",
     "value": 8
    },
@@ -134,10 +138,6 @@
    {
     "name": "tiff34",
     "value": 6
-   },
-   {
-    "name": "Lewddon",
-    "value": 5
    },
    {
     "name": "---Jayden---",
@@ -298,6 +298,10 @@
     "value": 3
    },
    {
+    "name": "Lewddon",
+    "value": 3
+   },
+   {
     "name": "LorenzoVisconti",
     "value": 3
    },
@@ -375,11 +379,11 @@
    },
    {
     "name": "halos34",
-    "value": 924
+    "value": 926
    },
    {
     "name": "Icarem",
-    "value": 863
+    "value": 865
    },
    {
     "name": "Shizuku",
@@ -435,11 +439,11 @@
    },
    {
     "name": "_.Flora._",
-    "value": 372
+    "value": 374
    },
    {
     "name": "Mr.Dino",
-    "value": 349
+    "value": 351
    },
    {
     "name": "Fleabag",
@@ -557,7 +561,7 @@
   "week": [
    {
     "name": "halos34",
-    "value": 441
+    "value": 443
    },
    {
     "name": "Padre",
@@ -585,11 +589,11 @@
    },
    {
     "name": "Icarem",
-    "value": 171
+    "value": 173
    },
    {
     "name": "Mr.Dino",
-    "value": 167
+    "value": 169
    },
    {
     "name": "fym",
@@ -640,12 +644,12 @@
     "value": 80
    },
    {
-    "name": "flo578",
+    "name": "_.Flora._",
     "value": 73
    },
    {
-    "name": "_.Flora._",
-    "value": 71
+    "name": "flo578",
+    "value": 73
    },
    {
     "name": "Leif",
