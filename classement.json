@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T16:56:39+00:00",
+ "updated": "2026-11-24T16:58:39+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -391,7 +391,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 1225
+    "value": 1227
    },
    {
     "name": "halos34",
@@ -411,7 +411,7 @@
    },
    {
     "name": "Padre",
-    "value": 656
+    "value": 658
    },
    {
     "name": "Astreu",
@@ -435,15 +435,15 @@
    },
    {
     "name": ".Libellule",
-    "value": 501
+    "value": 503
    },
    {
     "name": "habbo22t",
-    "value": 494
+    "value": 497
    },
    {
     "name": "dadou07",
-    "value": 470
+    "value": 472
    },
    {
     "name": "Mi,hermano",
@@ -547,7 +547,7 @@
    },
    {
     "name": "Kouukii",
-    "value": 70
+    "value": 72
    },
    {
     "name": "Imondi",
@@ -577,7 +577,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 524
+    "value": 526
    },
    {
     "name": "halos34",
@@ -593,7 +593,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 291
+    "value": 293
    },
    {
     "name": "Icarem",
@@ -633,7 +633,7 @@
    },
    {
     "name": ".Libellule",
-    "value": 172
+    "value": 174
    },
    {
     "name": "fym",
@@ -649,7 +649,7 @@
    },
    {
     "name": "dadou07",
-    "value": 115
+    "value": 117
    },
    {
     "name": "SuzieOuistiti!",
@@ -677,11 +677,15 @@
    },
    {
     "name": "Kouukii",
-    "value": 70
+    "value": 72
    },
    {
     "name": "Leif",
     "value": 61
+   },
+   {
+    "name": "Richesse",
+    "value": 49
    },
    {
     "name": "LorenzoVisconti",
@@ -692,16 +696,12 @@
     "value": 47
    },
    {
-    "name": "Richesse",
-    "value": 47
-   },
-   {
     "name": "-Massimo-",
     "value": 43
    },
    {
     "name": "habbo22t",
-    "value": 38
+    "value": 41
    },
    {
     "name": "Postillon",
@@ -732,6 +732,10 @@
     "value": 10
    },
    {
+    "name": "Lunatic...",
+    "value": 6
+   },
+   {
     "name": "irysse",
     "value": 5
    },
@@ -749,10 +753,6 @@
    },
    {
     "name": "guest77145",
-    "value": 4
-   },
-   {
-    "name": "Lunatic...",
     "value": 4
    },
    {
