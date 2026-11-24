@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T17:14:37+00:00",
+ "updated": "2026-11-24T17:16:37+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -168,6 +168,10 @@
     "value": 4
    },
    {
+    "name": "Padre",
+    "value": 4
+   },
+   {
     "name": "SMPSHomer",
     "value": 4
    },
@@ -189,10 +193,6 @@
    },
    {
     "name": "MagicalArt",
-    "value": 3
-   },
-   {
-    "name": "Padre",
     "value": 3
    },
    {
@@ -338,6 +338,10 @@
     "value": 2
    },
    {
+    "name": "Padre",
+    "value": 2
+   },
+   {
     "name": "Postillon",
     "value": 2
    },
@@ -355,10 +359,6 @@
    },
    {
     "name": "MrDrMathieu1990",
-    "value": 1
-   },
-   {
-    "name": "Padre",
     "value": 1
    },
    {
@@ -411,7 +411,7 @@
    },
    {
     "name": "Padre",
-    "value": 674
+    "value": 675
    },
    {
     "name": "Astreu",
@@ -443,11 +443,11 @@
    },
    {
     "name": "dadou07",
-    "value": 485
+    "value": 487
    },
    {
     "name": "Mi,hermano",
-    "value": 421
+    "value": 423
    },
    {
     "name": "_.Flora._",
@@ -462,12 +462,12 @@
     "value": 374
    },
    {
-    "name": "Fleabag",
-    "value": 327
+    "name": "Hectorr",
+    "value": 328
    },
    {
-    "name": "Hectorr",
-    "value": 326
+    "name": "Fleabag",
+    "value": 327
    },
    {
     "name": "Non-Non",
@@ -503,7 +503,7 @@
    },
    {
     "name": "Postillon",
-    "value": 217
+    "value": 219
    },
    {
     "name": "-Tsukiri-",
@@ -555,7 +555,7 @@
    },
    {
     "name": "Richesse",
-    "value": 62
+    "value": 64
    },
    {
     "name": "Leif",
@@ -577,7 +577,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 542
+    "value": 543
    },
    {
     "name": "halos34",
@@ -633,7 +633,7 @@
    },
    {
     "name": "Hectorr",
-    "value": 176
+    "value": 178
    },
    {
     "name": "fym",
@@ -645,7 +645,7 @@
    },
    {
     "name": "dadou07",
-    "value": 130
+    "value": 132
    },
    {
     "name": "---Jayden---",
@@ -681,7 +681,7 @@
    },
    {
     "name": "Richesse",
-    "value": 62
+    "value": 64
    },
    {
     "name": "Leif",
@@ -689,7 +689,7 @@
    },
    {
     "name": "Mi,hermano",
-    "value": 59
+    "value": 61
    },
    {
     "name": "LorenzoVisconti",
@@ -705,7 +705,7 @@
    },
    {
     "name": "Postillon",
-    "value": 38
+    "value": 40
    },
    {
     "name": "gotica",
