@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T20:42:38+00:00",
+ "updated": "2026-11-24T20:44:38+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -72,12 +72,12 @@
     "value": 20
    },
    {
-    "name": "Proxymore",
+    "name": "andrew16a",
     "value": 20
    },
    {
-    "name": "andrew16a",
-    "value": 19
+    "name": "Proxymore",
+    "value": 20
    },
    {
     "name": "habbo22t",
@@ -278,6 +278,10 @@
     "value": 5
    },
    {
+    "name": "andrew16a",
+    "value": 5
+   },
+   {
     "name": "apo4020",
     "value": 5
    },
@@ -303,10 +307,6 @@
    },
    {
     "name": ".:Krustiz:.",
-    "value": 4
-   },
-   {
-    "name": "andrew16a",
     "value": 4
    },
    {
@@ -383,7 +383,7 @@
   "total": [
    {
     "name": "habbo-160-3",
-    "value": 2259
+    "value": 2261
    },
    {
     "name": "BiBiCHarBo",
@@ -391,7 +391,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 1321
+    "value": 1323
    },
    {
     "name": "fym",
@@ -399,7 +399,7 @@
    },
    {
     "name": "marinadrk",
-    "value": 1234
+    "value": 1235
    },
    {
     "name": "Icarem",
@@ -411,7 +411,7 @@
    },
    {
     "name": "Padre",
-    "value": 865
+    "value": 867
    },
    {
     "name": "Shizuku",
@@ -427,7 +427,7 @@
    },
    {
     "name": "dadou07",
-    "value": 563
+    "value": 564
    },
    {
     "name": "Lewddon",
@@ -459,11 +459,11 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 437
+    "value": 438
    },
    {
     "name": "_.Flora._",
-    "value": 426
+    "value": 428
    },
    {
     "name": "flo578",
@@ -585,7 +585,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 734
+    "value": 736
    },
    {
     "name": "halos34",
@@ -593,15 +593,15 @@
    },
    {
     "name": "Pantheon_",
-    "value": 387
+    "value": 389
    },
    {
     "name": "habbo-160-3",
-    "value": 378
+    "value": 380
    },
    {
     "name": "marinadrk",
-    "value": 328
+    "value": 329
    },
    {
     "name": "Icarem",
@@ -617,7 +617,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 255
+    "value": 256
    },
    {
     "name": "Lovepanda",
@@ -625,7 +625,7 @@
    },
    {
     "name": "dadou07",
-    "value": 211
+    "value": 212
    },
    {
     "name": "Hectorr",
@@ -665,7 +665,7 @@
    },
    {
     "name": "_.Flora._",
-    "value": 125
+    "value": 127
    },
    {
     "name": "SuzieOuistiti!",
