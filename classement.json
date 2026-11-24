@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T16:44:37+00:00",
+ "updated": "2026-11-24T16:47:07+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -72,15 +72,15 @@
     "value": 20
    },
    {
+    "name": "habbo22t",
+    "value": 19
+   },
+   {
     "name": "_.Flora._",
     "value": 18
    },
    {
     "name": "andrew16a",
-    "value": 18
-   },
-   {
-    "name": "habbo22t",
     "value": 18
    },
    {
@@ -294,6 +294,10 @@
     "value": 4
    },
    {
+    "name": "habbo22t",
+    "value": 4
+   },
+   {
     "name": ".:Krustiz:.",
     "value": 3
    },
@@ -303,10 +307,6 @@
    },
    {
     "name": "andrew16a",
-    "value": 3
-   },
-   {
-    "name": "habbo22t",
     "value": 3
    },
    {
@@ -391,11 +391,11 @@
    },
    {
     "name": "Pantheon_",
-    "value": 1214
+    "value": 1216
    },
    {
     "name": "halos34",
-    "value": 984
+    "value": 987
    },
    {
     "name": "Icarem",
@@ -411,7 +411,7 @@
    },
    {
     "name": "Padre",
-    "value": 644
+    "value": 646
    },
    {
     "name": "Astreu",
@@ -435,15 +435,15 @@
    },
    {
     "name": ".Libellule",
-    "value": 489
+    "value": 492
    },
    {
     "name": "habbo22t",
-    "value": 484
+    "value": 485
    },
    {
     "name": "dadou07",
-    "value": 461
+    "value": 463
    },
    {
     "name": "Mi,hermano",
@@ -555,7 +555,7 @@
    },
    {
     "name": "Kouukii",
-    "value": 58
+    "value": 60
    },
    {
     "name": ".Dylan.",
@@ -577,11 +577,11 @@
   "week": [
    {
     "name": "Padre",
-    "value": 512
+    "value": 514
    },
    {
     "name": "halos34",
-    "value": 502
+    "value": 505
    },
    {
     "name": "marinadrk",
@@ -593,7 +593,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 280
+    "value": 282
    },
    {
     "name": "Icarem",
@@ -637,7 +637,7 @@
    },
    {
     "name": ".Libellule",
-    "value": 160
+    "value": 163
    },
    {
     "name": "apo4020",
@@ -656,12 +656,12 @@
     "value": 110
    },
    {
-    "name": "_.Flora._",
-    "value": 107
+    "name": "dadou07",
+    "value": 108
    },
    {
-    "name": "dadou07",
-    "value": 106
+    "name": "_.Flora._",
+    "value": 107
    },
    {
     "name": "sami75.19",
@@ -681,7 +681,7 @@
    },
    {
     "name": "Kouukii",
-    "value": 58
+    "value": 60
    },
    {
     "name": "LorenzoVisconti",
@@ -709,11 +709,11 @@
    },
    {
     "name": "habbo22t",
-    "value": 28
+    "value": 29
    },
    {
     "name": "girly12",
-    "value": 24
+    "value": 25
    },
    {
     "name": "MrDrMathieu1990",
