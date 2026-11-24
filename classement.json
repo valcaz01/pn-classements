@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T13:28:36+00:00",
+ "updated": "2026-11-24T13:30:36+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -25,7 +25,7 @@
    },
    {
     "name": ".Libellule",
-    "value": 39
+    "value": 40
    },
    {
     "name": "halos34",
@@ -230,12 +230,12 @@
     "value": 10
    },
    {
-    "name": "gotica",
+    "name": ".Libellule",
     "value": 8
    },
    {
-    "name": ".Libellule",
-    "value": 7
+    "name": "gotica",
+    "value": 8
    },
    {
     "name": "_.Flora._",
@@ -411,7 +411,7 @@
    },
    {
     "name": "Padre",
-    "value": 522
+    "value": 524
    },
    {
     "name": "Monsieur-RF",
@@ -438,12 +438,12 @@
     "value": 408
    },
    {
-    "name": "flo578",
+    "name": "dadou07",
     "value": 401
    },
    {
-    "name": "dadou07",
-    "value": 400
+    "name": "flo578",
+    "value": 401
    },
    {
     "name": "Mr.Dino",
@@ -569,7 +569,7 @@
    },
    {
     "name": "Padre",
-    "value": 389
+    "value": 391
    },
    {
     "name": "marinadrk",
@@ -677,7 +677,7 @@
    },
    {
     "name": "dadou07",
-    "value": 41
+    "value": 42
    },
    {
     "name": "Kouukii",
