@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T16:27:08+00:00",
+ "updated": "2026-11-24T16:28:37+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -37,7 +37,7 @@
    },
    {
     "name": "Shizuku",
-    "value": 34
+    "value": 35
    },
    {
     "name": "Lovepanda",
@@ -242,6 +242,10 @@
     "value": 8
    },
    {
+    "name": "Shizuku",
+    "value": 8
+   },
+   {
     "name": "_.Flora._",
     "value": 7
    },
@@ -251,10 +255,6 @@
    },
    {
     "name": "Pantheon_",
-    "value": 7
-   },
-   {
-    "name": "Shizuku",
     "value": 7
    },
    {
@@ -495,7 +495,7 @@
    },
    {
     "name": "tiff34",
-    "value": 228
+    "value": 229
    },
    {
     "name": "-Tsukiri-",
@@ -523,7 +523,7 @@
    },
    {
     "name": "---Jayden---",
-    "value": 109
+    "value": 110
    },
    {
     "name": ".:Krustiz:.",
@@ -601,7 +601,7 @@
    },
    {
     "name": "tiff34",
-    "value": 228
+    "value": 229
    },
    {
     "name": "Lewddon",
@@ -644,12 +644,12 @@
     "value": 115
    },
    {
-    "name": "Shizuku",
+    "name": "---Jayden---",
     "value": 110
    },
    {
-    "name": "---Jayden---",
-    "value": 109
+    "name": "Shizuku",
+    "value": 110
    },
    {
     "name": "_.Flora._",
@@ -684,11 +684,11 @@
     "value": 47
    },
    {
-    "name": "-Massimo-",
-    "value": 43
+    "name": "Kouukii",
+    "value": 45
    },
    {
-    "name": "Kouukii",
+    "name": "-Massimo-",
     "value": 43
    },
    {
