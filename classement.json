@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T22:24:37+00:00",
+ "updated": "2026-11-24T22:26:39+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -419,7 +419,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 1407
+    "value": 1409
    },
    {
     "name": "marinadrk",
@@ -439,7 +439,7 @@
    },
    {
     "name": "Padre",
-    "value": 959
+    "value": 961
    },
    {
     "name": "Shizuku",
@@ -523,7 +523,7 @@
    },
    {
     "name": "tiff34",
-    "value": 268
+    "value": 269
    },
    {
     "name": "-Massimo-",
@@ -598,22 +598,22 @@
     "value": 61
    },
    {
+    "name": "LouunaS",
+    "value": 60
+   },
+   {
     "name": ".Dylan.",
     "value": 59
    },
    {
     "name": "BOuclette.13",
     "value": 58
-   },
-   {
-    "name": "LouunaS",
-    "value": 58
    }
   ],
   "week": [
    {
     "name": "Padre",
-    "value": 828
+    "value": 830
    },
    {
     "name": "halos34",
@@ -621,7 +621,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 473
+    "value": 475
    },
    {
     "name": "marinadrk",
@@ -640,11 +640,11 @@
     "value": 307
    },
    {
-    "name": "Mr.Dino",
-    "value": 268
+    "name": "tiff34",
+    "value": 269
    },
    {
-    "name": "tiff34",
+    "name": "Mr.Dino",
     "value": 268
    },
    {
@@ -733,7 +733,7 @@
    },
    {
     "name": "LouunaS",
-    "value": 58
+    "value": 60
    },
    {
     "name": "LorenzoVisconti",
