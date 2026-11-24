@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T14:38:36+00:00",
+ "updated": "2026-11-24T14:40:36+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -20,12 +20,12 @@
     "value": 48
    },
    {
-    "name": "fym",
+    "name": ".Libellule",
     "value": 44
    },
    {
-    "name": ".Libellule",
-    "value": 42
+    "name": "fym",
+    "value": 44
    },
    {
     "name": "halos34",
@@ -144,6 +144,10 @@
     "value": 5
    },
    {
+    "name": "LorenzoVisconti",
+    "value": 5
+   },
+   {
     "name": "---Jayden---",
     "value": 4
    },
@@ -184,10 +188,6 @@
     "value": 3
    },
    {
-    "name": "LorenzoVisconti",
-    "value": 3
-   },
-   {
     "name": "MagicalArt",
     "value": 3
    },
@@ -223,7 +223,7 @@
    },
    {
     "name": ".Libellule",
-    "value": 10
+    "value": 12
    },
    {
     "name": "fym",
@@ -270,6 +270,10 @@
     "value": 5
    },
    {
+    "name": "LorenzoVisconti",
+    "value": 5
+   },
+   {
     "name": "Mr.Dino",
     "value": 5
    },
@@ -311,10 +315,6 @@
    },
    {
     "name": "Lewddon",
-    "value": 3
-   },
-   {
-    "name": "LorenzoVisconti",
     "value": 3
    },
    {
@@ -383,7 +383,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 1138
+    "value": 1140
    },
    {
     "name": "halos34",
@@ -391,7 +391,7 @@
    },
    {
     "name": "Icarem",
-    "value": 919
+    "value": 921
    },
    {
     "name": "Shizuku",
@@ -407,7 +407,7 @@
    },
    {
     "name": "Padre",
-    "value": 584
+    "value": 586
    },
    {
     "name": "andrew16a",
@@ -423,7 +423,7 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 501
+    "value": 503
    },
    {
     "name": "habbo22t",
@@ -431,7 +431,7 @@
    },
    {
     "name": "dadou07",
-    "value": 418
+    "value": 420
    },
    {
     "name": ".Libellule",
@@ -483,7 +483,7 @@
    },
    {
     "name": "sami75.19",
-    "value": 233
+    "value": 234
    },
    {
     "name": "Weavem",
@@ -573,7 +573,7 @@
    },
    {
     "name": "Padre",
-    "value": 452
+    "value": 454
    },
    {
     "name": "marinadrk",
@@ -589,7 +589,7 @@
    },
    {
     "name": "Icarem",
-    "value": 227
+    "value": 229
    },
    {
     "name": "tiff34",
@@ -597,7 +597,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 204
+    "value": 206
    },
    {
     "name": "andrew16a",
@@ -629,7 +629,7 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 146
+    "value": 148
    },
    {
     "name": "Shizuku",
@@ -641,7 +641,7 @@
    },
    {
     "name": "sami75.19",
-    "value": 96
+    "value": 97
    },
    {
     "name": "---Jayden---",
@@ -665,7 +665,7 @@
    },
    {
     "name": "dadou07",
-    "value": 61
+    "value": 63
    },
    {
     "name": "Leif",
@@ -732,6 +732,10 @@
     "value": 3
    },
    {
+    "name": ":.Florence.:.",
+    "value": 3
+   },
+   {
     "name": "Nocif",
     "value": 3
    },
@@ -741,10 +745,6 @@
    },
    {
     "name": ".:Krustiz:.",
-    "value": 1
-   },
-   {
-    "name": ":.Florence.:.",
     "value": 1
    }
   ]
