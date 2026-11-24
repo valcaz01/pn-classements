@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T19:00:40+00:00",
+ "updated": "2026-11-24T19:02:39+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -108,15 +108,15 @@
     "value": 15
    },
    {
+    "name": "Piingouin.",
+    "value": 11
+   },
+   {
     "name": ".Dylan.",
     "value": 10
    },
    {
     "name": "guest77145",
-    "value": 10
-   },
-   {
-    "name": "Piingouin.",
     "value": 10
    },
    {
@@ -310,6 +310,10 @@
     "value": 4
    },
    {
+    "name": "Piingouin.",
+    "value": 4
+   },
+   {
     "name": "andrew16a",
     "value": 3
    },
@@ -323,10 +327,6 @@
    },
    {
     "name": "Lewddon",
-    "value": 3
-   },
-   {
-    "name": "Piingouin.",
     "value": 3
    },
    {
@@ -391,7 +391,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 1240
+    "value": 1242
    },
    {
     "name": "marinadrk",
@@ -403,7 +403,7 @@
    },
    {
     "name": "Icarem",
-    "value": 972
+    "value": 974
    },
    {
     "name": "Lovepanda",
@@ -411,7 +411,7 @@
    },
    {
     "name": "Padre",
-    "value": 767
+    "value": 769
    },
    {
     "name": "Shizuku",
@@ -483,7 +483,7 @@
    },
    {
     "name": "Vyp",
-    "value": 292
+    "value": 294
    },
    {
     "name": "Proxymore",
@@ -581,7 +581,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 636
+    "value": 638
    },
    {
     "name": "halos34",
@@ -597,15 +597,15 @@
    },
    {
     "name": "Pantheon_",
-    "value": 306
+    "value": 308
    },
    {
     "name": "Vyp",
-    "value": 292
+    "value": 294
    },
    {
     "name": "Icarem",
-    "value": 280
+    "value": 282
    },
    {
     "name": "tiff34",
