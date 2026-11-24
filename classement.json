@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T09:04:36+00:00",
+ "updated": "2026-11-24T09:06:37+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -379,7 +379,7 @@
    },
    {
     "name": "Lovepanda",
-    "value": 686
+    "value": 687
    },
    {
     "name": "Astreu",
@@ -447,7 +447,7 @@
    },
    {
     "name": "Hectorr",
-    "value": 280
+    "value": 282
    },
    {
     "name": "Proxymore",
@@ -593,14 +593,14 @@
    },
    {
     "name": "Hectorr",
+    "value": 132
+   },
+   {
+    "name": "Lovepanda",
     "value": 130
    },
    {
     "name": "apo4020",
-    "value": 129
-   },
-   {
-    "name": "Lovepanda",
     "value": 129
    },
    {
