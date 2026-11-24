@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T19:27:10+00:00",
+ "updated": "2026-11-24T19:29:08+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -49,7 +49,7 @@
    },
    {
     "name": "flo578",
-    "value": 28
+    "value": 29
    },
    {
     "name": "Pantheon_",
@@ -242,6 +242,10 @@
     "value": 9
    },
    {
+    "name": "flo578",
+    "value": 8
+   },
+   {
     "name": "gotica",
     "value": 8
    },
@@ -256,10 +260,6 @@
    {
     "name": "Shizuku",
     "value": 8
-   },
-   {
-    "name": "flo578",
-    "value": 7
    },
    {
     "name": "SuzieOuistiti!",
@@ -391,7 +391,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 1254
+    "value": 1255
    },
    {
     "name": "marinadrk",
@@ -407,7 +407,7 @@
    },
    {
     "name": "Padre",
-    "value": 793
+    "value": 795
    },
    {
     "name": "Lovepanda",
@@ -455,7 +455,7 @@
    },
    {
     "name": "_.Flora._",
-    "value": 425
+    "value": 426
    },
    {
     "name": "flo578",
@@ -539,7 +539,7 @@
    },
    {
     "name": "Richesse",
-    "value": 107
+    "value": 108
    },
    {
     "name": ".:Krustiz:.",
@@ -581,7 +581,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 662
+    "value": 664
    },
    {
     "name": "halos34",
@@ -597,7 +597,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 320
+    "value": 321
    },
    {
     "name": "Vyp",
@@ -653,7 +653,7 @@
    },
    {
     "name": "_.Flora._",
-    "value": 124
+    "value": 125
    },
    {
     "name": "---Jayden---",
@@ -669,7 +669,7 @@
    },
    {
     "name": "Richesse",
-    "value": 107
+    "value": 108
    },
    {
     "name": "sami75.19",
