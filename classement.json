@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T20:10:37+00:00",
+ "updated": "2026-11-24T20:12:37+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -89,7 +89,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 17
+    "value": 18
    },
    {
     "name": "Mi,hermano",
@@ -109,7 +109,7 @@
    },
    {
     "name": "guest77145",
-    "value": 11
+    "value": 12
    },
    {
     "name": "Piingouin.",
@@ -267,7 +267,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 7
+    "value": 8
    },
    {
     "name": "SuzieOuistiti!",
@@ -318,6 +318,10 @@
     "value": 3
    },
    {
+    "name": "guest77145",
+    "value": 3
+   },
+   {
     "name": "Leif",
     "value": 3
    },
@@ -347,10 +351,6 @@
    },
    {
     "name": "dadou07",
-    "value": 2
-   },
-   {
-    "name": "guest77145",
     "value": 2
    },
    {
@@ -395,7 +395,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 1291
+    "value": 1293
    },
    {
     "name": "marinadrk",
@@ -411,11 +411,11 @@
    },
    {
     "name": "Padre",
-    "value": 836
+    "value": 838
    },
    {
     "name": "Shizuku",
-    "value": 775
+    "value": 777
    },
    {
     "name": "Lovepanda",
@@ -467,7 +467,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 409
+    "value": 410
    },
    {
     "name": "Hectorr",
@@ -551,7 +551,7 @@
    },
    {
     "name": "Kouukii",
-    "value": 94
+    "value": 96
    },
    {
     "name": "BnBoy",
@@ -585,7 +585,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 705
+    "value": 707
    },
    {
     "name": "halos34",
@@ -597,7 +597,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 357
+    "value": 359
    },
    {
     "name": "marinadrk",
@@ -617,7 +617,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 227
+    "value": 228
    },
    {
     "name": "Lovepanda",
@@ -657,7 +657,7 @@
    },
    {
     "name": "Shizuku",
-    "value": 143
+    "value": 145
    },
    {
     "name": "---Jayden---",
@@ -681,7 +681,7 @@
    },
    {
     "name": "Kouukii",
-    "value": 94
+    "value": 96
    },
    {
     "name": "flo578",
