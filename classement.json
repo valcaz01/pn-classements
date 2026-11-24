@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T07:42:36+00:00",
+ "updated": "2026-11-24T07:45:05+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -367,7 +367,7 @@
    },
    {
     "name": "halos34",
-    "value": 864
+    "value": 867
    },
    {
     "name": "Icarem",
@@ -471,7 +471,7 @@
    },
    {
     "name": "Postillon",
-    "value": 197
+    "value": 199
    },
    {
     "name": "sami75.19",
@@ -548,12 +548,12 @@
   ],
   "week": [
    {
-    "name": "Padre",
-    "value": 382
+    "name": "halos34",
+    "value": 384
    },
    {
-    "name": "halos34",
-    "value": 381
+    "name": "Padre",
+    "value": 382
    },
    {
     "name": "marinadrk",
@@ -673,7 +673,7 @@
    },
    {
     "name": "Postillon",
-    "value": 18
+    "value": 20
    },
    {
     "name": "CovidJr",
