@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T22:35:09+00:00",
+ "updated": "2026-11-24T22:37:38+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -411,7 +411,7 @@
   "total": [
    {
     "name": "habbo-160-3",
-    "value": 2263
+    "value": 2266
    },
    {
     "name": "BiBiCHarBo",
@@ -419,7 +419,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 1417
+    "value": 1420
    },
    {
     "name": "marinadrk",
@@ -439,7 +439,7 @@
    },
    {
     "name": "Padre",
-    "value": 970
+    "value": 972
    },
    {
     "name": "Shizuku",
@@ -523,7 +523,7 @@
    },
    {
     "name": "tiff34",
-    "value": 273
+    "value": 275
    },
    {
     "name": "-Massimo-",
@@ -555,7 +555,7 @@
    },
    {
     "name": "---Jayden---",
-    "value": 139
+    "value": 141
    },
    {
     "name": "SuzieOuistiti!",
@@ -566,12 +566,12 @@
     "value": 122
    },
    {
-    "name": "Richesse",
-    "value": 114
+    "name": "Kouukii",
+    "value": 115
    },
    {
-    "name": "Kouukii",
-    "value": 112
+    "name": "Richesse",
+    "value": 114
    },
    {
     "name": "Piingouin.",
@@ -613,7 +613,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 839
+    "value": 841
    },
    {
     "name": "halos34",
@@ -621,7 +621,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 483
+    "value": 486
    },
    {
     "name": "marinadrk",
@@ -629,7 +629,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 382
+    "value": 385
    },
    {
     "name": "Icarem",
@@ -641,7 +641,7 @@
    },
    {
     "name": "tiff34",
-    "value": 273
+    "value": 275
    },
    {
     "name": "Mr.Dino",
@@ -693,11 +693,15 @@
    },
    {
     "name": "---Jayden---",
-    "value": 139
+    "value": 141
    },
    {
     "name": "charlie-XCX123",
     "value": 123
+   },
+   {
+    "name": "Kouukii",
+    "value": 115
    },
    {
     "name": "SuzieOuistiti!",
@@ -706,10 +710,6 @@
    {
     "name": "Richesse",
     "value": 114
-   },
-   {
-    "name": "Kouukii",
-    "value": 112
    },
    {
     "name": "sami75.19",
