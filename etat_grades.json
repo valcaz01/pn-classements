@@ -3069,7 +3069,7 @@
   "grade": null,
   "humeur": "[R.F] Medecin interne [Big]",
   "pseudo": "vickie3421",
-  "verifie": "2026-11-24T16:40:37+00:00"
+  "verifie": "2026-11-24T19:40:37+00:00"
  },
  "24233059": {
   "alertes": {},
@@ -3085,7 +3085,7 @@
   "grade": null,
   "humeur": "ya pas dfantome sauf au parlu",
   "pseudo": "xGlkx",
-  "verifie": "2026-11-24T16:40:37+00:00"
+  "verifie": "2026-11-24T19:40:37+00:00"
  },
  "24238395": {
   "alertes": {},
@@ -9501,11 +9501,11 @@
     "xp": true
    }
   },
-  "depuis": null,
-  "grade": null,
-  "humeur": "[PN] Cadet",
+  "depuis": "2026-11-24T19:40:37+00:00",
+  "grade": "pa",
+  "humeur": "[PN] Policier-adjoint",
   "pseudo": "Postillon",
-  "verifie": "2026-11-24T16:40:37+00:00"
+  "verifie": "2026-11-24T19:40:37+00:00"
  },
  "26036521": {
   "alertes": {},
