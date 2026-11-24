@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T11:12:37+00:00",
+ "updated": "2026-11-24T11:14:36+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -72,16 +72,16 @@
     "value": 20
    },
    {
+    "name": "_.Flora._",
+    "value": 18
+   },
+   {
     "name": "andrew16a",
     "value": 18
    },
    {
     "name": "irysse",
     "value": 18
-   },
-   {
-    "name": "_.Flora._",
-    "value": 17
    },
    {
     "name": "habbo22t",
@@ -230,16 +230,16 @@
     "value": 7
    },
    {
+    "name": "_.Flora._",
+    "value": 7
+   },
+   {
     "name": "Lovepanda",
     "value": 7
    },
    {
     "name": "SuzieOuistiti!",
     "value": 7
-   },
-   {
-    "name": "_.Flora._",
-    "value": 6
    },
    {
     "name": "gotica",
@@ -375,11 +375,11 @@
    },
    {
     "name": "halos34",
-    "value": 914
+    "value": 916
    },
    {
     "name": "Icarem",
-    "value": 854
+    "value": 855
    },
    {
     "name": "Shizuku",
@@ -475,7 +475,7 @@
    },
    {
     "name": "tiff34",
-    "value": 223
+    "value": 225
    },
    {
     "name": "-Tsukiri-",
@@ -557,7 +557,7 @@
   "week": [
    {
     "name": "halos34",
-    "value": 431
+    "value": 433
    },
    {
     "name": "Padre",
@@ -577,7 +577,7 @@
    },
    {
     "name": "tiff34",
-    "value": 223
+    "value": 225
    },
    {
     "name": "andrew16a",
@@ -588,12 +588,12 @@
     "value": 164
    },
    {
-    "name": "Mr.Dino",
+    "name": "Icarem",
     "value": 163
    },
    {
-    "name": "Icarem",
-    "value": 162
+    "name": "Mr.Dino",
+    "value": 163
    },
    {
     "name": "Pantheon_",
