@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T23:53:07+00:00",
+ "updated": "2026-11-24T23:54:39+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -196,11 +196,11 @@
     "value": 3
    },
    {
-    "name": "Leif",
+    "name": "girly12",
     "value": 3
    },
    {
-    "name": "MagicalArt",
+    "name": "Leif",
     "value": 3
    }
   ],
@@ -326,6 +326,10 @@
     "value": 3
    },
    {
+    "name": "girly12",
+    "value": 3
+   },
+   {
     "name": "guest77145",
     "value": 3
    },
@@ -359,10 +363,6 @@
    },
    {
     "name": "CovidJr",
-    "value": 2
-   },
-   {
-    "name": "girly12",
     "value": 2
    },
    {
@@ -411,7 +411,7 @@
   "total": [
    {
     "name": "habbo-160-3",
-    "value": 2338
+    "value": 2340
    },
    {
     "name": "BiBiCHarBo",
@@ -625,7 +625,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 457
+    "value": 459
    },
    {
     "name": "marinadrk",
