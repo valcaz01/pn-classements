@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T22:20:38+00:00",
+ "updated": "2026-11-24T22:22:38+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -116,11 +116,11 @@
     "value": 11
    },
    {
-    "name": ".Dylan.",
-    "value": 10
+    "name": "tiff34",
+    "value": 11
    },
    {
-    "name": "tiff34",
+    "name": ".Dylan.",
     "value": 10
    },
    {
@@ -200,7 +200,7 @@
     "value": 3
    },
    {
-    "name": "Pierre.Langlet",
+    "name": "OnlyOneGuest",
     "value": 3
    }
   ],
@@ -234,6 +234,10 @@
     "value": 11
    },
    {
+    "name": "tiff34",
+    "value": 11
+   },
+   {
     "name": "_.Flora._",
     "value": 10
    },
@@ -243,10 +247,6 @@
    },
    {
     "name": "Pantheon_",
-    "value": 10
-   },
-   {
-    "name": "tiff34",
     "value": 10
    },
    {
@@ -374,6 +374,14 @@
     "value": 2
    },
    {
+    "name": "Gueks",
+    "value": 1
+   },
+   {
+    "name": "landy23",
+    "value": 1
+   },
+   {
     "name": "Lord_Fullbody",
     "value": 1
    },
@@ -383,6 +391,10 @@
    },
    {
     "name": "MrDrMathieu1990",
+    "value": 1
+   },
+   {
+    "name": "OnlyOneGuest",
     "value": 1
    },
    {
@@ -407,11 +419,11 @@
    },
    {
     "name": "Pantheon_",
-    "value": 1404
+    "value": 1405
    },
    {
     "name": "marinadrk",
-    "value": 1312
+    "value": 1314
    },
    {
     "name": "fym",
@@ -427,7 +439,7 @@
    },
    {
     "name": "Padre",
-    "value": 955
+    "value": 957
    },
    {
     "name": "Shizuku",
@@ -563,7 +575,7 @@
    },
    {
     "name": "Kouukii",
-    "value": 107
+    "value": 109
    },
    {
     "name": ".:Krustiz:.",
@@ -601,7 +613,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 824
+    "value": 826
    },
    {
     "name": "halos34",
@@ -609,11 +621,11 @@
    },
    {
     "name": "Pantheon_",
-    "value": 470
+    "value": 471
    },
    {
     "name": "marinadrk",
-    "value": 406
+    "value": 408
    },
    {
     "name": "habbo-160-3",
@@ -697,7 +709,7 @@
    },
    {
     "name": "Kouukii",
-    "value": 107
+    "value": 109
    },
    {
     "name": "sami75.19",
@@ -721,7 +733,7 @@
    },
    {
     "name": "LouunaS",
-    "value": 54
+    "value": 56
    },
    {
     "name": "LorenzoVisconti",
