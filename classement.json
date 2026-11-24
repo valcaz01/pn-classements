@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T20:34:38+00:00",
+ "updated": "2026-11-24T20:36:39+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -41,7 +41,7 @@
    },
    {
     "name": "Lovepanda",
-    "value": 32
+    "value": 33
    },
    {
     "name": "Astreu",
@@ -132,16 +132,16 @@
     "value": 8
    },
    {
+    "name": "dadou07",
+    "value": 7
+   },
+   {
     "name": "marinadrk",
     "value": 7
    },
    {
     "name": "SuzieOuistiti!",
     "value": 7
-   },
-   {
-    "name": "dadou07",
-    "value": 6
    },
    {
     "name": "apo4020",
@@ -234,15 +234,15 @@
     "value": 10
    },
    {
+    "name": "Lovepanda",
+    "value": 10
+   },
+   {
     "name": "_.Flora._",
     "value": 9
    },
    {
     "name": "flo578",
-    "value": 9
-   },
-   {
-    "name": "Lovepanda",
     "value": 9
    },
    {
@@ -318,6 +318,10 @@
     "value": 3
    },
    {
+    "name": "dadou07",
+    "value": 3
+   },
+   {
     "name": "guest77145",
     "value": 3
    },
@@ -350,10 +354,6 @@
     "value": 2
    },
    {
-    "name": "dadou07",
-    "value": 2
-   },
-   {
     "name": "irysse",
     "value": 2
    },
@@ -383,7 +383,7 @@
   "total": [
    {
     "name": "habbo-160-3",
-    "value": 2251
+    "value": 2253
    },
    {
     "name": "BiBiCHarBo",
@@ -391,7 +391,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 1314
+    "value": 1316
    },
    {
     "name": "fym",
@@ -403,7 +403,7 @@
    },
    {
     "name": "Icarem",
-    "value": 996
+    "value": 998
    },
    {
     "name": "halos34",
@@ -411,7 +411,7 @@
    },
    {
     "name": "Padre",
-    "value": 858
+    "value": 860
    },
    {
     "name": "Shizuku",
@@ -459,7 +459,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 429
+    "value": 431
    },
    {
     "name": "_.Flora._",
@@ -585,7 +585,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 727
+    "value": 729
    },
    {
     "name": "halos34",
@@ -593,11 +593,11 @@
    },
    {
     "name": "Pantheon_",
-    "value": 380
+    "value": 382
    },
    {
     "name": "habbo-160-3",
-    "value": 370
+    "value": 372
    },
    {
     "name": "marinadrk",
@@ -609,7 +609,7 @@
    },
    {
     "name": "Icarem",
-    "value": 304
+    "value": 306
    },
    {
     "name": "tiff34",
@@ -617,7 +617,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 247
+    "value": 249
    },
    {
     "name": "Lovepanda",
