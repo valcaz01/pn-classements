@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T12:24:35+00:00",
+ "updated": "2026-11-24T12:27:06+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -17,7 +17,7 @@
    },
    {
     "name": "charlie-XCX123",
-    "value": 47
+    "value": 48
    },
    {
     "name": "fym",
@@ -33,7 +33,7 @@
    },
    {
     "name": "halos34",
-    "value": 36
+    "value": 37
    },
    {
     "name": "Shizuku",
@@ -100,12 +100,12 @@
     "value": 14
    },
    {
-    "name": "Postillon",
+    "name": "Mi,hermano",
     "value": 12
    },
    {
-    "name": "Mi,hermano",
-    "value": 11
+    "name": "Postillon",
+    "value": 12
    },
    {
     "name": "guest77145",
@@ -140,6 +140,10 @@
     "value": 6
    },
    {
+    "name": "LesdixGaga",
+    "value": 5
+   },
+   {
     "name": "---Jayden---",
     "value": 4
    },
@@ -153,10 +157,6 @@
    },
    {
     "name": "dadou07",
-    "value": 4
-   },
-   {
-    "name": "LesdixGaga",
     "value": 4
    },
    {
@@ -206,6 +206,10 @@
   ],
   "week": [
    {
+    "name": "charlie-XCX123",
+    "value": 15
+   },
+   {
     "name": "Icarem",
     "value": 15
    },
@@ -214,16 +218,16 @@
     "value": 15
    },
    {
-    "name": "charlie-XCX123",
-    "value": 14
-   },
-   {
     "name": "habbo-160-3",
     "value": 14
    },
    {
     "name": "fym",
     "value": 10
+   },
+   {
+    "name": "halos34",
+    "value": 8
    },
    {
     "name": ".Libellule",
@@ -235,10 +239,6 @@
    },
    {
     "name": "gotica",
-    "value": 7
-   },
-   {
-    "name": "halos34",
     "value": 7
    },
    {
@@ -274,6 +274,10 @@
     "value": 4
    },
    {
+    "name": "Mi,hermano",
+    "value": 4
+   },
+   {
     "name": "Monsieur-RF",
     "value": 4
    },
@@ -302,15 +306,15 @@
     "value": 3
    },
    {
+    "name": "LesdixGaga",
+    "value": 3
+   },
+   {
     "name": "Lewddon",
     "value": 3
    },
    {
     "name": "LorenzoVisconti",
-    "value": 3
-   },
-   {
-    "name": "Mi,hermano",
     "value": 3
    },
    {
@@ -327,10 +331,6 @@
    },
    {
     "name": "irysse",
-    "value": 2
-   },
-   {
-    "name": "LesdixGaga",
     "value": 2
    },
    {
@@ -379,7 +379,7 @@
    },
    {
     "name": "halos34",
-    "value": 962
+    "value": 963
    },
    {
     "name": "Icarem",
@@ -459,7 +459,7 @@
    },
    {
     "name": "gotica",
-    "value": 286
+    "value": 288
    },
    {
     "name": "Proxymore",
@@ -561,7 +561,7 @@
   "week": [
    {
     "name": "halos34",
-    "value": 479
+    "value": 480
    },
    {
     "name": "Padre",
@@ -689,7 +689,7 @@
    },
    {
     "name": "gotica",
-    "value": 16
+    "value": 18
    },
    {
     "name": "CovidJr",
