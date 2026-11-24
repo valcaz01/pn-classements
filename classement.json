@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T00:46:36+00:00",
+ "updated": "2026-11-24T00:49:07+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -343,7 +343,7 @@
   "total": [
    {
     "name": "habbo-160-3",
-    "value": 2063
+    "value": 2066
    },
    {
     "name": "BiBiCHarBo",
@@ -355,7 +355,7 @@
    },
    {
     "name": "marinadrk",
-    "value": 1191
+    "value": 1194
    },
    {
     "name": "Pantheon_",
@@ -458,12 +458,12 @@
     "value": 233
    },
    {
-    "name": "-Tsukiri-",
-    "value": 215
+    "name": "Vyp",
+    "value": 216
    },
    {
-    "name": "Vyp",
-    "value": 214
+    "name": "-Tsukiri-",
+    "value": 215
    },
    {
     "name": "sami75.19",
@@ -482,11 +482,11 @@
     "value": 122
    },
    {
-    "name": "apo4020",
-    "value": 106
+    "name": "tiff34",
+    "value": 109
    },
    {
-    "name": "tiff34",
+    "name": "apo4020",
     "value": 106
    },
    {
@@ -553,11 +553,11 @@
    },
    {
     "name": "marinadrk",
-    "value": 284
+    "value": 287
    },
    {
     "name": "Vyp",
-    "value": 214
+    "value": 216
    },
    {
     "name": "andrew16a",
@@ -565,7 +565,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 182
+    "value": 185
    },
    {
     "name": "Mr.Dino",
@@ -596,15 +596,15 @@
     "value": 110
    },
    {
+    "name": "tiff34",
+    "value": 109
+   },
+   {
     "name": "fym",
     "value": 108
    },
    {
     "name": "apo4020",
-    "value": 106
-   },
-   {
-    "name": "tiff34",
     "value": 106
    },
    {
@@ -704,15 +704,15 @@
     "value": 3
    },
    {
+    "name": "Nocif",
+    "value": 3
+   },
+   {
     "name": "MagicalArt",
     "value": 2
    },
    {
     "name": ".:Krustiz:.",
-    "value": 1
-   },
-   {
-    "name": "Nocif",
     "value": 1
    }
   ]
