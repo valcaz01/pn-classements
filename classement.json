@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T18:46:37+00:00",
+ "updated": "2026-11-24T18:48:38+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -41,7 +41,7 @@
    },
    {
     "name": "Lovepanda",
-    "value": 31
+    "value": 32
    },
    {
     "name": "Astreu",
@@ -234,11 +234,11 @@
     "value": 10
    },
    {
-    "name": "gotica",
-    "value": 8
+    "name": "Lovepanda",
+    "value": 9
    },
    {
-    "name": "Lovepanda",
+    "name": "gotica",
     "value": 8
    },
    {
@@ -379,7 +379,7 @@
   "total": [
    {
     "name": "habbo-160-3",
-    "value": 2242
+    "value": 2244
    },
    {
     "name": "BiBiCHarBo",
@@ -411,7 +411,7 @@
    },
    {
     "name": "Padre",
-    "value": 753
+    "value": 755
    },
    {
     "name": "Shizuku",
@@ -427,7 +427,7 @@
    },
    {
     "name": "dadou07",
-    "value": 552
+    "value": 554
    },
    {
     "name": "andrew16a",
@@ -483,7 +483,7 @@
    },
    {
     "name": "Vyp",
-    "value": 283
+    "value": 285
    },
    {
     "name": "Proxymore",
@@ -546,12 +546,12 @@
     "value": 82
    },
    {
-    "name": "Imondi",
-    "value": 81
+    "name": "Piingouin.",
+    "value": 82
    },
    {
-    "name": "Piingouin.",
-    "value": 80
+    "name": "Imondi",
+    "value": 81
    },
    {
     "name": "sheila3738",
@@ -581,7 +581,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 622
+    "value": 624
    },
    {
     "name": "halos34",
@@ -589,7 +589,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 361
+    "value": 363
    },
    {
     "name": "marinadrk",
@@ -601,7 +601,7 @@
    },
    {
     "name": "Vyp",
-    "value": 283
+    "value": 285
    },
    {
     "name": "Icarem",
@@ -624,15 +624,15 @@
     "value": 202
    },
    {
+    "name": "dadou07",
+    "value": 201
+   },
+   {
     "name": "Lewddon",
     "value": 201
    },
    {
     "name": "andrew16a",
-    "value": 199
-   },
-   {
-    "name": "dadou07",
     "value": 199
    },
    {
@@ -756,6 +756,10 @@
     "value": 5
    },
    {
+    "name": "Piingouin.",
+    "value": 5
+   },
+   {
     "name": "Babbo0",
     "value": 4
    },
@@ -773,10 +777,6 @@
    },
    {
     "name": "Nocif",
-    "value": 3
-   },
-   {
-    "name": "Piingouin.",
     "value": 3
    }
   ]
