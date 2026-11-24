@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T12:32:36+00:00",
+ "updated": "2026-11-24T12:34:35+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -379,7 +379,7 @@
    },
    {
     "name": "halos34",
-    "value": 966
+    "value": 967
    },
    {
     "name": "Icarem",
@@ -439,7 +439,7 @@
    },
    {
     "name": "_.Flora._",
-    "value": 380
+    "value": 382
    },
    {
     "name": "Mr.Dino",
@@ -459,7 +459,7 @@
    },
    {
     "name": "gotica",
-    "value": 294
+    "value": 295
    },
    {
     "name": "Proxymore",
@@ -561,7 +561,7 @@
   "week": [
    {
     "name": "halos34",
-    "value": 483
+    "value": 484
    },
    {
     "name": "Padre",
@@ -640,12 +640,12 @@
     "value": 83
    },
    {
-    "name": ".Libellule",
-    "value": 80
+    "name": "_.Flora._",
+    "value": 81
    },
    {
-    "name": "_.Flora._",
-    "value": 79
+    "name": ".Libellule",
+    "value": 80
    },
    {
     "name": "flo578",
@@ -689,7 +689,7 @@
    },
    {
     "name": "gotica",
-    "value": 24
+    "value": 25
    },
    {
     "name": "CovidJr",
@@ -725,6 +725,10 @@
    },
    {
     "name": "MagicalArt",
+    "value": 2
+   },
+   {
+    "name": "MrDrMathieu1990",
     "value": 2
    },
    {
