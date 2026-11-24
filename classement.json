@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T18:44:37+00:00",
+ "updated": "2026-11-24T18:46:37+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -379,7 +379,7 @@
   "total": [
    {
     "name": "habbo-160-3",
-    "value": 2240
+    "value": 2242
    },
    {
     "name": "BiBiCHarBo",
@@ -426,12 +426,12 @@
     "value": 556
    },
    {
-    "name": "andrew16a",
-    "value": 551
+    "name": "dadou07",
+    "value": 552
    },
    {
-    "name": "dadou07",
-    "value": 550
+    "name": "andrew16a",
+    "value": 551
    },
    {
     "name": "Monsieur-RF",
@@ -483,7 +483,7 @@
    },
    {
     "name": "Vyp",
-    "value": 281
+    "value": 283
    },
    {
     "name": "Proxymore",
@@ -551,7 +551,7 @@
    },
    {
     "name": "Piingouin.",
-    "value": 78
+    "value": 80
    },
    {
     "name": "sheila3738",
@@ -589,7 +589,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 359
+    "value": 361
    },
    {
     "name": "marinadrk",
@@ -601,7 +601,7 @@
    },
    {
     "name": "Vyp",
-    "value": 281
+    "value": 283
    },
    {
     "name": "Icarem",
@@ -633,7 +633,7 @@
    },
    {
     "name": "dadou07",
-    "value": 197
+    "value": 199
    },
    {
     "name": "Monsieur-RF",
@@ -776,8 +776,8 @@
     "value": 3
    },
    {
-    "name": "MagicalArt",
-    "value": 2
+    "name": "Piingouin.",
+    "value": 3
    }
   ]
  }
