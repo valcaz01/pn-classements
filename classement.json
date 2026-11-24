@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T13:24:36+00:00",
+ "updated": "2026-11-24T13:27:07+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -13,7 +13,7 @@
    },
    {
     "name": "pevanq640",
-    "value": 49
+    "value": 50
    },
    {
     "name": "charlie-XCX123",
@@ -206,15 +206,15 @@
   ],
   "week": [
    {
+    "name": "pevanq640",
+    "value": 16
+   },
+   {
     "name": "charlie-XCX123",
     "value": 15
    },
    {
     "name": "Icarem",
-    "value": 15
-   },
-   {
-    "name": "pevanq640",
     "value": 15
    },
    {
@@ -411,7 +411,7 @@
    },
    {
     "name": "Padre",
-    "value": 518
+    "value": 521
    },
    {
     "name": "Monsieur-RF",
@@ -569,7 +569,7 @@
    },
    {
     "name": "Padre",
-    "value": 385
+    "value": 388
    },
    {
     "name": "marinadrk",
