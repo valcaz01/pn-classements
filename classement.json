@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T17:53:07+00:00",
+ "updated": "2026-11-24T17:54:37+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -113,7 +113,7 @@
    },
    {
     "name": ".Dylan.",
-    "value": 8
+    "value": 9
    },
    {
     "name": "Lewddon",
@@ -298,16 +298,16 @@
     "value": 4
    },
    {
+    "name": ".Dylan.",
+    "value": 4
+   },
+   {
     "name": "apo4020",
     "value": 4
    },
    {
     "name": "habbo22t",
     "value": 4
-   },
-   {
-    "name": ".Dylan.",
-    "value": 3
    },
    {
     "name": "andrew16a",
@@ -411,7 +411,7 @@
    },
    {
     "name": "Padre",
-    "value": 705
+    "value": 706
    },
    {
     "name": "Astreu",
@@ -435,7 +435,7 @@
    },
    {
     "name": "dadou07",
-    "value": 514
+    "value": 516
    },
    {
     "name": ".Libellule",
@@ -459,11 +459,11 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 375
+    "value": 376
    },
    {
     "name": "Hectorr",
-    "value": 342
+    "value": 343
    },
    {
     "name": "Fleabag",
@@ -491,7 +491,7 @@
    },
    {
     "name": "Postillon",
-    "value": 240
+    "value": 241
    },
    {
     "name": "tiff34",
@@ -535,7 +535,7 @@
    },
    {
     "name": "Richesse",
-    "value": 85
+    "value": 87
    },
    {
     "name": "BnBoy",
@@ -555,7 +555,7 @@
    },
    {
     "name": "Imondi",
-    "value": 68
+    "value": 70
    },
    {
     "name": "Leif",
@@ -577,7 +577,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 573
+    "value": 574
    },
    {
     "name": "halos34",
@@ -617,11 +617,11 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 193
+    "value": 194
    },
    {
     "name": "Hectorr",
-    "value": 192
+    "value": 193
    },
    {
     "name": "Monsieur-RF",
@@ -641,7 +641,7 @@
    },
    {
     "name": "dadou07",
-    "value": 159
+    "value": 161
    },
    {
     "name": "apo4020",
@@ -673,7 +673,7 @@
    },
    {
     "name": "Richesse",
-    "value": 85
+    "value": 87
    },
    {
     "name": "charlie-XCX123",
@@ -688,11 +688,11 @@
     "value": 73
    },
    {
-    "name": "Leif",
-    "value": 61
+    "name": "Postillon",
+    "value": 62
    },
    {
-    "name": "Postillon",
+    "name": "Leif",
     "value": 61
    },
    {
@@ -768,12 +768,12 @@
     "value": 3
    },
    {
-    "name": "MagicalArt",
+    "name": "Imondi",
     "value": 2
    },
    {
-    "name": ".:Krustiz:.",
-    "value": 1
+    "name": "MagicalArt",
+    "value": 2
    }
   ]
  }
