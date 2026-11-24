@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T14:36:37+00:00",
+ "updated": "2026-11-24T14:38:36+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -383,7 +383,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 1136
+    "value": 1138
    },
    {
     "name": "halos34",
@@ -391,7 +391,7 @@
    },
    {
     "name": "Icarem",
-    "value": 917
+    "value": 919
    },
    {
     "name": "Shizuku",
@@ -407,7 +407,7 @@
    },
    {
     "name": "Padre",
-    "value": 582
+    "value": 584
    },
    {
     "name": "andrew16a",
@@ -431,7 +431,7 @@
    },
    {
     "name": "dadou07",
-    "value": 416
+    "value": 418
    },
    {
     "name": ".Libellule",
@@ -573,7 +573,7 @@
    },
    {
     "name": "Padre",
-    "value": 450
+    "value": 452
    },
    {
     "name": "marinadrk",
@@ -588,16 +588,16 @@
     "value": 252
    },
    {
+    "name": "Icarem",
+    "value": 227
+   },
+   {
     "name": "tiff34",
     "value": 226
    },
    {
-    "name": "Icarem",
-    "value": 225
-   },
-   {
     "name": "Pantheon_",
-    "value": 202
+    "value": 204
    },
    {
     "name": "andrew16a",
@@ -664,12 +664,12 @@
     "value": 73
    },
    {
-    "name": "Leif",
+    "name": "dadou07",
     "value": 61
    },
    {
-    "name": "dadou07",
-    "value": 59
+    "name": "Leif",
+    "value": 61
    },
    {
     "name": "LorenzoVisconti",
@@ -741,6 +741,10 @@
    },
    {
     "name": ".:Krustiz:.",
+    "value": 1
+   },
+   {
+    "name": ":.Florence.:.",
     "value": 1
    }
   ]
