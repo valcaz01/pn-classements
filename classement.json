@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T07:10:36+00:00",
+ "updated": "2026-11-24T07:12:36+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -33,7 +33,7 @@
    },
    {
     "name": "halos34",
-    "value": 33
+    "value": 34
    },
    {
     "name": "Shizuku",
@@ -250,6 +250,10 @@
     "value": 5
    },
    {
+    "name": "halos34",
+    "value": 5
+   },
+   {
     "name": "Lovepanda",
     "value": 5
    },
@@ -259,10 +263,6 @@
    },
    {
     "name": "---Jayden---",
-    "value": 4
-   },
-   {
-    "name": "halos34",
     "value": 4
    },
    {
@@ -367,7 +367,7 @@
    },
    {
     "name": "halos34",
-    "value": 837
+    "value": 838
    },
    {
     "name": "Icarem",
@@ -553,7 +553,7 @@
    },
    {
     "name": "halos34",
-    "value": 354
+    "value": 355
    },
    {
     "name": "marinadrk",
