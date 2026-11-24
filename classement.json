@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T14:20:37+00:00",
+ "updated": "2026-11-24T14:22:36+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -379,7 +379,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 1121
+    "value": 1123
    },
    {
     "name": "halos34",
@@ -387,7 +387,7 @@
    },
    {
     "name": "Icarem",
-    "value": 901
+    "value": 903
    },
    {
     "name": "Shizuku",
@@ -395,7 +395,7 @@
    },
    {
     "name": "Lovepanda",
-    "value": 715
+    "value": 717
    },
    {
     "name": "Astreu",
@@ -403,7 +403,7 @@
    },
    {
     "name": "Padre",
-    "value": 567
+    "value": 569
    },
    {
     "name": "andrew16a",
@@ -415,7 +415,7 @@
    },
    {
     "name": "Lewddon",
-    "value": 507
+    "value": 509
    },
    {
     "name": "Monsieur-RF",
@@ -424,6 +424,10 @@
    {
     "name": "habbo22t",
     "value": 484
+   },
+   {
+    "name": "dadou07",
+    "value": 410
    },
    {
     "name": ".Libellule",
@@ -435,10 +439,6 @@
    },
    {
     "name": "_.Flora._",
-    "value": 408
-   },
-   {
-    "name": "dadou07",
     "value": 408
    },
    {
@@ -487,7 +487,7 @@
    },
    {
     "name": "sami75.19",
-    "value": 221
+    "value": 223
    },
    {
     "name": "-Tsukiri-",
@@ -503,7 +503,7 @@
    },
    {
     "name": "apo4020",
-    "value": 144
+    "value": 145
    },
    {
     "name": "MagicalArt",
@@ -569,7 +569,7 @@
    },
    {
     "name": "Padre",
-    "value": 435
+    "value": 437
    },
    {
     "name": "marinadrk",
@@ -589,7 +589,7 @@
    },
    {
     "name": "Icarem",
-    "value": 209
+    "value": 211
    },
    {
     "name": "andrew16a",
@@ -601,23 +601,23 @@
    },
    {
     "name": "Pantheon_",
-    "value": 187
+    "value": 189
    },
    {
     "name": "fym",
     "value": 164
    },
    {
+    "name": "Lovepanda",
+    "value": 160
+   },
+   {
     "name": "Hectorr",
     "value": 158
    },
    {
-    "name": "Lovepanda",
-    "value": 158
-   },
-   {
     "name": "Lewddon",
-    "value": 152
+    "value": 154
    },
    {
     "name": "Monsieur-RF",
@@ -625,7 +625,7 @@
    },
    {
     "name": "apo4020",
-    "value": 144
+    "value": 145
    },
    {
     "name": "Shizuku",
@@ -645,7 +645,7 @@
    },
    {
     "name": "sami75.19",
-    "value": 84
+    "value": 86
    },
    {
     "name": "charlie-XCX123",
@@ -665,7 +665,7 @@
    },
    {
     "name": "dadou07",
-    "value": 49
+    "value": 51
    },
    {
     "name": "LorenzoVisconti",
