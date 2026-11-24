@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T07:33:35+00:00",
+ "updated": "2026-11-24T07:35:06+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -100,11 +100,11 @@
     "value": 13
    },
    {
-    "name": "Mi,hermano",
-    "value": 11
+    "name": "Postillon",
+    "value": 12
    },
    {
-    "name": "Postillon",
+    "name": "Mi,hermano",
     "value": 11
    },
    {
@@ -322,6 +322,10 @@
     "value": 2
    },
    {
+    "name": "Postillon",
+    "value": 2
+   },
+   {
     "name": "guest77145",
     "value": 1
    },
@@ -335,10 +339,6 @@
    },
    {
     "name": "Padre",
-    "value": 1
-   },
-   {
-    "name": "Postillon",
     "value": 1
    }
   ]
@@ -367,7 +367,7 @@
    },
    {
     "name": "halos34",
-    "value": 856
+    "value": 858
    },
    {
     "name": "Icarem",
@@ -553,7 +553,7 @@
    },
    {
     "name": "halos34",
-    "value": 373
+    "value": 375
    },
    {
     "name": "marinadrk",
