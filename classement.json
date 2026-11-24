@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T20:40:37+00:00",
+ "updated": "2026-11-24T20:42:38+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -76,12 +76,12 @@
     "value": 20
    },
    {
-    "name": "habbo22t",
+    "name": "andrew16a",
     "value": 19
    },
    {
-    "name": "andrew16a",
-    "value": 18
+    "name": "habbo22t",
+    "value": 19
    },
    {
     "name": "irysse",
@@ -306,16 +306,16 @@
     "value": 4
    },
    {
+    "name": "andrew16a",
+    "value": 4
+   },
+   {
     "name": "habbo22t",
     "value": 4
    },
    {
     "name": "Piingouin.",
     "value": 4
-   },
-   {
-    "name": "andrew16a",
-    "value": 3
    },
    {
     "name": "dadou07",
@@ -383,7 +383,7 @@
   "total": [
    {
     "name": "habbo-160-3",
-    "value": 2257
+    "value": 2259
    },
    {
     "name": "BiBiCHarBo",
@@ -391,7 +391,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 1320
+    "value": 1321
    },
    {
     "name": "fym",
@@ -399,11 +399,11 @@
    },
    {
     "name": "marinadrk",
-    "value": 1233
+    "value": 1234
    },
    {
     "name": "Icarem",
-    "value": 1002
+    "value": 1003
    },
    {
     "name": "halos34",
@@ -411,7 +411,7 @@
    },
    {
     "name": "Padre",
-    "value": 864
+    "value": 865
    },
    {
     "name": "Shizuku",
@@ -419,7 +419,7 @@
    },
    {
     "name": "Lovepanda",
-    "value": 775
+    "value": 776
    },
    {
     "name": "Astreu",
@@ -427,7 +427,7 @@
    },
    {
     "name": "dadou07",
-    "value": 561
+    "value": 563
    },
    {
     "name": "Lewddon",
@@ -459,7 +459,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 435
+    "value": 437
    },
    {
     "name": "_.Flora._",
@@ -585,7 +585,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 733
+    "value": 734
    },
    {
     "name": "halos34",
@@ -593,19 +593,19 @@
    },
    {
     "name": "Pantheon_",
-    "value": 386
+    "value": 387
    },
    {
     "name": "habbo-160-3",
-    "value": 376
+    "value": 378
    },
    {
     "name": "marinadrk",
-    "value": 327
+    "value": 328
    },
    {
     "name": "Icarem",
-    "value": 310
+    "value": 311
    },
    {
     "name": "Vyp",
@@ -617,15 +617,15 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 253
+    "value": 255
    },
    {
     "name": "Lovepanda",
-    "value": 218
+    "value": 219
    },
    {
     "name": "dadou07",
-    "value": 209
+    "value": 211
    },
    {
     "name": "Hectorr",
