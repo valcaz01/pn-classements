@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T22:26:39+00:00",
+ "updated": "2026-11-24T22:29:08+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -112,11 +112,11 @@
     "value": 12
    },
    {
-    "name": "Piingouin.",
-    "value": 11
+    "name": "tiff34",
+    "value": 12
    },
    {
-    "name": "tiff34",
+    "name": "Piingouin.",
     "value": 11
    },
    {
@@ -172,6 +172,10 @@
     "value": 4
    },
    {
+    "name": "OnlyOneGuest",
+    "value": 4
+   },
+   {
     "name": "SMPSHomer",
     "value": 4
    },
@@ -197,10 +201,6 @@
    },
    {
     "name": "MagicalArt",
-    "value": 3
-   },
-   {
-    "name": "OnlyOneGuest",
     "value": 3
    }
   ],
@@ -230,11 +230,11 @@
     "value": 12
    },
    {
-    "name": "Lovepanda",
-    "value": 11
+    "name": "tiff34",
+    "value": 12
    },
    {
-    "name": "tiff34",
+    "name": "Lovepanda",
     "value": 11
    },
    {
@@ -370,6 +370,10 @@
     "value": 2
    },
    {
+    "name": "OnlyOneGuest",
+    "value": 2
+   },
+   {
     "name": "Seew-",
     "value": 2
    },
@@ -394,10 +398,6 @@
     "value": 1
    },
    {
-    "name": "OnlyOneGuest",
-    "value": 1
-   },
-   {
     "name": "sami75.19",
     "value": 1
    },
@@ -419,7 +419,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 1409
+    "value": 1411
    },
    {
     "name": "marinadrk",
@@ -439,7 +439,7 @@
    },
    {
     "name": "Padre",
-    "value": 961
+    "value": 964
    },
    {
     "name": "Shizuku",
@@ -523,7 +523,7 @@
    },
    {
     "name": "tiff34",
-    "value": 269
+    "value": 270
    },
    {
     "name": "-Massimo-",
@@ -594,12 +594,12 @@
     "value": 75
    },
    {
-    "name": "Leif",
-    "value": 61
+    "name": "LouunaS",
+    "value": 63
    },
    {
-    "name": "LouunaS",
-    "value": 60
+    "name": "Leif",
+    "value": 61
    },
    {
     "name": ".Dylan.",
@@ -613,7 +613,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 830
+    "value": 833
    },
    {
     "name": "halos34",
@@ -621,7 +621,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 475
+    "value": 477
    },
    {
     "name": "marinadrk",
@@ -641,7 +641,7 @@
    },
    {
     "name": "tiff34",
-    "value": 269
+    "value": 270
    },
    {
     "name": "Mr.Dino",
@@ -728,12 +728,12 @@
     "value": 71
    },
    {
-    "name": "Leif",
-    "value": 61
+    "name": "LouunaS",
+    "value": 63
    },
    {
-    "name": "LouunaS",
-    "value": 60
+    "name": "Leif",
+    "value": 61
    },
    {
     "name": "LorenzoVisconti",
