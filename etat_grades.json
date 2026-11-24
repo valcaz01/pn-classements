@@ -873,11 +873,11 @@
  },
  "16799154": {
   "alertes": {},
-  "depuis": null,
-  "grade": null,
-  "humeur": "[R.F] Soldat #ExTHG #ALSH |",
+  "depuis": "2026-11-23T23:00:00+00:00",
+  "grade": "cadet",
+  "humeur": "[PN] Recrue #ExTHG #ALSH |",
   "pseudo": "Lunatic...",
-  "verifie": "2026-11-24T14:31:06+00:00"
+  "verifie": "2026-11-24T17:24:37+00:00"
  },
  "16816246": {
   "alertes": {},
