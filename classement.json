@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T08:36:35+00:00",
+ "updated": "2026-11-24T08:38:36+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -367,7 +367,7 @@
    },
    {
     "name": "halos34",
-    "value": 882
+    "value": 884
    },
    {
     "name": "Icarem",
@@ -487,7 +487,7 @@
    },
    {
     "name": "apo4020",
-    "value": 128
+    "value": 129
    },
    {
     "name": "MagicalArt",
@@ -549,7 +549,7 @@
   "week": [
    {
     "name": "halos34",
-    "value": 399
+    "value": 401
    },
    {
     "name": "Padre",
@@ -588,12 +588,12 @@
     "value": 162
    },
    {
-    "name": "Icarem",
+    "name": "apo4020",
     "value": 129
    },
    {
-    "name": "apo4020",
-    "value": 128
+    "name": "Icarem",
+    "value": 129
    },
    {
     "name": "Lovepanda",
