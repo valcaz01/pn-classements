@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T11:06:36+00:00",
+ "updated": "2026-11-24T11:08:35+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -80,12 +80,12 @@
     "value": 18
    },
    {
-    "name": "habbo22t",
+    "name": "_.Flora._",
     "value": 17
    },
    {
-    "name": "_.Flora._",
-    "value": 16
+    "name": "habbo22t",
+    "value": 17
    },
    {
     "name": "Mr.Dino",
@@ -238,6 +238,10 @@
     "value": 7
    },
    {
+    "name": "_.Flora._",
+    "value": 6
+   },
+   {
     "name": "gotica",
     "value": 6
    },
@@ -252,10 +256,6 @@
    {
     "name": "tiff34",
     "value": 6
-   },
-   {
-    "name": "_.Flora._",
-    "value": 5
    },
    {
     "name": "flo578",
@@ -375,11 +375,11 @@
    },
    {
     "name": "halos34",
-    "value": 908
+    "value": 910
    },
    {
     "name": "Icarem",
-    "value": 850
+    "value": 852
    },
    {
     "name": "Shizuku",
@@ -415,7 +415,7 @@
    },
    {
     "name": "Lewddon",
-    "value": 454
+    "value": 456
    },
    {
     "name": ".Libellule",
@@ -435,7 +435,7 @@
    },
    {
     "name": "_.Flora._",
-    "value": 366
+    "value": 367
    },
    {
     "name": "Mr.Dino",
@@ -557,7 +557,7 @@
   "week": [
    {
     "name": "halos34",
-    "value": 425
+    "value": 427
    },
    {
     "name": "Padre",
@@ -596,11 +596,11 @@
     "value": 162
    },
    {
-    "name": "Hectorr",
-    "value": 158
+    "name": "Icarem",
+    "value": 160
    },
    {
-    "name": "Icarem",
+    "name": "Hectorr",
     "value": 158
    },
    {
@@ -621,7 +621,7 @@
    },
    {
     "name": "Lewddon",
-    "value": 99
+    "value": 101
    },
    {
     "name": "---Jayden---",
@@ -645,7 +645,7 @@
    },
    {
     "name": "_.Flora._",
-    "value": 65
+    "value": 66
    },
    {
     "name": "Leif",
