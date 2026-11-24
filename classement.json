@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T21:27:38+00:00",
+ "updated": "2026-11-24T21:29:09+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -407,7 +407,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 1366
+    "value": 1367
    },
    {
     "name": "fym",
@@ -415,7 +415,7 @@
    },
    {
     "name": "marinadrk",
-    "value": 1276
+    "value": 1278
    },
    {
     "name": "Icarem",
@@ -427,7 +427,7 @@
    },
    {
     "name": "Padre",
-    "value": 905
+    "value": 907
    },
    {
     "name": "Shizuku",
@@ -443,7 +443,7 @@
    },
    {
     "name": "dadou07",
-    "value": 591
+    "value": 593
    },
    {
     "name": "andrew16a",
@@ -455,7 +455,7 @@
    },
    {
     "name": "charlie-XCX123",
-    "value": 554
+    "value": 555
    },
    {
     "name": "Monsieur-RF",
@@ -601,7 +601,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 774
+    "value": 776
    },
    {
     "name": "halos34",
@@ -609,7 +609,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 432
+    "value": 433
    },
    {
     "name": "habbo-160-3",
@@ -617,7 +617,7 @@
    },
    {
     "name": "marinadrk",
-    "value": 370
+    "value": 372
    },
    {
     "name": "Icarem",
@@ -637,7 +637,7 @@
    },
    {
     "name": "dadou07",
-    "value": 239
+    "value": 241
    },
    {
     "name": "Lovepanda",
@@ -693,7 +693,7 @@
    },
    {
     "name": "charlie-XCX123",
-    "value": 112
+    "value": 113
    },
    {
     "name": "Kouukii",
@@ -761,7 +761,7 @@
    },
    {
     "name": "LouunaS",
-    "value": 15
+    "value": 16
    },
    {
     "name": "Imondi",
@@ -784,6 +784,10 @@
     "value": 5
    },
    {
+    "name": "Freminet",
+    "value": 5
+   },
+   {
     "name": "irysse",
     "value": 5
    },
@@ -793,10 +797,6 @@
    },
    {
     "name": "Babbo0",
-    "value": 4
-   },
-   {
-    "name": "Benny-knd",
     "value": 4
    }
   ]
