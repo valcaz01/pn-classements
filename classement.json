@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T15:18:36+00:00",
+ "updated": "2026-11-24T15:20:36+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -367,7 +367,7 @@
   "total": [
    {
     "name": "habbo-160-3",
-    "value": 2151
+    "value": 2153
    },
    {
     "name": "BiBiCHarBo",
@@ -383,7 +383,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 1175
+    "value": 1177
    },
    {
     "name": "halos34",
@@ -399,7 +399,7 @@
    },
    {
     "name": "Lovepanda",
-    "value": 726
+    "value": 728
    },
    {
     "name": "Astreu",
@@ -419,7 +419,7 @@
    },
    {
     "name": "Lewddon",
-    "value": 523
+    "value": 525
    },
    {
     "name": "Monsieur-RF",
@@ -431,11 +431,11 @@
    },
    {
     "name": "dadou07",
-    "value": 440
+    "value": 442
    },
    {
     "name": ".Libellule",
-    "value": 433
+    "value": 434
    },
    {
     "name": "Mi,hermano",
@@ -558,12 +558,12 @@
     "value": 56
    },
    {
-    "name": "Pporappippam",
+    "name": "BOuclette.13",
     "value": 52
    },
    {
-    "name": "In.esdzz!",
-    "value": 51
+    "name": "Pporappippam",
+    "value": 52
    }
   ],
   "week": [
@@ -581,7 +581,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 270
+    "value": 272
    },
    {
     "name": "Vyp",
@@ -589,7 +589,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 241
+    "value": 243
    },
    {
     "name": "Icarem",
@@ -609,11 +609,11 @@
    },
    {
     "name": "Lovepanda",
-    "value": 169
+    "value": 171
    },
    {
     "name": "Lewddon",
-    "value": 168
+    "value": 170
    },
    {
     "name": "fym",
@@ -641,7 +641,7 @@
    },
    {
     "name": ".Libellule",
-    "value": 104
+    "value": 105
    },
    {
     "name": "sami75.19",
@@ -652,12 +652,12 @@
     "value": 89
    },
    {
-    "name": "SuzieOuistiti!",
+    "name": "dadou07",
     "value": 87
    },
    {
-    "name": "dadou07",
-    "value": 85
+    "name": "SuzieOuistiti!",
+    "value": 87
    },
    {
     "name": "charlie-XCX123",
@@ -736,6 +736,10 @@
     "value": 3
    },
    {
+    "name": "BOuclette.13",
+    "value": 3
+   },
+   {
     "name": "Nocif",
     "value": 3
    },
@@ -745,10 +749,6 @@
    },
    {
     "name": ".:Krustiz:.",
-    "value": 1
-   },
-   {
-    "name": "BOuclette.13",
     "value": 1
    }
   ]
