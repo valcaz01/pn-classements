@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T17:58:38+00:00",
+ "updated": "2026-11-24T18:00:38+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -375,7 +375,7 @@
   "total": [
    {
     "name": "habbo-160-3",
-    "value": 2195
+    "value": 2197
    },
    {
     "name": "BiBiCHarBo",
@@ -411,7 +411,7 @@
    },
    {
     "name": "Padre",
-    "value": 710
+    "value": 712
    },
    {
     "name": "Astreu",
@@ -459,11 +459,11 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 380
+    "value": 382
    },
    {
     "name": "Hectorr",
-    "value": 347
+    "value": 349
    },
    {
     "name": "Fleabag",
@@ -491,7 +491,7 @@
    },
    {
     "name": "Postillon",
-    "value": 241
+    "value": 243
    },
    {
     "name": "tiff34",
@@ -546,12 +546,12 @@
     "value": 77
    },
    {
-    "name": "sheila3738",
-    "value": 75
+    "name": "Imondi",
+    "value": 76
    },
    {
-    "name": "Imondi",
-    "value": 74
+    "name": "sheila3738",
+    "value": 75
    },
    {
     "name": "Kouukii",
@@ -563,7 +563,7 @@
    },
    {
     "name": ".Dylan.",
-    "value": 57
+    "value": 59
    },
    {
     "name": "Fanny-148",
@@ -577,7 +577,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 578
+    "value": 580
    },
    {
     "name": "halos34",
@@ -589,7 +589,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 314
+    "value": 316
    },
    {
     "name": "Pantheon_",
@@ -612,16 +612,16 @@
     "value": 201
    },
    {
+    "name": "Mr.Dino",
+    "value": 200
+   },
+   {
     "name": "andrew16a",
     "value": 199
    },
    {
-    "name": "Mr.Dino",
-    "value": 198
-   },
-   {
     "name": "Hectorr",
-    "value": 197
+    "value": 199
    },
    {
     "name": "Monsieur-RF",
@@ -689,7 +689,7 @@
    },
    {
     "name": "Postillon",
-    "value": 62
+    "value": 64
    },
    {
     "name": "Leif",
@@ -737,7 +737,11 @@
    },
    {
     "name": "Imondi",
-    "value": 6
+    "value": 8
+   },
+   {
+    "name": ".Dylan.",
+    "value": 5
    },
    {
     "name": "irysse",
@@ -758,10 +762,6 @@
    {
     "name": "guest77145",
     "value": 4
-   },
-   {
-    "name": ".Dylan.",
-    "value": 3
    },
    {
     "name": "BOuclette.13",
