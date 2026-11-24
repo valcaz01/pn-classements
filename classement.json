@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T11:18:36+00:00",
+ "updated": "2026-11-24T11:20:35+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -375,11 +375,11 @@
    },
    {
     "name": "halos34",
-    "value": 920
+    "value": 922
    },
    {
     "name": "Icarem",
-    "value": 859
+    "value": 861
    },
    {
     "name": "Shizuku",
@@ -439,7 +439,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 346
+    "value": 348
    },
    {
     "name": "Fleabag",
@@ -557,7 +557,7 @@
   "week": [
    {
     "name": "halos34",
-    "value": 437
+    "value": 439
    },
    {
     "name": "Padre",
@@ -585,14 +585,14 @@
    },
    {
     "name": "Icarem",
-    "value": 167
-   },
-   {
-    "name": "fym",
-    "value": 164
+    "value": 169
    },
    {
     "name": "Mr.Dino",
+    "value": 166
+   },
+   {
+    "name": "fym",
     "value": 164
    },
    {
