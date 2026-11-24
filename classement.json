@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T09:50:35+00:00",
+ "updated": "2026-11-24T09:52:36+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -136,6 +136,10 @@
     "value": 5
    },
    {
+    "name": "tiff34",
+    "value": 5
+   },
+   {
     "name": "---Jayden---",
     "value": 4
    },
@@ -153,10 +157,6 @@
    },
    {
     "name": "SMPSHomer",
-    "value": 4
-   },
-   {
-    "name": "tiff34",
     "value": 4
    },
    {
@@ -262,6 +262,10 @@
     "value": 5
    },
    {
+    "name": "tiff34",
+    "value": 5
+   },
+   {
     "name": "---Jayden---",
     "value": 4
    },
@@ -271,10 +275,6 @@
    },
    {
     "name": "Pantheon_",
-    "value": 4
-   },
-   {
-    "name": "tiff34",
     "value": 4
    },
    {
@@ -371,7 +371,7 @@
    },
    {
     "name": "Icarem",
-    "value": 836
+    "value": 838
    },
    {
     "name": "Shizuku",
@@ -593,7 +593,7 @@
    },
    {
     "name": "Icarem",
-    "value": 144
+    "value": 146
    },
    {
     "name": "Lovepanda",
