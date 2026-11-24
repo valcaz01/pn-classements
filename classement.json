@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T13:56:36+00:00",
+ "updated": "2026-11-24T13:58:36+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -379,15 +379,15 @@
    },
    {
     "name": "Pantheon_",
-    "value": 1097
+    "value": 1099
    },
    {
     "name": "halos34",
-    "value": 969
+    "value": 970
    },
    {
     "name": "Icarem",
-    "value": 878
+    "value": 880
    },
    {
     "name": "Shizuku",
@@ -407,7 +407,7 @@
    },
    {
     "name": "Padre",
-    "value": 544
+    "value": 546
    },
    {
     "name": "charlie-XCX123",
@@ -418,12 +418,12 @@
     "value": 501
    },
    {
-    "name": "habbo22t",
-    "value": 484
+    "name": "Lewddon",
+    "value": 485
    },
    {
-    "name": "Lewddon",
-    "value": 483
+    "name": "habbo22t",
+    "value": 484
    },
    {
     "name": ".Libellule",
@@ -495,7 +495,7 @@
    },
    {
     "name": "sami75.19",
-    "value": 197
+    "value": 199
    },
    {
     "name": "irysse",
@@ -503,7 +503,7 @@
    },
    {
     "name": "apo4020",
-    "value": 131
+    "value": 133
    },
    {
     "name": "MagicalArt",
@@ -565,11 +565,11 @@
   "week": [
    {
     "name": "halos34",
-    "value": 486
+    "value": 487
    },
    {
     "name": "Padre",
-    "value": 412
+    "value": 414
    },
    {
     "name": "marinadrk",
@@ -597,15 +597,15 @@
    },
    {
     "name": "Icarem",
-    "value": 186
+    "value": 188
+   },
+   {
+    "name": "Pantheon_",
+    "value": 165
    },
    {
     "name": "fym",
     "value": 164
-   },
-   {
-    "name": "Pantheon_",
-    "value": 163
    },
    {
     "name": "Hectorr",
@@ -621,11 +621,11 @@
    },
    {
     "name": "apo4020",
-    "value": 131
+    "value": 133
    },
    {
     "name": "Lewddon",
-    "value": 128
+    "value": 130
    },
    {
     "name": "Shizuku",
@@ -656,12 +656,12 @@
     "value": 73
    },
    {
-    "name": "Leif",
-    "value": 61
+    "name": "sami75.19",
+    "value": 62
    },
    {
-    "name": "sami75.19",
-    "value": 60
+    "name": "Leif",
+    "value": 61
    },
    {
     "name": "dadou07",
