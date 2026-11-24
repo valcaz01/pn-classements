@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T23:24:39+00:00",
+ "updated": "2026-11-24T23:26:38+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -411,7 +411,7 @@
   "total": [
    {
     "name": "habbo-160-3",
-    "value": 2312
+    "value": 2314
    },
    {
     "name": "BiBiCHarBo",
@@ -423,7 +423,7 @@
    },
    {
     "name": "marinadrk",
-    "value": 1334
+    "value": 1336
    },
    {
     "name": "fym",
@@ -431,7 +431,7 @@
    },
    {
     "name": "Padre",
-    "value": 1017
+    "value": 1019
    },
    {
     "name": "Icarem",
@@ -451,7 +451,7 @@
    },
    {
     "name": "Astreu",
-    "value": 659
+    "value": 661
    },
    {
     "name": "dadou07",
@@ -499,7 +499,7 @@
    },
    {
     "name": "Hectorr",
-    "value": 401
+    "value": 403
    },
    {
     "name": "Fleabag",
@@ -519,11 +519,11 @@
    },
    {
     "name": "Proxymore",
-    "value": 287
+    "value": 289
    },
    {
     "name": "tiff34",
-    "value": 281
+    "value": 283
    },
    {
     "name": "-Massimo-",
@@ -613,7 +613,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 886
+    "value": 888
    },
    {
     "name": "halos34",
@@ -625,11 +625,11 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 431
+    "value": 433
    },
    {
     "name": "marinadrk",
-    "value": 429
+    "value": 431
    },
    {
     "name": "Icarem",
@@ -641,7 +641,7 @@
    },
    {
     "name": "tiff34",
-    "value": 281
+    "value": 283
    },
    {
     "name": "Mr.Dino",
@@ -649,7 +649,7 @@
    },
    {
     "name": "Hectorr",
-    "value": 251
+    "value": 253
    },
    {
     "name": "dadou07",
@@ -748,12 +748,12 @@
     "value": 42
    },
    {
-    "name": "Benny-knd",
-    "value": 35
+    "name": "Astreu",
+    "value": 36
    },
    {
-    "name": "Astreu",
-    "value": 34
+    "name": "Benny-knd",
+    "value": 35
    },
    {
     "name": "Piingouin.",
@@ -788,16 +788,16 @@
     "value": 16
    },
    {
+    "name": "Proxymore",
+    "value": 14
+   },
+   {
     "name": "Imondi",
     "value": 13
    },
    {
     "name": "MelMlrr",
     "value": 13
-   },
-   {
-    "name": "Proxymore",
-    "value": 12
    },
    {
     "name": ":.Florence.:.",
