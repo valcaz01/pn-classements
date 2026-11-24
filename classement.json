@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T19:09:08+00:00",
+ "updated": "2026-11-24T19:10:44+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -72,12 +72,12 @@
     "value": 20
    },
    {
-    "name": "habbo22t",
+    "name": "_.Flora._",
     "value": 19
    },
    {
-    "name": "_.Flora._",
-    "value": 18
+    "name": "habbo22t",
+    "value": 19
    },
    {
     "name": "andrew16a",
@@ -108,15 +108,15 @@
     "value": 15
    },
    {
+    "name": "guest77145",
+    "value": 11
+   },
+   {
     "name": "Piingouin.",
     "value": 11
    },
    {
     "name": ".Dylan.",
-    "value": 10
-   },
-   {
-    "name": "guest77145",
     "value": 10
    },
    {
@@ -238,6 +238,10 @@
     "value": 9
    },
    {
+    "name": "_.Flora._",
+    "value": 8
+   },
+   {
     "name": "gotica",
     "value": 8
    },
@@ -252,10 +256,6 @@
    {
     "name": "Shizuku",
     "value": 8
-   },
-   {
-    "name": "_.Flora._",
-    "value": 7
    },
    {
     "name": "SuzieOuistiti!",
@@ -342,6 +342,10 @@
     "value": 2
    },
    {
+    "name": "guest77145",
+    "value": 2
+   },
+   {
     "name": "irysse",
     "value": 2
    },
@@ -351,10 +355,6 @@
    },
    {
     "name": ":.Florence.:.",
-    "value": 1
-   },
-   {
-    "name": "guest77145",
     "value": 1
    },
    {
@@ -391,7 +391,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 1249
+    "value": 1250
    },
    {
     "name": "marinadrk",
@@ -407,7 +407,7 @@
    },
    {
     "name": "Padre",
-    "value": 776
+    "value": 777
    },
    {
     "name": "Lovepanda",
@@ -455,7 +455,7 @@
    },
    {
     "name": "_.Flora._",
-    "value": 412
+    "value": 413
    },
    {
     "name": "flo578",
@@ -478,11 +478,11 @@
     "value": 319
    },
    {
-    "name": "gotica",
-    "value": 300
+    "name": "Vyp",
+    "value": 302
    },
    {
-    "name": "Vyp",
+    "name": "gotica",
     "value": 300
    },
    {
@@ -539,11 +539,11 @@
    },
    {
     "name": "Piingouin.",
-    "value": 95
+    "value": 97
    },
    {
     "name": "Richesse",
-    "value": 93
+    "value": 95
    },
    {
     "name": "Kouukii",
@@ -581,7 +581,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 645
+    "value": 646
    },
    {
     "name": "halos34",
@@ -597,11 +597,11 @@
    },
    {
     "name": "Pantheon_",
-    "value": 315
+    "value": 316
    },
    {
     "name": "Vyp",
-    "value": 300
+    "value": 302
    },
    {
     "name": "Icarem",
@@ -661,7 +661,7 @@
    },
    {
     "name": "_.Flora._",
-    "value": 111
+    "value": 112
    },
    {
     "name": "Shizuku",
@@ -673,7 +673,7 @@
    },
    {
     "name": "Richesse",
-    "value": 93
+    "value": 95
    },
    {
     "name": "Mi,hermano",
@@ -728,11 +728,11 @@
     "value": 24
    },
    {
-    "name": "CovidJr",
-    "value": 18
+    "name": "Piingouin.",
+    "value": 20
    },
    {
-    "name": "Piingouin.",
+    "name": "CovidJr",
     "value": 18
    },
    {
