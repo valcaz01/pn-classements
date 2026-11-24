@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T15:46:39+00:00",
+ "updated": "2026-11-24T15:49:07+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -9,7 +9,7 @@
    },
    {
     "name": "Icarem",
-    "value": 60
+    "value": 62
    },
    {
     "name": "pevanq640",
@@ -210,15 +210,15 @@
     "value": 18
    },
    {
+    "name": "Icarem",
+    "value": 17
+   },
+   {
     "name": "pevanq640",
     "value": 16
    },
    {
     "name": "charlie-XCX123",
-    "value": 15
-   },
-   {
-    "name": "Icarem",
     "value": 15
    },
    {
@@ -367,7 +367,7 @@
   "total": [
    {
     "name": "habbo-160-3",
-    "value": 2179
+    "value": 2181
    },
    {
     "name": "BiBiCHarBo",
@@ -403,7 +403,7 @@
    },
    {
     "name": "Padre",
-    "value": 633
+    "value": 636
    },
    {
     "name": "Astreu",
@@ -415,11 +415,11 @@
    },
    {
     "name": "Lewddon",
-    "value": 548
+    "value": 550
    },
    {
     "name": "Monsieur-RF",
-    "value": 530
+    "value": 532
    },
    {
     "name": "charlie-XCX123",
@@ -431,7 +431,7 @@
    },
    {
     "name": ".Libellule",
-    "value": 460
+    "value": 463
    },
    {
     "name": "dadou07",
@@ -519,7 +519,7 @@
    },
    {
     "name": "---Jayden---",
-    "value": 96
+    "value": 97
    },
    {
     "name": "SuzieOuistiti!",
@@ -569,7 +569,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 501
+    "value": 504
    },
    {
     "name": "halos34",
@@ -581,7 +581,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 298
+    "value": 300
    },
    {
     "name": "Pantheon_",
@@ -605,7 +605,7 @@
    },
    {
     "name": "Lewddon",
-    "value": 193
+    "value": 195
    },
    {
     "name": "Mr.Dino",
@@ -617,7 +617,7 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 175
+    "value": 177
    },
    {
     "name": "fym",
@@ -633,7 +633,7 @@
    },
    {
     "name": ".Libellule",
-    "value": 131
+    "value": 134
    },
    {
     "name": "Shizuku",
@@ -648,12 +648,12 @@
     "value": 100
    },
    {
-    "name": "sami75.19",
+    "name": "---Jayden---",
     "value": 97
    },
    {
-    "name": "---Jayden---",
-    "value": 96
+    "name": "sami75.19",
+    "value": 97
    },
    {
     "name": "SuzieOuistiti!",
@@ -716,6 +716,10 @@
     "value": 10
    },
    {
+    "name": "Richesse",
+    "value": 7
+   },
+   {
     "name": "irysse",
     "value": 5
    },
@@ -732,11 +736,11 @@
     "value": 4
    },
    {
-    "name": "Richesse",
-    "value": 4
+    "name": ".Dylan.",
+    "value": 3
    },
    {
-    "name": ".Dylan.",
+    "name": "Benny-knd",
     "value": 3
    },
    {
@@ -746,10 +750,6 @@
    {
     "name": "Nocif",
     "value": 3
-   },
-   {
-    "name": "Benny-knd",
-    "value": 2
    },
    {
     "name": "MagicalArt",
