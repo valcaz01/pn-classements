@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T08:58:36+00:00",
+ "updated": "2026-11-24T09:00:36+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -45,7 +45,7 @@
    },
    {
     "name": "Lovepanda",
-    "value": 28
+    "value": 29
    },
    {
     "name": "flo578",
@@ -242,6 +242,10 @@
     "value": 6
    },
    {
+    "name": "Lovepanda",
+    "value": 6
+   },
+   {
     "name": "Shizuku",
     "value": 6
    },
@@ -251,10 +255,6 @@
    },
    {
     "name": "flo578",
-    "value": 5
-   },
-   {
-    "name": "Lovepanda",
     "value": 5
    },
    {
@@ -446,12 +446,12 @@
     "value": 283
    },
    {
-    "name": "Proxymore",
-    "value": 275
+    "name": "Hectorr",
+    "value": 276
    },
    {
-    "name": "Hectorr",
-    "value": 274
+    "name": "Proxymore",
+    "value": 275
    },
    {
     "name": "-Massimo-",
@@ -601,7 +601,7 @@
    },
    {
     "name": "Hectorr",
-    "value": 124
+    "value": 126
    },
    {
     "name": "Monsieur-RF",
