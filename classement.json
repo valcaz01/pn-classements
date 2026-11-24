@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T19:54:37+00:00",
+ "updated": "2026-11-24T19:56:38+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -330,6 +330,10 @@
     "value": 3
    },
    {
+    "name": ":.Florence.:.",
+    "value": 2
+   },
+   {
     "name": "Boilred",
     "value": 2
    },
@@ -354,8 +358,8 @@
     "value": 2
    },
    {
-    "name": ":.Florence.:.",
-    "value": 1
+    "name": "toutoune-09",
+    "value": 2
    },
    {
     "name": "MelMlrr",
@@ -367,10 +371,6 @@
    },
    {
     "name": "sami75.19",
-    "value": 1
-   },
-   {
-    "name": "toutoune-09",
     "value": 1
    },
    {
@@ -395,7 +395,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 1280
+    "value": 1282
    },
    {
     "name": "marinadrk",
@@ -411,7 +411,7 @@
    },
    {
     "name": "Padre",
-    "value": 821
+    "value": 823
    },
    {
     "name": "Lovepanda",
@@ -419,7 +419,7 @@
    },
    {
     "name": "Shizuku",
-    "value": 761
+    "value": 763
    },
    {
     "name": "Astreu",
@@ -467,7 +467,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 405
+    "value": 407
    },
    {
     "name": "Hectorr",
@@ -585,7 +585,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 690
+    "value": 692
    },
    {
     "name": "halos34",
@@ -597,7 +597,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 346
+    "value": 348
    },
    {
     "name": "marinadrk",
@@ -617,7 +617,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 223
+    "value": 225
    },
    {
     "name": "Lovepanda",
@@ -661,7 +661,7 @@
    },
    {
     "name": "Shizuku",
-    "value": 129
+    "value": 131
    },
    {
     "name": "_.Flora._",
