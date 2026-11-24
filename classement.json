@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T19:04:39+00:00",
+ "updated": "2026-11-24T19:06:40+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -391,7 +391,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 1244
+    "value": 1246
    },
    {
     "name": "marinadrk",
@@ -403,15 +403,15 @@
    },
    {
     "name": "Icarem",
-    "value": 976
+    "value": 977
+   },
+   {
+    "name": "Padre",
+    "value": 773
    },
    {
     "name": "Lovepanda",
     "value": 772
-   },
-   {
-    "name": "Padre",
-    "value": 771
    },
    {
     "name": "Shizuku",
@@ -455,7 +455,7 @@
    },
    {
     "name": "_.Flora._",
-    "value": 409
+    "value": 410
    },
    {
     "name": "flo578",
@@ -483,7 +483,7 @@
    },
    {
     "name": "Vyp",
-    "value": 296
+    "value": 298
    },
    {
     "name": "Proxymore",
@@ -539,11 +539,11 @@
    },
    {
     "name": "Piingouin.",
-    "value": 91
+    "value": 93
    },
    {
     "name": "Richesse",
-    "value": 89
+    "value": 91
    },
    {
     "name": "Kouukii",
@@ -581,7 +581,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 640
+    "value": 642
    },
    {
     "name": "halos34",
@@ -597,15 +597,15 @@
    },
    {
     "name": "Pantheon_",
-    "value": 310
+    "value": 312
    },
    {
     "name": "Vyp",
-    "value": 296
+    "value": 298
    },
    {
     "name": "Icarem",
-    "value": 284
+    "value": 285
    },
    {
     "name": "tiff34",
@@ -665,7 +665,7 @@
    },
    {
     "name": "_.Flora._",
-    "value": 108
+    "value": 109
    },
    {
     "name": "sami75.19",
@@ -677,7 +677,7 @@
    },
    {
     "name": "Richesse",
-    "value": 89
+    "value": 91
    },
    {
     "name": "Kouukii",
@@ -733,7 +733,7 @@
    },
    {
     "name": "Piingouin.",
-    "value": 14
+    "value": 16
    },
    {
     "name": "Imondi",
