@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T15:49:07+00:00",
+ "updated": "2026-11-24T15:50:39+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -367,7 +367,7 @@
   "total": [
    {
     "name": "habbo-160-3",
-    "value": 2181
+    "value": 2183
    },
    {
     "name": "BiBiCHarBo",
@@ -403,23 +403,23 @@
    },
    {
     "name": "Padre",
-    "value": 636
+    "value": 637
    },
    {
     "name": "Astreu",
     "value": 625
    },
    {
+    "name": "Lewddon",
+    "value": 552
+   },
+   {
     "name": "andrew16a",
     "value": 551
    },
    {
-    "name": "Lewddon",
-    "value": 550
-   },
-   {
     "name": "Monsieur-RF",
-    "value": 532
+    "value": 533
    },
    {
     "name": "charlie-XCX123",
@@ -431,7 +431,7 @@
    },
    {
     "name": ".Libellule",
-    "value": 463
+    "value": 464
    },
    {
     "name": "dadou07",
@@ -569,7 +569,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 504
+    "value": 505
    },
    {
     "name": "halos34",
@@ -581,7 +581,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 300
+    "value": 302
    },
    {
     "name": "Pantheon_",
@@ -605,7 +605,7 @@
    },
    {
     "name": "Lewddon",
-    "value": 195
+    "value": 197
    },
    {
     "name": "Mr.Dino",
@@ -617,7 +617,7 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 177
+    "value": 178
    },
    {
     "name": "fym",
@@ -633,7 +633,7 @@
    },
    {
     "name": ".Libellule",
-    "value": 134
+    "value": 135
    },
    {
     "name": "Shizuku",
@@ -717,7 +717,7 @@
    },
    {
     "name": "Richesse",
-    "value": 7
+    "value": 8
    },
    {
     "name": "irysse",
@@ -732,15 +732,15 @@
     "value": 4
    },
    {
+    "name": "Benny-knd",
+    "value": 4
+   },
+   {
     "name": "guest77145",
     "value": 4
    },
    {
     "name": ".Dylan.",
-    "value": 3
-   },
-   {
-    "name": "Benny-knd",
     "value": 3
    },
    {
