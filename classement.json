@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T20:36:39+00:00",
+ "updated": "2026-11-24T20:38:38+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -383,7 +383,7 @@
   "total": [
    {
     "name": "habbo-160-3",
-    "value": 2253
+    "value": 2255
    },
    {
     "name": "BiBiCHarBo",
@@ -391,7 +391,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 1316
+    "value": 1318
    },
    {
     "name": "fym",
@@ -399,11 +399,11 @@
    },
    {
     "name": "marinadrk",
-    "value": 1230
+    "value": 1231
    },
    {
     "name": "Icarem",
-    "value": 998
+    "value": 1000
    },
    {
     "name": "halos34",
@@ -411,7 +411,7 @@
    },
    {
     "name": "Padre",
-    "value": 860
+    "value": 862
    },
    {
     "name": "Shizuku",
@@ -427,7 +427,7 @@
    },
    {
     "name": "dadou07",
-    "value": 558
+    "value": 559
    },
    {
     "name": "Lewddon",
@@ -459,7 +459,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 431
+    "value": 433
    },
    {
     "name": "_.Flora._",
@@ -585,7 +585,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 729
+    "value": 731
    },
    {
     "name": "halos34",
@@ -593,23 +593,23 @@
    },
    {
     "name": "Pantheon_",
-    "value": 382
+    "value": 384
    },
    {
     "name": "habbo-160-3",
-    "value": 372
+    "value": 374
    },
    {
     "name": "marinadrk",
-    "value": 324
+    "value": 325
+   },
+   {
+    "name": "Icarem",
+    "value": 308
    },
    {
     "name": "Vyp",
     "value": 307
-   },
-   {
-    "name": "Icarem",
-    "value": 306
    },
    {
     "name": "tiff34",
@@ -617,7 +617,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 249
+    "value": 251
    },
    {
     "name": "Lovepanda",
@@ -625,7 +625,7 @@
    },
    {
     "name": "dadou07",
-    "value": 206
+    "value": 207
    },
    {
     "name": "Hectorr",
