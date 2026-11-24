@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T23:50:38+00:00",
+ "updated": "2026-11-24T23:53:07+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -45,7 +45,7 @@
    },
    {
     "name": "Astreu",
-    "value": 32
+    "value": 33
    },
    {
     "name": "flo578",
@@ -322,6 +322,10 @@
     "value": 4
    },
    {
+    "name": "Astreu",
+    "value": 3
+   },
+   {
     "name": "guest77145",
     "value": 3
    },
@@ -350,15 +354,15 @@
     "value": 2
    },
    {
-    "name": "Astreu",
-    "value": 2
-   },
-   {
     "name": "Boilred",
     "value": 2
    },
    {
     "name": "CovidJr",
+    "value": 2
+   },
+   {
+    "name": "girly12",
     "value": 2
    },
    {
@@ -380,10 +384,6 @@
    {
     "name": "Seew-",
     "value": 2
-   },
-   {
-    "name": "girly12",
-    "value": 1
    },
    {
     "name": "Gueks",
@@ -411,7 +411,7 @@
   "total": [
    {
     "name": "habbo-160-3",
-    "value": 2336
+    "value": 2338
    },
    {
     "name": "BiBiCHarBo",
@@ -625,7 +625,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 455
+    "value": 457
    },
    {
     "name": "marinadrk",
