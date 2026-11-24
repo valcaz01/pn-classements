@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T01:43:07+00:00",
+ "updated": "2026-11-24T01:45:06+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -351,11 +351,11 @@
    },
    {
     "name": "fym",
-    "value": 1304
+    "value": 1306
    },
    {
     "name": "marinadrk",
-    "value": 1223
+    "value": 1225
    },
    {
     "name": "Pantheon_",
@@ -479,7 +479,7 @@
    },
    {
     "name": "tiff34",
-    "value": 153
+    "value": 155
    },
    {
     "name": "MagicalArt",
@@ -553,7 +553,7 @@
    },
    {
     "name": "marinadrk",
-    "value": 317
+    "value": 319
    },
    {
     "name": "Vyp",
@@ -568,6 +568,10 @@
     "value": 199
    },
    {
+    "name": "fym",
+    "value": 163
+   },
+   {
     "name": "Mr.Dino",
     "value": 163
    },
@@ -576,12 +580,8 @@
     "value": 162
    },
    {
-    "name": "fym",
-    "value": 161
-   },
-   {
     "name": "tiff34",
-    "value": 153
+    "value": 155
    },
    {
     "name": "Lovepanda",
