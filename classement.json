@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T16:40:37+00:00",
+ "updated": "2026-11-24T16:42:37+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -140,6 +140,10 @@
     "value": 7
    },
    {
+    "name": "dadou07",
+    "value": 6
+   },
+   {
     "name": "Kouukii",
     "value": 5
    },
@@ -161,10 +165,6 @@
    },
    {
     "name": "apo4020",
-    "value": 4
-   },
-   {
-    "name": "dadou07",
     "value": 4
    },
    {
@@ -326,6 +326,10 @@
     "value": 2
    },
    {
+    "name": "dadou07",
+    "value": 2
+   },
+   {
     "name": "habbo22t",
     "value": 2
    },
@@ -387,7 +391,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 1210
+    "value": 1212
    },
    {
     "name": "halos34",
@@ -407,7 +411,7 @@
    },
    {
     "name": "Padre",
-    "value": 640
+    "value": 642
    },
    {
     "name": "Astreu",
@@ -431,7 +435,7 @@
    },
    {
     "name": ".Libellule",
-    "value": 485
+    "value": 487
    },
    {
     "name": "habbo22t",
@@ -439,7 +443,7 @@
    },
    {
     "name": "dadou07",
-    "value": 459
+    "value": 460
    },
    {
     "name": "Mi,hermano",
@@ -514,12 +518,12 @@
     "value": 148
    },
    {
-    "name": "SuzieOuistiti!",
+    "name": "---Jayden---",
     "value": 123
    },
    {
-    "name": "---Jayden---",
-    "value": 122
+    "name": "SuzieOuistiti!",
+    "value": 123
    },
    {
     "name": "MagicalArt",
@@ -558,12 +562,12 @@
     "value": 57
    },
    {
-    "name": "LorenzoVisconti",
+    "name": "Kouukii",
     "value": 56
    },
    {
-    "name": "Kouukii",
-    "value": 54
+    "name": "LorenzoVisconti",
+    "value": 56
    },
    {
     "name": "BOuclette.13",
@@ -573,7 +577,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 508
+    "value": 510
    },
    {
     "name": "halos34",
@@ -589,7 +593,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 276
+    "value": 278
    },
    {
     "name": "Icarem",
@@ -633,7 +637,7 @@
    },
    {
     "name": ".Libellule",
-    "value": 156
+    "value": 158
    },
    {
     "name": "apo4020",
@@ -641,7 +645,7 @@
    },
    {
     "name": "---Jayden---",
-    "value": 122
+    "value": 123
    },
    {
     "name": "SuzieOuistiti!",
@@ -657,7 +661,7 @@
    },
    {
     "name": "dadou07",
-    "value": 104
+    "value": 105
    },
    {
     "name": "sami75.19",
@@ -677,7 +681,7 @@
    },
    {
     "name": "Kouukii",
-    "value": 54
+    "value": 56
    },
    {
     "name": "LorenzoVisconti",
@@ -693,7 +697,7 @@
    },
    {
     "name": "Richesse",
-    "value": 38
+    "value": 40
    },
    {
     "name": "Postillon",
@@ -713,7 +717,7 @@
    },
    {
     "name": "girly12",
-    "value": 20
+    "value": 22
    },
    {
     "name": "CovidJr",
