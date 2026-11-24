@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T13:33:08+00:00",
+ "updated": "2026-11-24T13:35:07+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -52,12 +52,12 @@
     "value": 26
    },
    {
-    "name": ".:Krustiz:.",
-    "value": 23
+    "name": "Pantheon_",
+    "value": 24
    },
    {
-    "name": "Pantheon_",
-    "value": 22
+    "name": ".:Krustiz:.",
+    "value": 23
    },
    {
     "name": "sami75.19",
@@ -258,6 +258,10 @@
     "value": 7
    },
    {
+    "name": "Pantheon_",
+    "value": 6
+   },
+   {
     "name": "tiff34",
     "value": 6
    },
@@ -279,10 +283,6 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 4
-   },
-   {
-    "name": "Pantheon_",
     "value": 4
    },
    {
@@ -411,7 +411,7 @@
    },
    {
     "name": "Padre",
-    "value": 524
+    "value": 525
    },
    {
     "name": "Monsieur-RF",
@@ -439,7 +439,7 @@
    },
    {
     "name": "dadou07",
-    "value": 404
+    "value": 406
    },
    {
     "name": "flo578",
@@ -569,7 +569,7 @@
    },
    {
     "name": "Padre",
-    "value": 391
+    "value": 392
    },
    {
     "name": "marinadrk",
@@ -664,16 +664,16 @@
     "value": 58
    },
    {
+    "name": "dadou07",
+    "value": 47
+   },
+   {
     "name": "LorenzoVisconti",
     "value": 47
    },
    {
     "name": "Mi,hermano",
     "value": 47
-   },
-   {
-    "name": "dadou07",
-    "value": 45
    },
    {
     "name": "-Massimo-",
