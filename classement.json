@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T23:00:38+00:00",
+ "updated": "2026-11-24T23:02:39+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -411,7 +411,7 @@
   "total": [
    {
     "name": "habbo-160-3",
-    "value": 2289
+    "value": 2291
    },
    {
     "name": "BiBiCHarBo",
@@ -435,7 +435,7 @@
    },
    {
     "name": "Padre",
-    "value": 994
+    "value": 996
    },
    {
     "name": "halos34",
@@ -451,7 +451,7 @@
    },
    {
     "name": "Astreu",
-    "value": 636
+    "value": 638
    },
    {
     "name": "dadou07",
@@ -499,7 +499,7 @@
    },
    {
     "name": "Hectorr",
-    "value": 379
+    "value": 381
    },
    {
     "name": "Fleabag",
@@ -613,7 +613,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 863
+    "value": 865
    },
    {
     "name": "halos34",
@@ -629,7 +629,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 408
+    "value": 410
    },
    {
     "name": "Icarem",
@@ -653,7 +653,7 @@
    },
    {
     "name": "Hectorr",
-    "value": 229
+    "value": 231
    },
    {
     "name": "Lovepanda",
@@ -784,16 +784,16 @@
     "value": 16
    },
    {
+    "name": "Astreu",
+    "value": 13
+   },
+   {
     "name": "Imondi",
     "value": 13
    },
    {
     "name": "MelMlrr",
     "value": 13
-   },
-   {
-    "name": "Astreu",
-    "value": 11
    },
    {
     "name": ":.Florence.:.",
