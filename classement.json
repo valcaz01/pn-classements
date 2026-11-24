@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T14:12:37+00:00",
+ "updated": "2026-11-24T14:14:37+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -379,7 +379,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 1113
+    "value": 1115
    },
    {
     "name": "halos34",
@@ -387,7 +387,7 @@
    },
    {
     "name": "Icarem",
-    "value": 894
+    "value": 896
    },
    {
     "name": "Shizuku",
@@ -395,7 +395,7 @@
    },
    {
     "name": "Lovepanda",
-    "value": 707
+    "value": 709
    },
    {
     "name": "Astreu",
@@ -403,7 +403,7 @@
    },
    {
     "name": "Padre",
-    "value": 559
+    "value": 561
    },
    {
     "name": "andrew16a",
@@ -414,12 +414,12 @@
     "value": 525
    },
    {
-    "name": "Monsieur-RF",
+    "name": "Lewddon",
     "value": 501
    },
    {
-    "name": "Lewddon",
-    "value": 499
+    "name": "Monsieur-RF",
+    "value": 501
    },
    {
     "name": "habbo22t",
@@ -490,11 +490,11 @@
     "value": 215
    },
    {
-    "name": "Postillon",
-    "value": 213
+    "name": "sami75.19",
+    "value": 215
    },
    {
-    "name": "sami75.19",
+    "name": "Postillon",
     "value": 213
    },
    {
@@ -569,7 +569,7 @@
    },
    {
     "name": "Padre",
-    "value": 427
+    "value": 429
    },
    {
     "name": "marinadrk",
@@ -589,7 +589,7 @@
    },
    {
     "name": "Icarem",
-    "value": 202
+    "value": 204
    },
    {
     "name": "andrew16a",
@@ -601,7 +601,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 179
+    "value": 181
    },
    {
     "name": "fym",
@@ -613,7 +613,11 @@
    },
    {
     "name": "Lovepanda",
-    "value": 150
+    "value": 152
+   },
+   {
+    "name": "Lewddon",
+    "value": 146
    },
    {
     "name": "Monsieur-RF",
@@ -621,10 +625,6 @@
    },
    {
     "name": "apo4020",
-    "value": 144
-   },
-   {
-    "name": "Lewddon",
     "value": 144
    },
    {
@@ -653,7 +653,7 @@
    },
    {
     "name": "sami75.19",
-    "value": 76
+    "value": 78
    },
    {
     "name": "flo578",
