@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T16:47:07+00:00",
+ "updated": "2026-11-24T16:49:08+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -391,11 +391,11 @@
    },
    {
     "name": "Pantheon_",
-    "value": 1216
+    "value": 1218
    },
    {
     "name": "halos34",
-    "value": 987
+    "value": 989
    },
    {
     "name": "Icarem",
@@ -411,7 +411,7 @@
    },
    {
     "name": "Padre",
-    "value": 646
+    "value": 648
    },
    {
     "name": "Astreu",
@@ -435,11 +435,11 @@
    },
    {
     "name": ".Libellule",
-    "value": 492
+    "value": 494
    },
    {
     "name": "habbo22t",
-    "value": 485
+    "value": 487
    },
    {
     "name": "dadou07",
@@ -550,12 +550,12 @@
     "value": 68
    },
    {
-    "name": "Leif",
-    "value": 61
+    "name": "Kouukii",
+    "value": 62
    },
    {
-    "name": "Kouukii",
-    "value": 60
+    "name": "Leif",
+    "value": 61
    },
    {
     "name": ".Dylan.",
@@ -577,11 +577,11 @@
   "week": [
    {
     "name": "Padre",
-    "value": 514
+    "value": 516
    },
    {
     "name": "halos34",
-    "value": 505
+    "value": 507
    },
    {
     "name": "marinadrk",
@@ -593,7 +593,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 282
+    "value": 284
    },
    {
     "name": "Icarem",
@@ -632,12 +632,12 @@
     "value": 176
    },
    {
-    "name": "fym",
-    "value": 164
+    "name": ".Libellule",
+    "value": 165
    },
    {
-    "name": ".Libellule",
-    "value": 163
+    "name": "fym",
+    "value": 164
    },
    {
     "name": "apo4020",
@@ -676,12 +676,12 @@
     "value": 73
    },
    {
-    "name": "Leif",
-    "value": 61
+    "name": "Kouukii",
+    "value": 62
    },
    {
-    "name": "Kouukii",
-    "value": 60
+    "name": "Leif",
+    "value": 61
    },
    {
     "name": "LorenzoVisconti",
@@ -704,12 +704,12 @@
     "value": 34
    },
    {
-    "name": "gotica",
-    "value": 30
+    "name": "habbo22t",
+    "value": 31
    },
    {
-    "name": "habbo22t",
-    "value": 29
+    "name": "gotica",
+    "value": 30
    },
    {
     "name": "girly12",
