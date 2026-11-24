@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T22:14:38+00:00",
+ "updated": "2026-11-24T22:16:39+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -140,6 +140,10 @@
     "value": 8
    },
    {
+    "name": "Kouukii",
+    "value": 7
+   },
+   {
     "name": "SuzieOuistiti!",
     "value": 7
    },
@@ -149,10 +153,6 @@
    },
    {
     "name": "apo4020",
-    "value": 5
-   },
-   {
-    "name": "Kouukii",
     "value": 5
    },
    {
@@ -274,6 +274,10 @@
     "value": 7
    },
    {
+    "name": "Kouukii",
+    "value": 7
+   },
+   {
     "name": "SuzieOuistiti!",
     "value": 7
    },
@@ -291,10 +295,6 @@
    },
    {
     "name": "dadou07",
-    "value": 5
-   },
-   {
-    "name": "Kouukii",
     "value": 5
    },
    {
@@ -427,7 +427,7 @@
    },
    {
     "name": "Padre",
-    "value": 949
+    "value": 951
    },
    {
     "name": "Shizuku",
@@ -451,7 +451,7 @@
    },
    {
     "name": "charlie-XCX123",
-    "value": 561
+    "value": 563
    },
    {
     "name": "Lewddon",
@@ -523,7 +523,7 @@
    },
    {
     "name": "sami75.19",
-    "value": 235
+    "value": 236
    },
    {
     "name": "Weavem",
@@ -601,7 +601,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 818
+    "value": 820
    },
    {
     "name": "halos34",
@@ -685,7 +685,7 @@
    },
    {
     "name": "charlie-XCX123",
-    "value": 119
+    "value": 121
    },
    {
     "name": "SuzieOuistiti!",
@@ -701,7 +701,7 @@
    },
    {
     "name": "sami75.19",
-    "value": 98
+    "value": 99
    },
    {
     "name": "flo578",
@@ -721,7 +721,7 @@
    },
    {
     "name": "LouunaS",
-    "value": 48
+    "value": 50
    },
    {
     "name": "LorenzoVisconti",
@@ -736,12 +736,12 @@
     "value": 42
    },
    {
-    "name": "Piingouin.",
+    "name": "Benny-knd",
     "value": 33
    },
    {
-    "name": "Benny-knd",
-    "value": 32
+    "name": "Piingouin.",
+    "value": 33
    },
    {
     "name": "Lunatic...",
