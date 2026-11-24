@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T21:02:39+00:00",
+ "updated": "2026-11-24T21:04:39+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -121,7 +121,7 @@
    },
    {
     "name": "tiff34",
-    "value": 9
+    "value": 10
    },
    {
     "name": "dadou07",
@@ -238,6 +238,10 @@
     "value": 10
    },
    {
+    "name": "tiff34",
+    "value": 10
+   },
+   {
     "name": "_.Flora._",
     "value": 9
    },
@@ -251,10 +255,6 @@
    },
    {
     "name": "Shizuku",
-    "value": 9
-   },
-   {
-    "name": "tiff34",
     "value": 9
    },
    {
@@ -395,7 +395,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 1341
+    "value": 1343
    },
    {
     "name": "fym",
@@ -403,7 +403,7 @@
    },
    {
     "name": "marinadrk",
-    "value": 1253
+    "value": 1255
    },
    {
     "name": "Icarem",
@@ -415,7 +415,7 @@
    },
    {
     "name": "Padre",
-    "value": 882
+    "value": 884
    },
    {
     "name": "Shizuku",
@@ -431,11 +431,11 @@
    },
    {
     "name": "dadou07",
-    "value": 576
+    "value": 577
    },
    {
     "name": "andrew16a",
-    "value": 564
+    "value": 566
    },
    {
     "name": "Lewddon",
@@ -447,7 +447,7 @@
    },
    {
     "name": "charlie-XCX123",
-    "value": 533
+    "value": 535
    },
    {
     "name": ".Libellule",
@@ -467,7 +467,7 @@
    },
    {
     "name": "_.Flora._",
-    "value": 445
+    "value": 447
    },
    {
     "name": "flo578",
@@ -589,7 +589,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 751
+    "value": 753
    },
    {
     "name": "halos34",
@@ -597,7 +597,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 407
+    "value": 409
    },
    {
     "name": "habbo-160-3",
@@ -605,7 +605,7 @@
    },
    {
     "name": "marinadrk",
-    "value": 347
+    "value": 349
    },
    {
     "name": "Icarem",
@@ -625,7 +625,7 @@
    },
    {
     "name": "dadou07",
-    "value": 224
+    "value": 225
    },
    {
     "name": "Lovepanda",
@@ -633,7 +633,7 @@
    },
    {
     "name": "andrew16a",
-    "value": 212
+    "value": 214
    },
    {
     "name": "Hectorr",
@@ -665,7 +665,7 @@
    },
    {
     "name": "_.Flora._",
-    "value": 144
+    "value": 146
    },
    {
     "name": "---Jayden---",
@@ -689,7 +689,7 @@
    },
    {
     "name": "charlie-XCX123",
-    "value": 91
+    "value": 93
    },
    {
     "name": "flo578",
