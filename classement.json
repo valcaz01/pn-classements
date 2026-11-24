@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T16:52:38+00:00",
+ "updated": "2026-11-24T16:54:37+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -391,7 +391,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 1221
+    "value": 1223
    },
    {
     "name": "halos34",
@@ -411,7 +411,7 @@
    },
    {
     "name": "Padre",
-    "value": 652
+    "value": 654
    },
    {
     "name": "Astreu",
@@ -435,15 +435,15 @@
    },
    {
     "name": ".Libellule",
-    "value": 497
+    "value": 499
    },
    {
     "name": "habbo22t",
-    "value": 491
+    "value": 492
    },
    {
     "name": "dadou07",
-    "value": 466
+    "value": 468
    },
    {
     "name": "Mi,hermano",
@@ -551,7 +551,7 @@
    },
    {
     "name": "Kouukii",
-    "value": 66
+    "value": 68
    },
    {
     "name": "Leif",
@@ -577,7 +577,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 520
+    "value": 522
    },
    {
     "name": "halos34",
@@ -593,7 +593,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 287
+    "value": 289
    },
    {
     "name": "Icarem",
@@ -633,7 +633,7 @@
    },
    {
     "name": ".Libellule",
-    "value": 168
+    "value": 170
    },
    {
     "name": "fym",
@@ -653,7 +653,7 @@
    },
    {
     "name": "dadou07",
-    "value": 111
+    "value": 113
    },
    {
     "name": "Shizuku",
@@ -677,7 +677,7 @@
    },
    {
     "name": "Kouukii",
-    "value": 66
+    "value": 68
    },
    {
     "name": "Leif",
@@ -693,7 +693,7 @@
    },
    {
     "name": "Richesse",
-    "value": 44
+    "value": 46
    },
    {
     "name": "-Massimo-",
@@ -701,7 +701,7 @@
    },
    {
     "name": "habbo22t",
-    "value": 35
+    "value": 36
    },
    {
     "name": "Postillon",
@@ -762,6 +762,10 @@
    {
     "name": "Nocif",
     "value": 3
+   },
+   {
+    "name": "Lunatic...",
+    "value": 2
    },
    {
     "name": "MagicalArt",
