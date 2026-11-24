@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T15:08:37+00:00",
+ "updated": "2026-11-24T15:10:35+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -28,12 +28,12 @@
     "value": 44
    },
    {
-    "name": "halos34",
+    "name": "habbo-160-3",
     "value": 39
    },
    {
-    "name": "habbo-160-3",
-    "value": 37
+    "name": "halos34",
+    "value": 39
    },
    {
     "name": "Shizuku",
@@ -206,6 +206,10 @@
   ],
   "week": [
    {
+    "name": "habbo-160-3",
+    "value": 16
+   },
+   {
     "name": "pevanq640",
     "value": 16
    },
@@ -216,10 +220,6 @@
    {
     "name": "Icarem",
     "value": 15
-   },
-   {
-    "name": "habbo-160-3",
-    "value": 14
    },
    {
     "name": ".Libellule",
@@ -383,7 +383,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 1168
+    "value": 1169
    },
    {
     "name": "halos34",
@@ -407,7 +407,7 @@
    },
    {
     "name": "Padre",
-    "value": 607
+    "value": 609
    },
    {
     "name": "andrew16a",
@@ -430,11 +430,11 @@
     "value": 484
    },
    {
-    "name": ".Libellule",
-    "value": 431
+    "name": "dadou07",
+    "value": 433
    },
    {
-    "name": "dadou07",
+    "name": ".Libellule",
     "value": 431
    },
    {
@@ -573,7 +573,7 @@
    },
    {
     "name": "Padre",
-    "value": 475
+    "value": 477
    },
    {
     "name": "marinadrk",
@@ -593,7 +593,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 234
+    "value": 235
    },
    {
     "name": "tiff34",
@@ -661,7 +661,7 @@
    },
    {
     "name": "dadou07",
-    "value": 76
+    "value": 78
    },
    {
     "name": "flo578",
