@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T15:34:38+00:00",
+ "updated": "2026-11-24T15:36:39+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -367,7 +367,7 @@
   "total": [
    {
     "name": "habbo-160-3",
-    "value": 2167
+    "value": 2169
    },
    {
     "name": "BiBiCHarBo",
@@ -383,7 +383,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 1191
+    "value": 1192
    },
    {
     "name": "halos34",
@@ -391,7 +391,7 @@
    },
    {
     "name": "Icarem",
-    "value": 937
+    "value": 939
    },
    {
     "name": "Shizuku",
@@ -402,12 +402,12 @@
     "value": 738
    },
    {
-    "name": "Astreu",
-    "value": 625
+    "name": "Padre",
+    "value": 626
    },
    {
-    "name": "Padre",
-    "value": 624
+    "name": "Astreu",
+    "value": 625
    },
    {
     "name": "andrew16a",
@@ -415,7 +415,7 @@
    },
    {
     "name": "Lewddon",
-    "value": 539
+    "value": 540
    },
    {
     "name": "charlie-XCX123",
@@ -423,7 +423,7 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 518
+    "value": 520
    },
    {
     "name": "habbo22t",
@@ -435,7 +435,7 @@
    },
    {
     "name": ".Libellule",
-    "value": 448
+    "value": 450
    },
    {
     "name": "Mi,hermano",
@@ -568,11 +568,11 @@
   ],
   "week": [
    {
-    "name": "halos34",
-    "value": 492
+    "name": "Padre",
+    "value": 494
    },
    {
-    "name": "Padre",
+    "name": "halos34",
     "value": 492
    },
    {
@@ -581,11 +581,11 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 286
+    "value": 288
    },
    {
     "name": "Pantheon_",
-    "value": 257
+    "value": 258
    },
    {
     "name": "Vyp",
@@ -593,7 +593,7 @@
    },
    {
     "name": "Icarem",
-    "value": 245
+    "value": 247
    },
    {
     "name": "tiff34",
@@ -609,19 +609,19 @@
    },
    {
     "name": "Lewddon",
-    "value": 184
+    "value": 185
    },
    {
     "name": "Lovepanda",
     "value": 181
    },
    {
-    "name": "fym",
-    "value": 164
+    "name": "Monsieur-RF",
+    "value": 165
    },
    {
-    "name": "Monsieur-RF",
-    "value": 163
+    "name": "fym",
+    "value": 164
    },
    {
     "name": "Hectorr",
@@ -633,7 +633,7 @@
    },
    {
     "name": ".Libellule",
-    "value": 119
+    "value": 121
    },
    {
     "name": "Shizuku",
