@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T12:46:37+00:00",
+ "updated": "2026-11-24T12:49:06+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -708,6 +708,10 @@
     "value": 5
    },
    {
+    "name": "MrDrMathieu1990",
+    "value": 5
+   },
+   {
     "name": "Babbo0",
     "value": 4
    },
@@ -717,10 +721,6 @@
    },
    {
     "name": ".Dylan.",
-    "value": 3
-   },
-   {
-    "name": "MrDrMathieu1990",
     "value": 3
    },
    {
