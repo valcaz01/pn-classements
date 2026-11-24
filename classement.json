@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T19:52:37+00:00",
+ "updated": "2026-11-24T19:54:37+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -370,6 +370,10 @@
     "value": 1
    },
    {
+    "name": "toutoune-09",
+    "value": 1
+   },
+   {
     "name": "xLunaCandy",
     "value": 1
    }
@@ -391,7 +395,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 1278
+    "value": 1280
    },
    {
     "name": "marinadrk",
@@ -407,7 +411,7 @@
    },
    {
     "name": "Padre",
-    "value": 819
+    "value": 821
    },
    {
     "name": "Lovepanda",
@@ -415,7 +419,7 @@
    },
    {
     "name": "Shizuku",
-    "value": 759
+    "value": 761
    },
    {
     "name": "Astreu",
@@ -463,7 +467,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 403
+    "value": 405
    },
    {
     "name": "Hectorr",
@@ -495,7 +499,7 @@
    },
    {
     "name": "tiff34",
-    "value": 262
+    "value": 263
    },
    {
     "name": "Postillon",
@@ -581,7 +585,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 688
+    "value": 690
    },
    {
     "name": "halos34",
@@ -593,7 +597,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 344
+    "value": 346
    },
    {
     "name": "marinadrk",
@@ -609,11 +613,11 @@
    },
    {
     "name": "tiff34",
-    "value": 262
+    "value": 263
    },
    {
     "name": "Mr.Dino",
-    "value": 221
+    "value": 223
    },
    {
     "name": "Lovepanda",
@@ -657,7 +661,7 @@
    },
    {
     "name": "Shizuku",
-    "value": 127
+    "value": 129
    },
    {
     "name": "_.Flora._",
