@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T23:16:37+00:00",
+ "updated": "2026-11-24T23:18:37+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -45,7 +45,7 @@
    },
    {
     "name": "Astreu",
-    "value": 30
+    "value": 31
    },
    {
     "name": "flo578",
@@ -148,11 +148,11 @@
     "value": 7
    },
    {
-    "name": "---Jayden---",
-    "value": 5
+    "name": "apo4020",
+    "value": 6
    },
    {
-    "name": "apo4020",
+    "name": "---Jayden---",
     "value": 5
    },
    {
@@ -282,15 +282,15 @@
     "value": 7
    },
    {
+    "name": "apo4020",
+    "value": 6
+   },
+   {
     "name": "---Jayden---",
     "value": 5
    },
    {
     "name": ".Dylan.",
-    "value": 5
-   },
-   {
-    "name": "apo4020",
     "value": 5
    },
    {
@@ -378,6 +378,10 @@
     "value": 2
    },
    {
+    "name": "Astreu",
+    "value": 1
+   },
+   {
     "name": "Gueks",
     "value": 1
    },
@@ -400,10 +404,6 @@
    {
     "name": "sami75.19",
     "value": 1
-   },
-   {
-    "name": "xLunaCandy",
-    "value": 1
    }
   ]
  },
@@ -411,7 +411,7 @@
   "total": [
    {
     "name": "habbo-160-3",
-    "value": 2304
+    "value": 2306
    },
    {
     "name": "BiBiCHarBo",
@@ -423,7 +423,7 @@
    },
    {
     "name": "marinadrk",
-    "value": 1326
+    "value": 1328
    },
    {
     "name": "fym",
@@ -431,7 +431,7 @@
    },
    {
     "name": "Padre",
-    "value": 1010
+    "value": 1011
    },
    {
     "name": "Icarem",
@@ -451,7 +451,7 @@
    },
    {
     "name": "Astreu",
-    "value": 652
+    "value": 653
    },
    {
     "name": "dadou07",
@@ -499,7 +499,7 @@
    },
    {
     "name": "Hectorr",
-    "value": 393
+    "value": 395
    },
    {
     "name": "Fleabag",
@@ -519,11 +519,11 @@
    },
    {
     "name": "Proxymore",
-    "value": 280
+    "value": 282
    },
    {
     "name": "tiff34",
-    "value": 278
+    "value": 279
    },
    {
     "name": "-Massimo-",
@@ -613,7 +613,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 879
+    "value": 880
    },
    {
     "name": "halos34",
@@ -625,11 +625,11 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 423
+    "value": 425
    },
    {
     "name": "marinadrk",
-    "value": 421
+    "value": 423
    },
    {
     "name": "Icarem",
@@ -641,18 +641,18 @@
    },
    {
     "name": "tiff34",
-    "value": 278
+    "value": 279
    },
    {
     "name": "Mr.Dino",
     "value": 268
    },
    {
-    "name": "dadou07",
-    "value": 243
+    "name": "Hectorr",
+    "value": 245
    },
    {
-    "name": "Hectorr",
+    "name": "dadou07",
     "value": 243
    },
    {
@@ -765,7 +765,7 @@
    },
    {
     "name": "Astreu",
-    "value": 27
+    "value": 28
    },
    {
     "name": "girly12",
@@ -804,12 +804,12 @@
     "value": 9
    },
    {
-    "name": "toutoune-09",
-    "value": 6
+    "name": "Proxymore",
+    "value": 7
    },
    {
-    "name": ".Dylan.",
-    "value": 5
+    "name": "toutoune-09",
+    "value": 6
    }
   ]
  }
