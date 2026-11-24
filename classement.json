@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T21:43:08+00:00",
+ "updated": "2026-11-24T21:45:07+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -362,6 +362,10 @@
     "value": 2
    },
    {
+    "name": "LouunaS",
+    "value": 2
+   },
+   {
     "name": "marinadrk",
     "value": 2
    },
@@ -371,10 +375,6 @@
    },
    {
     "name": "Lord_Fullbody",
-    "value": 1
-   },
-   {
-    "name": "LouunaS",
     "value": 1
    },
    {
@@ -407,7 +407,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 1381
+    "value": 1383
    },
    {
     "name": "fym",
@@ -415,7 +415,7 @@
    },
    {
     "name": "marinadrk",
-    "value": 1291
+    "value": 1293
    },
    {
     "name": "Icarem",
@@ -427,7 +427,7 @@
    },
    {
     "name": "Padre",
-    "value": 920
+    "value": 922
    },
    {
     "name": "Shizuku",
@@ -601,7 +601,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 789
+    "value": 791
    },
    {
     "name": "halos34",
@@ -609,11 +609,11 @@
    },
    {
     "name": "Pantheon_",
-    "value": 447
+    "value": 449
    },
    {
     "name": "marinadrk",
-    "value": 385
+    "value": 387
    },
    {
     "name": "habbo-160-3",
@@ -765,7 +765,7 @@
    },
    {
     "name": "Benny-knd",
-    "value": 16
+    "value": 17
    },
    {
     "name": "Imondi",
@@ -780,6 +780,10 @@
     "value": 10
    },
    {
+    "name": "Freminet",
+    "value": 6
+   },
+   {
     "name": "toutoune-09",
     "value": 6
    },
@@ -788,15 +792,11 @@
     "value": 5
    },
    {
-    "name": "Freminet",
+    "name": "BOuclette.13",
     "value": 5
    },
    {
     "name": "irysse",
-    "value": 5
-   },
-   {
-    "name": "JoyBoy.",
     "value": 5
    }
   ]
