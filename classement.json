@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T01:02:37+00:00",
+ "updated": "2026-11-24T01:04:36+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -343,7 +343,7 @@
   "total": [
    {
     "name": "habbo-160-3",
-    "value": 2079
+    "value": 2081
    },
    {
     "name": "BiBiCHarBo",
@@ -351,7 +351,7 @@
    },
    {
     "name": "fym",
-    "value": 1264
+    "value": 1266
    },
    {
     "name": "marinadrk",
@@ -459,7 +459,7 @@
    },
    {
     "name": "Vyp",
-    "value": 226
+    "value": 228
    },
    {
     "name": "-Tsukiri-",
@@ -478,12 +478,12 @@
     "value": 178
    },
    {
-    "name": "MagicalArt",
-    "value": 122
+    "name": "tiff34",
+    "value": 123
    },
    {
-    "name": "tiff34",
-    "value": 121
+    "name": "MagicalArt",
+    "value": 122
    },
    {
     "name": "apo4020",
@@ -557,15 +557,15 @@
    },
    {
     "name": "Vyp",
-    "value": 226
+    "value": 228
+   },
+   {
+    "name": "habbo-160-3",
+    "value": 200
    },
    {
     "name": "andrew16a",
     "value": 199
-   },
-   {
-    "name": "habbo-160-3",
-    "value": 198
    },
    {
     "name": "Mr.Dino",
@@ -581,14 +581,14 @@
    },
    {
     "name": "fym",
-    "value": 121
-   },
-   {
-    "name": "Monsieur-RF",
-    "value": 121
+    "value": 123
    },
    {
     "name": "tiff34",
+    "value": 123
+   },
+   {
+    "name": "Monsieur-RF",
     "value": 121
    },
    {
