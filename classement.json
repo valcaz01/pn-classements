@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T17:18:39+00:00",
+ "updated": "2026-11-24T17:20:38+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -399,7 +399,7 @@
    },
    {
     "name": "Icarem",
-    "value": 947
+    "value": 949
    },
    {
     "name": "Shizuku",
@@ -411,7 +411,7 @@
    },
    {
     "name": "Padre",
-    "value": 675
+    "value": 677
    },
    {
     "name": "Astreu",
@@ -443,11 +443,11 @@
    },
    {
     "name": "dadou07",
-    "value": 489
+    "value": 491
    },
    {
     "name": "Mi,hermano",
-    "value": 425
+    "value": 427
    },
    {
     "name": "_.Flora._",
@@ -463,7 +463,7 @@
    },
    {
     "name": "Hectorr",
-    "value": 330
+    "value": 332
    },
    {
     "name": "Fleabag",
@@ -555,7 +555,7 @@
    },
    {
     "name": "Richesse",
-    "value": 65
+    "value": 67
    },
    {
     "name": "Leif",
@@ -577,7 +577,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 543
+    "value": 545
    },
    {
     "name": "halos34",
@@ -597,7 +597,7 @@
    },
    {
     "name": "Icarem",
-    "value": 255
+    "value": 257
    },
    {
     "name": "Vyp",
@@ -628,12 +628,12 @@
     "value": 183
    },
    {
-    "name": "Lovepanda",
-    "value": 181
+    "name": "Hectorr",
+    "value": 182
    },
    {
-    "name": "Hectorr",
-    "value": 180
+    "name": "Lovepanda",
+    "value": 181
    },
    {
     "name": "fym",
@@ -645,7 +645,7 @@
    },
    {
     "name": "dadou07",
-    "value": 134
+    "value": 136
    },
    {
     "name": "---Jayden---",
@@ -681,11 +681,11 @@
    },
    {
     "name": "Richesse",
-    "value": 65
+    "value": 67
    },
    {
     "name": "Mi,hermano",
-    "value": 63
+    "value": 65
    },
    {
     "name": "Leif",
