@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T12:22:36+00:00",
+ "updated": "2026-11-24T12:24:35+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -379,7 +379,7 @@
    },
    {
     "name": "halos34",
-    "value": 961
+    "value": 962
    },
    {
     "name": "Icarem",
@@ -459,7 +459,7 @@
    },
    {
     "name": "gotica",
-    "value": 284
+    "value": 286
    },
    {
     "name": "Proxymore",
@@ -561,7 +561,7 @@
   "week": [
    {
     "name": "halos34",
-    "value": 478
+    "value": 479
    },
    {
     "name": "Padre",
@@ -688,12 +688,12 @@
     "value": 28
    },
    {
-    "name": "CovidJr",
-    "value": 15
+    "name": "gotica",
+    "value": 16
    },
    {
-    "name": "gotica",
-    "value": 14
+    "name": "CovidJr",
+    "value": 15
    },
    {
     "name": "MelMlrr",
