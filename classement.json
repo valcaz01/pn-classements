@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T17:06:38+00:00",
+ "updated": "2026-11-24T17:08:38+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -57,7 +57,7 @@
    },
    {
     "name": ".:Krustiz:.",
-    "value": 23
+    "value": 24
    },
    {
     "name": "sami75.19",
@@ -290,16 +290,16 @@
     "value": 4
    },
    {
+    "name": ".:Krustiz:.",
+    "value": 4
+   },
+   {
     "name": "apo4020",
     "value": 4
    },
    {
     "name": "habbo22t",
     "value": 4
-   },
-   {
-    "name": ".:Krustiz:.",
-    "value": 3
    },
    {
     "name": ".Dylan.",
@@ -387,7 +387,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 1235
+    "value": 1237
    },
    {
     "name": "marinadrk",
@@ -411,7 +411,7 @@
    },
    {
     "name": "Padre",
-    "value": 666
+    "value": 668
    },
    {
     "name": "Astreu",
@@ -435,7 +435,7 @@
    },
    {
     "name": ".Libellule",
-    "value": 510
+    "value": 512
    },
    {
     "name": "habbo22t",
@@ -443,11 +443,11 @@
    },
    {
     "name": "dadou07",
-    "value": 477
+    "value": 479
    },
    {
     "name": "Mi,hermano",
-    "value": 414
+    "value": 415
    },
    {
     "name": "_.Flora._",
@@ -558,15 +558,15 @@
     "value": 61
    },
    {
+    "name": "Richesse",
+    "value": 59
+   },
+   {
     "name": ".Dylan.",
     "value": 57
    },
    {
     "name": "Fanny-148",
-    "value": 57
-   },
-   {
-    "name": "Richesse",
     "value": 57
    },
    {
@@ -577,7 +577,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 534
+    "value": 536
    },
    {
     "name": "halos34",
@@ -593,7 +593,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 301
+    "value": 303
    },
    {
     "name": "Icarem",
@@ -625,7 +625,7 @@
    },
    {
     "name": ".Libellule",
-    "value": 181
+    "value": 183
    },
    {
     "name": "Lovepanda",
@@ -644,12 +644,12 @@
     "value": 148
    },
    {
-    "name": "---Jayden---",
-    "value": 123
+    "name": "dadou07",
+    "value": 124
    },
    {
-    "name": "dadou07",
-    "value": 122
+    "name": "---Jayden---",
+    "value": 123
    },
    {
     "name": "SuzieOuistiti!",
@@ -685,11 +685,11 @@
    },
    {
     "name": "Richesse",
-    "value": 57
+    "value": 59
    },
    {
     "name": "Mi,hermano",
-    "value": 52
+    "value": 53
    },
    {
     "name": "LorenzoVisconti",
@@ -725,7 +725,7 @@
    },
    {
     "name": "Lunatic...",
-    "value": 14
+    "value": 16
    },
    {
     "name": "MelMlrr",
