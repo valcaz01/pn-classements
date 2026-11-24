@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T04:00:36+00:00",
+ "updated": "2026-11-24T04:02:35+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -29,7 +29,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 35
+    "value": 36
    },
    {
     "name": "Shizuku",
@@ -180,6 +180,10 @@
     "value": 3
    },
    {
+    "name": "LorenzoVisconti",
+    "value": 3
+   },
+   {
     "name": "MagicalArt",
     "value": 3
    },
@@ -198,16 +202,12 @@
    {
     "name": "-Oiseau",
     "value": 2
-   },
-   {
-    "name": "apo4020",
-    "value": 2
    }
   ],
   "week": [
    {
     "name": "habbo-160-3",
-    "value": 12
+    "value": 13
    },
    {
     "name": "charlie-XCX123",
@@ -294,6 +294,10 @@
     "value": 3
    },
    {
+    "name": "LorenzoVisconti",
+    "value": 3
+   },
+   {
     "name": "Mi,hermano",
     "value": 3
    },
@@ -311,10 +315,6 @@
    },
    {
     "name": "habbo22t",
-    "value": 2
-   },
-   {
-    "name": "LorenzoVisconti",
     "value": 2
    },
    {
@@ -343,7 +343,7 @@
   "total": [
    {
     "name": "habbo-160-3",
-    "value": 2114
+    "value": 2115
    },
    {
     "name": "BiBiCHarBo",
@@ -561,7 +561,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 233
+    "value": 234
    },
    {
     "name": "andrew16a",
@@ -665,7 +665,7 @@
    },
    {
     "name": "LorenzoVisconti",
-    "value": 27
+    "value": 28
    },
    {
     "name": "CovidJr",
