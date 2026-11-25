@@ -6907,11 +6907,11 @@
  },
  "25884300": {
   "alertes": {},
-  "depuis": null,
-  "grade": null,
-  "humeur": "",
+  "depuis": "2026-11-24T23:00:00+00:00",
+  "grade": "cadet",
+  "humeur": "[PN] Cadette",
   "pseudo": "Lilith_C",
-  "verifie": "2026-11-24T22:26:39+00:00"
+  "verifie": "2026-11-25T00:18:38+00:00"
  },
  "25884789": {
   "alertes": {},
@@ -9081,7 +9081,7 @@
   "grade": null,
   "humeur": "",
   "pseudo": "Moira-7",
-  "verifie": "2026-11-24T21:18:36+00:00"
+  "verifie": "2026-11-25T00:18:38+00:00"
  },
  "26014029": {
   "alertes": {},
