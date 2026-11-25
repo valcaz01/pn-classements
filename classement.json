@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T09:55:09+00:00",
+ "updated": "2026-11-25T09:57:09+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -172,6 +172,10 @@
     "value": 4
    },
    {
+    "name": "girly12",
+    "value": 4
+   },
+   {
     "name": "SMPSHomer",
     "value": 4
    },
@@ -189,10 +193,6 @@
    },
    {
     "name": "Fleabag",
-    "value": 3
-   },
-   {
-    "name": "girly12",
     "value": 3
    },
    {
@@ -314,6 +314,10 @@
     "value": 4
    },
    {
+    "name": "girly12",
+    "value": 4
+   },
+   {
     "name": "habbo22t",
     "value": 4
    },
@@ -327,10 +331,6 @@
    },
    {
     "name": "Astreu",
-    "value": 3
-   },
-   {
-    "name": "girly12",
     "value": 3
    },
    {
@@ -435,7 +435,7 @@
    },
    {
     "name": "Icarem",
-    "value": 1015
+    "value": 1017
    },
    {
     "name": "halos34",
@@ -471,7 +471,7 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 540
+    "value": 542
    },
    {
     "name": ".Libellule",
@@ -637,7 +637,7 @@
    },
    {
     "name": "Icarem",
-    "value": 323
+    "value": 325
    },
    {
     "name": "Vyp",
@@ -673,7 +673,7 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 185
+    "value": 187
    },
    {
     "name": "fym",
