@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T16:32:33+00:00",
+ "updated": "2026-11-25T16:34:33+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -84,16 +84,16 @@
     "value": 21
    },
    {
+    "name": "habbo22t",
+    "value": 20
+   },
+   {
     "name": "Postillon",
     "value": 20
    },
    {
     "name": "Proxymore",
     "value": 20
-   },
-   {
-    "name": "habbo22t",
-    "value": 19
    },
    {
     "name": "irysse",
@@ -310,6 +310,10 @@
     "value": 5
    },
    {
+    "name": "habbo22t",
+    "value": 5
+   },
+   {
     "name": "LesdixGaga",
     "value": 5
    },
@@ -323,10 +327,6 @@
    },
    {
     "name": "girly12",
-    "value": 4
-   },
-   {
-    "name": "habbo22t",
     "value": 4
    },
    {
@@ -427,7 +427,7 @@
    },
    {
     "name": "Padre",
-    "value": 1342
+    "value": 1344
    },
    {
     "name": "fym",
@@ -447,7 +447,7 @@
    },
    {
     "name": "Lovepanda",
-    "value": 810
+    "value": 811
    },
    {
     "name": "Astreu",
@@ -487,7 +487,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 484
+    "value": 485
    },
    {
     "name": "Mr.Dino",
@@ -535,7 +535,7 @@
    },
    {
     "name": "gotica",
-    "value": 301
+    "value": 302
    },
    {
     "name": "sami75.19",
@@ -613,7 +613,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 1211
+    "value": 1213
    },
    {
     "name": "habbo-160-3",
@@ -669,11 +669,11 @@
    },
    {
     "name": "-Massimo-",
-    "value": 262
+    "value": 263
    },
    {
     "name": "Lovepanda",
-    "value": 253
+    "value": 254
    },
    {
     "name": "dadou07",
@@ -753,7 +753,7 @@
    },
    {
     "name": "Lord_Fullbody",
-    "value": 57
+    "value": 59
    },
    {
     "name": "LorenzoVisconti",
@@ -780,12 +780,12 @@
     "value": 33
    },
    {
-    "name": "Lunatic...",
+    "name": "gotica",
     "value": 32
    },
    {
-    "name": "gotica",
-    "value": 31
+    "name": "Lunatic...",
+    "value": 32
    },
    {
     "name": "Lilith_C",
