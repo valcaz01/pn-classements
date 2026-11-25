@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T14:28:32+00:00",
+ "updated": "2026-11-25T14:30:33+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -68,6 +68,10 @@
     "value": 23
    },
    {
+    "name": "Mi,hermano",
+    "value": 22
+   },
+   {
     "name": "_.Flora._",
     "value": 21
    },
@@ -85,10 +89,6 @@
    },
    {
     "name": "habbo22t",
-    "value": 19
-   },
-   {
-    "name": "Mi,hermano",
     "value": 19
    },
    {
@@ -238,6 +238,10 @@
     "value": 14
    },
    {
+    "name": "Mi,hermano",
+    "value": 14
+   },
+   {
     "name": "Pantheon_",
     "value": 14
    },
@@ -247,10 +251,6 @@
    },
    {
     "name": "Lovepanda",
-    "value": 11
-   },
-   {
-    "name": "Mi,hermano",
     "value": 11
    },
    {
@@ -411,7 +411,7 @@
   "total": [
    {
     "name": "habbo-160-3",
-    "value": 2513
+    "value": 2514
    },
    {
     "name": "BiBiCHarBo",
@@ -495,7 +495,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 425
+    "value": 426
    },
    {
     "name": "flo578",
@@ -507,7 +507,7 @@
    },
    {
     "name": "Postillon",
-    "value": 395
+    "value": 397
    },
    {
     "name": "tiff34",
@@ -617,7 +617,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 632
+    "value": 633
    },
    {
     "name": "halos34",
@@ -677,11 +677,11 @@
    },
    {
     "name": "Postillon",
-    "value": 216
+    "value": 218
    },
    {
     "name": "-Massimo-",
-    "value": 203
+    "value": 204
    },
    {
     "name": "fym",
