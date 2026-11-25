@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T10:43:34+00:00",
+ "updated": "2026-11-25T10:45:03+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -431,7 +431,7 @@
    },
    {
     "name": "Padre",
-    "value": 1080
+    "value": 1082
    },
    {
     "name": "Icarem",
@@ -503,7 +503,7 @@
    },
    {
     "name": "tiff34",
-    "value": 336
+    "value": 337
    },
    {
     "name": "Fleabag",
@@ -559,7 +559,7 @@
    },
    {
     "name": "girly12",
-    "value": 141
+    "value": 142
    },
    {
     "name": "Kouukii",
@@ -613,7 +613,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 949
+    "value": 951
    },
    {
     "name": "habbo-160-3",
@@ -637,7 +637,7 @@
    },
    {
     "name": "tiff34",
-    "value": 336
+    "value": 337
    },
    {
     "name": "Vyp",
@@ -697,7 +697,7 @@
    },
    {
     "name": "girly12",
-    "value": 141
+    "value": 142
    },
    {
     "name": "Kouukii",
@@ -764,12 +764,12 @@
     "value": 35
    },
    {
-    "name": "Piingouin.",
+    "name": "CovidJr",
     "value": 33
    },
    {
-    "name": "CovidJr",
-    "value": 32
+    "name": "Piingouin.",
+    "value": 33
    },
    {
     "name": "Lunatic...",
