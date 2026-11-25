@@ -4230,6 +4230,14 @@
   "pseudo": "Fugithief",
   "verifie": "2026-11-25T13:49:32+00:00"
  },
+ "24888718": {
+  "alertes": {},
+  "depuis": null,
+  "grade": null,
+  "humeur": "",
+  "pseudo": "wolfgreen4e",
+  "verifie": "2026-11-25T16:05:04+00:00"
+ },
  "24897142": {
   "alertes": {},
   "depuis": null,
@@ -4420,7 +4428,7 @@
   "grade": null,
   "humeur": "",
   "pseudo": "LouchouG",
-  "verifie": "2026-11-25T13:04:32+00:00"
+  "verifie": "2026-11-25T16:05:04+00:00"
  },
  "24960611": {
   "alertes": {},
@@ -9458,11 +9466,11 @@
     "xp": true
    }
   },
-  "depuis": null,
-  "grade": null,
-  "humeur": "[PN] Cadet",
+  "depuis": "2026-11-25T16:05:04+00:00",
+  "grade": "pa",
+  "humeur": "[PN] Policier Adjoint",
   "pseudo": "-Massimo-",
-  "verifie": "2026-11-25T13:04:32+00:00"
+  "verifie": "2026-11-25T16:05:04+00:00"
  },
  "26018830": {
   "alertes": {},
