@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T21:16:33+00:00",
+ "updated": "2026-11-25T21:19:03+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -41,7 +41,7 @@
    },
    {
     "name": "Lovepanda",
-    "value": 37
+    "value": 38
    },
    {
     "name": "Astreu",
@@ -238,15 +238,15 @@
     "value": 15
    },
    {
+    "name": "Lovepanda",
+    "value": 15
+   },
+   {
     "name": ".Libellule",
     "value": 14
    },
    {
     "name": "apo4020",
-    "value": 14
-   },
-   {
-    "name": "Lovepanda",
     "value": 14
    },
    {
@@ -419,7 +419,7 @@
    },
    {
     "name": "Padre",
-    "value": 1577
+    "value": 1579
    },
    {
     "name": "Pantheon_",
@@ -471,7 +471,7 @@
    },
    {
     "name": "charlie-XCX123",
-    "value": 573
+    "value": 575
    },
    {
     "name": "Mr.Dino",
@@ -515,7 +515,7 @@
    },
    {
     "name": "tiff34",
-    "value": 386
+    "value": 389
    },
    {
     "name": "Proxymore",
@@ -613,7 +613,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 1447
+    "value": 1449
    },
    {
     "name": "habbo-160-3",
@@ -640,11 +640,11 @@
     "value": 392
    },
    {
-    "name": "Mr.Dino",
-    "value": 386
+    "name": "tiff34",
+    "value": 389
    },
    {
-    "name": "tiff34",
+    "name": "Mr.Dino",
     "value": 386
    },
    {
@@ -717,7 +717,7 @@
    },
    {
     "name": "charlie-XCX123",
-    "value": 131
+    "value": 133
    },
    {
     "name": "SuzieOuistiti!",
