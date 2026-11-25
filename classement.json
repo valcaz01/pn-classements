@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T13:57:02+00:00",
+ "updated": "2026-11-25T13:59:02+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -92,15 +92,15 @@
     "value": 19
    },
    {
+    "name": "Postillon",
+    "value": 19
+   },
+   {
     "name": "irysse",
     "value": 18
    },
    {
     "name": "Mr.Dino",
-    "value": 18
-   },
-   {
-    "name": "Postillon",
     "value": 18
    },
    {
@@ -254,6 +254,10 @@
     "value": 11
    },
    {
+    "name": "Postillon",
+    "value": 11
+   },
+   {
     "name": "_.Flora._",
     "value": 10
    },
@@ -263,10 +267,6 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 10
-   },
-   {
-    "name": "Postillon",
     "value": 10
    },
    {
@@ -503,7 +503,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 396
+    "value": 398
    },
    {
     "name": "Postillon",
@@ -527,7 +527,7 @@
    },
    {
     "name": "apo4020",
-    "value": 313
+    "value": 315
    },
    {
     "name": "Vyp",
@@ -641,7 +641,7 @@
    },
    {
     "name": "apo4020",
-    "value": 313
+    "value": 315
    },
    {
     "name": "Vyp",
@@ -693,7 +693,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 174
+    "value": 176
    },
    {
     "name": "girly12",
