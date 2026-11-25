@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T00:29:08+00:00",
+ "updated": "2026-11-25T00:31:39+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -21,7 +21,7 @@
    },
    {
     "name": "fym",
-    "value": 46
+    "value": 48
    },
    {
     "name": ".Libellule",
@@ -222,15 +222,15 @@
     "value": 18
    },
    {
+    "name": "fym",
+    "value": 14
+   },
+   {
     "name": "tiff34",
     "value": 13
    },
    {
     "name": ".Libellule",
-    "value": 12
-   },
-   {
-    "name": "fym",
     "value": 12
    },
    {
@@ -411,7 +411,7 @@
   "total": [
    {
     "name": "habbo-160-3",
-    "value": 2359
+    "value": 2361
    },
    {
     "name": "BiBiCHarBo",
@@ -443,7 +443,7 @@
    },
    {
     "name": "Shizuku",
-    "value": 797
+    "value": 800
    },
    {
     "name": "Lovepanda",
@@ -625,7 +625,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 478
+    "value": 480
    },
    {
     "name": "marinadrk",
@@ -677,7 +677,7 @@
    },
    {
     "name": "Shizuku",
-    "value": 165
+    "value": 168
    },
    {
     "name": "fym",
@@ -804,12 +804,12 @@
     "value": 10
    },
    {
-    "name": "BOuclette.13",
-    "value": 9
+    "name": "Lilith_C",
+    "value": 10
    },
    {
-    "name": "Lilith_C",
-    "value": 8
+    "name": "BOuclette.13",
+    "value": 9
    }
   ]
  }
