@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T01:41:06+00:00",
+ "updated": "2026-11-25T01:42:38+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -411,7 +411,7 @@
   "total": [
    {
     "name": "habbo-160-3",
-    "value": 2421
+    "value": 2422
    },
    {
     "name": "BiBiCHarBo",
@@ -459,7 +459,7 @@
    },
    {
     "name": "andrew16a",
-    "value": 571
+    "value": 572
    },
    {
     "name": "charlie-XCX123",
@@ -598,15 +598,15 @@
     "value": 66
    },
    {
+    "name": "girly12",
+    "value": 61
+   },
+   {
     "name": "Leif",
     "value": 61
    },
    {
     "name": ".Dylan.",
-    "value": 59
-   },
-   {
-    "name": "girly12",
     "value": 59
    }
   ],
@@ -617,7 +617,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 540
+    "value": 541
    },
    {
     "name": "halos34",
@@ -661,7 +661,7 @@
    },
    {
     "name": "andrew16a",
-    "value": 219
+    "value": 220
    },
    {
     "name": "Lewddon",
@@ -736,12 +736,12 @@
     "value": 66
    },
    {
-    "name": "Leif",
+    "name": "girly12",
     "value": 61
    },
    {
-    "name": "girly12",
-    "value": 59
+    "name": "Leif",
+    "value": 61
    },
    {
     "name": "Proxymore",
