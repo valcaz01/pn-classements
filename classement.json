@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T12:02:03+00:00",
+ "updated": "2026-11-25T12:04:03+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -431,15 +431,15 @@
    },
    {
     "name": "Padre",
-    "value": 1148
+    "value": 1150
    },
    {
     "name": "Icarem",
-    "value": 1046
+    "value": 1048
    },
    {
     "name": "halos34",
-    "value": 998
+    "value": 1000
    },
    {
     "name": "Shizuku",
@@ -463,7 +463,7 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 576
+    "value": 578
    },
    {
     "name": "Lewddon",
@@ -507,15 +507,15 @@
    },
    {
     "name": "Postillon",
-    "value": 334
+    "value": 336
+   },
+   {
+    "name": "-Massimo-",
+    "value": 327
    },
    {
     "name": "Fleabag",
     "value": 327
-   },
-   {
-    "name": "-Massimo-",
-    "value": 326
    },
    {
     "name": "Proxymore",
@@ -587,7 +587,7 @@
    },
    {
     "name": "CharlesWish",
-    "value": 87
+    "value": 88
    },
    {
     "name": "BnBoy",
@@ -613,7 +613,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 1017
+    "value": 1019
    },
    {
     "name": "habbo-160-3",
@@ -621,7 +621,7 @@
    },
    {
     "name": "halos34",
-    "value": 516
+    "value": 518
    },
    {
     "name": "Pantheon_",
@@ -633,7 +633,7 @@
    },
    {
     "name": "Icarem",
-    "value": 354
+    "value": 356
    },
    {
     "name": "tiff34",
@@ -669,7 +669,7 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 221
+    "value": 223
    },
    {
     "name": "Lewddon",
@@ -688,11 +688,11 @@
     "value": 181
    },
    {
-    "name": "girly12",
-    "value": 155
+    "name": "Postillon",
+    "value": 157
    },
    {
-    "name": "Postillon",
+    "name": "girly12",
     "value": 155
    },
    {
@@ -725,7 +725,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 104
+    "value": 105
    },
    {
     "name": "sami75.19",
@@ -757,7 +757,7 @@
    },
    {
     "name": "CharlesWish",
-    "value": 48
+    "value": 49
    },
    {
     "name": "habbo22t",
@@ -800,16 +800,16 @@
     "value": 16
    },
    {
+    "name": "Pressou24",
+    "value": 14
+   },
+   {
     "name": "Imondi",
     "value": 13
    },
    {
     "name": "MelMlrr",
     "value": 13
-   },
-   {
-    "name": "Pressou24",
-    "value": 12
    }
   ]
  }
