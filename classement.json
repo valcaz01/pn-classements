@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T11:46:34+00:00",
+ "updated": "2026-11-25T11:48:33+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -390,6 +390,10 @@
     "value": 2
    },
    {
+    "name": "-Massimo-",
+    "value": 1
+   },
+   {
     "name": "Gueks",
     "value": 1
    },
@@ -399,10 +403,6 @@
    },
    {
     "name": "Lord_Fullbody",
-    "value": 1
-   },
-   {
-    "name": "MelMlrr",
     "value": 1
    }
   ]
@@ -431,7 +431,7 @@
    },
    {
     "name": "Padre",
-    "value": 1133
+    "value": 1135
    },
    {
     "name": "Icarem",
@@ -613,7 +613,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 1002
+    "value": 1004
    },
    {
     "name": "habbo-160-3",
