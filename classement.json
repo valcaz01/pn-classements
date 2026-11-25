@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T16:11:02+00:00",
+ "updated": "2026-11-25T16:12:32+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -176,6 +176,10 @@
     "value": 4
    },
    {
+    "name": "Fleabag",
+    "value": 4
+   },
+   {
     "name": "girly12",
     "value": 4
    },
@@ -189,10 +193,6 @@
    },
    {
     "name": "Fanny-148",
-    "value": 3
-   },
-   {
-    "name": "Fleabag",
     "value": 3
    },
    {
@@ -398,11 +398,11 @@
     "value": 1
    },
    {
-    "name": "Gueks",
+    "name": "Fleabag",
     "value": 1
    },
    {
-    "name": "landy23",
+    "name": "Gueks",
     "value": 1
    }
   ]
@@ -423,7 +423,7 @@
    },
    {
     "name": "marinadrk",
-    "value": 1366
+    "value": 1367
    },
    {
     "name": "fym",
@@ -431,7 +431,7 @@
    },
    {
     "name": "Padre",
-    "value": 1322
+    "value": 1323
    },
    {
     "name": "Icarem",
@@ -455,7 +455,7 @@
    },
    {
     "name": "Lewddon",
-    "value": 651
+    "value": 653
    },
    {
     "name": "andrew16a",
@@ -479,7 +479,7 @@
    },
    {
     "name": "Mi,hermano",
-    "value": 500
+    "value": 502
    },
    {
     "name": "habbo22t",
@@ -511,7 +511,7 @@
    },
    {
     "name": "Proxymore",
-    "value": 370
+    "value": 372
    },
    {
     "name": "tiff34",
@@ -613,7 +613,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 1191
+    "value": 1192
    },
    {
     "name": "habbo-160-3",
@@ -629,7 +629,7 @@
    },
    {
     "name": "marinadrk",
-    "value": 461
+    "value": 462
    },
    {
     "name": "Icarem",
@@ -649,7 +649,7 @@
    },
    {
     "name": "Lewddon",
-    "value": 296
+    "value": 298
    },
    {
     "name": "Mr.Dino",
@@ -713,7 +713,7 @@
    },
    {
     "name": "Mi,hermano",
-    "value": 138
+    "value": 140
    },
    {
     "name": "charlie-XCX123",
@@ -733,7 +733,7 @@
    },
    {
     "name": "Proxymore",
-    "value": 97
+    "value": 99
    },
    {
     "name": "flo578",
@@ -765,7 +765,7 @@
    },
    {
     "name": "Lord_Fullbody",
-    "value": 36
+    "value": 37
    },
    {
     "name": "Benny-knd",
