@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T14:11:34+00:00",
+ "updated": "2026-11-25T14:13:32+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -20,11 +20,11 @@
     "value": 59
    },
    {
-    "name": "fym",
-    "value": 49
+    "name": "habbo-160-3",
+    "value": 50
    },
    {
-    "name": "habbo-160-3",
+    "name": "fym",
     "value": 49
    },
    {
@@ -206,11 +206,11 @@
   ],
   "week": [
    {
-    "name": "charlie-XCX123",
-    "value": 26
+    "name": "habbo-160-3",
+    "value": 27
    },
    {
-    "name": "habbo-160-3",
+    "name": "charlie-XCX123",
     "value": 26
    },
    {
@@ -498,12 +498,12 @@
     "value": 419
    },
    {
-    "name": "Hectorr",
+    "name": "-Massimo-",
     "value": 412
    },
    {
-    "name": "-Massimo-",
-    "value": 410
+    "name": "Hectorr",
+    "value": 412
    },
    {
     "name": "Postillon",
@@ -519,7 +519,7 @@
    },
    {
     "name": "apo4020",
-    "value": 324
+    "value": 326
    },
    {
     "name": "Proxymore",
@@ -641,7 +641,7 @@
    },
    {
     "name": "apo4020",
-    "value": 324
+    "value": 326
    },
    {
     "name": "Vyp",
@@ -681,7 +681,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 188
+    "value": 190
    },
    {
     "name": "fym",
