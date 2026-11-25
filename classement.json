@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T22:40:33+00:00",
+ "updated": "2026-11-25T22:43:02+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -9,7 +9,7 @@
    },
    {
     "name": "pevanq640",
-    "value": 65
+    "value": 66
    },
    {
     "name": "charlie-XCX123",
@@ -144,6 +144,10 @@
     "value": 9
    },
    {
+    "name": "---Jayden---",
+    "value": 8
+   },
+   {
     "name": "Lewddon",
     "value": 8
    },
@@ -158,10 +162,6 @@
    {
     "name": "Weavem",
     "value": 8
-   },
-   {
-    "name": "---Jayden---",
-    "value": 7
    },
    {
     "name": "LesdixGaga",
@@ -206,11 +206,11 @@
   ],
   "week": [
    {
-    "name": "habbo-160-3",
-    "value": 31
+    "name": "pevanq640",
+    "value": 32
    },
    {
-    "name": "pevanq640",
+    "name": "habbo-160-3",
     "value": 31
    },
    {
@@ -290,16 +290,16 @@
     "value": 10
    },
    {
+    "name": "---Jayden---",
+    "value": 8
+   },
+   {
     "name": "LorenzoVisconti",
     "value": 8
    },
    {
     "name": "toutoune-09",
     "value": 8
-   },
-   {
-    "name": "---Jayden---",
-    "value": 7
    },
    {
     "name": "Astreu",
@@ -423,7 +423,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 1452
+    "value": 1454
    },
    {
     "name": "marinadrk",
@@ -479,7 +479,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 566
+    "value": 564
    },
    {
     "name": "Mi,hermano",
@@ -499,7 +499,7 @@
    },
    {
     "name": "tiff34",
-    "value": 452
+    "value": 454
    },
    {
     "name": "Hectorr",
@@ -563,7 +563,7 @@
    },
    {
     "name": "---Jayden---",
-    "value": 142
+    "value": 143
    },
    {
     "name": "SuzieOuistiti!",
@@ -599,7 +599,7 @@
    },
    {
     "name": "Benny-knd",
-    "value": 77
+    "value": 79
    },
    {
     "name": "xX_Reiina_Xx",
@@ -625,7 +625,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 518
+    "value": 520
    },
    {
     "name": "marinadrk",
@@ -637,7 +637,7 @@
    },
    {
     "name": "tiff34",
-    "value": 452
+    "value": 454
    },
    {
     "name": "apo4020",
@@ -717,7 +717,7 @@
    },
    {
     "name": "---Jayden---",
-    "value": 142
+    "value": 143
    },
    {
     "name": "Proxymore",
@@ -740,11 +740,11 @@
     "value": 91
    },
    {
-    "name": "Astreu",
-    "value": 77
+    "name": "Benny-knd",
+    "value": 79
    },
    {
-    "name": "Benny-knd",
+    "name": "Astreu",
     "value": 77
    },
    {
