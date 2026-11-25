@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T18:16:33+00:00",
+ "updated": "2026-11-25T18:19:02+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -61,7 +61,7 @@
    },
    {
     "name": "andrew16a",
-    "value": 23
+    "value": 24
    },
    {
     "name": "sami75.19",
@@ -161,7 +161,7 @@
    },
    {
     "name": "toutoune-09",
-    "value": 6
+    "value": 7
    },
    {
     "name": "---Jayden---",
@@ -274,16 +274,16 @@
     "value": 10
    },
    {
+    "name": "andrew16a",
+    "value": 9
+   },
+   {
     "name": "flo578",
     "value": 9
    },
    {
     "name": "Shizuku",
     "value": 9
-   },
-   {
-    "name": "andrew16a",
-    "value": 8
    },
    {
     "name": "Mr.Dino",
@@ -306,6 +306,10 @@
     "value": 6
    },
    {
+    "name": "toutoune-09",
+    "value": 6
+   },
+   {
     "name": "---Jayden---",
     "value": 5
    },
@@ -315,10 +319,6 @@
    },
    {
     "name": "LesdixGaga",
-    "value": 5
-   },
-   {
-    "name": "toutoune-09",
     "value": 5
    },
    {
@@ -423,7 +423,7 @@
    },
    {
     "name": "Padre",
-    "value": 1436
+    "value": 1438
    },
    {
     "name": "marinadrk",
@@ -491,7 +491,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 478
+    "value": 480
    },
    {
     "name": "_.Flora._",
@@ -613,7 +613,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 1305
+    "value": 1307
    },
    {
     "name": "habbo-160-3",
@@ -653,7 +653,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 296
+    "value": 298
    },
    {
     "name": "Monsieur-RF",
