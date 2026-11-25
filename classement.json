@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T15:43:02+00:00",
+ "updated": "2026-11-25T15:45:03+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -431,7 +431,7 @@
    },
    {
     "name": "Padre",
-    "value": 1304
+    "value": 1305
    },
    {
     "name": "Icarem",
@@ -455,7 +455,7 @@
    },
    {
     "name": "Lewddon",
-    "value": 631
+    "value": 633
    },
    {
     "name": "andrew16a",
@@ -491,7 +491,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 457
+    "value": 458
    },
    {
     "name": "_.Flora._",
@@ -515,7 +515,7 @@
    },
    {
     "name": "Proxymore",
-    "value": 343
+    "value": 345
    },
    {
     "name": "apo4020",
@@ -613,7 +613,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 1173
+    "value": 1174
    },
    {
     "name": "habbo-160-3",
@@ -653,7 +653,7 @@
    },
    {
     "name": "Lewddon",
-    "value": 276
+    "value": 278
    },
    {
     "name": "andrew16a",
@@ -681,7 +681,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 235
+    "value": 236
    },
    {
     "name": "fym",
@@ -741,7 +741,7 @@
    },
    {
     "name": "Proxymore",
-    "value": 70
+    "value": 72
    },
    {
     "name": "LouunaS",
@@ -800,15 +800,15 @@
     "value": 21
    },
    {
+    "name": "Kensel",
+    "value": 18
+   },
+   {
     "name": "Freminet",
     "value": 16
    },
    {
     "name": "Imondi",
-    "value": 16
-   },
-   {
-    "name": "Kensel",
     "value": 16
    }
   ]
