@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T09:40:41+00:00",
+ "updated": "2026-11-25T09:42:39+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -33,7 +33,7 @@
    },
    {
     "name": "halos34",
-    "value": 39
+    "value": 40
    },
    {
     "name": "Shizuku",
@@ -109,7 +109,7 @@
    },
    {
     "name": "tiff34",
-    "value": 14
+    "value": 15
    },
    {
     "name": "guest77145",
@@ -227,11 +227,15 @@
    },
    {
     "name": "tiff34",
-    "value": 14
+    "value": 15
    },
    {
     "name": ".Libellule",
     "value": 12
+   },
+   {
+    "name": "halos34",
+    "value": 11
    },
    {
     "name": "Lovepanda",
@@ -239,10 +243,6 @@
    },
    {
     "name": "_.Flora._",
-    "value": 10
-   },
-   {
-    "name": "halos34",
     "value": 10
    },
    {
@@ -511,7 +511,7 @@
    },
    {
     "name": "tiff34",
-    "value": 320
+    "value": 322
    },
    {
     "name": "Non-Non",
@@ -535,7 +535,7 @@
    },
    {
     "name": "apo4020",
-    "value": 244
+    "value": 246
    },
    {
     "name": "sami75.19",
@@ -583,7 +583,7 @@
    },
    {
     "name": "girly12",
-    "value": 89
+    "value": 91
    },
    {
     "name": "BnBoy",
@@ -633,7 +633,7 @@
    },
    {
     "name": "tiff34",
-    "value": 320
+    "value": 322
    },
    {
     "name": "Icarem",
@@ -657,7 +657,7 @@
    },
    {
     "name": "apo4020",
-    "value": 244
+    "value": 246
    },
    {
     "name": "dadou07",
@@ -724,12 +724,12 @@
     "value": 91
    },
    {
-    "name": "Mi,hermano",
+    "name": "girly12",
     "value": 91
    },
    {
-    "name": "girly12",
-    "value": 89
+    "name": "Mi,hermano",
+    "value": 91
    },
    {
     "name": "Astreu",
