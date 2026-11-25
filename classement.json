@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T03:50:37+00:00",
+ "updated": "2026-11-25T03:53:06+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -96,15 +96,15 @@
     "value": 16
    },
    {
+    "name": "Postillon",
+    "value": 16
+   },
+   {
     "name": "gotica",
     "value": 15
    },
    {
     "name": "Monsieur-RF",
-    "value": 15
-   },
-   {
-    "name": "Postillon",
     "value": 15
    },
    {
@@ -290,6 +290,10 @@
     "value": 6
    },
    {
+    "name": "Postillon",
+    "value": 6
+   },
+   {
     "name": "---Jayden---",
     "value": 5
    },
@@ -303,10 +307,6 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 5
-   },
-   {
-    "name": "Postillon",
     "value": 5
    },
    {
