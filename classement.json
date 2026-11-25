@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T04:51:07+00:00",
+ "updated": "2026-11-25T04:52:37+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -526,11 +526,11 @@
     "value": 300
    },
    {
-    "name": "-Massimo-",
-    "value": 265
+    "name": "Postillon",
+    "value": 266
    },
    {
-    "name": "Postillon",
+    "name": "-Massimo-",
     "value": 265
    },
    {
@@ -725,7 +725,7 @@
    },
    {
     "name": "Postillon",
-    "value": 86
+    "value": 87
    },
    {
     "name": "Astreu",
