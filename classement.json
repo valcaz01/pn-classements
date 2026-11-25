@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T03:53:06+00:00",
+ "updated": "2026-11-25T03:54:38+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -92,11 +92,11 @@
     "value": 18
    },
    {
-    "name": "Mi,hermano",
-    "value": 16
+    "name": "Postillon",
+    "value": 18
    },
    {
-    "name": "Postillon",
+    "name": "Mi,hermano",
     "value": 16
    },
    {
@@ -274,6 +274,10 @@
     "value": 8
    },
    {
+    "name": "Postillon",
+    "value": 8
+   },
+   {
     "name": "Kouukii",
     "value": 7
    },
@@ -287,10 +291,6 @@
    },
    {
     "name": "apo4020",
-    "value": 6
-   },
-   {
-    "name": "Postillon",
     "value": 6
    },
    {
