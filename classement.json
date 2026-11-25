@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T22:15:33+00:00",
+ "updated": "2026-11-25T22:17:31+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -148,6 +148,10 @@
     "value": 8
    },
    {
+    "name": "toutoune-09",
+    "value": 8
+   },
+   {
     "name": "Weavem",
     "value": 8
    },
@@ -161,10 +165,6 @@
    },
    {
     "name": "SuzieOuistiti!",
-    "value": 7
-   },
-   {
-    "name": "toutoune-09",
     "value": 7
    },
    {
@@ -302,15 +302,15 @@
     "value": 7
    },
    {
+    "name": "toutoune-09",
+    "value": 7
+   },
+   {
     "name": "dadou07",
     "value": 6
    },
    {
     "name": "habbo22t",
-    "value": 6
-   },
-   {
-    "name": "toutoune-09",
     "value": 6
    },
    {
@@ -415,7 +415,7 @@
    },
    {
     "name": "Padre",
-    "value": 1625
+    "value": 1626
    },
    {
     "name": "BiBiCHarBo",
@@ -479,7 +479,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 542
+    "value": 543
    },
    {
     "name": "Mi,hermano",
@@ -613,7 +613,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 1495
+    "value": 1496
    },
    {
     "name": "habbo-160-3",
@@ -653,7 +653,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 320
+    "value": 321
    },
    {
     "name": "andrew16a",
@@ -768,12 +768,12 @@
     "value": 60
    },
    {
-    "name": "LorenzoVisconti",
-    "value": 53
+    "name": "Benny-knd",
+    "value": 54
    },
    {
-    "name": "Benny-knd",
-    "value": 52
+    "name": "LorenzoVisconti",
+    "value": 53
    },
    {
     "name": "CharlesWish",
