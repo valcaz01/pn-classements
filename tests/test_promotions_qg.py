@@ -45,6 +45,10 @@ class PromotionsQG(unittest.IsolatedAsyncioTestCase):
         (self.repo / "badges_cadets.json").write_text(json.dumps({
             "hhfr-1": {"pseudo": "Alpha", "depuis": "2026-11-21"}}), encoding="utf-8")
         self.rappel = self.ouvrir()
+        self.instant = 0
+        self.horloge_qg = patch("presence_formations_qg.monotonic", side_effect=lambda: self.instant)
+        self.horloge_qg.start()
+        self.addCleanup(self.horloge_qg.stop)
         self.disponibles = {"hhfr-1"}
         self.api = patch.object(promotions, "cadets_en_ligne", side_effect=lambda host: self.disponibles)
         self.api.start()
@@ -57,11 +61,27 @@ class PromotionsQG(unittest.IsolatedAsyncioTestCase):
         self.rappel.observer(self.rappel.demandes(), presents)
         if self.rappel.tache is not None:
             await self.rappel.tache
+        self.instant += 30
+
+    async def sejour(self):
+        for _ in range(7):
+            await self.sonde({"hhfr-1"})
+
+    async def test_depart_avant_trois_minutes_repart_de_zero(self):
+        for _ in range(6):
+            await self.sonde({"hhfr-1"})
+        self.ch.send.assert_not_awaited()
+        await self.sonde(set())
+        for _ in range(6):
+            await self.sonde({"hhfr-1"})
+        self.ch.send.assert_not_awaited()
+        await self.sonde({"hhfr-1"})
+        self.ch.send.assert_awaited_once()
 
     async def test_les_deux_presences_et_le_bouton_actif_declenchent_une_seule_reponse(self):
         await self.sonde(set())
         self.disponibles.clear()
-        await self.sonde({"hhfr-1"})
+        await self.sejour()
         self.disponibles.add("hhfr-1")
         bouton = self.alerte.components[0].children[0]
         bouton.disabled = True
@@ -86,11 +106,11 @@ class PromotionsQG(unittest.IsolatedAsyncioTestCase):
             raise TimeoutError()
         self.ch.send.side_effect = reponse_perdue
         with self.assertLogs("pn.promotions.qg", level="ERROR"):
-            await self.sonde({"hhfr-1"})
+            await self.sejour()
         self.assertTrue(self.rappel.etat["1"]["envoi"])
         self.rappel = self.ouvrir()
         self.ch.send.side_effect = envoi
-        await self.sonde({"hhfr-1"})
+        await self.sejour()
         self.assertEqual(self.rappel.etat["1"]["dernier"], debut)
         await self.sonde(set())
         await self.sonde(set())
@@ -104,13 +124,13 @@ class PromotionsQG(unittest.IsolatedAsyncioTestCase):
         self.ch.send.assert_awaited_once()
         await self.sonde(set())
         await self.sonde(set())
-        await self.sonde({"hhfr-1"})
+        await self.sejour()
         self.assertEqual(self.ch.send.await_count, 2)
 
     async def test_badge_deja_attribue_pendant_verification(self):
         self.ch.fetch_message.return_value = Mock(components=[SimpleNamespace(children=[
             SimpleNamespace(custom_id="pn:badge-fait:1", disabled=True)])])
-        await self.sonde({"hhfr-1"})
+        await self.sejour()
         self.ch.send.assert_not_awaited()
         self.assertNotIn("dernier", self.rappel.etat["1"])
 
@@ -125,7 +145,7 @@ class PromotionsQG(unittest.IsolatedAsyncioTestCase):
             await formateurs.actualiser_qg()
         formateurs.controle_qg.relever.assert_called_once_with(self.rappel.demandes())
         self.assertEqual(formateurs.au_qg(), set())
-        self.ch.send.assert_awaited_once()
+        self.ch.send.assert_not_awaited()
 
     def test_autre_adhesion_et_humeur_seule_ne_rejouent_pas_l_alerte(self):
         (self.repo / "badges_cadets.json").write_text(json.dumps({"hhfr-1": {"pseudo": "Alpha", "depuis": "2026-11-24"}}))

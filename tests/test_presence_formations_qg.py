@@ -5,7 +5,31 @@ from unittest.mock import Mock, patch
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'serveur'))
 from habbo_http import ApiRequestError
-from presence_formations_qg import CONTROLE, PRESENCES, ControlePresenceQG
+from presence_formations_qg import CONTROLE, PRESENCES, ControlePresenceQG, SejourQG
+
+
+class DureeDuSejour(unittest.TestCase):
+    @patch("presence_formations_qg.monotonic")
+    def test_delai_et_interruption_des_releves(self, horloge):
+        sejour = SejourQG()
+        for instant in (0, 30, 60, 90, 120, 150, 179):
+            horloge.return_value = instant
+            sejour.observer({"a"})
+            self.assertFalse(sejour.confirme("a"))
+        horloge.return_value = 240
+        sejour.observer({"a", "b"})
+        self.assertFalse(sejour.confirme("a"))
+        for instant in range(270, 420, 30):
+            horloge.return_value = instant
+            sejour.observer({"a"})
+            self.assertFalse(sejour.confirme("a"))
+        horloge.return_value = 420
+        self.assertFalse(sejour.confirme("a"))  # Le prochain relevé doit être positif.
+        sejour.observer({"a", "b"})
+        self.assertTrue(sejour.confirme("a"))
+        self.assertFalse(sejour.confirme("b"))
+        horloge.return_value = 480
+        self.assertFalse(sejour.confirme("a"))
 
 
 def joueur(uid, valeur, hid=None):

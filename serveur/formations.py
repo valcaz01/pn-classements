@@ -22,7 +22,7 @@ from discord.ext import tasks
 from adhesions import groupes_publics_du_membre
 from habbo_http import ApiRequestError, request_json
 from groupes_pn import EXCLUS_FORMATIONS, GROUPE_GDP, GROUPE_PA
-from presence_formations_qg import ControlePresenceQG, identite
+from presence_formations_qg import ControlePresenceQG, SejourQG, identite
 
 
 SALON = 1574352702413086810
@@ -302,6 +302,7 @@ class TableauFormations:
         self.controle_qg = ControlePresenceQG(api_qg) if api_qg else None
         self.promotions_qg = promotions_qg
         self.lecture_qg = None
+        self.sejours_qg = SejourQG()
         self.statut_qg = None
         self.prochain_qg = self.prochain_statut = 0
         self.consultations = {}
@@ -403,18 +404,21 @@ class TableauFormations:
     @suivre_qg.before_loop
     async def avant_qg(self):
         await self.client.wait_until_ready()
-        if self.etat.get("consigne_delai_qg"):
+        if self.etat.get("consigne_sejour_qg"):
             return
         try:
             ch = await self.client.channel(SALON)
             verifier_salon(ch, self.guild_id)
             ancienne = "Quand un candidat est détecté au QG, les formateurs sont mentionnés une fois par visite."
-            nouvelle = "Le bot mentionne les formateurs à l’arrivée, au plus une fois par heure et par candidat."
-            if ancienne in (ch.topic or ""):
+            precedente = "Le bot mentionne les formateurs à l’arrivée, au plus une fois par heure et par candidat."
+            nouvelle = "Le bot mentionne les formateurs après 3 minutes au QG, au plus une fois par heure et par candidat."
+            description = ch.topic or ""
+            mise_a_jour = description.replace(ancienne, nouvelle, 1).replace(precedente, nouvelle, 1)
+            if mise_a_jour != description:
                 if not ch.permissions_for(ch.guild.me).manage_channels:
                     return
-                await ch.edit(topic=ch.topic.replace(ancienne, nouvelle, 1), reason="Délai des mentions de formation au QG")
-            self.sauver(consigne_delai_qg=True)
+                await ch.edit(topic=mise_a_jour, reason="Délai des mentions de formation au QG")
+            self.sauver(consigne_sejour_qg=True)
         except (discord.HTTPException, RuntimeError, OSError):
             LOG.warning("Description du salon des formations inchangée", exc_info=True)
 
@@ -432,13 +436,19 @@ class TableauFormations:
         suivis_qg = [*fiches, *(demandes or [])]
         # Une première sonde vérifie la liaison même si personne n'attend de formation.
         if not suivis_qg and self.lecture_qg is not None:
+            self.sejours_qg.observer(set())
             if demandes == []:
                 self.promotions_qg.observer([], set())
+            elif self.promotions_qg:
+                self.promotions_qg.sejours_qg.observer(set())
             return
         self.prochain_qg = instant + INTERVALLE_PRESENCE - 2
         try:
             numero, nombre, presents = await asyncio.to_thread(self.controle_qg.relever, suivis_qg)
         except ApiRequestError as exc:
+            self.sejours_qg.observer(set())
+            if self.promotions_qg:
+                self.promotions_qg.sejours_qg.observer(set())
             self.prochain_qg = time.monotonic() + max(60, exc.retry_delay or 0)
             LOG.warning("Sonde de formation QG reportée : %s", exc)
             raison = getattr(exc, "indication", None) or {
@@ -461,10 +471,13 @@ class TableauFormations:
                 self.promotions_qg.observer(demandes, presents)
             except OSError:
                 LOG.exception("Enregistrement de la visite pour une promotion reporté")
+        elif self.promotions_qg:
+            self.promotions_qg.sejours_qg.observer(set())
         async with self.verrou:
             self.statut_qg = None
             suivis = {identite(f) for f in self.etat["attente"].values()}
             self.lecture_qg = time.monotonic(), presents & suivis
+            self.sejours_qg.observer(self.lecture_qg[1])
             visites = {}
             for hid, absences in self.etat.get("visites_qg", {}).items():
                 if hid in suivis and (hid in presents or absences == 0):
@@ -485,7 +498,8 @@ class TableauFormations:
         limite = time.time() - VALIDITE_PRESENCE
         confirmes = {k for k, (instant, badge) in self.badges.items() if badge and instant > limite}
         return {identite(f): f["pseudo"] for k, f in self.etat["attente"].items() if k in confirmes
-                and identite(f) in presents and identite(f) not in self.etat.get("visites_qg", {})}
+                and identite(f) in presents and self.sejours_qg.confirme(identite(f))
+                and identite(f) not in self.etat.get("visites_qg", {})}
 
     async def actualiser_rendu(self, ch):
         if (self.reconcilier or self.etat.get("envoi") or self.arrivees_qg()

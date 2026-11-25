@@ -12,6 +12,7 @@ import discord
 
 from groupes_pn import GROUPE_CADET, GROUPE_PA
 from habbo_http import ApiRequestError, request_json
+from presence_formations_qg import SejourQG
 
 
 LOG = logging.getLogger("pn.promotions.qg")
@@ -42,6 +43,7 @@ class AlertesBadgesQG:
         self.etat = json.loads(chemin.read_text(encoding="utf-8")) if chemin.exists() else {}
         self.instant = self.reessayer = 0
         self.presents = {}
+        self.sejours_qg = SejourQG()
         self.tache = None
         self.recherches = {}
 
@@ -74,6 +76,7 @@ class AlertesBadgesQG:
     def observer(self, demandes, presents):
         self.instant = time.monotonic()
         self.presents = {f["uid"]: f for f in demandes if f["hid"] in presents}
+        self.sejours_qg.observer({self.cle_visite(f) for f in self.presents.values()})
         for uid, avant in tuple(self.etat.items()):
             absences = avant.get("absences", 2)
             if uid not in self.presents:
@@ -84,8 +87,13 @@ class AlertesBadgesQG:
         if self.presents and (self.tache is None or self.tache.done()):
             self.tache = asyncio.create_task(self.traiter())
 
+    @staticmethod
+    def cle_visite(fiche):
+        return fiche["uid"], fiche["hid"], fiche["alerte"]
+
     def toujours_present(self, fiche):
-        return time.monotonic() - self.instant < 45 and self.presents.get(fiche["uid"]) == fiche
+        return (time.monotonic() - self.instant < 45 and self.presents.get(fiche["uid"]) == fiche
+                and self.sejours_qg.confirme(self.cle_visite(fiche)))
 
     async def demande_discord(self, ch, fiche):
         uid, origine = fiche["uid"], fiche["alerte"]
@@ -136,7 +144,8 @@ class AlertesBadgesQG:
 
     async def traiter(self):
         try:
-            a_verifier = [f for uid, f in self.presents.items() if self.etat.get(uid, {}).get("absences", 2) == 2]
+            a_verifier = [f for uid, f in self.presents.items()
+                          if self.etat.get(uid, {}).get("absences", 2) == 2 and self.toujours_present(f)]
             if not a_verifier or time.monotonic() < self.reessayer:
                 return
             connectes = await asyncio.to_thread(cadets_en_ligne, self.host)

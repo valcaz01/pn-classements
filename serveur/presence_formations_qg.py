@@ -1,11 +1,35 @@
 """Lecture de présence par écho du WIRED du QG, pour le tableau des formations."""
 import time
+from time import monotonic
 
 from habbo_http import ApiRequestError
 
 
 CONTROLE = "/variables/global/controle_forma_qg"
 PRESENCES = "/variables/user/presence_forma_qg/users"
+DUREE_MINIMALE_QG = 180
+LACUNE_MAXIMALE_QG = 60
+
+
+class SejourQG:
+    """Mesure le séjour à partir du premier relevé positif de la série."""
+
+    def __init__(self):
+        self.depuis = {}
+        self.dernier_releve = None
+
+    def observer(self, presents):
+        instant = monotonic()
+        if self.dernier_releve is None or instant - self.dernier_releve >= LACUNE_MAXIMALE_QG:
+            self.depuis.clear()
+        self.depuis = {identifiant: self.depuis.get(identifiant, instant) for identifiant in presents}
+        self.dernier_releve = instant
+
+    def confirme(self, identifiant):
+        debut = self.depuis.get(identifiant)
+        instant = monotonic()
+        return (debut is not None and instant - self.dernier_releve < LACUNE_MAXIMALE_QG
+                and self.dernier_releve - debut >= DUREE_MINIMALE_QG)
 
 
 class ErreurControle(ApiRequestError):

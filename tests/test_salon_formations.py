@@ -21,6 +21,10 @@ else:
 
 class SalonFormations(unittest.IsolatedAsyncioTestCase):
     def setUp(self):
+        self.instant_qg = 0
+        horloge_qg = patch("presence_formations_qg.monotonic", side_effect=lambda: self.instant_qg)
+        horloge_qg.start()
+        self.addCleanup(horloge_qg.stop)
         self.formateur = Mock(spec=discord.Role)
         self.formateur.id = form.FORMATEUR
         self.moi = Mock(id=12)
@@ -209,7 +213,12 @@ class SalonFormations(unittest.IsolatedAsyncioTestCase):
             tableau.prochain_qg = 0
             controle.relever.side_effect = [resultat]
             await tableau.actualiser_qg()
+            self.instant_qg += 30
 
+        for _ in range(6):
+            await relever(self.tableau, (104, 3, {"hhfr-2"}))
+            self.salon.send.assert_awaited_once()
+        self.assertIn("**Bravo** 🟢 en ligne · au QG", next(iter(self.messages.values())).vue.carte.description)
         await relever(self.tableau, (104, 3, {"hhfr-2"}))
         self.assertEqual(self.salon.send.await_count, 2)
         dernier = self.salon.send.await_args.kwargs
@@ -232,7 +241,8 @@ class SalonFormations(unittest.IsolatedAsyncioTestCase):
         self.assertIn('**Bravo** 🟢 en ligne · au QG', next(iter(self.messages.values())).vue.carte.description)
 
         # Alpha arrive pour la première fois, pendant la visite silencieuse de Bravo.
-        await relever(reprise, (111, 2, {"hhfr-1", "hhfr-2"}))
+        for _ in range(7):
+            await relever(reprise, (111, 2, {"hhfr-1", "hhfr-2"}))
         self.assertEqual(self.salon.send.await_count, 3)
         vue = self.salon.send.await_args.kwargs["view"]
         alerte = next(c.content for c in vue.walk_children()
@@ -248,7 +258,8 @@ class SalonFormations(unittest.IsolatedAsyncioTestCase):
         await relever(reprise, (113, 1, {"hhfr-1"}))
         await relever(reprise, (114, 1, {"hhfr-1"}))
         horloge.return_value += 90
-        await relever(reprise, (115, 2, {"hhfr-1", "hhfr-2"}))
+        for _ in range(7):
+            await relever(reprise, (115, 2, {"hhfr-1", "hhfr-2"}))
         self.assertEqual(self.salon.send.await_count, 4)
         self.assertEqual(len(self.messages), 1)
 
@@ -263,6 +274,12 @@ class SalonFormations(unittest.IsolatedAsyncioTestCase):
         self.salon.send.side_effect = perdu
         self.tableau.controle_qg = Mock()
         self.tableau.controle_qg.relever.return_value = (104, 10, {self.a['hid']})
+        for _ in range(6):
+            self.tableau.prochain_qg = 0
+            await self.tableau.actualiser_qg()
+            self.instant_qg += 30
+        self.salon.send.assert_awaited_once()
+        self.tableau.prochain_qg = 0
         with self.assertRaises(TimeoutError):
             await self.tableau.actualiser_qg()
         self.salon.send.side_effect = envoi
@@ -280,6 +297,11 @@ class SalonFormations(unittest.IsolatedAsyncioTestCase):
                 horloge.return_value = debut + 3600
                 reprise.appliquer_badges({form.cle(f): form.Presence(True, badge=True) for f in reprise.liste()}, horloge.return_value)
             await reprise.actualiser_qg()
+            self.instant_qg += 30
+        for _ in range(6):
+            reprise.prochain_qg = 0
+            await reprise.actualiser_qg()
+            self.instant_qg += 30
         self.assertEqual(self.salon.send.await_count, 3)
         self.assertEqual(reprise.etat['dernieres_mentions_qg'], {self.a['hid']:debut + 3600})
         self.assertEqual(len(self.messages), 1)
@@ -305,6 +327,7 @@ class SalonFormations(unittest.IsolatedAsyncioTestCase):
         sujet = self.salon.edit.await_args.kwargs["topic"]
         self.assertTrue(sujet.startswith("Avant. ") and sujet.endswith(" Après."))
         self.assertIn("une fois par heure et par candidat", sujet)
+        self.assertIn("après 3 minutes au QG", sujet)
         reprise = form.TableauFormations(self.bot, self.guild.id, self.chemin)
         await reprise.avant_qg()
         self.salon.edit.assert_awaited_once()
