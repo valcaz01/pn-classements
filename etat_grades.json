@@ -2696,7 +2696,7 @@
   "grade": null,
   "humeur": "[R.F] Gendarmerie",
   "pseudo": "Altrazor3000",
-  "verifie": "2026-11-25T13:08:32+00:00"
+  "verifie": "2026-11-25T16:09:03+00:00"
  },
  "23798382": {
   "alertes": {},
@@ -9078,11 +9078,21 @@
   "alertes": {
    "cadet": "2026-11-20T23:00:25+00:00"
   },
-  "depuis": "2026-11-18T23:00:00+00:00",
-  "grade": "cadet",
-  "humeur": "[PN] Cadette",
+  "badge": {
+   "cadet": {
+    "habbo": "Monsieur-RF",
+    "habbo_id": "25181624",
+    "le": "2026-11-25T17:09:43+01:00",
+    "par": "Monsieur-RF",
+    "par_id": "552202342913802240",
+    "xp": true
+   }
+  },
+  "depuis": null,
+  "grade": null,
+  "humeur": "[PN] Policière-Ajoindre",
   "pseudo": "Fleabag",
-  "verifie": "2026-11-25T13:37:05+00:00"
+  "verifie": "2026-11-25T16:09:03+00:00"
  },
  "26006886": {
   "alertes": {},
@@ -10103,6 +10113,14 @@
   "humeur": "Sis",
   "pseudo": "MadameBaya",
   "verifie": "2026-11-25T13:14:33+00:00"
+ },
+ "26036734": {
+  "alertes": {},
+  "depuis": null,
+  "grade": null,
+  "humeur": "[F.B.I] Agent [Yafa]",
+  "pseudo": "BergaMotte",
+  "verifie": "2026-11-25T16:09:03+00:00"
  },
  "26037065": {
   "alertes": {},
