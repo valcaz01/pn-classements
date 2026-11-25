@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T19:54:33+00:00",
+ "updated": "2026-11-25T19:56:32+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -64,12 +64,12 @@
     "value": 24
    },
    {
-    "name": "sami75.19",
-    "value": 23
+    "name": "Mi,hermano",
+    "value": 24
    },
    {
-    "name": "Mi,hermano",
-    "value": 22
+    "name": "sami75.19",
+    "value": 23
    },
    {
     "name": "Monsieur-RF",
@@ -230,6 +230,10 @@
     "value": 16
    },
    {
+    "name": "Mi,hermano",
+    "value": 16
+   },
+   {
     "name": ".Libellule",
     "value": 14
    },
@@ -243,10 +247,6 @@
    },
    {
     "name": "Lovepanda",
-    "value": 14
-   },
-   {
-    "name": "Mi,hermano",
     "value": 14
    },
    {
@@ -419,7 +419,7 @@
    },
    {
     "name": "Padre",
-    "value": 1497
+    "value": 1499
    },
    {
     "name": "Pantheon_",
@@ -479,7 +479,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 524
+    "value": 526
    },
    {
     "name": "habbo22t",
@@ -551,7 +551,7 @@
    },
    {
     "name": "Kouukii",
-    "value": 198
+    "value": 200
    },
    {
     "name": "irysse",
@@ -613,7 +613,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 1367
+    "value": 1369
    },
    {
     "name": "habbo-160-3",
@@ -649,7 +649,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 342
+    "value": 344
    },
    {
     "name": "andrew16a",
@@ -685,7 +685,7 @@
    },
    {
     "name": "Kouukii",
-    "value": 198
+    "value": 200
    },
    {
     "name": "fym",
