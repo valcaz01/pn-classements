@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T18:19:02+00:00",
+ "updated": "2026-11-25T18:21:03+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -56,11 +56,11 @@
     "value": 30
    },
    {
-    "name": ".:Krustiz:.",
-    "value": 24
+    "name": "andrew16a",
+    "value": 26
    },
    {
-    "name": "andrew16a",
+    "name": ".:Krustiz:.",
     "value": 24
    },
    {
@@ -258,6 +258,10 @@
     "value": 12
    },
    {
+    "name": "andrew16a",
+    "value": 11
+   },
+   {
     "name": "apo4020",
     "value": 11
    },
@@ -272,10 +276,6 @@
    {
     "name": "Kouukii",
     "value": 10
-   },
-   {
-    "name": "andrew16a",
-    "value": 9
    },
    {
     "name": "flo578",
@@ -423,7 +423,7 @@
    },
    {
     "name": "Padre",
-    "value": 1438
+    "value": 1440
    },
    {
     "name": "marinadrk",
@@ -491,7 +491,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 480
+    "value": 482
    },
    {
     "name": "_.Flora._",
@@ -613,7 +613,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 1307
+    "value": 1309
    },
    {
     "name": "habbo-160-3",
@@ -653,7 +653,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 298
+    "value": 300
    },
    {
     "name": "Monsieur-RF",
@@ -804,12 +804,12 @@
     "value": 24
    },
    {
-    "name": "Seew-",
-    "value": 21
+    "name": "xX_Reiina_Xx",
+    "value": 22
    },
    {
-    "name": "xX_Reiina_Xx",
-    "value": 20
+    "name": "Seew-",
+    "value": 21
    }
   ]
  }
