@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T09:42:39+00:00",
+ "updated": "2026-11-25T09:44:40+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -33,7 +33,7 @@
    },
    {
     "name": "halos34",
-    "value": 40
+    "value": 41
    },
    {
     "name": "Shizuku",
@@ -96,6 +96,10 @@
     "value": 18
    },
    {
+    "name": "tiff34",
+    "value": 17
+   },
+   {
     "name": "Mi,hermano",
     "value": 16
    },
@@ -105,10 +109,6 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 15
-   },
-   {
-    "name": "tiff34",
     "value": 15
    },
    {
@@ -222,11 +222,11 @@
     "value": 21
    },
    {
-    "name": "fym",
-    "value": 15
+    "name": "tiff34",
+    "value": 17
    },
    {
-    "name": "tiff34",
+    "name": "fym",
     "value": 15
    },
    {
@@ -235,7 +235,7 @@
    },
    {
     "name": "halos34",
-    "value": 11
+    "value": 12
    },
    {
     "name": "Lovepanda",
@@ -583,7 +583,7 @@
    },
    {
     "name": "girly12",
-    "value": 91
+    "value": 93
    },
    {
     "name": "BnBoy",
@@ -716,15 +716,15 @@
     "value": 101
    },
    {
+    "name": "girly12",
+    "value": 93
+   },
+   {
     "name": "Postillon",
     "value": 93
    },
    {
     "name": "flo578",
-    "value": 91
-   },
-   {
-    "name": "girly12",
     "value": 91
    },
    {
