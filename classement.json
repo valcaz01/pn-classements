@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T18:59:34+00:00",
+ "updated": "2026-11-25T19:01:34+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -49,7 +49,7 @@
    },
    {
     "name": "flo578",
-    "value": 32
+    "value": 33
    },
    {
     "name": "Pantheon_",
@@ -113,7 +113,7 @@
    },
    {
     "name": "apo4020",
-    "value": 12
+    "value": 14
    },
    {
     "name": "guest77145",
@@ -184,6 +184,10 @@
     "value": 4
    },
    {
+    "name": "MrDrMathieu1990",
+    "value": 4
+   },
+   {
     "name": "SMPSHomer",
     "value": 4
    },
@@ -197,10 +201,6 @@
    },
    {
     "name": "Leif",
-    "value": 3
-   },
-   {
-    "name": "MagicalArt",
     "value": 3
    }
   ],
@@ -234,6 +234,10 @@
     "value": 14
    },
    {
+    "name": "apo4020",
+    "value": 14
+   },
+   {
     "name": "halos34",
     "value": 14
    },
@@ -250,7 +254,7 @@
     "value": 14
    },
    {
-    "name": "apo4020",
+    "name": "flo578",
     "value": 12
    },
    {
@@ -263,10 +267,6 @@
    },
    {
     "name": "andrew16a",
-    "value": 11
-   },
-   {
-    "name": "flo578",
     "value": 11
    },
    {
@@ -334,6 +334,10 @@
     "value": 4
    },
    {
+    "name": "MrDrMathieu1990",
+    "value": 4
+   },
+   {
     "name": "Piingouin.",
     "value": 4
    },
@@ -379,10 +383,6 @@
    },
    {
     "name": "marinadrk",
-    "value": 2
-   },
-   {
-    "name": "MrDrMathieu1990",
     "value": 2
    },
    {
@@ -435,7 +435,7 @@
    },
    {
     "name": "Icarem",
-    "value": 1123
+    "value": 1125
    },
    {
     "name": "halos34",
@@ -459,7 +459,7 @@
    },
    {
     "name": "andrew16a",
-    "value": 662
+    "value": 664
    },
    {
     "name": "Monsieur-RF",
@@ -491,7 +491,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 485
+    "value": 486
    },
    {
     "name": "_.Flora._",
@@ -633,7 +633,7 @@
    },
    {
     "name": "Icarem",
-    "value": 431
+    "value": 433
    },
    {
     "name": "tiff34",
@@ -653,7 +653,7 @@
    },
    {
     "name": "andrew16a",
-    "value": 311
+    "value": 313
    },
    {
     "name": "Vyp",
@@ -673,7 +673,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 263
+    "value": 264
    },
    {
     "name": "dadou07",
@@ -769,15 +769,15 @@
    },
    {
     "name": "Seew-",
-    "value": 40
+    "value": 42
    },
    {
     "name": "toutoune-09",
-    "value": 40
+    "value": 41
    },
    {
     "name": "xX_Reiina_Xx",
-    "value": 38
+    "value": 40
    },
    {
     "name": "Benny-knd",
