@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T10:15:10+00:00",
+ "updated": "2026-11-25T10:17:09+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -84,6 +84,10 @@
     "value": 19
    },
    {
+    "name": "Mi,hermano",
+    "value": 19
+   },
+   {
     "name": "irysse",
     "value": 18
    },
@@ -102,10 +106,6 @@
    {
     "name": "Monsieur-RF",
     "value": 17
-   },
-   {
-    "name": "Mi,hermano",
-    "value": 16
    },
    {
     "name": "gotica",
@@ -242,6 +242,10 @@
     "value": 11
    },
    {
+    "name": "Mi,hermano",
+    "value": 11
+   },
+   {
     "name": "_.Flora._",
     "value": 10
    },
@@ -267,10 +271,6 @@
    },
    {
     "name": "gotica",
-    "value": 8
-   },
-   {
-    "name": "Mi,hermano",
     "value": 8
    },
    {
@@ -431,7 +431,7 @@
    },
    {
     "name": "Padre",
-    "value": 1054
+    "value": 1056
    },
    {
     "name": "Icarem",
@@ -471,7 +471,7 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 555
+    "value": 557
    },
    {
     "name": ".Libellule",
@@ -571,7 +571,7 @@
    },
    {
     "name": "girly12",
-    "value": 115
+    "value": 117
    },
    {
     "name": "Richesse",
@@ -613,7 +613,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 923
+    "value": 925
    },
    {
     "name": "habbo-160-3",
@@ -673,7 +673,7 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 200
+    "value": 202
    },
    {
     "name": "fym",
@@ -705,7 +705,7 @@
    },
    {
     "name": "girly12",
-    "value": 115
+    "value": 117
    },
    {
     "name": "SuzieOuistiti!",
