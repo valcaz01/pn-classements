@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T23:24:31+00:00",
+ "updated": "2026-11-25T23:26:32+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -566,15 +566,15 @@
     "value": 148
    },
    {
+    "name": "Richesse",
+    "value": 123
+   },
+   {
     "name": "SuzieOuistiti!",
     "value": 123
    },
    {
     "name": "MagicalArt",
-    "value": 122
-   },
-   {
-    "name": "Richesse",
     "value": 122
    },
    {
@@ -725,7 +725,7 @@
    },
    {
     "name": "Richesse",
-    "value": 122
+    "value": 123
    },
    {
     "name": "SuzieOuistiti!",
