@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T04:00:38+00:00",
+ "updated": "2026-11-25T04:02:38+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -531,7 +531,7 @@
    },
    {
     "name": "Postillon",
-    "value": 255
+    "value": 257
    },
    {
     "name": "sami75.19",
@@ -724,12 +724,12 @@
     "value": 91
    },
    {
-    "name": "Astreu",
-    "value": 77
+    "name": "Postillon",
+    "value": 78
    },
    {
-    "name": "Postillon",
-    "value": 76
+    "name": "Astreu",
+    "value": 77
    },
    {
     "name": "girly12",
