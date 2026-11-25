@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T19:22:32+00:00",
+ "updated": "2026-11-25T19:24:31+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
    {
     "name": "Icarem",
-    "value": 70
+    "value": 71
    },
    {
     "name": "pevanq640",
@@ -88,6 +88,10 @@
     "value": 21
    },
    {
+    "name": "Mr.Dino",
+    "value": 20
+   },
+   {
     "name": "Postillon",
     "value": 20
    },
@@ -101,10 +105,6 @@
    },
    {
     "name": "irysse",
-    "value": 18
-   },
-   {
-    "name": "Mr.Dino",
     "value": 18
    },
    {
@@ -219,7 +219,7 @@
    },
    {
     "name": "Icarem",
-    "value": 25
+    "value": 26
    },
    {
     "name": "tiff34",
@@ -282,15 +282,15 @@
     "value": 10
    },
    {
+    "name": "Mr.Dino",
+    "value": 10
+   },
+   {
     "name": "Shizuku",
     "value": 9
    },
    {
     "name": "LorenzoVisconti",
-    "value": 8
-   },
-   {
-    "name": "Mr.Dino",
     "value": 8
    },
    {
@@ -419,7 +419,7 @@
    },
    {
     "name": "Padre",
-    "value": 1468
+    "value": 1470
    },
    {
     "name": "Pantheon_",
@@ -478,11 +478,11 @@
     "value": 521
    },
    {
-    "name": ".Libellule",
-    "value": 512
+    "name": "Mi,hermano",
+    "value": 513
    },
    {
-    "name": "Mi,hermano",
+    "name": ".Libellule",
     "value": 512
    },
    {
@@ -491,7 +491,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 505
+    "value": 507
    },
    {
     "name": "_.Flora._",
@@ -519,7 +519,7 @@
    },
    {
     "name": "apo4020",
-    "value": 369
+    "value": 371
    },
    {
     "name": "Fleabag",
@@ -555,7 +555,7 @@
    },
    {
     "name": "Kouukii",
-    "value": 172
+    "value": 174
    },
    {
     "name": "girly12",
@@ -613,7 +613,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 1338
+    "value": 1340
    },
    {
     "name": "habbo-160-3",
@@ -641,7 +641,7 @@
    },
    {
     "name": "apo4020",
-    "value": 369
+    "value": 371
    },
    {
     "name": "Lewddon",
@@ -665,7 +665,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 283
+    "value": 285
    },
    {
     "name": "Hectorr",
@@ -697,7 +697,7 @@
    },
    {
     "name": "Kouukii",
-    "value": 172
+    "value": 174
    },
    {
     "name": "girly12",
@@ -709,7 +709,7 @@
    },
    {
     "name": "Mi,hermano",
-    "value": 150
+    "value": 151
    },
    {
     "name": "---Jayden---",
@@ -756,16 +756,16 @@
     "value": 65
    },
    {
+    "name": "xX_Reiina_Xx",
+    "value": 62
+   },
+   {
     "name": "Leif",
     "value": 61
    },
    {
-    "name": "xX_Reiina_Xx",
-    "value": 60
-   },
-   {
     "name": "Seew-",
-    "value": 58
+    "value": 60
    },
    {
     "name": "LorenzoVisconti",
