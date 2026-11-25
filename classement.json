@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T20:17:02+00:00",
+ "updated": "2026-11-25T20:19:04+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -37,7 +37,7 @@
    },
    {
     "name": "Shizuku",
-    "value": 38
+    "value": 39
    },
    {
     "name": "Lovepanda",
@@ -266,6 +266,10 @@
     "value": 12
    },
    {
+    "name": "Shizuku",
+    "value": 12
+   },
+   {
     "name": "andrew16a",
     "value": 11
    },
@@ -275,10 +279,6 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 11
-   },
-   {
-    "name": "Shizuku",
     "value": 11
    },
    {
@@ -419,7 +419,7 @@
    },
    {
     "name": "Padre",
-    "value": 1519
+    "value": 1520
    },
    {
     "name": "Pantheon_",
@@ -447,7 +447,7 @@
    },
    {
     "name": "Shizuku",
-    "value": 816
+    "value": 817
    },
    {
     "name": "Lewddon",
@@ -475,7 +475,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 545
+    "value": 547
    },
    {
     "name": "Mi,hermano",
@@ -613,7 +613,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 1389
+    "value": 1390
    },
    {
     "name": "habbo-160-3",
@@ -644,12 +644,12 @@
     "value": 386
    },
    {
-    "name": "Lewddon",
-    "value": 364
+    "name": "Mr.Dino",
+    "value": 365
    },
    {
-    "name": "Mr.Dino",
-    "value": 363
+    "name": "Lewddon",
+    "value": 364
    },
    {
     "name": "andrew16a",
@@ -688,11 +688,11 @@
     "value": 202
    },
    {
-    "name": "fym",
-    "value": 184
+    "name": "Shizuku",
+    "value": 185
    },
    {
-    "name": "Shizuku",
+    "name": "fym",
     "value": 184
    },
    {
