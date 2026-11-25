@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T19:20:39+00:00",
+ "updated": "2026-11-25T19:22:32+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -120,6 +120,10 @@
     "value": 12
    },
    {
+    "name": "Kouukii",
+    "value": 11
+   },
+   {
     "name": "Piingouin.",
     "value": 11
    },
@@ -129,10 +133,6 @@
    },
    {
     "name": "dadou07",
-    "value": 10
-   },
-   {
-    "name": "Kouukii",
     "value": 10
    },
    {
@@ -270,15 +270,15 @@
     "value": 11
    },
    {
+    "name": "Kouukii",
+    "value": 11
+   },
+   {
     "name": "_.Flora._",
     "value": 10
    },
    {
     "name": "gotica",
-    "value": 10
-   },
-   {
-    "name": "Kouukii",
     "value": 10
    },
    {
@@ -419,7 +419,7 @@
    },
    {
     "name": "Padre",
-    "value": 1466
+    "value": 1468
    },
    {
     "name": "Pantheon_",
@@ -435,7 +435,7 @@
    },
    {
     "name": "Icarem",
-    "value": 1144
+    "value": 1146
    },
    {
     "name": "halos34",
@@ -491,7 +491,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 503
+    "value": 505
    },
    {
     "name": "_.Flora._",
@@ -519,7 +519,7 @@
    },
    {
     "name": "apo4020",
-    "value": 367
+    "value": 369
    },
    {
     "name": "Fleabag",
@@ -613,7 +613,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 1336
+    "value": 1338
    },
    {
     "name": "habbo-160-3",
@@ -633,7 +633,7 @@
    },
    {
     "name": "Icarem",
-    "value": 452
+    "value": 454
    },
    {
     "name": "tiff34",
@@ -641,7 +641,7 @@
    },
    {
     "name": "apo4020",
-    "value": 367
+    "value": 369
    },
    {
     "name": "Lewddon",
@@ -665,7 +665,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 281
+    "value": 283
    },
    {
     "name": "Hectorr",
@@ -761,11 +761,11 @@
    },
    {
     "name": "xX_Reiina_Xx",
-    "value": 59
+    "value": 60
    },
    {
     "name": "Seew-",
-    "value": 56
+    "value": 58
    },
    {
     "name": "LorenzoVisconti",
