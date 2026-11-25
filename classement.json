@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T10:12:39+00:00",
+ "updated": "2026-11-25T10:15:10+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -100,15 +100,15 @@
     "value": 18
    },
    {
+    "name": "Monsieur-RF",
+    "value": 17
+   },
+   {
     "name": "Mi,hermano",
     "value": 16
    },
    {
     "name": "gotica",
-    "value": 15
-   },
-   {
-    "name": "Monsieur-RF",
     "value": 15
    },
    {
@@ -290,6 +290,10 @@
     "value": 7
    },
    {
+    "name": "Monsieur-RF",
+    "value": 7
+   },
+   {
     "name": "SuzieOuistiti!",
     "value": 7
    },
@@ -303,10 +307,6 @@
    },
    {
     "name": "dadou07",
-    "value": 5
-   },
-   {
-    "name": "Monsieur-RF",
     "value": 5
    },
    {
@@ -431,7 +431,7 @@
    },
    {
     "name": "Padre",
-    "value": 1052
+    "value": 1054
    },
    {
     "name": "Icarem",
@@ -471,7 +471,7 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 554
+    "value": 555
    },
    {
     "name": ".Libellule",
@@ -483,7 +483,7 @@
    },
    {
     "name": "Mi,hermano",
-    "value": 456
+    "value": 457
    },
    {
     "name": "_.Flora._",
@@ -570,12 +570,12 @@
     "value": 122
    },
    {
-    "name": "Richesse",
-    "value": 114
+    "name": "girly12",
+    "value": 115
    },
    {
-    "name": "girly12",
-    "value": 113
+    "name": "Richesse",
+    "value": 114
    },
    {
     "name": "Piingouin.",
@@ -613,7 +613,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 921
+    "value": 923
    },
    {
     "name": "habbo-160-3",
@@ -673,7 +673,7 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 199
+    "value": 200
    },
    {
     "name": "fym",
@@ -704,6 +704,10 @@
     "value": 123
    },
    {
+    "name": "girly12",
+    "value": 115
+   },
+   {
     "name": "SuzieOuistiti!",
     "value": 115
    },
@@ -712,16 +716,12 @@
     "value": 114
    },
    {
-    "name": "girly12",
-    "value": 113
-   },
-   {
     "name": "sami75.19",
     "value": 101
    },
    {
     "name": "Mi,hermano",
-    "value": 94
+    "value": 95
    },
    {
     "name": "Postillon",
