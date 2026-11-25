@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T00:27:38+00:00",
+ "updated": "2026-11-25T00:29:08+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -411,7 +411,7 @@
   "total": [
    {
     "name": "habbo-160-3",
-    "value": 2357
+    "value": 2359
    },
    {
     "name": "BiBiCHarBo",
@@ -443,7 +443,7 @@
    },
    {
     "name": "Shizuku",
-    "value": 796
+    "value": 797
    },
    {
     "name": "Lovepanda",
@@ -451,7 +451,7 @@
    },
    {
     "name": "Astreu",
-    "value": 702
+    "value": 701
    },
    {
     "name": "dadou07",
@@ -625,7 +625,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 476
+    "value": 478
    },
    {
     "name": "marinadrk",
@@ -676,11 +676,11 @@
     "value": 183
    },
    {
-    "name": "fym",
-    "value": 164
+    "name": "Shizuku",
+    "value": 165
    },
    {
-    "name": "Shizuku",
+    "name": "fym",
     "value": 164
    },
    {
@@ -809,7 +809,7 @@
    },
    {
     "name": "Lilith_C",
-    "value": 7
+    "value": 8
    }
   ]
  }
