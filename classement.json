@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T19:24:31+00:00",
+ "updated": "2026-11-25T19:26:32+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -84,12 +84,12 @@
     "value": 21
    },
    {
-    "name": "Non-Non",
+    "name": "Mr.Dino",
     "value": 21
    },
    {
-    "name": "Mr.Dino",
-    "value": 20
+    "name": "Non-Non",
+    "value": 21
    },
    {
     "name": "Postillon",
@@ -274,15 +274,15 @@
     "value": 11
    },
    {
+    "name": "Mr.Dino",
+    "value": 11
+   },
+   {
     "name": "_.Flora._",
     "value": 10
    },
    {
     "name": "gotica",
-    "value": 10
-   },
-   {
-    "name": "Mr.Dino",
     "value": 10
    },
    {
@@ -419,7 +419,7 @@
    },
    {
     "name": "Padre",
-    "value": 1470
+    "value": 1471
    },
    {
     "name": "Pantheon_",
@@ -479,19 +479,19 @@
    },
    {
     "name": "Mi,hermano",
-    "value": 513
+    "value": 515
    },
    {
     "name": ".Libellule",
     "value": 512
    },
    {
-    "name": "Mr.Dino",
+    "name": "-Massimo-",
     "value": 508
    },
    {
-    "name": "-Massimo-",
-    "value": 507
+    "name": "Mr.Dino",
+    "value": 508
    },
    {
     "name": "_.Flora._",
@@ -519,7 +519,7 @@
    },
    {
     "name": "apo4020",
-    "value": 371
+    "value": 373
    },
    {
     "name": "Fleabag",
@@ -555,7 +555,7 @@
    },
    {
     "name": "Kouukii",
-    "value": 174
+    "value": 175
    },
    {
     "name": "girly12",
@@ -613,7 +613,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 1340
+    "value": 1341
    },
    {
     "name": "habbo-160-3",
@@ -641,7 +641,7 @@
    },
    {
     "name": "apo4020",
-    "value": 371
+    "value": 373
    },
    {
     "name": "Lewddon",
@@ -665,7 +665,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 285
+    "value": 286
    },
    {
     "name": "Hectorr",
@@ -697,7 +697,7 @@
    },
    {
     "name": "Kouukii",
-    "value": 174
+    "value": 175
    },
    {
     "name": "girly12",
@@ -709,7 +709,7 @@
    },
    {
     "name": "Mi,hermano",
-    "value": 151
+    "value": 153
    },
    {
     "name": "---Jayden---",
@@ -757,7 +757,7 @@
    },
    {
     "name": "xX_Reiina_Xx",
-    "value": 62
+    "value": 64
    },
    {
     "name": "Leif",
