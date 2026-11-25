@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T07:31:09+00:00",
+ "updated": "2026-11-25T07:33:09+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -515,7 +515,7 @@
    },
    {
     "name": "tiff34",
-    "value": 310
+    "value": 312
    },
    {
     "name": "Vyp",
@@ -632,12 +632,12 @@
     "value": 439
    },
    {
-    "name": "Icarem",
-    "value": 311
+    "name": "tiff34",
+    "value": 312
    },
    {
-    "name": "tiff34",
-    "value": 310
+    "name": "Icarem",
+    "value": 311
    },
    {
     "name": "Vyp",
