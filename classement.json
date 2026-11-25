@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T10:35:04+00:00",
+ "updated": "2026-11-25T10:37:32+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -76,6 +76,10 @@
     "value": 21
    },
    {
+    "name": "Postillon",
+    "value": 20
+   },
+   {
     "name": "Proxymore",
     "value": 20
    },
@@ -97,10 +101,6 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 18
-   },
-   {
-    "name": "Postillon",
     "value": 18
    },
    {
@@ -254,6 +254,10 @@
     "value": 10
    },
    {
+    "name": "Postillon",
+    "value": 10
+   },
+   {
     "name": "flo578",
     "value": 9
    },
@@ -279,10 +283,6 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 8
-   },
-   {
-    "name": "Postillon",
     "value": 8
    },
    {
@@ -431,7 +431,7 @@
    },
    {
     "name": "Padre",
-    "value": 1072
+    "value": 1074
    },
    {
     "name": "Icarem",
@@ -462,12 +462,12 @@
     "value": 595
    },
    {
-    "name": "Lewddon",
-    "value": 573
+    "name": "Monsieur-RF",
+    "value": 574
    },
    {
-    "name": "Monsieur-RF",
-    "value": 572
+    "name": "Lewddon",
+    "value": 573
    },
    {
     "name": "charlie-XCX123",
@@ -483,7 +483,7 @@
    },
    {
     "name": "Mi,hermano",
-    "value": 471
+    "value": 474
    },
    {
     "name": "_.Flora._",
@@ -503,7 +503,7 @@
    },
    {
     "name": "tiff34",
-    "value": 331
+    "value": 332
    },
    {
     "name": "Fleabag",
@@ -531,7 +531,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 275
+    "value": 277
    },
    {
     "name": "apo4020",
@@ -558,12 +558,12 @@
     "value": 142
    },
    {
-    "name": "Kouukii",
-    "value": 134
+    "name": "girly12",
+    "value": 135
    },
    {
-    "name": "girly12",
-    "value": 132
+    "name": "Kouukii",
+    "value": 134
    },
    {
     "name": "SuzieOuistiti!",
@@ -613,7 +613,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 941
+    "value": 943
    },
    {
     "name": "habbo-160-3",
@@ -637,7 +637,7 @@
    },
    {
     "name": "tiff34",
-    "value": 331
+    "value": 332
    },
    {
     "name": "Vyp",
@@ -668,12 +668,12 @@
     "value": 223
    },
    {
-    "name": "Lewddon",
-    "value": 218
+    "name": "Monsieur-RF",
+    "value": 219
    },
    {
-    "name": "Monsieur-RF",
-    "value": 217
+    "name": "Lewddon",
+    "value": 218
    },
    {
     "name": "fym",
@@ -696,12 +696,12 @@
     "value": 142
    },
    {
-    "name": "Kouukii",
-    "value": 134
+    "name": "girly12",
+    "value": 135
    },
    {
-    "name": "girly12",
-    "value": 132
+    "name": "Kouukii",
+    "value": 134
    },
    {
     "name": "charlie-XCX123",
@@ -717,7 +717,7 @@
    },
    {
     "name": "Mi,hermano",
-    "value": 109
+    "value": 112
    },
    {
     "name": "Postillon",
@@ -745,7 +745,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 53
+    "value": 55
    },
    {
     "name": "LorenzoVisconti",
