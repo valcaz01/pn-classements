@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T20:31:05+00:00",
+ "updated": "2026-11-25T20:33:05+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -17,11 +17,11 @@
    },
    {
     "name": "charlie-XCX123",
-    "value": 60
+    "value": 61
    },
    {
     "name": "habbo-160-3",
-    "value": 52
+    "value": 54
    },
    {
     "name": "fym",
@@ -45,7 +45,7 @@
    },
    {
     "name": "Astreu",
-    "value": 35
+    "value": 36
    },
    {
     "name": "flo578",
@@ -206,16 +206,16 @@
   ],
   "week": [
    {
+    "name": "habbo-160-3",
+    "value": 31
+   },
+   {
     "name": "pevanq640",
     "value": 31
    },
    {
-    "name": "habbo-160-3",
-    "value": 29
-   },
-   {
     "name": "charlie-XCX123",
-    "value": 27
+    "value": 28
    },
    {
     "name": "Icarem",
@@ -298,6 +298,10 @@
     "value": 7
    },
    {
+    "name": "Astreu",
+    "value": 6
+   },
+   {
     "name": "dadou07",
     "value": 6
    },
@@ -315,10 +319,6 @@
    },
    {
     "name": ".Dylan.",
-    "value": 5
-   },
-   {
-    "name": "Astreu",
     "value": 5
    },
    {
@@ -419,7 +419,7 @@
    },
    {
     "name": "Padre",
-    "value": 1532
+    "value": 1534
    },
    {
     "name": "Pantheon_",
@@ -427,7 +427,7 @@
    },
    {
     "name": "marinadrk",
-    "value": 1388
+    "value": 1390
    },
    {
     "name": "fym",
@@ -443,7 +443,7 @@
    },
    {
     "name": "Shizuku",
-    "value": 829
+    "value": 831
    },
    {
     "name": "Lovepanda",
@@ -475,7 +475,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 559
+    "value": 561
    },
    {
     "name": "Mi,hermano",
@@ -613,7 +613,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 1402
+    "value": 1404
    },
    {
     "name": "habbo-160-3",
@@ -629,7 +629,7 @@
    },
    {
     "name": "marinadrk",
-    "value": 483
+    "value": 485
    },
    {
     "name": "Icarem",
@@ -645,7 +645,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 377
+    "value": 379
    },
    {
     "name": "Lewddon",
@@ -689,7 +689,7 @@
    },
    {
     "name": "Shizuku",
-    "value": 197
+    "value": 199
    },
    {
     "name": "fym",
