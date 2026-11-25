@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T22:17:31+00:00",
+ "updated": "2026-11-25T22:19:32+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -148,6 +148,10 @@
     "value": 8
    },
    {
+    "name": "Padre",
+    "value": 8
+   },
+   {
     "name": "toutoune-09",
     "value": 8
    },
@@ -160,16 +164,12 @@
     "value": 7
    },
    {
-    "name": "Padre",
-    "value": 7
-   },
-   {
     "name": "SuzieOuistiti!",
     "value": 7
    },
    {
     "name": "---Jayden---",
-    "value": 5
+    "value": 6
    },
    {
     "name": "-Tsukiri-",
@@ -306,6 +306,10 @@
     "value": 7
    },
    {
+    "name": "---Jayden---",
+    "value": 6
+   },
+   {
     "name": "dadou07",
     "value": 6
    },
@@ -314,8 +318,8 @@
     "value": 6
    },
    {
-    "name": "---Jayden---",
-    "value": 5
+    "name": "Padre",
+    "value": 6
    },
    {
     "name": ".Dylan.",
@@ -323,10 +327,6 @@
    },
    {
     "name": "LesdixGaga",
-    "value": 5
-   },
-   {
-    "name": "Padre",
     "value": 5
    },
    {
@@ -415,7 +415,7 @@
    },
    {
     "name": "Padre",
-    "value": 1626
+    "value": 1627
    },
    {
     "name": "BiBiCHarBo",
@@ -479,7 +479,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 543
+    "value": 545
    },
    {
     "name": "Mi,hermano",
@@ -613,7 +613,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 1496
+    "value": 1497
    },
    {
     "name": "habbo-160-3",
@@ -653,7 +653,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 321
+    "value": 323
    },
    {
     "name": "andrew16a",
@@ -769,7 +769,7 @@
    },
    {
     "name": "Benny-knd",
-    "value": 54
+    "value": 56
    },
    {
     "name": "LorenzoVisconti",
