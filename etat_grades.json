@@ -1832,7 +1832,7 @@
   "grade": "cadet",
   "humeur": "",
   "pseudo": "Vyp",
-  "verifie": "2026-11-25T14:17:02+00:00"
+  "verifie": "2026-11-25T17:18:32+00:00"
  },
  "21613867": {
   "alertes": {},
@@ -12601,6 +12601,14 @@
   "humeur": "MARCHE ou CRÈVE.",
   "pseudo": "FitzKensei",
   "verifie": "2026-11-25T15:57:32+00:00"
+ },
+ "8965250": {
+  "alertes": {},
+  "depuis": null,
+  "grade": null,
+  "humeur": "",
+  "pseudo": "alex010510",
+  "verifie": "2026-11-25T17:18:32+00:00"
  },
  "9071545": {
   "alertes": {},
