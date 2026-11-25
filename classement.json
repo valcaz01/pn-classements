@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T13:24:31+00:00",
+ "updated": "2026-11-25T13:26:32+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -48,11 +48,11 @@
     "value": 33
    },
    {
-    "name": "flo578",
-    "value": 30
+    "name": "Pantheon_",
+    "value": 32
    },
    {
-    "name": "Pantheon_",
+    "name": "flo578",
     "value": 30
    },
    {
@@ -116,15 +116,15 @@
     "value": 12
    },
    {
+    "name": "apo4020",
+    "value": 11
+   },
+   {
     "name": "Piingouin.",
     "value": 11
    },
    {
     "name": ".Dylan.",
-    "value": 10
-   },
-   {
-    "name": "apo4020",
     "value": 10
    },
    {
@@ -239,7 +239,11 @@
    },
    {
     "name": "Pantheon_",
-    "value": 12
+    "value": 14
+   },
+   {
+    "name": "apo4020",
+    "value": 11
    },
    {
     "name": "Lovepanda",
@@ -251,10 +255,6 @@
    },
    {
     "name": "_.Flora._",
-    "value": 10
-   },
-   {
-    "name": "apo4020",
     "value": 10
    },
    {
@@ -431,7 +431,7 @@
    },
    {
     "name": "Padre",
-    "value": 1223
+    "value": 1225
    },
    {
     "name": "Icarem",
@@ -503,7 +503,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 364
+    "value": 366
    },
    {
     "name": "tiff34",
@@ -511,7 +511,7 @@
    },
    {
     "name": "Postillon",
-    "value": 356
+    "value": 358
    },
    {
     "name": "Fleabag",
@@ -535,7 +535,7 @@
    },
    {
     "name": "apo4020",
-    "value": 295
+    "value": 297
    },
    {
     "name": "sami75.19",
@@ -613,7 +613,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 1092
+    "value": 1094
    },
    {
     "name": "habbo-160-3",
@@ -645,7 +645,7 @@
    },
    {
     "name": "apo4020",
-    "value": 295
+    "value": 297
    },
    {
     "name": "Mr.Dino",
@@ -689,7 +689,7 @@
    },
    {
     "name": "Postillon",
-    "value": 177
+    "value": 179
    },
    {
     "name": "girly12",
@@ -700,11 +700,11 @@
     "value": 153
    },
    {
-    "name": "---Jayden---",
-    "value": 142
+    "name": "-Massimo-",
+    "value": 144
    },
    {
-    "name": "-Massimo-",
+    "name": "---Jayden---",
     "value": 142
    },
    {
