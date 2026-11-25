@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T23:32:32+00:00",
+ "updated": "2026-11-25T23:34:33+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -567,7 +567,7 @@
    },
    {
     "name": "Richesse",
-    "value": 127
+    "value": 128
    },
    {
     "name": "SuzieOuistiti!",
@@ -725,7 +725,7 @@
    },
    {
     "name": "Richesse",
-    "value": 127
+    "value": 128
    },
    {
     "name": "SuzieOuistiti!",
@@ -780,12 +780,12 @@
     "value": 49
    },
    {
-    "name": "toutoune-09",
-    "value": 41
+    "name": "CovidJr",
+    "value": 42
    },
    {
-    "name": "CovidJr",
-    "value": 40
+    "name": "toutoune-09",
+    "value": 41
    },
    {
     "name": "gotica",
