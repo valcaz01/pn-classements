@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T15:51:33+00:00",
+ "updated": "2026-11-25T15:53:32+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -160,15 +160,15 @@
     "value": 7
    },
    {
+    "name": "toutoune-09",
+    "value": 6
+   },
+   {
     "name": "---Jayden---",
     "value": 5
    },
    {
     "name": "Padre",
-    "value": 5
-   },
-   {
-    "name": "toutoune-09",
     "value": 5
    },
    {
@@ -314,6 +314,10 @@
     "value": 5
    },
    {
+    "name": "toutoune-09",
+    "value": 5
+   },
+   {
     "name": ".:Krustiz:.",
     "value": 4
    },
@@ -327,10 +331,6 @@
    },
    {
     "name": "Piingouin.",
-    "value": 4
-   },
-   {
-    "name": "toutoune-09",
     "value": 4
    },
    {
@@ -423,7 +423,7 @@
    },
    {
     "name": "marinadrk",
-    "value": 1348
+    "value": 1350
    },
    {
     "name": "fym",
@@ -431,7 +431,7 @@
    },
    {
     "name": "Padre",
-    "value": 1305
+    "value": 1306
    },
    {
     "name": "Icarem",
@@ -455,7 +455,7 @@
    },
    {
     "name": "Lewddon",
-    "value": 639
+    "value": 641
    },
    {
     "name": "andrew16a",
@@ -467,7 +467,7 @@
    },
    {
     "name": "dadou07",
-    "value": 596
+    "value": 598
    },
    {
     "name": "charlie-XCX123",
@@ -491,7 +491,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 465
+    "value": 467
    },
    {
     "name": "_.Flora._",
@@ -515,7 +515,7 @@
    },
    {
     "name": "Proxymore",
-    "value": 351
+    "value": 353
    },
    {
     "name": "apo4020",
@@ -613,7 +613,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 1174
+    "value": 1175
    },
    {
     "name": "habbo-160-3",
@@ -629,7 +629,7 @@
    },
    {
     "name": "marinadrk",
-    "value": 443
+    "value": 445
    },
    {
     "name": "Icarem",
@@ -653,7 +653,7 @@
    },
    {
     "name": "Lewddon",
-    "value": 284
+    "value": 286
    },
    {
     "name": "andrew16a",
@@ -673,15 +673,15 @@
    },
    {
     "name": "dadou07",
-    "value": 244
+    "value": 246
+   },
+   {
+    "name": "-Massimo-",
+    "value": 245
    },
    {
     "name": "Postillon",
     "value": 244
-   },
-   {
-    "name": "-Massimo-",
-    "value": 243
    },
    {
     "name": "fym",
@@ -737,7 +737,7 @@
    },
    {
     "name": "Proxymore",
-    "value": 78
+    "value": 80
    },
    {
     "name": "Astreu",
@@ -796,16 +796,16 @@
     "value": 24
    },
    {
+    "name": "Kensel",
+    "value": 21
+   },
+   {
     "name": "Seew-",
     "value": 21
    },
    {
-    "name": "Kensel",
-    "value": 20
-   },
-   {
     "name": "Lord_Fullbody",
-    "value": 17
+    "value": 19
    },
    {
     "name": "Freminet",
