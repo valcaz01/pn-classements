@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T08:35:08+00:00",
+ "updated": "2026-11-25T08:37:09+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -547,7 +547,7 @@
    },
    {
     "name": "apo4020",
-    "value": 180
+    "value": 182
    },
    {
     "name": "irysse",
@@ -680,12 +680,12 @@
     "value": 183
    },
    {
-    "name": "Shizuku",
-    "value": 181
+    "name": "apo4020",
+    "value": 182
    },
    {
-    "name": "apo4020",
-    "value": 180
+    "name": "Shizuku",
+    "value": 181
    },
    {
     "name": "_.Flora._",
