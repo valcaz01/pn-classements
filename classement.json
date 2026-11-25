@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T18:45:03+00:00",
+ "updated": "2026-11-25T18:47:32+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -458,12 +458,12 @@
     "value": 701
    },
    {
-    "name": "Monsieur-RF",
+    "name": "andrew16a",
     "value": 650
    },
    {
-    "name": "andrew16a",
-    "value": 647
+    "name": "Monsieur-RF",
+    "value": 650
    },
    {
     "name": "dadou07",
@@ -487,7 +487,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 504
+    "value": 505
    },
    {
     "name": "-Massimo-",
@@ -519,7 +519,7 @@
    },
    {
     "name": "apo4020",
-    "value": 337
+    "value": 340
    },
    {
     "name": "Fleabag",
@@ -645,23 +645,23 @@
    },
    {
     "name": "apo4020",
-    "value": 337
+    "value": 340
    },
    {
     "name": "Mr.Dino",
-    "value": 322
+    "value": 323
    },
    {
     "name": "Vyp",
     "value": 307
    },
    {
-    "name": "Monsieur-RF",
-    "value": 298
+    "name": "andrew16a",
+    "value": 299
    },
    {
-    "name": "andrew16a",
-    "value": 296
+    "name": "Monsieur-RF",
+    "value": 298
    },
    {
     "name": "Hectorr",
@@ -776,6 +776,10 @@
     "value": 34
    },
    {
+    "name": "Seew-",
+    "value": 34
+   },
+   {
     "name": "gotica",
     "value": 33
    },
@@ -788,23 +792,19 @@
     "value": 32
    },
    {
-    "name": "Seew-",
-    "value": 32
-   },
-   {
     "name": "Lilith_C",
     "value": 30
    },
    {
     "name": "xX_Reiina_Xx",
-    "value": 28
-   },
-   {
-    "name": "Pressou24",
-    "value": 26
+    "value": 30
    },
    {
     "name": "toutoune-09",
+    "value": 29
+   },
+   {
+    "name": "Pressou24",
     "value": 26
    },
    {
