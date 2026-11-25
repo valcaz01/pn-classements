@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T08:37:09+00:00",
+ "updated": "2026-11-25T08:39:40+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -547,7 +547,7 @@
    },
    {
     "name": "apo4020",
-    "value": 182
+    "value": 185
    },
    {
     "name": "irysse",
@@ -668,6 +668,10 @@
     "value": 209
    },
    {
+    "name": "apo4020",
+    "value": 185
+   },
+   {
     "name": "Monsieur-RF",
     "value": 185
    },
@@ -678,10 +682,6 @@
    {
     "name": ".Libellule",
     "value": 183
-   },
-   {
-    "name": "apo4020",
-    "value": 182
    },
    {
     "name": "Shizuku",
