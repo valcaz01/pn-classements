@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T21:26:32+00:00",
+ "updated": "2026-11-25T21:29:04+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -17,7 +17,7 @@
    },
    {
     "name": "charlie-XCX123",
-    "value": 61
+    "value": 62
    },
    {
     "name": "habbo-160-3",
@@ -215,7 +215,7 @@
    },
    {
     "name": "charlie-XCX123",
-    "value": 28
+    "value": 29
    },
    {
     "name": "Icarem",
@@ -419,7 +419,7 @@
    },
    {
     "name": "Padre",
-    "value": 1587
+    "value": 1589
    },
    {
     "name": "Pantheon_",
@@ -511,7 +511,7 @@
    },
    {
     "name": "tiff34",
-    "value": 395
+    "value": 397
    },
    {
     "name": "apo4020",
@@ -519,7 +519,7 @@
    },
    {
     "name": "Proxymore",
-    "value": 384
+    "value": 387
    },
    {
     "name": "Fleabag",
@@ -613,7 +613,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 1457
+    "value": 1459
    },
    {
     "name": "habbo-160-3",
@@ -637,7 +637,7 @@
    },
    {
     "name": "tiff34",
-    "value": 395
+    "value": 397
    },
    {
     "name": "apo4020",
@@ -724,12 +724,12 @@
     "value": 115
    },
    {
-    "name": "Richesse",
+    "name": "Proxymore",
     "value": 114
    },
    {
-    "name": "Proxymore",
-    "value": 111
+    "name": "Richesse",
+    "value": 114
    },
    {
     "name": "sami75.19",
