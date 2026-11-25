@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T23:26:32+00:00",
+ "updated": "2026-11-25T23:28:32+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -567,7 +567,7 @@
    },
    {
     "name": "Richesse",
-    "value": 123
+    "value": 124
    },
    {
     "name": "SuzieOuistiti!",
@@ -725,7 +725,7 @@
    },
    {
     "name": "Richesse",
-    "value": 123
+    "value": 124
    },
    {
     "name": "SuzieOuistiti!",
@@ -785,7 +785,7 @@
    },
    {
     "name": "CovidJr",
-    "value": 34
+    "value": 36
    },
    {
     "name": "gotica",
