@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T11:27:03+00:00",
+ "updated": "2026-11-25T11:29:01+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -431,7 +431,7 @@
    },
    {
     "name": "Padre",
-    "value": 1116
+    "value": 1118
    },
    {
     "name": "Icarem",
@@ -514,12 +514,12 @@
     "value": 323
    },
    {
-    "name": "Non-Non",
-    "value": 319
+    "name": "Postillon",
+    "value": 320
    },
    {
-    "name": "Postillon",
-    "value": 318
+    "name": "Non-Non",
+    "value": 319
    },
    {
     "name": "Vyp",
@@ -527,7 +527,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 300
+    "value": 302
    },
    {
     "name": "gotica",
@@ -599,7 +599,7 @@
    },
    {
     "name": "CharlesWish",
-    "value": 68
+    "value": 70
    },
    {
     "name": "LouunaS",
@@ -613,7 +613,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 985
+    "value": 987
    },
    {
     "name": "habbo-160-3",
@@ -701,7 +701,7 @@
    },
    {
     "name": "Postillon",
-    "value": 139
+    "value": 141
    },
    {
     "name": "Kouukii",
@@ -733,7 +733,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 78
+    "value": 80
    },
    {
     "name": "Astreu",
@@ -776,12 +776,12 @@
     "value": 32
    },
    {
-    "name": "gotica",
-    "value": 30
+    "name": "CharlesWish",
+    "value": 31
    },
    {
-    "name": "CharlesWish",
-    "value": 29
+    "name": "gotica",
+    "value": 30
    },
    {
     "name": "Lilith_C",
