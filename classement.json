@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T14:26:32+00:00",
+ "updated": "2026-11-25T14:28:32+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -21,7 +21,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 50
+    "value": 51
    },
    {
     "name": "fym",
@@ -148,16 +148,16 @@
     "value": 7
    },
    {
+    "name": "LesdixGaga",
+    "value": 7
+   },
+   {
     "name": "LorenzoVisconti",
     "value": 7
    },
    {
     "name": "SuzieOuistiti!",
     "value": 7
-   },
-   {
-    "name": "LesdixGaga",
-    "value": 6
    },
    {
     "name": "---Jayden---",
@@ -207,7 +207,7 @@
   "week": [
    {
     "name": "habbo-160-3",
-    "value": 27
+    "value": 28
    },
    {
     "name": "charlie-XCX123",
@@ -310,6 +310,10 @@
     "value": 5
    },
    {
+    "name": "LesdixGaga",
+    "value": 5
+   },
+   {
     "name": ".:Krustiz:.",
     "value": 4
    },
@@ -319,10 +323,6 @@
    },
    {
     "name": "habbo22t",
-    "value": 4
-   },
-   {
-    "name": "LesdixGaga",
     "value": 4
    },
    {
@@ -411,7 +411,7 @@
   "total": [
    {
     "name": "habbo-160-3",
-    "value": 2512
+    "value": 2513
    },
    {
     "name": "BiBiCHarBo",
@@ -483,7 +483,7 @@
    },
    {
     "name": "Mi,hermano",
-    "value": 483
+    "value": 484
    },
    {
     "name": "Mr.Dino",
@@ -495,7 +495,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 423
+    "value": 425
    },
    {
     "name": "flo578",
@@ -507,7 +507,7 @@
    },
    {
     "name": "Postillon",
-    "value": 393
+    "value": 395
    },
    {
     "name": "tiff34",
@@ -617,7 +617,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 631
+    "value": 632
    },
    {
     "name": "halos34",
@@ -677,11 +677,11 @@
    },
    {
     "name": "Postillon",
-    "value": 214
+    "value": 216
    },
    {
     "name": "-Massimo-",
-    "value": 201
+    "value": 203
    },
    {
     "name": "fym",
@@ -717,7 +717,7 @@
    },
    {
     "name": "Mi,hermano",
-    "value": 121
+    "value": 122
    },
    {
     "name": "SuzieOuistiti!",
