@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T14:48:32+00:00",
+ "updated": "2026-11-25T14:50:32+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -84,15 +84,15 @@
     "value": 20
    },
    {
+    "name": "Postillon",
+    "value": 20
+   },
+   {
     "name": "Proxymore",
     "value": 20
    },
    {
     "name": "habbo22t",
-    "value": 19
-   },
-   {
-    "name": "Postillon",
     "value": 19
    },
    {
@@ -128,11 +128,11 @@
     "value": 10
    },
    {
-    "name": "dadou07",
-    "value": 9
+    "name": "Kouukii",
+    "value": 10
    },
    {
-    "name": "Kouukii",
+    "name": "dadou07",
     "value": 9
    },
    {
@@ -250,11 +250,11 @@
     "value": 13
    },
    {
-    "name": "apo4020",
-    "value": 11
+    "name": "Postillon",
+    "value": 12
    },
    {
-    "name": "Postillon",
+    "name": "apo4020",
     "value": 11
    },
    {
@@ -266,15 +266,15 @@
     "value": 10
    },
    {
+    "name": "Kouukii",
+    "value": 10
+   },
+   {
     "name": "Monsieur-RF",
     "value": 10
    },
    {
     "name": "flo578",
-    "value": 9
-   },
-   {
-    "name": "Kouukii",
     "value": 9
    },
    {
@@ -411,7 +411,7 @@
   "total": [
    {
     "name": "habbo-160-3",
-    "value": 2532
+    "value": 2534
    },
    {
     "name": "BiBiCHarBo",
@@ -431,7 +431,7 @@
    },
    {
     "name": "Padre",
-    "value": 1259
+    "value": 1261
    },
    {
     "name": "Icarem",
@@ -483,7 +483,7 @@
    },
    {
     "name": "Mi,hermano",
-    "value": 488
+    "value": 489
    },
    {
     "name": "Mr.Dino",
@@ -495,7 +495,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 444
+    "value": 446
    },
    {
     "name": "flo578",
@@ -563,7 +563,7 @@
    },
    {
     "name": "Kouukii",
-    "value": 137
+    "value": 138
    },
    {
     "name": "SuzieOuistiti!",
@@ -613,11 +613,11 @@
   "week": [
    {
     "name": "Padre",
-    "value": 1128
+    "value": 1130
    },
    {
     "name": "habbo-160-3",
-    "value": 651
+    "value": 653
    },
    {
     "name": "halos34",
@@ -676,12 +676,12 @@
     "value": 229
    },
    {
-    "name": "Lovepanda",
-    "value": 223
+    "name": "-Massimo-",
+    "value": 224
    },
    {
-    "name": "-Massimo-",
-    "value": 222
+    "name": "Lovepanda",
+    "value": 223
    },
    {
     "name": "fym",
@@ -709,11 +709,11 @@
    },
    {
     "name": "Kouukii",
-    "value": 137
+    "value": 138
    },
    {
     "name": "Mi,hermano",
-    "value": 126
+    "value": 127
    },
    {
     "name": "charlie-XCX123",
