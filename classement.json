@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T16:34:33+00:00",
+ "updated": "2026-11-25T16:37:03+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -80,12 +80,12 @@
     "value": 21
    },
    {
-    "name": "Non-Non",
+    "name": "habbo22t",
     "value": 21
    },
    {
-    "name": "habbo22t",
-    "value": 20
+    "name": "Non-Non",
+    "value": 21
    },
    {
     "name": "Postillon",
@@ -302,15 +302,15 @@
     "value": 6
    },
    {
+    "name": "habbo22t",
+    "value": 6
+   },
+   {
     "name": "---Jayden---",
     "value": 5
    },
    {
     "name": ".Dylan.",
-    "value": 5
-   },
-   {
-    "name": "habbo22t",
     "value": 5
    },
    {
@@ -427,7 +427,7 @@
    },
    {
     "name": "Padre",
-    "value": 1344
+    "value": 1347
    },
    {
     "name": "fym",
@@ -442,12 +442,12 @@
     "value": 1007
    },
    {
-    "name": "Shizuku",
-    "value": 813
+    "name": "Lovepanda",
+    "value": 814
    },
    {
-    "name": "Lovepanda",
-    "value": 811
+    "name": "Shizuku",
+    "value": 813
    },
    {
     "name": "Astreu",
@@ -483,7 +483,7 @@
    },
    {
     "name": "habbo22t",
-    "value": 498
+    "value": 500
    },
    {
     "name": "-Massimo-",
@@ -606,14 +606,14 @@
     "value": 66
    },
    {
-    "name": "LorenzoVisconti",
+    "name": "Lord_Fullbody",
     "value": 62
    }
   ],
   "week": [
    {
     "name": "Padre",
-    "value": 1213
+    "value": 1216
    },
    {
     "name": "habbo-160-3",
@@ -673,7 +673,7 @@
    },
    {
     "name": "Lovepanda",
-    "value": 254
+    "value": 257
    },
    {
     "name": "dadou07",
@@ -748,12 +748,12 @@
     "value": 66
    },
    {
-    "name": "Leif",
-    "value": 61
+    "name": "Lord_Fullbody",
+    "value": 62
    },
    {
-    "name": "Lord_Fullbody",
-    "value": 59
+    "name": "Leif",
+    "value": 61
    },
    {
     "name": "LorenzoVisconti",
@@ -765,7 +765,7 @@
    },
    {
     "name": "habbo22t",
-    "value": 42
+    "value": 44
    },
    {
     "name": "Benny-knd",
