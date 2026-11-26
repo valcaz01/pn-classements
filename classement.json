@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T16:13:35+00:00",
+ "updated": "2026-11-26T16:15:35+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -415,7 +415,7 @@
    },
    {
     "name": "Padre",
-    "value": 1868
+    "value": 1870
    },
    {
     "name": "BiBiCHarBo",
@@ -423,7 +423,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 1496
+    "value": 1497
    },
    {
     "name": "marinadrk",
@@ -455,7 +455,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 715
+    "value": 717
    },
    {
     "name": "Astreu",
@@ -551,7 +551,7 @@
    },
    {
     "name": "Richesse",
-    "value": 208
+    "value": 209
    },
    {
     "name": "Kouukii",
@@ -602,18 +602,18 @@
     "value": 84
    },
    {
-    "name": "xX_Reiina_Xx",
+    "name": "Pepper",
     "value": 84
    },
    {
-    "name": "Pepper",
-    "value": 83
+    "name": "xX_Reiina_Xx",
+    "value": 84
    }
   ],
   "week": [
    {
     "name": "Padre",
-    "value": 1739
+    "value": 1741
    },
    {
     "name": "habbo-160-3",
@@ -629,19 +629,19 @@
    },
    {
     "name": "Pantheon_",
-    "value": 562
+    "value": 563
    },
    {
     "name": "tiff34",
     "value": 558
    },
    {
-    "name": "marinadrk",
+    "name": "-Massimo-",
     "value": 498
    },
    {
-    "name": "-Massimo-",
-    "value": 496
+    "name": "marinadrk",
+    "value": 498
    },
    {
     "name": "Icarem",
@@ -688,12 +688,12 @@
     "value": 251
    },
    {
-    "name": "Shizuku",
+    "name": "Richesse",
     "value": 209
    },
    {
-    "name": "Richesse",
-    "value": 208
+    "name": "Shizuku",
+    "value": 209
    },
    {
     "name": "Kouukii",
@@ -744,12 +744,12 @@
     "value": 87
    },
    {
-    "name": "xX_Reiina_Xx",
+    "name": "Pepper",
     "value": 84
    },
    {
-    "name": "Pepper",
-    "value": 83
+    "name": "xX_Reiina_Xx",
+    "value": 84
    },
    {
     "name": "Benny-knd",
@@ -804,12 +804,12 @@
     "value": 35
    },
    {
-    "name": "Piingouin.",
+    "name": "Libertian",
     "value": 33
    },
    {
-    "name": "Libertian",
-    "value": 32
+    "name": "Piingouin.",
+    "value": 33
    }
   ]
  }
