@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T18:33:05+00:00",
+ "updated": "2026-11-26T18:35:34+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -60,11 +60,11 @@
     "value": 28
    },
    {
-    "name": "Mi,hermano",
-    "value": 27
+    "name": "tiff34",
+    "value": 28
    },
    {
-    "name": "tiff34",
+    "name": "Mi,hermano",
     "value": 27
    },
    {
@@ -124,6 +124,10 @@
     "value": 13
    },
    {
+    "name": "Piingouin.",
+    "value": 13
+   },
+   {
     "name": "Kouukii",
     "value": 12
    },
@@ -137,10 +141,6 @@
    },
    {
     "name": "Padre",
-    "value": 11
-   },
-   {
-    "name": "Piingouin.",
     "value": 11
    },
    {
@@ -223,7 +223,7 @@
    },
    {
     "name": "tiff34",
-    "value": 27
+    "value": 28
    },
    {
     "name": "apo4020",
@@ -338,6 +338,10 @@
     "value": 6
    },
    {
+    "name": "Piingouin.",
+    "value": 6
+   },
+   {
     "name": ".Dylan.",
     "value": 5
    },
@@ -363,10 +367,6 @@
    },
    {
     "name": "Pepper",
-    "value": 4
-   },
-   {
-    "name": "Piingouin.",
     "value": 4
    },
    {
@@ -411,11 +411,11 @@
   "total": [
    {
     "name": "habbo-160-3",
-    "value": 2602
+    "value": 2604
    },
    {
     "name": "Padre",
-    "value": 2000
+    "value": 2003
    },
    {
     "name": "BiBiCHarBo",
@@ -451,7 +451,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 805
+    "value": 807
    },
    {
     "name": "Lewddon",
@@ -462,11 +462,11 @@
     "value": 701
    },
    {
-    "name": "apo4020",
-    "value": 674
+    "name": "Monsieur-RF",
+    "value": 677
    },
    {
-    "name": "Monsieur-RF",
+    "name": "apo4020",
     "value": 674
    },
    {
@@ -613,11 +613,11 @@
   "week": [
    {
     "name": "Padre",
-    "value": 1871
+    "value": 1874
    },
    {
     "name": "habbo-160-3",
-    "value": 721
+    "value": 723
    },
    {
     "name": "apo4020",
@@ -629,7 +629,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 586
+    "value": 588
    },
    {
     "name": "Pantheon_",
@@ -665,7 +665,7 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 322
+    "value": 325
    },
    {
     "name": "andrew16a",
