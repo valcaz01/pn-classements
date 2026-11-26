@@ -6210,9 +6210,9 @@
   "alertes": {},
   "depuis": null,
   "grade": null,
-  "humeur": "",
+  "humeur": "[PN] Recrue",
   "pseudo": "lovetiso009",
-  "verifie": "2026-11-26T20:39:08+00:00"
+  "verifie": "2026-11-26T23:39:23+00:00"
  },
  "25569902": {
   "alertes": {},
@@ -10422,9 +10422,9 @@
   },
   "depuis": "2026-11-26T20:39:08+00:00",
   "grade": "pa",
-  "humeur": "[PN] Policier-adjoint",
+  "humeur": "[PN] Policier adjoint",
   "pseudo": "Kouukii",
-  "verifie": "2026-11-26T20:39:08+00:00"
+  "verifie": "2026-11-26T23:39:23+00:00"
  },
  "26014910": {
   "alertes": {},
@@ -13173,6 +13173,14 @@
   "humeur": "",
   "pseudo": "habbo0-t-5-4",
   "verifie": "2026-11-26T21:47:23+00:00"
+ },
+ "26043478": {
+  "alertes": {},
+  "depuis": null,
+  "grade": null,
+  "humeur": "",
+  "pseudo": "neonroller51",
+  "verifie": "2026-11-26T23:39:23+00:00"
  },
  "26043493": {
   "alertes": {},
