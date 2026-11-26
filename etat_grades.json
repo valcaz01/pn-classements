@@ -2752,7 +2752,7 @@
   "grade": null,
   "humeur": "[C.I.A.] Superviseur Confirmé [II] [3]",
   "pseudo": "Boilred",
-  "verifie": "2026-11-26T08:39:35+00:00"
+  "verifie": "2026-11-26T11:41:04+00:00"
  },
  "23637092": {
   "alertes": {},
@@ -2968,7 +2968,7 @@
   "grade": null,
   "humeur": "logiciel triste",
   "pseudo": "Opsgo89=Ban...",
-  "verifie": "2026-11-26T08:39:35+00:00"
+  "verifie": "2026-11-26T11:41:04+00:00"
  },
  "23921295": {
   "alertes": {},
@@ -3736,7 +3736,7 @@
   "grade": null,
   "humeur": "[R.F] Soldate",
   "pseudo": "-F3lix-",
-  "verifie": "2026-11-26T08:39:35+00:00"
+  "verifie": "2026-11-26T11:41:04+00:00"
  },
  "24431957": {
   "alertes": {},
@@ -12670,8 +12670,8 @@
  },
  "26043597": {
   "alertes": {},
-  "depuis": null,
-  "grade": null,
+  "depuis": "2026-11-25T23:00:00+00:00",
+  "grade": "cadet",
   "humeur": "[PN] Recrue",
   "pseudo": "Pepper",
   "verifie": "2026-11-26T10:35:03+00:00"
