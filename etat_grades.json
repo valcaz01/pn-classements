@@ -1021,7 +1021,7 @@
   "grade": null,
   "humeur": "Oem.",
   "pseudo": "CAANO",
-  "verifie": "2026-11-26T12:57:35+00:00"
+  "verifie": "2026-11-26T15:57:35+00:00"
  },
  "16946083": {
   "alertes": {},
@@ -4048,7 +4048,7 @@
   "grade": null,
   "humeur": "[C.I.A.] Agent [Sweet]",
   "pseudo": "djeyhdi",
-  "verifie": "2026-11-26T12:57:35+00:00"
+  "verifie": "2026-11-26T15:57:35+00:00"
  },
  "24573037": {
   "alertes": {},
@@ -6085,6 +6085,14 @@
   "humeur": "Pain milanais|",
   "pseudo": "Lindks",
   "verifie": "2026-11-26T13:22:34+00:00"
+ },
+ "25598496": {
+  "alertes": {},
+  "depuis": null,
+  "grade": null,
+  "humeur": "",
+  "pseudo": "L-Hood",
+  "verifie": "2026-11-26T15:57:35+00:00"
  },
  "25600234": {
   "alertes": {},
