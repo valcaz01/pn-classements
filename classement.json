@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T16:53:34+00:00",
+ "updated": "2026-11-26T16:55:33+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -40,15 +40,15 @@
     "value": 41
    },
    {
+    "name": "Pantheon_",
+    "value": 40
+   },
+   {
     "name": "Astreu",
     "value": 39
    },
    {
     "name": "Lovepanda",
-    "value": 38
-   },
-   {
-    "name": "Pantheon_",
     "value": 38
    },
    {
@@ -80,6 +80,10 @@
     "value": 24
    },
    {
+    "name": "habbo22t",
+    "value": 23
+   },
+   {
     "name": "Postillon",
     "value": 23
    },
@@ -97,10 +101,6 @@
    },
    {
     "name": "_.Flora._",
-    "value": 21
-   },
-   {
-    "name": "habbo22t",
     "value": 21
    },
    {
@@ -231,7 +231,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 20
+    "value": 22
    },
    {
     "name": "halos34",
@@ -310,6 +310,10 @@
     "value": 8
    },
    {
+    "name": "habbo22t",
+    "value": 8
+   },
+   {
     "name": "Padre",
     "value": 8
    },
@@ -324,10 +328,6 @@
    {
     "name": "SuzieOuistiti!",
     "value": 7
-   },
-   {
-    "name": "habbo22t",
-    "value": 6
    },
    {
     "name": "LesdixGaga",
@@ -370,6 +370,10 @@
     "value": 4
    },
    {
+    "name": "xX_Reiina_Xx",
+    "value": 4
+   },
+   {
     "name": "-Massimo-",
     "value": 3
    },
@@ -400,10 +404,6 @@
    {
     "name": "LouunaS",
     "value": 2
-   },
-   {
-    "name": "marinadrk",
-    "value": 2
    }
   ]
  },
@@ -415,11 +415,11 @@
    },
    {
     "name": "Padre",
-    "value": 1904
+    "value": 1906
    },
    {
     "name": "BiBiCHarBo",
-    "value": 1626
+    "value": 1628
    },
    {
     "name": "Pantheon_",
@@ -499,7 +499,7 @@
    },
    {
     "name": ".Libellule",
-    "value": 537
+    "value": 539
    },
    {
     "name": "habbo22t",
@@ -613,7 +613,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 1775
+    "value": 1777
    },
    {
     "name": "habbo-160-3",
@@ -692,12 +692,12 @@
     "value": 216
    },
    {
-    "name": "Shizuku",
-    "value": 209
+    "name": ".Libellule",
+    "value": 210
    },
    {
-    "name": ".Libellule",
-    "value": 208
+    "name": "Shizuku",
+    "value": 209
    },
    {
     "name": "Kouukii",
