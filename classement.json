@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T22:54:23+00:00",
+ "updated": "2026-11-26T22:56:22+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -56,15 +56,15 @@
     "value": 37
    },
    {
+    "name": "tiff34",
+    "value": 31
+   },
+   {
     "name": "andrew16a",
     "value": 30
    },
    {
     "name": "Mr.Dino",
-    "value": 29
-   },
-   {
-    "name": "tiff34",
     "value": 29
    },
    {
@@ -223,7 +223,7 @@
    },
    {
     "name": "tiff34",
-    "value": 29
+    "value": 31
    },
    {
     "name": "apo4020",
@@ -386,6 +386,10 @@
     "value": 3
    },
    {
+    "name": "tuesday001",
+    "value": 3
+   },
+   {
     "name": ":.Florence.:.",
     "value": 2
    },
@@ -400,10 +404,6 @@
    {
     "name": "irysse",
     "value": 2
-   },
-   {
-    "name": "LouunaS",
-    "value": 2
    }
   ]
  },
@@ -415,7 +415,7 @@
    },
    {
     "name": "Padre",
-    "value": 2100
+    "value": 2102
    },
    {
     "name": "BiBiCHarBo",
@@ -443,7 +443,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 980
+    "value": 982
    },
    {
     "name": "Shizuku",
@@ -539,7 +539,7 @@
    },
    {
     "name": "girly12",
-    "value": 299
+    "value": 301
    },
    {
     "name": "Richesse",
@@ -613,7 +613,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 1972
+    "value": 1974
    },
    {
     "name": "habbo-160-3",
@@ -621,7 +621,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 761
+    "value": 763
    },
    {
     "name": "apo4020",
@@ -681,7 +681,7 @@
    },
    {
     "name": "girly12",
-    "value": 299
+    "value": 301
    },
    {
     "name": "dadou07",
