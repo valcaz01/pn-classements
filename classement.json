@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T10:25:04+00:00",
+ "updated": "2026-11-26T10:27:05+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -28,12 +28,12 @@
     "value": 50
    },
    {
-    "name": ".Libellule",
-    "value": 46
+    "name": "halos34",
+    "value": 48
    },
    {
-    "name": "halos34",
-    "value": 45
+    "name": ".Libellule",
+    "value": 46
    },
    {
     "name": "Shizuku",
@@ -226,6 +226,10 @@
     "value": 23
    },
    {
+    "name": "halos34",
+    "value": 19
+   },
+   {
     "name": "Mi,hermano",
     "value": 19
    },
@@ -235,10 +239,6 @@
    },
    {
     "name": "fym",
-    "value": 16
-   },
-   {
-    "name": "halos34",
     "value": 16
    },
    {
@@ -499,7 +499,7 @@
    },
    {
     "name": "apo4020",
-    "value": 491
+    "value": 492
    },
    {
     "name": "Postillon",
@@ -507,7 +507,7 @@
    },
    {
     "name": "Proxymore",
-    "value": 485
+    "value": 487
    },
    {
     "name": "_.Flora._",
@@ -637,7 +637,7 @@
    },
    {
     "name": "apo4020",
-    "value": 491
+    "value": 492
    },
    {
     "name": "Icarem",
@@ -685,7 +685,7 @@
    },
    {
     "name": "Proxymore",
-    "value": 213
+    "value": 215
    },
    {
     "name": "Shizuku",
