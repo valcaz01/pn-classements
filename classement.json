@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T03:39:05+00:00",
+ "updated": "2026-11-26T03:41:05+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -503,7 +503,7 @@
    },
    {
     "name": "Postillon",
-    "value": 429
+    "value": 431
    },
    {
     "name": "Hectorr",
@@ -676,11 +676,11 @@
     "value": 269
    },
    {
-    "name": "dadou07",
-    "value": 250
+    "name": "Postillon",
+    "value": 252
    },
    {
-    "name": "Postillon",
+    "name": "dadou07",
     "value": 250
    },
    {
