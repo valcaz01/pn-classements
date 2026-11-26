@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T02:25:36+00:00",
+ "updated": "2026-11-26T02:28:06+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -60,6 +60,10 @@
     "value": 26
    },
    {
+    "name": "Proxymore",
+    "value": 26
+   },
+   {
     "name": ".:Krustiz:.",
     "value": 24
    },
@@ -68,15 +72,15 @@
     "value": 24
    },
    {
-    "name": "Proxymore",
-    "value": 24
-   },
-   {
     "name": "sami75.19",
     "value": 23
    },
    {
     "name": "Monsieur-RF",
+    "value": 22
+   },
+   {
+    "name": "tiff34",
     "value": 22
    },
    {
@@ -93,10 +97,6 @@
    },
    {
     "name": "Non-Non",
-    "value": 21
-   },
-   {
-    "name": "tiff34",
     "value": 21
    },
    {
@@ -223,7 +223,7 @@
    },
    {
     "name": "tiff34",
-    "value": 21
+    "value": 22
    },
    {
     "name": "apo4020",
@@ -326,6 +326,10 @@
     "value": 6
    },
    {
+    "name": "Proxymore",
+    "value": 6
+   },
+   {
     "name": ".Dylan.",
     "value": 5
    },
@@ -347,10 +351,6 @@
    },
    {
     "name": "Piingouin.",
-    "value": 4
-   },
-   {
-    "name": "Proxymore",
     "value": 4
    },
    {
