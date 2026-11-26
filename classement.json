@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T18:40:05+00:00",
+ "updated": "2026-11-26T18:42:04+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -411,11 +411,11 @@
   "total": [
    {
     "name": "habbo-160-3",
-    "value": 2609
+    "value": 2611
    },
    {
     "name": "Padre",
-    "value": 2007
+    "value": 2009
    },
    {
     "name": "BiBiCHarBo",
@@ -451,7 +451,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 812
+    "value": 814
    },
    {
     "name": "Lewddon",
@@ -463,7 +463,7 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 681
+    "value": 683
    },
    {
     "name": "apo4020",
@@ -587,7 +587,7 @@
    },
    {
     "name": "Piingouin.",
-    "value": 112
+    "value": 114
    },
    {
     "name": "CharlesWish",
@@ -607,17 +607,17 @@
    },
    {
     "name": "Seew-",
-    "value": 92
+    "value": 93
    }
   ],
   "week": [
    {
     "name": "Padre",
-    "value": 1878
+    "value": 1880
    },
    {
     "name": "habbo-160-3",
-    "value": 728
+    "value": 730
    },
    {
     "name": "apo4020",
@@ -629,7 +629,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 593
+    "value": 595
    },
    {
     "name": "Pantheon_",
@@ -661,7 +661,7 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 329
+    "value": 331
    },
    {
     "name": "Hectorr",
@@ -749,7 +749,7 @@
    },
    {
     "name": "Seew-",
-    "value": 92
+    "value": 93
    },
    {
     "name": "flo578",
@@ -808,8 +808,8 @@
     "value": 40
    },
    {
-    "name": "gotica",
-    "value": 35
+    "name": "Piingouin.",
+    "value": 37
    }
   ]
  }
