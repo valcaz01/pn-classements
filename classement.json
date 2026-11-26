@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T10:22:34+00:00",
+ "updated": "2026-11-26T10:25:04+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -33,7 +33,7 @@
    },
    {
     "name": "halos34",
-    "value": 44
+    "value": 45
    },
    {
     "name": "Shizuku",
@@ -56,15 +56,15 @@
     "value": 33
    },
    {
+    "name": "Mi,hermano",
+    "value": 27
+   },
+   {
     "name": "Proxymore",
     "value": 27
    },
    {
     "name": "andrew16a",
-    "value": 26
-   },
-   {
-    "name": "Mi,hermano",
     "value": 26
    },
    {
@@ -226,11 +226,11 @@
     "value": 23
    },
    {
-    "name": "apo4020",
-    "value": 18
+    "name": "Mi,hermano",
+    "value": 19
    },
    {
-    "name": "Mi,hermano",
+    "name": "apo4020",
     "value": 18
    },
    {
@@ -238,12 +238,12 @@
     "value": 16
    },
    {
-    "name": "Pantheon_",
+    "name": "halos34",
     "value": 16
    },
    {
-    "name": "halos34",
-    "value": 15
+    "name": "Pantheon_",
+    "value": 16
    },
    {
     "name": "Lovepanda",
@@ -498,16 +498,16 @@
     "value": 507
    },
    {
+    "name": "apo4020",
+    "value": 491
+   },
+   {
     "name": "Postillon",
     "value": 490
    },
    {
-    "name": "apo4020",
-    "value": 489
-   },
-   {
     "name": "Proxymore",
-    "value": 483
+    "value": 485
    },
    {
     "name": "_.Flora._",
@@ -637,7 +637,7 @@
    },
    {
     "name": "apo4020",
-    "value": 489
+    "value": 491
    },
    {
     "name": "Icarem",
@@ -685,7 +685,7 @@
    },
    {
     "name": "Proxymore",
-    "value": 211
+    "value": 213
    },
    {
     "name": "Shizuku",
