@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T12:02:34+00:00",
+ "updated": "2026-11-26T12:05:04+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -73,7 +73,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 23
+    "value": 24
    },
    {
     "name": "Postillon",
@@ -258,12 +258,12 @@
     "value": 14
    },
    {
-    "name": "Shizuku",
+    "name": "Mr.Dino",
     "value": 14
    },
    {
-    "name": "Mr.Dino",
-    "value": 13
+    "name": "Shizuku",
+    "value": 14
    },
    {
     "name": "flo578",
@@ -370,6 +370,10 @@
     "value": 3
    },
    {
+    "name": "Pepper",
+    "value": 3
+   },
+   {
     "name": ":.Florence.:.",
     "value": 2
    },
@@ -395,10 +399,6 @@
    },
    {
     "name": "OnlyOneGuest",
-    "value": 2
-   },
-   {
-    "name": "Pepper",
     "value": 2
    },
    {
@@ -467,7 +467,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 625
+    "value": 626
    },
    {
     "name": "charlie-XCX123",
@@ -645,7 +645,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 443
+    "value": 444
    },
    {
     "name": "-Massimo-",
