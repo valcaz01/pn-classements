@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T04:23:03+00:00",
+ "updated": "2026-11-26T04:25:05+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -498,11 +498,11 @@
     "value": 505
    },
    {
-    "name": "_.Flora._",
-    "value": 454
+    "name": "Postillon",
+    "value": 456
    },
    {
-    "name": "Postillon",
+    "name": "_.Flora._",
     "value": 454
    },
    {
@@ -673,7 +673,7 @@
    },
    {
     "name": "Postillon",
-    "value": 275
+    "value": 277
    },
    {
     "name": "Lovepanda",
