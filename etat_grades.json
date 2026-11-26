@@ -4092,11 +4092,11 @@
  },
  "24591190": {
   "alertes": {},
-  "depuis": null,
-  "grade": null,
-  "humeur": "[C.I.A.] Portier",
+  "depuis": "2026-11-25T23:00:00+00:00",
+  "grade": "cadet",
+  "humeur": "[PN] Cadet",
   "pseudo": "Libertian",
-  "verifie": "2026-11-26T13:31:04+00:00"
+  "verifie": "2026-11-26T15:53:35+00:00"
  },
  "24592070": {
   "alertes": {},
@@ -8798,7 +8798,7 @@
   "grade": null,
   "humeur": "[C.I.A.] Formatrice [47]",
   "pseudo": "Mini_Ange",
-  "verifie": "2026-11-26T12:53:33+00:00"
+  "verifie": "2026-11-26T15:53:35+00:00"
  },
  "25969576": {
   "alertes": {},
