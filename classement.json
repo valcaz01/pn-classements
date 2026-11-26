@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T14:32:35+00:00",
+ "updated": "2026-11-26T14:34:35+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -96,16 +96,16 @@
     "value": 21
    },
    {
+    "name": "apo4020",
+    "value": 21
+   },
+   {
     "name": "habbo22t",
     "value": 21
    },
    {
     "name": "Non-Non",
     "value": 21
-   },
-   {
-    "name": "apo4020",
-    "value": 20
    },
    {
     "name": "gotica",
@@ -124,6 +124,10 @@
     "value": 12
    },
    {
+    "name": "LorenzoVisconti",
+    "value": 11
+   },
+   {
     "name": "Piingouin.",
     "value": 11
    },
@@ -137,10 +141,6 @@
    },
    {
     "name": "dadou07",
-    "value": 10
-   },
-   {
-    "name": "LorenzoVisconti",
     "value": 10
    },
    {
@@ -227,7 +227,7 @@
    },
    {
     "name": "apo4020",
-    "value": 20
+    "value": 21
    },
    {
     "name": "halos34",
@@ -286,15 +286,15 @@
     "value": 11
    },
    {
+    "name": "LorenzoVisconti",
+    "value": 11
+   },
+   {
     "name": "---Jayden---",
     "value": 10
    },
    {
     "name": "_.Flora._",
-    "value": 10
-   },
-   {
-    "name": "LorenzoVisconti",
     "value": 10
    },
    {
@@ -415,7 +415,7 @@
    },
    {
     "name": "Padre",
-    "value": 1786
+    "value": 1788
    },
    {
     "name": "BiBiCHarBo",
@@ -475,11 +475,11 @@
    },
    {
     "name": "Proxymore",
-    "value": 613
+    "value": 615
    },
    {
     "name": "apo4020",
-    "value": 612
+    "value": 613
    },
    {
     "name": "charlie-XCX123",
@@ -559,7 +559,7 @@
    },
    {
     "name": "Richesse",
-    "value": 194
+    "value": 196
    },
    {
     "name": "irysse",
@@ -613,7 +613,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 1656
+    "value": 1658
    },
    {
     "name": "habbo-160-3",
@@ -625,7 +625,7 @@
    },
    {
     "name": "apo4020",
-    "value": 612
+    "value": 613
    },
    {
     "name": "Pantheon_",
@@ -657,7 +657,7 @@
    },
    {
     "name": "Proxymore",
-    "value": 341
+    "value": 343
    },
    {
     "name": "andrew16a",
@@ -701,7 +701,7 @@
    },
    {
     "name": "Richesse",
-    "value": 194
+    "value": 196
    },
    {
     "name": "fym",
