@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T17:12:35+00:00",
+ "updated": "2026-11-26T17:15:04+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -136,6 +136,10 @@
     "value": 11
    },
    {
+    "name": "Padre",
+    "value": 11
+   },
+   {
     "name": "Piingouin.",
     "value": 11
    },
@@ -145,10 +149,6 @@
    },
    {
     "name": ".Dylan.",
-    "value": 10
-   },
-   {
-    "name": "Padre",
     "value": 10
    },
    {
@@ -310,11 +310,11 @@
     "value": 9
    },
    {
-    "name": "habbo22t",
-    "value": 8
+    "name": "Padre",
+    "value": 9
    },
    {
-    "name": "Padre",
+    "name": "habbo22t",
     "value": 8
    },
    {
@@ -415,11 +415,11 @@
    },
    {
     "name": "Padre",
-    "value": 1923
+    "value": 1924
    },
    {
     "name": "BiBiCHarBo",
-    "value": 1643
+    "value": 1646
    },
    {
     "name": "Pantheon_",
@@ -435,7 +435,7 @@
    },
    {
     "name": "Icarem",
-    "value": 1163
+    "value": 1165
    },
    {
     "name": "halos34",
@@ -451,7 +451,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 760
+    "value": 763
    },
    {
     "name": "Lewddon",
@@ -555,7 +555,7 @@
    },
    {
     "name": "girly12",
-    "value": 211
+    "value": 213
    },
    {
     "name": "Kouukii",
@@ -579,7 +579,7 @@
    },
    {
     "name": "xX_Reiina_Xx",
-    "value": 114
+    "value": 116
    },
    {
     "name": "Piingouin.",
@@ -613,7 +613,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 1794
+    "value": 1795
    },
    {
     "name": "habbo-160-3",
@@ -637,7 +637,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 541
+    "value": 544
    },
    {
     "name": "marinadrk",
@@ -645,7 +645,7 @@
    },
    {
     "name": "Icarem",
-    "value": 471
+    "value": 473
    },
    {
     "name": "Mr.Dino",
@@ -697,7 +697,7 @@
    },
    {
     "name": "girly12",
-    "value": 211
+    "value": 213
    },
    {
     "name": "Shizuku",
@@ -728,12 +728,12 @@
     "value": 153
    },
    {
-    "name": "SuzieOuistiti!",
-    "value": 115
+    "name": "xX_Reiina_Xx",
+    "value": 116
    },
    {
-    "name": "xX_Reiina_Xx",
-    "value": 114
+    "name": "SuzieOuistiti!",
+    "value": 115
    },
    {
     "name": "sami75.19",
@@ -792,12 +792,12 @@
     "value": 46
    },
    {
-    "name": "CovidJr",
+    "name": "BiBiCHarBo",
     "value": 45
    },
    {
-    "name": "BiBiCHarBo",
-    "value": 42
+    "name": "CovidJr",
+    "value": 45
    },
    {
     "name": "toutoune-09",
