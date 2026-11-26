@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T16:04:35+00:00",
+ "updated": "2026-11-26T16:07:10+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -24,12 +24,12 @@
     "value": 59
    },
    {
-    "name": "fym",
+    "name": ".Libellule",
     "value": 50
    },
    {
-    "name": ".Libellule",
-    "value": 49
+    "name": "fym",
+    "value": 50
    },
    {
     "name": "halos34",
@@ -40,16 +40,16 @@
     "value": 41
    },
    {
+    "name": "Astreu",
+    "value": 39
+   },
+   {
     "name": "Lovepanda",
     "value": 38
    },
    {
     "name": "Pantheon_",
     "value": 38
-   },
-   {
-    "name": "Astreu",
-    "value": 37
    },
    {
     "name": "flo578",
@@ -243,7 +243,7 @@
    },
    {
     "name": ".Libellule",
-    "value": 17
+    "value": 18
    },
    {
     "name": "fym",
@@ -298,6 +298,10 @@
     "value": 10
    },
    {
+    "name": "Astreu",
+    "value": 9
+   },
+   {
     "name": "girly12",
     "value": 8
    },
@@ -312,10 +316,6 @@
    {
     "name": "toutoune-09",
     "value": 8
-   },
-   {
-    "name": "Astreu",
-    "value": 7
    },
    {
     "name": "dadou07",
@@ -415,7 +415,7 @@
    },
    {
     "name": "Padre",
-    "value": 1860
+    "value": 1862
    },
    {
     "name": "BiBiCHarBo",
@@ -423,7 +423,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 1488
+    "value": 1490
    },
    {
     "name": "marinadrk",
@@ -491,7 +491,7 @@
    },
    {
     "name": "tiff34",
-    "value": 551
+    "value": 553
    },
    {
     "name": "Mi,hermano",
@@ -607,13 +607,13 @@
    },
    {
     "name": "Pepper",
-    "value": 80
+    "value": 81
    }
   ],
   "week": [
    {
     "name": "Padre",
-    "value": 1731
+    "value": 1733
    },
    {
     "name": "habbo-160-3",
@@ -629,11 +629,11 @@
    },
    {
     "name": "Pantheon_",
-    "value": 554
+    "value": 556
    },
    {
     "name": "tiff34",
-    "value": 551
+    "value": 553
    },
    {
     "name": "marinadrk",
@@ -745,14 +745,14 @@
    },
    {
     "name": "Pepper",
-    "value": 80
-   },
-   {
-    "name": "Benny-knd",
-    "value": 79
+    "value": 81
    },
    {
     "name": "xX_Reiina_Xx",
+    "value": 81
+   },
+   {
+    "name": "Benny-knd",
     "value": 79
    },
    {
@@ -761,7 +761,7 @@
    },
    {
     "name": "Seew-",
-    "value": 72
+    "value": 74
    },
    {
     "name": "Lord_Fullbody",
