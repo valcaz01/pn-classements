@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T12:05:04+00:00",
+ "updated": "2026-11-26T12:07:07+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -148,6 +148,10 @@
     "value": 9
    },
    {
+    "name": "LesdixGaga",
+    "value": 8
+   },
+   {
     "name": "Lewddon",
     "value": 8
    },
@@ -165,10 +169,6 @@
    },
    {
     "name": "girly12",
-    "value": 7
-   },
-   {
-    "name": "LesdixGaga",
     "value": 7
    },
    {
@@ -326,15 +326,15 @@
     "value": 6
    },
    {
+    "name": "LesdixGaga",
+    "value": 6
+   },
+   {
     "name": "Padre",
     "value": 6
    },
    {
     "name": ".Dylan.",
-    "value": 5
-   },
-   {
-    "name": "LesdixGaga",
     "value": 5
    },
    {
@@ -467,7 +467,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 626
+    "value": 628
    },
    {
     "name": "charlie-XCX123",
@@ -645,7 +645,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 444
+    "value": 446
    },
    {
     "name": "-Massimo-",
