@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T10:29:04+00:00",
+ "updated": "2026-11-26T10:31:04+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -439,7 +439,7 @@
    },
    {
     "name": "halos34",
-    "value": 1052
+    "value": 1054
    },
    {
     "name": "Shizuku",
@@ -499,15 +499,15 @@
    },
    {
     "name": "apo4020",
-    "value": 492
+    "value": 493
+   },
+   {
+    "name": "Proxymore",
+    "value": 491
    },
    {
     "name": "Postillon",
     "value": 490
-   },
-   {
-    "name": "Proxymore",
-    "value": 489
    },
    {
     "name": "_.Flora._",
@@ -621,7 +621,7 @@
    },
    {
     "name": "halos34",
-    "value": 570
+    "value": 572
    },
    {
     "name": "Pantheon_",
@@ -637,7 +637,7 @@
    },
    {
     "name": "apo4020",
-    "value": 492
+    "value": 493
    },
    {
     "name": "Icarem",
@@ -685,7 +685,7 @@
    },
    {
     "name": "Proxymore",
-    "value": 217
+    "value": 219
    },
    {
     "name": "Shizuku",
