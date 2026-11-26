@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T03:21:34+00:00",
+ "updated": "2026-11-26T03:23:33+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -80,6 +80,10 @@
     "value": 22
    },
    {
+    "name": "Postillon",
+    "value": 22
+   },
+   {
     "name": "tiff34",
     "value": 22
    },
@@ -97,10 +101,6 @@
    },
    {
     "name": "Non-Non",
-    "value": 21
-   },
-   {
-    "name": "Postillon",
     "value": 21
    },
    {
@@ -128,16 +128,16 @@
     "value": 11
    },
    {
+    "name": "---Jayden---",
+    "value": 10
+   },
+   {
     "name": ".Dylan.",
     "value": 10
    },
    {
     "name": "dadou07",
     "value": 10
-   },
-   {
-    "name": "---Jayden---",
-    "value": 9
    },
    {
     "name": "marinadrk",
@@ -254,12 +254,12 @@
     "value": 14
    },
    {
-    "name": "Shizuku",
+    "name": "Postillon",
     "value": 14
    },
    {
-    "name": "Postillon",
-    "value": 13
+    "name": "Shizuku",
+    "value": 14
    },
    {
     "name": "flo578",
@@ -286,12 +286,12 @@
     "value": 11
    },
    {
-    "name": "_.Flora._",
+    "name": "---Jayden---",
     "value": 10
    },
    {
-    "name": "---Jayden---",
-    "value": 9
+    "name": "_.Flora._",
+    "value": 10
    },
    {
     "name": "LorenzoVisconti",

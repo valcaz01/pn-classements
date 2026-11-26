@@ -2216,7 +2216,7 @@
   "grade": null,
   "humeur": "[R.F] Citoyen",
   "pseudo": "Guide001",
-  "verifie": "2026-11-26T00:23:33+00:00"
+  "verifie": "2026-11-26T03:23:33+00:00"
  },
  "22646608": {
   "alertes": {},
@@ -2272,7 +2272,7 @@
   "grade": null,
   "humeur": "Maud",
   "pseudo": "BelieveInloveL",
-  "verifie": "2026-11-26T00:23:33+00:00"
+  "verifie": "2026-11-26T03:23:33+00:00"
  },
  "22769809": {
   "alertes": {},
@@ -5180,7 +5180,7 @@
   "grade": null,
   "humeur": "       Chen Ze-Bin",
   "pseudo": "Ciudad,",
-  "verifie": "2026-11-26T00:23:33+00:00"
+  "verifie": "2026-11-26T03:23:33+00:00"
  },
  "25288744": {
   "alertes": {},
@@ -5508,7 +5508,7 @@
   "grade": null,
   "humeur": "Kamusari !",
   "pseudo": "Dody",
-  "verifie": "2026-11-26T00:23:33+00:00"
+  "verifie": "2026-11-26T03:23:33+00:00"
  },
  "25463595": {
   "alertes": {},
@@ -7392,7 +7392,7 @@
   "grade": "cadet",
   "humeur": "[PN] Cadette",
   "pseudo": "Lilith_C",
-  "verifie": "2026-11-26T00:23:33+00:00"
+  "verifie": "2026-11-26T03:23:33+00:00"
  },
  "25884789": {
   "alertes": {},
@@ -9724,7 +9724,7 @@
   "grade": null,
   "humeur": "",
   "pseudo": "Moira-7",
-  "verifie": "2026-11-26T00:23:33+00:00"
+  "verifie": "2026-11-26T03:23:33+00:00"
  },
  "26014029": {
   "alertes": {},
@@ -13059,6 +13059,14 @@
   "humeur": "\r",
   "pseudo": "xMarvine",
   "verifie": "2026-11-26T02:39:05+00:00"
+ },
+ "8501454": {
+  "alertes": {},
+  "depuis": null,
+  "grade": null,
+  "humeur": "ami a tac3000 oi",
+  "pseudo": "stitch!!",
+  "verifie": "2026-11-26T03:23:33+00:00"
  },
  "8509498": {
   "alertes": {},
