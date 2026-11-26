@@ -1869,7 +1869,7 @@
   "grade": null,
   "humeur": "Toujours la hein",
   "pseudo": "DJcocaDaman.",
-  "verifie": "2026-11-26T12:49:04+00:00"
+  "verifie": "2026-11-26T15:49:05+00:00"
  },
  "21333170": {
   "alertes": {},
@@ -6290,11 +6290,11 @@
   "alertes": {
    "cadet": "2026-11-26T14:38:34+00:00"
   },
-  "depuis": "2026-11-23T23:00:00+00:00",
-  "grade": "cadet",
+  "depuis": null,
+  "grade": null,
   "humeur": "[PN] Cadet",
   "pseudo": "Richesse",
-  "verifie": "2026-11-26T13:50:35+00:00"
+  "verifie": "2026-11-26T15:49:05+00:00"
  },
  "25655370": {
   "alertes": {},
@@ -7154,7 +7154,7 @@
   "grade": null,
   "humeur": " [PN] Cadette",
   "pseudo": "Speedyye",
-  "verifie": "2026-11-26T12:49:04+00:00"
+  "verifie": "2026-11-26T15:49:05+00:00"
  },
  "25815590": {
   "alertes": {},
@@ -9594,7 +9594,7 @@
   "grade": null,
   "humeur": "",
   "pseudo": "Zoeeee17",
-  "verifie": "2026-11-26T12:49:04+00:00"
+  "verifie": "2026-11-26T15:49:05+00:00"
  },
  "26001847": {
   "alertes": {},
@@ -10802,9 +10802,9 @@
   },
   "depuis": null,
   "grade": null,
-  "humeur": "[C.I.A.] Agent [DAE] #J&TlesFdapProMax",
+  "humeur": "[F.B.I] Agent [Nazra]",
   "pseudo": "Postillon",
-  "verifie": "2026-11-26T12:49:04+00:00"
+  "verifie": "2026-11-26T15:49:05+00:00"
  },
  "26036521": {
   "alertes": {},
@@ -12692,7 +12692,7 @@
   "grade": null,
   "humeur": "",
   "pseudo": "Lolotte_2706",
-  "verifie": "2026-11-26T12:49:04+00:00"
+  "verifie": "2026-11-26T15:49:05+00:00"
  },
  "26043503": {
   "alertes": {},
@@ -13468,7 +13468,7 @@
   "grade": null,
   "humeur": "17 years pixels later...",
   "pseudo": "almalaclasse",
-  "verifie": "2026-11-26T12:49:04+00:00"
+  "verifie": "2026-11-26T15:49:05+00:00"
  },
  "8294461": {
   "alertes": {},
