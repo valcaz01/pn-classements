@@ -351,7 +351,7 @@ class TaskList(discord.ui.View):
         await self.show(interaction, self.page + 1)
 
 
-class CreditBonusPreview(discord.ui.Modal, title="Test · Donner 5 crédits"):
+class CreditBonusModal(discord.ui.Modal, title="Donner 5 crédits au QG"):
     pseudo = discord.ui.TextInput(label="Pseudo Habbo FR", max_length=32, required=True)
 
     def __init__(self, board):
@@ -378,10 +378,23 @@ class CreditBonusPreview(discord.ui.Modal, title="Test · Donner 5 crédits"):
 
         if profile is None:
             content = "Ce pseudo est introuvable sur Habbo FR. Vérifie son orthographe."
-        elif (isinstance(profile, dict) and profile.get("uniqueId") and isinstance(profile.get("name"), str)
+        elif (isinstance(profile, dict) and isinstance(profile.get("uniqueId"), str) and profile["uniqueId"]
+              and isinstance(profile.get("name"), str)
               and profile["name"].casefold() == pseudo.casefold()):
             name = discord.utils.escape_markdown(discord.utils.escape_mentions(profile["name"]))
-            content = f"**Test réussi.** Destinataire vérifié sur Habbo FR : **{name}**. Montant simulé : **5 crédits**."
+            status = "preview"
+            if self.board.credit_bonus is not None:
+                status = await asyncio.to_thread(self.board.credit_bonus.issue, interaction.id,
+                                                 interaction.user.id, profile["uniqueId"], profile["name"])
+            content = {
+                "preview": f"**Mode test.** Pseudo vérifié : **{name}**. Le retrait de 5 crédits attend l’activation au QG.",
+                "issued": f"**5 crédits sont à retirer au QG** par **{name}** au point de retrait des bonus.",
+                "pending": f"**{name}** a déjà 5 crédits à retirer au QG.",
+                "duplicate": "Cette demande a déjà été enregistrée.",
+                "unregistered": "Habbo a trouvé ce pseudo, mais le QG ne connaît pas encore ce membre. Fais-le passer au QG.",
+                "writing": "Une attribution est à vérifier. Vérifie le droit de retrait au QG avant de réessayer.",
+                "uncertain": "Habbo n’a pas confirmé l’écriture. Vérifie le droit de retrait au QG avant de réessayer.",
+            }.get(status, "Le QG n’a pas accepté la demande. Aucun versement ne peut être confirmé.")
         else:
             content = "Habbo n’a pas confirmé le pseudo exact. Réessaie plus tard."
         await interaction.edit_original_response(content=content, allowed_mentions=discord.AllowedMentions.none())
@@ -417,16 +430,17 @@ class BoardButtons(discord.ui.View):
     async def history(self, interaction, button):
         await self.show(interaction, False, history=True)
 
-    @discord.ui.button(label="Donner 5 crédits · Test", custom_id="pn:direction:credit-preview",
+    @discord.ui.button(label="Donner 5 crédits", custom_id="pn:direction:credit-preview",
                        emoji="🪙", row=1)
     async def credit_preview(self, interaction, button):
-        await interaction.response.send_modal(CreditBonusPreview(self.board))
+        await interaction.response.send_modal(CreditBonusModal(self.board))
 
 
 class DirectionBoard:
-    def __init__(self, client, guild_id, reference_id, path):
+    def __init__(self, client, guild_id, reference_id, path, *, credit_bonus=None):
         self.client, self.guild_id, self.reference_id = client, guild_id, reference_id
         self.path, self.store = path, None
+        self.credit_bonus = credit_bonus
         self.buttons = BoardButtons(self)
         self.lock = asyncio.Lock()
         self.role_id = None

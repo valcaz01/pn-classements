@@ -50,6 +50,7 @@ from discord.ext import tasks
 from publication import PUBLICATION_REVISION, PublicationHealth, network_git, public_reason
 from habbo_http import request_json
 from collection import COLLECTION_REVISION, JOBS, REASONS, CollectionHealth, subprocess_failure
+from credit_bonus import CreditBonus
 from direction_todo import DirectionBoard
 from formations import DELAI_MENTION_QG, TableauFormations
 from promotions_qg import AlertesBadgesQG
@@ -551,7 +552,8 @@ class PNBot(discord.Client):
                                            api_qg=api, promotions_qg=promotions_qg)
         self.formations.demarrer()
         self.tick.start()
-        self.direction_board = DirectionBoard(self, GUILD_ID, HEBDO_CHANNEL_ID, Path(LOCK_FILE).parent / "direction-tasks.sqlite3")
+        self.direction_board = DirectionBoard(self, GUILD_ID, HEBDO_CHANNEL_ID, dossier / "direction-tasks.sqlite3",
+                                              credit_bonus=CreditBonus(api, dossier / "bonus-credits.sqlite3"))
         self.direction_board.start()
         self.suivi_qg = SuiviQG(self, GUILD_ID, Path(LOCK_FILE).parent / "suivi-qg.json")
         self.suivi_qg.demarrer()
