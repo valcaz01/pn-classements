@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T17:02:04+00:00",
+ "updated": "2026-11-26T17:04:37+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -415,11 +415,11 @@
    },
    {
     "name": "Padre",
-    "value": 1913
+    "value": 1915
    },
    {
     "name": "BiBiCHarBo",
-    "value": 1633
+    "value": 1635
    },
    {
     "name": "Pantheon_",
@@ -451,7 +451,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 750
+    "value": 752
    },
    {
     "name": "Lewddon",
@@ -483,7 +483,7 @@
    },
    {
     "name": "dadou07",
-    "value": 611
+    "value": 613
    },
    {
     "name": "charlie-XCX123",
@@ -495,7 +495,7 @@
    },
    {
     "name": ".Libellule",
-    "value": 546
+    "value": 548
    },
    {
     "name": "Mi,hermano",
@@ -503,7 +503,7 @@
    },
    {
     "name": "habbo22t",
-    "value": 527
+    "value": 530
    },
    {
     "name": "Postillon",
@@ -559,7 +559,7 @@
    },
    {
     "name": "girly12",
-    "value": 200
+    "value": 203
    },
    {
     "name": "irysse",
@@ -582,12 +582,12 @@
     "value": 110
    },
    {
-    "name": "CharlesWish",
-    "value": 107
+    "name": "xX_Reiina_Xx",
+    "value": 109
    },
    {
-    "name": "xX_Reiina_Xx",
-    "value": 106
+    "name": "CharlesWish",
+    "value": 107
    },
    {
     "name": ".:Krustiz:.",
@@ -613,7 +613,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 1784
+    "value": 1786
    },
    {
     "name": "habbo-160-3",
@@ -637,7 +637,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 531
+    "value": 533
    },
    {
     "name": "marinadrk",
@@ -685,11 +685,11 @@
    },
    {
     "name": "dadou07",
-    "value": 259
+    "value": 261
    },
    {
     "name": ".Libellule",
-    "value": 217
+    "value": 219
    },
    {
     "name": "Richesse",
@@ -705,7 +705,7 @@
    },
    {
     "name": "girly12",
-    "value": 200
+    "value": 203
    },
    {
     "name": "fym",
@@ -733,7 +733,7 @@
    },
    {
     "name": "xX_Reiina_Xx",
-    "value": 106
+    "value": 109
    },
    {
     "name": "sami75.19",
@@ -765,7 +765,7 @@
    },
    {
     "name": "habbo22t",
-    "value": 71
+    "value": 74
    },
    {
     "name": "Lord_Fullbody",
@@ -804,11 +804,11 @@
     "value": 35
    },
    {
-    "name": "Libertian",
-    "value": 33
+    "name": "BiBiCHarBo",
+    "value": 34
    },
    {
-    "name": "Piingouin.",
+    "name": "Libertian",
     "value": 33
    }
   ]
