@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T03:19:33+00:00",
+ "updated": "2026-11-26T03:21:34+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -101,7 +101,7 @@
    },
    {
     "name": "Postillon",
-    "value": 20
+    "value": 21
    },
    {
     "name": "gotica",
@@ -258,6 +258,10 @@
     "value": 14
    },
    {
+    "name": "Postillon",
+    "value": 13
+   },
+   {
     "name": "flo578",
     "value": 12
    },
@@ -267,10 +271,6 @@
    },
    {
     "name": "Monsieur-RF",
-    "value": 12
-   },
-   {
-    "name": "Postillon",
     "value": 12
    },
    {
