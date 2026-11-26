@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T14:26:04+00:00",
+ "updated": "2026-11-26T14:28:06+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -415,7 +415,7 @@
    },
    {
     "name": "Padre",
-    "value": 1779
+    "value": 1781
    },
    {
     "name": "BiBiCHarBo",
@@ -474,16 +474,16 @@
     "value": 636
    },
    {
+    "name": "Proxymore",
+    "value": 610
+   },
+   {
     "name": "charlie-XCX123",
     "value": 609
    },
    {
-    "name": "Proxymore",
-    "value": 608
-   },
-   {
     "name": "apo4020",
-    "value": 606
+    "value": 608
    },
    {
     "name": "dadou07",
@@ -613,7 +613,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 1649
+    "value": 1651
    },
    {
     "name": "habbo-160-3",
@@ -625,7 +625,7 @@
    },
    {
     "name": "apo4020",
-    "value": 606
+    "value": 608
    },
    {
     "name": "Pantheon_",
@@ -657,7 +657,7 @@
    },
    {
     "name": "Proxymore",
-    "value": 336
+    "value": 338
    },
    {
     "name": "andrew16a",
