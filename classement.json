@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T13:33:08+00:00",
+ "updated": "2026-11-26T13:35:04+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -76,15 +76,15 @@
     "value": 24
    },
    {
+    "name": "tiff34",
+    "value": 24
+   },
+   {
     "name": "Postillon",
     "value": 23
    },
    {
     "name": "sami75.19",
-    "value": 23
-   },
-   {
-    "name": "tiff34",
     "value": 23
    },
    {
@@ -144,6 +144,10 @@
     "value": 9
    },
    {
+    "name": "Padre",
+    "value": 9
+   },
+   {
     "name": "toutoune-09",
     "value": 9
    },
@@ -157,10 +161,6 @@
    },
    {
     "name": "LorenzoVisconti",
-    "value": 8
-   },
-   {
-    "name": "Padre",
     "value": 8
    },
    {
@@ -223,7 +223,7 @@
    },
    {
     "name": "tiff34",
-    "value": 23
+    "value": 24
    },
    {
     "name": "apo4020",
@@ -314,6 +314,10 @@
     "value": 7
    },
    {
+    "name": "Padre",
+    "value": 7
+   },
+   {
     "name": "SuzieOuistiti!",
     "value": 7
    },
@@ -327,10 +331,6 @@
    },
    {
     "name": "LesdixGaga",
-    "value": 6
-   },
-   {
-    "name": "Padre",
     "value": 6
    },
    {
@@ -415,7 +415,7 @@
    },
    {
     "name": "Padre",
-    "value": 1728
+    "value": 1729
    },
    {
     "name": "BiBiCHarBo",
@@ -459,7 +459,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 676
+    "value": 678
    },
    {
     "name": "andrew16a",
@@ -483,11 +483,11 @@
    },
    {
     "name": "Proxymore",
-    "value": 562
+    "value": 564
    },
    {
     "name": "apo4020",
-    "value": 560
+    "value": 562
    },
    {
     "name": "Mi,hermano",
@@ -613,7 +613,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 1598
+    "value": 1599
    },
    {
     "name": "habbo-160-3",
@@ -625,7 +625,7 @@
    },
    {
     "name": "apo4020",
-    "value": 560
+    "value": 562
    },
    {
     "name": "Pantheon_",
@@ -645,7 +645,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 457
+    "value": 459
    },
    {
     "name": "Mr.Dino",
@@ -673,7 +673,7 @@
    },
    {
     "name": "Proxymore",
-    "value": 290
+    "value": 292
    },
    {
     "name": "Hectorr",
