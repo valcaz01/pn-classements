@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T10:59:06+00:00",
+ "updated": "2026-11-26T11:01:04+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -490,11 +490,11 @@
     "value": 521
    },
    {
-    "name": ".Libellule",
-    "value": 512
+    "name": "Proxymore",
+    "value": 514
    },
    {
-    "name": "Proxymore",
+    "name": ".Libellule",
     "value": 512
    },
    {
@@ -685,7 +685,7 @@
    },
    {
     "name": "Proxymore",
-    "value": 240
+    "value": 242
    },
    {
     "name": "Shizuku",
