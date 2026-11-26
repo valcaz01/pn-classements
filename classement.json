@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T12:51:04+00:00",
+ "updated": "2026-11-26T12:53:33+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -415,7 +415,7 @@
    },
    {
     "name": "Padre",
-    "value": 1686
+    "value": 1688
    },
    {
     "name": "BiBiCHarBo",
@@ -467,7 +467,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 643
+    "value": 646
    },
    {
     "name": "Mr.Dino",
@@ -483,7 +483,7 @@
    },
    {
     "name": "Proxymore",
-    "value": 545
+    "value": 548
    },
    {
     "name": "Mi,hermano",
@@ -491,7 +491,7 @@
    },
    {
     "name": "apo4020",
-    "value": 524
+    "value": 525
    },
    {
     "name": "habbo22t",
@@ -603,7 +603,7 @@
    },
    {
     "name": "BOuclette.13",
-    "value": 80
+    "value": 82
    },
    {
     "name": "Benny-knd",
@@ -613,7 +613,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 1556
+    "value": 1558
    },
    {
     "name": "habbo-160-3",
@@ -629,7 +629,7 @@
    },
    {
     "name": "apo4020",
-    "value": 524
+    "value": 525
    },
    {
     "name": "tiff34",
@@ -649,7 +649,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 424
+    "value": 427
    },
    {
     "name": "Lewddon",
@@ -677,7 +677,7 @@
    },
    {
     "name": "Proxymore",
-    "value": 273
+    "value": 276
    },
    {
     "name": "Lovepanda",
@@ -800,16 +800,16 @@
     "value": 35
    },
    {
+    "name": "BOuclette.13",
+    "value": 33
+   },
+   {
     "name": "Piingouin.",
     "value": 33
    },
    {
     "name": "Lunatic...",
     "value": 32
-   },
-   {
-    "name": "BOuclette.13",
-    "value": 31
    }
   ]
  }
