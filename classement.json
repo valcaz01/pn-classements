@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T22:09:53+00:00",
+ "updated": "2026-11-26T22:12:22+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -64,15 +64,15 @@
     "value": 29
    },
    {
+    "name": "tiff34",
+    "value": 29
+   },
+   {
     "name": "Mi,hermano",
     "value": 28
    },
    {
     "name": "Proxymore",
-    "value": 28
-   },
-   {
-    "name": "tiff34",
     "value": 28
    },
    {
@@ -223,7 +223,7 @@
    },
    {
     "name": "tiff34",
-    "value": 28
+    "value": 29
    },
    {
     "name": "apo4020",
@@ -443,7 +443,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 968
+    "value": 971
    },
    {
     "name": "Shizuku",
@@ -455,7 +455,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 751
+    "value": 752
    },
    {
     "name": "apo4020",
@@ -621,7 +621,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 749
+    "value": 752
    },
    {
     "name": "apo4020",
@@ -641,7 +641,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 569
+    "value": 570
    },
    {
     "name": "Icarem",
@@ -809,7 +809,7 @@
    },
    {
     "name": "tuesday001",
-    "value": 43
+    "value": 45
    }
   ]
  }
