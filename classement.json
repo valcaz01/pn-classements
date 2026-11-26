@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T23:00:54+00:00",
+ "updated": "2026-11-26T23:02:53+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -188,6 +188,10 @@
     "value": 5
    },
    {
+    "name": "tuesday001",
+    "value": 5
+   },
+   {
     "name": "-Massimo-",
     "value": 4
    },
@@ -197,10 +201,6 @@
    },
    {
     "name": "MrDrMathieu1990",
-    "value": 4
-   },
-   {
-    "name": "Pepper",
     "value": 4
    }
   ],
@@ -354,6 +354,10 @@
     "value": 5
    },
    {
+    "name": "tuesday001",
+    "value": 5
+   },
+   {
     "name": "-Massimo-",
     "value": 4
    },
@@ -371,10 +375,6 @@
    },
    {
     "name": "Pepper",
-    "value": 4
-   },
-   {
-    "name": "tuesday001",
     "value": 4
    },
    {
@@ -530,12 +530,12 @@
     "value": 319
    },
    {
-    "name": "Vyp",
-    "value": 307
+    "name": "girly12",
+    "value": 308
    },
    {
-    "name": "girly12",
-    "value": 306
+    "name": "Vyp",
+    "value": 307
    },
    {
     "name": "gotica",
@@ -676,12 +676,12 @@
     "value": 311
    },
    {
-    "name": "Vyp",
-    "value": 307
+    "name": "girly12",
+    "value": 308
    },
    {
-    "name": "girly12",
-    "value": 306
+    "name": "Vyp",
+    "value": 307
    },
    {
     "name": "dadou07",
