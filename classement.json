@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T10:54:33+00:00",
+ "updated": "2026-11-26T10:57:06+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -494,12 +494,12 @@
     "value": 512
    },
    {
-    "name": "apo4020",
-    "value": 509
+    "name": "Proxymore",
+    "value": 510
    },
    {
-    "name": "Proxymore",
-    "value": 508
+    "name": "apo4020",
+    "value": 509
    },
    {
     "name": "tiff34",
@@ -685,7 +685,7 @@
    },
    {
     "name": "Proxymore",
-    "value": 236
+    "value": 238
    },
    {
     "name": "Shizuku",
