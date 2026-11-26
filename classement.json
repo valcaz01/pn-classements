@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T10:16:34+00:00",
+ "updated": "2026-11-26T10:18:34+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -503,11 +503,11 @@
    },
    {
     "name": "apo4020",
-    "value": 483
+    "value": 485
    },
    {
     "name": "Proxymore",
-    "value": 477
+    "value": 479
    },
    {
     "name": "_.Flora._",
@@ -637,7 +637,7 @@
    },
    {
     "name": "apo4020",
-    "value": 483
+    "value": 485
    },
    {
     "name": "Icarem",
@@ -688,11 +688,11 @@
     "value": 209
    },
    {
-    "name": "Kouukii",
-    "value": 205
+    "name": "Proxymore",
+    "value": 207
    },
    {
-    "name": "Proxymore",
+    "name": "Kouukii",
     "value": 205
    },
    {
