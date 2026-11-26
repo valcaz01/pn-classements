@@ -2960,7 +2960,7 @@
   "grade": null,
   "humeur": "",
   "pseudo": "ProxymoreV.2",
-  "verifie": "2026-11-26T17:21:35+00:00"
+  "verifie": "2026-11-26T20:22:04+00:00"
  },
  "23778711": {
   "alertes": {},
@@ -5293,6 +5293,14 @@
   "humeur": "",
   "pseudo": "ninoushhescla",
   "verifie": "2026-11-26T20:13:06+00:00"
+ },
+ "25244758": {
+  "alertes": {},
+  "depuis": "2026-11-26T20:22:04+00:00",
+  "grade": "pa",
+  "humeur": "[PN] Policier Adjoint",
+  "pseudo": "Trakeuur",
+  "verifie": "2026-11-26T20:22:04+00:00"
  },
  "25245250": {
   "alertes": {},

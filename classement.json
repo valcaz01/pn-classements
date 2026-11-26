@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T20:20:06+00:00",
+ "updated": "2026-11-26T20:22:04+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -411,11 +411,11 @@
   "total": [
    {
     "name": "habbo-160-3",
-    "value": 2707
+    "value": 2709
    },
    {
     "name": "Padre",
-    "value": 2072
+    "value": 2074
    },
    {
     "name": "BiBiCHarBo",
@@ -423,7 +423,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 1518
+    "value": 1520
    },
    {
     "name": "marinadrk",
@@ -443,7 +443,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 877
+    "value": 879
    },
    {
     "name": "Shizuku",
@@ -519,7 +519,7 @@
    },
    {
     "name": "flo578",
-    "value": 428
+    "value": 430
    },
    {
     "name": "Fleabag",
@@ -539,7 +539,7 @@
    },
    {
     "name": "girly12",
-    "value": 287
+    "value": 289
    },
    {
     "name": "Richesse",
@@ -599,7 +599,7 @@
    },
    {
     "name": "Bestsabrina77",
-    "value": 102
+    "value": 104
    },
    {
     "name": ".:Krustiz:.",
@@ -613,11 +613,11 @@
   "week": [
    {
     "name": "Padre",
-    "value": 1944
+    "value": 1946
    },
    {
     "name": "habbo-160-3",
-    "value": 826
+    "value": 828
    },
    {
     "name": "apo4020",
@@ -625,7 +625,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 658
+    "value": 660
    },
    {
     "name": "halos34",
@@ -637,7 +637,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 584
+    "value": 586
    },
    {
     "name": "marinadrk",
@@ -681,7 +681,7 @@
    },
    {
     "name": "girly12",
-    "value": 287
+    "value": 289
    },
    {
     "name": "dadou07",
@@ -745,15 +745,15 @@
    },
    {
     "name": "Bestsabrina77",
+    "value": 104
+   },
+   {
+    "name": "flo578",
     "value": 102
    },
    {
     "name": "sami75.19",
     "value": 101
-   },
-   {
-    "name": "flo578",
-    "value": 100
    },
    {
     "name": "Benny-knd",
