@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T01:20:03+00:00",
+ "updated": "2026-11-26T01:22:34+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -515,7 +515,7 @@
    },
    {
     "name": "Proxymore",
-    "value": 408
+    "value": 410
    },
    {
     "name": "apo4020",
@@ -720,12 +720,12 @@
     "value": 153
    },
    {
-    "name": "Richesse",
+    "name": "Proxymore",
     "value": 138
    },
    {
-    "name": "Proxymore",
-    "value": 136
+    "name": "Richesse",
+    "value": 138
    },
    {
     "name": "SuzieOuistiti!",
