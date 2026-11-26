@@ -1509,7 +1509,7 @@
   "grade": null,
   "humeur": "",
   "pseudo": "Hypnos",
-  "verifie": "2026-11-26T08:20:36+00:00"
+  "verifie": "2026-11-26T11:22:02+00:00"
  },
  "20079710": {
   "alertes": {},
@@ -10459,6 +10459,14 @@
   "humeur": "[PN] Recrue",
   "pseudo": "Redug",
   "verifie": "2026-11-26T10:54:33+00:00"
+ },
+ "26030140": {
+  "alertes": {},
+  "depuis": null,
+  "grade": null,
+  "humeur": "Woaf woaf",
+  "pseudo": "Vrai_jamal",
+  "verifie": "2026-11-26T11:22:02+00:00"
  },
  "26030183": {
   "alertes": {},
