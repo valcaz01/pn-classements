@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T04:39:35+00:00",
+ "updated": "2026-11-26T04:41:34+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -499,7 +499,7 @@
    },
    {
     "name": "Postillon",
-    "value": 464
+    "value": 466
    },
    {
     "name": "_.Flora._",
@@ -587,7 +587,7 @@
    },
    {
     "name": "CharlesWish",
-    "value": 91
+    "value": 93
    },
    {
     "name": "Imondi",
@@ -669,7 +669,7 @@
    },
    {
     "name": "Postillon",
-    "value": 285
+    "value": 287
    },
    {
     "name": "Hectorr",
@@ -776,12 +776,12 @@
     "value": 60
    },
    {
-    "name": "LorenzoVisconti",
-    "value": 53
+    "name": "CharlesWish",
+    "value": 54
    },
    {
-    "name": "CharlesWish",
-    "value": 52
+    "name": "LorenzoVisconti",
+    "value": 53
    },
    {
     "name": "CovidJr",
