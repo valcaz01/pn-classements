@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T20:30:06+00:00",
+ "updated": "2026-11-26T20:32:37+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -128,12 +128,12 @@
     "value": 13
    },
    {
-    "name": "LorenzoVisconti",
+    "name": "Kouukii",
     "value": 13
    },
    {
-    "name": "Kouukii",
-    "value": 12
+    "name": "LorenzoVisconti",
+    "value": 13
    },
    {
     "name": "dadou07",
@@ -274,6 +274,10 @@
     "value": 13
    },
    {
+    "name": "Kouukii",
+    "value": 13
+   },
+   {
     "name": "LorenzoVisconti",
     "value": 13
    },
@@ -283,10 +287,6 @@
    },
    {
     "name": "gotica",
-    "value": 12
-   },
-   {
-    "name": "Kouukii",
     "value": 12
    },
    {
@@ -411,11 +411,11 @@
   "total": [
    {
     "name": "habbo-160-3",
-    "value": 2716
+    "value": 2718
    },
    {
     "name": "Padre",
-    "value": 2079
+    "value": 2081
    },
    {
     "name": "BiBiCHarBo",
@@ -443,7 +443,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 887
+    "value": 889
    },
    {
     "name": "Shizuku",
@@ -471,7 +471,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 672
+    "value": 673
    },
    {
     "name": "andrew16a",
@@ -519,7 +519,7 @@
    },
    {
     "name": "flo578",
-    "value": 435
+    "value": 438
    },
    {
     "name": "Fleabag",
@@ -595,7 +595,7 @@
    },
    {
     "name": "Bestsabrina77",
-    "value": 111
+    "value": 113
    },
    {
     "name": "CharlesWish",
@@ -613,11 +613,11 @@
   "week": [
    {
     "name": "Padre",
-    "value": 1951
+    "value": 1953
    },
    {
     "name": "habbo-160-3",
-    "value": 835
+    "value": 837
    },
    {
     "name": "apo4020",
@@ -625,7 +625,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 668
+    "value": 670
    },
    {
     "name": "halos34",
@@ -649,7 +649,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 490
+    "value": 491
    },
    {
     "name": "Lewddon",
@@ -745,11 +745,11 @@
    },
    {
     "name": "Bestsabrina77",
-    "value": 111
+    "value": 113
    },
    {
     "name": "flo578",
-    "value": 107
+    "value": 110
    },
    {
     "name": "sami75.19",
