@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T12:53:33+00:00",
+ "updated": "2026-11-26T12:55:36+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -105,7 +105,7 @@
    },
    {
     "name": "apo4020",
-    "value": 19
+    "value": 20
    },
    {
     "name": "gotica",
@@ -227,7 +227,7 @@
    },
    {
     "name": "apo4020",
-    "value": 19
+    "value": 20
    },
    {
     "name": "halos34",
@@ -415,7 +415,7 @@
    },
    {
     "name": "Padre",
-    "value": 1688
+    "value": 1690
    },
    {
     "name": "BiBiCHarBo",
@@ -467,7 +467,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 646
+    "value": 648
    },
    {
     "name": "Mr.Dino",
@@ -483,7 +483,7 @@
    },
    {
     "name": "Proxymore",
-    "value": 548
+    "value": 550
    },
    {
     "name": "Mi,hermano",
@@ -491,7 +491,7 @@
    },
    {
     "name": "apo4020",
-    "value": 525
+    "value": 526
    },
    {
     "name": "habbo22t",
@@ -594,15 +594,15 @@
     "value": 87
    },
    {
+    "name": "BOuclette.13",
+    "value": 84
+   },
+   {
     "name": "Imondi",
     "value": 84
    },
    {
     "name": "BnBoy",
-    "value": 82
-   },
-   {
-    "name": "BOuclette.13",
     "value": 82
    },
    {
@@ -613,7 +613,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 1558
+    "value": 1560
    },
    {
     "name": "habbo-160-3",
@@ -629,7 +629,7 @@
    },
    {
     "name": "apo4020",
-    "value": 525
+    "value": 526
    },
    {
     "name": "tiff34",
@@ -649,7 +649,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 427
+    "value": 429
    },
    {
     "name": "Lewddon",
@@ -672,12 +672,12 @@
     "value": 298
    },
    {
-    "name": "Hectorr",
-    "value": 277
+    "name": "Proxymore",
+    "value": 278
    },
    {
-    "name": "Proxymore",
-    "value": 276
+    "name": "Hectorr",
+    "value": 277
    },
    {
     "name": "Lovepanda",
@@ -796,12 +796,12 @@
     "value": 41
    },
    {
-    "name": "gotica",
+    "name": "BOuclette.13",
     "value": 35
    },
    {
-    "name": "BOuclette.13",
-    "value": 33
+    "name": "gotica",
+    "value": 35
    },
    {
     "name": "Piingouin.",
