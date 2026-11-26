@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T02:23:34+00:00",
+ "updated": "2026-11-26T02:25:36+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -68,15 +68,15 @@
     "value": 24
    },
    {
+    "name": "Proxymore",
+    "value": 24
+   },
+   {
     "name": "sami75.19",
     "value": 23
    },
    {
     "name": "Monsieur-RF",
-    "value": 22
-   },
-   {
-    "name": "Proxymore",
     "value": 22
    },
    {
@@ -350,6 +350,10 @@
     "value": 4
    },
    {
+    "name": "Proxymore",
+    "value": 4
+   },
+   {
     "name": "Leif",
     "value": 3
    },
@@ -387,10 +391,6 @@
    },
    {
     "name": "OnlyOneGuest",
-    "value": 2
-   },
-   {
-    "name": "Proxymore",
     "value": 2
    },
    {
