@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T21:02:37+00:00",
+ "updated": "2026-11-26T21:05:06+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -411,7 +411,7 @@
   "total": [
    {
     "name": "habbo-160-3",
-    "value": 2744
+    "value": 2747
    },
    {
     "name": "Padre",
@@ -443,7 +443,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 916
+    "value": 917
    },
    {
     "name": "Shizuku",
@@ -466,16 +466,16 @@
     "value": 702
    },
    {
+    "name": "Mr.Dino",
+    "value": 692
+   },
+   {
     "name": "Monsieur-RF",
     "value": 689
    },
    {
-    "name": "Mr.Dino",
-    "value": 689
-   },
-   {
     "name": "andrew16a",
-    "value": 672
+    "value": 674
    },
    {
     "name": "Proxymore",
@@ -559,7 +559,7 @@
    },
    {
     "name": "Kouukii",
-    "value": 219
+    "value": 221
    },
    {
     "name": "xX_Reiina_Xx",
@@ -579,7 +579,7 @@
    },
    {
     "name": "Bestsabrina77",
-    "value": 137
+    "value": 139
    },
    {
     "name": "Piingouin.",
@@ -587,7 +587,7 @@
    },
    {
     "name": "Seew-",
-    "value": 125
+    "value": 128
    },
    {
     "name": "SuzieOuistiti!",
@@ -606,8 +606,8 @@
     "value": 99
    },
    {
-    "name": "BOuclette.13",
-    "value": 95
+    "name": "Benny-knd",
+    "value": 96
    }
   ],
   "week": [
@@ -617,7 +617,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 863
+    "value": 866
    },
    {
     "name": "apo4020",
@@ -625,7 +625,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 697
+    "value": 698
    },
    {
     "name": "halos34",
@@ -641,7 +641,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 507
+    "value": 510
    },
    {
     "name": "Icarem",
@@ -669,7 +669,7 @@
    },
    {
     "name": "andrew16a",
-    "value": 322
+    "value": 324
    },
    {
     "name": "Postillon",
@@ -700,11 +700,11 @@
     "value": 230
    },
    {
-    "name": ".Libellule",
-    "value": 219
+    "name": "Kouukii",
+    "value": 221
    },
    {
-    "name": "Kouukii",
+    "name": ".Libellule",
     "value": 219
    },
    {
@@ -737,11 +737,11 @@
    },
    {
     "name": "Bestsabrina77",
-    "value": 137
+    "value": 139
    },
    {
     "name": "Seew-",
-    "value": 125
+    "value": 128
    },
    {
     "name": "SuzieOuistiti!",
@@ -757,7 +757,7 @@
    },
    {
     "name": "Benny-knd",
-    "value": 94
+    "value": 96
    },
    {
     "name": "Astreu",
