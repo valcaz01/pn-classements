@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T15:27:34+00:00",
+ "updated": "2026-11-26T15:29:35+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -28,12 +28,12 @@
     "value": 50
    },
    {
-    "name": "halos34",
+    "name": ".Libellule",
     "value": 48
    },
    {
-    "name": ".Libellule",
-    "value": 46
+    "name": "halos34",
+    "value": 48
    },
    {
     "name": "Shizuku",
@@ -49,7 +49,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 35
+    "value": 36
    },
    {
     "name": "flo578",
@@ -239,7 +239,11 @@
    },
    {
     "name": "Pantheon_",
-    "value": 17
+    "value": 18
+   },
+   {
+    "name": ".Libellule",
+    "value": 16
    },
    {
     "name": "fym",
@@ -252,10 +256,6 @@
    {
     "name": "Postillon",
     "value": 15
-   },
-   {
-    "name": ".Libellule",
-    "value": 14
    },
    {
     "name": "Mr.Dino",
@@ -415,7 +415,7 @@
    },
    {
     "name": "Padre",
-    "value": 1837
+    "value": 1839
    },
    {
     "name": "BiBiCHarBo",
@@ -435,7 +435,7 @@
    },
    {
     "name": "Icarem",
-    "value": 1156
+    "value": 1158
    },
    {
     "name": "halos34",
@@ -467,7 +467,7 @@
    },
    {
     "name": "apo4020",
-    "value": 657
+    "value": 658
    },
    {
     "name": "Monsieur-RF",
@@ -567,7 +567,7 @@
    },
    {
     "name": "---Jayden---",
-    "value": 162
+    "value": 164
    },
    {
     "name": "SuzieOuistiti!",
@@ -613,7 +613,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 1707
+    "value": 1709
    },
    {
     "name": "habbo-160-3",
@@ -621,7 +621,7 @@
    },
    {
     "name": "apo4020",
-    "value": 657
+    "value": 658
    },
    {
     "name": "halos34",
@@ -645,7 +645,7 @@
    },
    {
     "name": "Icarem",
-    "value": 464
+    "value": 466
    },
    {
     "name": "Mr.Dino",
@@ -721,7 +721,7 @@
    },
    {
     "name": "---Jayden---",
-    "value": 162
+    "value": 164
    },
    {
     "name": "_.Flora._",
