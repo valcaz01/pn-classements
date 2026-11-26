@@ -357,7 +357,7 @@
   "grade": null,
   "humeur": "",
   "pseudo": "machin-choses",
-  "verifie": "2026-11-26T11:07:04+00:00"
+  "verifie": "2026-11-26T14:07:04+00:00"
  },
  "13158723": {
   "alertes": {},
@@ -590,6 +590,14 @@
   "humeur": "[HSBC] Négociant en mobilier s",
   "pseudo": "tyude",
   "verifie": "2026-11-26T13:10:35+00:00"
+ },
+ "14505661": {
+  "alertes": {},
+  "depuis": null,
+  "grade": null,
+  "humeur": "",
+  "pseudo": "mzellcool",
+  "verifie": "2026-11-26T14:07:04+00:00"
  },
  "14505860": {
   "alertes": {},
@@ -1589,7 +1597,7 @@
   "grade": null,
   "humeur": "AMEDSPORT",
   "pseudo": "-Titi67",
-  "verifie": "2026-11-26T11:07:04+00:00"
+  "verifie": "2026-11-26T14:07:04+00:00"
  },
  "20259738": {
   "alertes": {},
@@ -9648,7 +9656,7 @@
   "grade": null,
   "humeur": "",
   "pseudo": "_Cartier",
-  "verifie": "2026-11-26T11:07:04+00:00"
+  "verifie": "2026-11-26T14:07:04+00:00"
  },
  "26006303": {
   "alertes": {},
