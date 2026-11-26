@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T03:09:05+00:00",
+ "updated": "2026-11-26T03:11:07+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -104,12 +104,12 @@
     "value": 20
    },
    {
-    "name": "irysse",
+    "name": "gotica",
     "value": 18
    },
    {
-    "name": "gotica",
-    "value": 17
+    "name": "irysse",
+    "value": 18
    },
    {
     "name": "apo4020",
@@ -274,6 +274,10 @@
     "value": 11
    },
    {
+    "name": "gotica",
+    "value": 11
+   },
+   {
     "name": "Kouukii",
     "value": 11
    },
@@ -283,10 +287,6 @@
    },
    {
     "name": "_.Flora._",
-    "value": 10
-   },
-   {
-    "name": "gotica",
     "value": 10
    },
    {
