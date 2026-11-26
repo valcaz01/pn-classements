@@ -277,7 +277,7 @@
   "grade": null,
   "humeur": "Perso principal d'un jeu sans avenir",
   "pseudo": "cool-jab",
-  "verifie": "2026-11-26T11:47:34+00:00"
+  "verifie": "2026-11-26T14:49:34+00:00"
  },
  "12588280": {
   "alertes": {},
@@ -2080,7 +2080,7 @@
   "grade": null,
   "humeur": "Inelie.",
   "pseudo": "TROFRAGILE",
-  "verifie": "2026-11-26T11:47:34+00:00"
+  "verifie": "2026-11-26T14:49:34+00:00"
  },
  "21975390": {
   "alertes": {},
@@ -5029,6 +5029,14 @@
   "humeur": "Rendez-vous en terre inconnue",
   "pseudo": "ReignsJax",
   "verifie": "2026-11-26T13:25:04+00:00"
+ },
+ "25191210": {
+  "alertes": {},
+  "depuis": null,
+  "grade": null,
+  "humeur": "",
+  "pseudo": "C_LA_STREET",
+  "verifie": "2026-11-26T14:49:34+00:00"
  },
  "25191659": {
   "alertes": {},
