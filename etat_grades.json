@@ -2960,7 +2960,7 @@
   "grade": null,
   "humeur": "[R.F] Gendarmerie",
   "pseudo": "Altrazor3000",
-  "verifie": "2026-11-26T16:15:35+00:00"
+  "verifie": "2026-11-26T19:16:35+00:00"
  },
  "23798382": {
   "alertes": {},
@@ -9680,7 +9680,7 @@
   "grade": null,
   "humeur": "Flip stupeflip flip",
   "pseudo": "Thoomas.",
-  "verifie": "2026-11-26T16:15:35+00:00"
+  "verifie": "2026-11-26T19:16:35+00:00"
  },
  "25997663": {
   "alertes": {},
@@ -9916,7 +9916,7 @@
   "grade": null,
   "humeur": "[PN] Policière-Ajoindre",
   "pseudo": "Fleabag",
-  "verifie": "2026-11-26T16:15:35+00:00"
+  "verifie": "2026-11-26T19:16:35+00:00"
  },
  "26006886": {
   "alertes": {},
@@ -10788,6 +10788,14 @@
   "pseudo": "-Oiseau",
   "verifie": "2026-11-26T17:12:35+00:00"
  },
+ "26030622": {
+  "alertes": {},
+  "depuis": null,
+  "grade": null,
+  "humeur": "",
+  "pseudo": "Samiz",
+  "verifie": "2026-11-26T19:16:35+00:00"
+ },
  "26030982": {
   "alertes": {},
   "depuis": null,
@@ -11034,7 +11042,7 @@
   "grade": null,
   "humeur": "[F.B.I] Agent [Yafa]",
   "pseudo": "BergaMotte",
-  "verifie": "2026-11-26T16:15:35+00:00"
+  "verifie": "2026-11-26T19:16:35+00:00"
  },
  "26037065": {
   "alertes": {},
