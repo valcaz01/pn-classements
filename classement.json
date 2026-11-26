@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T15:25:35+00:00",
+ "updated": "2026-11-26T15:27:34+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -49,7 +49,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 34
+    "value": 35
    },
    {
     "name": "flo578",
@@ -144,11 +144,11 @@
     "value": 10
    },
    {
-    "name": "marinadrk",
-    "value": 9
+    "name": "Padre",
+    "value": 10
    },
    {
-    "name": "Padre",
+    "name": "marinadrk",
     "value": 9
    },
    {
@@ -238,11 +238,11 @@
     "value": 19
    },
    {
-    "name": "fym",
-    "value": 16
+    "name": "Pantheon_",
+    "value": 17
    },
    {
-    "name": "Pantheon_",
+    "name": "fym",
     "value": 16
    },
    {
@@ -302,6 +302,10 @@
     "value": 8
    },
    {
+    "name": "Padre",
+    "value": 8
+   },
+   {
     "name": "Proxymore",
     "value": 8
    },
@@ -311,10 +315,6 @@
    },
    {
     "name": "Astreu",
-    "value": 7
-   },
-   {
-    "name": "Padre",
     "value": 7
    },
    {
@@ -435,7 +435,7 @@
    },
    {
     "name": "Icarem",
-    "value": 1154
+    "value": 1156
    },
    {
     "name": "halos34",
@@ -467,7 +467,7 @@
    },
    {
     "name": "apo4020",
-    "value": 655
+    "value": 657
    },
    {
     "name": "Monsieur-RF",
@@ -621,7 +621,7 @@
    },
    {
     "name": "apo4020",
-    "value": 655
+    "value": 657
    },
    {
     "name": "halos34",
@@ -645,7 +645,7 @@
    },
    {
     "name": "Icarem",
-    "value": 462
+    "value": 464
    },
    {
     "name": "Mr.Dino",
