@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T04:25:05+00:00",
+ "updated": "2026-11-26T04:27:05+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -499,7 +499,7 @@
    },
    {
     "name": "Postillon",
-    "value": 456
+    "value": 457
    },
    {
     "name": "_.Flora._",
@@ -668,11 +668,11 @@
     "value": 298
    },
    {
-    "name": "Hectorr",
-    "value": 277
+    "name": "Postillon",
+    "value": 278
    },
    {
-    "name": "Postillon",
+    "name": "Hectorr",
     "value": 277
    },
    {
