@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T17:51:04+00:00",
+ "updated": "2026-11-26T17:53:04+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -36,12 +36,12 @@
     "value": 48
    },
    {
-    "name": "Shizuku",
+    "name": "Lovepanda",
     "value": 41
    },
    {
-    "name": "Lovepanda",
-    "value": 40
+    "name": "Shizuku",
+    "value": 41
    },
    {
     "name": "Pantheon_",
@@ -247,7 +247,7 @@
    },
    {
     "name": "Lovepanda",
-    "value": 17
+    "value": 18
    },
    {
     "name": "fym",
@@ -415,7 +415,7 @@
    },
    {
     "name": "Padre",
-    "value": 1959
+    "value": 1961
    },
    {
     "name": "BiBiCHarBo",
@@ -491,7 +491,7 @@
    },
    {
     "name": "tiff34",
-    "value": 563
+    "value": 565
    },
    {
     "name": ".Libellule",
@@ -515,7 +515,7 @@
    },
    {
     "name": "Hectorr",
-    "value": 442
+    "value": 444
    },
    {
     "name": "flo578",
@@ -539,15 +539,15 @@
    },
    {
     "name": "girly12",
-    "value": 244
+    "value": 245
+   },
+   {
+    "name": "Richesse",
+    "value": 239
    },
    {
     "name": "sami75.19",
     "value": 238
-   },
-   {
-    "name": "Richesse",
-    "value": 237
    },
    {
     "name": "Weavem",
@@ -583,7 +583,7 @@
    },
    {
     "name": "Pepper",
-    "value": 110
+    "value": 111
    },
    {
     "name": "Piingouin.",
@@ -613,7 +613,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 1830
+    "value": 1832
    },
    {
     "name": "habbo-160-3",
@@ -637,7 +637,7 @@
    },
    {
     "name": "tiff34",
-    "value": 563
+    "value": 565
    },
    {
     "name": "marinadrk",
@@ -677,7 +677,7 @@
    },
    {
     "name": "Hectorr",
-    "value": 292
+    "value": 294
    },
    {
     "name": "dadou07",
@@ -689,11 +689,11 @@
    },
    {
     "name": "girly12",
-    "value": 244
+    "value": 245
    },
    {
     "name": "Richesse",
-    "value": 237
+    "value": 239
    },
    {
     "name": ".Libellule",
@@ -737,7 +737,7 @@
    },
    {
     "name": "Pepper",
-    "value": 110
+    "value": 111
    },
    {
     "name": "Bestsabrina77",
