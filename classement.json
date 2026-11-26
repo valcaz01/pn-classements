@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T19:29:03+00:00",
+ "updated": "2026-11-26T19:31:05+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -37,7 +37,7 @@
    },
    {
     "name": "Shizuku",
-    "value": 42
+    "value": 43
    },
    {
     "name": "Lovepanda",
@@ -254,11 +254,11 @@
     "value": 16
    },
    {
-    "name": "Postillon",
-    "value": 15
+    "name": "Shizuku",
+    "value": 16
    },
    {
-    "name": "Shizuku",
+    "name": "Postillon",
     "value": 15
    },
    {
@@ -411,11 +411,11 @@
   "total": [
    {
     "name": "habbo-160-3",
-    "value": 2657
+    "value": 2659
    },
    {
     "name": "Padre",
-    "value": 2048
+    "value": 2049
    },
    {
     "name": "BiBiCHarBo",
@@ -435,7 +435,7 @@
    },
    {
     "name": "Icarem",
-    "value": 1183
+    "value": 1185
    },
    {
     "name": "halos34",
@@ -447,7 +447,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 831
+    "value": 833
    },
    {
     "name": "Lovepanda",
@@ -463,7 +463,7 @@
    },
    {
     "name": "apo4020",
-    "value": 692
+    "value": 694
    },
    {
     "name": "Monsieur-RF",
@@ -475,7 +475,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 647
+    "value": 649
    },
    {
     "name": "Proxymore",
@@ -613,15 +613,15 @@
   "week": [
    {
     "name": "Padre",
-    "value": 1920
+    "value": 1921
    },
    {
     "name": "habbo-160-3",
-    "value": 776
+    "value": 778
    },
    {
     "name": "apo4020",
-    "value": 692
+    "value": 694
    },
    {
     "name": "halos34",
@@ -629,7 +629,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 612
+    "value": 614
    },
    {
     "name": "tiff34",
@@ -645,11 +645,11 @@
    },
    {
     "name": "Icarem",
-    "value": 491
+    "value": 493
    },
    {
     "name": "Mr.Dino",
-    "value": 465
+    "value": 467
    },
    {
     "name": "Lewddon",
