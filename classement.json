@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T18:57:05+00:00",
+ "updated": "2026-11-26T18:59:05+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -411,11 +411,11 @@
   "total": [
    {
     "name": "habbo-160-3",
-    "value": 2626
+    "value": 2628
    },
    {
     "name": "Padre",
-    "value": 2021
+    "value": 2022
    },
    {
     "name": "BiBiCHarBo",
@@ -491,7 +491,7 @@
    },
    {
     "name": "tiff34",
-    "value": 585
+    "value": 587
    },
    {
     "name": ".Libellule",
@@ -539,7 +539,7 @@
    },
    {
     "name": "girly12",
-    "value": 276
+    "value": 278
    },
    {
     "name": "Richesse",
@@ -570,16 +570,16 @@
     "value": 173
    },
    {
+    "name": "xX_Reiina_Xx",
+    "value": 142
+   },
+   {
     "name": "Pepper",
     "value": 141
    },
    {
-    "name": "xX_Reiina_Xx",
-    "value": 140
-   },
-   {
     "name": "Piingouin.",
-    "value": 127
+    "value": 129
    },
    {
     "name": "SuzieOuistiti!",
@@ -595,7 +595,7 @@
    },
    {
     "name": "Seew-",
-    "value": 103
+    "value": 104
    },
    {
     "name": "Bestsabrina77",
@@ -613,11 +613,11 @@
   "week": [
    {
     "name": "Padre",
-    "value": 1892
+    "value": 1893
    },
    {
     "name": "habbo-160-3",
-    "value": 745
+    "value": 747
    },
    {
     "name": "apo4020",
@@ -633,7 +633,7 @@
    },
    {
     "name": "tiff34",
-    "value": 585
+    "value": 587
    },
    {
     "name": "Pantheon_",
@@ -680,11 +680,11 @@
     "value": 307
    },
    {
-    "name": "dadou07",
-    "value": 276
+    "name": "girly12",
+    "value": 278
    },
    {
-    "name": "girly12",
+    "name": "dadou07",
     "value": 276
    },
    {
@@ -728,12 +728,12 @@
     "value": 153
    },
    {
-    "name": "Pepper",
-    "value": 141
+    "name": "xX_Reiina_Xx",
+    "value": 142
    },
    {
-    "name": "xX_Reiina_Xx",
-    "value": 140
+    "name": "Pepper",
+    "value": 141
    },
    {
     "name": "SuzieOuistiti!",
@@ -741,7 +741,7 @@
    },
    {
     "name": "Seew-",
-    "value": 103
+    "value": 104
    },
    {
     "name": "Bestsabrina77",
@@ -793,7 +793,7 @@
    },
    {
     "name": "Piingouin.",
-    "value": 50
+    "value": 52
    },
    {
     "name": "BOuclette.13",
