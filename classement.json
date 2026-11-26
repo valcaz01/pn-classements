@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T21:49:21+00:00",
+ "updated": "2026-11-26T21:51:52+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -411,7 +411,7 @@
   "total": [
    {
     "name": "habbo-160-3",
-    "value": 2791
+    "value": 2793
    },
    {
     "name": "Padre",
@@ -443,7 +443,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 950
+    "value": 953
    },
    {
     "name": "Shizuku",
@@ -454,16 +454,16 @@
     "value": 828
    },
    {
+    "name": "Mr.Dino",
+    "value": 735
+   },
+   {
     "name": "apo4020",
     "value": 734
    },
    {
     "name": "Lewddon",
     "value": 734
-   },
-   {
-    "name": "Mr.Dino",
-    "value": 732
    },
    {
     "name": "andrew16a",
@@ -543,7 +543,7 @@
    },
    {
     "name": "Richesse",
-    "value": 257
+    "value": 259
    },
    {
     "name": "sami75.19",
@@ -575,7 +575,7 @@
    },
    {
     "name": "Seew-",
-    "value": 163
+    "value": 166
    },
    {
     "name": "Bestsabrina77",
@@ -617,15 +617,15 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 910
+    "value": 912
+   },
+   {
+    "name": "-Massimo-",
+    "value": 734
    },
    {
     "name": "apo4020",
     "value": 734
-   },
-   {
-    "name": "-Massimo-",
-    "value": 731
    },
    {
     "name": "halos34",
@@ -641,7 +641,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 550
+    "value": 553
    },
    {
     "name": "Icarem",
@@ -693,7 +693,7 @@
    },
    {
     "name": "Richesse",
-    "value": 257
+    "value": 259
    },
    {
     "name": "Shizuku",
@@ -729,7 +729,7 @@
    },
    {
     "name": "Seew-",
-    "value": 163
+    "value": 166
    },
    {
     "name": "Bestsabrina77",
@@ -808,8 +808,8 @@
     "value": 42
    },
    {
-    "name": "toutoune-09",
-    "value": 41
+    "name": "lovetiso009",
+    "value": 42
    }
   ]
  }
