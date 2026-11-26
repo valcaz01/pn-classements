@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T16:30:05+00:00",
+ "updated": "2026-11-26T16:32:09+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -415,15 +415,15 @@
    },
    {
     "name": "Padre",
-    "value": 1881
+    "value": 1883
    },
    {
     "name": "BiBiCHarBo",
-    "value": 1604
+    "value": 1605
    },
    {
     "name": "Pantheon_",
-    "value": 1507
+    "value": 1508
    },
    {
     "name": "marinadrk",
@@ -455,7 +455,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 729
+    "value": 731
    },
    {
     "name": "Astreu",
@@ -499,7 +499,7 @@
    },
    {
     "name": ".Libellule",
-    "value": 524
+    "value": 526
    },
    {
     "name": "habbo22t",
@@ -590,12 +590,12 @@
     "value": 99
    },
    {
-    "name": "BOuclette.13",
-    "value": 95
+    "name": "xX_Reiina_Xx",
+    "value": 96
    },
    {
-    "name": "xX_Reiina_Xx",
-    "value": 94
+    "name": "BOuclette.13",
+    "value": 95
    },
    {
     "name": "Pepper",
@@ -613,7 +613,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 1752
+    "value": 1754
    },
    {
     "name": "habbo-160-3",
@@ -629,7 +629,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 573
+    "value": 574
    },
    {
     "name": "tiff34",
@@ -637,7 +637,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 510
+    "value": 512
    },
    {
     "name": "marinadrk",
@@ -700,12 +700,12 @@
     "value": 205
    },
    {
-    "name": "girly12",
+    "name": ".Libellule",
     "value": 197
    },
    {
-    "name": ".Libellule",
-    "value": 195
+    "name": "girly12",
+    "value": 197
    },
    {
     "name": "fym",
@@ -737,7 +737,7 @@
    },
    {
     "name": "xX_Reiina_Xx",
-    "value": 94
+    "value": 96
    },
    {
     "name": "flo578",
