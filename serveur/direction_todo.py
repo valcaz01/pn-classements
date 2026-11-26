@@ -6,12 +6,16 @@ import logging
 import re
 import sqlite3
 import unicodedata
+import urllib.parse
+import urllib.request
 from datetime import datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
 import discord
 from discord.ext import tasks
+
+from habbo_http import ApiRequestError, request_json
 
 
 LOG = logging.getLogger("pn.direction")
@@ -347,6 +351,42 @@ class TaskList(discord.ui.View):
         await self.show(interaction, self.page + 1)
 
 
+class CreditBonusPreview(discord.ui.Modal, title="Test · Donner 5 crédits"):
+    pseudo = discord.ui.TextInput(label="Pseudo Habbo FR", max_length=32, required=True)
+
+    def __init__(self, board):
+        super().__init__(timeout=180)
+        self.board = board
+
+    async def on_submit(self, interaction):
+        if not await self.board.authorize(interaction):
+            return
+        pseudo = self.pseudo.value.strip()
+        if not pseudo or any(character.isspace() or not character.isprintable() for character in pseudo):
+            await interaction.response.send_message("Saisis un pseudo Habbo sans espaces.", ephemeral=True)
+            return
+
+        await interaction.response.defer(ephemeral=True, thinking=True)
+        query = urllib.parse.urlencode({"name": pseudo})
+        request = urllib.request.Request(f"https://www.habbo.fr/api/public/users?{query}",
+                                         headers={"User-Agent": "PN-RPG/1.0", "Accept": "application/json"})
+        try:
+            profile = await asyncio.to_thread(request_json, request)
+        except ApiRequestError:
+            await interaction.edit_original_response(content="Habbo ne répond pas. Réessaie plus tard.")
+            return
+
+        if profile is None:
+            content = "Ce pseudo est introuvable sur Habbo FR. Vérifie son orthographe."
+        elif (isinstance(profile, dict) and profile.get("uniqueId") and isinstance(profile.get("name"), str)
+              and profile["name"].casefold() == pseudo.casefold()):
+            name = discord.utils.escape_markdown(discord.utils.escape_mentions(profile["name"]))
+            content = f"**Test réussi.** Destinataire vérifié sur Habbo FR : **{name}**. Montant simulé : **5 crédits**."
+        else:
+            content = "Habbo n’a pas confirmé le pseudo exact. Réessaie plus tard."
+        await interaction.edit_original_response(content=content, allowed_mentions=discord.AllowedMentions.none())
+
+
 class BoardButtons(discord.ui.View):
     def __init__(self, board):
         super().__init__(timeout=None)
@@ -376,6 +416,11 @@ class BoardButtons(discord.ui.View):
     @discord.ui.button(label="Historique", custom_id="pn:direction:history")
     async def history(self, interaction, button):
         await self.show(interaction, False, history=True)
+
+    @discord.ui.button(label="Donner 5 crédits · Test", custom_id="pn:direction:credit-preview",
+                       emoji="🪙", row=1)
+    async def credit_preview(self, interaction, button):
+        await interaction.response.send_modal(CreditBonusPreview(self.board))
 
 
 class DirectionBoard:
