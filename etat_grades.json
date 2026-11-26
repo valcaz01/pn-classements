@@ -6150,6 +6150,14 @@
   "pseudo": "_Emysphere.",
   "verifie": "2026-11-26T19:05:35+00:00"
  },
+ "25566612": {
+  "alertes": {},
+  "depuis": null,
+  "grade": null,
+  "humeur": "",
+  "pseudo": "lovetiso009",
+  "verifie": "2026-11-26T20:39:08+00:00"
+ },
  "25569902": {
   "alertes": {},
   "depuis": null,
@@ -10290,11 +10298,11 @@
   "alertes": {
    "cadet": "2026-11-25T19:56:32+00:00"
   },
-  "depuis": "2026-11-22T23:00:00+00:00",
-  "grade": "cadet",
-  "humeur": "[PN] Cadet",
+  "depuis": "2026-11-26T20:39:08+00:00",
+  "grade": "pa",
+  "humeur": "[PN] Policier-adjoint",
   "pseudo": "Kouukii",
-  "verifie": "2026-11-26T19:27:04+00:00"
+  "verifie": "2026-11-26T20:39:08+00:00"
  },
  "26014910": {
   "alertes": {},
