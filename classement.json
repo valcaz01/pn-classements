@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T20:15:36+00:00",
+ "updated": "2026-11-26T20:18:06+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -37,14 +37,14 @@
    },
    {
     "name": "Shizuku",
-    "value": 43
-   },
-   {
-    "name": "Lovepanda",
-    "value": 41
+    "value": 44
    },
    {
     "name": "Pantheon_",
+    "value": 42
+   },
+   {
+    "name": "Lovepanda",
     "value": 41
    },
    {
@@ -231,7 +231,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 23
+    "value": 24
    },
    {
     "name": "Mi,hermano",
@@ -250,11 +250,11 @@
     "value": 18
    },
    {
-    "name": "fym",
-    "value": 16
+    "name": "Shizuku",
+    "value": 17
    },
    {
-    "name": "Shizuku",
+    "name": "fym",
     "value": 16
    },
    {
@@ -411,11 +411,11 @@
   "total": [
    {
     "name": "habbo-160-3",
-    "value": 2703
+    "value": 2705
    },
    {
     "name": "Padre",
-    "value": 2067
+    "value": 2070
    },
    {
     "name": "BiBiCHarBo",
@@ -423,7 +423,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 1515
+    "value": 1516
    },
    {
     "name": "marinadrk",
@@ -443,7 +443,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 875
+    "value": 877
    },
    {
     "name": "Shizuku",
@@ -475,7 +475,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 664
+    "value": 666
    },
    {
     "name": "Proxymore",
@@ -519,7 +519,7 @@
    },
    {
     "name": "flo578",
-    "value": 423
+    "value": 426
    },
    {
     "name": "Fleabag",
@@ -539,7 +539,7 @@
    },
    {
     "name": "girly12",
-    "value": 284
+    "value": 285
    },
    {
     "name": "Richesse",
@@ -613,11 +613,11 @@
   "week": [
    {
     "name": "Padre",
-    "value": 1939
+    "value": 1942
    },
    {
     "name": "habbo-160-3",
-    "value": 822
+    "value": 824
    },
    {
     "name": "apo4020",
@@ -625,7 +625,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 656
+    "value": 658
    },
    {
     "name": "halos34",
@@ -637,7 +637,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 581
+    "value": 582
    },
    {
     "name": "marinadrk",
@@ -649,7 +649,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 482
+    "value": 484
    },
    {
     "name": "Lewddon",
@@ -681,7 +681,7 @@
    },
    {
     "name": "girly12",
-    "value": 284
+    "value": 285
    },
    {
     "name": "dadou07",
@@ -753,7 +753,7 @@
    },
    {
     "name": "flo578",
-    "value": 95
+    "value": 98
    },
    {
     "name": "Benny-knd",
