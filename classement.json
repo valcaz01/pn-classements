@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T14:28:06+00:00",
+ "updated": "2026-11-26T14:30:34+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -152,6 +152,10 @@
     "value": 9
    },
    {
+    "name": "girly12",
+    "value": 8
+   },
+   {
     "name": "LesdixGaga",
     "value": 8
    },
@@ -166,10 +170,6 @@
    {
     "name": "Weavem",
     "value": 8
-   },
-   {
-    "name": "girly12",
-    "value": 7
    },
    {
     "name": "SuzieOuistiti!",
@@ -294,6 +294,10 @@
     "value": 10
    },
    {
+    "name": "girly12",
+    "value": 8
+   },
+   {
     "name": "LorenzoVisconti",
     "value": 8
    },
@@ -307,10 +311,6 @@
    },
    {
     "name": "Astreu",
-    "value": 7
-   },
-   {
-    "name": "girly12",
     "value": 7
    },
    {
@@ -415,7 +415,7 @@
    },
    {
     "name": "Padre",
-    "value": 1781
+    "value": 1784
    },
    {
     "name": "BiBiCHarBo",
@@ -474,16 +474,16 @@
     "value": 636
    },
    {
+    "name": "apo4020",
+    "value": 611
+   },
+   {
     "name": "Proxymore",
-    "value": 610
+    "value": 611
    },
    {
     "name": "charlie-XCX123",
     "value": 609
-   },
-   {
-    "name": "apo4020",
-    "value": 608
    },
    {
     "name": "dadou07",
@@ -613,7 +613,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 1651
+    "value": 1654
    },
    {
     "name": "habbo-160-3",
@@ -625,7 +625,7 @@
    },
    {
     "name": "apo4020",
-    "value": 608
+    "value": 611
    },
    {
     "name": "Pantheon_",
@@ -657,7 +657,7 @@
    },
    {
     "name": "Proxymore",
-    "value": 338
+    "value": 339
    },
    {
     "name": "andrew16a",
