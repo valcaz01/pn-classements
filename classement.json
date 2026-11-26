@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T18:50:36+00:00",
+ "updated": "2026-11-26T18:52:35+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -411,11 +411,11 @@
   "total": [
    {
     "name": "habbo-160-3",
-    "value": 2619
+    "value": 2621
    },
    {
     "name": "Padre",
-    "value": 2016
+    "value": 2018
    },
    {
     "name": "BiBiCHarBo",
@@ -491,7 +491,7 @@
    },
    {
     "name": "tiff34",
-    "value": 579
+    "value": 580
    },
    {
     "name": ".Libellule",
@@ -578,15 +578,15 @@
     "value": 140
    },
    {
+    "name": "Piingouin.",
+    "value": 124
+   },
+   {
     "name": "SuzieOuistiti!",
     "value": 123
    },
    {
     "name": "MagicalArt",
-    "value": 122
-   },
-   {
-    "name": "Piingouin.",
     "value": 122
    },
    {
@@ -599,7 +599,7 @@
    },
    {
     "name": "Seew-",
-    "value": 100
+    "value": 101
    },
    {
     "name": ".:Krustiz:.",
@@ -613,11 +613,11 @@
   "week": [
    {
     "name": "Padre",
-    "value": 1887
+    "value": 1889
    },
    {
     "name": "habbo-160-3",
-    "value": 738
+    "value": 740
    },
    {
     "name": "apo4020",
@@ -637,7 +637,7 @@
    },
    {
     "name": "tiff34",
-    "value": 579
+    "value": 580
    },
    {
     "name": "marinadrk",
@@ -749,7 +749,7 @@
    },
    {
     "name": "Seew-",
-    "value": 100
+    "value": 101
    },
    {
     "name": "flo578",
@@ -776,12 +776,12 @@
     "value": 68
    },
    {
-    "name": "LouunaS",
-    "value": 66
+    "name": "LorenzoVisconti",
+    "value": 67
    },
    {
-    "name": "LorenzoVisconti",
-    "value": 65
+    "name": "LouunaS",
+    "value": 66
    },
    {
     "name": "BiBiCHarBo",
@@ -792,15 +792,15 @@
     "value": 61
    },
    {
+    "name": "Piingouin.",
+    "value": 47
+   },
+   {
     "name": "BOuclette.13",
     "value": 46
    },
    {
     "name": "CovidJr",
-    "value": 45
-   },
-   {
-    "name": "Piingouin.",
     "value": 45
    },
    {
