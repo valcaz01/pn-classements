@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T23:13:22+00:00",
+ "updated": "2026-11-26T23:15:53+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -491,7 +491,7 @@
    },
    {
     "name": "tiff34",
-    "value": 603
+    "value": 605
    },
    {
     "name": ".Libellule",
@@ -507,7 +507,7 @@
    },
    {
     "name": "Hectorr",
-    "value": 491
+    "value": 492
    },
    {
     "name": "Postillon",
@@ -633,7 +633,7 @@
    },
    {
     "name": "tiff34",
-    "value": 603
+    "value": 605
    },
    {
     "name": "Pantheon_",
@@ -665,7 +665,7 @@
    },
    {
     "name": "Hectorr",
-    "value": 341
+    "value": 342
    },
    {
     "name": "Monsieur-RF",
@@ -788,11 +788,11 @@
     "value": 64
    },
    {
-    "name": "Leif",
-    "value": 61
+    "name": "tuesday001",
+    "value": 63
    },
    {
-    "name": "tuesday001",
+    "name": "Leif",
     "value": 61
    },
    {
