@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T05:16:04+00:00",
+ "updated": "2026-11-26T05:18:04+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -439,7 +439,7 @@
    },
    {
     "name": "halos34",
-    "value": 1026
+    "value": 1028
    },
    {
     "name": "Shizuku",
@@ -499,7 +499,7 @@
    },
    {
     "name": "Postillon",
-    "value": 485
+    "value": 487
    },
    {
     "name": "_.Flora._",
@@ -621,7 +621,7 @@
    },
    {
     "name": "halos34",
-    "value": 544
+    "value": 546
    },
    {
     "name": "Pantheon_",
@@ -660,12 +660,12 @@
     "value": 318
    },
    {
-    "name": "Vyp",
-    "value": 307
+    "name": "Postillon",
+    "value": 308
    },
    {
-    "name": "Postillon",
-    "value": 306
+    "name": "Vyp",
+    "value": 307
    },
    {
     "name": "Monsieur-RF",
