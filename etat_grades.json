@@ -4388,11 +4388,11 @@
  },
  "24716028": {
   "alertes": {},
-  "depuis": null,
-  "grade": null,
-  "humeur": "[PN] Recrue",
+  "depuis": "2026-11-25T23:00:00+00:00",
+  "grade": "cadet",
+  "humeur": "[PN] Cadette",
   "pseudo": "Bestsabrina77",
-  "verifie": "2026-11-26T16:36:09+00:00"
+  "verifie": "2026-11-26T18:14:34+00:00"
  },
  "24729750": {
   "alertes": {},
@@ -7269,6 +7269,14 @@
   "humeur": "[PN] Cadet",
   "pseudo": "Imondi",
   "verifie": "2026-11-26T17:57:06+00:00"
+ },
+ "25816741": {
+  "alertes": {},
+  "depuis": null,
+  "grade": null,
+  "humeur": "25 ans c:",
+  "pseudo": "JEANNXE67",
+  "verifie": "2026-11-26T18:14:34+00:00"
  },
  "25827607": {
   "alertes": {},
