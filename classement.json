@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T05:01:06+00:00",
+ "updated": "2026-11-26T05:03:06+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -439,7 +439,7 @@
    },
    {
     "name": "halos34",
-    "value": 1011
+    "value": 1013
    },
    {
     "name": "Shizuku",
@@ -499,7 +499,7 @@
    },
    {
     "name": "Postillon",
-    "value": 470
+    "value": 472
    },
    {
     "name": "_.Flora._",
@@ -620,12 +620,12 @@
     "value": 690
    },
    {
-    "name": "Pantheon_",
-    "value": 530
+    "name": "halos34",
+    "value": 531
    },
    {
-    "name": "halos34",
-    "value": 529
+    "name": "Pantheon_",
+    "value": 530
    },
    {
     "name": "tiff34",
@@ -669,7 +669,7 @@
    },
    {
     "name": "Postillon",
-    "value": 291
+    "value": 293
    },
    {
     "name": "Hectorr",
