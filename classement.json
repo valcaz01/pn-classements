@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T21:07:37+00:00",
+ "updated": "2026-11-26T21:09:36+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -84,6 +84,10 @@
     "value": 24
    },
    {
+    "name": "sami75.19",
+    "value": 24
+   },
+   {
     "name": "habbo22t",
     "value": 23
    },
@@ -93,10 +97,6 @@
    },
    {
     "name": "Postillon",
-    "value": 23
-   },
-   {
-    "name": "sami75.19",
     "value": 23
    },
    {
@@ -411,7 +411,7 @@
   "total": [
    {
     "name": "habbo-160-3",
-    "value": 2749
+    "value": 2751
    },
    {
     "name": "Padre",
@@ -443,7 +443,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 920
+    "value": 922
    },
    {
     "name": "Shizuku",
@@ -467,7 +467,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 694
+    "value": 696
    },
    {
     "name": "Monsieur-RF",
@@ -475,7 +475,7 @@
    },
    {
     "name": "andrew16a",
-    "value": 677
+    "value": 679
    },
    {
     "name": "Proxymore",
@@ -575,7 +575,7 @@
    },
    {
     "name": "Bestsabrina77",
-    "value": 142
+    "value": 143
    },
    {
     "name": "Pepper",
@@ -587,7 +587,7 @@
    },
    {
     "name": "Seew-",
-    "value": 130
+    "value": 131
    },
    {
     "name": "SuzieOuistiti!",
@@ -617,7 +617,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 868
+    "value": 870
    },
    {
     "name": "apo4020",
@@ -625,7 +625,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 701
+    "value": 703
    },
    {
     "name": "halos34",
@@ -641,7 +641,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 512
+    "value": 514
    },
    {
     "name": "Icarem",
@@ -669,7 +669,7 @@
    },
    {
     "name": "andrew16a",
-    "value": 327
+    "value": 329
    },
    {
     "name": "Postillon",
@@ -733,7 +733,7 @@
    },
    {
     "name": "Bestsabrina77",
-    "value": 142
+    "value": 143
    },
    {
     "name": "Pepper",
@@ -741,7 +741,7 @@
    },
    {
     "name": "Seew-",
-    "value": 130
+    "value": 131
    },
    {
     "name": "SuzieOuistiti!",
