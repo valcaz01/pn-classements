@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T00:21:32+00:00",
+ "updated": "2026-11-26T00:23:33+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -176,11 +176,11 @@
     "value": 5
    },
    {
-    "name": "Fleabag",
-    "value": 4
+    "name": "girly12",
+    "value": 5
    },
    {
-    "name": "girly12",
+    "name": "Fleabag",
     "value": 4
    },
    {
@@ -326,15 +326,15 @@
     "value": 5
    },
    {
+    "name": "girly12",
+    "value": 5
+   },
+   {
     "name": "LesdixGaga",
     "value": 5
    },
    {
     "name": ".:Krustiz:.",
-    "value": 4
-   },
-   {
-    "name": "girly12",
     "value": 4
    },
    {
@@ -559,7 +559,7 @@
    },
    {
     "name": "girly12",
-    "value": 155
+    "value": 156
    },
    {
     "name": "---Jayden---",
@@ -709,7 +709,7 @@
    },
    {
     "name": "girly12",
-    "value": 155
+    "value": 156
    },
    {
     "name": "_.Flora._",
@@ -804,11 +804,11 @@
     "value": 32
    },
    {
-    "name": "Lilith_C",
-    "value": 30
+    "name": "Pepper",
+    "value": 32
    },
    {
-    "name": "Pepper",
+    "name": "Lilith_C",
     "value": 30
    }
   ]
