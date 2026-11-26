@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T09:15:34+00:00",
+ "updated": "2026-11-26T09:17:34+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -510,11 +510,11 @@
     "value": 446
    },
    {
-    "name": "Hectorr",
-    "value": 427
+    "name": "Proxymore",
+    "value": 429
    },
    {
-    "name": "Proxymore",
+    "name": "Hectorr",
     "value": 427
    },
    {
@@ -721,7 +721,7 @@
    },
    {
     "name": "Proxymore",
-    "value": 155
+    "value": 157
    },
    {
     "name": "_.Flora._",
