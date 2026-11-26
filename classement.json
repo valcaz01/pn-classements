@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T16:26:05+00:00",
+ "updated": "2026-11-26T16:28:05+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -148,11 +148,11 @@
     "value": 10
    },
    {
-    "name": "marinadrk",
-    "value": 9
+    "name": "toutoune-09",
+    "value": 10
    },
    {
-    "name": "toutoune-09",
+    "name": "marinadrk",
     "value": 9
    },
    {
@@ -302,6 +302,10 @@
     "value": 9
    },
    {
+    "name": "toutoune-09",
+    "value": 9
+   },
+   {
     "name": "girly12",
     "value": 8
    },
@@ -311,10 +315,6 @@
    },
    {
     "name": "Proxymore",
-    "value": 8
-   },
-   {
-    "name": "toutoune-09",
     "value": 8
    },
    {
@@ -415,7 +415,7 @@
    },
    {
     "name": "Padre",
-    "value": 1877
+    "value": 1879
    },
    {
     "name": "BiBiCHarBo",
@@ -423,7 +423,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 1503
+    "value": 1505
    },
    {
     "name": "marinadrk",
@@ -455,7 +455,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 725
+    "value": 727
    },
    {
     "name": "Astreu",
@@ -498,12 +498,12 @@
     "value": 541
    },
    {
-    "name": "habbo22t",
-    "value": 521
+    "name": ".Libellule",
+    "value": 522
    },
    {
-    "name": ".Libellule",
-    "value": 520
+    "name": "habbo22t",
+    "value": 521
    },
    {
     "name": "Postillon",
@@ -595,14 +595,14 @@
    },
    {
     "name": "xX_Reiina_Xx",
-    "value": 90
-   },
-   {
-    "name": "Bestsabrina77",
-    "value": 87
+    "value": 92
    },
    {
     "name": "Pepper",
+    "value": 89
+   },
+   {
+    "name": "Bestsabrina77",
     "value": 87
    },
    {
@@ -613,7 +613,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 1748
+    "value": 1750
    },
    {
     "name": "habbo-160-3",
@@ -629,7 +629,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 569
+    "value": 571
    },
    {
     "name": "tiff34",
@@ -637,7 +637,7 @@
    },
    {
     "name": "-Massimo-",
-    "value": 506
+    "value": 508
    },
    {
     "name": "marinadrk",
@@ -705,7 +705,7 @@
    },
    {
     "name": ".Libellule",
-    "value": 191
+    "value": 193
    },
    {
     "name": "fym",
@@ -736,19 +736,19 @@
     "value": 101
    },
    {
+    "name": "xX_Reiina_Xx",
+    "value": 92
+   },
+   {
     "name": "flo578",
     "value": 91
    },
    {
-    "name": "xX_Reiina_Xx",
-    "value": 90
+    "name": "Pepper",
+    "value": 89
    },
    {
     "name": "Bestsabrina77",
-    "value": 87
-   },
-   {
-    "name": "Pepper",
     "value": 87
    },
    {
