@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T19:08:03+00:00",
+ "updated": "2026-11-26T19:10:33+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -36,11 +36,11 @@
     "value": 48
    },
    {
-    "name": "Lovepanda",
-    "value": 41
+    "name": "Shizuku",
+    "value": 42
    },
    {
-    "name": "Shizuku",
+    "name": "Lovepanda",
     "value": 41
    },
    {
@@ -76,6 +76,10 @@
     "value": 24
    },
    {
+    "name": "apo4020",
+    "value": 24
+   },
+   {
     "name": "Mr.Dino",
     "value": 24
    },
@@ -94,10 +98,6 @@
    {
     "name": "sami75.19",
     "value": 23
-   },
-   {
-    "name": "apo4020",
-    "value": 22
    },
    {
     "name": "_.Flora._",
@@ -227,7 +227,7 @@
    },
    {
     "name": "apo4020",
-    "value": 22
+    "value": 24
    },
    {
     "name": "Pantheon_",
@@ -258,15 +258,15 @@
     "value": 15
    },
    {
+    "name": "Shizuku",
+    "value": 15
+   },
+   {
     "name": "flo578",
     "value": 14
    },
    {
     "name": "Mr.Dino",
-    "value": 14
-   },
-   {
-    "name": "Shizuku",
     "value": 14
    },
    {
@@ -411,11 +411,11 @@
   "total": [
    {
     "name": "habbo-160-3",
-    "value": 2637
+    "value": 2639
    },
    {
     "name": "Padre",
-    "value": 2031
+    "value": 2033
    },
    {
     "name": "BiBiCHarBo",
@@ -511,7 +511,7 @@
    },
    {
     "name": "Hectorr",
-    "value": 481
+    "value": 482
    },
    {
     "name": "_.Flora._",
@@ -571,7 +571,7 @@
    },
    {
     "name": "xX_Reiina_Xx",
-    "value": 150
+    "value": 153
    },
    {
     "name": "Pepper",
@@ -595,7 +595,7 @@
    },
    {
     "name": "Seew-",
-    "value": 105
+    "value": 107
    },
    {
     "name": "Bestsabrina77",
@@ -613,11 +613,11 @@
   "week": [
    {
     "name": "Padre",
-    "value": 1902
+    "value": 1904
    },
    {
     "name": "habbo-160-3",
-    "value": 756
+    "value": 758
    },
    {
     "name": "apo4020",
@@ -665,7 +665,7 @@
    },
    {
     "name": "Hectorr",
-    "value": 331
+    "value": 332
    },
    {
     "name": "andrew16a",
@@ -729,7 +729,7 @@
    },
    {
     "name": "xX_Reiina_Xx",
-    "value": 150
+    "value": 153
    },
    {
     "name": "Pepper",
@@ -741,7 +741,7 @@
    },
    {
     "name": "Seew-",
-    "value": 105
+    "value": 107
    },
    {
     "name": "Bestsabrina77",
