@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T15:54:52+00:00",
+ "updated": "2026-11-27T15:57:22+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -61,7 +61,7 @@
    },
    {
     "name": "apo4020",
-    "value": 32
+    "value": 33
    },
    {
     "name": "andrew16a",
@@ -160,15 +160,15 @@
     "value": 11
    },
    {
+    "name": "Seew-",
+    "value": 10
+   },
+   {
     "name": "Bestsabrina77",
     "value": 9
    },
    {
     "name": "LesdixGaga",
-    "value": 9
-   },
-   {
-    "name": "Seew-",
     "value": 9
    },
    {
@@ -227,7 +227,7 @@
    },
    {
     "name": "apo4020",
-    "value": 32
+    "value": 33
    },
    {
     "name": "halos34",
@@ -306,6 +306,10 @@
     "value": 10
    },
    {
+    "name": "Seew-",
+    "value": 10
+   },
+   {
     "name": "toutoune-09",
     "value": 10
    },
@@ -315,10 +319,6 @@
    },
    {
     "name": "Bestsabrina77",
-    "value": 9
-   },
-   {
-    "name": "Seew-",
     "value": 9
    },
    {
@@ -443,7 +443,7 @@
    },
    {
     "name": "apo4020",
-    "value": 1029
+    "value": 1030
    },
    {
     "name": "-Massimo-",
@@ -471,7 +471,7 @@
    },
    {
     "name": "tiff34",
-    "value": 721
+    "value": 722
    },
    {
     "name": "andrew16a",
@@ -495,7 +495,7 @@
    },
    {
     "name": ".Libellule",
-    "value": 591
+    "value": 593
    },
    {
     "name": "Mi,hermano",
@@ -617,7 +617,7 @@
    },
    {
     "name": "apo4020",
-    "value": 1029
+    "value": 1030
    },
    {
     "name": "habbo-160-3",
@@ -629,7 +629,7 @@
    },
    {
     "name": "tiff34",
-    "value": 721
+    "value": 722
    },
    {
     "name": "marinadrk",
@@ -692,12 +692,12 @@
     "value": 271
    },
    {
-    "name": "Richesse",
+    "name": ".Libellule",
     "value": 264
    },
    {
-    "name": ".Libellule",
-    "value": 262
+    "name": "Richesse",
+    "value": 264
    },
    {
     "name": "Bestsabrina77",
