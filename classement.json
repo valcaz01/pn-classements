@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T16:31:22+00:00",
+ "updated": "2026-11-27T16:33:52+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -49,7 +49,7 @@
    },
    {
     "name": "Astreu",
-    "value": 39
+    "value": 41
    },
    {
     "name": "flo578",
@@ -112,11 +112,11 @@
     "value": 20
    },
    {
-    "name": "irysse",
-    "value": 18
+    "name": "LorenzoVisconti",
+    "value": 19
    },
    {
-    "name": "LorenzoVisconti",
+    "name": "irysse",
     "value": 18
    },
    {
@@ -246,16 +246,16 @@
     "value": 20
    },
    {
+    "name": "LorenzoVisconti",
+    "value": 19
+   },
+   {
     "name": "Lovepanda",
     "value": 19
    },
    {
     "name": "Mr.Dino",
     "value": 19
-   },
-   {
-    "name": "LorenzoVisconti",
-    "value": 18
    },
    {
     "name": "Shizuku",
@@ -298,6 +298,10 @@
     "value": 13
    },
    {
+    "name": "Astreu",
+    "value": 11
+   },
+   {
     "name": "Padre",
     "value": 11
    },
@@ -316,10 +320,6 @@
    {
     "name": "toutoune-09",
     "value": 10
-   },
-   {
-    "name": "Astreu",
-    "value": 9
    },
    {
     "name": "Bestsabrina77",
@@ -415,7 +415,7 @@
    },
    {
     "name": "Padre",
-    "value": 2109
+    "value": 2112
    },
    {
     "name": "BiBiCHarBo",
@@ -491,7 +491,7 @@
    },
    {
     "name": ".Libellule",
-    "value": 620
+    "value": 622
    },
    {
     "name": "charlie-XCX123",
@@ -567,7 +567,7 @@
    },
    {
     "name": "xX_Reiina_Xx",
-    "value": 197
+    "value": 199
    },
    {
     "name": "Seew-",
@@ -613,7 +613,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 1981
+    "value": 1984
    },
    {
     "name": "apo4020",
@@ -685,7 +685,7 @@
    },
    {
     "name": ".Libellule",
-    "value": 291
+    "value": 293
    },
    {
     "name": "dadou07",
@@ -713,7 +713,7 @@
    },
    {
     "name": "xX_Reiina_Xx",
-    "value": 197
+    "value": 199
    },
    {
     "name": "fym",
