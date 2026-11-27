@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T14:56:21+00:00",
+ "updated": "2026-11-27T14:58:21+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -29,7 +29,7 @@
    },
    {
     "name": ".Libellule",
-    "value": 50
+    "value": 51
    },
    {
     "name": "fym",
@@ -242,16 +242,16 @@
     "value": 20
    },
    {
+    "name": ".Libellule",
+    "value": 19
+   },
+   {
     "name": "Lovepanda",
     "value": 19
    },
    {
     "name": "Mr.Dino",
     "value": 19
-   },
-   {
-    "name": ".Libellule",
-    "value": 18
    },
    {
     "name": "LorenzoVisconti",
@@ -411,7 +411,7 @@
   "total": [
    {
     "name": "habbo-160-3",
-    "value": 2803
+    "value": 2805
    },
    {
     "name": "Padre",
@@ -427,7 +427,7 @@
    },
    {
     "name": "marinadrk",
-    "value": 1519
+    "value": 1521
    },
    {
     "name": "fym",
@@ -447,7 +447,7 @@
    },
    {
     "name": "apo4020",
-    "value": 983
+    "value": 984
    },
    {
     "name": "Shizuku",
@@ -479,7 +479,7 @@
    },
    {
     "name": "tiff34",
-    "value": 667
+    "value": 668
    },
    {
     "name": "Proxymore",
@@ -582,12 +582,12 @@
     "value": 173
    },
    {
-    "name": "LorenzoVisconti",
+    "name": "Pepper",
     "value": 151
    },
    {
-    "name": "Pepper",
-    "value": 151
+    "name": "LorenzoVisconti",
+    "value": 149
    },
    {
     "name": "Piingouin.",
@@ -617,11 +617,11 @@
    },
    {
     "name": "apo4020",
-    "value": 983
+    "value": 984
    },
    {
     "name": "habbo-160-3",
-    "value": 922
+    "value": 924
    },
    {
     "name": "-Massimo-",
@@ -629,11 +629,11 @@
    },
    {
     "name": "tiff34",
-    "value": 667
+    "value": 668
    },
    {
     "name": "marinadrk",
-    "value": 617
+    "value": 619
    },
    {
     "name": "halos34",
