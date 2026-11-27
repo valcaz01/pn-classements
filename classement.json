@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T14:38:53+00:00",
+ "updated": "2026-11-27T14:40:52+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -116,15 +116,15 @@
     "value": 18
    },
    {
+    "name": "LorenzoVisconti",
+    "value": 17
+   },
+   {
     "name": "girly12",
     "value": 15
    },
    {
     "name": "Kouukii",
-    "value": 15
-   },
-   {
-    "name": "LorenzoVisconti",
     "value": 15
    },
    {
@@ -254,6 +254,10 @@
     "value": 18
    },
    {
+    "name": "LorenzoVisconti",
+    "value": 17
+   },
+   {
     "name": "Shizuku",
     "value": 17
    },
@@ -275,10 +279,6 @@
    },
    {
     "name": "Kouukii",
-    "value": 15
-   },
-   {
-    "name": "LorenzoVisconti",
     "value": 15
    },
    {
@@ -427,7 +427,7 @@
    },
    {
     "name": "marinadrk",
-    "value": 1502
+    "value": 1504
    },
    {
     "name": "fym",
@@ -447,7 +447,7 @@
    },
    {
     "name": "apo4020",
-    "value": 965
+    "value": 967
    },
    {
     "name": "Shizuku",
@@ -479,7 +479,7 @@
    },
    {
     "name": "tiff34",
-    "value": 649
+    "value": 651
    },
    {
     "name": "Proxymore",
@@ -617,7 +617,7 @@
    },
    {
     "name": "apo4020",
-    "value": 965
+    "value": 967
    },
    {
     "name": "habbo-160-3",
@@ -629,7 +629,7 @@
    },
    {
     "name": "tiff34",
-    "value": 649
+    "value": 651
    },
    {
     "name": "halos34",
@@ -637,7 +637,7 @@
    },
    {
     "name": "marinadrk",
-    "value": 600
+    "value": 602
    },
    {
     "name": "Pantheon_",
