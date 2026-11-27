@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T10:12:52+00:00",
+ "updated": "2026-11-27T10:15:22+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -136,6 +136,10 @@
     "value": 13
    },
    {
+    "name": ".Dylan.",
+    "value": 12
+   },
+   {
     "name": "Padre",
     "value": 12
    },
@@ -146,10 +150,6 @@
    {
     "name": "toutoune-09",
     "value": 11
-   },
-   {
-    "name": ".Dylan.",
-    "value": 10
    },
    {
     "name": "girly12",
@@ -326,6 +326,10 @@
     "value": 8
    },
    {
+    "name": ".Dylan.",
+    "value": 7
+   },
+   {
     "name": "dadou07",
     "value": 7
    },
@@ -344,10 +348,6 @@
    {
     "name": "SuzieOuistiti!",
     "value": 7
-   },
-   {
-    "name": ".Dylan.",
-    "value": 5
    },
    {
     "name": "guest77145",
@@ -447,7 +447,7 @@
    },
    {
     "name": "apo4020",
-    "value": 869
+    "value": 872
    },
    {
     "name": "Shizuku",
@@ -621,7 +621,7 @@
    },
    {
     "name": "apo4020",
-    "value": 869
+    "value": 872
    },
    {
     "name": "-Massimo-",
