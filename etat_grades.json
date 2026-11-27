@@ -13568,11 +13568,11 @@
  },
  "26043571": {
   "alertes": {},
-  "depuis": "2026-11-25T23:00:00+00:00",
-  "grade": "cadet",
-  "humeur": "[PN] Cadette",
+  "depuis": null,
+  "grade": null,
+  "humeur": "",
   "pseudo": "habbo-5c608",
-  "verifie": "2026-11-27T14:47:23+00:00"
+  "verifie": "2026-11-27T16:41:51+00:00"
  },
  "26043572": {
   "alertes": {},
@@ -13812,7 +13812,7 @@
   "grade": null,
   "humeur": "",
   "pseudo": "CoCaCherie",
-  "verifie": "2026-11-27T13:40:23+00:00"
+  "verifie": "2026-11-27T16:41:51+00:00"
  },
  "26043832": {
   "alertes": {},
