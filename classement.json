@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T02:54:53+00:00",
+ "updated": "2026-11-27T02:56:52+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -427,7 +427,7 @@
    },
    {
     "name": "marinadrk",
-    "value": 1424
+    "value": 1426
    },
    {
     "name": "fym",
@@ -590,16 +590,16 @@
     "value": 131
    },
    {
+    "name": "LorenzoVisconti",
+    "value": 123
+   },
+   {
     "name": "SuzieOuistiti!",
     "value": 123
    },
    {
     "name": "MagicalArt",
     "value": 122
-   },
-   {
-    "name": "LorenzoVisconti",
-    "value": 121
    },
    {
     "name": "CharlesWish",
@@ -645,7 +645,7 @@
    },
    {
     "name": "marinadrk",
-    "value": 521
+    "value": 523
    },
    {
     "name": "Icarem",
@@ -744,12 +744,12 @@
     "value": 141
    },
    {
-    "name": "SuzieOuistiti!",
+    "name": "LorenzoVisconti",
     "value": 115
    },
    {
-    "name": "LorenzoVisconti",
-    "value": 113
+    "name": "SuzieOuistiti!",
+    "value": 115
    },
    {
     "name": "flo578",
