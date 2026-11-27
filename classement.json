@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T18:35:52+00:00",
+ "updated": "2026-11-27T18:37:55+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -25,7 +25,7 @@
    },
    {
     "name": ".Libellule",
-    "value": 53
+    "value": 55
    },
    {
     "name": "halos34",
@@ -132,6 +132,10 @@
     "value": 15
    },
    {
+    "name": "dadou07",
+    "value": 14
+   },
+   {
     "name": "guest77145",
     "value": 14
    },
@@ -146,10 +150,6 @@
    {
     "name": "Padre",
     "value": 13
-   },
-   {
-    "name": "dadou07",
-    "value": 12
    },
    {
     "name": "marinadrk",
@@ -239,7 +239,7 @@
    },
    {
     "name": ".Libellule",
-    "value": 21
+    "value": 23
    },
    {
     "name": "Mi,hermano",
@@ -310,6 +310,10 @@
     "value": 10
    },
    {
+    "name": "dadou07",
+    "value": 10
+   },
+   {
     "name": "habbo22t",
     "value": 10
    },
@@ -331,10 +335,6 @@
    },
    {
     "name": "BiBiCHarBo",
-    "value": 8
-   },
-   {
-    "name": "dadou07",
     "value": 8
    },
    {
@@ -419,7 +419,7 @@
    },
    {
     "name": "BiBiCHarBo",
-    "value": 1716
+    "value": 1718
    },
    {
     "name": "Pantheon_",
@@ -543,7 +543,7 @@
    },
    {
     "name": "xX_Reiina_Xx",
-    "value": 267
+    "value": 269
    },
    {
     "name": "Richesse",
@@ -697,7 +697,7 @@
    },
    {
     "name": "xX_Reiina_Xx",
-    "value": 267
+    "value": 269
    },
    {
     "name": "Richesse",
@@ -749,7 +749,7 @@
    },
    {
     "name": "BiBiCHarBo",
-    "value": 115
+    "value": 117
    },
    {
     "name": "SuzieOuistiti!",
@@ -769,7 +769,7 @@
    },
    {
     "name": "tuesday001",
-    "value": 88
+    "value": 90
    },
    {
     "name": "habbo22t",
