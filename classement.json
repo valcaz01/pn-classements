@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T18:08:53+00:00",
+ "updated": "2026-11-27T18:11:23+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -188,11 +188,11 @@
     "value": 6
    },
    {
-    "name": "-Tsukiri-",
-    "value": 5
+    "name": "tuesday001",
+    "value": 6
    },
    {
-    "name": "tuesday001",
+    "name": "-Tsukiri-",
     "value": 5
    },
    {
@@ -354,11 +354,11 @@
     "value": 7
    },
    {
-    "name": "guest77145",
-    "value": 5
+    "name": "tuesday001",
+    "value": 6
    },
    {
-    "name": "tuesday001",
+    "name": "guest77145",
     "value": 5
    },
    {
@@ -419,11 +419,11 @@
    },
    {
     "name": "BiBiCHarBo",
-    "value": 1690
+    "value": 1692
    },
    {
     "name": "Pantheon_",
-    "value": 1527
+    "value": 1529
    },
    {
     "name": "marinadrk",
@@ -641,7 +641,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 593
+    "value": 595
    },
    {
     "name": "Mr.Dino",
@@ -765,7 +765,7 @@
    },
    {
     "name": "BiBiCHarBo",
-    "value": 89
+    "value": 91
    },
    {
     "name": "habbo22t",
@@ -804,11 +804,11 @@
     "value": 54
    },
    {
-    "name": "CovidJr",
-    "value": 45
+    "name": "leMr.IVAR",
+    "value": 48
    },
    {
-    "name": "leMr.IVAR",
+    "name": "CovidJr",
     "value": 45
    }
   ]
