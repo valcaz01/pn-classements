@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T19:02:23+00:00",
+ "updated": "2026-11-27T19:04:23+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -156,15 +156,15 @@
     "value": 11
    },
    {
+    "name": "Seew-",
+    "value": 11
+   },
+   {
     "name": "toutoune-09",
     "value": 11
    },
    {
     "name": "LesdixGaga",
-    "value": 10
-   },
-   {
-    "name": "Seew-",
     "value": 10
    },
    {
@@ -306,6 +306,10 @@
     "value": 11
    },
    {
+    "name": "Seew-",
+    "value": 11
+   },
+   {
     "name": "_.Flora._",
     "value": 10
    },
@@ -315,10 +319,6 @@
    },
    {
     "name": "habbo22t",
-    "value": 10
-   },
-   {
-    "name": "Seew-",
     "value": 10
    },
    {
@@ -415,11 +415,11 @@
    },
    {
     "name": "Padre",
-    "value": 2156
+    "value": 2157
    },
    {
     "name": "BiBiCHarBo",
-    "value": 1743
+    "value": 1745
    },
    {
     "name": "Pantheon_",
@@ -439,7 +439,7 @@
    },
    {
     "name": "halos34",
-    "value": 1097
+    "value": 1098
    },
    {
     "name": "apo4020",
@@ -613,7 +613,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 2028
+    "value": 2029
    },
    {
     "name": "apo4020",
@@ -637,7 +637,7 @@
    },
    {
     "name": "halos34",
-    "value": 615
+    "value": 616
    },
    {
     "name": "Pantheon_",
@@ -749,7 +749,7 @@
    },
    {
     "name": "BiBiCHarBo",
-    "value": 142
+    "value": 144
    },
    {
     "name": "SuzieOuistiti!",
