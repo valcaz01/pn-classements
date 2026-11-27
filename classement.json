@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T13:55:53+00:00",
+ "updated": "2026-11-27T13:58:22+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -172,12 +172,12 @@
     "value": 8
    },
    {
-    "name": "Weavem",
+    "name": "Seew-",
     "value": 8
    },
    {
-    "name": "Seew-",
-    "value": 7
+    "name": "Weavem",
+    "value": 8
    },
    {
     "name": "SuzieOuistiti!",
@@ -330,6 +330,10 @@
     "value": 8
    },
    {
+    "name": "Seew-",
+    "value": 8
+   },
+   {
     "name": "dadou07",
     "value": 7
    },
@@ -339,10 +343,6 @@
    },
    {
     "name": "Piingouin.",
-    "value": 7
-   },
-   {
-    "name": "Seew-",
     "value": 7
    },
    {
@@ -427,7 +427,7 @@
    },
    {
     "name": "marinadrk",
-    "value": 1462
+    "value": 1464
    },
    {
     "name": "fym",
@@ -645,7 +645,7 @@
    },
    {
     "name": "marinadrk",
-    "value": 560
+    "value": 562
    },
    {
     "name": "Icarem",
