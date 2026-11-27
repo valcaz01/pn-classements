@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T13:44:24+00:00",
+ "updated": "2026-11-27T13:47:22+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -184,11 +184,11 @@
     "value": 7
    },
    {
-    "name": "-Tsukiri-",
-    "value": 5
+    "name": "Hectorr",
+    "value": 6
    },
    {
-    "name": "Hectorr",
+    "name": "-Tsukiri-",
     "value": 5
    },
    {
@@ -370,6 +370,10 @@
     "value": 4
    },
    {
+    "name": "Hectorr",
+    "value": 4
+   },
+   {
     "name": "MrDrMathieu1990",
     "value": 4
    },
@@ -380,10 +384,6 @@
    {
     "name": "xX_Reiina_Xx",
     "value": 4
-   },
-   {
-    "name": "Hectorr",
-    "value": 3
    },
    {
     "name": "Leif",
@@ -427,7 +427,7 @@
    },
    {
     "name": "marinadrk",
-    "value": 1452
+    "value": 1453
    },
    {
     "name": "fym",
@@ -435,7 +435,7 @@
    },
    {
     "name": "Icarem",
-    "value": 1250
+    "value": 1251
    },
    {
     "name": "halos34",
@@ -523,7 +523,7 @@
    },
    {
     "name": "girly12",
-    "value": 338
+    "value": 340
    },
    {
     "name": "Fleabag",
@@ -645,11 +645,11 @@
    },
    {
     "name": "Icarem",
-    "value": 558
+    "value": 559
    },
    {
     "name": "marinadrk",
-    "value": 550
+    "value": 551
    },
    {
     "name": "Monsieur-RF",
@@ -673,7 +673,7 @@
    },
    {
     "name": "girly12",
-    "value": 338
+    "value": 340
    },
    {
     "name": "Postillon",
