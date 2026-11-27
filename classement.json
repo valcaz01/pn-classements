@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T16:59:53+00:00",
+ "updated": "2026-11-27T17:02:23+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -415,7 +415,7 @@
    },
    {
     "name": "Padre",
-    "value": 2128
+    "value": 2130
    },
    {
     "name": "BiBiCHarBo",
@@ -483,7 +483,7 @@
    },
    {
     "name": "dadou07",
-    "value": 645
+    "value": 647
    },
    {
     "name": "Proxymore",
@@ -613,7 +613,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 2000
+    "value": 2002
    },
    {
     "name": "apo4020",
@@ -684,11 +684,11 @@
     "value": 307
    },
    {
-    "name": ".Libellule",
-    "value": 293
+    "name": "dadou07",
+    "value": 295
    },
    {
-    "name": "dadou07",
+    "name": ".Libellule",
     "value": 293
    },
    {
