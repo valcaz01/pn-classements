@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T01:59:23+00:00",
+ "updated": "2026-11-27T02:01:53+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -120,6 +120,10 @@
     "value": 15
    },
    {
+    "name": "LorenzoVisconti",
+    "value": 15
+   },
+   {
     "name": "guest77145",
     "value": 14
    },
@@ -129,10 +133,6 @@
    },
    {
     "name": "---Jayden---",
-    "value": 13
-   },
-   {
-    "name": "LorenzoVisconti",
     "value": 13
    },
    {
@@ -274,15 +274,15 @@
     "value": 15
    },
    {
+    "name": "LorenzoVisconti",
+    "value": 15
+   },
+   {
     "name": "Postillon",
     "value": 15
    },
    {
     "name": "---Jayden---",
-    "value": 13
-   },
-   {
-    "name": "LorenzoVisconti",
     "value": 13
    },
    {
@@ -547,7 +547,7 @@
    },
    {
     "name": "Bestsabrina77",
-    "value": 250
+    "value": 252
    },
    {
     "name": "sami75.19",
@@ -697,7 +697,7 @@
    },
    {
     "name": "Bestsabrina77",
-    "value": 250
+    "value": 252
    },
    {
     "name": "Shizuku",
@@ -769,7 +769,7 @@
    },
    {
     "name": "LorenzoVisconti",
-    "value": 71
+    "value": 72
    },
    {
     "name": "tuesday001",
