@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T16:09:52+00:00",
+ "updated": "2026-11-27T16:12:22+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -9,7 +9,7 @@
    },
    {
     "name": "pevanq640",
-    "value": 81
+    "value": 83
    },
    {
     "name": "charlie-XCX123",
@@ -80,6 +80,10 @@
     "value": 28
    },
    {
+    "name": "habbo22t",
+    "value": 25
+   },
+   {
     "name": ".:Krustiz:.",
     "value": 24
    },
@@ -90,10 +94,6 @@
    {
     "name": "sami75.19",
     "value": 24
-   },
-   {
-    "name": "habbo22t",
-    "value": 23
    },
    {
     "name": "Postillon",
@@ -109,7 +109,7 @@
    },
    {
     "name": "gotica",
-    "value": 19
+    "value": 20
    },
    {
     "name": "irysse",
@@ -207,7 +207,7 @@
   "week": [
    {
     "name": "pevanq640",
-    "value": 47
+    "value": 49
    },
    {
     "name": "habbo-160-3",
@@ -295,10 +295,14 @@
    },
    {
     "name": "gotica",
-    "value": 12
+    "value": 13
    },
    {
     "name": "_.Flora._",
+    "value": 10
+   },
+   {
+    "name": "habbo22t",
     "value": 10
    },
    {
@@ -323,10 +327,6 @@
    },
    {
     "name": ".Dylan.",
-    "value": 8
-   },
-   {
-    "name": "habbo22t",
     "value": 8
    },
    {
@@ -495,7 +495,7 @@
    },
    {
     "name": ".Libellule",
-    "value": 606
+    "value": 608
    },
    {
     "name": "Mi,hermano",
@@ -684,12 +684,12 @@
     "value": 307
    },
    {
-    "name": "dadou07",
-    "value": 278
+    "name": ".Libellule",
+    "value": 279
    },
    {
-    "name": ".Libellule",
-    "value": 277
+    "name": "dadou07",
+    "value": 278
    },
    {
     "name": "Lovepanda",
