@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T17:33:24+00:00",
+ "updated": "2026-11-27T17:35:23+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -21,7 +21,7 @@
    },
    {
     "name": "BiBiCHarBo",
-    "value": 66
+    "value": 68
    },
    {
     "name": ".Libellule",
@@ -350,6 +350,10 @@
     "value": 7
    },
    {
+    "name": "BiBiCHarBo",
+    "value": 6
+   },
+   {
     "name": "guest77145",
     "value": 5
    },
@@ -367,10 +371,6 @@
    },
    {
     "name": ".:Krustiz:.",
-    "value": 4
-   },
-   {
-    "name": "BiBiCHarBo",
     "value": 4
    },
    {
@@ -415,7 +415,7 @@
    },
    {
     "name": "Padre",
-    "value": 2144
+    "value": 2146
    },
    {
     "name": "BiBiCHarBo",
@@ -567,11 +567,11 @@
    },
    {
     "name": "xX_Reiina_Xx",
-    "value": 222
+    "value": 224
    },
    {
     "name": "Seew-",
-    "value": 187
+    "value": 188
    },
    {
     "name": "irysse",
@@ -579,7 +579,7 @@
    },
    {
     "name": "---Jayden---",
-    "value": 174
+    "value": 176
    },
    {
     "name": "Pepper",
@@ -613,7 +613,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 2016
+    "value": 2018
    },
    {
     "name": "apo4020",
@@ -713,11 +713,11 @@
    },
    {
     "name": "xX_Reiina_Xx",
-    "value": 222
+    "value": 224
    },
    {
     "name": "Seew-",
-    "value": 187
+    "value": 188
    },
    {
     "name": "fym",
@@ -729,7 +729,7 @@
    },
    {
     "name": "---Jayden---",
-    "value": 174
+    "value": 176
    },
    {
     "name": "charlie-XCX123",
