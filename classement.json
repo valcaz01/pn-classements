@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T02:18:53+00:00",
+ "updated": "2026-11-27T02:20:53+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -606,8 +606,8 @@
     "value": 99
    },
    {
-    "name": "Benny-knd",
-    "value": 98
+    "name": "LorenzoVisconti",
+    "value": 99
    }
   ],
   "week": [
@@ -761,7 +761,7 @@
    },
    {
     "name": "LorenzoVisconti",
-    "value": 89
+    "value": 90
    },
    {
     "name": "Astreu",
