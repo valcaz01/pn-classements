@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T18:18:25+00:00",
+ "updated": "2026-11-27T18:20:23+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -176,6 +176,10 @@
     "value": 8
    },
    {
+    "name": "tuesday001",
+    "value": 8
+   },
+   {
     "name": "Weavem",
     "value": 8
    },
@@ -185,10 +189,6 @@
    },
    {
     "name": "Hectorr",
-    "value": 6
-   },
-   {
-    "name": "tuesday001",
     "value": 6
    },
    {
@@ -342,6 +342,10 @@
     "value": 8
    },
    {
+    "name": "tuesday001",
+    "value": 8
+   },
+   {
     "name": "LesdixGaga",
     "value": 7
    },
@@ -352,10 +356,6 @@
    {
     "name": "SuzieOuistiti!",
     "value": 7
-   },
-   {
-    "name": "tuesday001",
-    "value": 6
    },
    {
     "name": "guest77145",
@@ -419,11 +419,11 @@
    },
    {
     "name": "BiBiCHarBo",
-    "value": 1699
+    "value": 1701
    },
    {
     "name": "Pantheon_",
-    "value": 1535
+    "value": 1537
    },
    {
     "name": "marinadrk",
@@ -546,11 +546,11 @@
     "value": 266
    },
    {
-    "name": "Bestsabrina77",
-    "value": 252
+    "name": "xX_Reiina_Xx",
+    "value": 253
    },
    {
-    "name": "xX_Reiina_Xx",
+    "name": "Bestsabrina77",
     "value": 252
    },
    {
@@ -583,7 +583,7 @@
    },
    {
     "name": "LorenzoVisconti",
-    "value": 154
+    "value": 156
    },
    {
     "name": "Pepper",
@@ -641,7 +641,7 @@
    },
    {
     "name": "Pantheon_",
-    "value": 601
+    "value": 603
    },
    {
     "name": "Mr.Dino",
@@ -700,11 +700,11 @@
     "value": 266
    },
    {
-    "name": "Bestsabrina77",
-    "value": 252
+    "name": "xX_Reiina_Xx",
+    "value": 253
    },
    {
-    "name": "xX_Reiina_Xx",
+    "name": "Bestsabrina77",
     "value": 252
    },
    {
@@ -745,7 +745,7 @@
    },
    {
     "name": "LorenzoVisconti",
-    "value": 148
+    "value": 150
    },
    {
     "name": "SuzieOuistiti!",
@@ -760,11 +760,11 @@
     "value": 101
    },
    {
-    "name": "Benny-knd",
-    "value": 98
+    "name": "BiBiCHarBo",
+    "value": 100
    },
    {
-    "name": "BiBiCHarBo",
+    "name": "Benny-knd",
     "value": 98
    },
    {
