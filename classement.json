@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T13:34:22+00:00",
+ "updated": "2026-11-27T13:36:23+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -140,15 +140,15 @@
     "value": 13
    },
    {
+    "name": "girly12",
+    "value": 12
+   },
+   {
     "name": "Padre",
     "value": 12
    },
    {
     "name": "dadou07",
-    "value": 11
-   },
-   {
-    "name": "girly12",
     "value": 11
    },
    {
@@ -290,12 +290,12 @@
     "value": 13
    },
    {
-    "name": "gotica",
+    "name": "girly12",
     "value": 12
    },
    {
-    "name": "girly12",
-    "value": 11
+    "name": "gotica",
+    "value": 12
    },
    {
     "name": "_.Flora._",
@@ -427,7 +427,7 @@
    },
    {
     "name": "marinadrk",
-    "value": 1443
+    "value": 1445
    },
    {
     "name": "fym",
@@ -507,7 +507,7 @@
    },
    {
     "name": "Hectorr",
-    "value": 518
+    "value": 520
    },
    {
     "name": "Postillon",
@@ -649,7 +649,7 @@
    },
    {
     "name": "marinadrk",
-    "value": 541
+    "value": 543
    },
    {
     "name": "Monsieur-RF",
@@ -661,7 +661,7 @@
    },
    {
     "name": "Hectorr",
-    "value": 368
+    "value": 370
    },
    {
     "name": "Proxymore",
