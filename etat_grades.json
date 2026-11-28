@@ -4014,11 +4014,21 @@
   "alertes": {
    "cadet": "2026-11-27T23:01:25+00:00"
   },
-  "depuis": "2026-11-25T23:00:00+00:00",
-  "grade": "cadet",
-  "humeur": "[PN] Cadet",
+  "badge": {
+   "cadet": {
+    "habbo": "Monsieur-RF",
+    "habbo_id": "25181624",
+    "le": "2026-11-28T10:12:49+01:00",
+    "par": "Monsieur-RF",
+    "par_id": "552202342913802240",
+    "xp": true
+   }
+  },
+  "depuis": "2026-11-28T09:12:23+00:00",
+  "grade": "pa",
+  "humeur": "[PN] Policier adjoint",
   "pseudo": "Seew-",
-  "verifie": "2026-11-28T07:05:54+00:00"
+  "verifie": "2026-11-28T09:12:23+00:00"
  },
  "24352785": {
   "alertes": {},
