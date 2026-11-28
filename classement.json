@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T01:45:24+00:00",
+ "updated": "2026-11-28T01:47:24+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -133,7 +133,7 @@
    },
    {
     "name": "girly12",
-    "value": 16
+    "value": 17
    },
    {
     "name": "Padre",
@@ -278,11 +278,11 @@
     "value": 17
    },
    {
-    "name": "fym",
-    "value": 16
+    "name": "girly12",
+    "value": 17
    },
    {
-    "name": "girly12",
+    "name": "fym",
     "value": 16
    },
    {
@@ -415,7 +415,7 @@
    },
    {
     "name": "Padre",
-    "value": 2452
+    "value": 2454
    },
    {
     "name": "BiBiCHarBo",
@@ -587,7 +587,7 @@
    },
    {
     "name": "LorenzoVisconti",
-    "value": 172
+    "value": 174
    },
    {
     "name": "Piingouin.",
@@ -613,7 +613,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 2324
+    "value": 2326
    },
    {
     "name": "apo4020",
@@ -741,7 +741,7 @@
    },
    {
     "name": "LorenzoVisconti",
-    "value": 167
+    "value": 169
    },
    {
     "name": "_.Flora._",
