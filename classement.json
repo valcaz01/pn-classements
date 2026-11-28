@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T01:19:54+00:00",
+ "updated": "2026-11-28T01:21:53+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -112,15 +112,15 @@
     "value": 20
    },
    {
-    "name": "LorenzoVisconti",
-    "value": 20
-   },
-   {
     "name": "irysse",
     "value": 18
    },
    {
     "name": "Kouukii",
+    "value": 18
+   },
+   {
+    "name": "LorenzoVisconti",
     "value": 18
    },
    {
@@ -258,10 +258,6 @@
     "value": 20
    },
    {
-    "name": "LorenzoVisconti",
-    "value": 20
-   },
-   {
     "name": "Mi,hermano",
     "value": 20
    },
@@ -271,6 +267,10 @@
    },
    {
     "name": "Kouukii",
+    "value": 18
+   },
+   {
+    "name": "LorenzoVisconti",
     "value": 18
    },
    {
@@ -411,11 +411,11 @@
   "total": [
    {
     "name": "habbo-160-3",
-    "value": 2903
+    "value": 2905
    },
    {
     "name": "Padre",
-    "value": 2426
+    "value": 2428
    },
    {
     "name": "BiBiCHarBo",
@@ -587,7 +587,7 @@
    },
    {
     "name": "LorenzoVisconti",
-    "value": 173
+    "value": 172
    },
    {
     "name": "Piingouin.",
@@ -613,7 +613,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 2298
+    "value": 2300
    },
    {
     "name": "apo4020",
@@ -621,7 +621,7 @@
    },
    {
     "name": "habbo-160-3",
-    "value": 1022
+    "value": 1024
    },
    {
     "name": "-Massimo-",
