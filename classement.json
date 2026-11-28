@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T10:05:55+00:00",
+ "updated": "2026-11-28T10:07:53+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -120,6 +120,10 @@
     "value": 19
    },
    {
+    "name": "girly12",
+    "value": 18
+   },
+   {
     "name": "irysse",
     "value": 18
    },
@@ -129,10 +133,6 @@
    },
    {
     "name": "---Jayden---",
-    "value": 17
-   },
-   {
-    "name": "girly12",
     "value": 17
    },
    {
@@ -270,15 +270,15 @@
     "value": 18
    },
    {
+    "name": "girly12",
+    "value": 18
+   },
+   {
     "name": "LorenzoVisconti",
     "value": 18
    },
    {
     "name": "---Jayden---",
-    "value": 17
-   },
-   {
-    "name": "girly12",
     "value": 17
    },
    {
@@ -455,11 +455,11 @@
    },
    {
     "name": "dadou07",
-    "value": 891
+    "value": 892
    },
    {
     "name": "Mr.Dino",
-    "value": 840
+    "value": 842
    },
    {
     "name": "Lovepanda",
@@ -637,7 +637,7 @@
    },
    {
     "name": "Mr.Dino",
-    "value": 658
+    "value": 660
    },
    {
     "name": "marinadrk",
@@ -653,7 +653,7 @@
    },
    {
     "name": "dadou07",
-    "value": 539
+    "value": 540
    },
    {
     "name": "girly12",
