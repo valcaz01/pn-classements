@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T07:28:23+00:00",
+ "updated": "2026-11-28T07:30:27+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -116,6 +116,10 @@
     "value": 20
    },
    {
+    "name": "dadou07",
+    "value": 19
+   },
+   {
     "name": "irysse",
     "value": 18
    },
@@ -125,10 +129,6 @@
    },
    {
     "name": "---Jayden---",
-    "value": 17
-   },
-   {
-    "name": "dadou07",
     "value": 17
    },
    {
@@ -286,6 +286,10 @@
     "value": 16
    },
    {
+    "name": "dadou07",
+    "value": 15
+   },
+   {
     "name": "Postillon",
     "value": 15
    },
@@ -296,10 +300,6 @@
    {
     "name": "Padre",
     "value": 14
-   },
-   {
-    "name": "dadou07",
-    "value": 13
    },
    {
     "name": "gotica",
@@ -543,7 +543,7 @@
    },
    {
     "name": "Kouukii",
-    "value": 274
+    "value": 276
    },
    {
     "name": "xX_Reiina_Xx",
@@ -701,7 +701,7 @@
    },
    {
     "name": "Kouukii",
-    "value": 274
+    "value": 276
    },
    {
     "name": "xX_Reiina_Xx",
