@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T01:53:54+00:00",
+ "updated": "2026-11-28T01:55:54+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -32,11 +32,11 @@
     "value": 53
    },
    {
-    "name": "fym",
-    "value": 50
+    "name": "Shizuku",
+    "value": 51
    },
    {
-    "name": "Shizuku",
+    "name": "fym",
     "value": 50
    },
    {
@@ -112,11 +112,11 @@
     "value": 20
    },
    {
-    "name": "irysse",
-    "value": 18
+    "name": "Kouukii",
+    "value": 19
    },
    {
-    "name": "Kouukii",
+    "name": "irysse",
     "value": 18
    },
    {
@@ -243,7 +243,7 @@
    },
    {
     "name": "Shizuku",
-    "value": 23
+    "value": 24
    },
    {
     "name": "Lovepanda",
@@ -262,11 +262,11 @@
     "value": 20
    },
    {
-    "name": "flo578",
-    "value": 18
+    "name": "Kouukii",
+    "value": 19
    },
    {
-    "name": "Kouukii",
+    "name": "flo578",
     "value": 18
    },
    {
@@ -415,7 +415,7 @@
    },
    {
     "name": "Padre",
-    "value": 2460
+    "value": 2462
    },
    {
     "name": "BiBiCHarBo",
@@ -578,11 +578,11 @@
     "value": 217
    },
    {
-    "name": "irysse",
-    "value": 181
+    "name": "LorenzoVisconti",
+    "value": 183
    },
    {
-    "name": "LorenzoVisconti",
+    "name": "irysse",
     "value": 181
    },
    {
@@ -613,7 +613,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 2332
+    "value": 2334
    },
    {
     "name": "apo4020",
@@ -737,7 +737,7 @@
    },
    {
     "name": "LorenzoVisconti",
-    "value": 176
+    "value": 178
    },
    {
     "name": "charlie-XCX123",
