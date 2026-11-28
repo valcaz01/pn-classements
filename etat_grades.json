@@ -7883,7 +7883,9 @@
   "verifie": "2026-11-28T03:36:25+00:00"
  },
  "25812129": {
-  "alertes": {},
+  "alertes": {
+   "cadet": "2026-11-28T03:40:56+00:00"
+  },
   "depuis": "2026-11-21T23:00:00+00:00",
   "grade": "cadet",
   "humeur": "[PN] Cadet",
@@ -8188,7 +8190,7 @@
   "grade": null,
   "humeur": "",
   "pseudo": "Suncatlov",
-  "verifie": "2026-11-28T00:40:25+00:00"
+  "verifie": "2026-11-28T03:40:56+00:00"
  },
  "25868943": {
   "alertes": {},
@@ -12184,7 +12186,7 @@
   "grade": null,
   "humeur": "[C.I.A.] Référent",
   "pseudo": "FantHomme",
-  "verifie": "2026-11-28T00:40:25+00:00"
+  "verifie": "2026-11-28T03:40:56+00:00"
  },
  "26039336": {
   "alertes": {},
