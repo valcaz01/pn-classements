@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T01:55:54+00:00",
+ "updated": "2026-11-28T01:58:23+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -113,7 +113,7 @@
    },
    {
     "name": "Kouukii",
-    "value": 19
+    "value": 20
    },
    {
     "name": "irysse",
@@ -258,12 +258,12 @@
     "value": 20
    },
    {
-    "name": "Mi,hermano",
+    "name": "Kouukii",
     "value": 20
    },
    {
-    "name": "Kouukii",
-    "value": 19
+    "name": "Mi,hermano",
+    "value": 20
    },
    {
     "name": "flo578",
@@ -415,7 +415,7 @@
    },
    {
     "name": "Padre",
-    "value": 2462
+    "value": 2465
    },
    {
     "name": "BiBiCHarBo",
@@ -515,7 +515,7 @@
    },
    {
     "name": "girly12",
-    "value": 457
+    "value": 459
    },
    {
     "name": "_.Flora._",
@@ -579,7 +579,7 @@
    },
    {
     "name": "LorenzoVisconti",
-    "value": 183
+    "value": 185
    },
    {
     "name": "irysse",
@@ -613,7 +613,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 2334
+    "value": 2337
    },
    {
     "name": "apo4020",
@@ -653,7 +653,7 @@
    },
    {
     "name": "girly12",
-    "value": 457
+    "value": 459
    },
    {
     "name": "dadou07",
@@ -728,16 +728,16 @@
     "value": 184
    },
    {
+    "name": "LorenzoVisconti",
+    "value": 180
+   },
+   {
     "name": "Mi,hermano",
     "value": 179
    },
    {
     "name": "Pepper",
     "value": 179
-   },
-   {
-    "name": "LorenzoVisconti",
-    "value": 178
    },
    {
     "name": "charlie-XCX123",
