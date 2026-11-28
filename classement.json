@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T14:06:54+00:00",
+ "updated": "2026-11-28T14:08:53+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -68,11 +68,11 @@
     "value": 35
    },
    {
-    "name": "Mr.Dino",
-    "value": 32
+    "name": "Proxymore",
+    "value": 33
    },
    {
-    "name": "Proxymore",
+    "name": "Mr.Dino",
     "value": 32
    },
    {
@@ -306,6 +306,10 @@
     "value": 14
    },
    {
+    "name": "Proxymore",
+    "value": 13
+   },
+   {
     "name": "Seew-",
     "value": 13
    },
@@ -319,10 +323,6 @@
    },
    {
     "name": "habbo22t",
-    "value": 12
-   },
-   {
-    "name": "Proxymore",
     "value": 12
    },
    {
