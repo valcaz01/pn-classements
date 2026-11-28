@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T14:04:23+00:00",
+ "updated": "2026-11-28T14:06:54+00:00",
  "week_start": "2026-11-23",
  "xp": {
   "total": [
@@ -72,11 +72,11 @@
     "value": 32
    },
    {
-    "name": ".:Krustiz:.",
-    "value": 29
+    "name": "Proxymore",
+    "value": 32
    },
    {
-    "name": "Proxymore",
+    "name": ".:Krustiz:.",
     "value": 29
    },
    {
@@ -137,7 +137,7 @@
    },
    {
     "name": "Padre",
-    "value": 16
+    "value": 17
    },
    {
     "name": "guest77145",
@@ -294,15 +294,15 @@
     "value": 15
    },
    {
+    "name": "Padre",
+    "value": 15
+   },
+   {
     "name": "Postillon",
     "value": 15
    },
    {
     "name": "gotica",
-    "value": 14
-   },
-   {
-    "name": "Padre",
     "value": 14
    },
    {
@@ -322,6 +322,10 @@
     "value": 12
    },
    {
+    "name": "Proxymore",
+    "value": 12
+   },
+   {
     "name": "_.Flora._",
     "value": 10
    },
@@ -331,10 +335,6 @@
    },
    {
     "name": ".:Krustiz:.",
-    "value": 9
-   },
-   {
-    "name": "Proxymore",
     "value": 9
    },
    {
@@ -415,7 +415,7 @@
    },
    {
     "name": "Padre",
-    "value": 2626
+    "value": 2627
    },
    {
     "name": "BiBiCHarBo",
@@ -613,7 +613,7 @@
   "week": [
    {
     "name": "Padre",
-    "value": 2498
+    "value": 2499
    },
    {
     "name": "apo4020",
